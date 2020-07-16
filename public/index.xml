@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justin Nix</title>
-    <link>/</link>
+    <link>https://jnix.netlify.app/</link>
     <description>Recent content on Justin Nix</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jnix.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Example Page 1</title>
-      <link>/courses/example/example1/</link>
+      <link>https://jnix.netlify.app/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>/courses/example/example1/</guid>
+      <guid>https://jnix.netlify.app/courses/example/example1/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -49,10 +49,10 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
+      <link>https://jnix.netlify.app/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>/courses/example/example2/</guid>
+      <guid>https://jnix.netlify.app/courses/example/example2/</guid>
       <description>
 
 &lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
@@ -85,10 +85,10 @@
     
     <item>
       <title>Gun victimization in the line of duty: Fatal and non-fatal firearm assaults on police officers in the United States, 2014-2019</title>
-      <link>/publication/33-cpp-gva/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://jnix.netlify.app/publication/33-cpp-gva/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/33-cpp-gva/</guid>
+      <guid>https://jnix.netlify.app/publication/33-cpp-gva/</guid>
       <description>&lt;hr /&gt;
 
 &lt;p&gt;Replication files are available at the top of this page. All analyses were performed in Stata v15.1. For Figure 4, you will need to install Michael Stepner&amp;rsquo;s &lt;a href=&#34;https://michaelstepner.com/maptile/&#34; target=&#34;_blank&#34;&gt;maptile and spmap&lt;/a&gt; commands.&lt;/p&gt;
@@ -97,28 +97,28 @@
     
     <item>
       <title>Procedural Justice in Policing</title>
-      <link>/publication/chapter-pj-critical_issues/</link>
+      <link>https://jnix.netlify.app/publication/chapter-pj-critical_issues/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/chapter-pj-critical_issues/</guid>
+      <guid>https://jnix.netlify.app/publication/chapter-pj-critical_issues/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Defunding or disbanding the police is a dangerous idea if done hastily</title>
-      <link>/publication/32-wapo-defunding-oped/</link>
+      <link>https://jnix.netlify.app/publication/32-wapo-defunding-oped/</link>
       <pubDate>Thu, 18 Jun 2020 10:52:00 +0000</pubDate>
       
-      <guid>/publication/32-wapo-defunding-oped/</guid>
+      <guid>https://jnix.netlify.app/publication/32-wapo-defunding-oped/</guid>
       <description></description>
     </item>
     
     <item>
       <title>No Significant Decline in NYC Shootings Amidst COVID-19 Pandemic</title>
-      <link>/post/post11-nyc-covid-shootings/</link>
+      <link>https://jnix.netlify.app/post/post11-nyc-covid-shootings/</link>
       <pubDate>Wed, 03 Jun 2020 09:30:00 +0000</pubDate>
       
-      <guid>/post/post11-nyc-covid-shootings/</guid>
+      <guid>https://jnix.netlify.app/post/post11-nyc-covid-shootings/</guid>
       <description>&lt;p&gt;On March 1, 2020, New York City reported its first confirmed case of COVID-19. Eleven days later, Mayor de Blasio declared a state of emergency. By mid-March, the most populous city in America had essentially shut down. Schools, libraries, gyms, theaters, churches and nightclubs closed. Major sporting events and concerts were cancelled. Restaurants were limited to take-out and delivery only. Non-essential gatherings of any size were prohibited, and New Yorkers were ordered to “shelter in place.” As of today, the city is reporting over 205,000 confirmed cases and over 16,000 deaths.&lt;/p&gt;
 
 &lt;p&gt;How have these significant disruptions to daily life in NYC affected crime, and in particular, &lt;strong&gt;shootings&lt;/strong&gt;? Other cities have witnessed an array of trends in &lt;strong&gt;gun violence&lt;/strong&gt; (i.e., crimes committed with a firearm) amidst the COVID-19 pandemic. In Dallas and Tucson, for example, gun violence increased despite decreases in other violent crimes. In Nashville and Philadelphia, gun violence remained stable. Meanwhile, in other cities – including Baltimore, Chicago, Los Angeles, New Orleans, and Washington, DC – gun violence decreased.&lt;sup&gt;[1]&lt;/sup&gt; Here in Omaha, the local police department reports that shootings and “shots fired” calls have increased.&lt;sup&gt;[2]&lt;/sup&gt;&lt;/p&gt;
@@ -127,11 +127,11 @@
 
 &lt;p&gt;Curious about what happened in NYC, I teamed up with NIJ LEADS Scholar John Hall (NYPD) and fellow LEADS Academic &lt;a href=&#34;https://twitter.com/Clempoliceprof&#34; target=&#34;_blank&#34;&gt;Kyle McLean&lt;/a&gt; (Clemson University). First, we simply examined trends in shootings in 2020. There had been 341 shootings as of June 2nd, with the daily total ranging from 0 to 9 with a mean of 2.2:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/nyc_shootings_1.png&#34; alt=&#34;NYC1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/nyc_shootings_1.png&#34; alt=&#34;NYC1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The daily total bounces around so much that it’s difficult to draw any conclusions about the trend. So, we next smoothed out some of the noise by plotting the 7-day running mean:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/nyc_shootings_2.png&#34; alt=&#34;NYC2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/nyc_shootings_2.png&#34; alt=&#34;NYC2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It looks like there was a brief uptick following the first reported COVID-19 case, then a brief decline following the state of emergency declaration, and an upward trend throughout April and May.&lt;/p&gt;
 
@@ -139,7 +139,7 @@
 
 &lt;p&gt;With this in mind, we next examined trends in shootings from January 1, 2016 through June 2, 2020. In the graph below, we’ve imposed the 2020 trend line (as of June 2nd) over the trend lines for each of the previous four years. Here, the lines represent 7-day running means, to smooth out some of the day-to-day noisiness.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/nyc_shootings_3.png&#34; alt=&#34;NYC3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/nyc_shootings_3.png&#34; alt=&#34;NYC3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Viewed in this way, the recent uptick NYC has observed in 2020 doesn’t appear inconsistent with what happened each of the last four years. So while we can confidently say that shootings &lt;strong&gt;haven’t declined&lt;/strong&gt; amidst the COVID-19 pandemic, the data don’t really suggest that shootings are significantly up, either.&lt;/p&gt;
 
@@ -164,10 +164,10 @@
     
     <item>
       <title>Gun Violence Against U.S. Police Officers: Insights from a New Dataset</title>
-      <link>/post/post10-gvaanalysis/</link>
+      <link>https://jnix.netlify.app/post/post10-gvaanalysis/</link>
       <pubDate>Wed, 20 May 2020 06:30:00 +0000</pubDate>
       
-      <guid>/post/post10-gvaanalysis/</guid>
+      <guid>https://jnix.netlify.app/post/post10-gvaanalysis/</guid>
       <description>&lt;p&gt;In a forthcoming paper in &lt;em&gt;Criminology &amp;amp; Public Policy&lt;/em&gt;, Michael and I conducted an exploratory analysis of fatal and non-fatal firearm assaults on U.S police officers using six years of public data provided by the &lt;a href=&#34;https://www.gunviolencearchive.org/&#34; target=&#34;_blank&#34;&gt;Gun Violence Archive&lt;/a&gt;. We adopted the following inclusion criteria:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -186,17 +186,17 @@
 
 &lt;p&gt;At the state level, the number of firearm assaults ranged from a low of 2 (in Delaware, Montana, North Dakota, Rhode Island, and Vermont) to a high of 143 in Texas:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/GVA1.png&#34; alt=&#34;GVA1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/GVA1.png&#34; alt=&#34;GVA1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This ordering is unsurprising for a simple reason: there are far more officers in Texas than most other states. To account for differences across states in the number of police officers, we calculated state-level rates per 1,000 officers using Police Employee data provided by the FBI. Using these rates provides a different view of the relative incidence of firearm assault across states.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/GVA2.png&#34; alt=&#34;GVA2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/GVA2.png&#34; alt=&#34;GVA2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Instead of being at the top of the list, Texas falls to 18th. California, which has the 2nd highest frequency of firearm assault on police, falls to 38th when using a rate. Overall, rates varied from a low of 0.06 firearm assaults per 1,000 officers in Connecticut to a high of 1.56 per 1,000 in New Mexico (at first glance, Mississippi’s rate is higher, but this rate is biased by statewide underreporting of Police Employee data to the UCR).&lt;/p&gt;
 
 &lt;p&gt;When looking at things spatially, some interesting patterns emerge. Generally, Northeastern states have a lower firearm assault rate than states in the South Eastern and South Western United States. However, the story is not strictly regional: Utah and California’s rates, for example, are more similar to New York and Massachusetts than to nearby Arizona and New Mexico.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/GVA3.png&#34; alt=&#34;GVA3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/GVA3.png&#34; alt=&#34;GVA3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The behind the scenes work with GVA data also provides some really important lessons for future work. Early on, we made the decision to manually vet each case by using the news story URLs that GVA includes with each assault record. In cases where links were dead or missing, we did manual searches using the listed date, location, and other details to try and find an online record with which to verify case details. I shudder remembering about how long this took us (thanks to Kateryna Kaplan at Rutgers SCJ for her help with this arduous task!), but it proved to be a valuable experience. We ultimately excluded &lt;strong&gt;510 incidents&lt;/strong&gt; from the original dataset which didn’t meet our inclusion criteria—&lt;strong&gt;over 25% of the raw data we received from GVA!&lt;/strong&gt;&lt;/p&gt;
 
@@ -218,19 +218,19 @@
     
     <item>
       <title>Understanding body-worn camera diffusion in U.S. policing</title>
-      <link>/publication/31-pq-bwc-diffusion/</link>
+      <link>https://jnix.netlify.app/publication/31-pq-bwc-diffusion/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/31-pq-bwc-diffusion/</guid>
+      <guid>https://jnix.netlify.app/publication/31-pq-bwc-diffusion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Police Shooting Research and the Conditional Probability Mistake</title>
-      <link>/post/post9-response-to-aw/</link>
+      <link>https://jnix.netlify.app/post/post9-response-to-aw/</link>
       <pubDate>Mon, 27 Jan 2020 14:30:00 +0000</pubDate>
       
-      <guid>/post/post9-response-to-aw/</guid>
+      <guid>https://jnix.netlify.app/post/post9-response-to-aw/</guid>
       <description>&lt;p&gt;Yesterday, Andy Wheeler &lt;a href=&#34;https://andrewpwheeler.com/2020/01/26/statement-on-recent-officer-involved-shooting-research/&#34; target=&#34;_blank&#34;&gt;posted&lt;/a&gt; a summary of the problems with recent studies about officer-involved shootings, including &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/1745-9133.12269&#34; target=&#34;_blank&#34;&gt;one&lt;/a&gt; my colleagues and I published in February 2017. As usual, Andy’s criticisms were thoughtful and spot on. And I hope I can take him up on that conference beer soon, even though he’s at a new job.&lt;/p&gt;
 
 &lt;p&gt;That said, I do want to push back just &lt;em&gt;a little&lt;/em&gt; about the motivation for our paper. Brad and I had the idea for it because journalists and activists were getting the denominator wrong when they tried to interpret the (at the time) new WAPO &amp;amp; Guardian data.&lt;/p&gt;
@@ -239,15 +239,15 @@
 
 &lt;p&gt;We really tried to be transparent about the limitations of the data:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW1.jpg&#34; alt=&#34;AW1&#34; /&gt;
-&lt;img src=&#34;/img/AW2.jpg&#34; alt=&#34;AW2&#34; /&gt;
-&lt;img src=&#34;/img/AW3.jpg&#34; alt=&#34;AW3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW1.jpg&#34; alt=&#34;AW1&#34; /&gt;
+&lt;img src=&#34;https://jnix.netlify.app/img/AW2.jpg&#34; alt=&#34;AW2&#34; /&gt;
+&lt;img src=&#34;https://jnix.netlify.app/img/AW3.jpg&#34; alt=&#34;AW3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Of course, with the benefit of hindsight, we’d be even more careful.&lt;/p&gt;
 
 &lt;p&gt;I agree wholeheartedly with Andy that &lt;em&gt;the question of whether &amp;ldquo;the police&amp;rdquo; are racially biased is a facile question.&lt;/em&gt; But I also recognize it’s a question that journalists, activists, and others routinely try to answer simply by looking at raw numbers reported by WAPO or &lt;em&gt;Mapping Police Violence&lt;/em&gt; (or at most, benchmarking them against the general population). Consistent with the first retort Andy said he often hears, I feel it is our responsibility as social scientists to learn what we can from the data we have, and push for better data so that we can continue to learn more.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW4.jpg&#34; alt=&#34;AW4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW4.jpg&#34; alt=&#34;AW4&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since then, I’ve written extensively about the importance of using better benchmarks to understand disparities in policing. See for example, &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/0735648X.2018.1547269&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/07418825.2019.1675748&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0047235219304398&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It&amp;rsquo;s complex, to say the least.&lt;/p&gt;
 
@@ -255,7 +255,7 @@
 
 &lt;p&gt;Lastly, Andy hit the nail on the head here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW5.jpg&#34; alt=&#34;AW5&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW5.jpg&#34; alt=&#34;AW5&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I got some pretty nasty emails after that CPP paper, and occasionally still have my motives questioned by folks on both sides. It’s unfortunate, because I think that sort of thing scares a lot of really sharp people away from doing this research.&lt;/p&gt;
 </description>
@@ -263,10 +263,10 @@
     
     <item>
       <title>New preprint: Do police killings of unarmed persons really have spillover effects?</title>
-      <link>/post/post8-bor-replication/</link>
+      <link>https://jnix.netlify.app/post/post8-bor-replication/</link>
       <pubDate>Wed, 01 Jan 2020 09:30:00 +0000</pubDate>
       
-      <guid>/post/post8-bor-replication/</guid>
+      <guid>https://jnix.netlify.app/post/post8-bor-replication/</guid>
       <description>&lt;p&gt;In 2018, &lt;em&gt;The Lancet&lt;/em&gt; published a quasi-experimental &lt;a href=&#34;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31130-9/fulltext&#34; target=&#34;_blank&#34;&gt;study&lt;/a&gt; by Jacob Bor, Atheendar Venkataramani, David Williams, and Alexander Tsai (hereafter BVWT) that alleged &amp;ldquo;police killings of unarmed black Americans have effects on mental health among black American adults in the general population&amp;rdquo; (p. 302). From this, BVWT extrapolated that police killings of unarmed black Americans may cause as many as 55 million poor mental health days each year among black adults in the US, an effect &amp;ldquo;nearly as large as the mental health burden associated with diabetes&amp;rdquo; (p. 308).&lt;/p&gt;
 
 &lt;p&gt;In our &lt;a href=&#34;https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(18)33043-5.pdf&#34; target=&#34;_blank&#34;&gt;written correspondence&lt;/a&gt; published alongside the study, James Lozada and I pointed out several cases in their data that were misclassified as involving unarmed decedents, when in fact they were in posession of deadly weapons. We also argued that individuals in posession of toy/replica firearms should have been coded &amp;ldquo;armed&amp;rdquo; instead of &amp;ldquo;unarmed.&amp;rdquo; BVWT &lt;a href=&#34;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)33060-5/fulltext&#34; target=&#34;_blank&#34;&gt;replied&lt;/a&gt; &amp;ldquo;[a]lthough some degree of misclassification of exposure is possible, it is improbable to have substantially affected our estimates or conclusions.&amp;rdquo; Surprisingly, they did not revisit their data or analyses.&lt;/p&gt;
@@ -275,7 +275,7 @@
 
 &lt;p&gt;In a new &lt;a href=&#34;https://osf.io/preprints/socarxiv/ajz2q/&#34; target=&#34;_blank&#34;&gt;preprint&lt;/a&gt;, James and I reexamined 303 police killings in BVWT&amp;rsquo;s study that were classified as involving &amp;ldquo;unarmed black victims.&amp;rdquo; We identified 91 incidents that were misclassified (i.e., 30% of all &amp;ldquo;unarmed black victims&amp;rdquo;). The table below summarizes them (additional details are available in the study&amp;rsquo;s appendix).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/bor_rep_tab1.png&#34; alt=&#34;bor_misclassifications&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/bor_rep_tab1.png&#34; alt=&#34;bor_misclassifications&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So, many of the misclassified incidents involved people who were:&lt;/p&gt;
 
@@ -309,29 +309,29 @@
     
     <item>
       <title>Do Police Killings of Unarmed Persons Really Have Spillover Effects? Reanalyzing Bor et al. (2018)</title>
-      <link>/publication/preprint-bor_replication/</link>
+      <link>https://jnix.netlify.app/publication/preprint-bor_replication/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/preprint-bor_replication/</guid>
+      <guid>https://jnix.netlify.app/publication/preprint-bor_replication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Considering Violence Against Police by Citizen Race/Ethnicity to Contextualize Representation in Officer-Involved Shootings</title>
-      <link>/publication/30-jcj-oisbenchmarks/</link>
+      <link>https://jnix.netlify.app/publication/30-jcj-oisbenchmarks/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/30-jcj-oisbenchmarks/</guid>
+      <guid>https://jnix.netlify.app/publication/30-jcj-oisbenchmarks/</guid>
       <description>&lt;p&gt;&lt;strong&gt;My co-author &lt;a href=&#34;https://twitter.com/Shjarback_CCJ&#34; target=&#34;_blank&#34;&gt;John Shjarback&lt;/a&gt; summarizes the paper nicely in this &lt;a href=&#34;https://twitter.com/Shjarback_CCJ/status/1204790201714958344&#34; target=&#34;_blank&#34;&gt;Twitter thread&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Now in print: Three experiments concerned with the Demeanor Hypothesis</title>
-      <link>/post/post7-demeanor/</link>
+      <link>https://jnix.netlify.app/post/post7-demeanor/</link>
       <pubDate>Wed, 04 Dec 2019 10:00:00 +0000</pubDate>
       
-      <guid>/post/post7-demeanor/</guid>
+      <guid>https://jnix.netlify.app/post/post7-demeanor/</guid>
       <description>&lt;p&gt;In a new paper published in &lt;em&gt;Journal of Experimental Criminology&lt;/em&gt;, my colleagues and I revisit the Demeanor Hypothesis, which holds that police officers respond more punitively to citizens who disrespect them or challenge their authority. In the 1990s, David Klinger argued that prior work had often conflated demeanor with criminal conduct. Based on his &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1745-9125.1994.tb01162.x&#34; target=&#34;_blank&#34;&gt;analysis&lt;/a&gt; of police-citizen encounters in Dade County in the 1980s, he concluded &amp;ldquo;displays of hostility which violate no laws do not increase the likelihood of arrest in and of themselves.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;As we outline on p. 616 of our new paper, it is difficult to draw conclusions about the causal effects of demeanor based on studies that use systematic social observation (i.e., researchers observe police-citizen encounters and code things like demeanor, use of coercion by officers, etc.) for several reasons. As one example, if a citizen&amp;rsquo;s behavior could be categorized as both disrespectful &lt;em&gt;and&lt;/em&gt; noncompliant, how can we know which is influencing the officer&amp;rsquo;s decision making? We shouldn&amp;rsquo;t just assume post-hoc that the officer&amp;rsquo;s response was prompted by the citizen&amp;rsquo;s noncompliance.&lt;/p&gt;
@@ -342,7 +342,7 @@
 
 &lt;p&gt;For detailed results, &lt;strong&gt;you can download our article for free &lt;a href=&#34;https://link.springer.com/article/10.1007/s11292-019-09363-4&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/strong&gt; (see pp. 626-27). Here&amp;rsquo;s a figure that nicely summarizes our findings:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/demeanor_fig1.png&#34; alt=&#34;joex_demeanor_fig1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/demeanor_fig1.png&#34; alt=&#34;joex_demeanor_fig1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;&lt;/p&gt;
 
@@ -352,10 +352,10 @@
     
     <item>
       <title>Predictors of Body-Worn Camera Diffusion amidst the Push for Greater Transparency in 21st Century Policing in the United States</title>
-      <link>/talk/asc2019/</link>
+      <link>https://jnix.netlify.app/talk/asc2019/</link>
       <pubDate>Wed, 13 Nov 2019 17:00:00 +0000</pubDate>
       
-      <guid>/talk/asc2019/</guid>
+      <guid>https://jnix.netlify.app/talk/asc2019/</guid>
       <description>&lt;p&gt;At ASC this year, I am participating in a &lt;a href=&#34;https://convention2.allacademic.com/one/asc/asc19/index.php?cmd=Online+Program+View+Session&amp;amp;selected_session_id=1538326&amp;amp;PHPSESSID=c56c4c6v1anm30a115i2rukmt3&#34; target=&#34;_blank&#34;&gt;thematic panel&lt;/a&gt; organized by &lt;a href=&#34;https://research-portal.uws.ac.uk/en/persons/ross-deuchar&#34; target=&#34;_blank&#34;&gt;Ross Deuchar&lt;/a&gt; of the University of the West of Scotland. The theme is &amp;ldquo;International Perspectives on Policing Communities, Procedural Justice and Legitimacy.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;My paper (with Natalie Todak and Brandon Tregle) explores the factors associated with the adoption of body-worn cameras, using survey data from a national sample of municipal police departments. We also examine variation in police executives&amp;rsquo; perceived importance of being transparent with their communities about things such as allegations of officer misconduct, use of force incidents, and changes in police tactics.&lt;/p&gt;
@@ -380,19 +380,19 @@
     
     <item>
       <title>Are Domestic Disturbances Really More Dangerous to Police? Findings from the 2016 National Incident Based Reporting System</title>
-      <link>/publication/29-domestics-nibrs/</link>
+      <link>https://jnix.netlify.app/publication/29-domestics-nibrs/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/29-domestics-nibrs/</guid>
+      <guid>https://jnix.netlify.app/publication/29-domestics-nibrs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LEADS at IACP Conference in Chicago</title>
-      <link>/post/post6-iacp2019/</link>
+      <link>https://jnix.netlify.app/post/post6-iacp2019/</link>
       <pubDate>Thu, 31 Oct 2019 11:40:00 +0000</pubDate>
       
-      <guid>/post/post6-iacp2019/</guid>
+      <guid>https://jnix.netlify.app/post/post6-iacp2019/</guid>
       <description>&lt;p&gt;In 2014, the  Law Enforcement Advancing Data &amp;amp; Science (LEADS) Scholars Program was established through a partnership between the National Institute of Justice (NIJ) and the International Association of Chiefs of Police (IACP). The three-year program &amp;ldquo;aims to identify and nurture the next generation of law enforcement leadership through encouraging the use of evidence-based research to advance criminal justice.&amp;rdquo; By my count, 62 officers from around the US and Canada have gone through - or are currently participating in - the LEADS Scholars Program. This year, in addition to 12 &lt;em&gt;Scholars&lt;/em&gt;, LEADS also admitted two &lt;em&gt;Civilian Analysts&lt;/em&gt; and four &lt;em&gt;Academics&lt;/em&gt;: &lt;a href=&#34;https://nij.ojp.gov/bio/cory-haberman-0&#34; target=&#34;_blank&#34;&gt;Cory Haberman&lt;/a&gt;, &lt;a href=&#34;https://nij.ojp.gov/bio/kyle-mclean&#34; target=&#34;_blank&#34;&gt;Kyle McLean&lt;/a&gt;, &lt;a href=&#34;https://nij.ojp.gov/bio/natalie-todak&#34; target=&#34;_blank&#34;&gt;Natalie Todak&lt;/a&gt;, and me.&lt;/p&gt;
 
 &lt;p&gt;Our first order of business was to attend the 2019 IACP Conference in Chicago, which just ended yesterday. While there, I got to meet all of the current LEADS Scholars as well as a few alumni. We had a few roundtables where we discussed challenges and concerns surrounding the infusion of evidence into policing. We attended panels on recruitment/retention, social media, and pursuit policies. We sat in on IACP&amp;rsquo;s Research Advisory Committee meeting. We ate deep-dish pizza. But most importantly, we networked. I can&amp;rsquo;t wait to see where the program goes from here.&lt;/p&gt;
@@ -403,10 +403,10 @@
     
     <item>
       <title>New research: Are domestic disturbances really more dangerous for responding officers?</title>
-      <link>/post/post5-domestics/</link>
+      <link>https://jnix.netlify.app/post/post5-domestics/</link>
       <pubDate>Thu, 26 Sep 2019 14:40:00 +0000</pubDate>
       
-      <guid>/post/post5-domestics/</guid>
+      <guid>https://jnix.netlify.app/post/post5-domestics/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;For decades, conventional wisdom has held that domestic incidents are inherently more dangerous to responding officers than other calls for service. That is, officers face an increased risk of being assaulted, injured, or killed on these calls. This was echoed as recently as 2016, when the COPS Office and NLEOMF released a &lt;a href=&#34;https://www.hsdl.org/?abstract&amp;amp;did=794863&#34; target=&#34;_blank&#34;&gt;report&lt;/a&gt; that alleged domestic disputes are &amp;ldquo;the most dangerous type [of call] for responding officers.&amp;rdquo; This conclusion was based on the fact that from 2010 to 2014, 22% of the 91 calls for service resulting in a police officer fatality were domestic disputes.&lt;/p&gt;
@@ -433,26 +433,26 @@
     
     <item>
       <title>Testing a Theoretical Model of Perceived Audience Legitimacy: The Neglected Linkage in the Dialogic Model of Police–community Relations</title>
-      <link>/publication/28-perceived-aud-legit/</link>
+      <link>https://jnix.netlify.app/publication/28-perceived-aud-legit/</link>
       <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/28-perceived-aud-legit/</guid>
+      <guid>https://jnix.netlify.app/publication/28-perceived-aud-legit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New research: Police perceptions of their audience legitimacy</title>
-      <link>/post/post4-audience-legitimacy/</link>
+      <link>https://jnix.netlify.app/post/post4-audience-legitimacy/</link>
       <pubDate>Thu, 15 Aug 2019 13:25:00 +0000</pubDate>
       
-      <guid>/post/post4-audience-legitimacy/</guid>
+      <guid>https://jnix.netlify.app/post/post4-audience-legitimacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Last year, I conducted two police surveys with the help of my colleagues Justin Pickett and Scott Wolfe. The first was administered electronically to a large agency (over 1,500 sworn) in the south. The second was administered through the mail to a stratified random sample of 2,496 municipal police chiefs. The response rates were 31% and 27%, respectively.&lt;/p&gt;
 
 &lt;p&gt;One of my motivations for administering these surveys was to revisit a subject I wrote about for my dissertation: the police legitimacy &amp;ldquo;dialogue&amp;rdquo; proposed by &lt;a href=&#34;https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?referer=&amp;amp;httpsredir=1&amp;amp;article=7419&amp;amp;context=jclc&#34; target=&#34;_blank&#34;&gt;Anthony Bottoms and Justice Tankebe&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/legitimacy_dialogue.png&#34; alt=&#34;legitimacy_dialogue&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/legitimacy_dialogue.png&#34; alt=&#34;legitimacy_dialogue&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;While a great deal of scholarhip has focused on citizens&amp;rsquo; perceptions of police legitimacy, comparatively less has considered how officers perceive their legitimacy in the eyes of the public, and what is associated with more/less of this perceived &amp;ldquo;audience legitimacy.&amp;rdquo; To date, I&amp;rsquo;ve published two &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/0011128715620627&#34; target=&#34;_blank&#34;&gt;papers&lt;/a&gt; from my dissertation, which largely built on some of Tal Jonathan-Zamir&amp;rsquo;s &lt;a href=&#34;https://academic.oup.com/bjc/article-abstract/54/3/469/341017&#34; target=&#34;_blank&#34;&gt;work&lt;/a&gt; in Israel. Her work indicated commanding officers of the Israel National Police associate their audience legitimacy with their ability to deal with crime more so than procedural fairness. Similarly, I &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/0011128715597696&#34; target=&#34;_blank&#34;&gt;found&lt;/a&gt; that executives in the US associate citizen cooperation with their crime-fighting effectiveness. At the same time, my work suggested officers perceive their audience legitimacy differently in high- and low-crime areas of their community.&lt;/p&gt;
 
@@ -474,10 +474,10 @@
     
     <item>
       <title>Crowdsourced police shooting data: What we know and what we&#39;re missing</title>
-      <link>/talk/asa2019/</link>
+      <link>https://jnix.netlify.app/talk/asa2019/</link>
       <pubDate>Tue, 13 Aug 2019 10:30:00 +0000</pubDate>
       
-      <guid>/talk/asa2019/</guid>
+      <guid>https://jnix.netlify.app/talk/asa2019/</guid>
       <description>&lt;p&gt;At an invited session hosted by the Section on Crime, Law, and Deviance, Geoff Alpert and I discuss the strengths and weaknesses of crowdsourced OIS data. Other panelists include Malcolm Holmes (University of Wyoming); Gregory Zimmerman, Emma Fridel, and Keller Sheppard (Northeastern University); and Mitchell Chamlin (Texas State).&lt;/p&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -490,10 +490,10 @@
     
     <item>
       <title>That new study in PNAS on fatal officer-involved shootings</title>
-      <link>/post/post3-that-new-pnas-paper/</link>
+      <link>https://jnix.netlify.app/post/post3-that-new-pnas-paper/</link>
       <pubDate>Tue, 30 Jul 2019 13:25:00 +0000</pubDate>
       
-      <guid>/post/post3-that-new-pnas-paper/</guid>
+      <guid>https://jnix.netlify.app/post/post3-that-new-pnas-paper/</guid>
       <description>&lt;p&gt;A new study published in PNAS, titled &lt;a href=&#34;https://www.pnas.org/content/early/2019/07/16/1903856116&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Officer characteristics and racial disparities in fatal officer-involved shootings&amp;rdquo;&lt;/a&gt; is getting lots of &lt;a href=&#34;https://pnas.altmetric.com/details/63894008/news&#34; target=&#34;_blank&#34;&gt;attention&lt;/a&gt; (34 news articles and tweeted by 1,808 users with an upper bound of 9.8 million followers as of 7/30/2019). It concludes, among other things, that &amp;ldquo;White officers are not more likely to shoot minoritiy civilians than non-White officers,&amp;rdquo; and &amp;ldquo;Increasing diversity among officers by itself is unlikely to reduce racial disparity in police shootings.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/DrPhilGoff/status/1155916041924431872&#34; target=&#34;_blank&#34;&gt;Others&lt;/a&gt; have been &lt;a href=&#34;https://twitter.com/jonmummolo/status/1153686295845244929&#34; target=&#34;_blank&#34;&gt;critical&lt;/a&gt; of the study, for good reason.&lt;/p&gt;
@@ -502,17 +502,17 @@
 
 &lt;p&gt;I&amp;rsquo;ve &lt;a href=&#34;https://jnix.netlify.com/post/post2-fatality-rates/&#34; target=&#34;_blank&#34;&gt;posted&lt;/a&gt; about this before. Fatal OIS are not a random sample of all OIS, so statistical analyses of them may serve to mislead us rather than shed light on the truth. Take a look at Table 2 on page 3 of their study:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/pnas_table2.png&#34; alt=&#34;pnas_table2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/pnas_table2.png&#34; alt=&#34;pnas_table2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The million dollar question here is: how often did each &amp;ldquo;variable&amp;rdquo; occur in 2015 when officers &lt;strong&gt;did not use deadly force&lt;/strong&gt;? As but one example, how often did police officers encounter suicidal civilians? In a &lt;em&gt;small subset&lt;/em&gt; of these incidents, officers fatally shot the suicidal citizen. That&amp;rsquo;s what is being analyzed in Table 2 for evidence of racial disparity. Not included in Table 2 are numerous incidents wherein the outcome was something other than a fatal OIS (e.g., nonfatal OIS, less lethal force, no force). Without knowing the racial breakdown of these counterfactual incidents, it isn&amp;rsquo;t possible to conclude anything about the &amp;ldquo;likelihood&amp;rdquo; of officers shooting minorities.&lt;/p&gt;
 
 &lt;p&gt;Next month, at the &lt;a href=&#34;https://convention2.allacademic.com/one/asa/asa19/index.php?cmd=Online+Program+View+Session&amp;amp;selected_session_id=1479837&amp;amp;PHPSESSID=2b88b5bc2glse47gdg2iriajh5&#34; target=&#34;_blank&#34;&gt;ASA meeting&lt;/a&gt; in NYC, Geoff Alpert and I will be discussing the benefits and drawbacks of analyzing crowdsourced OIS data. Chief among the drawbacks is that most track only fatal OIS, and the racial breakdown of fatal OIS often differs substantially from the racial breakdown of &lt;strong&gt;all&lt;/strong&gt; OIS. Here&amp;rsquo;s a table I made with the &lt;a href=&#34;https://news.vice.com/en_us/article/a3jjpa/nonfatal-police-shootings-data&#34; target=&#34;_blank&#34;&gt;VICE data&lt;/a&gt; I mentioned in my last post.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/asa_comparison_table.png&#34; alt=&#34;asa_comparison_table&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/asa_comparison_table.png&#34; alt=&#34;asa_comparison_table&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Among 21 jurisdictions with near complete data (&amp;lt; 5% missing) on the race of citizens shot by police from 2010-16, you can see that as you move from examining just fatalities to examining all OIS, %white decreases while %black increases. In some cities, the differences are more pronounced than others. Take Nashville, for example, where there were 39 OIS (only 11 of which were fatal):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/asa_nmpd.png&#34; alt=&#34;asa_nmpd&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/asa_nmpd.png&#34; alt=&#34;asa_nmpd&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In this case, %white and %black basically flip from fatal OIS to all OIS. Perhaps the differences would be nonsignificant in a national database, but that remains unknown since no national database includes nonfatal OIS.&lt;/p&gt;
 
@@ -528,10 +528,10 @@
     
     <item>
       <title>The problems with OIS data that only capture fatalities</title>
-      <link>/post/post2-fatality-rates/</link>
+      <link>https://jnix.netlify.app/post/post2-fatality-rates/</link>
       <pubDate>Sun, 23 Jun 2019 13:25:00 +0000</pubDate>
       
-      <guid>/post/post2-fatality-rates/</guid>
+      <guid>https://jnix.netlify.app/post/post2-fatality-rates/</guid>
       <description>&lt;p&gt;Over the last few years, several websites that compile fatal officer-involved shooting (OIS) data have become available. These include:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -550,7 +550,7 @@
 
 &lt;p&gt;Recently, VICE News compiled &lt;a href=&#34;https://news.vice.com/en_us/article/xwvv3a/shot-by-cops&#34; target=&#34;_blank&#34;&gt;data&lt;/a&gt; on both fatal and nonfatal OIS in 47 of the largest 50 jurisdictions in the United States from 2010 to 2016. They documented 4,400 OIS - at least 1,382 of which were fatal (31.4%). Even if we assumed all of the 288 OIS with &amp;ldquo;unknown&amp;rdquo; outcomes were fatal, the overall fatality rate would increase only to about 38%. But the overall fatality rate, whatever it is, masks a ton of variation within this sample:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/vice_table.png&#34; alt=&#34;vice_table&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/vice_table.png&#34; alt=&#34;vice_table&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Focusing just on the jurisdictions with 100+ OIS, you can see that fatality rates during this time ranged from a low of 16.8% in St. Louis to 51.9% in Phoenix. Now consider some of the conclusions you might draw if you only had the &amp;ldquo;fatal&amp;rdquo; columns. You would probably conclude that police in Las Vegas shoot citizens over twice as often as police in St. Louis (47 v. 20). But the reality is that their OIS totals were virtually identical (115 v. 119). Similarly, while Boston and Atlanta each had 10 fatal OIS, Boston had just 4 additional nonfatal OIS, while Atlanta had an additional 32. And keep in mind these are just raw counts which don&amp;rsquo;t account for &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/0735648X.2018.1547269&#34; target=&#34;_blank&#34;&gt;differences in population or violent crime rates&lt;/a&gt;.&lt;/p&gt;
 
@@ -574,17 +574,17 @@
     
     <item>
       <title>Validity of details in databases logging police killings</title>
-      <link>/post/post1-the-lancet/</link>
+      <link>https://jnix.netlify.app/post/post1-the-lancet/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/post1-the-lancet/</guid>
+      <guid>https://jnix.netlify.app/post/post1-the-lancet/</guid>
       <description>&lt;p&gt;A &lt;a href=&#34;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31130-9/fulltext&#34; target=&#34;_blank&#34;&gt;study&lt;/a&gt; published last year in The Lancet concluded that &amp;ldquo;police killings of unarmed black Americans have adverse effects on mental health among black American adults in the general population.&amp;rdquo; They used &lt;a href=&#34;https://mappingpoliceviolence.org/&#34; target=&#34;_blank&#34;&gt;Mapping Police Violence&lt;/a&gt; data, wherein individuals are coded as &amp;ldquo;unarmed&amp;rdquo; if they had a toy/replica gun or if they were &amp;ldquo;alleged to be armed by the police, but multiple independent witnesses maintain the person was unarmed.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;These are &lt;strong&gt;hugely&lt;/strong&gt; important caveats. Toy/replica guns can be nearly indistinguishable from actual guns, especially in a matter of split seconds. This is why similar databases compiled by &lt;a href=&#34;https://www.washingtonpost.com/graphics/2019/national/police-shootings-2019/?utm_term=.ea6193d6288e&#34; target=&#34;_blank&#34;&gt;The Washington Post&lt;/a&gt; and &lt;a href=&#34;https://www.theguardian.com/us-news/series/counted-us-police-killings&#34; target=&#34;_blank&#34;&gt;The Guardian&lt;/a&gt; are careful to label such incidents as involving toy/replica guns, rather than no weapon at all. Likewise, it is debatable whether we should dismiss police accounts of an incident simply because two or more witnesses disagree.&lt;/p&gt;
 
 &lt;p&gt;One Saturday last summer, my colleague, &lt;a href=&#34;https://ww2.mc.vanderbilt.edu/physcifaculty/53075&#34; target=&#34;_blank&#34;&gt;James Lozada&lt;/a&gt;, and I decided to take a closer look at 110 fatal officer-involved shootings (OIS) that occurred from 2015 to 2017 involving a black citizen who MPV coded as &amp;ldquo;unarmed.&amp;rdquo; We focused specifically on OIS deaths because (1) these account for the vast majority of citizen fatalities at the hands of police, and (2) WAPO&amp;rsquo;s data do not include deaths by other means. Among these 110 OIS, &lt;strong&gt;36&lt;/strong&gt; involved individuals &lt;strong&gt;who were not unarmed&lt;/strong&gt; according to WAPO and The Guardian. Most had a toy/replica firearm, but four had an actual firearm, one had a knife, and three were undetermined according to WAPO:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/lancet_table.png&#34; alt=&#34;lancet_table&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/lancet_table.png&#34; alt=&#34;lancet_table&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Lancent published our &lt;a href=&#34;https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(18)33043-5.pdf&#34; target=&#34;_blank&#34;&gt;written correspondence&lt;/a&gt; earlier this year, though unfortunately, we were limited to 250 words. Our original submission was approximately 1,000 words and included tables that listed the discrepancies between MPV and WAPO/The Guardian.&lt;/p&gt;
 
@@ -600,37 +600,37 @@
     
     <item>
       <title>Compliance, Noncompliance, and the In-between: Causal Effects of Civilian Demeanor on Police Officers’ Cognitions and Emotions</title>
-      <link>/publication/27-demeanor-experiments/</link>
+      <link>https://jnix.netlify.app/publication/27-demeanor-experiments/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/27-demeanor-experiments/</guid>
+      <guid>https://jnix.netlify.app/publication/27-demeanor-experiments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Police Research, Officer Surveys, and Response Rates</title>
-      <link>/publication/22-response-rates/</link>
+      <link>https://jnix.netlify.app/publication/22-response-rates/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/22-response-rates/</guid>
+      <guid>https://jnix.netlify.app/publication/22-response-rates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analysis of 2018 Use of Deadly Force by the Phoenix Police Department</title>
-      <link>/publication/report-pf_phx_ois/</link>
+      <link>https://jnix.netlify.app/publication/report-pf_phx_ois/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/report-pf_phx_ois/</guid>
+      <guid>https://jnix.netlify.app/publication/report-pf_phx_ois/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://jnix.netlify.app/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/slides/example/</guid>
+      <guid>https://jnix.netlify.app/slides/example/</guid>
       <description>
 
 &lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
@@ -809,245 +809,235 @@ $$&lt;/p&gt;
     
     <item>
       <title>Demeanor and Police Culture: Theorizing How Civilian Cooperation Influences Police Officers</title>
-      <link>/publication/26-pjc-demeanor/</link>
+      <link>https://jnix.netlify.app/publication/26-pjc-demeanor/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/26-pjc-demeanor/</guid>
+      <guid>https://jnix.netlify.app/publication/26-pjc-demeanor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disparity Does Not Mean Bias: Making Sense of Observed Racial Disparities in Fatal Officer-involved Shootings with Multiple Benchmarks</title>
-      <link>/publication/23-disparity-bias/</link>
+      <link>https://jnix.netlify.app/publication/23-disparity-bias/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/23-disparity-bias/</guid>
+      <guid>https://jnix.netlify.app/publication/23-disparity-bias/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Las Vegas Mass Shooting: An Analysis of Blood Component Administration and Blood Bank Donations</title>
-      <link>/publication/24-lvshooting/</link>
+      <link>https://jnix.netlify.app/publication/24-lvshooting/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/24-lvshooting/</guid>
+      <guid>https://jnix.netlify.app/publication/24-lvshooting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Ecological Structuring of Police Officers’ Perceptions of Citizen Cooperation</title>
-      <link>/publication/19-ecological-cooperation/</link>
+      <link>https://jnix.netlify.app/publication/19-ecological-cooperation/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/19-ecological-cooperation/</guid>
+      <guid>https://jnix.netlify.app/publication/19-ecological-cooperation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Police Officers’ Attitudes Toward Citizen Advisory Councils</title>
-      <link>/publication/21-citizen-oversight/</link>
+      <link>https://jnix.netlify.app/publication/21-citizen-oversight/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/21-citizen-oversight/</guid>
+      <guid>https://jnix.netlify.app/publication/21-citizen-oversight/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Testing a Social Schematic Model of Police Procedural Justice</title>
-      <link>/publication/20-rjs/</link>
+      <link>https://jnix.netlify.app/publication/20-rjs/</link>
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/20-rjs/</guid>
+      <guid>https://jnix.netlify.app/publication/20-rjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Management-level Officers’ Experiences with the Ferguson effect</title>
-      <link>/publication/16-mgmt-ferguson/</link>
+      <link>https://jnix.netlify.app/publication/16-mgmt-ferguson/</link>
       <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/16-mgmt-ferguson/</guid>
+      <guid>https://jnix.netlify.app/publication/16-mgmt-ferguson/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Domestic Disturbances and Fatal Police Shootings: An Analysis of the Washington Post’s Data</title>
-      <link>/publication/17-domestic-ois/</link>
+      <link>https://jnix.netlify.app/publication/17-domestic-ois/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/17-domestic-ois/</guid>
+      <guid>https://jnix.netlify.app/publication/17-domestic-ois/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Is the Number of Citizens Fatally Shot by Police Increasing in the Post-Ferguson Era?</title>
-      <link>/publication/15-are-fatalois-increasing/</link>
+      <link>https://jnix.netlify.app/publication/15-are-fatalois-increasing/</link>
       <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/15-are-fatalois-increasing/</guid>
+      <guid>https://jnix.netlify.app/publication/15-are-fatalois-increasing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Police Managers’ Self-Control and Support for Organizational Justice</title>
-      <link>/publication/18-mgmt-sc-oj/</link>
+      <link>https://jnix.netlify.app/publication/18-mgmt-sc-oj/</link>
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/18-mgmt-sc-oj/</guid>
+      <guid>https://jnix.netlify.app/publication/18-mgmt-sc-oj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Command-level Police Officers&#39; Perceptions of the &#39;War on Cops&#39; and De-policing</title>
-      <link>/publication/14-perceived-war-on-cops/</link>
+      <link>https://jnix.netlify.app/publication/14-perceived-war-on-cops/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/14-perceived-war-on-cops/</guid>
+      <guid>https://jnix.netlify.app/publication/14-perceived-war-on-cops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demeanor, Race, and Police Perceptions of Procedural Justice: Evidence from Two Randomized Experiments</title>
-      <link>/publication/13-demeanor-pj-experiments/</link>
+      <link>https://jnix.netlify.app/publication/13-demeanor-pj-experiments/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/13-demeanor-pj-experiments/</guid>
+      <guid>https://jnix.netlify.app/publication/13-demeanor-pj-experiments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Police Perceptions of Their External Legitimacy in High and Low Crime Areas of the Community</title>
-      <link>/publication/10-ext-legit/</link>
+      <link>https://jnix.netlify.app/publication/10-ext-legit/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/10-ext-legit/</guid>
+      <guid>https://jnix.netlify.app/publication/10-ext-legit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Review of _When Police Kill_</title>
-      <link>/publication/bookreview-when_police_kill/</link>
+      <link>https://jnix.netlify.app/publication/bookreview-when_police_kill/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/bookreview-when_police_kill/</guid>
+      <guid>https://jnix.netlify.app/publication/bookreview-when_police_kill/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A War on Cops? The Effects of Ferguson on the Number of U.S. Police Officers Murdered in the Line of Duty</title>
-      <link>/publication/8-war-on-cops/</link>
+      <link>https://jnix.netlify.app/publication/8-war-on-cops/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/8-war-on-cops/</guid>
+      <guid>https://jnix.netlify.app/publication/8-war-on-cops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Do the Police Believe That Legitimacy Promotes Cooperation From the Public?</title>
-      <link>/publication/11-extlegit-coop/</link>
+      <link>https://jnix.netlify.app/publication/11-extlegit-coop/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/11-extlegit-coop/</guid>
+      <guid>https://jnix.netlify.app/publication/11-extlegit-coop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Third-person Perceptions, Hostile Media Effects, and Policing: Developing a Theoretical Framework for Assessing the Ferguson Effect</title>
-      <link>/publication/12-hostile-media-efx/</link>
+      <link>https://jnix.netlify.app/publication/12-hostile-media-efx/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/12-hostile-media-efx/</guid>
+      <guid>https://jnix.netlify.app/publication/12-hostile-media-efx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Police Officers&#39; Trust in Their Agency: Does Self-Legitimacy Protect Against Supervisor Procedural Injustice?</title>
-      <link>/publication/9-police-trust-in-agency/</link>
+      <link>https://jnix.netlify.app/publication/9-police-trust-in-agency/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/9-police-trust-in-agency/</guid>
+      <guid>https://jnix.netlify.app/publication/9-police-trust-in-agency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Bird&#39;s Eye View of Civilians Killed by Police in 2015: Further Evidence of Implicit Bias</title>
-      <link>/publication/6-birds-eye/</link>
+      <link>https://jnix.netlify.app/publication/6-birds-eye/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/6-birds-eye/</guid>
+      <guid>https://jnix.netlify.app/publication/6-birds-eye/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Impact of Negative Publicity on Police Self-legitimacy</title>
-      <link>/publication/7-negpub-selflegit/</link>
+      <link>https://jnix.netlify.app/publication/7-negpub-selflegit/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/7-negpub-selflegit/</guid>
+      <guid>https://jnix.netlify.app/publication/7-negpub-selflegit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sensitivity to the Ferguson Effect: The Role of Managerial Organizational Justice</title>
-      <link>/publication/4-sensitivity-to-ferg/</link>
+      <link>https://jnix.netlify.app/publication/4-sensitivity-to-ferg/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/4-sensitivity-to-ferg/</guid>
+      <guid>https://jnix.netlify.app/publication/4-sensitivity-to-ferg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Use of Social Media by Alleged Members of Mexican Cartels and Affiliated Drug Trafficking Organizations</title>
-      <link>/publication/5-cartels/</link>
+      <link>https://jnix.netlify.app/publication/5-cartels/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/5-cartels/</guid>
+      <guid>https://jnix.netlify.app/publication/5-cartels/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Is the Effect of Procedural Justice on Police Legitimacy Invariant? Testing the Generality of Procedural Justice and Competing Antecedents of Legitimacy</title>
-      <link>/publication/3-invariance/</link>
+      <link>https://jnix.netlify.app/publication/3-invariance/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/3-invariance/</guid>
+      <guid>https://jnix.netlify.app/publication/3-invariance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Review of _Pulled Over: How Police Stops Define Race and Citizenship_</title>
-      <link>/publication/bookreview-pulled_over/</link>
+      <link>https://jnix.netlify.app/publication/bookreview-pulled_over/</link>
       <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/bookreview-pulled_over/</guid>
+      <guid>https://jnix.netlify.app/publication/bookreview-pulled_over/</guid>
       <description></description>
     </item>
     
     <item>
       <title>External Project</title>
-      <link>/project/external-project/</link>
+      <link>https://jnix.netlify.app/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/external-project/</guid>
+      <guid>https://jnix.netlify.app/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>/project/internal-project/</link>
+      <link>https://jnix.netlify.app/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/internal-project/</guid>
+      <guid>https://jnix.netlify.app/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -1062,19 +1052,19 @@ $$&lt;/p&gt;
     
     <item>
       <title>The Alleged Ferguson Effect and Police Willingness to Engage in Community Partnership</title>
-      <link>/publication/2-alleged-ferg-effect/</link>
+      <link>https://jnix.netlify.app/publication/2-alleged-ferg-effect/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2-alleged-ferg-effect/</guid>
+      <guid>https://jnix.netlify.app/publication/2-alleged-ferg-effect/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trust in the Police:  The Influence of Procedural Justice and Perceived Collective Efficacy</title>
-      <link>/publication/1-trust-in-police/</link>
+      <link>https://jnix.netlify.app/publication/1-trust-in-police/</link>
       <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/1-trust-in-police/</guid>
+      <guid>https://jnix.netlify.app/publication/1-trust-in-police/</guid>
       <description></description>
     </item>
     

@@ -3,881 +3,876 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/courses/example/example1/</loc>
+    <loc>https://jnix.netlify.app/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/</loc>
+    <loc>https://jnix.netlify.app/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
+    <loc>https://jnix.netlify.app/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/tags/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/admin/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/authors/admin/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/publication_types/2/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/authors/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/33-cpp-gva/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/publication/33-cpp-gva/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/gun-violence/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/tags/gun-violence/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/michael-sierra-ar%C3%A9valo/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/authors/michael-sierra-ar%C3%A9valo/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/officer-involved-shootings/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/tags/officer-involved-shootings/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/police/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/tags/police/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/publication_types/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/publication/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/tags/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/war-on-cops/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+    <loc>https://jnix.netlify.app/tags/war-on-cops/</loc>
+    <lastmod>2020-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication_types/6/</loc>
+    <loc>https://jnix.netlify.app/publication_types/6/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/book-chapter/</loc>
+    <loc>https://jnix.netlify.app/tags/book-chapter/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/procedural-justice/</loc>
+    <loc>https://jnix.netlify.app/tags/procedural-justice/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/chapter-pj-critical_issues/</loc>
+    <loc>https://jnix.netlify.app/publication/chapter-pj-critical_issues/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/0/</loc>
+    <loc>https://jnix.netlify.app/publication_types/0/</loc>
     <lastmod>2020-06-18T10:52:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/citizen-oversight/</loc>
+    <loc>https://jnix.netlify.app/tags/citizen-oversight/</loc>
     <lastmod>2020-06-18T10:52:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/de-policing/</loc>
+    <loc>https://jnix.netlify.app/tags/de-policing/</loc>
     <lastmod>2020-06-18T10:52:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/32-wapo-defunding-oped/</loc>
+    <loc>https://jnix.netlify.app/publication/32-wapo-defunding-oped/</loc>
     <lastmod>2020-06-18T10:52:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/legitimacy/</loc>
-    <lastmod>2020-06-18T10:52:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/police-culture/</loc>
+    <loc>https://jnix.netlify.app/tags/legitimacy/</loc>
     <lastmod>2020-06-18T10:52:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/scott-wolfe/</loc>
+    <loc>https://jnix.netlify.app/tags/police-culture/</loc>
     <lastmod>2020-06-18T10:52:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/trust/</loc>
+    <loc>https://jnix.netlify.app/authors/scott-wolfe/</loc>
     <lastmod>2020-06-18T10:52:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/covid-19/</loc>
+    <loc>https://jnix.netlify.app/tags/trust/</loc>
+    <lastmod>2020-06-18T10:52:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/tags/covid-19/</loc>
     <lastmod>2020-06-03T09:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/john-hall/</loc>
+    <loc>https://jnix.netlify.app/authors/john-hall/</loc>
     <lastmod>2020-06-03T09:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/kyle-mclean/</loc>
+    <loc>https://jnix.netlify.app/authors/kyle-mclean/</loc>
     <lastmod>2020-06-03T09:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/leads/</loc>
+    <loc>https://jnix.netlify.app/tags/leads/</loc>
     <lastmod>2020-06-03T09:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/post11-nyc-covid-shootings/</loc>
+    <loc>https://jnix.netlify.app/post/post11-nyc-covid-shootings/</loc>
     <lastmod>2020-06-03T09:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://jnix.netlify.app/post/</loc>
     <lastmod>2020-06-03T09:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/public-health/</loc>
+    <loc>https://jnix.netlify.app/tags/public-health/</loc>
     <lastmod>2020-06-03T09:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/post10-gvaanalysis/</loc>
+    <loc>https://jnix.netlify.app/post/post10-gvaanalysis/</loc>
     <lastmod>2020-05-20T06:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/body-worn-cameras/</loc>
+    <loc>https://jnix.netlify.app/tags/body-worn-cameras/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/brandon-tregle/</loc>
+    <loc>https://jnix.netlify.app/authors/brandon-tregle/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/natalie-todak/</loc>
+    <loc>https://jnix.netlify.app/authors/natalie-todak/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/survey/</loc>
+    <loc>https://jnix.netlify.app/tags/survey/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/31-pq-bwc-diffusion/</loc>
+    <loc>https://jnix.netlify.app/publication/31-pq-bwc-diffusion/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/implicit-bias/</loc>
+    <loc>https://jnix.netlify.app/tags/implicit-bias/</loc>
     <lastmod>2020-01-27T14:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/post9-response-to-aw/</loc>
+    <loc>https://jnix.netlify.app/post/post9-response-to-aw/</loc>
     <lastmod>2020-01-27T14:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/race/</loc>
+    <loc>https://jnix.netlify.app/tags/race/</loc>
     <lastmod>2020-01-27T14:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/m.-james-lozada/</loc>
+    <loc>https://jnix.netlify.app/authors/m.-james-lozada/</loc>
     <lastmod>2020-01-01T09:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mental-health/</loc>
+    <loc>https://jnix.netlify.app/tags/mental-health/</loc>
     <lastmod>2020-01-01T09:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/post8-bor-replication/</loc>
+    <loc>https://jnix.netlify.app/post/post8-bor-replication/</loc>
     <lastmod>2020-01-01T09:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/3/</loc>
+    <loc>https://jnix.netlify.app/publication_types/3/</loc>
     <lastmod>2019-12-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/preprint-bor_replication/</loc>
+    <loc>https://jnix.netlify.app/publication/preprint-bor_replication/</loc>
     <lastmod>2019-12-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/30-jcj-oisbenchmarks/</loc>
+    <loc>https://jnix.netlify.app/publication/30-jcj-oisbenchmarks/</loc>
     <lastmod>2019-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/john-shjarback/</loc>
-    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/media/</loc>
+    <loc>https://jnix.netlify.app/authors/john-shjarback/</loc>
     <lastmod>2019-12-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/demeanor-hypothesis/</loc>
+    <loc>https://jnix.netlify.app/tags/media/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/tags/demeanor-hypothesis/</loc>
     <lastmod>2019-12-04T10:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/emotions/</loc>
+    <loc>https://jnix.netlify.app/tags/emotions/</loc>
     <lastmod>2019-12-04T10:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/experimental-design/</loc>
+    <loc>https://jnix.netlify.app/tags/experimental-design/</loc>
     <lastmod>2019-12-04T10:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/justin-pickett/</loc>
+    <loc>https://jnix.netlify.app/authors/justin-pickett/</loc>
     <lastmod>2019-12-04T10:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/post7-demeanor/</loc>
+    <loc>https://jnix.netlify.app/post/post7-demeanor/</loc>
     <lastmod>2019-12-04T10:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/renee-mitchell/</loc>
+    <loc>https://jnix.netlify.app/authors/renee-mitchell/</loc>
     <lastmod>2019-12-04T10:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/decision-making/</loc>
+    <loc>https://jnix.netlify.app/tags/decision-making/</loc>
     <lastmod>2019-11-13T17:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/talk/asc2019/</loc>
+    <loc>https://jnix.netlify.app/talk/asc2019/</loc>
     <lastmod>2019-11-13T17:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>https://jnix.netlify.app/talk/</loc>
     <lastmod>2019-11-13T17:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/29-domestics-nibrs/</loc>
+    <loc>https://jnix.netlify.app/publication/29-domestics-nibrs/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/domestic-disturbances/</loc>
-    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/emily-wright/</loc>
+    <loc>https://jnix.netlify.app/tags/domestic-disturbances/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/gillian-pinchevsky/</loc>
+    <loc>https://jnix.netlify.app/authors/emily-wright/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/nibrs/</loc>
+    <loc>https://jnix.netlify.app/authors/gillian-pinchevsky/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/tara-richards/</loc>
+    <loc>https://jnix.netlify.app/tags/nibrs/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/iacp/</loc>
+    <loc>https://jnix.netlify.app/authors/tara-richards/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/tags/iacp/</loc>
     <lastmod>2019-10-31T11:40:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/post6-iacp2019/</loc>
+    <loc>https://jnix.netlify.app/post/post6-iacp2019/</loc>
     <lastmod>2019-10-31T11:40:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/nij/</loc>
+    <loc>https://jnix.netlify.app/tags/nij/</loc>
     <lastmod>2019-10-31T11:40:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/post5-domestics/</loc>
+    <loc>https://jnix.netlify.app/post/post5-domestics/</loc>
     <lastmod>2019-09-26T14:40:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/28-perceived-aud-legit/</loc>
+    <loc>https://jnix.netlify.app/publication/28-perceived-aud-legit/</loc>
     <lastmod>2019-09-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/post4-audience-legitimacy/</loc>
+    <loc>https://jnix.netlify.app/post/post4-audience-legitimacy/</loc>
     <lastmod>2019-08-15T13:25:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/nonresponse-bias/</loc>
+    <loc>https://jnix.netlify.app/tags/nonresponse-bias/</loc>
     <lastmod>2019-08-15T13:25:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/talk/asa2019/</loc>
+    <loc>https://jnix.netlify.app/talk/asa2019/</loc>
     <lastmod>2019-08-13T10:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/geoff-alpert/</loc>
+    <loc>https://jnix.netlify.app/authors/geoff-alpert/</loc>
     <lastmod>2019-08-13T10:30:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/post3-that-new-pnas-paper/</loc>
+    <loc>https://jnix.netlify.app/post/post3-that-new-pnas-paper/</loc>
     <lastmod>2019-07-30T13:25:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/post2-fatality-rates/</loc>
+    <loc>https://jnix.netlify.app/post/post2-fatality-rates/</loc>
     <lastmod>2019-06-23T13:25:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/post1-the-lancet/</loc>
+    <loc>https://jnix.netlify.app/post/post1-the-lancet/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/27-demeanor-experiments/</loc>
+    <loc>https://jnix.netlify.app/publication/27-demeanor-experiments/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/geoffrey-alpert/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/hyunin-baek/</loc>
+    <loc>https://jnix.netlify.app/authors/geoffrey-alpert/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/22-response-rates/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/response-rates/</loc>
+    <loc>https://jnix.netlify.app/authors/hyunin-baek/</loc>
     <lastmod>2019-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication_types/4/</loc>
+    <loc>https://jnix.netlify.app/publication/22-response-rates/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/tags/response-rates/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/publication_types/4/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/report-pf_phx_ois/</loc>
+    <loc>https://jnix.netlify.app/publication/report-pf_phx_ois/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/james-burch/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/jeff-rojek/</loc>
+    <loc>https://jnix.netlify.app/authors/james-burch/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/julie-grieco/</loc>
+    <loc>https://jnix.netlify.app/authors/jeff-rojek/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/teresina-robbins/</loc>
+    <loc>https://jnix.netlify.app/authors/julie-grieco/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/slides/</loc>
+    <loc>https://jnix.netlify.app/authors/teresina-robbins/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/slides/example/</loc>
+    <loc>https://jnix.netlify.app/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/blood-transfusion/</loc>
+    <loc>https://jnix.netlify.app/tags/blood-transfusion/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/cooperation/</loc>
+    <loc>https://jnix.netlify.app/tags/cooperation/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/26-pjc-demeanor/</loc>
+    <loc>https://jnix.netlify.app/publication/26-pjc-demeanor/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/23-disparity-bias/</loc>
+    <loc>https://jnix.netlify.app/publication/23-disparity-bias/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/glenn-ramsey/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/hemorrhage-control/</loc>
+    <loc>https://jnix.netlify.app/authors/glenn-ramsey/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/marissa-li/</loc>
+    <loc>https://jnix.netlify.app/tags/hemorrhage-control/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mass-shootings/</loc>
+    <loc>https://jnix.netlify.app/authors/marissa-li/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/stephanie-cai/</loc>
+    <loc>https://jnix.netlify.app/tags/mass-shootings/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/stephanie-lynne-davidson/</loc>
+    <loc>https://jnix.netlify.app/authors/stephanie-cai/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/24-lvshooting/</loc>
+    <loc>https://jnix.netlify.app/authors/stephanie-lynne-davidson/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/publication/24-lvshooting/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/organizational-justice/</loc>
+    <loc>https://jnix.netlify.app/tags/organizational-justice/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/self-legitimacy/</loc>
+    <loc>https://jnix.netlify.app/tags/self-legitimacy/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/19-ecological-cooperation/</loc>
+    <loc>https://jnix.netlify.app/publication/19-ecological-cooperation/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/21-citizen-oversight/</loc>
+    <loc>https://jnix.netlify.app/publication/21-citizen-oversight/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/privacy/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/legal-socialization/</loc>
+    <loc>https://jnix.netlify.app/tags/legal-socialization/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/relational-schemas/</loc>
+    <loc>https://jnix.netlify.app/tags/relational-schemas/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/sean-patrick-roche/</loc>
+    <loc>https://jnix.netlify.app/authors/sean-patrick-roche/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/20-rjs/</loc>
+    <loc>https://jnix.netlify.app/publication/20-rjs/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mturk/</loc>
+    <loc>https://jnix.netlify.app/tags/mturk/</loc>
     <lastmod>2018-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ferguson-effect/</loc>
+    <loc>https://jnix.netlify.app/tags/ferguson-effect/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/16-mgmt-ferguson/</loc>
+    <loc>https://jnix.netlify.app/publication/16-mgmt-ferguson/</loc>
     <lastmod>2018-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/bradley-campbell/</loc>
+    <loc>https://jnix.netlify.app/authors/bradley-campbell/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/17-domestic-ois/</loc>
+    <loc>https://jnix.netlify.app/publication/17-domestic-ois/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/edward-maguire/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication/15-are-fatalois-increasing/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/time-series-analysis/</loc>
+    <loc>https://jnix.netlify.app/authors/edward-maguire/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/18-mgmt-sc-oj/</loc>
+    <loc>https://jnix.netlify.app/publication/15-are-fatalois-increasing/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/tags/time-series-analysis/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jnix.netlify.app/publication/18-mgmt-sc-oj/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/self-control/</loc>
+    <loc>https://jnix.netlify.app/tags/self-control/</loc>
     <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/14-perceived-war-on-cops/</loc>
+    <loc>https://jnix.netlify.app/publication/14-perceived-war-on-cops/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/13-demeanor-pj-experiments/</loc>
+    <loc>https://jnix.netlify.app/publication/13-demeanor-pj-experiments/</loc>
     <lastmod>2017-11-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/book-review/</loc>
+    <loc>https://jnix.netlify.app/tags/book-review/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/distributive-justice/</loc>
+    <loc>https://jnix.netlify.app/tags/distributive-justice/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/10-ext-legit/</loc>
+    <loc>https://jnix.netlify.app/publication/10-ext-legit/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/bookreview-when_police_kill/</loc>
+    <loc>https://jnix.netlify.app/publication/bookreview-when_police_kill/</loc>
     <lastmod>2017-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/8-war-on-cops/</loc>
+    <loc>https://jnix.netlify.app/publication/8-war-on-cops/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/11-extlegit-coop/</loc>
+    <loc>https://jnix.netlify.app/publication/11-extlegit-coop/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/12-hostile-media-efx/</loc>
+    <loc>https://jnix.netlify.app/publication/12-hostile-media-efx/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/third-person-effects/</loc>
+    <loc>https://jnix.netlify.app/tags/third-person-effects/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/9-police-trust-in-agency/</loc>
+    <loc>https://jnix.netlify.app/publication/9-police-trust-in-agency/</loc>
     <lastmod>2017-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/6-birds-eye/</loc>
+    <loc>https://jnix.netlify.app/publication/6-birds-eye/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/edward-byers/</loc>
+    <loc>https://jnix.netlify.app/authors/edward-byers/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/7-negpub-selflegit/</loc>
+    <loc>https://jnix.netlify.app/publication/7-negpub-selflegit/</loc>
     <lastmod>2017-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/4-sensitivity-to-ferg/</loc>
+    <loc>https://jnix.netlify.app/publication/4-sensitivity-to-ferg/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/cartels/</loc>
+    <loc>https://jnix.netlify.app/tags/cartels/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/drug-trafficking/</loc>
+    <loc>https://jnix.netlify.app/tags/drug-trafficking/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/matthew-petrocelli/</loc>
+    <loc>https://jnix.netlify.app/authors/matthew-petrocelli/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/michael-smith/</loc>
+    <loc>https://jnix.netlify.app/authors/michael-smith/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/social-media/</loc>
+    <loc>https://jnix.netlify.app/tags/social-media/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/social-network-analysis/</loc>
+    <loc>https://jnix.netlify.app/tags/social-network-analysis/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/5-cartels/</loc>
+    <loc>https://jnix.netlify.app/publication/5-cartels/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/victor-manjarrez/</loc>
+    <loc>https://jnix.netlify.app/authors/victor-manjarrez/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/3-invariance/</loc>
+    <loc>https://jnix.netlify.app/publication/3-invariance/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/robert-kaminski/</loc>
+    <loc>https://jnix.netlify.app/authors/robert-kaminski/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/bookreview-pulled_over/</loc>
+    <loc>https://jnix.netlify.app/publication/bookreview-pulled_over/</loc>
     <lastmod>2016-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/external-project/</loc>
+    <loc>https://jnix.netlify.app/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/internal-project/</loc>
+    <loc>https://jnix.netlify.app/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/</loc>
+    <loc>https://jnix.netlify.app/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/2-alleged-ferg-effect/</loc>
+    <loc>https://jnix.netlify.app/publication/2-alleged-ferg-effect/</loc>
     <lastmod>2016-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/collective-efficacy/</loc>
+    <loc>https://jnix.netlify.app/tags/collective-efficacy/</loc>
     <lastmod>2015-05-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/1-trust-in-police/</loc>
+    <loc>https://jnix.netlify.app/publication/1-trust-in-police/</loc>
     <lastmod>2015-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://jnix.netlify.app/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/courses/</loc>
+    <loc>https://jnix.netlify.app/courses/</loc>
   </url>
   
 </urlset>

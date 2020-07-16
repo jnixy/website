@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michael Sierra-Arévalo on Justin Nix</title>
-    <link>/authors/michael-sierra-ar%C3%A9valo/</link>
+    <link>https://jnix.netlify.app/authors/michael-sierra-ar%C3%A9valo/</link>
     <description>Recent content in Michael Sierra-Arévalo on Justin Nix</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="/authors/michael-sierra-ar%C3%A9valo/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jnix.netlify.app/authors/michael-sierra-ar%C3%A9valo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gun victimization in the line of duty: Fatal and non-fatal firearm assaults on police officers in the United States, 2014-2019</title>
-      <link>/publication/33-cpp-gva/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <link>https://jnix.netlify.app/publication/33-cpp-gva/</link>
+      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/publication/33-cpp-gva/</guid>
+      <guid>https://jnix.netlify.app/publication/33-cpp-gva/</guid>
       <description>&lt;hr /&gt;
 
 &lt;p&gt;Replication files are available at the top of this page. All analyses were performed in Stata v15.1. For Figure 4, you will need to install Michael Stepner&amp;rsquo;s &lt;a href=&#34;https://michaelstepner.com/maptile/&#34; target=&#34;_blank&#34;&gt;maptile and spmap&lt;/a&gt; commands.&lt;/p&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>Gun Violence Against U.S. Police Officers: Insights from a New Dataset</title>
-      <link>/post/post10-gvaanalysis/</link>
+      <link>https://jnix.netlify.app/post/post10-gvaanalysis/</link>
       <pubDate>Wed, 20 May 2020 06:30:00 +0000</pubDate>
       
-      <guid>/post/post10-gvaanalysis/</guid>
+      <guid>https://jnix.netlify.app/post/post10-gvaanalysis/</guid>
       <description>&lt;p&gt;In a forthcoming paper in &lt;em&gt;Criminology &amp;amp; Public Policy&lt;/em&gt;, Michael and I conducted an exploratory analysis of fatal and non-fatal firearm assaults on U.S police officers using six years of public data provided by the &lt;a href=&#34;https://www.gunviolencearchive.org/&#34; target=&#34;_blank&#34;&gt;Gun Violence Archive&lt;/a&gt;. We adopted the following inclusion criteria:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -47,17 +47,17 @@
 
 &lt;p&gt;At the state level, the number of firearm assaults ranged from a low of 2 (in Delaware, Montana, North Dakota, Rhode Island, and Vermont) to a high of 143 in Texas:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/GVA1.png&#34; alt=&#34;GVA1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/GVA1.png&#34; alt=&#34;GVA1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This ordering is unsurprising for a simple reason: there are far more officers in Texas than most other states. To account for differences across states in the number of police officers, we calculated state-level rates per 1,000 officers using Police Employee data provided by the FBI. Using these rates provides a different view of the relative incidence of firearm assault across states.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/GVA2.png&#34; alt=&#34;GVA2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/GVA2.png&#34; alt=&#34;GVA2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Instead of being at the top of the list, Texas falls to 18th. California, which has the 2nd highest frequency of firearm assault on police, falls to 38th when using a rate. Overall, rates varied from a low of 0.06 firearm assaults per 1,000 officers in Connecticut to a high of 1.56 per 1,000 in New Mexico (at first glance, Mississippi’s rate is higher, but this rate is biased by statewide underreporting of Police Employee data to the UCR).&lt;/p&gt;
 
 &lt;p&gt;When looking at things spatially, some interesting patterns emerge. Generally, Northeastern states have a lower firearm assault rate than states in the South Eastern and South Western United States. However, the story is not strictly regional: Utah and California’s rates, for example, are more similar to New York and Massachusetts than to nearby Arizona and New Mexico.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/GVA3.png&#34; alt=&#34;GVA3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/GVA3.png&#34; alt=&#34;GVA3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The behind the scenes work with GVA data also provides some really important lessons for future work. Early on, we made the decision to manually vet each case by using the news story URLs that GVA includes with each assault record. In cases where links were dead or missing, we did manual searches using the listed date, location, and other details to try and find an online record with which to verify case details. I shudder remembering about how long this took us (thanks to Kateryna Kaplan at Rutgers SCJ for her help with this arduous task!), but it proved to be a valuable experience. We ultimately excluded &lt;strong&gt;510 incidents&lt;/strong&gt; from the original dataset which didn’t meet our inclusion criteria—&lt;strong&gt;over 25% of the raw data we received from GVA!&lt;/strong&gt;&lt;/p&gt;
 

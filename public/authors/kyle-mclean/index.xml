@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kyle McLean on Justin Nix</title>
-    <link>/authors/kyle-mclean/</link>
+    <link>https://jnix.netlify.app/authors/kyle-mclean/</link>
     <description>Recent content in Kyle McLean on Justin Nix</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Jun 2020 09:30:00 +0000</lastBuildDate>
     
-	    <atom:link href="/authors/kyle-mclean/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jnix.netlify.app/authors/kyle-mclean/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>No Significant Decline in NYC Shootings Amidst COVID-19 Pandemic</title>
-      <link>/post/post11-nyc-covid-shootings/</link>
+      <link>https://jnix.netlify.app/post/post11-nyc-covid-shootings/</link>
       <pubDate>Wed, 03 Jun 2020 09:30:00 +0000</pubDate>
       
-      <guid>/post/post11-nyc-covid-shootings/</guid>
+      <guid>https://jnix.netlify.app/post/post11-nyc-covid-shootings/</guid>
       <description>&lt;p&gt;On March 1, 2020, New York City reported its first confirmed case of COVID-19. Eleven days later, Mayor de Blasio declared a state of emergency. By mid-March, the most populous city in America had essentially shut down. Schools, libraries, gyms, theaters, churches and nightclubs closed. Major sporting events and concerts were cancelled. Restaurants were limited to take-out and delivery only. Non-essential gatherings of any size were prohibited, and New Yorkers were ordered to “shelter in place.” As of today, the city is reporting over 205,000 confirmed cases and over 16,000 deaths.&lt;/p&gt;
 
 &lt;p&gt;How have these significant disruptions to daily life in NYC affected crime, and in particular, &lt;strong&gt;shootings&lt;/strong&gt;? Other cities have witnessed an array of trends in &lt;strong&gt;gun violence&lt;/strong&gt; (i.e., crimes committed with a firearm) amidst the COVID-19 pandemic. In Dallas and Tucson, for example, gun violence increased despite decreases in other violent crimes. In Nashville and Philadelphia, gun violence remained stable. Meanwhile, in other cities – including Baltimore, Chicago, Los Angeles, New Orleans, and Washington, DC – gun violence decreased.&lt;sup&gt;[1]&lt;/sup&gt; Here in Omaha, the local police department reports that shootings and “shots fired” calls have increased.&lt;sup&gt;[2]&lt;/sup&gt;&lt;/p&gt;
@@ -25,11 +25,11 @@
 
 &lt;p&gt;Curious about what happened in NYC, I teamed up with NIJ LEADS Scholar John Hall (NYPD) and fellow LEADS Academic &lt;a href=&#34;https://twitter.com/Clempoliceprof&#34; target=&#34;_blank&#34;&gt;Kyle McLean&lt;/a&gt; (Clemson University). First, we simply examined trends in shootings in 2020. There had been 341 shootings as of June 2nd, with the daily total ranging from 0 to 9 with a mean of 2.2:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/nyc_shootings_1.png&#34; alt=&#34;NYC1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/nyc_shootings_1.png&#34; alt=&#34;NYC1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The daily total bounces around so much that it’s difficult to draw any conclusions about the trend. So, we next smoothed out some of the noise by plotting the 7-day running mean:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/nyc_shootings_2.png&#34; alt=&#34;NYC2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/nyc_shootings_2.png&#34; alt=&#34;NYC2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It looks like there was a brief uptick following the first reported COVID-19 case, then a brief decline following the state of emergency declaration, and an upward trend throughout April and May.&lt;/p&gt;
 
@@ -37,7 +37,7 @@
 
 &lt;p&gt;With this in mind, we next examined trends in shootings from January 1, 2016 through June 2, 2020. In the graph below, we’ve imposed the 2020 trend line (as of June 2nd) over the trend lines for each of the previous four years. Here, the lines represent 7-day running means, to smooth out some of the day-to-day noisiness.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/nyc_shootings_3.png&#34; alt=&#34;NYC3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/nyc_shootings_3.png&#34; alt=&#34;NYC3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Viewed in this way, the recent uptick NYC has observed in 2020 doesn’t appear inconsistent with what happened each of the last four years. So while we can confidently say that shootings &lt;strong&gt;haven’t declined&lt;/strong&gt; amidst the COVID-19 pandemic, the data don’t really suggest that shootings are significantly up, either.&lt;/p&gt;
 

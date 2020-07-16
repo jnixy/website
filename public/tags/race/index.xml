@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Race on Justin Nix</title>
-    <link>/tags/race/</link>
+    <link>https://jnix.netlify.app/tags/race/</link>
     <description>Recent content in Race on Justin Nix</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2020 14:30:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/race/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jnix.netlify.app/tags/race/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Police Shooting Research and the Conditional Probability Mistake</title>
-      <link>/post/post9-response-to-aw/</link>
+      <link>https://jnix.netlify.app/post/post9-response-to-aw/</link>
       <pubDate>Mon, 27 Jan 2020 14:30:00 +0000</pubDate>
       
-      <guid>/post/post9-response-to-aw/</guid>
+      <guid>https://jnix.netlify.app/post/post9-response-to-aw/</guid>
       <description>&lt;p&gt;Yesterday, Andy Wheeler &lt;a href=&#34;https://andrewpwheeler.com/2020/01/26/statement-on-recent-officer-involved-shooting-research/&#34; target=&#34;_blank&#34;&gt;posted&lt;/a&gt; a summary of the problems with recent studies about officer-involved shootings, including &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/1745-9133.12269&#34; target=&#34;_blank&#34;&gt;one&lt;/a&gt; my colleagues and I published in February 2017. As usual, Andy’s criticisms were thoughtful and spot on. And I hope I can take him up on that conference beer soon, even though he’s at a new job.&lt;/p&gt;
 
 &lt;p&gt;That said, I do want to push back just &lt;em&gt;a little&lt;/em&gt; about the motivation for our paper. Brad and I had the idea for it because journalists and activists were getting the denominator wrong when they tried to interpret the (at the time) new WAPO &amp;amp; Guardian data.&lt;/p&gt;
@@ -25,15 +25,15 @@
 
 &lt;p&gt;We really tried to be transparent about the limitations of the data:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW1.jpg&#34; alt=&#34;AW1&#34; /&gt;
-&lt;img src=&#34;/img/AW2.jpg&#34; alt=&#34;AW2&#34; /&gt;
-&lt;img src=&#34;/img/AW3.jpg&#34; alt=&#34;AW3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW1.jpg&#34; alt=&#34;AW1&#34; /&gt;
+&lt;img src=&#34;https://jnix.netlify.app/img/AW2.jpg&#34; alt=&#34;AW2&#34; /&gt;
+&lt;img src=&#34;https://jnix.netlify.app/img/AW3.jpg&#34; alt=&#34;AW3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Of course, with the benefit of hindsight, we’d be even more careful.&lt;/p&gt;
 
 &lt;p&gt;I agree wholeheartedly with Andy that &lt;em&gt;the question of whether &amp;ldquo;the police&amp;rdquo; are racially biased is a facile question.&lt;/em&gt; But I also recognize it’s a question that journalists, activists, and others routinely try to answer simply by looking at raw numbers reported by WAPO or &lt;em&gt;Mapping Police Violence&lt;/em&gt; (or at most, benchmarking them against the general population). Consistent with the first retort Andy said he often hears, I feel it is our responsibility as social scientists to learn what we can from the data we have, and push for better data so that we can continue to learn more.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW4.jpg&#34; alt=&#34;AW4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW4.jpg&#34; alt=&#34;AW4&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since then, I’ve written extensively about the importance of using better benchmarks to understand disparities in policing. See for example, &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/0735648X.2018.1547269&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/07418825.2019.1675748&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0047235219304398&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It&amp;rsquo;s complex, to say the least.&lt;/p&gt;
 
@@ -41,7 +41,7 @@
 
 &lt;p&gt;Lastly, Andy hit the nail on the head here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW5.jpg&#34; alt=&#34;AW5&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW5.jpg&#34; alt=&#34;AW5&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I got some pretty nasty emails after that CPP paper, and occasionally still have my motives questioned by folks on both sides. It’s unfortunate, because I think that sort of thing scares a lot of really sharp people away from doing this research.&lt;/p&gt;
 </description>
@@ -49,10 +49,10 @@
     
     <item>
       <title>New preprint: Do police killings of unarmed persons really have spillover effects?</title>
-      <link>/post/post8-bor-replication/</link>
+      <link>https://jnix.netlify.app/post/post8-bor-replication/</link>
       <pubDate>Wed, 01 Jan 2020 09:30:00 +0000</pubDate>
       
-      <guid>/post/post8-bor-replication/</guid>
+      <guid>https://jnix.netlify.app/post/post8-bor-replication/</guid>
       <description>&lt;p&gt;In 2018, &lt;em&gt;The Lancet&lt;/em&gt; published a quasi-experimental &lt;a href=&#34;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31130-9/fulltext&#34; target=&#34;_blank&#34;&gt;study&lt;/a&gt; by Jacob Bor, Atheendar Venkataramani, David Williams, and Alexander Tsai (hereafter BVWT) that alleged &amp;ldquo;police killings of unarmed black Americans have effects on mental health among black American adults in the general population&amp;rdquo; (p. 302). From this, BVWT extrapolated that police killings of unarmed black Americans may cause as many as 55 million poor mental health days each year among black adults in the US, an effect &amp;ldquo;nearly as large as the mental health burden associated with diabetes&amp;rdquo; (p. 308).&lt;/p&gt;
 
 &lt;p&gt;In our &lt;a href=&#34;https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(18)33043-5.pdf&#34; target=&#34;_blank&#34;&gt;written correspondence&lt;/a&gt; published alongside the study, James Lozada and I pointed out several cases in their data that were misclassified as involving unarmed decedents, when in fact they were in posession of deadly weapons. We also argued that individuals in posession of toy/replica firearms should have been coded &amp;ldquo;armed&amp;rdquo; instead of &amp;ldquo;unarmed.&amp;rdquo; BVWT &lt;a href=&#34;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)33060-5/fulltext&#34; target=&#34;_blank&#34;&gt;replied&lt;/a&gt; &amp;ldquo;[a]lthough some degree of misclassification of exposure is possible, it is improbable to have substantially affected our estimates or conclusions.&amp;rdquo; Surprisingly, they did not revisit their data or analyses.&lt;/p&gt;
@@ -61,7 +61,7 @@
 
 &lt;p&gt;In a new &lt;a href=&#34;https://osf.io/preprints/socarxiv/ajz2q/&#34; target=&#34;_blank&#34;&gt;preprint&lt;/a&gt;, James and I reexamined 303 police killings in BVWT&amp;rsquo;s study that were classified as involving &amp;ldquo;unarmed black victims.&amp;rdquo; We identified 91 incidents that were misclassified (i.e., 30% of all &amp;ldquo;unarmed black victims&amp;rdquo;). The table below summarizes them (additional details are available in the study&amp;rsquo;s appendix).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/bor_rep_tab1.png&#34; alt=&#34;bor_misclassifications&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/bor_rep_tab1.png&#34; alt=&#34;bor_misclassifications&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So, many of the misclassified incidents involved people who were:&lt;/p&gt;
 
@@ -95,45 +95,45 @@
     
     <item>
       <title>Do Police Killings of Unarmed Persons Really Have Spillover Effects? Reanalyzing Bor et al. (2018)</title>
-      <link>/publication/preprint-bor_replication/</link>
+      <link>https://jnix.netlify.app/publication/preprint-bor_replication/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/preprint-bor_replication/</guid>
+      <guid>https://jnix.netlify.app/publication/preprint-bor_replication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Considering Violence Against Police by Citizen Race/Ethnicity to Contextualize Representation in Officer-Involved Shootings</title>
-      <link>/publication/30-jcj-oisbenchmarks/</link>
+      <link>https://jnix.netlify.app/publication/30-jcj-oisbenchmarks/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/30-jcj-oisbenchmarks/</guid>
+      <guid>https://jnix.netlify.app/publication/30-jcj-oisbenchmarks/</guid>
       <description>&lt;p&gt;&lt;strong&gt;My co-author &lt;a href=&#34;https://twitter.com/Shjarback_CCJ&#34; target=&#34;_blank&#34;&gt;John Shjarback&lt;/a&gt; summarizes the paper nicely in this &lt;a href=&#34;https://twitter.com/Shjarback_CCJ/status/1204790201714958344&#34; target=&#34;_blank&#34;&gt;Twitter thread&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Testing a Theoretical Model of Perceived Audience Legitimacy: The Neglected Linkage in the Dialogic Model of Police–community Relations</title>
-      <link>/publication/28-perceived-aud-legit/</link>
+      <link>https://jnix.netlify.app/publication/28-perceived-aud-legit/</link>
       <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/28-perceived-aud-legit/</guid>
+      <guid>https://jnix.netlify.app/publication/28-perceived-aud-legit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New research: Police perceptions of their audience legitimacy</title>
-      <link>/post/post4-audience-legitimacy/</link>
+      <link>https://jnix.netlify.app/post/post4-audience-legitimacy/</link>
       <pubDate>Thu, 15 Aug 2019 13:25:00 +0000</pubDate>
       
-      <guid>/post/post4-audience-legitimacy/</guid>
+      <guid>https://jnix.netlify.app/post/post4-audience-legitimacy/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Background&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Last year, I conducted two police surveys with the help of my colleagues Justin Pickett and Scott Wolfe. The first was administered electronically to a large agency (over 1,500 sworn) in the south. The second was administered through the mail to a stratified random sample of 2,496 municipal police chiefs. The response rates were 31% and 27%, respectively.&lt;/p&gt;
 
 &lt;p&gt;One of my motivations for administering these surveys was to revisit a subject I wrote about for my dissertation: the police legitimacy &amp;ldquo;dialogue&amp;rdquo; proposed by &lt;a href=&#34;https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?referer=&amp;amp;httpsredir=1&amp;amp;article=7419&amp;amp;context=jclc&#34; target=&#34;_blank&#34;&gt;Anthony Bottoms and Justice Tankebe&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/legitimacy_dialogue.png&#34; alt=&#34;legitimacy_dialogue&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/legitimacy_dialogue.png&#34; alt=&#34;legitimacy_dialogue&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;While a great deal of scholarhip has focused on citizens&amp;rsquo; perceptions of police legitimacy, comparatively less has considered how officers perceive their legitimacy in the eyes of the public, and what is associated with more/less of this perceived &amp;ldquo;audience legitimacy.&amp;rdquo; To date, I&amp;rsquo;ve published two &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/0011128715620627&#34; target=&#34;_blank&#34;&gt;papers&lt;/a&gt; from my dissertation, which largely built on some of Tal Jonathan-Zamir&amp;rsquo;s &lt;a href=&#34;https://academic.oup.com/bjc/article-abstract/54/3/469/341017&#34; target=&#34;_blank&#34;&gt;work&lt;/a&gt; in Israel. Her work indicated commanding officers of the Israel National Police associate their audience legitimacy with their ability to deal with crime more so than procedural fairness. Similarly, I &lt;a href=&#34;https://journals.sagepub.com/doi/full/10.1177/0011128715597696&#34; target=&#34;_blank&#34;&gt;found&lt;/a&gt; that executives in the US associate citizen cooperation with their crime-fighting effectiveness. At the same time, my work suggested officers perceive their audience legitimacy differently in high- and low-crime areas of their community.&lt;/p&gt;
 
@@ -155,10 +155,10 @@
     
     <item>
       <title>Crowdsourced police shooting data: What we know and what we&#39;re missing</title>
-      <link>/talk/asa2019/</link>
+      <link>https://jnix.netlify.app/talk/asa2019/</link>
       <pubDate>Tue, 13 Aug 2019 10:30:00 +0000</pubDate>
       
-      <guid>/talk/asa2019/</guid>
+      <guid>https://jnix.netlify.app/talk/asa2019/</guid>
       <description>&lt;p&gt;At an invited session hosted by the Section on Crime, Law, and Deviance, Geoff Alpert and I discuss the strengths and weaknesses of crowdsourced OIS data. Other panelists include Malcolm Holmes (University of Wyoming); Gregory Zimmerman, Emma Fridel, and Keller Sheppard (Northeastern University); and Mitchell Chamlin (Texas State).&lt;/p&gt;
 
 &lt;div class=&#34;alert alert-note&#34;&gt;
@@ -171,10 +171,10 @@
     
     <item>
       <title>That new study in PNAS on fatal officer-involved shootings</title>
-      <link>/post/post3-that-new-pnas-paper/</link>
+      <link>https://jnix.netlify.app/post/post3-that-new-pnas-paper/</link>
       <pubDate>Tue, 30 Jul 2019 13:25:00 +0000</pubDate>
       
-      <guid>/post/post3-that-new-pnas-paper/</guid>
+      <guid>https://jnix.netlify.app/post/post3-that-new-pnas-paper/</guid>
       <description>&lt;p&gt;A new study published in PNAS, titled &lt;a href=&#34;https://www.pnas.org/content/early/2019/07/16/1903856116&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Officer characteristics and racial disparities in fatal officer-involved shootings&amp;rdquo;&lt;/a&gt; is getting lots of &lt;a href=&#34;https://pnas.altmetric.com/details/63894008/news&#34; target=&#34;_blank&#34;&gt;attention&lt;/a&gt; (34 news articles and tweeted by 1,808 users with an upper bound of 9.8 million followers as of 7/30/2019). It concludes, among other things, that &amp;ldquo;White officers are not more likely to shoot minoritiy civilians than non-White officers,&amp;rdquo; and &amp;ldquo;Increasing diversity among officers by itself is unlikely to reduce racial disparity in police shootings.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/DrPhilGoff/status/1155916041924431872&#34; target=&#34;_blank&#34;&gt;Others&lt;/a&gt; have been &lt;a href=&#34;https://twitter.com/jonmummolo/status/1153686295845244929&#34; target=&#34;_blank&#34;&gt;critical&lt;/a&gt; of the study, for good reason.&lt;/p&gt;
@@ -183,17 +183,17 @@
 
 &lt;p&gt;I&amp;rsquo;ve &lt;a href=&#34;https://jnix.netlify.com/post/post2-fatality-rates/&#34; target=&#34;_blank&#34;&gt;posted&lt;/a&gt; about this before. Fatal OIS are not a random sample of all OIS, so statistical analyses of them may serve to mislead us rather than shed light on the truth. Take a look at Table 2 on page 3 of their study:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/pnas_table2.png&#34; alt=&#34;pnas_table2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/pnas_table2.png&#34; alt=&#34;pnas_table2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The million dollar question here is: how often did each &amp;ldquo;variable&amp;rdquo; occur in 2015 when officers &lt;strong&gt;did not use deadly force&lt;/strong&gt;? As but one example, how often did police officers encounter suicidal civilians? In a &lt;em&gt;small subset&lt;/em&gt; of these incidents, officers fatally shot the suicidal citizen. That&amp;rsquo;s what is being analyzed in Table 2 for evidence of racial disparity. Not included in Table 2 are numerous incidents wherein the outcome was something other than a fatal OIS (e.g., nonfatal OIS, less lethal force, no force). Without knowing the racial breakdown of these counterfactual incidents, it isn&amp;rsquo;t possible to conclude anything about the &amp;ldquo;likelihood&amp;rdquo; of officers shooting minorities.&lt;/p&gt;
 
 &lt;p&gt;Next month, at the &lt;a href=&#34;https://convention2.allacademic.com/one/asa/asa19/index.php?cmd=Online+Program+View+Session&amp;amp;selected_session_id=1479837&amp;amp;PHPSESSID=2b88b5bc2glse47gdg2iriajh5&#34; target=&#34;_blank&#34;&gt;ASA meeting&lt;/a&gt; in NYC, Geoff Alpert and I will be discussing the benefits and drawbacks of analyzing crowdsourced OIS data. Chief among the drawbacks is that most track only fatal OIS, and the racial breakdown of fatal OIS often differs substantially from the racial breakdown of &lt;strong&gt;all&lt;/strong&gt; OIS. Here&amp;rsquo;s a table I made with the &lt;a href=&#34;https://news.vice.com/en_us/article/a3jjpa/nonfatal-police-shootings-data&#34; target=&#34;_blank&#34;&gt;VICE data&lt;/a&gt; I mentioned in my last post.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/asa_comparison_table.png&#34; alt=&#34;asa_comparison_table&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/asa_comparison_table.png&#34; alt=&#34;asa_comparison_table&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Among 21 jurisdictions with near complete data (&amp;lt; 5% missing) on the race of citizens shot by police from 2010-16, you can see that as you move from examining just fatalities to examining all OIS, %white decreases while %black increases. In some cities, the differences are more pronounced than others. Take Nashville, for example, where there were 39 OIS (only 11 of which were fatal):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/asa_nmpd.png&#34; alt=&#34;asa_nmpd&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/asa_nmpd.png&#34; alt=&#34;asa_nmpd&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In this case, %white and %black basically flip from fatal OIS to all OIS. Perhaps the differences would be nonsignificant in a national database, but that remains unknown since no national database includes nonfatal OIS.&lt;/p&gt;
 
@@ -209,17 +209,17 @@
     
     <item>
       <title>Validity of details in databases logging police killings</title>
-      <link>/post/post1-the-lancet/</link>
+      <link>https://jnix.netlify.app/post/post1-the-lancet/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/post1-the-lancet/</guid>
+      <guid>https://jnix.netlify.app/post/post1-the-lancet/</guid>
       <description>&lt;p&gt;A &lt;a href=&#34;https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)31130-9/fulltext&#34; target=&#34;_blank&#34;&gt;study&lt;/a&gt; published last year in The Lancet concluded that &amp;ldquo;police killings of unarmed black Americans have adverse effects on mental health among black American adults in the general population.&amp;rdquo; They used &lt;a href=&#34;https://mappingpoliceviolence.org/&#34; target=&#34;_blank&#34;&gt;Mapping Police Violence&lt;/a&gt; data, wherein individuals are coded as &amp;ldquo;unarmed&amp;rdquo; if they had a toy/replica gun or if they were &amp;ldquo;alleged to be armed by the police, but multiple independent witnesses maintain the person was unarmed.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;These are &lt;strong&gt;hugely&lt;/strong&gt; important caveats. Toy/replica guns can be nearly indistinguishable from actual guns, especially in a matter of split seconds. This is why similar databases compiled by &lt;a href=&#34;https://www.washingtonpost.com/graphics/2019/national/police-shootings-2019/?utm_term=.ea6193d6288e&#34; target=&#34;_blank&#34;&gt;The Washington Post&lt;/a&gt; and &lt;a href=&#34;https://www.theguardian.com/us-news/series/counted-us-police-killings&#34; target=&#34;_blank&#34;&gt;The Guardian&lt;/a&gt; are careful to label such incidents as involving toy/replica guns, rather than no weapon at all. Likewise, it is debatable whether we should dismiss police accounts of an incident simply because two or more witnesses disagree.&lt;/p&gt;
 
 &lt;p&gt;One Saturday last summer, my colleague, &lt;a href=&#34;https://ww2.mc.vanderbilt.edu/physcifaculty/53075&#34; target=&#34;_blank&#34;&gt;James Lozada&lt;/a&gt;, and I decided to take a closer look at 110 fatal officer-involved shootings (OIS) that occurred from 2015 to 2017 involving a black citizen who MPV coded as &amp;ldquo;unarmed.&amp;rdquo; We focused specifically on OIS deaths because (1) these account for the vast majority of citizen fatalities at the hands of police, and (2) WAPO&amp;rsquo;s data do not include deaths by other means. Among these 110 OIS, &lt;strong&gt;36&lt;/strong&gt; involved individuals &lt;strong&gt;who were not unarmed&lt;/strong&gt; according to WAPO and The Guardian. Most had a toy/replica firearm, but four had an actual firearm, one had a knife, and three were undetermined according to WAPO:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/lancet_table.png&#34; alt=&#34;lancet_table&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/lancet_table.png&#34; alt=&#34;lancet_table&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The Lancent published our &lt;a href=&#34;https://www.thelancet.com/pdfs/journals/lancet/PIIS0140-6736(18)33043-5.pdf&#34; target=&#34;_blank&#34;&gt;written correspondence&lt;/a&gt; earlier this year, though unfortunately, we were limited to 250 words. Our original submission was approximately 1,000 words and included tables that listed the discrepancies between MPV and WAPO/The Guardian.&lt;/p&gt;
 
@@ -235,37 +235,37 @@
     
     <item>
       <title>Disparity Does Not Mean Bias: Making Sense of Observed Racial Disparities in Fatal Officer-involved Shootings with Multiple Benchmarks</title>
-      <link>/publication/23-disparity-bias/</link>
+      <link>https://jnix.netlify.app/publication/23-disparity-bias/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/23-disparity-bias/</guid>
+      <guid>https://jnix.netlify.app/publication/23-disparity-bias/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demeanor, Race, and Police Perceptions of Procedural Justice: Evidence from Two Randomized Experiments</title>
-      <link>/publication/13-demeanor-pj-experiments/</link>
+      <link>https://jnix.netlify.app/publication/13-demeanor-pj-experiments/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/13-demeanor-pj-experiments/</guid>
+      <guid>https://jnix.netlify.app/publication/13-demeanor-pj-experiments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Bird&#39;s Eye View of Civilians Killed by Police in 2015: Further Evidence of Implicit Bias</title>
-      <link>/publication/6-birds-eye/</link>
+      <link>https://jnix.netlify.app/publication/6-birds-eye/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/6-birds-eye/</guid>
+      <guid>https://jnix.netlify.app/publication/6-birds-eye/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Review of _Pulled Over: How Police Stops Define Race and Citizenship_</title>
-      <link>/publication/bookreview-pulled_over/</link>
+      <link>https://jnix.netlify.app/publication/bookreview-pulled_over/</link>
       <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/bookreview-pulled_over/</guid>
+      <guid>https://jnix.netlify.app/publication/bookreview-pulled_over/</guid>
       <description></description>
     </item>
     

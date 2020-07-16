@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Implicit bias on Justin Nix</title>
-    <link>/tags/implicit-bias/</link>
+    <link>https://jnix.netlify.app/tags/implicit-bias/</link>
     <description>Recent content in Implicit bias on Justin Nix</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2020 14:30:00 +0000</lastBuildDate>
     
-	    <atom:link href="/tags/implicit-bias/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://jnix.netlify.app/tags/implicit-bias/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Police Shooting Research and the Conditional Probability Mistake</title>
-      <link>/post/post9-response-to-aw/</link>
+      <link>https://jnix.netlify.app/post/post9-response-to-aw/</link>
       <pubDate>Mon, 27 Jan 2020 14:30:00 +0000</pubDate>
       
-      <guid>/post/post9-response-to-aw/</guid>
+      <guid>https://jnix.netlify.app/post/post9-response-to-aw/</guid>
       <description>&lt;p&gt;Yesterday, Andy Wheeler &lt;a href=&#34;https://andrewpwheeler.com/2020/01/26/statement-on-recent-officer-involved-shooting-research/&#34; target=&#34;_blank&#34;&gt;posted&lt;/a&gt; a summary of the problems with recent studies about officer-involved shootings, including &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1111/1745-9133.12269&#34; target=&#34;_blank&#34;&gt;one&lt;/a&gt; my colleagues and I published in February 2017. As usual, Andy’s criticisms were thoughtful and spot on. And I hope I can take him up on that conference beer soon, even though he’s at a new job.&lt;/p&gt;
 
 &lt;p&gt;That said, I do want to push back just &lt;em&gt;a little&lt;/em&gt; about the motivation for our paper. Brad and I had the idea for it because journalists and activists were getting the denominator wrong when they tried to interpret the (at the time) new WAPO &amp;amp; Guardian data.&lt;/p&gt;
@@ -25,15 +25,15 @@
 
 &lt;p&gt;We really tried to be transparent about the limitations of the data:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW1.jpg&#34; alt=&#34;AW1&#34; /&gt;
-&lt;img src=&#34;/img/AW2.jpg&#34; alt=&#34;AW2&#34; /&gt;
-&lt;img src=&#34;/img/AW3.jpg&#34; alt=&#34;AW3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW1.jpg&#34; alt=&#34;AW1&#34; /&gt;
+&lt;img src=&#34;https://jnix.netlify.app/img/AW2.jpg&#34; alt=&#34;AW2&#34; /&gt;
+&lt;img src=&#34;https://jnix.netlify.app/img/AW3.jpg&#34; alt=&#34;AW3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Of course, with the benefit of hindsight, we’d be even more careful.&lt;/p&gt;
 
 &lt;p&gt;I agree wholeheartedly with Andy that &lt;em&gt;the question of whether &amp;ldquo;the police&amp;rdquo; are racially biased is a facile question.&lt;/em&gt; But I also recognize it’s a question that journalists, activists, and others routinely try to answer simply by looking at raw numbers reported by WAPO or &lt;em&gt;Mapping Police Violence&lt;/em&gt; (or at most, benchmarking them against the general population). Consistent with the first retort Andy said he often hears, I feel it is our responsibility as social scientists to learn what we can from the data we have, and push for better data so that we can continue to learn more.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW4.jpg&#34; alt=&#34;AW4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW4.jpg&#34; alt=&#34;AW4&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Since then, I’ve written extensively about the importance of using better benchmarks to understand disparities in policing. See for example, &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/0735648X.2018.1547269&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/07418825.2019.1675748&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0047235219304398&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It&amp;rsquo;s complex, to say the least.&lt;/p&gt;
 
@@ -41,7 +41,7 @@
 
 &lt;p&gt;Lastly, Andy hit the nail on the head here:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/AW5.jpg&#34; alt=&#34;AW5&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/AW5.jpg&#34; alt=&#34;AW5&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I got some pretty nasty emails after that CPP paper, and occasionally still have my motives questioned by folks on both sides. It’s unfortunate, because I think that sort of thing scares a lot of really sharp people away from doing this research.&lt;/p&gt;
 </description>
@@ -49,19 +49,19 @@
     
     <item>
       <title>A Bird&#39;s Eye View of Civilians Killed by Police in 2015: Further Evidence of Implicit Bias</title>
-      <link>/publication/6-birds-eye/</link>
+      <link>https://jnix.netlify.app/publication/6-birds-eye/</link>
       <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/publication/6-birds-eye/</guid>
+      <guid>https://jnix.netlify.app/publication/6-birds-eye/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Review of _Pulled Over: How Police Stops Define Race and Citizenship_</title>
-      <link>/publication/bookreview-pulled_over/</link>
+      <link>https://jnix.netlify.app/publication/bookreview-pulled_over/</link>
       <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/bookreview-pulled_over/</guid>
+      <guid>https://jnix.netlify.app/publication/bookreview-pulled_over/</guid>
       <description></description>
     </item>
     
