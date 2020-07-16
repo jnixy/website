@@ -5,7 +5,7 @@ abstract: "**Research Summary**: Using open-source data from the Gun Violence Ar
 authors:
 - Michael Sierra-Arévalo
 - admin
-date: "2020-08-01T00:00:00Z"
+date: "2020-07-13T00:00:00Z"
 doi: 10.1111/1745-9133.12507
 featured: false
 image:
