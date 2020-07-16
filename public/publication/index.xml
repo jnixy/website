@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Justin Nix</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on Justin Nix</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gun victimization in the line of duty: Fatal and non-fatal firearm assaults on police officers in the United States, 2014-2019</title>
+      <link>/publication/33-cpp-gva/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/33-cpp-gva/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;Replication files are available at the top of this page. All analyses were performed in Stata v15.1. For Figure 4, you will need to install Michael Stepner&amp;rsquo;s &lt;a href=&#34;https://michaelstepner.com/maptile/&#34; target=&#34;_blank&#34;&gt;maptile and spmap&lt;/a&gt; commands.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Procedural Justice in Policing</title>
+      <link>/publication/chapter-pj-critical_issues/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chapter-pj-critical_issues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Defunding or disbanding the police is a dangerous idea if done hastily</title>
+      <link>/publication/32-wapo-defunding-oped/</link>
+      <pubDate>Thu, 18 Jun 2020 10:52:00 +0000</pubDate>
+      
+      <guid>/publication/32-wapo-defunding-oped/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding body-worn camera diffusion in U.S. policing</title>
+      <link>/publication/31-pq-bwc-diffusion/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/31-pq-bwc-diffusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do Police Killings of Unarmed Persons Really Have Spillover Effects? Reanalyzing Bor et al. (2018)</title>
+      <link>/publication/preprint-bor_replication/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/preprint-bor_replication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Considering Violence Against Police by Citizen Race/Ethnicity to Contextualize Representation in Officer-Involved Shootings</title>
+      <link>/publication/30-jcj-oisbenchmarks/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/30-jcj-oisbenchmarks/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;My co-author &lt;a href=&#34;https://twitter.com/Shjarback_CCJ&#34; target=&#34;_blank&#34;&gt;John Shjarback&lt;/a&gt; summarizes the paper nicely in this &lt;a href=&#34;https://twitter.com/Shjarback_CCJ/status/1204790201714958344&#34; target=&#34;_blank&#34;&gt;Twitter thread&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Are Domestic Disturbances Really More Dangerous to Police? Findings from the 2016 National Incident Based Reporting System</title>
+      <link>/publication/29-domestics-nibrs/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/29-domestics-nibrs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing a Theoretical Model of Perceived Audience Legitimacy: The Neglected Linkage in the Dialogic Model of Police–community Relations</title>
+      <link>/publication/28-perceived-aud-legit/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/28-perceived-aud-legit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compliance, Noncompliance, and the In-between: Causal Effects of Civilian Demeanor on Police Officers’ Cognitions and Emotions</title>
+      <link>/publication/27-demeanor-experiments/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/27-demeanor-experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police Research, Officer Surveys, and Response Rates</title>
+      <link>/publication/22-response-rates/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/22-response-rates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of 2018 Use of Deadly Force by the Phoenix Police Department</title>
+      <link>/publication/report-pf_phx_ois/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/report-pf_phx_ois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demeanor and Police Culture: Theorizing How Civilian Cooperation Influences Police Officers</title>
+      <link>/publication/26-pjc-demeanor/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/26-pjc-demeanor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disparity Does Not Mean Bias: Making Sense of Observed Racial Disparities in Fatal Officer-involved Shootings with Multiple Benchmarks</title>
+      <link>/publication/23-disparity-bias/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/23-disparity-bias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Las Vegas Mass Shooting: An Analysis of Blood Component Administration and Blood Bank Donations</title>
+      <link>/publication/24-lvshooting/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/24-lvshooting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Ecological Structuring of Police Officers’ Perceptions of Citizen Cooperation</title>
+      <link>/publication/19-ecological-cooperation/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/19-ecological-cooperation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police Officers’ Attitudes Toward Citizen Advisory Councils</title>
+      <link>/publication/21-citizen-oversight/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/21-citizen-oversight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing a Social Schematic Model of Police Procedural Justice</title>
+      <link>/publication/20-rjs/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/20-rjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management-level Officers’ Experiences with the Ferguson effect</title>
+      <link>/publication/16-mgmt-ferguson/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/16-mgmt-ferguson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domestic Disturbances and Fatal Police Shootings: An Analysis of the Washington Post’s Data</title>
+      <link>/publication/17-domestic-ois/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/17-domestic-ois/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the Number of Citizens Fatally Shot by Police Increasing in the Post-Ferguson Era?</title>
+      <link>/publication/15-are-fatalois-increasing/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/15-are-fatalois-increasing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police Managers’ Self-Control and Support for Organizational Justice</title>
+      <link>/publication/18-mgmt-sc-oj/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/18-mgmt-sc-oj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command-level Police Officers&#39; Perceptions of the &#39;War on Cops&#39; and De-policing</title>
+      <link>/publication/14-perceived-war-on-cops/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/14-perceived-war-on-cops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demeanor, Race, and Police Perceptions of Procedural Justice: Evidence from Two Randomized Experiments</title>
+      <link>/publication/13-demeanor-pj-experiments/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/13-demeanor-pj-experiments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police Perceptions of Their External Legitimacy in High and Low Crime Areas of the Community</title>
+      <link>/publication/10-ext-legit/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/10-ext-legit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of _When Police Kill_</title>
+      <link>/publication/bookreview-when_police_kill/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bookreview-when_police_kill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A War on Cops? The Effects of Ferguson on the Number of U.S. Police Officers Murdered in the Line of Duty</title>
+      <link>/publication/8-war-on-cops/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/8-war-on-cops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do the Police Believe That Legitimacy Promotes Cooperation From the Public?</title>
+      <link>/publication/11-extlegit-coop/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/11-extlegit-coop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Third-person Perceptions, Hostile Media Effects, and Policing: Developing a Theoretical Framework for Assessing the Ferguson Effect</title>
+      <link>/publication/12-hostile-media-efx/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/12-hostile-media-efx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Police Officers&#39; Trust in Their Agency: Does Self-Legitimacy Protect Against Supervisor Procedural Injustice?</title>
+      <link>/publication/9-police-trust-in-agency/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/9-police-trust-in-agency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Bird&#39;s Eye View of Civilians Killed by Police in 2015: Further Evidence of Implicit Bias</title>
+      <link>/publication/6-birds-eye/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/6-birds-eye/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Impact of Negative Publicity on Police Self-legitimacy</title>
+      <link>/publication/7-negpub-selflegit/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/7-negpub-selflegit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensitivity to the Ferguson Effect: The Role of Managerial Organizational Justice</title>
+      <link>/publication/4-sensitivity-to-ferg/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/4-sensitivity-to-ferg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Use of Social Media by Alleged Members of Mexican Cartels and Affiliated Drug Trafficking Organizations</title>
+      <link>/publication/5-cartels/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/5-cartels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Is the Effect of Procedural Justice on Police Legitimacy Invariant? Testing the Generality of Procedural Justice and Competing Antecedents of Legitimacy</title>
+      <link>/publication/3-invariance/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/3-invariance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of _Pulled Over: How Police Stops Define Race and Citizenship_</title>
+      <link>/publication/bookreview-pulled_over/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bookreview-pulled_over/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Alleged Ferguson Effect and Police Willingness to Engage in Community Partnership</title>
+      <link>/publication/2-alleged-ferg-effect/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2-alleged-ferg-effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trust in the Police:  The Influence of Procedural Justice and Perceived Collective Efficacy</title>
+      <link>/publication/1-trust-in-police/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/1-trust-in-police/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

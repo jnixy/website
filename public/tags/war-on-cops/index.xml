@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>War on Cops on Justin Nix</title>
+    <link>/tags/war-on-cops/</link>
+    <description>Recent content in War on Cops on Justin Nix</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/war-on-cops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gun victimization in the line of duty: Fatal and non-fatal firearm assaults on police officers in the United States, 2014-2019</title>
+      <link>/publication/33-cpp-gva/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/33-cpp-gva/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;Replication files are available at the top of this page. All analyses were performed in Stata v15.1. For Figure 4, you will need to install Michael Stepner&amp;rsquo;s &lt;a href=&#34;https://michaelstepner.com/maptile/&#34; target=&#34;_blank&#34;&gt;maptile and spmap&lt;/a&gt; commands.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gun Violence Against U.S. Police Officers: Insights from a New Dataset</title>
+      <link>/post/post10-gvaanalysis/</link>
+      <pubDate>Wed, 20 May 2020 06:30:00 +0000</pubDate>
+      
+      <guid>/post/post10-gvaanalysis/</guid>
+      <description>&lt;p&gt;In a forthcoming paper in &lt;em&gt;Criminology &amp;amp; Public Policy&lt;/em&gt;, Michael and I conducted an exploratory analysis of fatal and non-fatal firearm assaults on U.S police officers using six years of public data provided by the &lt;a href=&#34;https://www.gunviolencearchive.org/&#34; target=&#34;_blank&#34;&gt;Gun Violence Archive&lt;/a&gt;. We adopted the following inclusion criteria:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Victim was a sworn officer employed by a local, state, or special jurisdiction law enforcement agency that routinely responds to calls for service (i.e., officers employed by town, city, or county agencies, sheriff’s departments, state agencies, tribal police, university police, transit police)&lt;/li&gt;
+&lt;li&gt;Victim was on duty at the time of assault&lt;/li&gt;
+&lt;li&gt;The bullet struck the victim’s person or his/her equipment (excluding vehicle)&lt;/li&gt;
+&lt;li&gt;The bullet came from a real firearm (i.e., not a pellet/BB gun or shrapnel from an explosion)&lt;/li&gt;
+&lt;li&gt;The shooter was not a police officer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We excluded off-duty firearm injuries, self-inflicted injuries (whether accidental or intentional), and injuries resulting from friendly fire. Our analysis also omitted cases in which a suspect fired at but did not strike an officer.&lt;/p&gt;
+
+&lt;p&gt;We identified 1,467 officers who were assaulted by gunfire across 1,185 incidents (1.24 officers per incident). Of them, 249 died and 1,218 survived. This underscores the importance of examining nonlethal shootings alongside fatal shootings in order to understand the true prevalence of potentially lethal violence against police officers.&lt;/p&gt;
+
+&lt;p&gt;At the national level, the rate of firearm assaults per 100,000 sworn officers has fluctuated between 29.9 and 44.1 over the last six years. Though there was a notable spike in 2016, the data don’t provide clear evidence of a significant increase in firearm assaults of police officers over this period. This finding is in line with a recent &lt;a href=&#34;https://doi.org/10.1177/1098611120919441&#34; target=&#34;_blank&#34;&gt;analysis&lt;/a&gt; by Michael White that focused on ambush-style attacks on police: despite some single-year spikes, there is no evidence of a longitudinal increase in ambushes against police.&lt;/p&gt;
+
+&lt;p&gt;At the state level, the number of firearm assaults ranged from a low of 2 (in Delaware, Montana, North Dakota, Rhode Island, and Vermont) to a high of 143 in Texas:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/GVA1.png&#34; alt=&#34;GVA1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This ordering is unsurprising for a simple reason: there are far more officers in Texas than most other states. To account for differences across states in the number of police officers, we calculated state-level rates per 1,000 officers using Police Employee data provided by the FBI. Using these rates provides a different view of the relative incidence of firearm assault across states.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/GVA2.png&#34; alt=&#34;GVA2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of being at the top of the list, Texas falls to 18th. California, which has the 2nd highest frequency of firearm assault on police, falls to 38th when using a rate. Overall, rates varied from a low of 0.06 firearm assaults per 1,000 officers in Connecticut to a high of 1.56 per 1,000 in New Mexico (at first glance, Mississippi’s rate is higher, but this rate is biased by statewide underreporting of Police Employee data to the UCR).&lt;/p&gt;
+
+&lt;p&gt;When looking at things spatially, some interesting patterns emerge. Generally, Northeastern states have a lower firearm assault rate than states in the South Eastern and South Western United States. However, the story is not strictly regional: Utah and California’s rates, for example, are more similar to New York and Massachusetts than to nearby Arizona and New Mexico.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/GVA3.png&#34; alt=&#34;GVA3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The behind the scenes work with GVA data also provides some really important lessons for future work. Early on, we made the decision to manually vet each case by using the news story URLs that GVA includes with each assault record. In cases where links were dead or missing, we did manual searches using the listed date, location, and other details to try and find an online record with which to verify case details. I shudder remembering about how long this took us (thanks to Kateryna Kaplan at Rutgers SCJ for her help with this arduous task!), but it proved to be a valuable experience. We ultimately excluded &lt;strong&gt;510 incidents&lt;/strong&gt; from the original dataset which didn’t meet our inclusion criteria—&lt;strong&gt;over 25% of the raw data we received from GVA!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A handful of cases were &lt;em&gt;incredibly&lt;/em&gt; difficult to adjudicate and illustrate just how challenging it can be to boil down complex social realities into even seemingly straightforward variables like fatal/nonfatal. Consider Sgt. Ron Helus of the Ventura County Sheriff’s Department, who was shot six times while responding to an active shooter situation. Five of those shots were fired by the suspect, but the &lt;a href=&#34;https://www.washingtonpost.com/national/officer-killed-responding-to-thousand-oaks-mass-shooting-was-fatally-struck-by-friendly-fire-police-say/2018/12/07/e7405186-fa52-11e8-8c9a-860ce2a8148f_story.html&#34; target=&#34;_blank&#34;&gt;Coroner&lt;/a&gt; ruled that the sixth and ultimately fatal shot was fired from the rifle of another officer. We decided to retain this incident as a &lt;em&gt;nonfatal&lt;/em&gt; shooting because, though we were certain he was shot by a suspect, we could not say whether he would have died had he not been struck in the heart by friendly fire. Others might have coded this incident differently. What is very clear is that this sort of data must be coded and analyzed with caution and transparency. Taking GVA data (or &lt;em&gt;any&lt;/em&gt; crowdsourced data, for that matter) at face value is not advised.&lt;/p&gt;
+
+&lt;p&gt;We finish out the paper with discussion of future directions for research and data collection efforts focused on force by and against police. It’s scheduled for inclusion in the August 2020 Special Issue on Policing but will appear &lt;em&gt;online first&lt;/em&gt; sometime before then.&lt;/p&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p style=&#34;text-align:center&#34;&gt; In the meantime, click on the PDF button above to download the post-print (accepted) version of our paper.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We welcome your feedback!&lt;/p&gt;
+
+&lt;p&gt;&lt;font size=&#34;2&#34;&gt;* &lt;em&gt;Note&lt;/em&gt;: I’ll accept positive feedback but please direct any negative feedback to Michael 😄&lt;/font&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Command-level Police Officers&#39; Perceptions of the &#39;War on Cops&#39; and De-policing</title>
+      <link>/publication/14-perceived-war-on-cops/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/14-perceived-war-on-cops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A War on Cops? The Effects of Ferguson on the Number of U.S. Police Officers Murdered in the Line of Duty</title>
+      <link>/publication/8-war-on-cops/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/8-war-on-cops/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

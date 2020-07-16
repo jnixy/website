@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book Review on Justin Nix</title>
+    <link>/tags/book-review/</link>
+    <description>Recent content in Book Review on Justin Nix</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Review of _When Police Kill_</title>
+      <link>/publication/bookreview-when_police_kill/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bookreview-when_police_kill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review of _Pulled Over: How Police Stops Define Race and Citizenship_</title>
+      <link>/publication/bookreview-pulled_over/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bookreview-pulled_over/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
