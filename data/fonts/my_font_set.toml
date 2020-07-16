@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Default"
+
+# Optional Google font URL
+google_fonts = "Merriweather:400,400i,700,700i,900,900i"
+
+# Font families
+heading_font = "Merriweather"
+body_font = "Merriweather"
+nav_font = "Merriweather"
+mono_font = "Merriweather"
+
+# Font size
+font_size = "16"
+font_size_small = "14"
