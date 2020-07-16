@@ -5,7 +5,7 @@ abstract: "**Research Summary**: Using open-source data from the Gun Violence Ar
 authors:
 - Michael Sierra-Arévalo
 - admin
-date: "2020-07-13T00:00:00Z"
+date: "2020-07-16T00:00:00Z"
 doi: 10.1111/1745-9133.12507
 featured: false
 image:
@@ -17,7 +17,7 @@ publication: '*Criminology & Public Policy*, 19(3), pp. TBD'
 publication_short: CPP
 publication_types:
 - "2"
-publishDate: "2020-07-13T00:00:00Z"
+publishDate: "2020-07-16T00:00:00Z"
 slides: ""
 summary: We explore state-level variation and trends over time in gun assaults of police officers.
 tags:
