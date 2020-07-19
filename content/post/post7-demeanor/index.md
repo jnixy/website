@@ -22,6 +22,7 @@ tags:
 - Emotions
 
 title: "Now in print: Three experiments concerned with the Demeanor Hypothesis"
+url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_et_al_JOEX_2019"
 ---
 
 In a new paper published in _Journal of Experimental Criminology_, my colleagues and I revisit the Demeanor Hypothesis, which holds that police officers respond more punitively to citizens who disrespect them or challenge their authority. In the 1990s, David Klinger argued that prior work had often conflated demeanor with criminal conduct. Based on his [analysis](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1745-9125.1994.tb01162.x) of police-citizen encounters in Dade County in the 1980s, he concluded "displays of hostility which violate no laws do not increase the likelihood of arrest in and of themselves."

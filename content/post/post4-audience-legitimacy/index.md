@@ -20,6 +20,7 @@ tags:
 - Survey
 - Nonresponse bias
 title: "New research: Police perceptions of their audience legitimacy"
+url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_et_al_JRCD_2020"
 ---
 
 __Background__

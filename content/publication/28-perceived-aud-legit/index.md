@@ -1,6 +1,5 @@
 ---
-abstract: ' _Objectives_: Democratic policing involves an ongoing dialogue between officers and citizens about what it means to wield legitimate authority. Most of the criminological literature on police legitimacy has focused on citizens’ perceptions of this dialogue—that is, audience legitimacy. Consequently, we know little about how officers perceive their legitimacy in the eyes of the public and the antecedents of such perceptions. Pulling together separate strands of literature pertaining to citizen demeanor, hostile media perceptions, and danger perception theory, we propose and test a theoretical model of perceived audience legitimacy. _Method_: We conducted two
-separate studies: the first a survey of 546 officers working at a southern U.S. agency and the second a survey of a national probability sample of 665 executives and high-ranking officers. _Results_: Local violent crime rates, but not minority group size or growth, are associated with lower perceived audience legitimacy. Additionally, recent experiences with citizen disrespect and global perceptions of citizen animus are both inversely associated with perceived audience legitimacy. The perceived hostility of local, but not national, media coverage is also associated with lower perceived audience legitimacy. _Conclusions_: Our results suggest a need for additional research that explores whether the antecedents of audience legitimacy indirectly affect police behaviors, like the use of force.'
+abstract: ' _Objectives_: Democratic policing involves an ongoing dialogue between officers and citizens about what it means to wield legitimate authority. Most of the criminological literature on police legitimacy has focused on citizens’ perceptions of this dialogue—that is, audience legitimacy. Consequently, we know little about how officers perceive their legitimacy in the eyes of the public and the antecedents of such perceptions. Pulling together separate strands of literature pertaining to citizen demeanor, hostile media perceptions, and danger perception theory, we propose and test a theoretical model of perceived audience legitimacy. _Method_: We conducted two separate studies: the first a survey of 546 officers working at a southern U.S. agency and the second a survey of a national probability sample of 665 executives and high-ranking officers. _Results_: Local violent crime rates, but not minority group size or growth, are associated with lower perceived audience legitimacy. Additionally, recent experiences with citizen disrespect and global perceptions of citizen animus are both inversely associated with perceived audience legitimacy. The perceived hostility of local, but not national, media coverage is also associated with lower perceived audience legitimacy. _Conclusions_: Our results suggest a need for additional research that explores whether the antecedents of audience legitimacy indirectly affect police behaviors, like the use of force.'
 authors:
 - admin
 - Justin Pickett
@@ -28,7 +27,7 @@ tags:
 - Media
 - Survey
 title: 'Testing a Theoretical Model of Perceived Audience Legitimacy: The Neglected Linkage in the Dialogic Model of Police–community Relations'
-url_code: ""
+url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_et_al_JRCD_2020"
 url_dataset: ""
 url_pdf: "/files/pdfs/jrcd_audlegit.pdf"
 url_poster: ""

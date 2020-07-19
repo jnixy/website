@@ -47,7 +47,7 @@ tags:
 - Survey
 title: 'Compliance, Noncompliance, and the In-between: Causal Effects of Civilian
   Demeanor on Police Officers’ Cognitions and Emotions'
-url_code: ""
+url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_et_al_JOEX_2019"
 url_dataset: ""
 url_pdf: "/files/pdfs/joex_demeanor_experiments.pdf"
 url_poster: ""
