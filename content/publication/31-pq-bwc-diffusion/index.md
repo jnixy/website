@@ -12,7 +12,7 @@ image:
   focal_point: center
   preview_only: false
 projects: []
-publication: '*Police Quarterly*, XX(X), TBD'
+publication: '*Police Quarterly*, 23(3), 396-422'
 publication_short: PQ
 publication_types:
 - "2"
