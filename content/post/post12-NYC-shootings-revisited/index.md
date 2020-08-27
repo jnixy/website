@@ -36,6 +36,4 @@ These alarming figures have led some, myself included, to [wonder](https://www.n
 
 I sure hope it's just a blip and not the start of a new trend. 
 
-<div class="alert alert-warning" role="alert">
-  <p style="text-align:center"> You can download incident-level shooting data from the NYPD <a href="#" class="https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page">here</a>.</p>
-</div>
+**You can download incident-level shooting data from the NYPD [here](https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page).**

@@ -50,9 +50,7 @@ Viewed in this way, the recent uptick NYC has observed in 2020 doesn’t appear 
 
 Let's all agree to be skeptical of vague hot-takes like **“Crime is down!”** It’s way more nuanced – and localized – than that.<sup>[5-9]</sup> 
 
-<div class="alert alert-warning" role="alert">
-  <p style="text-align:center"> You can download incident-level shooting data from the NYPD <a href="#" class="https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page">here</a>.</p>
-</div>
+**You can download incident-level shooting data from the NYPD [here](https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page).**
 
 **References**  
 1. Daniel Nass (2020, Apr 29). [Shootings are a glaring exception to the coronavirus crime drop](https://www.thetrace.org/2020/04/coronavirus-gun-violence-stay-at-home-orders/). *The Trace*.  
