@@ -35,3 +35,7 @@ Here's the (rolling) average daily number of shootings, dating back to January 1
 These alarming figures have led some, myself included, to [wonder](https://www.nydailynews.com/opinion/ny-oped-the-end-of-crime-decline-20200719-e77s74cv7nhxjllosarp74lp2u-story.html) whether NYC is approaching the end of its decades-long crime decline. 
 
 I sure hope it's just a blip and not the start of a new trend. 
+
+<div class="alert alert-warning" role="alert">
+  <p style="text-align:center"> You can download incident-level shooting data from the NYPD <a href="#" class="https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page">here</a>.</p>
+</div>
