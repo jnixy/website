@@ -13,7 +13,7 @@ the effects of armed/unarmed status on executives’ perceptions."
 authors:
 - Brandon Tregle
 - admin
-- Justin T. Pickett
+- Justin Pickett
 date: "2020-09-03T06:00:00Z"
 doi: 
 featured: false
