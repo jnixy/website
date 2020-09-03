@@ -47,8 +47,6 @@ url_source: ""
 url_video: ""
 ---
 
-*************
-
 ** Summary**
 
 Body-worn cameras (BWCs) have [rapidly diffused](https://journals.sagepub.com/doi/10.1177/1098611120917937) throughout US policing over the last decade. As of 2016, [47 percent](https://www.bjs.gov/content/pub/pdf/bwclea16.pdf) of all general-purpose law enforcement agencies had acquired BWCs. The general idea is that BWCs will increase transparency and accountability - and maybe even improve police-citizen interactions. The extant literature is rather mixed, but BWCs have consistently been shown to reduce complaints against officers.[^1] Yet, a [recent meta review]https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-9133.12412) of 70 evaluation studies by Cynthia Lum and her colleagues concluded that "expectations and concerns surrounding BWCs among police leaders and citizens have not yet been realized by and large in the ways anticipated by each" (p. 93).[^2]
