@@ -37,7 +37,7 @@ tags:
 - Body-worn cameras
 - Survey
 title: 'Body-worn cameras and transparency: Experimental evidence of inconsistency in police executive decision-making'
-url_code: "https://github.com/jnixy/replication-materials/tree/master/tregle_et_al_InPress"
+url_code: "https://github.com/jnixy/replication-materials/tree/master/tregle_et_al_JQ_InPress"
 url_dataset:
 url_pdf: "/files/pdfs/jq_bwc_transparency.pdf"
 url_poster: ""
