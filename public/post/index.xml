@@ -6,10 +6,32 @@
     <description>Recent content in Posts on Justin Nix</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Jun 2020 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 19:30:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jnix.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NYC Shootings, Revisited</title>
+      <link>https://jnix.netlify.app/post/post12-nyc-shootings-revisited/</link>
+      <pubDate>Wed, 26 Aug 2020 19:30:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/post/post12-nyc-shootings-revisited/</guid>
+      <description>&lt;p&gt;In my &lt;a href=&#34;https://jnix.netlify.app/post/post11-nyc-covid-shootings/&#34; target=&#34;_blank&#34;&gt;last post&lt;/a&gt;, I pointed out that shootings weren&amp;rsquo;t occurring less frequently in NYC in 2020 than in prior years, despite the COVID-19 pandemic. I was also careful not to jump to the conclusion that shootings had increased significantly.&lt;/p&gt;
+
+&lt;p&gt;That was June 3rd. Suffice it to say a lot has happened since then - including &lt;strong&gt;624 additional shootings.&lt;/strong&gt; Each of the last four years, NYC had fewer than 200 shootings from June to July. This year, they had &lt;strong&gt;449&lt;/strong&gt;. As of August 26th, there have been 965 shootings this year, which is a year-to-date increase of &lt;strong&gt;88 percent&lt;/strong&gt;. In fact, NYC &lt;em&gt;finished&lt;/em&gt; each of the last &lt;em&gt;three years&lt;/em&gt; with fewer than 800 shootings by my count.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the (rolling) average daily number of shootings, dating back to January 1, 2016:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/nyc_shootings_4.png&#34; alt=&#34;NYC4&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These alarming figures have led some, myself included, to &lt;a href=&#34;https://www.nydailynews.com/opinion/ny-oped-the-end-of-crime-decline-20200719-e77s74cv7nhxjllosarp74lp2u-story.html&#34; target=&#34;_blank&#34;&gt;wonder&lt;/a&gt; whether NYC is approaching the end of its decades-long crime decline.&lt;/p&gt;
+
+&lt;p&gt;I sure hope it&amp;rsquo;s just a blip and not the start of a new trend.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You can download incident-level shooting data from the NYPD &lt;a href=&#34;https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>No Significant Decline in NYC Shootings Amidst COVID-19 Pandemic</title>
@@ -43,9 +65,7 @@
 
 &lt;p&gt;Let&amp;rsquo;s all agree to be skeptical of vague hot-takes like &lt;strong&gt;“Crime is down!”&lt;/strong&gt; It’s way more nuanced – and localized – than that.&lt;sup&gt;[5-9]&lt;/sup&gt;&lt;/p&gt;
 
-&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34;&gt;
-  &lt;p style=&#34;text-align:center&#34;&gt; You can download incident-level shooting data from the NYPD &lt;a href=&#34;#&#34; class=&#34;https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;You can download incident-level shooting data from the NYPD &lt;a href=&#34;https://www1.nyc.gov/site/nypd/stats/crime-statistics/citywide-crime-stats.page&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;br /&gt;
 1. Daniel Nass (2020, Apr 29). &lt;a href=&#34;https://www.thetrace.org/2020/04/coronavirus-gun-violence-stay-at-home-orders/&#34; target=&#34;_blank&#34;&gt;Shootings are a glaring exception to the coronavirus crime drop&lt;/a&gt;. &lt;em&gt;The Trace&lt;/em&gt;.&lt;br /&gt;

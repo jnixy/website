@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Justin Nix</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 06:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jnix.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,25 +14,34 @@
     <item>
       <title></title>
       <link>https://jnix.netlify.app/tags/</link>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Sep 2020 06:00:00 +0000</pubDate>
       
       <guid>https://jnix.netlify.app/tags/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Gun violence</title>
-      <link>https://jnix.netlify.app/tags/gun-violence/</link>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Body-worn cameras</title>
+      <link>https://jnix.netlify.app/tags/body-worn-cameras/</link>
+      <pubDate>Thu, 03 Sep 2020 06:00:00 +0000</pubDate>
       
-      <guid>https://jnix.netlify.app/tags/gun-violence/</guid>
+      <guid>https://jnix.netlify.app/tags/body-worn-cameras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Legitimacy</title>
+      <link>https://jnix.netlify.app/tags/legitimacy/</link>
+      <pubDate>Thu, 03 Sep 2020 06:00:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/tags/legitimacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Officer-involved shootings</title>
       <link>https://jnix.netlify.app/tags/officer-involved-shootings/</link>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Sep 2020 06:00:00 +0000</pubDate>
       
       <guid>https://jnix.netlify.app/tags/officer-involved-shootings/</guid>
       <description></description>
@@ -41,9 +50,72 @@
     <item>
       <title>Police</title>
       <link>https://jnix.netlify.app/tags/police/</link>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Sep 2020 06:00:00 +0000</pubDate>
       
       <guid>https://jnix.netlify.app/tags/police/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Survey</title>
+      <link>https://jnix.netlify.app/tags/survey/</link>
+      <pubDate>Thu, 03 Sep 2020 06:00:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/tags/survey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transparency</title>
+      <link>https://jnix.netlify.app/tags/transparency/</link>
+      <pubDate>Thu, 03 Sep 2020 06:00:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/tags/transparency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19</title>
+      <link>https://jnix.netlify.app/tags/covid-19/</link>
+      <pubDate>Wed, 26 Aug 2020 19:30:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/tags/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gun violence</title>
+      <link>https://jnix.netlify.app/tags/gun-violence/</link>
+      <pubDate>Wed, 26 Aug 2020 19:30:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/tags/gun-violence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LEADS</title>
+      <link>https://jnix.netlify.app/tags/leads/</link>
+      <pubDate>Wed, 26 Aug 2020 19:30:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/tags/leads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public health</title>
+      <link>https://jnix.netlify.app/tags/public-health/</link>
+      <pubDate>Wed, 26 Aug 2020 19:30:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/tags/public-health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Race</title>
+      <link>https://jnix.netlify.app/tags/race/</link>
+      <pubDate>Tue, 28 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/tags/race/</guid>
       <description></description>
     </item>
     
@@ -93,15 +165,6 @@
     </item>
     
     <item>
-      <title>Legitimacy</title>
-      <link>https://jnix.netlify.app/tags/legitimacy/</link>
-      <pubDate>Thu, 18 Jun 2020 10:52:00 +0000</pubDate>
-      
-      <guid>https://jnix.netlify.app/tags/legitimacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Police culture</title>
       <link>https://jnix.netlify.app/tags/police-culture/</link>
       <pubDate>Thu, 18 Jun 2020 10:52:00 +0000</pubDate>
@@ -120,65 +183,11 @@
     </item>
     
     <item>
-      <title>COVID-19</title>
-      <link>https://jnix.netlify.app/tags/covid-19/</link>
-      <pubDate>Wed, 03 Jun 2020 09:30:00 +0000</pubDate>
-      
-      <guid>https://jnix.netlify.app/tags/covid-19/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LEADS</title>
-      <link>https://jnix.netlify.app/tags/leads/</link>
-      <pubDate>Wed, 03 Jun 2020 09:30:00 +0000</pubDate>
-      
-      <guid>https://jnix.netlify.app/tags/leads/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Public health</title>
-      <link>https://jnix.netlify.app/tags/public-health/</link>
-      <pubDate>Wed, 03 Jun 2020 09:30:00 +0000</pubDate>
-      
-      <guid>https://jnix.netlify.app/tags/public-health/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Body-worn cameras</title>
-      <link>https://jnix.netlify.app/tags/body-worn-cameras/</link>
-      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jnix.netlify.app/tags/body-worn-cameras/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Survey</title>
-      <link>https://jnix.netlify.app/tags/survey/</link>
-      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://jnix.netlify.app/tags/survey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Implicit bias</title>
       <link>https://jnix.netlify.app/tags/implicit-bias/</link>
       <pubDate>Mon, 27 Jan 2020 14:30:00 +0000</pubDate>
       
       <guid>https://jnix.netlify.app/tags/implicit-bias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Race</title>
-      <link>https://jnix.netlify.app/tags/race/</link>
-      <pubDate>Mon, 27 Jan 2020 14:30:00 +0000</pubDate>
-      
-      <guid>https://jnix.netlify.app/tags/race/</guid>
       <description></description>
     </item>
     

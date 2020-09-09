@@ -6,10 +6,65 @@
     <description>Recent content in Brandon Tregle on Justin Nix</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 06:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://jnix.netlify.app/authors/brandon-tregle/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Body-worn cameras and transparency: Experimental evidence of inconsistency in police executive decision-making</title>
+      <link>https://jnix.netlify.app/publication/35-jq-bwc-transparency/</link>
+      <pubDate>Thu, 03 Sep 2020 06:00:00 +0000</pubDate>
+      
+      <guid>https://jnix.netlify.app/publication/35-jq-bwc-transparency/</guid>
+      <description>&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;SUMMARY&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Body-worn cameras (BWCs) have &lt;a href=&#34;https://journals.sagepub.com/doi/10.1177/1098611120917937&#34; target=&#34;_blank&#34;&gt;rapidly diffused&lt;/a&gt; throughout US policing over the last decade. As of 2016, &lt;a href=&#34;https://www.bjs.gov/content/pub/pdf/bwclea16.pdf&#34; target=&#34;_blank&#34;&gt;47 percent&lt;/a&gt; of all general-purpose law enforcement agencies had acquired BWCs. The general idea is that BWCs will increase transparency and accountability - and maybe even improve police-citizen interactions. The extant literature is rather mixed, but BWCs have consistently been shown to reduce complaints against officers.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Yet, a &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-9133.12412&#34; target=&#34;_blank&#34;&gt;recent meta review&lt;/a&gt; of 70 evaluation studies by Cynthia Lum and her colleagues concluded that &amp;ldquo;expectations and concerns surrounding BWCs among police leaders and citizens have not yet been realized by and large in the ways anticipated by each&amp;rdquo; (p. 93).&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;One thing my coauthors and I have noticed is how inconsistent agencies seem to be about releasing footage of critical incidents (e.g., use of force incidents) to the public. According to the &lt;a href=&#34;https://www.ncsl.org/research/civil-and-criminal-justice/body-worn-cameras-interactive-graphic.aspx#/&#34; target=&#34;_blank&#34;&gt;National Conference of State Legislatures&lt;/a&gt;, 23 states and the District of Columbia have legislation pertaining to how BWC footage is addressed under open record laws. Yet even in those states, there are many exemptions that give police leaders the discretion to delay or withhold footage. To be sure, there may be legitimate reasons to do so (e.g., protecting victims or informants). But one thing seems clear: the public expects BWC footage of critical incidents to be released quickly. When it isn&amp;rsquo;t, agencies risk diminishing their legitimacy in the eyes of the public - many of whom might suspect they&amp;rsquo;re hiding something. Ironically, then, BWCs &lt;em&gt;reduce&lt;/em&gt; transparency if agencies have them but fail to release footage of critical incidents quickly.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;For our new experimental study forthcoming in &lt;em&gt;Justice Quarterly&lt;/em&gt;, we presented a nationally representative sample&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; of police chiefs (N=476) with the following hypothetical vignette:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;While on patrol, officers from your agency are dispatched to a home invasion in progress in a residential area. The caller describes the suspect as a [Black/white] male. One of your officers arrives on-scene and makes contact with a [Black/white] male who fits this description in front of the house. The suspect has his hands in his pockets and does not comply with your officer’s commands to show his hands. The suspect then quickly removes his hands from his pocket holding an object. Your officer fires at the suspect, killing him on the scene. Afterward, the officer finds that the object was a [handgun/cellphone]. The officer’s BWC captures full audio and video of the incident.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Note that the suspect&amp;rsquo;s race was randomly assigned, as was the object he pulled from his pocket.&lt;/p&gt;
+
+&lt;p&gt;We then asked the chiefs a series of questions about how they envisioned the aftermath of the shooting, including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How they believed the incident would be portrayed by the media&lt;/li&gt;
+&lt;li&gt;How important they felt it would be to state publicly that the shooting was justified&lt;/li&gt;
+&lt;li&gt;How important they personally felt it would be (regardless of law or policy) to release the footage quickly, make a statement to the media within 24 hours, keep the community updated on social media, and so on (see p. 9 of the post-print linked above)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For detailed results, download the full text. But the big picture takeaway is that chiefs&amp;rsquo; attitudes and decision-making were inconsistent. In addition to the suspect&amp;rsquo;s race and whether he was armed or unarmed, the size of responding chiefs&amp;rsquo; agencies (in terms of the number of sworn officers) seemed to affect their views about the incident. For example, chiefs in the smallest agencies seemed to think media coverage of the shooting would be similar regardless of whether the suspect had pulled a gun or a cellphone from his pocket. But in larger agencies - and particularly in the largest agencies - chiefs clearly felt media coverage would be more hostile if the object had been a cellphone:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jnix.netlify.app/img/jq_bwcs_media.png&#34; alt=&#34;bwc_trans1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So clearly something about agency size conditions the way executives view shootings like these, and how they respond to them when they&amp;rsquo;re recorded by BWCs. We were able to rule out urbanicity and violent crime (see Appendix E), but perhaps it has more to do with an agency&amp;rsquo;s recent history (or lack thereof) with critical incidents akin to the one we described (h/t to the peer reviewers for suggesting this supplemental analysis).&lt;/p&gt;
+
+&lt;p&gt;In the broadest sense, our results suggest that legislation dictating when BWC footage must be released might be necessary. &lt;strong&gt;Details about an incident - such as whether the victim is Black or white, or whether he was armed or unarmed - should not influence whether the public gets to see the footage.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;It is unclear &lt;em&gt;why&lt;/em&gt; they reduce complaints, however. Maybe they improve officer behavior, maybe citizens are less likely to file frivolous complaints, maybe a little bit of both.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;I believe this team also has a meta analysis of experimental and quasi-experimental evaluation studies forthcoming in &lt;em&gt;Campbell Systematic Reviews.&lt;/em&gt; 
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;As I write this, people are protesting in Rochester after BWC footage of Daniel Prude&amp;rsquo;s March 23rd arrest was just released (Prude wound up on life support and died 7 days later). Or consider the fatal shooting of Keith Lamont Scott in Charlotte. The incident was recorded by BWCs, but footage wasn&amp;rsquo;t released for 4 days. During that time, violent protests resulted in dozens of civilian injuries and one death. Or consider the altercation between an Alameda County sheriff&amp;rsquo;s deputy and Masai Ujiri (president of basketball operations for the Toronto Raptors) during the 2019 NBA finals. For whatever reason, BWC footage wasn&amp;rsquo;t made publicly available until over a year later, as a result of a countersuit Ujiri filed against the deputy. The footage &lt;a href=&#34;https://www.usatoday.com/story/sports/nba/raptors/2020/08/18/new-video-officer-shoves-masai-ujiri-during-altercation-nba-finals/3398114001/&#34; target=&#34;_blank&#34;&gt;seems to depict&lt;/a&gt; the deputy as the aggressor. 
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;We mailed surveys to a stratified random sample of 2,496 police chiefs. We stratified on agency size: 0-24, 25-49, 50-99, or 100+ full-time, sworn officers. We achieved a 27% response rate. But don&amp;rsquo;t get me started on whether that&amp;rsquo;s &amp;ldquo;good&amp;rdquo; or &amp;ldquo;bad.&amp;rdquo;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:4&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Understanding body-worn camera diffusion in U.S. policing</title>

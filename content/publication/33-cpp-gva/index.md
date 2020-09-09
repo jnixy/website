@@ -13,7 +13,7 @@ image:
   focal_point: center
   preview_only: false
 projects: []
-publication: '*Criminology & Public Policy*, 19(3), pp. TBD'
+publication: '*Criminology & Public Policy*, 19(3), 1041-1066'
 publication_short: CPP
 publication_types:
 - "2"
