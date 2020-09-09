@@ -26,7 +26,7 @@ publication: '*Justice Quarterly*'
 publication_short: JQ
 publication_types:
 - "2"
-publishDate: "2020-07-28T00:00:00Z"
+publishDate: "2020-09-03T00:00:00Z"
 slides: ""
 summary: Forthcoming at *Justice Quarterly.*
 tags:
