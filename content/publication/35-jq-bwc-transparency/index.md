@@ -57,7 +57,7 @@ One thing my coauthors and I have noticed is how inconsistent agencies seem to b
 
 For our new experimental study forthcoming in *Justice Quarterly*, we presented a nationally representative sample[^4] of police chiefs (N=476) with the following hypothetical vignette:
 
-> While on patrol, offcers from your agency are dispatched to a home invasion in progress in a residential area. The caller describes the suspect as a [Black/white] male. One of your offcers arrives on-scene and makes contact with a [Black/white] male who fits this description in front of the house. The suspect has his hands in his pockets and does not comply with your officer’s commands to show his hands. The suspect then quickly removes his hands from his pocket holding an object. Your officer fires at the suspect, killing him on the scene. Afterward, the officer finds that the object was a [handgun/cellphone]. The officer’s BWC captures full audio and video of the incident.
+> While on patrol, officers from your agency are dispatched to a home invasion in progress in a residential area. The caller describes the suspect as a [Black/white] male. One of your officers arrives on-scene and makes contact with a [Black/white] male who fits this description in front of the house. The suspect has his hands in his pockets and does not comply with your officer’s commands to show his hands. The suspect then quickly removes his hands from his pocket holding an object. Your officer fires at the suspect, killing him on the scene. Afterward, the officer finds that the object was a [handgun/cellphone]. The officer’s BWC captures full audio and video of the incident.
 
 Note that the suspect's race was randomly assigned, as was the object he pulled from his pocket. 
 
