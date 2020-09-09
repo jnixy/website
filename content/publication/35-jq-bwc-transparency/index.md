@@ -15,7 +15,7 @@ authors:
 - admin
 - Justin Pickett
 date: "2020-09-03T06:00:00Z"
-doi: 
+doi: 10.1080/07418825.2020.1821086
 featured: false
 image:
   caption: "Image by [Tony Webster](https://www.flickr.com/photos/diversey/) at [Flickr](https://flic.kr/p/2hBaNzA)"
