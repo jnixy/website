@@ -65,7 +65,7 @@ We then asked the chiefs a series of questions about how they envisioned the aft
 
 - How they believed the incident would be portrayed by the media
 - How important they felt it would be to state publicly that the shooting was justified
-- How important they personally felt it would be (regardless of law or policy) to release the footage quickly, make a statement to the media within 24 hours, keep the community updated on social media, and so on (see p. 9 of the post-print linked above).
+- How important they personally felt it would be (regardless of law or policy) to release the footage quickly, make a statement to the media within 24 hours, keep the community updated on social media, and so on (see p. 9 of the post-print linked above)
 
 For detailed results, download the full text. But the big picture takeaway is that chiefs' attitudes and decision-making were inconsistent. In addition to the suspect's race and whether he was armed or unarmed, the size of responding chiefs' agencies (in terms of the number of sworn officers) seemed to affect their views about the incident. For example, chiefs in the smallest agencies seemed to think media coverage of the shooting would be similar, regardless of whether the suspect had pulled a gun or a cellphone from his pocket. But in larger agencies - and particularly in the largest agencies - chiefs clearly felt media coverage would be more hostile if the object had been a cellphone:
 
