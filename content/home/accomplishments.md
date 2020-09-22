@@ -41,11 +41,11 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Emerald Literati Awards"
   organization_url = "https://www.emeraldpublishing.com/"
-  title = "Outstanding Reviewer for _Policing: An International Journal_"
+  title = "2017 Outstanding Reviewer for _Policing: An International Journal_"
   url = "http://www.emeraldgrouppublishing.com/authors/literati/awards.htm?year=2017&journal=pijpsm"
   certificate_url = "/files/literati2017.pdf"
-  date_start = "2017-01-01"
-  date_end = "2017-12-31"
+  date_start = "2017-05-18"
+  date_end = ""
   description = ""
 
 +++
