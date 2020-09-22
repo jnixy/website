@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Midwestern Criminal Justice Assocation"
+  organization_url = "https://www.mcja.org/#/"
+  title = "2019 Outstanding Paper Award for *Journal of Crime and Justice*"
+  url = ""
+  certificate_url = ""
+  date_start = "2020-09-21"
+  date_end = ""
+  description = "For my paper with Brandon Tregle and Geoff Alpert, *Disparity does not mean bias: Making sense of observed racial disparities in fatal officer-involved shootings with multiple benchmarks*"
+  
+[[item]]
   organization = "National Institute of Justice"
   organization_url = "https://nij.gov/Pages/welcome.aspx"
   title = "LEADS Academic"
