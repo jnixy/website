@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "American Society of Criminology - Division of Policing"
+  organization_url = "https://ascpolicing.org/"
+  title = "2020 Early Career Award"
+  url = "https://ascpolicing.org/awards/"
+  certificate_url = ""
+  date_start = "2020-09-28"
+  date_end = ""
+  description = "The Early Career Award recognizes outstanding scholarly contributions to the field of policing by someone who has received his or her Ph.D. degree within the last five years."
+  
+[[item]]
   organization = "Midwestern Criminal Justice Assocation"
   organization_url = "https://www.mcja.org/#/"
   title = "2019 Outstanding Paper Award for *Journal of Crime and Justice*"
