@@ -46,7 +46,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2019-07-11"
   date_end = ""
-  description = ""
+  description = "The Law Enforcement Advancing Data and Science (LEADS) Academics program (currently in pilot) offers a unique opportunity for early-career academics to engage with NIJ LEADS Scholars, all of whom are mid-career police officers dedicated to advancing the police profession through science."
 
 [[item]]
   organization = "Emerald Literati Awards"
@@ -56,6 +56,6 @@ date_format = "Jan 2006"
   certificate_url = "/files/literati2017.pdf"
   date_start = "2017-05-18"
   date_end = ""
-  description = ""
+  description = "The editor and Editorial Advisory Board (EAB) of each journal select a winner of the ‘Outstanding Reviewer Award’ from the previous year’s volume, based on timeliness, quality, and depth of reviews provided."
 
 +++
