@@ -23,7 +23,7 @@ tags:
 - Distributive justice
 - Implicit bias
 - Book Review
-title: 'Review of _Pulled Over: How Police Stops Define Race and Citizenship_'
+title: 'Review of "Pulled Over: How Police Stops Define Race and Citizenship"'
 url_code: ""
 url_dataset: ""
 url_pdf: "https://www.tandfonline.com/doi/full/10.1080/10511253.2016.1186993"

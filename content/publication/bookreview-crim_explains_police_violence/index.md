@@ -23,7 +23,7 @@ tags:
 - Gun violence
 - Transparency
 - Book Review
-title: 'Review of \"Criminology Explains Police Violence\"'
+title: 'Review of "Criminology Explains Police Violence"'
 url_code: ""
 url_dataset: ""
 url_pdf: ""

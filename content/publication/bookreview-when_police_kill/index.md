@@ -21,7 +21,7 @@ tags:
 - Police
 - Officer-involved shootings
 - Book Review
-title: 'Review of _When Police Kill_'
+title: 'Review of "When Police Kill"'
 url_code: ""
 url_dataset: ""
 url_pdf: "http://transformativestudies.org/wp-content/uploads/10.3798tia.1937-0237.1730.pdf"
