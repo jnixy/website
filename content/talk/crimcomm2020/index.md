@@ -13,7 +13,7 @@ event_url: https://www.crimcomm.net/
 featured: false
 image:
   caption: ""
-  focal_point: Smart
+  focal_point: Center
 links:
 - icon: twitter
   icon_pack: fab
