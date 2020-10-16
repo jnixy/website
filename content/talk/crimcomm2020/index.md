@@ -37,4 +37,4 @@ url_slides: ""
 url_video: "https://www.youtube.com/watch?v=HYk85l58G_M"
 ---
 
-I join my colleagues [Andrea Hedley](https://gufaculty360.georgetown.edu/s/contact/0031Q00002DdEwOQAV/andrea-headley), [Natalie Todak](https://www.uab.edu/cas/criminaljustice/people/faculty-directory/natalie-todak), and [Michael Sierra-Arévalo](https://liberalarts.utexas.edu/sociology/faculty/ms39643) and [Seth Stoughton](https://sc.edu/study/colleges_schools/law/faculty_and_staff/directory/stoughton_seth.php) to discuss the benefits and drawbacks of engaging with the media and using social media to communicate research to the public.  
+I join my colleagues [Andrea Hedley](https://gufaculty360.georgetown.edu/s/contact/0031Q00002DdEwOQAV/andrea-headley), [Natalie Todak](https://www.uab.edu/cas/criminaljustice/people/faculty-directory/natalie-todak), and [Michael Sierra-Arévalo](https://liberalarts.utexas.edu/sociology/faculty/ms39643) to discuss the benefits and drawbacks of engaging with the media and using social media to communicate research to the public.  
