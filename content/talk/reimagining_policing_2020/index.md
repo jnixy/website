@@ -32,7 +32,7 @@ tags:
 title: "Policing, Police Reforms, and De-Funding Efforts"
 url_code: ""
 url_pdf: ""
-url_slides: "/files/reimagining_police_2020.pdf"
+url_slides: "/files/reimagining_policing_2020.pdf"
 url_video: ""
 ---
 
