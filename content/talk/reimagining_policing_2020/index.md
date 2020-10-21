@@ -10,7 +10,7 @@ event_url:
 featured: false
 image:
   caption: ""
-  focal_point: Smart
+  focal_point: Center
 links:
 - icon: twitter
   icon_pack: fab
