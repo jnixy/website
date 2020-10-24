@@ -42,7 +42,7 @@ The [Lydia Foundation for Social Engagement](https://www.lydia.foundation/) has 
 
 > Science shouldn’t be the last word in our civic discourse – it should be the first.  We can all strive to understand the basic facts of each issue, and then apply our social, ethical and religious values to plot a course forward -- together.
 
-> *Science For the Rest of Us* exists because it's much more fun to learn than it is to fight.  After all, where is the time to hate when there is so little time to love?
+> *Science For the Rest of Us* exists because it's much more fun to learn than it is to fight.
 
 Personally, I would push back on the "science is boring" bit! :smile: 
 
