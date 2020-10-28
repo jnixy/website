@@ -34,7 +34,7 @@ url_source: ""
 url_video: ""
 ---
 
-It's pretty remarkable that evaluation research has kept pace with the proliferation of BWCs in policing. At this moment, there are at least 100 peer-reviewed studies out there that evaluate their effects on policing. It shouldn't surprise anyone that some have uncovered significant improvements and some have not. Not all BWC programs are created equally. Evaluation studies vary in terms of their scientific rigor. And frankly, some of their anticipated benefits were unrealistic in the first place. 
+It's pretty remarkable that evaluation research has kept pace with the proliferation of BWCs in policing. At this moment, there are at least 100 peer-reviewed studies that evaluate their effects on policing. It shouldn't surprise anyone that some have uncovered significant improvements and some have not. Not all BWC programs are created equally. Evaluation studies vary in terms of their scientific rigor. And frankly, some of the anticipated benefits of BWCs were unrealistic in the first place. 
 
 Anyway, if you're interested in how BWCs have changed policing, read this book. If you're interested in the perils as well as the potentials associated with BWCs, read this book. And if you're of the general mindset that policing should be informed by scientific evidence, read this book. It's a good one, and at ~140 pages, it's easy to get through in just a few sittings. 
 
