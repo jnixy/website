@@ -3,7 +3,7 @@ abstract: "In [this book](https://nyupress.org/9781479850150/cops-cameras-and-cr
 authors:
 - admin
 date: "2020-10-26T00:00:00Z"
-doi: 
+doi: 10.1177/1362480620973775
 featured: false
 image:
   caption: 
