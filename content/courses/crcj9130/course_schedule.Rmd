@@ -10,6 +10,8 @@ linktitle: Course Schedule
 toc: true
 type: docs
 weight: 2
+
+output: md_document
 ---
 
 ```{r setup, include=FALSE, cache=F, message=F, warning=F, results="hide"}
