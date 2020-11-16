@@ -6,7 +6,7 @@ authors:
 - Stefan Ivanov
 - Justin Pickett
 date: "2020-11-09T09:00:00Z"
-doi: 
+doi: 10.1111/1745-9133.12535
 featured: false
 image:
   caption: "Image by [Julien Tromeur](https://pixabay.com/users/julientromeur-3630051/) from [Pixabay](https://pixabay.com/illustrations/police-officer-mask-corona-flu-5128019/)"
