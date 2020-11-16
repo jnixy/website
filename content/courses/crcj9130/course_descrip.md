@@ -1,5 +1,5 @@
 ---
-date: "2020-11-16T13:00:00+01:00"
+date: "2020-11-16T13:00:00"
 draft: false
 linktitle: Course Description
 menu:

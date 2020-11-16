@@ -1,13 +1,13 @@
 ---
 title: "Syllabus"
-draft: no
-date: '2020-11-16T13:00:00+01:00'
+draft: false
+date: '2020-11-16T13:00:00'
 menu:
   crcj9130:
     parent: Syllabus
     weight: 2
 linktitle: Course Schedule
-toc: yes
+toc: true
 type: docs
 weight: 2
 ---
@@ -48,61 +48,61 @@ myopts <- BibOptions(bib.style = "authoryear", sorting="ynt", style="latex", fir
 
 ## Class Schedule
 
-## `r advdate(mon, 1)`: Syllabus & Course Overview
+### `r advdate(mon, 1)`: Syllabus & Course Overview
 ```{r, echo = FALSE, results="asis"} 
 bib[author = "schwartz", "meares2020"]
 ``` 
 
-## `r advdate(mon, 2)`: Police Culture, Part I
+### `r advdate(mon, 2)`: Police Culture, Part I
 ```{r, echo = FALSE, results="asis"}
 bib["sierra2019", "sierra2016"]
 ```  
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Michael Sierra-Arévalo, University of Texas*\color{black}
 
-## `r advdate(mon, 3)`: Police Culture, Part II
+### `r advdate(mon, 3)`: Police Culture, Part II
 ```{r, echo = FALSE, results="asis"}
 bib["cranklangworthy1992", "cheng2020"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Tony Cheng, Yale University*\color{black}
 
-## `r advdate(mon, 4)`: The "Ferguson/Floyd Effect"
+### `r advdate(mon, 4)`: The "Ferguson/Floyd Effect"
 ```{r, echo = FALSE, results="asis"} 
 bib["shjarback2017", "skoy2020"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. John Shjarback, Rowan University*\color{black}
 
-## `r advdate(mon, 5)`: Racial Disparities
+### `r advdate(mon, 5)`: Racial Disparities
 ```{r, echo = FALSE, results="asis"} 
 bib["gaston2019a", "gaston2019b"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Shytierra Gaston, Georgia State University*\color{black}
 
-## `r advdate(mon, 6)`: Misconduct and Accountability
+### `r advdate(mon, 6)`: Misconduct and Accountability
 ```{r, echo = FALSE, results="asis"} 
 bib["chalfin2020", "white2013"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Aaron Chalfin, University of Pennsylvania*\color{black}
 
-## `r advdate(mon, 7)`: Body-worn Cameras
+### `r advdate(mon, 7)`: Body-worn Cameras
 ```{r, echo = FALSE, results="asis"} 
 bib["lum2020", "gaub2020"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Janne Gaub, University of North Carolina Charlotte*\color{black}
 
-## `r advdate(mon, 8)`: Diversifying the Police
+### `r advdate(mon, 8)`: Diversifying the Police
 ```{r, echo = FALSE, results="asis"} 
 bib["ba2020", "riccucci2018"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Bocar Ba, University of California Irvine*\color{black}
 
-## `r advdate(mon, 9)`: Procedural Justice and Legitimacy
+### `r advdate(mon, 9)`: Procedural Justice and Legitimacy
 ```{r, echo = FALSE, results="asis"} 
 bib["nagin2020", "nix2017"]
 ``` 
@@ -113,37 +113,37 @@ bib["wood2020"]
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Cody Telep, Arizona State University*\color{black}
 
-## `r advdate(mon, 10)`
+### `r advdate(mon, 10)`
 *Spring Break - No class*
 
-## `r advdate(mon, 11)`: Evidence-based Policing
+### `r advdate(mon, 11)`: Evidence-based Policing
 ```{r, echo = FALSE, results="asis"} 
 bib["haberman2019", "sherman2015"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Cory Haberman, University of Cincinnati*\color{black}
 
-## `r advdate(mon, 12)`: Women in Policing
+### `r advdate(mon, 12)`: Women in Policing
 ```{r, echo = FALSE, results="asis"} 
 bib["todak2017", "schuck2014"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Natalie Todak, University of Alabama Birmingham*\color{black}
 
-## `r advdate(mon, 13)`: Police in Schools
+### `r advdate(mon, 13)`: Police in Schools
 ```{r, echo = FALSE, results="asis"} 
 bib["gottfredson2020", "fisher2020"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Ben Fisher, University of Louisville*\color{black}
 
-## `r advdate(mon, 14)`: The Network Dynamics of Policing
+### `r advdate(mon, 14)`: The Network Dynamics of Policing
 ```{r, echo = FALSE, results="asis"} 
 bib["ouellet2019", "zhao2020"]
 ``` 
 
 |    \color{ForestGreen}*Guest Speaker: Dr. Marie Ouellet, Georgia State University*\color{black}
 
-## `r advdate(mon, 15)`
+### `r advdate(mon, 15)`
 ***Student presentations***  
 ***Research proposals due***
