@@ -12,4 +12,6 @@ type: docs
 weight: 3
 ---
 
+## Reaction Papers
+
 Each week, you’ll be required to submit a written “review” of each reading. In other words, imagine you’ve been invited by the journal’s editor to review the paper. Summarize its major strengths and weaknesses, and comment on what you believe are its “big picture” takeaways. These should be approximately 1-2 single-spaced pages in length and will collectively account for 25% of your grade.

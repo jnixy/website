@@ -16,6 +16,6 @@ weight: 1
 
 # Spring 2021
 
-Meeting time: T 1-3:40PM
+Meeting time: Tuesdays 1 - 3:40PM
 
-Office hours: T 12-1PM or by appointment
+Office hours: Tuesdays 12 - 1PM or by appointment

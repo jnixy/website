@@ -12,4 +12,6 @@ type: docs
 weight: 6
 ---
 
+## Academic Integrity
+
 *Don’t cheat.* Students should familiarize themselves with the University of Nebraska at Omaha’s Statement of Student Rights and Responsibilities and the [policy on academic integrity](https://www.unomaha.edu/student-life/student-conduct-and-community-standards/policies/academic-integrity.php). Any form of academic dishonesty is unacceptable. Instances of academic dishonesty will, at a minimum, result in a failing grade for that assignment, and a record of academic dishonesty will be placed in the student’s academic file that is maintained by the School of Criminology and Criminal Justice. Instances of academic dishonesty may also be subject to disciplinary action by the University.

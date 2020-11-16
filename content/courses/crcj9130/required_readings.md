@@ -12,4 +12,6 @@ type: docs
 weight: 2
 ---
 
+## Required Readings
+
 I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. All of the required readings are available on Canvas.

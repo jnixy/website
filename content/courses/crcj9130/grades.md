@@ -12,6 +12,8 @@ type: docs
 weight: 5
 ---
 
+## Grades 
+
 * Attendance and participation: 30%
 * Reaction papers: 25%
 * Research proposal: 25%
