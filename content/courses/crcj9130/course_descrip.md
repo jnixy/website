@@ -6,7 +6,7 @@ menu:
   crcj9130:
     parent: Syllabus
     weight: 1
-title: Course Description
+title: Syllabus
 toc: true
 type: docs
 weight: 1

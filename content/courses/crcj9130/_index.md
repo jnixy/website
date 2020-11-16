@@ -7,7 +7,7 @@ menu:
   crcj9130:
     name: Overview
     weight: 1
-summary: This course covers a variety of topics that are fundamental to understandign American policing in the 21st Century.
+summary: This course covers a variety of topics that are fundamental to understanding American policing in the 21st Century.
 title: CRCJ 9130 - Advanced Research on Policing
 toc: true
 type: docs
