@@ -14,8 +14,8 @@ type: docs
 weight: 1
 ---
 
-# Spring 2021
+## Spring 2021
 
-Meeting time: Tuesdays 1 - 3:40PM
+* Meeting time: Tuesdays 1 - 3:40PM
 
-Office hours: Tuesdays 12 - 1PM or by appointment
+* (Virtual) Office hours: Tuesdays 12 - 1PM or by appointment

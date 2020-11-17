@@ -6,13 +6,11 @@ menu:
   crcj9130:
     parent: Syllabus
     weight: 2
-title: Syllabus
+title: Course Schedule
 toc: true
 type: docs
 weight: 2
 ---
-
-## Course Schedule
 
 ### Week 1, 01/12: Syllabus & Course Overview
 
@@ -120,7 +118,7 @@ weight: 2
 
 * Zhao, L. and A. V. Papachristos (2020). Network position and police who shoot. [*The ANNALS of the American Academy of Political and Social Science*](https://doi.org/10.1177%2F0002716219901171) 687(1): 89--112.
 
-<span style="color: green;">*Guest Speaker: Dr. Marie Ouellet, Georgia State University*}</span>
+<span style="color: green;">*Guest Speaker: Dr. Marie Ouellet, Georgia State University*</span>
 
 ### Week 15, 04/20
 
