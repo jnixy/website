@@ -26,7 +26,7 @@ Sierra-Arévalo, M. (2016). American policing and the danger imperative. [*Worki
 
 Sierra-Arévalo, M. (2019). The commemoration of death, organizational memory, and police culture. [*Criminology*](https://doi.org/10.1111/1745-9125.12224) 57(4): 632--658.
 
-\textcolor{blue}{*Guest Speaker: Dr. Michael Sierra-Arévalo, University of Texas*}
+<span style="color: green;">*Guest Speaker: Dr. Michael Sierra-Arévalo, University of Texas*</span>
 
 ### Week 3, 01/26: Police Culture, Part II
 
@@ -34,7 +34,7 @@ Crank, J. P. and R. Langworthy (1992). An institutional perspective of policing.
 
 Cheng, T. (2020). Social media, selective transparency, and pursuing legitimation of police violence. *Working paper* (R&R).
 
-\textcolor{blue}{*Guest Speaker: Tony Cheng, Yale University*}
+<span style="color: green;">*Guest Speaker: Tony Cheng, Yale University*</span>
 
 ### Week 4, 02/02: The "Ferguson/Floyd Effect"
 
@@ -42,7 +42,7 @@ Shjarback, J. A, D. C. Pyrooz, S. E. Wolfe, and S. H. Decker (2017). De-policing
 
 Skoy, E. (2020). Black Lives Matter protests, fatal police interactions, and crime. [*Contemporary Economic Policy*]((https://doi.org/10.1111/coep.12508). Advance online publication.
 
-\textcolor{blue}{*Guest Speaker: Dr. John Shjarback, Rowan University*}
+<span style="color: green;">*Guest Speaker: Dr. John Shjarback, Rowan University*</span>
 
 ### Week 5, 02/09: Racial Disparities
 
@@ -50,7 +50,7 @@ Gaston, S. (2019a). Enforcing race: A neighborhood-level explanation of black-wh
 
 Gaston, S. (2019b). Producing race disparities: A study of drug arrests across place and race. [*Criminology*](https://doi.org/10.1111/1745-9125.12207) 57(3): 424--451.
 
-\textcolor{blue}{*Guest Speaker: Dr. Shytierra Gaston, Georgia State University*}
+<span style="color: green;">*Guest Speaker: Dr. Shytierra Gaston, Georgia State University*</span>
 
 ### Week 6, 02/16: Misconduct and Accountability
 
@@ -58,7 +58,7 @@ White, M. D. and R. J. Kane (2013). Pathways to career-ending police misconduct:
 
 Chalfin, A. and J. Kaplan (2020). How many complaints against police officers can be abated by incapacitating a few bad apples? [*Working Paper*](http://achalfin.weebly.com/uploads/8/5/4/8/8548116/uof_concentration.pdf) (R&R). 
 
-\textcolor{blue}{*Guest Speaker: Dr. Aaron Chalfin, University of Pennsylvania*}
+<span style="color: green;">*Guest Speaker: Dr. Aaron Chalfin, University of Pennsylvania*</span>
 
 ### Week 7, 02/23: Body-worn Cameras
 
@@ -66,7 +66,7 @@ Gaub, J. E. and M. D. White (2020). Open to interpretation: Confronting the chal
 
 Lum, C, C. S. Koper, D. B. Wilson, M. Stoltz, M. Goodier, E. Eggins, A. Higginson, and L. Mazerolle (2020). Body-worn cameras effects on police officers and citizen behavior: A systematic review. [*Campbell Systematic Reviews*](https://eprints.qut.edu.au/205611/1/69323758.pdf) 16(3): 1--40.
 
-\textcolor{blue}{*Guest Speaker: Dr. Janne Gaub, University of North Carolina Charlotte*}
+<span style="color: green;">*Guest Speaker: Dr. Janne Gaub, University of North Carolina Charlotte*</span>
 
 ### Week 8, 03/02: Diversifying the Police
 
@@ -74,7 +74,7 @@ Riccucci, N. M, G. G. Van Ryzin, and K. Jackson (2018). Representative bureaucra
 
 Ba, B., D. Knox, J. Mummolo, and R. Rivera (2020). Diversity in policing: The role of officer race and gender in police-civilian interactions in Chicago. [*Working paper*](https://www.dropbox.com/s/yzo3b1knn4vff2h/BKMR_DiversityPolicingChicago.pdf?dl=0) (R&R).
 
-\textcolor{blue}{*Guest Speaker: Dr. Bocar Ba, University of California Irvine*}
+<span style="color: green;">*Guest Speaker: Dr. Bocar Ba, University of California Irvine*</span>
 
 ### Week 9, 03/09: Procedural Justice and Legitimacy
 
@@ -84,7 +84,7 @@ Nagin, D. S. and C. W. Telep (2020). Procedural justice and legal compliance: A 
 
 Wood, G, T. R. Tyler, and A. V. Papachristos (2020). Procedural justice training reduces police use of force and complaints against officers. [*PNAS*](https://www.pnas.org/content/pnas/117/18/9815.full.pdf) 117(18): 9815--9821.
 
-\textcolor{blue}{*Guest Speaker: Dr. Cody Telep, Arizona State University*}
+<span style="color: green;">*Guest Speaker: Dr. Cody Telep, Arizona State University*</span>
 
 ### Week 10, 03/16
 
@@ -96,7 +96,7 @@ Sherman, L. W. (2015). A tipping point for "totally evidenced policing": Ten ide
 
 Haberman, C. P. and W. H. Stiver (2019). Using officers' perspectives to guide the implementation of hot spots foot patrols. [*Policing and Society*](https://doi.org/10.1080/10439463.2019.1611822). Advance online publication. 
 
-\textcolor{blue}{*Guest Speaker: Dr. Cory Haberman, University of Cincinnati*}
+<span style="color: green;">*Guest Speaker: Dr. Cory Haberman, University of Cincinnati*</span>
 
 ### Week 12, 03/30: Women in Policing
 
@@ -104,7 +104,7 @@ Schuck, A. M. (2014). Female representation in law enforcement: The influence of
 
 Todak, N. (2017). The decision to become a police officer in a legitimacy crisis. [*Women and Criminal Justice*](https://doi.org/10.1080/08974454.2016.1256804) 27(4), pp. 250--270.
 
-\textcolor{blue}{*Guest Speaker: Dr. Natalie Todak, University of Alabama Birmingham*}
+<span style="color: green;">*Guest Speaker: Dr. Natalie Todak, University of Alabama Birmingham*</span>
 
 ### Week 13, 04/06: Police in Schools
 
@@ -112,7 +112,7 @@ Fisher, B. W, E. M. Higgins, A. Kupchik, S. Viano, F. C. Curran, S. Overstreet, 
 
 Gottfredson, D. C, S. Crosse, Z. Tang, E. L. Bauer, M. A. Harmon, C. A. Hagen, and A. D. Greene (2020). Effects of school resource officers on school crime and responses to school crime. [*Criminology & Public Policy*](https://doi.org/10.1111/1745-9133.12512) 19(3): 905--940.
 
-\textcolor{blue}{*Guest Speaker: Dr. Ben Fisher, University of Louisville*}
+<span style="color: green;">*Guest Speaker: Dr. Ben Fisher, University of Louisville*</span>
 
 ### Week 14, 04/13: The Network Dynamics of Policing
 
@@ -120,7 +120,7 @@ Ouellet, M, S. Hashimi, J. Gravel, and A. V. Papachristos (2019). Network exposu
 
 Zhao, L. and A. V. Papachristos (2020). Network position and police who shoot. [*The ANNALS of the American Academy of Political and Social Science*](https://doi.org/10.1177%2F0002716219901171) 687(1): 89--112.
 
-\textcolor{blue}{*Guest Speaker: Dr. Marie Ouellet, Georgia State University*}
+<span style="color: green;">*Guest Speaker: Dr. Marie Ouellet, Georgia State University*}</span>
 
 ### Week 15, 04/20
 
