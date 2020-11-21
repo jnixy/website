@@ -20,7 +20,7 @@ weight: 2
 
 ## Week 2, 01/19: Police Culture, Part I
 
-* Sierra-Arévalo, M. (2016). American policing and the danger imperative. [*Working paper*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2864104) (R&R).
+* Sierra-Arévalo, M. (*In Press*). American policing and the danger imperative. Forthcoming in *Law & Society Review*.
 
 * Sierra-Arévalo, M. (2019). The commemoration of death, organizational memory, and police culture. [*Criminology*](https://doi.org/10.1111/1745-9125.12224) 57(4): 632--658.
 
