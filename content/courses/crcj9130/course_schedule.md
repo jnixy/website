@@ -18,6 +18,8 @@ weight: 2
 
 * Meares, T. L. and T. R. Tyler (2020). The first step is figuring out what police are for. [*The Atlantic*](https://www.theatlantic.com/ideas/archive/2020/06/first-step-figuring-out-what-police-are/612793/).
 
+* Lum, C. (2021). Perspectives on policing: Cynthia Lum. [*Annual Review of Criminology*](https://www.annualreviews.org/doi/10.1146/annurev-criminol-093020-023221) 4:18.1--18.7. 
+
 ## Week 2, 01/19: Police Culture, Part I
 
 * Sierra-Arévalo, M. (*In Press*). American policing and the danger imperative. Forthcoming in *Law & Society Review*. (Postprint available [here](https://osf.io/preprints/socarxiv/yrw65/))
