@@ -22,12 +22,13 @@ tags:
 - Experimental design
 
 title: "Measurement matters: Attitudinal v. behavioral survey questions"
-url_pdf:
+url_pdf: https://doi.org/10.21428/cb6ab371.6a1b0671
 ---
 
 It's starting to feel like [this paper](https://doi.org/10.21428/cb6ab371.6a1b0671) may never get published in a peer-reviewed journal, so just in case, here's a quick blog about what we did and what we found. 
 
 **WHAT WE DID**
+
 My colleagues and I drew a national probability sample of police executives[^1] and administered a survey experiment, wherein respondents (N=659) were randomly assigned to Group A or Group B. Group A was asked *how important* they felt a series of organizationally just behaviors were. Group B was asked to self-report how often they *actually engage* in those behaviors. Here are a couple screen grabs that show the experimental treatments:
 
 **Group A**
@@ -58,7 +59,7 @@ So we were interested in the effect of our treatment (OJ index A or B) on *perce
 
 ![Results](/img/measurement_matters_results.png)
 
-As you can see above, Group A's OJ index was not associated with the outcome, but Group B's was strongly associated with it. And note the differences in the R^2 values. 
+Right click the table above and open it in a new tab for better resolution. As you can see, Group A's OJ index was not associated with the outcome, but Group B's was strongly associated with it. And note the differences in the R<sup>[2]</sup> values. 
 
 So what's the implication? That measurement matters, and we should always think carefully about how we word survey questions. Imagine, for example, we wanted to measure officers' commitment to democratic policing (as several recent studies have). I think few cops would say it is *unimportant* or *strongly disagree* that they should treat people respectfully. But whether they *actually do it* is a different question. To be sure, asking officers to self-report isn't a perfect alternative (i.e., they could lie), but I think our study suggests it may invoke more honest reflection. 
 
