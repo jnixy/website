@@ -59,7 +59,7 @@ So we were interested in the effect of our treatment (OJ index A or B) on *perce
 
 ![Results](/img/measurement_matters_results.png)
 
-Right click the table above and open it in a new tab for better resolution. As you can see, Group A's OJ index was not associated with the outcome, but Group B's was strongly associated with it. And note the differences in the R<sup>[2]</sup> values. 
+Right click the table above and open it in a new tab for better resolution. As you can see, Group A's OJ index was not associated with the outcome, but Group B's was strongly associated with it. And note the differences in the R-squared values. 
 
 So what's the implication? That measurement matters, and we should always think carefully about how we word survey questions. Imagine, for example, we wanted to measure officers' commitment to democratic policing (as several recent studies have). I think few cops would say it is *unimportant* or *strongly disagree* that they should treat people respectfully. But whether they *actually do it* is a different question. To be sure, asking officers to self-report isn't a perfect alternative (i.e., they could lie), but I think our study suggests it may invoke more honest reflection. 
 
