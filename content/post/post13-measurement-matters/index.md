@@ -29,7 +29,7 @@ It's starting to feel like [this paper](https://doi.org/10.21428/cb6ab371.6a1b06
 
 **WHAT WE DID**
 
-My colleagues and I drew a national probability sample of police executives[^1] and administered a survey experiment, wherein respondents (N=659) were randomly assigned to Group A or Group B. Group A was asked *how important* they felt a series of organizationally just behaviors were. Group B was asked to self-report how often they *actually engage* in those behaviors. Here are a couple screen grabs that show the experimental treatments:
+My colleagues and I drew a national probability sample of police executives[^1] and administered a survey experiment, wherein respondents were randomly assigned to Group A or Group B. Group A was asked *how important* they felt a series of organizationally just behaviors were. Group B was asked to self-report how often they *actually engage* in those behaviors. Here are a couple screen grabs that show the experimental treatments:
 
 **Group A**
 ![Group A](/img/measurement_matters_A.png)
