@@ -37,14 +37,14 @@ My colleagues and I drew a national probability sample of police executives[^1] 
 **Group B**
 ![Group B](/img/measurement_matters_B.png)
 
-For each group, we averaged responses to the 6 items to generate mean *Organizational Justice* (OJ) indexes. The descriptive stats for each Group's OJ index were very similar[^2]:
+For each group, we averaged responses to the 6 items to generate mean *Organizational Justice* (OJ) indexes. The means of each Group's OJ index were very similar, but note the differences in their standard deviations and ranges.[^2]
 
 | Organizational Justice Index  | N   | Mean  | S.D. | Min | Max |
 |-------------------------------|:---:|:-----:|:----:|:---:|:---:|
 | A (Perceived importance)      | 325 | 4.464 | .799 | 1.0 | 5.0 |
 | B (Self-reported behavior)    | 308 | 4.557 | .351 | 2.6 | 5.0 |
 
-Our dependent variable was a mean index constructed from items that asked respondents to reflect on the quality of their relationship with other officers in their agency. Here are the items:
+Our outcome variable was a mean index constructed from items that asked respondents to reflect on the *quality of their relationships with other officers* in their agency. Here are the items:
 
 1. I have a good working relationship with the officers in my department.
 2. I feel that officers in this department trust me. 
@@ -53,7 +53,7 @@ Our dependent variable was a mean index constructed from items that asked respon
 5. My views about what is right and wrong in police work are similar to the views of other officers in the department. 
 6. Other officers in the department come to me for advice. 
 
-So we were interested in the effect of our treatment (OJ index A or B) on *perceived quality of relationship with other officers.*
+Here, we were interested in whether the *measurement of OJ* (Group A or Group B) moderates the underlying relationship between OJ and perceived quality of relationships with other officers. 
 
 **WHAT WE FOUND**
 
@@ -61,7 +61,7 @@ So we were interested in the effect of our treatment (OJ index A or B) on *perce
 
 Right click the table above and open it in a new tab for better resolution. As you can see, Group A's OJ index was not associated with the outcome, but Group B's was strongly associated with it. And note the differences in the R-squared values. 
 
-So what's the implication? That measurement matters, and we should always think carefully about how we word survey questions. Imagine, for example, we wanted to measure officers' commitment to democratic policing (as several recent studies have). I think few cops would say it is *unimportant* or *strongly disagree* that they should treat people respectfully. But whether they *actually do it* is a different question. To be sure, asking officers to self-report isn't a perfect alternative (i.e., they could lie), but I think our study suggests it may invoke more honest reflection. 
+So what's the implication? That measurement matters, and we should always think carefully about how we word survey questions, as it could mask real correlations between constructs of interest. Imagine, for example, we wanted to measure officers' commitment to democratic policing (as several recent studies have). I think few cops would say it is *unimportant* or *strongly disagree* that they should treat people respectfully. But whether they *actually do it* is a different question. To be sure, asking officers to self-report isn't a perfect alternative (i.e., they could still lie), but I think our study suggests it may invoke more honest reflection. 
 
 As we argue in [the paper](https://doi.org/10.21428/cb6ab371.6a1b0671), the only way to know if measurement matters is to test that hypothesis. Knowing that it matters should naturally lead us to consider or analyze *why* it matters.
 
