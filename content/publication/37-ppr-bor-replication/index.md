@@ -3,7 +3,7 @@ abstract: "We reevaluate the claim from Bor et al. (2018: 302) that _police kill
 authors:
 - admin
 - M. James Lozada
-date: "2019-12-30T00:00:00Z"
+date: "2021-1-15T00:00:00Z"
 doi: 10.31235/osf.io/ajz2q
 featured: false
 image:
@@ -11,23 +11,23 @@ image:
   focal_point: center
   preview_only: false
 projects: []
-publication: '*Available at SocArXiv*'
+publication: '*Police Practice & Research*'
 publication_short:
 publication_types:
-- "3"
-publishDate: "2019-12-30T00:00:00Z"
+- "2"
+publishDate: "2021-1-15T00:00:00Z"
 slides: ""
 summary: "Correcting 91 misclassified incidents renders Bor et al.’s (2018) key finding non-significant."
 tags:
 - Police
-- Officer-involved shootings
+- Deadly Force
 - Race
 - Mental health
-- Public health
-title: 'Do Police Killings of Unarmed Persons Really Have Spillover Effects? Reanalyzing Bor et al. (2018)'
+- Public Health
+title: 'Police Killings of Unarmed Black Americans: A Reassessment of Community Mental Health Spillover Effects'
 url_code: ""
-url_dataset: ""
-url_pdf: "/files/pdfs/preprint_bor_replication.pdf"
+url_dataset: "https://doi.org/10.7910/DVN/VGYI0E"
+url_pdf: "/files/pdfs/ppr_bor_replication.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
