@@ -3,7 +3,7 @@ abstract: "We reevaluate the claim from Bor et al. (2018: 302) that _police kill
 authors:
 - admin
 - M. James Lozada
-date: "2021-1-15T00:00:00Z"
+date: "2021-01-15T00:00:00Z"
 doi: 10.31235/osf.io/ajz2q
 featured: false
 image:
@@ -15,7 +15,7 @@ publication: '*Police Practice & Research*'
 publication_short:
 publication_types:
 - "2"
-publishDate: "2021-1-15T00:00:00Z"
+publishDate: "2021-01-15T00:00:00Z"
 slides: ""
 summary: "Correcting 91 misclassified incidents renders Bor et al.’s (2018) key finding non-significant."
 tags:
