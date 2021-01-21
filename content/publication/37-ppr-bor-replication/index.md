@@ -4,7 +4,7 @@ authors:
 - admin
 - M. James Lozada
 date: "2021-01-15T00:00:00Z"
-doi: 10.31235/osf.io/ajz2q
+doi: 10.1080/15614263.2021.1878894
 featured: false
 image:
   caption: 
