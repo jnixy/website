@@ -5,7 +5,7 @@ authors:
 - Ian Adams
 - admin
 - Tara Richards
-date: "2020-01-21T08:00:00Z"
+date: "2021-01-21T08:00:00Z"
 doi: 
 featured: false
 image:
@@ -17,7 +17,7 @@ publication: '*Justice Evaluation Journal*'
 publication_short: 
 publication_types:
 - "2"
-publishDate: "2020-01-22T08:00:00Z"
+publishDate: "2021-01-22T08:00:00Z"
 slides: ""
 summary: We evaluated the effect of a mandatory SAK testing policy on the monthly rape arrest rate in a western jurisdiction.
 tags:
