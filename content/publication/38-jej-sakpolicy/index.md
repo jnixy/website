@@ -6,7 +6,7 @@ authors:
 - admin
 - Tara Richards
 date: "2021-01-21T08:00:00Z"
-doi: 
+doi: 10.1080/24751979.2021.1881410
 featured: false
 image:
   caption: "Image by [Peggy und Marco Lachmann-Anke](https://pixabay.com/users/peggy_marco-1553824/) from [Pixabay](https://pixabay.com/images/id-2512003/)"
@@ -38,7 +38,7 @@ url_video: ""
 
 ***************
 
-**SUMMARY**
+**Summary**
 
 In a new forthcoming study, my co-authors and I examined arrest trends for rape in "Westland," a large, western jurisdiction that implemented a mandatory sexual assault kit (SAK) testing policy in November 2014. Emerging research suggests these policies are associated with a range of beneficial outcomes such as identifying serial offenders.[^1] However, a previous evaluation of Senate Bill 1636 in Texas, which mandated statewide testing of all SAKs within 30 days of receipt, concluded that the bill was **not associated** with increased sexual assault reporting, sexual assault arrests, or sexual assault court filings and convictions.[^2] Thus, we hypothesized that in Westland, *mandatory testing of SAKS would not result in an increase in the proportion of rape reports that result in an arrest.*
 
