@@ -39,4 +39,4 @@ url_video: ""
 
 **Summary**
 
-![ppr_fig2](/img/ppr_dvcfs_fig2.tif)
+![ppr_fig2](/img/ppr_dvcfs_fig2.png)
