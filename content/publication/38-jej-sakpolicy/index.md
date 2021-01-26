@@ -25,7 +25,7 @@ tags:
 - Time series analysis
 - Evidence-based policing
 - LEADS
-title: 'Mandatory Sexual Assault Kit Testing Policies and Arrest Trends a Natural Experiment'
+title: 'Mandatory Sexual Assault Kit Testing Policies and Arrest Trends: A Natural Experiment'
 url_code: ""
 url_dataset:
 url_pdf: ""
