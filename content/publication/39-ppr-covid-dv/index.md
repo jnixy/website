@@ -59,9 +59,9 @@ We pulled calls for service data from the [Police Data Initiative](https://www.p
 
 **Key findings:**
 
-* In every jurisdiction, other citizen-intiated calls for service declined during stay-at-home orders. 
+* In every jurisdiction, other (non-DV) citizen-intiated calls for service declined during stay-at-home orders. 
 * Every jurisdiction but Cincinnati experienced a significant spike in DV calls for service during stay-at-home orders.
-* After stay-at-home orders were lifted, DV calls for service declined throughout the remainder of 2020 in every jurisdiction but Salt Lake City.
+* After stay-at-home orders were lifted, DV calls for service declined or remained fairly stable throughout the remainder of 2020 in every jurisdiction but Salt Lake City - where they increased.
 
 At the time of this writing, a new, more contagious strain of the coronavirus is spreading throughout the population as we race to distribute the vaccines. In the event new rounds of stay-at-home orders are necessary to slow the spread, our findings (and prior work) suggest we could see a spike in DV calls for service in many jurisdictions.
 
@@ -69,6 +69,7 @@ In the paper, we get into the practical implications of these findings. I'll lin
 
 One last thing: we submitted this on January 11, 2021 as a "rapid communication" to *Police Practice & Research*. As promised, the review process was lightning fast. We got an R&R on January 17th, resubmitted a few days later, and were notified it was accepted on January 25th. Hats off to Mike White, Laura Huey, and the reviewers they've been calling on for holding up their end of the deal. I've had papers sit in peer-review purgatory for months, sometimes years, so this was truly refreshing. 
 
-[^1]: A handful of earlier studies have already shown that domestic/family violence calls did in fact increase in many jurisdictions during stay-at-home orders. See, e.g., [Bullinger et al., 2020](https://www.nber.org/system/files/working_papers/w27667/w27667.pdf), [Campedelli et al., 2020](https://doi.org/10.1186/s40163-020-00131-8), [Leslie & Wilson, 2020](https://doi.org/10.1016/j.jpubeco.2020.104241), [Mohler et al., 2020](https://doi.org/10.1016/j.jcrimjus.2020.101692), and [Piquero et al., 2020](https://doi.org/10.1007/s12103-020-09531-7). 
-[^2]: Replication materials are up on my [GitHub](https://github.com/jnixy/replication-materials/tree/master/nix_richards_PPR_InPress). 
-[^3]: This color template is ideal for comparing/contrasting six data classes. See Cynthia Brewer et al.'s  [ColorBrewer2.0](https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=6), and use it for your own work!
+
+<font size="2">[^1]: A handful of earlier studies have already shown that domestic/family violence calls did in fact increase in many jurisdictions during stay-at-home orders. See, e.g., [Bullinger et al., 2020](https://www.nber.org/system/files/working_papers/w27667/w27667.pdf), [Campedelli et al., 2020](https://doi.org/10.1186/s40163-020-00131-8), [Leslie & Wilson, 2020](https://doi.org/10.1016/j.jpubeco.2020.104241), [Mohler et al., 2020](https://doi.org/10.1016/j.jcrimjus.2020.101692), and [Piquero et al., 2020](https://doi.org/10.1007/s12103-020-09531-7). </font>
+<font size="2">[^2]: Replication materials are up on my [GitHub](https://github.com/jnixy/replication-materials/tree/master/nix_richards_PPR_InPress). </font>
+<font size="2">[^3]: This color template is ideal for comparing/contrasting six data classes. See Cynthia Brewer et al.'s  [ColorBrewer2.0](https://colorbrewer2.org/#type=qualitative&scheme=Dark2&n=6), and use it for your own work! </font>
