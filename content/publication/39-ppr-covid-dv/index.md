@@ -27,7 +27,7 @@ tags:
 title: 'The immediate and long-term effects of COVID-19 stay-at-home orders on domestic violence calls for service across six U.S. jurisdictions'
 url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_richards_PPR_InPress"
 url_dataset:
-url_pdf: ""
+url_pdf: ""/files/pdfs/ppr_covid_dv.pdf""
 url_poster: ""
 url_project: ""
 url_slides: ""
