@@ -4,7 +4,7 @@ authors:
 - admin
 - Tara Richards
 date: "2021-01-25T20:00:00Z"
-doi: 
+doi: 10.1080/15614263.2021.1883018
 featured: false
 image:
   caption: "Image by [Sharon McCutcheon](https://unsplash.com/@sharonmccutcheon) from [Unsplash](https://unsplash.com/photos/gxkWSW6K15Y)"
@@ -27,7 +27,7 @@ tags:
 title: 'The immediate and long-term effects of COVID-19 stay-at-home orders on domestic violence calls for service across six U.S. jurisdictions'
 url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_richards_PPR_InPress"
 url_dataset:
-url_pdf: ""/files/pdfs/ppr_covid_dv.pdf""
+url_pdf: "/files/pdfs/ppr_covid_dv.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
