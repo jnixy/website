@@ -22,7 +22,7 @@ One of the joys of the tenure track is having to keep a record of everything you
 
 So h/t to [Manne Gerell](https://twitter.com/ManneGerell/status/1357016599660802050) for sending me down this rabbit hole. I thought I'd look back on how these "data" describe me as a reviewer. 
 
-I've now reviewed 125 manuscripts across 41 different journals. Recently, it's worked out to around 20-25 manuscripts per year, or around two per month. I haven't tracked the invitations I've declined, but it feels like I'm doing that more often lately.
+I've now reviewed 125 manuscripts across 41 different journals (I also have 3 outstanding :grimacing:). Recently, it's worked out to around 20-25 manuscripts per year, or around two per month. I haven't tracked the invitations I've declined, but it feels like I'm doing that more often lately.
 
 |Manuscripts Reviewed                                                        |     N      |
 |----------------------------------------------------------------------------|------------|
