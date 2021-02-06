@@ -29,7 +29,7 @@ tags:
 - Media
 - Public health
 title: 'What Does the Public Want Police to Do During Pandemics? A National Experiment'
-url_code: ""
+url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_et_al_CAPP_2021"
 url_dataset:
 url_pdf: ""
 url_poster: ""
