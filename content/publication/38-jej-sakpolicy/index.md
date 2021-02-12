@@ -28,7 +28,7 @@ tags:
 title: 'Mandatory Sexual Assault Kit Testing Policies and Arrest Trends: A Natural Experiment'
 url_code: ""
 url_dataset:
-url_pdf: ""
+url_pdf: "/files/pdfs/jej_sakpolicy.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
