@@ -25,7 +25,8 @@ title: "Measurement matters: Attitudinal v. behavioral survey questions"
 url_pdf: https://doi.org/10.21428/cb6ab371.6a1b0671
 ---
 
-*Update 3/1/2011: We got rejected for the fourth time, and again, one of the reviewers said the method we used was not an experiment.*
+***Update 3/1/2021:*** *We got rejected for the fourth time, and again, one of the reviewers said the method we used was not an experiment.*
+
 ***
 
 It's starting to feel like [this paper](https://doi.org/10.21428/cb6ab371.6a1b0671) may never get published in a peer-reviewed journal, so just in case, here's a quick blog about what we did and what we found. 
