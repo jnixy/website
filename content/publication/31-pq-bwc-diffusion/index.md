@@ -26,7 +26,7 @@ tags:
 - Citizen oversight
 - Legitimacy
 title: 'Understanding body-worn camera diffusion in U.S. policing'
-url_code: ""
+url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_et_al_PQ_2020"
 url_dataset: ""
 url_pdf: "/files/pdfs/pq_bwcdiffusion.pdf"
 url_poster: ""
