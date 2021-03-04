@@ -4,7 +4,7 @@ authors:
 - David Pyrooz
 - admin
 - Scott Wolfe
-date: "2021-02-24T09:49:00Z"
+date: "2021-02-24T09:50:00Z"
 doi: 
 featured: false
 image: 
@@ -16,7 +16,7 @@ publication: '*The Denver Post*'
 publication_short: 
 publication_types:
 - "0"
-publishDate: "2021-02-24T09:49:00Z"
+publishDate: "2021-02-24T09:50:00Z"
 slides: ""
 summary: We argue that Denver's 2020 crime spike was likely the result of a police legitimacy crisis.
 tags:
