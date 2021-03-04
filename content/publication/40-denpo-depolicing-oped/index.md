@@ -29,7 +29,7 @@ tags:
 title: 'Understanding Denver's devastating rise in homicides in 2020, the largest in at least 5 years'
 url_code: ""
 url_dataset: ""
-url_pdf: "/files/pdfs/denpo_depolicing.pdf"
+url_pdf: "C:/Users/jnix/OneDrive - University of Nebraska at Omaha/my-website/website/static/files/pdfs/denpo_depolicing.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
