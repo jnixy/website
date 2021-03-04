@@ -1,5 +1,5 @@
 ---
-abstract: ""
+abstract: 
 authors:
 - David Pyrooz
 - admin
