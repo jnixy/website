@@ -27,7 +27,7 @@ tags:
 - Ferguson Effect
 - Trust
 - COVID-19
-title: 'Understanding Denver's devastating rise in homicides in 2020'
+title: "Understanding Denver's devastating rise in homicides in 2020"
 url_code: ""
 url_dataset: ""
 url_pdf: "/files/pdfs/denpo_depolicing.pdf"
