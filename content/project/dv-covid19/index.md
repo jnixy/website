@@ -5,21 +5,7 @@ date: '2021-03-20T18:00:00Z'
 output:
   html_document:
     df_print: paged
-links:
-- name = "Baltimore Brief"
-  url="/files/pdfs/brief_baltimore_dv.pdf"
-- name = "Cincinnati Brief"
-  url="/files/pdfs/brief_cinci_dv.pdf"
-- name = "Hartford Brief"
-  url="/files/pdfs/brief_hartford_dv.pdf"
-- name = "Orlando Brief"
-  url="/files/pdfs/brief_orlando_dv.pdf"
-- name = "Sacramento Brief"
-  url="/files/pdfs/brief_sacramento_dv.pdf"
-- name = "Salt Lake City Brief"
-  url="/files/pdfs/brief_SLC_dv.pdf"
-- name = "St. Petersburg Brief"
-  url="/files/pdfs/brief_stpete_dv.pdf"
+
 slides: ""
 summary: ""
 tags:
@@ -34,6 +20,7 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+url_custom: [{name = "Baltimore", url="/files/pdfs/brief_baltimore_dv.pdf"}, {name = "Cincinnati", url="/files/pdfs/brief_cinci_dv.pdf"}, {name = "Hartford", url="/files/pdfs/brief_hartford_dv.pdf"}, {name = "Orlando", url="/files/pdfs/brief_hartford_dv.pdf"}, {name = "Sacramento", url="/files/pdfs/brief_sacramento_dv.pdf"}, {name = "Salt Lake City", url="/files/pdfs/brief_SLC_dv.pdf"}, {name = "St. Petersburg", url="/files/pdfs/brief_stpete_dv.pdf"}]
 ---
 
 ## Summary
