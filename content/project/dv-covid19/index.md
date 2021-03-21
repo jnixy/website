@@ -34,7 +34,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Brief Report", url="C:\Users\jnix\OneDrive - University of Nebraska at Omaha\my-website\website\static\files\pdfs\dv_help_brief.pdf"}]
+url_custom = [{name = "Brief Report", url="C:/Users/jnix/OneDrive - University of Nebraska at Omaha/my-website/website/static/files/pdfs/dv_help_brief.pdf"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
