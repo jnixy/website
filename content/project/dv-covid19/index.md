@@ -1,32 +1,39 @@
 ---
-title: Domestic Violence Help-Seeking During COVID-19
-summary: 
+title: "Domestic Violence Help-Seeking During COVID-19"
+external_link: ""
+date: '2021-03-20T18:00:00Z'
+output:
+  html_document:
+    df_print: paged
+links:
+- name = "Baltimore Brief"
+  url="/files/pdfs/brief_baltimore_dv.pdf"
+- name = "Cincinnati Brief"
+  url="/files/pdfs/brief_cinci_dv.pdf"
+- name = "Hartford Brief"
+  url="/files/pdfs/brief_hartford_dv.pdf"
+- name = "Orlando Brief"
+  url="/files/pdfs/brief_orlando_dv.pdf"
+- name = "Sacramento Brief"
+  url="/files/pdfs/brief_sacramento_dv.pdf"
+- name = "Salt Lake City Brief"
+  url="/files/pdfs/brief_SLC_dv.pdf"
+- name = "St. Petersburg Brief"
+  url="/files/pdfs/brief_stpete_dv.pdf"
+slides: ""
+summary: ""
 tags:
 - COVID-19
 - Domestic disturbances
 - Police
 - Public health
-date: "2021-03-20T18:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
-
 image:
   caption: Image by [CDC](https://unsplash.com/@cdc) on [Unsplash](https://unsplash.com/photos/w9KEokhajKw)
   focal_point: Smart
-
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-links: [{name = "Baltimore Brief", url="/files/pdfs/brief_baltimore_dv.pdf"}, {name = "Cincinnati Brief", url="/files/pdfs/brief_cinci_dv.pdf"}, {name = "Hartford Brief", url="/files/pdfs/brief_hartford_dv.pdf"}, {name = "Orlando Brief", url="/files/pdfs/brief_orlando_dv.pdf"}, {name = "Sacramento Brief", url="/files/pdfs/brief_sacramento_dv.pdf"}, {name = "Salt Lake City Brief", url="/files/pdfs/brief_SLC_dv.pdf"}, {name = "St. Petersburg Brief", url="/files/pdfs/brief_stpete_dv.pdf"}]
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
 ---
 
 ## Summary
