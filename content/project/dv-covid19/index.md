@@ -21,9 +21,10 @@ links:
   name: Follow
   url: https://twitter.com/jnixy
 url_code: ""
-url_pdf: "/files/pdfs/brief_cinci_dv.pdf"
+url_pdf: ""
 url_slides: ""
 url_video: ""
+url_custom = [{name = "Baltimore Brief", url="/files/pdfs/brief_baltimore_dv.pdf"}, {name = "Cincinnati Brief", url="/files/pdfs/brief_cinci_dv.pdf"}, {name = "Hartford Brief", url="/files/pdfs/brief_hartford_dv.pdf"}, {name = "Orlando Brief", url="/files/pdfs/brief_orlando_dv.pdf"}, {name = "Sacramento Brief", url="/files/pdfs/brief_sacramento_dv.pdf"}, {name = "Salt Lake City Brief", url="/files/pdfs/brief_SLC_dv.pdf"}, {name = "St. Petersburg Brief", url="/files/pdfs/brief_stpete_dv.pdf"}]
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -43,4 +44,8 @@ Ongoing work with my colleague Tara Richards, as well as Scott Mourtgos and Ian 
 
 ## Presentations
 
+* **UN Women**: The impact of COVID-19 on responses to domestic violence (Thursday, March 25, 2021 at 10AM CST). *Slides will be posted soon!*
+
 ## Site Briefs
+
+We prepared a short, "plain English" brief for each jurisdiction that was kind enough to share their data with us. Those are linked at the top of the page. 
