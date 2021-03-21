@@ -55,17 +55,23 @@ So, we started collecting official data from several jurisdictions from the [Pol
 
 We've collected data from the following jurisdictions:
 
-- Baltimore
-- Cincinnati
-- Hartford
-- Montgomery Co.
-- New Orleans
-- Orlando
-- Phoenix
-- Sacramento
-- Salt Lake City
-- Seattle
-- St. Petersburg
+\begin{table}[]
+\begin{tabular}{lll}
+\hline
+Jurisdiction   & Calls for Police Service & Emergency Hotline Calls \\ \hline
+Baltimore      & X                        & X                       \\
+Cincinnati     & X                        & X                       \\
+Hartford       & X                        & X                       \\
+Montgomery Co. & X                        &                         \\
+New Orleans    & X                        &                         \\
+Orlando        & X                        & X                       \\
+Phoenix        & X                        &                         \\
+Sacramento     & X                        & X                       \\
+Salt Lake City & X                        & X                       \\
+Seattle        & X                        &                         \\
+St. Petersburg & X                        & X                       \\ \hline
+\end{tabular}
+\end{table}
 
 This page links to published and ongoing work from this project.
 
