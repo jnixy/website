@@ -21,7 +21,7 @@ links:
   name: Follow
   url: https://twitter.com/jnixy
 url_code: ""
-url_pdf: ""
+url_pdf: "/files/pdfs/brief_cinci_dv.pdf"
 url_slides: ""
 url_video: ""
 
@@ -33,10 +33,14 @@ url_video: ""
 slides: ""
 ---
 
-# Publications
+## Summary
+
+Ongoing work with my colleague Tara Richards, as well as Scott Mourtgos and Ian Adams, on help-seeking for domestic violence during the COVID-19 pandemic. We leverage calls for police service data as well as calls to victim service agency hotlines in several U.S. cities.
+
+## Publications
 
 * Nix, J., & Richards, T. N. (2021). The immediate and long-term effects of COVID-19 stay-at-home orders on domestic violence calls for service across six US jurisdictions. [*Police Practice and Research*](https://doi.org/10.1080/15614263.2021.1883018).
 
-# Presentations
+## Presentations
 
-# Site Briefs
+## Site Briefs
