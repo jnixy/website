@@ -12,19 +12,14 @@ date: "2021-03-20T18:00:00Z"
 external_link: ""
 
 image:
-  caption: 
+  caption: Image by [CDC](https://unsplash.com/@cdc) on [Unsplash](https://unsplash.com/photos/w9KEokhajKw)
   focal_point: Smart
 
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/jnixy
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-url_custom: [{name = "Baltimore Brief", url="/files/pdfs/brief_baltimore_dv.pdf"}, {name = "Cincinnati Brief", url="/files/pdfs/brief_cinci_dv.pdf"}, {name = "Hartford Brief", url="/files/pdfs/brief_hartford_dv.pdf"}, {name = "Orlando Brief", url="/files/pdfs/brief_orlando_dv.pdf"}, {name = "Sacramento Brief", url="/files/pdfs/brief_sacramento_dv.pdf"}, {name = "Salt Lake City Brief", url="/files/pdfs/brief_SLC_dv.pdf"}, {name = "St. Petersburg Brief", url="/files/pdfs/brief_stpete_dv.pdf"}]
+url_custom = [{name = "Baltimore Brief", url="/files/pdfs/brief_baltimore_dv.pdf"}, {name = "Cincinnati Brief", url="/files/pdfs/brief_cinci_dv.pdf"}, {name = "Hartford Brief", url="/files/pdfs/brief_hartford_dv.pdf"}, {name = "Orlando Brief", url="/files/pdfs/brief_orlando_dv.pdf"}, {name = "Sacramento Brief", url="/files/pdfs/brief_sacramento_dv.pdf"}, {name = "Salt Lake City Brief", url="/files/pdfs/brief_SLC_dv.pdf"}, {name = "St. Petersburg Brief", url="/files/pdfs/brief_stpete_dv.pdf"}]
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
