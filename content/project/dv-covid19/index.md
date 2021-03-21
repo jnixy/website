@@ -34,7 +34,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Brief Report", url="/files/pdfs/dv_help_brief.pdf"}]
+url_custom = [{name = "Brief Report", url="C:\Users\jnix\OneDrive - University of Nebraska at Omaha\my-website\website\static\files\pdfs\dv_help_brief.pdf"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
@@ -73,9 +73,11 @@ This page links to published and ongoing work from this project.
 
 * Nix, J., & Richards, T. N. (2021). The immediate and long-term effects of COVID-19 stay-at-home orders on domestic violence calls for service across six US jurisdictions. [*Police Practice and Research*](https://doi.org/10.1080/15614263.2021.1883018).
 
+* Richards, T. N., Nix, J., Mourtgos, S., & Adams, I. (*Forthcoming*). Comparing 911 and emergency hotline calls for domestic violence during COVID-19. *(Preprint will be posted soon!)*
+
 ## Presentations
 
-* **UN Women**: The impact of COVID-19 on responses to domestic violence (Thursday, March 25, 2021 at 10AM CST). *Slides will be posted soon!*
+* **UN Commission on the Status of Women**: The impact of COVID-19 on responses to domestic violence (Thursday, March 25, 2021 at 10AM CST). *(Slides will be posted soon!)*
 
 ## Site Briefs
 
