@@ -24,7 +24,7 @@ url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
-url_custom: [{name = "Baltimore", url="/files/pdfs/brief_baltimore_dv.pdf"}, {name = "Cincinnati", url="/files/pdfs/brief_cinci_dv.pdf"}, {name = "Hartford", url="/files/pdfs/brief_hartford_dv.pdf"}, {name = "Orlando", url="/files/pdfs/brief_hartford_dv.pdf"}, {name = "Sacramento", url="/files/pdfs/brief_sacramento_dv.pdf"}, {name = "Salt Lake City", url="/files/pdfs/brief_SLC_dv.pdf"}, {name = "St. Petersburg", url="/files/pdfs/brief_stpete_dv.pdf"}]
+url_custom: [{name = "Brief Report", url="/files/pdfs/dv_help_brief.pdf"}]
 ---
 
 ## Summary
