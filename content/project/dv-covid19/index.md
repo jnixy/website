@@ -5,7 +5,11 @@ date: '2021-03-20T18:00:00Z'
 output:
   html_document:
     df_print: paged
-
+authors:
+- Tara Richards
+- admin
+- Scott Mourtgos
+- Ian Adams
 slides: ""
 summary: ""
 tags:
@@ -25,7 +29,25 @@ url_custom: [{name = "Baltimore", url="/files/pdfs/brief_baltimore_dv.pdf"}, {na
 
 ## Summary
 
-Ongoing work with my colleague Tara Richards, as well as Scott Mourtgos and Ian Adams, on help-seeking for domestic violence during the COVID-19 pandemic. We leverage calls for police service data as well as calls to victim service agency hotlines in several U.S. cities.
+[Study after study](https://covid19.counciloncj.org/2021/01/31/impact-report-covid-19-and-crime-3/) has shown that help-seeking for domestic violence increased during the COVID-19 pandemic. My colleague, [Tara Richards](https://twitter.com/Prof_TNR), was quick to observe that all of the research to date has relied on official data (e.g., calls for police service, reported crimes). Research has yet to consider whether victim service agency hotlines experienced an uptick in calls during COVID-19.
+
+So, we started collecting official data from several jurisdictions from the [Police Data Initiative](https://www.policedatainitiative.org/datasets/), and reaching out to victim service agencies in the same jurisdictions to request the daily number of calls they'd received from 2018 to 2020. 
+
+We've collected data from the following jurisdictions:
+
+- Baltimore
+- Cincinnati
+- Hartford
+- Montgomery Co.
+- New Orleans
+- Orlando
+- Phoenix
+- Sacramento
+- Salt Lake City
+- Seattle
+- St. Petersburg
+
+This page links to published and ongoing work from this project.
 
 ## Publications
 
