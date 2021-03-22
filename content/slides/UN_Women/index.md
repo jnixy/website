@@ -18,6 +18,17 @@ authors:
 - Ian Adams
 ---
 
+<style type="text/css">
+  body{
+  font-size: 12pt;
+}
+</style>
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ## Law Enforcement Calls for Domestic Violence Service and Emergency Hotline Calls Before and During COVID-19
 
 [Tara Richards](https://twitter.com/Prof_TNR)
@@ -104,17 +115,17 @@ authors:
 
 ### Thank you!
 
-Dr. Tara N. Richards, @prof_TNR
-Dr. Justin Nix, @jnixy
-School of Criminology and Criminal Justice, UNO
+- Dr. Tara N. Richards, [@prof_TNR](https://twitter.com/prof_TNR)
+- Dr. Justin Nix, [@jnixy](https://twitter.com/jnixy)
+  - School of Criminology and Criminal Justice, UNO
 
-Scott Mourtgos, Ph.D.(c), @morty_s_
-Ian Adams, Ph.D.(c), @LiminalMori 
-Department of Political Science, University of Utah
+- Scott Mourtgos, Ph.D.(c), [@morty_s_](https://twitter.com/morty_s_)
+- Ian Adams, Ph.D.(c), [@LiminalMori](https://twitter.com/LiminalMori) 
+  - Department of Political Science, University of Utah
 
 ---
 
-###### References
+### References
 
 [^1]: Piquero, A.R., Jennings, W.G., Jemison, E., Kaukinen, C., & Knaul, F.M. (2021). Domestic violence during COVID-19: Evidence from a systematic review and meta-analysis. Washington, DC: Council on Criminal Justice. Retrieved from https://cdn.ymaws.com/counciloncj.org/resource/resmgr/covid_commission/Domestic_Violence_During_COV.pdf
 [^2]: Morgan, R. E., & Truman, J. L. (2020). Criminal victimization, 2019. U.S. Department of Justice, Office of Justice Programs, Bureau of Justice Statistics. https://www.bjs.gov/content/pub/pdf/cv19.pdf
