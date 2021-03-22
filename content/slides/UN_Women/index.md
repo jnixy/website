@@ -18,7 +18,7 @@ authors:
 - Ian Adams
 ---
 
-# Law Enforcement Calls for Domestic Violence Service and Emergency Hotline Calls Before and During COVID-19
+## Law Enforcement Calls for Domestic Violence Service and Emergency Hotline Calls Before and During COVID-19
 
 [Tara Richards](https://twitter.com/Prof_TNR)
 [Justin Nix](https://twitter.com/jnixy)
@@ -27,7 +27,7 @@ authors:
 
 ---
 
-## Background
+### Background
 
 - DV-related calls for police service increased directly after stay-at-home orders[^1]
 - The majority of DV victims **do not call** the police after incidents of partner violence[^2]
@@ -36,7 +36,7 @@ authors:
 
 ---
 
-## Purpose
+### Purpose
 
 - Examine the observed trend in DV calls for service to police and emergency hotlines before and during COVID-19
 - Estimate the expected trend (i.e., *counterfactual*) in DV calls for service to police and emergency hotlines during COVID-19
@@ -44,7 +44,7 @@ authors:
 
 ---
 
-## Data
+### Data
 
 - Seven U.S. cities: Baltimore, MD; Cincinnati, OH; Hartford, CT; Orlando, FL; Sacramento, CA; Salt Lake City, UT; and St. Petersburg, FL
 -- Police calls for service were obtained from the Police Data Initiative
@@ -53,7 +53,7 @@ authors:
 
 ---
 
-## Analyses
+### Analyses
 
 - **Observed Trend** - Bayesian Structural Time Series (BSTS) models are estimated for police calls for service (CFS) and emergency hotline calls (EHC) in each city using 2018 and 2019 data (i.e., non-COVID period)
 - **Expected Trend** - BSTS models are then used to estimate a counterfactual for CFS and EHC in each jurisdiction between March 9 and October 31, 2020 (i.e., COVID period)
@@ -61,21 +61,21 @@ authors:
 
 ---
 
-## Findings: Police CFS
+### Findings: Police CFS
 
 - Increases in law enforcement calls were observed in Baltimore, Sacramento, and Salt Lake City
 - Increases ranged from 1.64 more calls per day on average to 7.16 more calls per day on average, for a **total of 1030.32 more calls to law enforcement** from March 9 to October 31, 2020
 
 ---
 
-## Findings: Emergency Hotline Calls
+### Findings: Emergency Hotline Calls
 
 - Increases in the average number of calls to emergency hotlines were observed for Baltimore, Cincinnati, Hartford, Salt Lake City, and St. Petersburg
 - These increases ranged from 2.31 more calls per day on average to 4.64 more calls per day on average, for a **total of 1670.85 more calls to emergency hotlines** from March 9 to October 31, 2020
 
 ---
 
-## Findings: Comparisons
+### Findings: Comparisons
 
 - General increases in calls for DV service, but variation across cities in whether increases in calls to law enforcement, emergency hotlines, or both
 - Sacramento experienced an increase in calls to law enforcement only while Cincinnati, Hartford, and St. Petersburg experienced increases in calls to emergency hotlines only
@@ -84,7 +84,7 @@ authors:
 
 ---
 
-## Discussion
+### Discussion
 
 - Law enforcement calls only tell us part of the story about DV help seeking during COVID-19
 - Emergency hotlines/advocates shouldered a significant burden
@@ -93,7 +93,7 @@ authors:
 
 ---
 
-## Implications
+### Implications
 
 - Can we develop a culture of better data sharing and usage within/across criminal justice and victim service agencies?
 -- Better understand localized trends, deploy training and resources in real time
@@ -107,11 +107,11 @@ authors:
 [^1]: Piquero, A.R., Jennings, W.G., Jemison, E., Kaukinen, C., & Knaul, F.M. (2021). Domestic violence during COVID-19: Evidence from a systematic review and meta-analysis. Washington, DC: Council on Criminal Justice. Retrieved from https://cdn.ymaws.com/counciloncj.org/resource/resmgr/covid_commission/Domestic_Violence_During_COV.pdf
 [^2]: Morgan, R. E., & Truman, J. L. (2020). Criminal victimization, 2019. U.S. Department of Justice, Office of Justice Programs, Bureau of Justice Statistics. https://www.bjs.gov/content/pub/pdf/cv19.pdf
 [^3]: Logan, T. K., & Valente, R. (2015). Who will help me? Domestic violence survivors speak out about law enforcement responses. National Domestic Violence Hotline. http://www.thehotline.org/wp-content/uploads/sites/3/2015/09/NDVH-2015-Law-Enforcement-Survey-Report.pdf
-[^4]: Leslie, E., & Wilson, R. (2020). Sheltering in place and domestic violence: Evidence from calls for service during COVID-19. Journal of Public Economics, 189(104241), 104241. https://doi.org/10.1016/j.jpubeco.2020.104241
+[^4]: Leslie, E., & Wilson, R. (2020). Sheltering in place and domestic violence: Evidence from calls for service during COVID-19. Journal of Public Economics, 189(104241), 104241. https://doi.org/10.1016/j.jpubeco.2020.104241  
 
 ---
 
-## Thank you!
+### Thank you!
 
 Dr. Tara N. Richards, @prof_TNR
 Dr. Justin Nix, @jnixy
