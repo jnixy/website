@@ -24,7 +24,7 @@ external_link = ""
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = ""
+slides = "UN_Women"
 
 # Links (optional).
 url_pdf = ""
