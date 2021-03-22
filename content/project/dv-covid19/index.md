@@ -53,7 +53,9 @@ links = [{name = "Brief Report", url="/files/pdfs/dv_help_brief.pdf"}]
 
 So, we started collecting official data from several jurisdictions from the [Police Data Initiative](https://www.policedatainitiative.org/datasets/), and reaching out to victim service agencies in the same jurisdictions to request the daily number of emergency hotline calls they'd received from 2018 to 2020. 
 
-We've collected data from the following jurisdictions:
+***This page links to published and ongoing work from this project.***
+
+Thus far, we've collected data from the following jurisdictions:
 
 | Jurisdiction   | Calls for Police Service | Emergency Hotline Calls |
 |----------------|:------------------------:|:-----------------------:|
@@ -69,7 +71,6 @@ We've collected data from the following jurisdictions:
 | Seattle        | X                        |                         |
 | St. Petersburg | X                        | X                       |
 
-This page links to published and ongoing work from this project.
 
 ## Publications
 
