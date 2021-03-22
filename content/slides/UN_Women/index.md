@@ -96,18 +96,9 @@ authors:
 ### Implications
 
 - Can we develop a culture of better data sharing and usage within/across criminal justice and victim service agencies?
--- Better understand localized trends, deploy training and resources in real time
+  - Better understand localized trends, deploy training and resources in real time
 - Can strategic research-practitioner partnerships help domestic violence coordinated community response teams?
--- Data-driven decisions regarding local prevention and intervention (e.g., pop-up advocacy sites, well-checks for DV “hotspots”)
-
----
-
-## References
-
-[^1]: Piquero, A.R., Jennings, W.G., Jemison, E., Kaukinen, C., & Knaul, F.M. (2021). Domestic violence during COVID-19: Evidence from a systematic review and meta-analysis. Washington, DC: Council on Criminal Justice. Retrieved from https://cdn.ymaws.com/counciloncj.org/resource/resmgr/covid_commission/Domestic_Violence_During_COV.pdf
-[^2]: Morgan, R. E., & Truman, J. L. (2020). Criminal victimization, 2019. U.S. Department of Justice, Office of Justice Programs, Bureau of Justice Statistics. https://www.bjs.gov/content/pub/pdf/cv19.pdf
-[^3]: Logan, T. K., & Valente, R. (2015). Who will help me? Domestic violence survivors speak out about law enforcement responses. National Domestic Violence Hotline. http://www.thehotline.org/wp-content/uploads/sites/3/2015/09/NDVH-2015-Law-Enforcement-Survey-Report.pdf
-[^4]: Leslie, E., & Wilson, R. (2020). Sheltering in place and domestic violence: Evidence from calls for service during COVID-19. Journal of Public Economics, 189(104241), 104241. https://doi.org/10.1016/j.jpubeco.2020.104241  
+  - Data-driven decisions regarding local prevention and intervention (e.g., pop-up advocacy sites, well-checks for DV “hotspots”)
 
 ---
 
@@ -120,3 +111,12 @@ School of Criminology and Criminal Justice, UNO
 Scott Mourtgos, Ph.D.(c), @morty_s_
 Ian Adams, Ph.D.(c), @LiminalMori 
 Department of Political Science, University of Utah
+
+---
+
+###### References
+
+[^1]: Piquero, A.R., Jennings, W.G., Jemison, E., Kaukinen, C., & Knaul, F.M. (2021). Domestic violence during COVID-19: Evidence from a systematic review and meta-analysis. Washington, DC: Council on Criminal Justice. Retrieved from https://cdn.ymaws.com/counciloncj.org/resource/resmgr/covid_commission/Domestic_Violence_During_COV.pdf
+[^2]: Morgan, R. E., & Truman, J. L. (2020). Criminal victimization, 2019. U.S. Department of Justice, Office of Justice Programs, Bureau of Justice Statistics. https://www.bjs.gov/content/pub/pdf/cv19.pdf
+[^3]: Logan, T. K., & Valente, R. (2015). Who will help me? Domestic violence survivors speak out about law enforcement responses. National Domestic Violence Hotline. http://www.thehotline.org/wp-content/uploads/sites/3/2015/09/NDVH-2015-Law-Enforcement-Survey-Report.pdf
+[^4]:  Leslie, E., & Wilson, R. (2020). Sheltering in place and domestic violence: Evidence from calls for service during COVID-19. Journal of Public Economics, 189(104241), 104241. https://doi.org/10.1016/j.jpubeco.2020.104241  
