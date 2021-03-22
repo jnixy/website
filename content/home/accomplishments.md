@@ -8,10 +8,6 @@ weight = 50  # Order that this section will appear.
 title = "Honors & Awards"
 subtitle = ""
 
-[content]
-  # Choose how much pages you would like to display (0 = all pages)
-  count = 2
-
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
