@@ -20,13 +20,13 @@ authors:
 
 <style type="text/css">
   body{
-  font-size: 12pt;
+  font-size: 10pt;
 }
 </style>
 
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Law Enforcement Calls for Domestic Violence Service and Emergency Hotline Calls Before and During COVID-19
