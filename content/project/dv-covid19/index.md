@@ -24,11 +24,11 @@ external_link = ""
 #   E.g. `slides = "example-slides"` references 
 #   `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides = "slides/UN_Women"
+slides = ""
 
 # Links (optional).
 url_pdf = ""
-url_slides = "https://jnix.netlify.app/slides/un_women/#1"
+url_slides = "https://jnix.netlify.app/slides/un_women"
 url_video = ""
 url_code = ""
 
