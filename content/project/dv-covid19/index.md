@@ -80,7 +80,7 @@ Thus far, we've collected data from the following jurisdictions:
 
 ## Presentations
 
-* **UN Commission on the Status of Women**: The impact of COVID-19 on responses to domestic violence (Thursday, March 25, 2021 at 10AM CST). *Click on the ***slides*** button above to view our presentation.*
+* [**UN Commission on the Status of Women**](https://ngocsw65forum.us2.pathable.com/meetings/virtual/DpfHdGw9drSX7vhiw): The impact of COVID-19 on responses to domestic violence (Thursday, March 25, 2021 at 10AM CST). *Click on the* ***slides*** *button above to view our presentation.*
 
 ## Site Briefs
 
