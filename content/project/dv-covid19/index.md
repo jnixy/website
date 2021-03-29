@@ -34,7 +34,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Brief Report", url="/files/pdfs/dv_help_brief.pdf"}]
+links = [{name = "Brief Report", url="/files/pdfs/dv_help_brief.pdf"}, {name = "Preprint", url = "files/pdfs/richards_et_al_preprint.pdf"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
