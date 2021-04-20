@@ -76,7 +76,7 @@ Thus far, we've collected data from the following jurisdictions:
 
 * Nix, J., & Richards, T. N. (2021). The immediate and long-term effects of COVID-19 stay-at-home orders on domestic violence calls for service across six US jurisdictions. [*Police Practice and Research*](https://doi.org/10.1080/15614263.2021.1883018).
 
-* Richards, T. N., Nix, J., Mourtgos, S., & Adams, I. (*Forthcoming*). Comparing 911 and emergency hotline calls for domestic violence in seven cities: What happened when people started staying home due to COVID-19?. *Click on the* ***Preprint*** *button at the top of the page to view this paper which is undergoing the peer-review process as of 3/26/21.*
+* Richards, T. N., Nix, J., Mourtgos, S., & Adams, I. (*Preprint*). Comparing 911 and emergency hotline calls for domestic violence in seven cities: What happened when people started staying home due to COVID-19?. *Click on the* ***Preprint*** *button at the top of the page to view this paper which is undergoing the peer-review process as of 3/26/21.*
 
 ## Presentations
 
@@ -88,4 +88,4 @@ Thus far, we've collected data from the following jurisdictions:
 
 ## Media
 
-* Op-ed forthcoming in *The Conversation*...stay tuned!
+* Op-ed in [*The Conversation*](https://theconversation.com/domestic-violence-calls-for-help-increased-during-the-pandemic-but-the-answers-havent-gotten-any-easier-156683)
