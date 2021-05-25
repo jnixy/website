@@ -41,13 +41,15 @@ Kyle McLean and I have a new paper forthcoming in *Justice Quarterly* where we r
 2. **Charismatic Legitimacy** - where legitimacy is based on an the appeal of an authority's personality
 3. **Traditional Legitimacy** - where legitimacy rests “on an established belief in the sanctity of immemorial traditions and the legitimacy of the status of those exercising authority under them" (Weber, 1947:328)
 
-We hypothesized that some people legitimate the police more through *traditional* means than what Weber called *rational* means. This matters because when people view policing as legitimate, they are more likely to comply with the law, cooperate with police (e.g., report crimes), and empower the police to do what they think is necessary to suppress crime. But consider practices like stop, question and frisk (SQF). The empowerment hypothesis suggests that greater legitimacy should grant officers greater discretion in using stop and frisk. However, many citizens believe SQF is used in an arbitrary and discriminatory manner. To the extent that individuals believe that SQF is discriminatory, procedural justice theory suggests that its use will *decrease* police legitimacy. In other words, a feedback loop is generated where greater perceptions of legitimacy lead to an increase in empowerment to SQF, but its increased usage leads to negative perceptions of procedural justice and a decrease in legitimacy.
+We hypothesized that some people legitimate the police more through *traditional* means than what Weber called *rational* means. This matters because when people view policing as legitimate, they are more likely to comply with the law, cooperate with police (e.g., report crimes), and empower the police to do what they think is necessary to suppress crime. 
+
+But consider practices like stop, question and frisk (SQF). The empowerment hypothesis suggests that greater legitimacy should grant officers greater discretion in using SQF. However, many citizens believe SQF is used in an arbitrary and discriminatory manner. To the extent that individuals believe that SQF is discriminatory, procedural justice theory suggests that its use will *decrease* police legitimacy. In other words, a feedback loop is generated where greater perceptions of legitimacy lead to an increase in empowerment to SQF, but its increased usage leads to negative perceptions of procedural justice and a decrease in legitimacy.
 
 ![fig1](/img/jq_feedback_loop.jpg)
 
 So the empowerment hypothesis provides an opportunity to examine why acknowledging various "facets" of legitimacy is so crucial. More than developing a clearer understanding of the theoretical underpinnings of legitimacy, the *type* of legitimacy granted may be directly related to the relationships legitimacy has with important (and more tangible) outcomes.
 
-To test this hypothesis, we surveyed a national sample of 701 US adults. We found that:
+To test our hypotheses, we surveyed a national sample of 701 US adults. We found that:
 
 1. Items we developed to measure *traditional legitimacy*[^1] loaded separately from items commonly used to measure trust in police, obligation to obey police, and perceived moral alignment with police. 
 2. Procedural and distributive justice were positively associated with legitimacy, regardless of how it was measured.
