@@ -54,13 +54,17 @@ There's been a lot of talk lately about a staffing crisis in policing following 
 
 [Scott Mourtgos](https://smourtgos.netlify.app/), [Ian Adams](https://ianadamsresearch.com/) and I have a forthcoming article in which we show that resignations in a large western agency[^1] spiked 279% (relative to a synthetic counterfactual) following last summer's protests. However, there were no significant changes in retirements or involuntary separations during our 60-month study period. Here are the yearly counts for each: 
 
+<center>
+
 |Year | Resignations | Retirements | Involuntary Separations |
-|-----|--------------|-------------|-------------------------|
+|-----|:------------:|:-----------:|:-----------------------:|
 |2016 | 5            | 21          | 2                       |
 |2017 | 9            | 22          | 3                       |
 |2018 | 18           | 29          | 4                       |
 |2019 | 19           | 21          | 5                       |
 |2020 | 37           | 26          | 8                       |
+
+</center>
 
 Probabilistic forecasting models predicted elevated resignation rates would continue in this agency in the months ahead. This is concerning, since it takes approximately one year for newly hired officers to become "road ready." Even if this agency could recruit and hire ~30 officers to replace those who resigned, in the meantime they'd continue to lose ~5 officers per month to new resignations, resulting in a continuing net loss. So if our forecast model is accurate, this agency will need to hire *well* ahead of their authorized size in order to increase staffing.
 
@@ -80,7 +84,7 @@ Probabilistic forecasting models predicted elevated resignation rates would cont
 
 * *Fair management*. This goes for police executives as well as mayors, councilmembers, and other "institutional sovereigns." There is a [significant and positive relationship](https://doi.org/10.1111/1745-9125.12251) between perceived organizational fairness and desirable attitudes and behaviors by employees. When officers believe their organizations treat them fairly, they are [less sensitive to outside scrutiny](https://doi.org/10.1016/j.jcrimjus.2016.06.002), remain committed to [doing their jobs](https://doi.org/10.1016/j.jcrimjus.2019.101627), have more [favorable views of the public](https://doi.org/10.1108/13639511311329732), and are less likely to engage in [misconduct](https://doi.org/10.1177%2F0093854810397739). Organizational justice may protect against future staffing crises by reducing [burnout](https://doi.org/10.1108/PIJPSM-06-2019-0094), stress, and [maladaptive behaviors](https://psycnet.apa.org/doi/10.1037/law0000085). So while agencies have little control over how national media coverage of misconduct affects public opinion, leaders *can* [select and train](https://psycnet.apa.org/doi/10.1037/lhb0000273) their front-line supervisors to provide a buffer between community hostility and their sworn personnel. 
 
-* *Resist going along with poorly framed narratives*. There is *plenty* of room for improvement in American policing, and it is necessary to hold police accountable for unlawful actions and even "lawful but awful" actions. But, as one example, I think it's disingenuous (if not [dangerous](https://www.theatlantic.com/ideas/archive/2021/05/what-americans-should-know-about-police-killings-minors/618759/)) to refer to police killings as an ["epidemic"](https://www.aclu.org/report/other-epidemic-fatal-police-shootings-time-covid-19) when we know that just .0002% of [60 million+ police-citizen interactions](https://bjs.ojp.gov/content/pub/pdf/cbpp18st.pdf) result in a citizen being killed. Maybe it shouldn't be a surprise that a [recent poll](https://www.skeptic.com/research-center/reports/Research-Report-CUPES-007.pdf) found that most Americans on both sides of the political aisle grossly overestimate how often police officers kill unarmed Black men each year. 
+* *Resist going along with poorly framed narratives*. There is *plenty* of room for improvement in American policing, and it is necessary to hold police accountable for unlawful actions and even "lawful but awful" actions. But, as one example, I think it's disingenuous (if not [dangerous](https://www.theatlantic.com/ideas/archive/2021/05/what-americans-should-know-about-police-killings-minors/618759/)) to refer to police killings as an ["epidemic"](https://www.aclu.org/report/other-epidemic-fatal-police-shootings-time-covid-19) when we know that each year, just .0002% of [60 million+ police-citizen interactions](https://bjs.ojp.gov/content/pub/pdf/cbpp18st.pdf) result in a citizen being killed. Maybe it shouldn't be a surprise that a [recent poll](https://www.skeptic.com/research-center/reports/Research-Report-CUPES-007.pdf) found that most Americans on both sides of the political aisle grossly overestimate how often police officers kill unarmed Black men each year. 
 
 *****
 Click on the **PDF** button at the top of the page to download the full text. Feedback is always welcome!
