@@ -89,4 +89,4 @@ Probabilistic forecasting models predicted elevated resignation rates would cont
 *****
 Click on the **PDF** button at the top of the page to download the full text. Feedback is always welcome!
 
-[^1]: The agency had approximately 500 sworn officers as of 2019, according to the FBI's police employee data. 
+[^1]: The agency had approximately 600 authorized sworn positions at the time of this study. 
