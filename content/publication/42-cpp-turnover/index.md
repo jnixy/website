@@ -4,7 +4,7 @@ authors:
 - Scott Mourtgos
 - Ian Adams
 - admin
-date: '2021-07-06T09:00:00Z'
+date: "2021-07-06T09:00:00Z"
 output: pdf_document
 featured: no
 image:
@@ -16,17 +16,17 @@ projects: []
 publication: '*Criminology & Public Policy*'
 publication_short: CPP
 publication_types: '2'
-publishDate: '2021-07-06T09:00:00Z'
-slides: ''
-summary: Police resignations - but not retirements or involuntary separations - spiked
-  significantly in a large western department following the George Floyd protests.
+publishDate: "2021-07-06T09:00:00Z"
+slides: ""
+summary: "Police resignations - but not retirements or involuntary separations - spiked
+  significantly in a large western department following the George Floyd protests."
 tags:
 - Police
 - Legitimacy
 - Ferguson Effect
 - Organizational justice
 - Time series analysis
-abstract: Several of the largest U.S. police departments reported a sharp increase in officer resignations following massive public
+abstract: "Several of the largest U.S. police departments reported a sharp increase in officer resignations following massive public
 protests directed at policing in the summer of 2020. Yet, to date, no study has rigorously assessed the impact of the George
 Floyd protests on police resignations. We fill this void using 60 months of employment data from a large police department
 in the western US. Bayesian structural time-series modeling shows that voluntary resignations increased by 279% relative
@@ -34,15 +34,15 @@ to the synthetic control, and the model predicts that resignations will continue
 and involuntary separations were not significantly affected during the study period. A retention crisis may diminish police
 departments’ operational capacity to carry out their expected responsibilities. Criminal justice stakeholders must be
 prepared to confront workforce decline and increased voluntary turnover. Proactive efforts to improve organizational
-justice for sworn personnel can moderate officer perceptions of public hostility.
-url_code: ''
-url_dataset: ''
-url_pdf: '/files/pdfs/cpp_turnover.pdf'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+justice for sworn personnel can moderate officer perceptions of public hostility."
+url_code: ""
+url_dataset: ""
+url_pdf: "/files/pdfs/cpp_turnover.pdf"
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: ""
 ---
 
 ***************
