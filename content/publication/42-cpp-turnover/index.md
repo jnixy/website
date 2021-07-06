@@ -8,14 +8,15 @@ date: "2021-07-06T09:00:00Z"
 output: pdf_document
 featured: no
 image:
-  caption: ''
+  caption: ""
   focal_point: smart
   preview_only: no
 doi: null
 projects: []
 publication: '*Criminology & Public Policy*'
 publication_short: CPP
-publication_types: '2'
+publication_types: 
+- "2"
 publishDate: "2021-07-06T09:00:00Z"
 slides: ""
 summary: "Police resignations - but not retirements or involuntary separations - spiked
