@@ -28,7 +28,7 @@ weight: 2
 
 ## Week 3, 9/8: Function of Police
 
-* President’s Task Force on 21st Century Policing (2015). [*Final report of the President’s Task force on 21stCentury Policing*](https://cops.usdoj.gov/pdf/taskforce/taskforce_finalreport.pdf). Washington, DC: Office of Community Oriented Policing Services.
+* President’s Task Force on 21st Century Policing (2015). [*Final report of the President’s Task force on 21st Century Policing*](https://cops.usdoj.gov/pdf/taskforce/taskforce_finalreport.pdf). Washington, DC: Office of Community Oriented Policing Services.
 
 * Kaba, M. (2020, Jun 12). Yes, we mean literally abolish the police. [*The New York Times*](https://www.nytimes.com/2020/06/12/opinion/sunday/floyd-abolish-defund-police.html).
 

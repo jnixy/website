@@ -17,6 +17,7 @@ In this course, we will explore the function of the police in American society â
 ## Required Readings
 
 I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. Most of the required readings are available on Canvas. In addition, you will need access to the following books:
+
 * Kelling, George L. and Catherine M. Coles (1997). *Fixing broken windows: Restoring order and reducing crime in our communities*. Simon and Schuster.
 * Zimring, Franklin E. (2012). *The city that became safe: New Yorkâ€™s lessons for urban crime and its control*. Oxford University Press.
 * Stoughton, Seth W., Jeffrey J. Noble, and Geoffrey P. Alpert (2020). *Evaluating police uses of force*. New York University Press.
