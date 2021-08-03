@@ -32,7 +32,7 @@ weight: 2
 
 * Kaba, M. (2020, Jun 12). Yes, we mean literally abolish the police. [*The New York Times*](https://www.nytimes.com/2020/06/12/opinion/sunday/floyd-abolish-defund-police.html).
 
-* Lum, C., Koper, C. S., & Wu, X. (2021). Can we really defund the police? A nine-agency study of police respnose to calls for service. [*Police Quarterly*](https://doi.org/10.1177/10986111211035002). Advance online publication. 
+* Lum, C., Koper, C. S., & Wu, X. (2021). Can we really defund the police? A nine-agency study of police response to calls for service. [*Police Quarterly*](https://doi.org/10.1177/10986111211035002). Advance online publication. 
 
 ## Week 4, 9/15: Discretion
 
