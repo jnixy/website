@@ -21,7 +21,7 @@ I expect you to read critically and come prepared to discuss how the material re
 * Kelling, George L. and Catherine M. Coles (1997). *Fixing broken windows: Restoring order and reducing crime in our communities*. Simon and Schuster.
 * Zimring, Franklin E. (2012). *The city that became safe: New York’s lessons for urban crime and its control*. Oxford University Press.
 * Stoughton, Seth W., Jeffrey J. Noble, and Geoffrey P. Alpert (2020). *Evaluating police uses of force*. New York University Press.
-* Deuchar, Ross, Vaughn J. Crichlow, and Seth W. Fallik (2021). *Police–Community Relations in Times of Crisis: Decay and Reform in the Post-Ferguson Era*. Policy Press.
+* Deuchar, Ross, Vaughn J. Crichlow, and Seth W. Fallik (2021). *Police–Community Relations in Times of Crisis: Decay and Reform in the Post-Ferguson Era*. Bristol University Press.
 
 ## Journals
 
