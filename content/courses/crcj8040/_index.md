@@ -18,4 +18,4 @@ weight: 1
 
 * Meeting time: Wednesdays 5:30 - 8:15PM
 
-* (Virtual) Office hours: Wednesdays 3 - 5PM or by appointment
+* Office hours: Wednesdays 3 - 5PM or by appointment
