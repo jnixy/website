@@ -24,7 +24,7 @@ Earlier today I was reminded of some data I'm sitting on that my colleagues and 
 
 So we asked officers to consider eight ideas that "have been proposed as ways to improve policing" and indicate the extent they supported or opposed each. We listed a hodgepodge of "reforms" including some that would (1) expand police authority, (2) restrict police authority, or (3) increase citizen oversight. 
 
-Response options were *strongly support, support, neither support or oppose, opppose,* and *strongly oppose*. The bar chart below shows the proportion of officers who strongly supported or supported each reform idea (right click it and open in a new tab for better resolution).
+Response options were *strongly support, support, neither support or oppose, opppose,* and *strongly oppose*. The bar chart below shows the proportion of officers who supported or strongly supported each reform idea (right click it and open in a new tab for better resolution).
 
 ![bar](/img/blog15_reforms.png)
 
