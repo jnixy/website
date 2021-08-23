@@ -30,7 +30,7 @@ Response options were *strongly support, support, neither support or oppose, opp
 
 Perhaps unsurprisingly, requiring officers to wear body-worn cameras had a great deal of support. Equally unsurprising, to me at least, was that only 7% of officers supported increasing civilian oversight of the police, and only 11% supported requiring more than reasonable suspicion to initiate a stop. 
 
-But check out some of the others. Fifty percent of officers supported making it easier to search suspects' homes. Thirty-three percent supported loosening restrictions on their ability to use force against suspects. And **86% supported allowing police to put surveillance cameras in high-crime neighborhoods**. 
+But check out some of the others. Thirty-four percent supported loosening restrictions on their ability to use force against suspects. And **86% supported allowing police to put surveillance cameras in high-crime neighborhoods**. 
 
 For the most part, there were no discernable differences in support across officer race, gender, or education. There were a few exceptions, though:
 
