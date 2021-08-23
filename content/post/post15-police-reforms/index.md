@@ -28,13 +28,14 @@ Response options were *strongly support, support, neither support or oppose, opp
 
 ![bar](/img/blog15_reforms.png)
 
-Perhaps unsurprisingly, requiring officers to wear body-worn cameras had by far the most support. Equally unsurprising, to me at least, was that only 7% of officers supported increasing civilian oversight of the police, and only 11% supported requiring more than reasonable suspicion to initiate a stop. 
+Perhaps unsurprisingly, requiring officers to wear body-worn cameras had a great deal of support. Equally unsurprising, to me at least, was that only 7% of officers supported increasing civilian oversight of the police, and only 11% supported requiring more than reasonable suspicion to initiate a stop. 
 
-But check out some of the others. Fifty percent of officers supported making it easier to search suspects' homes. Thirty-three percent supported loosening restrictions on their ability to use force against suspects. 
+But check out some of the others. Fifty percent of officers supported making it easier to search suspects' homes. Thirty-three percent supported loosening restrictions on their ability to use force against suspects. And **86% supported allowing police to put surveillance cameras in high-crime neighborhoods**. 
 
-For the most part, there were no discernable differences in support across officer race, gender, or education. There were two exceptions, though:
+For the most part, there were no discernable differences in support across officer race, gender, or education. There were a few exceptions, though:
 
-* 18% of nonwhite officers supported requiring more than reasonable suspicion to make a stop, versus just 7% of white officers (t = 3.38, p < .001)
+* 18% of nonwhite officers supported requiring more than reasonable suspicion to make a stop, versus just 7% of white officers (t = 3.38, p < .001).
 * 50% of nonwhite officers supported requiring implicit bias awareness training, versus 39% of white officers (t = 2.04, p = .04). 
+* 59% of women supported requiring implicit bias awareness training, versus 41% of men (t = 2.31, p = .02; note the possibility of small sample bias here - women made up just 10% of the sample).
 
 The usual limitations, of course: it's just one agency and it's only the 31% who agreed to take our survey. Furthermore, this was all done in 2018, a lifetime ago. So interpret with caution.
