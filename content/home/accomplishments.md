@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "American Society of Criminology - Division of Experimental Criminology"
+  organization_url = "https://www.experimentalcrim.org/"
+  title = "2021 Outstanding Young Experimental Criminologist"
+  url = ""
+  certificate_url = ""
+  date_start = "2021-09-05"
+  date_end = ""
+  description = "The Annual Young Experimental Scholar Award recognizes exceptional early career scholarship."
+
+[[item]]
   organization = "American Society of Criminology - Division of Policing"
   organization_url = "https://ascpolicing.org/"
   title = "2020 Early Career Award"
