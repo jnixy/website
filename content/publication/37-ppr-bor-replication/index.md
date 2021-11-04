@@ -27,7 +27,7 @@ tags:
 title: 'Police Killings of Unarmed Black Americans: A Reassessment of Community Mental Health Spillover Effects'
 url_code: ""
 url_dataset: "https://doi.org/10.7910/DVN/VGYI0E"
-url_pdf: "/files/pdfs/ppr_bor_replication.pdf"
+url_pdf: "https://assets.pubpub.org/q5ubf3i9/51636042065128.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""

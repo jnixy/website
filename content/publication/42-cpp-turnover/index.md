@@ -11,7 +11,7 @@ image:
   caption: ""
   focal_point: smart
   preview_only: no
-doi: null
+doi: 10.1111/1745-9133.12556
 projects: []
 publication: '*Criminology & Public Policy*'
 publication_short: CPP
