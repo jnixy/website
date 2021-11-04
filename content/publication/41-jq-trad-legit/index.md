@@ -25,7 +25,7 @@ tags:
 title: 'Understanding the Bounds of Legitimacy: Weber’s Facets of Legitimacy and the Police Empowerment Hypothesis'
 url_code: ""
 url_dataset: ""
-url_pdf: "/files/pdfs/jq_traditional_legitimacy.pdf"
+url_pdf: "https://assets.pubpub.org/dlf7pauk/61635084936784.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
