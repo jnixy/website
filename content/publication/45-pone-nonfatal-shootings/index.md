@@ -8,7 +8,7 @@ output: pdf_document
 featured: no
 image:
   caption: ""
-  focal_point: smart
+  focal_point: top
   preview_only: no
 doi: 10.1371/journal.pone.0259024
 projects: []
