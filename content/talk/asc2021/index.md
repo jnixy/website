@@ -20,7 +20,7 @@ links:
 location: Chicago, IL
 math: true
 projects: ""
-publishDate: "2021-11-06T13:00:00Z"
+publishDate: "2021-11-10T13:00:00Z"
 slides: ""
 summary: At the 2021 ASC Conference, I present findings from my latest paper on police shootings with John Shjarback.
 tags: 
