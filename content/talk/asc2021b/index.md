@@ -22,6 +22,7 @@ math: true
 projects: ""
 publishDate: "2021-11-08T10:00:00Z"
 slides: ""
+doi: 10.1080/07418825.2021.1933141
 summary: At the 2021 ASC Conference, I discuss a recent paper on legitimacy and empowerment with Kyle McLean.
 tags: 
 - Police
@@ -29,7 +30,7 @@ tags:
 - Procedural justice
 title: "Weber, Legitimacy, and Police Empowerment: Experimental Results from a Survey of US Adults"
 url_code: ""
-url_pdf: "https://doi.org/10.1080/07418825.2021.1933141"
+url_pdf: "https://assets.pubpub.org/dlf7pauk/61635084936784.pdf"
 url_slides: "https://jnix.netlify.app/slides/asc21_jq_weberlegitimacy"
 url_video: ""
 ---
