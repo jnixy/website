@@ -78,19 +78,9 @@ Police shooting data from four states:
 
 --
 
-- **Florida** (2009-2014), compiled by [*Tampa Bay Times*](https://projects.tampabay.com/projects/2017/investigations/florida-police-shootings/)
-
---
-
-- **Colorado** (2010-2019), compiled by Division of Criminal Justice, per Senate Bill 15-217 ([repealed](https://ors.colorado.gov/ors-coll-ois))
-
---
-
-- **Texas** (2015-2019), compiled by [Texas Office of Attorney General](https://oagtx.force.com/oisreports/apex/OISReportsPage)
-
---
-
-- **California** (2016-2019), compiled by [State Department of Justice](https://openjustice.doj.ca.gov/data)
+```{r, echo=FALSE, fig.align='center', out.width = "550px"}
+knitr::include_graphics("map.png")
+```
 
 --
 
@@ -216,7 +206,7 @@ Justin Nix
 
 --
 
-## Criticisms?
+## Criticisms? 😁
 
 John Shjarback  
 [@shjarback_CCJ](https://twitter.com/Shjarback_CCJ)  
@@ -244,7 +234,7 @@ class: top
 
 # Supplemental Materials
 
-```{r, echo=FALSE, out.width = "400px"}
+```{r, echo=FALSE, fig.align='center', out.width = "400px"}
 knitr::include_graphics("fig_s1.png")
 ```
 
@@ -253,7 +243,7 @@ class: top
 
 # Supplemental Materials
 
-```{r, echo=FALSE, out.width = "500px"}
+```{r, echo=FALSE, fig.align='center', out.width = "500px"}
 knitr::include_graphics("fig_s2.png")
 ```
 
@@ -262,7 +252,7 @@ class: top
 
 # Supplemental Materials
 
-```{r, echo=FALSE, out.width = "400px"}
+```{r, echo=FALSE, fig.align='center', out.width = "400px"}
 knitr::include_graphics("fig_s3.jpg")
 ```
 
@@ -271,14 +261,31 @@ class: top
 
 # Supplemental Materials
 
-```{r, echo=FALSE, out.width = "400px"}
+```{r, echo=FALSE, fig.align='center', out.width = "400px"}
 knitr::include_graphics("fig_s4.jpg")
 ```
 
-```{css, echo=FALSE}
-@media print {
-  .has-continuation {
-    display: block;
-  }
-}
-```
+---
+class: top
+
+# Supplemental Materials
+
+- Sources for Police Shooting Data
+
+  - **Florida** (2009-2014), compiled by [*Tampa Bay Times*](https://projects.tampabay.com/projects/2017/investigations/florida-police-shootings/)
+
+  - **Colorado** (2010-2019), compiled by Division of Criminal Justice, per Senate Bill 15-217 ([repealed](https://ors.colorado.gov/ors-coll-ois))
+
+  - **Texas** (2015-2019), compiled by [Texas Office of Attorney General](https://oagtx.force.com/oisreports/apex/OISReportsPage)
+
+  - **California** (2016-2019), compiled by [State Department of Justice](https://openjustice.doj.ca.gov/data)
+
+
+<!-- ```{css, echo=FALSE} -->
+<!-- @media print { -->
+<!--   .has-continuation { -->
+<!--     display: block; -->
+<!--   } -->
+<!-- } -->
+<!-- ``` -->
+

@@ -22,6 +22,7 @@ math: true
 projects: ""
 publishDate: "2021-11-10T13:00:00Z"
 slides: ""
+doi: 10.1371/journal.pone.0259024
 summary: At the 2021 ASC Conference, I present findings from my latest paper on police shootings with John Shjarback.
 tags: 
 - Police
@@ -30,12 +31,20 @@ tags:
 - Public health
 title: "Factors associated with police shooting mortality: A focus on race and a plea for more comprehensive data"
 url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_shjarback_PONE_2021"
-url_pdf: "https://doi.org/10.1371/journal.pone.0259024"
+url_pdf: "https://doi.org/10.21428/cb6ab371.52abc4c3"
 url_slides: "https://jnix.netlify.app/slides/asc21_pone_paper"
 url_video: ""
 ---
 
+In **Race, Place, and Policing**, which features the latest work by researchers at the University of Nebraska Omaha. Michael Sierra-Arévalo will join us as a Discussant.
 
+Other panelists include:
+
+- Rachel Bowman and Erin Kearns
+- Jessie Huff
+- Sadaf Hashimi and Frank Edwards
+
+Come check us out **Wednesday at 5PM** in **Burnham 2** on the **7th Floor**. 
 
 {{% alert note %}}
 Click on the **Slides** button above to download a copy of our presentation.
