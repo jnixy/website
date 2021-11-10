@@ -7,7 +7,7 @@ date: "2021-11-10T13:00:00Z"
 output: pdf_document
 featured: no
 image:
-  caption: ""
+  caption: "Image by [Cheyenne Doig](https://unsplash.com/@cheyennedoig) on [Unsplash](https://unsplash.com/photos/wKfwdIgthP4)"
   focal_point: top
   preview_only: no
 doi: 10.1371/journal.pone.0259024
