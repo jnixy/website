@@ -73,4 +73,6 @@ John and I just published an [article](https://doi.org/10.1371/journal.pone.0259
 
 3. Researchers - just beware of the ways that existing data could be misleading. And be transparent about the fact that it is a nonrandom sample of the population we're really trying to understand (i.e., the **use of** lethal force). One of the peer reviewers disagreed with this point and said that not all analyses focused on police use of deadly force necessarily need to acknowledge the "dark figure" we've shed light on here. The reviewer asked us to "substantially revise" that argument. We disagree. To us, it doesn't seem like asking that much for future researchers to **simply acknowledge** the fact that they're working with a nonrandom sample of lethal force incidents. 
 
-Our article is published open access in *PLOS ONE.* It's linked at the top of this page. You can also check out the slides for our upcoming presentation at the *American Society of Criminology* conference in Chicago next week. 
+Our article is published open access in *PLOS ONE.* It's linked at the top of this page. And here's an [op-ed](https://t.co/ucUp41hIr7?amp=1) we wrote for *The Washington Post.*
+
+Finally, you can also check out the slides for our upcoming presentation at the *American Society of Criminology* conference in Chicago next week. 
