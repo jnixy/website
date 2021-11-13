@@ -14,18 +14,21 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      slideNumberFormat: "%current%"
 ---
-class: center, middle, inverse
+class: left, middle, inverse
 
 # Factors associated with police shooting mortality: A focus on race and a plea for more comprehensive data
 
 (Just published in [*PLOS ONE*](https://doi.org/10.1371/journal.pone.0259024))
 
 [Justin Nix](https://jnix.netlify.app)  
-*School of Criminology and Criminal Justice, University of Nebraska Omaha*
+*School of Criminology and Criminal Justice*  
+*University of Nebraska Omaha*
 
 [John Shjarback](https://www.johnshjarback.com/about-john)  
-*Department of Law and Justice Studies, Rowan University*
+*Department of Law and Justice Studies*  
+*Rowan University*
 
 ---
 class: top 
