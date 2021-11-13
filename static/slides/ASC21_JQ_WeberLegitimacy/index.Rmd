@@ -1,12 +1,12 @@
 ---
 title: "Understanding the Bounds of Legitimacy"
 subtitle: "Weber’s Facets of Legitimacy and the Police Empowerment Hypothesis"
-author: "Kyle McLean and Justin Nix"
+author: "[Kyle McLean](https://www.clemson.edu/cbshs/about/profiles/index.html?userid=kdmclea) and [Justin Nix](https://jnix.netlify.app)"
 institute: "American Society of Criminology"
 date: "Nov. 17, 2021"
 output:
   xaringan::moon_reader:
-    css: [default, rutgers, rutgers-fonts]
+    css: ["rutgers", "rutgers-fonts", "hygge"]
     lib_dir: libs
     seal: false
     nature:
@@ -14,8 +14,9 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      slideNumberFormat: "%current%"
 ---
-class: center, middle, inverse
+class: left, middle, inverse
 
 # Understanding the Bounds of Legitimacy: Weber’s Facets of Legitimacy and the Police Empowerment Hypothesis
 
