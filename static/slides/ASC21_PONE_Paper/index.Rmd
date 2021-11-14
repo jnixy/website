@@ -30,6 +30,11 @@ class: left, middle, inverse
 *Department of Law and Justice Studies*  
 *Rowan University*
 
+<br>
+<br>
+.white[American Society of Criminology: Chicago, IL]  
+.white[November 17, 2021]
+
 ---
 class: top 
 
