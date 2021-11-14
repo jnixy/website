@@ -228,23 +228,23 @@ class: top, center
 
 ## Questions?
 
-Justin Nix  
-[@jnixy](https://twitter.com/jnixy)  
-[jnix@unomaha.edu](mailto:jnix@unomaha.edu)
+Justin Nix
 
 *School of Criminology and Criminal Justice*  
 *University of Nebraska Omaha*
+
+`r icons::fontawesome("twitter")` [jnixy](https://twitter.com/jnixy) | `r icons::fontawesome("envelope")` [jnix@unomaha.edu](mailto:jnix@unomaha.edu) | `r icons::fontawesome("globe")` [jnix.netlify.app](https://jnix.netlify.app)
 
 --
 
 ## Criticisms? 😁
 
 Kyle McLean (Corresponding author)  
-[@ClemPoliceProf](https://twitter.com/clempoliceprof)  
-[kdmclea@clemson.edu](mailto:kdmclea@clemson.edu)
 
 *Department of Sociology, Anthropology, and Criminal Justice*  
 *Clemson University*
+
+`r icons::fontawesome("twitter")` [@ClemPoliceProf](https://twitter.com/clempoliceprof) | `r icons::fontawesome("envelope")` [kdmclea@clemson.edu](mailto:kdmclea@clemson.edu)
 
 ---
 class: top

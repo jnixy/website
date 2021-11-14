@@ -201,21 +201,21 @@ class: top, center
 
 ## Questions?
 
-Justin Nix  
-[@jnixy](https://twitter.com/jnixy)  
-[jnix@unomaha.edu](mailto:jnix@unomaha.edu)
+Justin Nix
 
 *School of Criminology and Criminal Justice, University of Nebraska Omaha*
+
+`r icons::fontawesome("twitter")` [jnixy](https://twitter.com/jnixy) | `r icons::fontawesome("envelope")` [jnix@unomaha.edu](mailto:jnix@unomaha.edu) | `r icons::fontawesome("globe")` [jnix.netlify.app](https://jnix.netlify.app)
 
 --
 
 ## Criticisms? 😁
 
-John Shjarback  
-[@shjarback_CCJ](https://twitter.com/Shjarback_CCJ)  
-[shjarback@rowan.edu](mailto:shjarback@rowan.edu)
+John Shjarback
 
 *Department of Law and Justice Studies, Rowan University*
+
+`r icons::fontawesome("twitter")` [shjarback_CCJ](https://twitter.com/shjarback_CCJ) | `r icons::fontawesome("envelope")` [shjarback@rowan.edu](mailto:shjarback@rowan.edu)| `r icons::fontawesome("globe")` [johnshjarback.com](https://johnshjarback.com)
 
 ---
 class: top
