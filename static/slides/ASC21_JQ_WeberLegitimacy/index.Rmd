@@ -17,6 +17,9 @@ output:
       slideNumberFormat: "%current%"
 ---
 class: left, middle, inverse
+background-image: url(https://www.unomaha.edu/university-communications/downloadables/campus-icon-the-o/uno-icon-color.png)
+background-position: 95% 95%
+background-size: 10%
 
 # Understanding the Bounds of Legitimacy: Weber’s Facets of Legitimacy and the Police Empowerment Hypothesis
 
