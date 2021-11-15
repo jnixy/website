@@ -251,28 +251,37 @@ class: top, references-font
 ---
 class: top
 
-# Supplemental Materials
-
-```{r, echo=FALSE, fig.align='center', out.width = "450px"}
+# Supplemental Materials  
+.small[Police shooting mortality rates, county-level]  
+```{r, echo=FALSE, fig.align='center', out.width = "400px"}
 knitr::include_graphics("fig_s1.png")
 ```
 
 ---
 class: top
 
-# Supplemental Materials
-
-```{r, echo=FALSE, fig.align='center', out.width = "600px"}
+# Supplemental Materials  
+.small[Police shooting mortality rates, county-level]  
+```{r, echo=FALSE, fig.align='center', out.width = "550px"}
 knitr::include_graphics("fig_s2.png")
 ```
 
 ---
 class: top
 
-# Supplemental Materials
-
-```{r, echo=FALSE, fig.align='center', out.width = "450px"}
+# Supplemental Materials  
+.small[Police shooting mortality rates, county-level]  
+```{r, echo=FALSE, fig.align='center', out.width = "400px"}
 knitr::include_graphics("fig_s3.jpg")
+```
+
+---
+class: top
+
+# Supplemental Materials  
+.small[Police shooting mortality rates, county-level]  
+```{r, echo=FALSE, fig.align='center', out.width = "400px"}
+knitr::include_graphics("fig_s4.jpg")
 ```
 
 ---
@@ -280,8 +289,8 @@ class: top
 
 # Supplemental Materials
 
-```{r, echo=FALSE, fig.align='center', out.width = "400px"}
-knitr::include_graphics("fig_s4.jpg")
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
+knitr::include_graphics("fig_s5.png")
 ```
 
 ---
