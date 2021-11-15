@@ -70,3 +70,5 @@ th, td { padding: 5px; }
     left: 0 !important;
   }
 }
+
+.small { font-size: 50% }

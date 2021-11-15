@@ -6,7 +6,7 @@ institute: "American Society of Criminology"
 date: "Nov. 17, 2021"
 output:
   xaringan::moon_reader:
-    css: [default, rutgers, rutgers-fonts]
+    css: [default, rutgers, rutgers-fonts, custom-font.css]
     lib_dir: libs
     seal: false
     nature:
@@ -23,7 +23,7 @@ background-size: 10%
 
 # Factors associated with police shooting mortality: A focus on race and a plea for more comprehensive data
 
-(Just published in [*PLOS ONE*](https://doi.org/10.1371/journal.pone.0259024))
+.small[(Just published in [*PLOS ONE*](https://doi.org/10.1371/journal.pone.0259024))]
 
 [Justin Nix](https://jnix.netlify.app)  
 *School of Criminology and Criminal Justice*  
@@ -39,7 +39,7 @@ background-size: 10%
 .white[November 17, 2021]
 
 ---
-class: top 
+class: top
 
 # Background 
 
@@ -70,7 +70,7 @@ class: top
 
 --
 
-To demonstrate how existing data may be misleading us
+**To demonstrate how existing data may be misleading us**
 
 --
 
@@ -78,7 +78,7 @@ To demonstrate how existing data may be misleading us
 
 --
 
-2. Examine the factors associated with mortality, conditional on being shot by a police officer
+2. Examine factors associated with mortality, conditional on being shot by a police officer
 
 ---
 class: top
@@ -135,35 +135,45 @@ class: top
 
 # Findings
 
-![fig1](fig1.png)
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
+knitr::include_graphics("fig1.png")
+```
 
 ---
 class: top
 
 # Findings
 
-![fig2](fig2.png)
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
+knitr::include_graphics("fig2.png")
+```
 
 ---
 class: top
 
 # Findings
 
-![fig3](fig3.png)
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
+knitr::include_graphics("fig3.png")
+```
 
 ---
 class: top
 
 # Findings
 
-![fig4](fig4.png)
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
+knitr::include_graphics("fig4.png")
+```
 
 ---
 class: top
 
 # Findings
 
-![fig5](fig5.png)
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
+knitr::include_graphics("fig5.png")
+```
 
 ---
 class: top
@@ -178,11 +188,11 @@ class: top
 
 --
 
-- Black and younger victims less likely to die (conditional on being shot)
+- Conditional on being shot...
 
---
+  - Black and younger victims less likely to die 
 
-- Victims armed with deadly weapons were ~16% more likely to die (conditional on being shot)
+  - Victims armed with deadly weapons ~16% more likely to die
 
 --
 
@@ -209,9 +219,8 @@ class: top, center
 
 ## Questions?
 
-Justin Nix
-
-*School of Criminology and Criminal Justice, University of Nebraska Omaha*
+Justin Nix  
+.small[*School of Criminology and Criminal Justice, University of Nebraska Omaha*]
 
 `r icons::fontawesome("twitter")` [jnixy](https://twitter.com/jnixy) | `r icons::fontawesome("envelope")` [jnix@unomaha.edu](mailto:jnix@unomaha.edu) | `r icons::fontawesome("globe")` [jnix.netlify.app](https://jnix.netlify.app)
 
@@ -219,14 +228,13 @@ Justin Nix
 
 ## Criticisms? 😁
 
-John Shjarback
-
-*Department of Law and Justice Studies, Rowan University*
+John Shjarback  
+.small[*Department of Law and Justice Studies, Rowan University*]
 
 `r icons::fontawesome("twitter")` [shjarback_CCJ](https://twitter.com/shjarback_CCJ) | `r icons::fontawesome("envelope")` [shjarback@rowan.edu](mailto:shjarback@rowan.edu)| `r icons::fontawesome("globe")` [johnshjarback.com](https://johnshjarback.com)
 
 ---
-class: top
+class: top, references-font
 
 # References
 
@@ -245,7 +253,7 @@ class: top
 
 # Supplemental Materials
 
-```{r, echo=FALSE, fig.align='center', out.width = "400px"}
+```{r, echo=FALSE, fig.align='center', out.width = "450px"}
 knitr::include_graphics("fig_s1.png")
 ```
 
@@ -254,7 +262,7 @@ class: top
 
 # Supplemental Materials
 
-```{r, echo=FALSE, fig.align='center', out.width = "500px"}
+```{r, echo=FALSE, fig.align='center', out.width = "600px"}
 knitr::include_graphics("fig_s2.png")
 ```
 
@@ -263,7 +271,7 @@ class: top
 
 # Supplemental Materials
 
-```{r, echo=FALSE, fig.align='center', out.width = "400px"}
+```{r, echo=FALSE, fig.align='center', out.width = "450px"}
 knitr::include_graphics("fig_s3.jpg")
 ```
 

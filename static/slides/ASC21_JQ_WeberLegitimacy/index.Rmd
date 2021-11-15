@@ -6,7 +6,7 @@ institute: "American Society of Criminology"
 date: "Nov. 17, 2021"
 output:
   xaringan::moon_reader:
-    css: ["rutgers", "rutgers-fonts", "hygge"]
+    css: ["rutgers", "rutgers-fonts", "hygge", "custom-font.css"]
     lib_dir: libs
     seal: false
     nature:
@@ -23,7 +23,7 @@ background-size: 10%
 
 # Understanding the Bounds of Legitimacy: Weber’s Facets of Legitimacy and the Police Empowerment Hypothesis
 
-(Now *in press* at [*Justice Quarterly*](https://doi.org/10.1080/07418825.2021.1933141))
+.small[(Now *in press* at [*Justice Quarterly*](https://doi.org/10.1080/07418825.2021.1933141))]
 
 [Kyle McLean](https://www.clemson.edu/cbshs/about/profiles/index.html?userid=kdmclea)  
 *Department of Sociology, Anthropology, and Criminal Justice*  
@@ -92,7 +92,7 @@ Three objectives:
 
 --
 
-  1. Assess the measurement structure of public perceptions of **rational-legal** and **traditional** police legitimacy scales
+  1. Assess the measurement structure of **rational-legal** and **traditional** legitimacy scales
 
 --
 
@@ -100,7 +100,7 @@ Three objectives:
 
 --
 
-  3. Predict ***global*** and ***situational*** **empowerment** of police to determine if the basis of legitimacy matters in evaluating the empowerment hypothesis
+  3. Predict ***global*** and ***situational*** **empowerment** of police
 
 ---
 class: top
@@ -164,7 +164,7 @@ class: top
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "800px"}
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
 knitr::include_graphics("fig2.png")
 ```
 
@@ -175,7 +175,7 @@ class: top
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "800px"}
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
 knitr::include_graphics("fig3.png")
 ```
 
@@ -186,7 +186,7 @@ class: top
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "800px"}
+```{r, echo=FALSE, fig.align='center', out.width = "750px"}
 knitr::include_graphics("fig4.png")
 ```
 
@@ -197,11 +197,11 @@ class: top
 
 --
 
-- **Traditional legitimacy** is distinct from **trust** and **obligation to obey**
+- **Traditional legitimacy**: distinct from **trust** and **obligation to obey**
 
 --
 
-- All three appear to tap into a common, higher-order **legitimacy** construct
+- All appear to tap into a common, higher-order **legitimacy** construct
 
 --
 
@@ -209,7 +209,7 @@ class: top
 
 --
 
-  - e.g., consider the **Back the Blue** folks
+  - .small[e.g., consider the **Back the Blue** folks]
   
 ```{r, echo=FALSE, fig.align='center', out.width = "25%"}
 knitr::include_graphics("blue_lives.jpg")
@@ -217,15 +217,11 @@ knitr::include_graphics("blue_lives.jpg")
   
 --
 
-- Future research:
-
---
-
-  - Continue developing measures of **traditional legitimacy**
+- Continue developing measures of **traditional legitimacy**
   
 --
 
-  - Consider **charismatic legitimacy**, which may moderate effects like we see here
+- Consider **charismatic legitimacy**, which may moderate effects like we see here
 
 ---
 class: top, center
@@ -238,8 +234,7 @@ class: top, center
 
 Justin Nix
 
-*School of Criminology and Criminal Justice*  
-*University of Nebraska Omaha*
+.small[*School of Criminology and Criminal Justice | University of Nebraska Omaha*]
 
 `r icons::fontawesome("twitter")` [jnixy](https://twitter.com/jnixy) | `r icons::fontawesome("envelope")` [jnix@unomaha.edu](mailto:jnix@unomaha.edu) | `r icons::fontawesome("globe")` [jnix.netlify.app](https://jnix.netlify.app)
 
@@ -249,13 +244,12 @@ Justin Nix
 
 Kyle McLean (Corresponding author)  
 
-*Department of Sociology, Anthropology, and Criminal Justice*  
-*Clemson University*
+.small[*Department of Sociology, Anthropology, and Criminal Justice | Clemson University*]
 
 `r icons::fontawesome("twitter")` [@ClemPoliceProf](https://twitter.com/clempoliceprof) | `r icons::fontawesome("envelope")` [kdmclea@clemson.edu](mailto:kdmclea@clemson.edu)
 
 ---
-class: top
+class: top, references-font
 
 # References
 
