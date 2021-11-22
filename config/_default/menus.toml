@@ -14,33 +14,33 @@
   weight = 20
   
 [[main]]
-  name = "Honors & Awards"
-  url = "#accomplishments"
-  weight = 30
-  
-[[main]]
   name = "Blog"
   url = "#posts"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Publications"
   url = "#publications"
-  weight = 50
+  weight = 40
 
 [[main]]
   name = "Projects"
   url = "#projects"
-  weight = 60
+  weight = 50
 
 [[main]]
   name = "Presentations"
   url = "#talks"
-  weight = 70
+  weight = 60
   
 [[main]]
   name = "Courses"
   url = "courses/"
+  weight = 70
+  
+[[main]]
+  name = "Honors & Awards"
+  url = "#accomplishments"
   weight = 80
   
 [[main]]
