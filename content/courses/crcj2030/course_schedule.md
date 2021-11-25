@@ -78,7 +78,7 @@ weight: 2
 
 * 4/5: W&S Chapter 10
 
-* 4/7: W&S Chapter 10; *Kansas v. Glover, 589 U.S. ___ 2020)*
+* 4/7: W&S Chapter 10; [*Kansas v. Glover, 589 U.S. ___ (2020)*](https://www.supremecourt.gov/opinions/19pdf/18-556_e1pf.pdf)
 
 ## Week 12: Policing and the Law
 
@@ -94,13 +94,13 @@ weight: 2
 
 ## Week 14: Police Use of Force
 
-* 4/26: W&S Chapter 13; *Tennessee v. Garner, 471 U.S. 1 (1985)*
+* 4/26: W&S Chapter 13; [*Tennessee v. Garner, 471 U.S. 1 (1985)*](https://www.policinglaw.info/assets/downloads/US_Supreme_Court_Tennessee_v._Garner_1985.pdf)
 
-* 4/28: W&S Chapter 13; *Graham v. Connor, 490 U.S. 386 (1989)*
+* 4/28: W&S Chapter 13; [*Graham v. Connor et al., 490 U.S. 386 (1989)*](https://tile.loc.gov/storage-services/service/ll/usrep/usrep490/usrep490386/usrep490386.pdf)
 
 ## Week 15: Police Use of Force
 
-* 5/3: W&S Chapter 13; *Kisela v. Hughes, 584 U.S. ___ (2018)*
+* 5/3: W&S Chapter 13; [*Kisela v. Hughes, 584 U.S. ___ (2018)*](https://www.supremecourt.gov/opinions/17pdf/17-467_bqm1.pdf)
 
 * 5/5: *Study Day - No class*
 
