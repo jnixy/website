@@ -88,7 +88,7 @@ weight: 2
 
 ## Week 14, 11/24: No Class
 
-*Thankgiving Break*
+*Thanksgiving Break*
 
 ## Week 15, 12/1: Student Presentations
 
