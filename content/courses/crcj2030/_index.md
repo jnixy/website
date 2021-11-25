@@ -1,7 +1,7 @@
 ---
-date: "2021-12-01T11:00:00Z"
+date: "2021-11-25T11:00:00Z"
 draft: false
-lastmod: "2021-12-01T11:00:00Z"
+lastmod: "2021-11-25T11:00:00Z"
 linktitle: CRCJ 2030 - Police & Society
 menu:
   crcj2030:
