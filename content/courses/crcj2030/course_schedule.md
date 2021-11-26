@@ -14,6 +14,8 @@ weight: 2
 
 ***Please note the schedule has not yet been finalized.***
 
+## Semester Overview
+
 ![calendar](/courses/crcj2030_calendar_spring22.png)
 
 ## Week 1: Introduction
@@ -58,11 +60,11 @@ weight: 2
 
 * 3/10: W&S Chapter 6
 
-## Week 8: Spring Break
+## Week 8: Spring Break & ACJS Conference
 
-* 3/15: No class
+* 3/15: Spring Break - No class
 
-* 3/17: No class
+* 3/17: ACJS Conference - No class
 
 ## Week 9: Community Policing
 
