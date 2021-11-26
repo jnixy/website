@@ -14,7 +14,7 @@ weight: 2
 
 ***Please note the schedule has not yet been finalized.***
 
-![calendar](course_calendar.png)
+![calendar](/courses/crcj2030_calendar_spring22.png)
 
 ## Week 1: Introduction
 
