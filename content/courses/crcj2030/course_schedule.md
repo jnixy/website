@@ -14,6 +14,8 @@ weight: 2
 
 ***Please note the schedule has not yet been finalized.***
 
+![calendar](course_calendar.png)
+
 ## Week 1: Introduction
 
 * 1/25: Introductions and Review of Syllabus
