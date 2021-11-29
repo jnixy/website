@@ -34,7 +34,7 @@ weight: 2
 
 * 2/8: W&S Chapter 2
 
-* 2/10: W&S Chapter 2
+* 2/10: W&S Chapter 2; [*Kids’ perceptions of police fall as they age – for Black children the decline starts earlier and is constant*](https://theconversation.com/kids-perceptions-of-police-fall-as-they-age-for-black-children-the-decline-starts-earlier-and-is-constant-145511)
 
 ## Week 4: Police Organizations
 
@@ -84,11 +84,11 @@ weight: 2
 
 * 4/7: W&S Chapter 10; [*Kansas v. Glover, 589 U.S. ___ (2020)*](https://www.supremecourt.gov/opinions/19pdf/18-556_e1pf.pdf)
 
-## Week 12: Policing and the Law
+## Week 12: Civil Liability and Accountability
 
 * 4/12: W&S Chapter 11
 
-* 4/14: W&S Chapter 11
+* 4/14: W&S Chapter 11; [*The concrete effects of body-worn cameras on police accountability*](https://theconversation.com/the-concrete-effects-of-body-cameras-on-police-accountability-171460)
 
 ## Week 13: Deviance, Ethics, and Professionalism
 
@@ -100,7 +100,7 @@ weight: 2
 
 * 4/26: W&S Chapter 13; [*Tennessee v. Garner, 471 U.S. 1 (1985)*](https://www.policinglaw.info/assets/downloads/US_Supreme_Court_Tennessee_v._Garner_1985.pdf)
 
-* 4/28: W&S Chapter 13; [*Graham v. Connor et al., 490 U.S. 386 (1989)*](https://tile.loc.gov/storage-services/service/ll/usrep/usrep490/usrep490386/usrep490386.pdf)
+* 4/28: W&S Chapter 13; [*Graham v. Connor et al., 490 U.S. 386 (1989)* - Oral Argument](https://apps.oyez.org/player/#/rehnquist3/oral_argument_audio/19082f)
 
 ## Week 15: Police Use of Force
 
