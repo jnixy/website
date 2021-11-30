@@ -32,9 +32,9 @@ weight: 2
 
 ## Week 3: Policing in the American Context
 
-* 2/8: W&S Chapter 2
+* 2/8: W&S Chapter 2; [*Kids’ perceptions of police fall as they age – for Black children the decline starts earlier and is constant*](https://theconversation.com/kids-perceptions-of-police-fall-as-they-age-for-black-children-the-decline-starts-earlier-and-is-constant-145511)
 
-* 2/10: W&S Chapter 2; [*Kids’ perceptions of police fall as they age – for Black children the decline starts earlier and is constant*](https://theconversation.com/kids-perceptions-of-police-fall-as-they-age-for-black-children-the-decline-starts-earlier-and-is-constant-145511)
+* 2/10: W&S Chapter 2
 
 ## Week 4: Police Organizations
 
@@ -44,9 +44,9 @@ weight: 2
 
 ## Week 5: Becoming a Cop
 
-* 2/22: **EXAM 1**
+* 2/22: W&S Chapter 4; [*Arresting the Recruitment Crisis*](https://www.city-journal.org/police-departments-recruitment-crisis)
 
-* 2/24: W&S Chapter 4; [*Arresting the Recruitment Crisis*](https://www.city-journal.org/police-departments-recruitment-crisis)
+* 2/24: **EXAM 1**
 
 ## Week 6: Police Subculture
 
@@ -56,7 +56,7 @@ weight: 2
 
 ## Week 7: Police Discretion & Behavior
 
-* 3/8: W&S Chapter 6
+* 3/8: W&S Chapter 6; [*Probable Causation Podcast*, Ep. 44 - Arianna Ornaghi](https://www.probablecausation.com/podcasts/episode-44-arianna-ornaghi)
 
 * 3/10: W&S Chapter 6
 
@@ -66,17 +66,17 @@ weight: 2
 
 * 3/17: ACJS Conference - No class
 
-## Week 9: Community Policing
+## Week 9: Policing in the Modern Era
 
-* 3/22: **EXAM 2**
+* 3/22: W&S Chapter 8; [*Biden's plan to spend billions on community policing is bad policy*](https://thehill.com/opinion/white-house/563276-bidens-plan-to-spend-billions-on-community-policing-is-bad-policy)
 
-* 3/24: W&S Chapter 8; [*Biden's plan to spend billions on community policing is bad policy*](https://thehill.com/opinion/white-house/563276-bidens-plan-to-spend-billions-on-community-policing-is-bad-policy)
+* 3/24: W&S Chapter 9; [*Necessary but Not Sufficient: The Police Role in Reducing Violence*](https://www.policechiefmagazine.org/necessary-but-not-sufficient/?ref=e6b395be13bf27a03cf9a63a7c18aced)
 
 ## Week 10: Policing in the Modern Era
 
-* 3/29: W&S Chapter 9
+* 3/29: W&S Chapter 9; [*When cities add cops, Black residents could have the most to gain – and the most to lose*](https://www.niskanencenter.org/when-cities-add-cops-black-residents-could-have-the-most-to-gain-and-the-most-to-lose/)
 
-* 3/31: W&S Chapter 9; [*When cities add cops, Black residents could have the most to gain – and the most to lose*](https://www.niskanencenter.org/when-cities-add-cops-black-residents-could-have-the-most-to-gain-and-the-most-to-lose/)
+* 3/31: **EXAM 2**
 
 ## Week 11: Policing and the Law
 
@@ -86,7 +86,7 @@ weight: 2
 
 ## Week 12: Civil Liability and Accountability
 
-* 4/12: W&S Chapter 11
+* 4/12: W&S Chapter 11; [*How to Actually Fix America’s Police*](https://www.theatlantic.com/ideas/archive/2020/06/how-actually-fix-americas-police/612520/)
 
 * 4/14: W&S Chapter 11; [*The concrete effects of body-worn cameras on police accountability*](https://theconversation.com/the-concrete-effects-of-body-cameras-on-police-accountability-171460)
 
@@ -108,6 +108,6 @@ weight: 2
 
 * 5/5: *Study Day - No class*
 
-## Week 16: 
+## Week 16: Final Exam
 
 * ***Exam 3 date to be determined***
