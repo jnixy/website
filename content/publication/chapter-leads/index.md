@@ -13,7 +13,7 @@ image:
   focal_point: smart
   preview_only: false
 projects: []
-publication: '*The Globalization of Evidence-Based Policing: Innovations in Bridging the Research-Practice Divide*(pp. 153-165)'
+publication: '*The Globalization of Evidence-Based Policing: Innovations in Bridging the Research-Practice Divide* (pp. 153-165)'
 publication_short: 
 publication_types:
 - "6"
