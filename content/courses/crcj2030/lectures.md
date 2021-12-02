@@ -5,11 +5,11 @@ linktitle: Lectures
 menu:
   crcj2030:
     parent: Course Content
-    weight: 4
+    weight: 1
 title: Lectures
 toc: true
 type: docs
-weight: 4
+weight: 1
 ---
 
 ## Chapter 1
