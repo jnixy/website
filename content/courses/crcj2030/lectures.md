@@ -9,7 +9,7 @@ menu:
 title: Course Schedule
 toc: true
 type: docs
-weight: 1
+weight: 3
 ---
 
 ## Chapter 1
