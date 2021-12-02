@@ -4,7 +4,7 @@ draft: false
 linktitle: Lectures
 menu:
   crcj2030:
-    parent: "2. Course Content"
+    parent: 2. Course Content
     weight: 1
 title: Lectures
 toc: true

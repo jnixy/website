@@ -4,7 +4,7 @@ draft: false
 linktitle: Course Description
 menu:
   crcj2030:
-    parent: "1. Syllabus"
+    parent: 1. Syllabus
     weight: 1
 title: Course Description
 toc: true
