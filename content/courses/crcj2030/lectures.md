@@ -4,12 +4,12 @@ draft: false
 linktitle: Lectures
 menu:
   crcj2030:
-    parent: Course Content
+    parent: "2. Course Content"
     weight: 1
 title: Lectures
 toc: true
 type: docs
-weight: 3
+weight: 1
 ---
 
 ## Chapter 1
