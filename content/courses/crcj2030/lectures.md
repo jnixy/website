@@ -14,7 +14,7 @@ weight: 1
 
 ## Chapter 1
 
-The origins and evolution of American policing
+[The origins and evolution of American policing](https://jnix.netlify.app/slides/crcj2030_ch1/)
 
 ## Chapter 2
 
