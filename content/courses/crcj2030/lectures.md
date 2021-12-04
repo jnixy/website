@@ -12,6 +12,8 @@ type: docs
 weight: 1
 ---
 
+On this page, you'll find links to slides for each lecture. Please note, these are merely **skeletons**. In class, we'll discuss the material in much greater detail.
+
 ## Chapter 1
 
 [The origins and evolution of American policing](https://jnix.netlify.app/slides/crcj2030_ch1/)
