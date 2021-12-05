@@ -63,16 +63,16 @@ class: top
 
 ---
 class: top
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/27/1837-10-Sir_Robert_Peel.png)
-background-position: 90% 90%
-background-size: 30%
-
 
 # The Influence of the English Model
 
 --
 
 - [Sir Robert Peel](https://en.wikipedia.org/wiki/Robert_Peel)
+
+```{r, echo=FALSE, fig.align='center', out.width = "25%"}
+knitr::include_graphics("peel.png")
+```
 
 --
 
@@ -90,6 +90,10 @@ class: top
 --
 
 - First to centralize, unify police force
+
+```{r, echo=FALSE, fig.align='center', out.width = "35%"}
+knitr::include_graphics("metro_flag.png")
+```
 
 --
 
@@ -164,7 +168,7 @@ class: top
 
 --
 
-  - American police heavily involved in/influenced by local politics
+  - Significantly involved in/influenced by local politics
 
 --
 
@@ -222,6 +226,9 @@ class: top
 
 ---
 class: top
+background-image: url(wickersham.jpg)
+background-position: 95% 10%
+background-size: 35%
 
 # The Reform Era
 
@@ -282,10 +289,6 @@ class: top
 
 ---
 class: top
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c7/Stelhi_Silk_Mill_Lanco_broken_windows.JPG)
-background-position: 50% 90%
-background-size: 40%
-
 
 # The Community Problem-Solving Era
 
@@ -308,6 +311,10 @@ background-size: 40%
 --
 
 - J. Q. Wilson & George Kelling (1982): [Broken Windows](https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/)
+
+```{r, echo=FALSE, fig.align='center', out.width = "40%"}
+knitr::include_graphics("broken_windows.jfif")
+```
 
 ---
 class: top
@@ -345,6 +352,11 @@ background-size: 30%
 class: middle, center
 
 # Have a great day! 😄
+
+### *I did not mess up the syntax. I just found 100 ways to specify it incorrectly.*
+
+<div style="text-align: right"> - Kabira Namit </div>
+
 
 <!-- ```{css, echo=FALSE} -->
 <!-- @media print { -->
