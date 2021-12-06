@@ -34,7 +34,7 @@ weight: 2
 
 * 2/8: W&S Chapter 2; [*Kids’ perceptions of police fall as they age – for Black children the decline starts earlier and is constant*](https://theconversation.com/kids-perceptions-of-police-fall-as-they-age-for-black-children-the-decline-starts-earlier-and-is-constant-145511)
 
-* 2/10: W&S Chapter 2; [*Criminal Injustice Podcast*, Ep. 138 - Rosa Brooks](http://www.criminalinjusticepodcast.com/blog/2021/06/01/138-to-fix-policing-understand-it)
+* 2/10: W&S Chapter 2
 
 ## Week 4: Police Organizations
 
@@ -52,7 +52,7 @@ weight: 2
 
 * 3/1: W&S Chapter 5; [*Danger and “Officer Safety” Shape Police Socialization, Practice and Policy*](https://www.jurist.org/commentary/2020/06/sierra-arevalo-police-training/)
 
-* 3/3: W&S Chapter 5
+* 3/3: W&S Chapter 5; [*Criminal Injustice Podcast*, Ep. 138 - Rosa Brooks](http://www.criminalinjusticepodcast.com/blog/2021/06/01/138-to-fix-policing-understand-it)
 
 ## Week 7: Police Discretion & Behavior
 
