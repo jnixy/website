@@ -11,7 +11,8 @@ event_url: https://www.reducingcrime.com/podcast
 featured: false
 image:
   caption: ""
-  focal_point: Smart
+  focal_point: Center
+  preview_only: true
 links:
 - icon: twitter
   icon_pack: fab
