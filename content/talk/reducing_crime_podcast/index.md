@@ -12,7 +12,7 @@ featured: false
 image:
   caption: ""
   focal_point: Center
-  placement: 3
+  preview_only: true
 links:
 - icon: twitter
   icon_pack: fab
