@@ -45,4 +45,6 @@ user_groups:
 - Visitors
 ---
 
-I am an Associate Professor in the School of Criminology and Criminal Justice at the University of Nebraska Omaha. I coordinate our MA program and teach undergraduate and graduate-level classes on policing. My research centers on policing with emphases on procedural justice, legitimacy, and officer-involved shootings. Below, you'll find a list of all of my publications. If you have access to the journal, you can obtain a copy by clicking the DOI button. If you don't have access to the journal, in many cases, you can still download a post-print copy by clicking the PDF button. If neither of those work, just email me and I'll be happy to send it to you. 
+I am an Associate Professor in the [School of Criminology and Criminal Justice](https://www.unomaha.edu/college-of-public-affairs-and-community-service/criminology-and-criminal-justice/) at the University of Nebraska Omaha. I coordinate our MA program and teach undergraduate and graduate-level classes on policing. I'm also a Co-Director of the [VIPR Lab](https://viprlab.org). 
+
+My research centers on policing with emphases on procedural justice, legitimacy, and officer-involved shootings. Below, you'll find a list of all of my publications. If you have access to the journal, you can obtain a copy by clicking the DOI button. If you don't have access to the journal, in many cases, you can still download a post-print copy by clicking the PDF button. If neither of those work, just email me and I'll be happy to send it to you. 
