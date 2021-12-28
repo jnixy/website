@@ -56,6 +56,10 @@ url_video: ""
 
 I was recently a guest on the [Reducing Crime](https://podcasts.apple.com/us/podcast/reducing-crime/id1412813382) Podcast (hosted by [Jerry Ratcliffe](https://twitter.com/Jerry_Ratcliffe)).
 
+{{% alert note %}}
+Click on the **Listen** buttons near the top of the page to listen to the podcast on your preferred streaming platform. Or click the **PDF** button to read a transcript.
+{{% /alert %}}
+
 Topics discussed include experimental criminology, procedural justice, police legitimacy, and police use of deadly force. 
 
 Articles discussed: 
@@ -65,11 +69,3 @@ Articles discussed:
 * [Disparity does not mean bias: making sense of observed racial disparities in fatal officer-involved shootings with multiple benchmarks](https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1061&context=criminaljusticefacpub)
 * [We've been underestimating racial disparities in police use of lethal force](https://www.washingtonpost.com/crime-law/2021/11/11/non-fatal-police-shootings-disparities-data/)
 * [Arresting the recruitment crisis](https://www.city-journal.org/police-departments-recruitment-crisis)
-
-{{% alert note %}}
-Click on the buttons above to listen to the podcast on your preferred streaming platform.
-{{% /alert %}}
-
-{{% alert note %}}
-Click on the **PDF** button to read a transcript of the podcast. 
-{{% /alert %}}
