@@ -7,7 +7,7 @@ menu:
   crcj8040:
     name: Overview
     weight: 1
-summary: This graduate course pushes students to think critically about the role of policing in U.S. society.
+summary: This graduate course pushes students to think critically about the role of policing in U.S. society. For PhD students, this class will help prepare for the SCCJ Systems Comprehensive Exam. 
 title: CRCJ 8040 - Police & Society
 toc: true
 type: docs
