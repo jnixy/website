@@ -1,5 +1,4 @@
 ---
-title: "CRCJ 2030 - Police & Society"
 date: "2021-11-25T11:00:00Z"
 draft: false
 lastmod: "2021-11-25T11:00:00Z"
