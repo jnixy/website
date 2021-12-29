@@ -14,6 +14,5 @@ header:
   image: ""
   
 layout: docs
-type: "widget_page"
 ---
 
