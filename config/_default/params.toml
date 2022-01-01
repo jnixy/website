@@ -35,10 +35,9 @@ highlight = true
 math = false
 
 # Google Analytics
-marketing:
-  google_analytics: "G-SM3ZNKKSHS"
-  google_tag_manager: ""
-  google_site_verification: "google-site-verification=5SV3L5wpBvv0uzRgjU2bE9Dto8C5mqYinPzAlOgIvi0"
+google_analytics = "G-SM3ZNKKSHS"
+google_tag_manager = ""
+google_site_verification = "google-site-verification=5SV3L5wpBvv0uzRgjU2bE9Dto8C5mqYinPzAlOgIvi0"
   
 # Privacy pack
 #   Show a cookie consent message to visitors
