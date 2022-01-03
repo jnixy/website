@@ -66,7 +66,3 @@ Deviance, ethics, and professionalism
 ## Chapter 13
 
 Police use of force
-
-<br>
-
-&copy; Justin Nix {year}. 
