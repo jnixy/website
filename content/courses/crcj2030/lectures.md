@@ -66,3 +66,5 @@ Deviance, ethics, and professionalism
 ## Chapter 13
 
 Police use of force
+
+&copy; Justin Nix 2021. 
