@@ -12,7 +12,7 @@ type: docs
 weight: 2
 ---
 
-***Please note the schedule has not yet been finalized.***
+***Please note I reserve the right to make changes to the schedule as necessary.***
 
 ## Semester Overview
 
@@ -110,4 +110,4 @@ weight: 2
 
 ## Week 16: Final Exam
 
-* ***Exam 3 date to be determined***
+* 5/12: **EXAM 3**

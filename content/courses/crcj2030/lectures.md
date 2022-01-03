@@ -67,4 +67,6 @@ Deviance, ethics, and professionalism
 
 Police use of force
 
-&copy; Justin Nix 2021. 
+<br>
+
+&copy; Justin Nix {year}. 
