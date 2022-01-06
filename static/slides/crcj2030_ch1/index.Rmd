@@ -202,7 +202,7 @@ class: top
 
 --
 
-- Fear of urban street crime -> demands for more police protection
+- Fear of urban street crime ➡️ demands for more police protection
 
 --
 
