@@ -1,5 +1,5 @@
 ---
-date: "2021-12-02T05:00:00"
+date: "2022-01-06T13:00:00"
 draft: false
 linktitle: Lectures
 menu:
@@ -33,7 +33,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 4
 
-Becoming a cop
+[Becoming a cop](https://jnix.netlify.app/slides/crcj2030_ch4/)
 
 ## Chapter 5
 
