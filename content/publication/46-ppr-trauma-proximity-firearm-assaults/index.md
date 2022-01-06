@@ -27,7 +27,7 @@ tags:
 - Public health
 - Spatial methods
 abstract: "Past research on factors influencing firearm assault (FA) mortality have not focused on police officers who, compared to other U.S. workers and the general public, experience especially high rates of firearm victimization. This study focuses on this unique population of FA victims and examines the relationship between travel time to the nearest trauma care facility and the probability of survival among officers shot on duty. Combining data on trauma care center location and 7 years of data on U.S. police officers fatally or non-fatally assaulted with a firearm, we use logistic regression to model the probability of FA fatality among police by proximity of the FA to the nearest trauma care facility. We find that travel time to trauma care was not associated with reduced FA mortality among police from 2014 to 2020. FA mortality was significantly lower in 2020 than the six years prior."
-url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_shjarback_PONE_2021"
+url_code: ""
 url_dataset: ""
 url_pdf: "/files/pdfs/ppr_trauma_proximity.pdf"
 url_poster: ""
