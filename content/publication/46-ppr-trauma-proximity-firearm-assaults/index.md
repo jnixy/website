@@ -17,7 +17,7 @@ publication: '*Police Practice & Research*'
 publication_short: PPR
 publication_types: 
 - "2"
-publishDate: "2022-01-05T13:00:00Z"
+publishDate: "2022-01-06T09:30:00Z"
 slides: ""
 summary: "We look at 7 years of firearm assaults on US police officers and find that proximity to trauma care is not significantly associated with odds of survival."
 tags:
@@ -54,7 +54,7 @@ At the national level, firearm assaults of officers *increased* from 2018 to 202
 
 ![fig1](fig1.png)
 
-The results of our multivariable analysis indicated that proximity to trauma care was **not** significantly associated with the odds of officers surviving a gunshot wound (see Table 2 on p. 9 of the [post-print](https://jnix.netlify.app/files/pdfs/ppr_trauma_proximity.pdf)). On the one hand, this was somewhat surprising given that proximity to trauma care predicts survival of gunshot wounds among the general public.[^1]. On the other hand, police have specialized equipment, such as ballistic vests and tourniquets, that reduce the severity of gunshot wounds or allow them to be tereted immediately. Several of our year variables significantly differed from the reference year - 2020 - which warrants additional empirical scrutiny. 2020 saw the greatest number of firearm assaults in our study period but simultaneously witnessed the lowest fatality rate over the same seven years. Maybe that's just a coincidence, but it's worth a closer look, especially in light of the fact that nonfatal shootings among the general public spiked in many cities in 2020.
+The results of our multivariable analysis indicated that proximity to trauma care was **not** significantly associated with the odds of officers surviving a gunshot wound (see Table 2 on p. 9 of the [post-print](https://jnix.netlify.app/files/pdfs/ppr_trauma_proximity.pdf)). On the one hand, this was somewhat surprising given that proximity to trauma care predicts survival of gunshot wounds among the general public.[^1]. On the other hand, police have specialized equipment, such as ballistic vests and tourniquets, that reduce the severity of gunshot wounds or allow them to be treated immediately. Several of our year variables significantly differed from the reference year - 2020 - which warrants additional empirical scrutiny. 2020 saw the greatest number of firearm assaults in our study period but simultaneously witnessed the lowest fatality rate over the same seven years. Maybe that's just a coincidence, but it's worth a closer look, especially in light of the fact that nonfatal shootings among the general public spiked in many cities in 2020.
 
 **IMPLICATIONS**
 
