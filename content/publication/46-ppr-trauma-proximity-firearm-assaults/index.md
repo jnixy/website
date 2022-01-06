@@ -66,6 +66,10 @@ Based on these findings, to enhance officer safety and wellness, we make three p
 
 3. Collect and disseminate higher-quality data on violence directed at police. As usual, there were a lot of variables we would have liked to include in our analysis that simply weren't available (e.g., number of wounds, wound location, firearm type). California does a good job of this with its [Use of Force Reporting System](https://openjustice.doj.ca.gov/data), and we see no reason other states shouldn't attempt to emulate their efforts. 
 
+{{% alert note %}}
+<p style="text-align:center"> click on the **PDF** button at the top of this page to download the post-print (accepted) version of our paper.</p>
+{{% /alert %}}
+
 [^1]: See e.g., [Circo (2019)](https://doi.org/10.1136/injuryprev-2019-043180); [Circo & Wheeler (2021)](https://doi.org/10.1007/s12061-020-09362-3); [Crandall et al. (2013)](https://doi.org/10.2105/AJPH.2013.301223).
 
 [^2]: See Table 2 of [Reaves (2015)](https://www.bjs.gov/content/pub/pdf/lpd13et.pdf). 
