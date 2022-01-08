@@ -2,12 +2,12 @@
 title: "Waiting on the Peer Review Process"
 authors: 
 - admin
-date: "2022-01-07T16:00:00Z"
+date: "2022-01-08T09:00:00Z"
 draft: false
 featured: false
 image:
   caption: "Image by [Clker-Free-Vector-Images](https://pixabay.com/users/clker-free-vector-images-3736/) from [Pixabay](https://pixabay.com/vectors/skeleton-smiling-sitting-cartoon-30160/)"
-  focal_point: smart
+  focal_point: top
 projects: []
 subtitle: "My experience over the last 8 years"
 summary: ""
@@ -57,7 +57,7 @@ These are just my experiences, of course. I'm not sure how typical they are, but
 
 > If you want a 50% chance of your article being published, you should expect 10 months based on my experience...So the sobering truth for those of us without tenure is that based on my estimates you need to have your journal articles out of the door well over a year before you go up for review to really ensure that your work is published.
 
-So the moral of the story is there's a good chance that papers you submit during that last year on the tenure clock won't be published by the time you have to submit your materials. I hate how slow the process is, which is why I see some value in releasing pre-prints. But at the same time, the peer-review process has value to the extent it corrects mistakes and/or substantively strengthens papers. I know we academics like to gripe about "Reviewer 2," but in my experience, peer review has improved my papers more often than not - even if only incrementally. And as [a reviewer](https://jnix.netlify.app/post/post14-my-reviewer-history/), I've occasionally caught outright mistakes.[^2] Post-prints, however, should be shared immediately upon acceptance IMO.
+So the moral of the story is there's a good chance that papers you submit during that last year on the tenure clock won't be published by the time you have to submit your materials. I hate how slow the process is, which is why I see some value in releasing pre-prints. But at the same time, the peer review process has value to the extent it corrects mistakes and/or substantively strengthens papers. I know we academics like to gripe about "Reviewer 2," but in my experience, peer review has improved my papers more often than not - even if only incrementally. And as [a reviewer](https://jnix.netlify.app/post/post14-my-reviewer-history/), I've occasionally caught outright mistakes.[^2] Post-prints, however, should be shared immediately upon acceptance IMO.
 
 
 [^1]: At virtually every journal, reviewers liked the paper but couldn't get past the low response rate. That motivated me to write [this paper](https://jnix.netlify.app/publication/22-response-rates/) with some colleagues about response rates for police surveys. 
