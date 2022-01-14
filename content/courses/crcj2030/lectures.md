@@ -45,7 +45,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 8
 
-Community policing
+[Community policing]((https://jnix.netlify.app/slides/crcj2030_ch8/))
 
 ## Chapter 9
 
