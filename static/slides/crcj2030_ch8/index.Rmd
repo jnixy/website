@@ -69,7 +69,7 @@ A four-dimensional concept, according to [Gary Cordner](https://thewgsg.com/wp-c
 
 ---
 class: top
-background-image: url(detroit_riot.png)
+background-image: url(violent_crime_60s.png)
 background-position: 95% 10%
 background-size: 30%
 
@@ -89,17 +89,16 @@ LBJ's **Commission on Law Enforcement and Administration of Justice**
 
 - Recommends "experimentation with a [team policing](https://www.ojp.gov/pdffiles1/11430.pdf) concept" (see [page 118 of the final report](https://www.ojp.gov/pdffiles1/Digitization/42NCJRS.pdf))
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-.small[Image by [continent.](https://www.flickr.com/photos/57221817@N07/) on [Flickr](https://flic.kr/p/JQ5ZUG), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]
+```{r, echo=FALSE, fig.align='center', out.width = "30%"}
+knitr::include_graphics("detroit_riot.png")
+```
+<p style="text-align: center;">.small[Image by [continent.](https://www.flickr.com/photos/57221817@N07/) on [Flickr](https://flic.kr/p/JQ5ZUG), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]</p>
 
 ---
 class: top
+background-image: url(violent_crime_70s.png)
+background-position: 95% 10%
+background-size: 30%
 
 # The Path to Community Policing
 
@@ -127,17 +126,13 @@ Herman Goldstein introduces ["problem-oriented policing"](https://www.popcenter.
 
 ---
 class: top
-background-image: url(broken_windows.png)
-background-position: 95% 5%
-background-size: 25%
+background-image: url(violent_crime_80s.png)
+background-position: 95% 10%
+background-size: 30%
 
 # The Path to Community Policing
 
 ## 1980s
-
---
-
-Violent crime on the rise
 
 --
 
@@ -153,18 +148,11 @@ POP programs launched
 
 Community policing initiatives in [Newark and Houston](https://www.ojp.gov/pdffiles1/Digitization/111964NCJRS.pdf)
 
-<br>
-<br>
-<br>
-<br>
-
-.small[Image by [Diego Torres Silvestre]() on [Flickr](https://flic.kr/p/22u2XVQ), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]
-
 ---
 class: top
-background-image: url(clinton_signing_awb.jpg)
-background-position: 50% 26%
-background-size: 35%
+background-image: url(violent_crime_90s.png)
+background-position: 95% 10%
+background-size: 30%
 
 # The Path to Community Policing
 
@@ -172,11 +160,11 @@ background-size: 35%
 
 --
 
-<br>
-<br>
-<br>
-
 [Violent Crime Control and Law Enforcement Act](https://www.ncjrs.gov/txtfiles/billfs.txt) passed in 1994
+
+```{r, echo=FALSE, fig.align='center', out.width = "25%"}
+knitr::include_graphics("clinton_signing_awb.jpg")
+```
 
 --
 
