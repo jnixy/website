@@ -19,4 +19,4 @@ weight: 1
 
 👈 If you're viewing on a desktop, the course syllabus and lectures are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
 
-You may also download a PDF of the syllabus by clicking the button above. 
+You may also download a PDF of the syllabus by clicking [this link](crcj2030-syllabus.pdf).
