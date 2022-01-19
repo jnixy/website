@@ -49,7 +49,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 9
 
-Policing in the modern era
+[Policing in the modern era](https://jnix.netlify.app/slides/crcj2030_ch9/)
 
 ## Chapter 10
 
