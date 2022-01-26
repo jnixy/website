@@ -112,6 +112,14 @@ knitr::include_graphics("fig1.jpg")
 
 .small[from [*Intelligence-Led Policing* (2nd Ed.)](https://www.routledge.com/Intelligence-Led-Policing/Ratcliffe/p/book/9781138859012) by Jerry Ratcliffe]
 
+???
+
+- Violent crime plays a small role in the day-to-day activities of police officers (< 2% of their time)
+
+- Media makes a big deal out of homicides, but it's the smallest square on the graph
+
+- A lot of policing is social work. Attempting to prevent general community harms, addressing disputes, otherwise assisting the public.
+
 ---
 class: middle, center, inverse
 
@@ -135,6 +143,34 @@ knitr::include_graphics("fig2.jpg")
 
 .small[from [*Intelligence-Led Policing* (2nd Ed.)](https://www.routledge.com/Intelligence-Led-Policing/Ratcliffe/p/book/9781138859012) by Jerry Ratcliffe]
 
+???
+
+- Note these figures are from England & Wales where it's easier to generate national estimates
+
+- **Only about half of all crimes are reported to the police**
+
+- The detection rate in E&W at the time was 23% (so we're down to 99 of the original 1000 offenses)
+
+- Of those, 60% resulted in an indictment, charge, or summons
+
+- Conviction rate was nearly 83% (so now we're down to 50)
+
+- Most of the punishments were fines, community service, suspended sentences...**only 8% of convictions result in jail or prison**
+
+- **Why is this so important to see?** 
+
+- **If you could improve any component of the funnel by 10%, where could you have the biggest impact?**
+
+  - Even if we sentenced **everyone** found guilty to jail/prison, we'd still only be jailing offenders for 5% of all crimes
+  
+  - If **every** offender was forced to appear in court, it'd mean we'd be sending 39 more people to court
+  
+  - Police can do more to impact crime if they focus on the earlier components of the funnel. 
+  
+  - If we could generate a 10% increase in citizen willingness to call police for help, it'd mean police became aware of an additional 100 crimes, and this would have an impact on the rest of the funnel as well. 
+  
+  - So this begs the question: **How do we increase citizen willingness to call the police?** 
+
 ---
 class: middle, center, inverse
 
@@ -152,6 +188,10 @@ knitr::include_graphics("fig3.png")
 ```
 
 .small[sources: [Gallup](https://news.gallup.com/poll/1597/confidence-institutions.aspx) and [FBI Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/pages/explorer/crime/crime-trend)]
+
+???
+
+- Public perception of the police is clearly driven by something other than crime/victimization
 
 ---
 class: middle, center, inverse
@@ -260,6 +300,17 @@ In terms of *crime prevention*, policing is most effective when it is *focused* 
 ```{r, echo=FALSE, fig.align='center', out.width = "65%"}
 knitr::include_graphics("matrix.jpg")
 ``` 
+
+???
+
+Black circles = effective
+White circles = ineffective
+Grey circles = mixed results
+Red triangle = harmful intervention
+
+- This figure tells us that interventions that focus **proactively** on **neighborhoods** or **individuals** are most effective in terms of crime reduction
+
+- **Focus** on **people** and **places** that disproportionately conribute to community problems
 
 ---
 class: top, center
