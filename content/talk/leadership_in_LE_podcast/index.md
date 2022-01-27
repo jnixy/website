@@ -79,3 +79,4 @@ Articles discussed include:
 * [On the Meaning and Measurement of Suspects' Demeanor Toward the Police: A Comment on “Demeanor and Arrest”](https://doi.org/10.1177%2F0022427896033003003)
 * [Compliance, noncompliance, and the in-between: causal effects of civilian demeanor on police officers’ cognitions and emotions](https://link.springer.com/article/10.1007%2Fs11292-019-09363-4)
 * [Factors associated with police shooting mortality: A focus on race and a plea for more comprehensive data](https://doi.org/10.1371/journal.pone.0259024)
+* [Gun victimization in the line of duty: Fatal and nonfatal firearm assaults on police officers in the United States, 2014-2019](https://doi.org/10.1111/1745-9133.12507)
