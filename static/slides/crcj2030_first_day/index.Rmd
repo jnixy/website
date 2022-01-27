@@ -317,7 +317,7 @@ class: top, center
 
 # Have a great day! 😄
 
-```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+```{r, echo=FALSE, fig.align='center', out.width = "30%"}
 knitr::include_graphics("einstein.jpg")
 ```
 
