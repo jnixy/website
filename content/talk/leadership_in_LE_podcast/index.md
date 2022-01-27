@@ -49,10 +49,6 @@ url_slides: ""
 url_video: ""
 ---
 
-{{% alert note %}}
-Click on the **Listen** buttons near the top of the page to listen to the podcast on your preferred streaming platform.
-{{% /alert %}}
-
 In this episode, I have a conversation with Chief Aaron Fuller of the Knoxville, Iowa Police Department. Topics discussed include:
 
 * How I got into academia
@@ -80,3 +76,7 @@ Articles discussed include:
 * [Compliance, noncompliance, and the in-between: causal effects of civilian demeanor on police officers’ cognitions and emotions](https://link.springer.com/article/10.1007%2Fs11292-019-09363-4)
 * [Factors associated with police shooting mortality: A focus on race and a plea for more comprehensive data](https://doi.org/10.1371/journal.pone.0259024)
 * [Gun victimization in the line of duty: Fatal and nonfatal firearm assaults on police officers in the United States, 2014-2019](https://doi.org/10.1111/1745-9133.12507)
+
+{{% alert note %}}
+Click on the **Listen** buttons near the top of the page to listen to the podcast on your preferred streaming platform.
+{{% /alert %}}
