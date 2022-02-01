@@ -12,7 +12,7 @@ type: docs
 weight: 2
 ---
 
-***Please note I reserve the right to make changes to the schedule as necessary.***
+Please note I reserve the right to make changes to the schedule as necessary. In the event that in-person classes get cancelled (e.g., inclement weather, power outages), you will be notified of the instructional continuity plan for this class by email through Canvas.
 
 ## Semester Overview
 
