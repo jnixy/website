@@ -37,6 +37,15 @@ background-size: 10%
 .white[February 1, 2022]
 
 ---
+class: middle, center
+
+# Before we begin...
+
+--
+
+## Take this quick [survey](https://unomaha.az1.qualtrics.com/jfe/form/SV_eILhS73Apjt7Q3k)
+
+---
 class: top
 
 # From Private to Public Policing 
