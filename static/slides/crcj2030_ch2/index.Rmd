@@ -41,6 +41,12 @@ class: top
 
 # Policing in a Democracy
 
+???
+
+Your textbook says that “democracy ensures that a certain amount of crime is inevitable.” 
+- **Why?** 
+  - Concern over people’s rights and privacy, which vastly restricts the power of the police and the government
+
 --
 
 - Democracy = "Rule by the people"
@@ -58,6 +64,13 @@ knitr::include_graphics("scales.png")
 
 - .small[“…is subject to the rule of law embodying values respectful of human dignity, rather than the wishes of a powerful leader or party; can *intervene in the life of citizens only under limited and carefully controlled circumstances*; and is publicly accountable…”]
 
+???
+
+Can you think of any examples of how police authority to intervene in our lives is limited? 
+- **4TH AMMENDMENT**
+  - Protects us from unreasonable searches and seizures
+  - Under most circumstances, warrant required to enter private residences, conduct searches, seize evidence
+
 ---
 class: top
 
@@ -67,9 +80,19 @@ class: top
 
 - The US is a *representative democracy*
 
+???
+
+**Representative democracy**: we elect officials to represent our interests
+
 --
 
 - Adheres to [federalism](https://constitutioncenter.org/interactive-constitution/learning-material/federalism)
+
+???
+
+**Shared power**
+- Strong federal government makes laws, but states also have the power to make their own 
+- (but see supremacy clause — Article VI, Clause 2 of the United States Constitution)
 
 --
 
@@ -79,6 +102,11 @@ class: top
 
   - Dual federalism
   
+???
+
+**Dual Federalism**
+- Only powers vested in fed government are those explicitly detailed in the Federal Constitution. Other powers are left to the states to decide
+  
 --
 
   - But see *Supremacy Clause* [(Article VI, paragraph 2)](https://constitutioncenter.org/interactive-constitution/interpretation/article-vi/clauses/31)
@@ -86,6 +114,12 @@ class: top
 --
 
   - US is more of a *cooperative federalism*
+  
+???
+
+Really we have a **cooperative federalism** structure
+  - The lines between fed and state power are somewhat blurry
+  - Fed govt has a lot of power over states (e.g., Interstate Commerce clause)
   
 --
 
@@ -97,7 +131,13 @@ class: top
   
 --
 
-Why not have a single, centralized police force?
+***Why not have a single, centralized police force?***
+
+???
+
+- Federalism
+- It's impractical
+- Early fear of policing being more or less a military regime
 
 ---
 class: top
@@ -108,9 +148,17 @@ class: top
 
 Agencies operate in an environment characterized by *competing interests and priorities*
 
+???
+
+If you're the Chief of the Omaha Police Department, who is the #1 influencer of the way you run your agency? 
+
 --
 
 - The community
+
+???
+
+- Elections, review boards, filing complaints, reporting crimes
 
 --
   
@@ -144,6 +192,15 @@ class: top
 knitr::include_graphics("gallup_police.png")
 ```
 
+???
+
+I've shown you this before, but reminder: this is a Gallup Poll that has been conducted every summer since 1993. 
+- The line is the % of American adults who have *a great deal* or *quite a lot* of **confidence in the police**.
+
+- Roughly 1,000 adults from all 50 states + DC
+
+- **What is most notable to you about this graph??**
+
 ---
 class: top
 
@@ -154,6 +211,12 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "90%"}
 knitr::include_graphics("gallup.png")
 ```
+
+???
+
+Here, I've included Americans' confidence in other institutions over the same period. 
+
+**What stands out?**
 
 ---
 class: top
@@ -172,13 +235,37 @@ class: top
   
   - Race
   
+???
+
+- Historically lower among non-whites
+- Black and Hispanic confidence in police took a hit after Ferguson, White confidence did not. 
+
 --
 
   - Age
   
+???
+
+- Younger people tend to have less confidence in police
+  - Young confidence also took a hit post-Ferguson; meanwhile old confidence increased
+  
 --
 
   - Gender
+  
+???
+
+- Pretty mixed; no clear relationship
+  
+--
+
+  - Political ideology
+  
+???
+
+- Liberal confidence took a hit post-Ferguson; conservative confidence increased
+- The party gap widened post-Ferguson as well
+- This reflects the broader trend that conservatives tend to lean crime control and liberals tend to lean due process.
   
 ---
 class: top
@@ -193,6 +280,16 @@ class: top
 knitr::include_graphics("fine_study.png")
 ```
 
+???
+
+**Why do you think this is?**
+
+**What are the implications of this for...**
+
+  - Increasing trust and legitimacy?
+  
+  - Diversification of policing? 
+  
 ---
 class: top
 
@@ -209,7 +306,15 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "50%"}
 knitr::include_graphics("biden.jpg")
 ```
-  
+
+???
+
+POTUS appoints the federal agency heads (DOJ, DHS)
+
+- Some, like COPS Office, decide how to distribute federal funding opportunities
+
+Also indirectly influences policing by appointing SCOTUS justices
+
 ---
 class: top
 
@@ -224,7 +329,14 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "30%"}
 knitr::include_graphics("ricketts.jpg")
 ```
-  
+
+???
+
+Governor sets policy and spending priorities for the state
+
+- In some cases, s/he appoints the head of the state police department(s)
+- In Missouri, the governor appoints members of the *Board of Police Commissioners*, who in turn oversee the KCPD.
+
 ---
 class: top
 
@@ -244,12 +356,25 @@ knitr::include_graphics("stothert.jpg")
   - Council-manager form  
   - Mayor-council form
 
+???
+
+- **Council-manager**: the council makes decisions, and the mayor votes along with the members. City manager runs city operations.
+
+- **Mayor-council**: No city manager. Mayor is responsible for operations.
+
+  - Strong mayor - limitless authority
+  - Weak mayor - serves city council
+  
 ---
 class: top
 
 ## Elected Officials
 
 ### Legislative influence
+
+???
+
+**Legislators** don't directly set police budgets, but they do influence them by enacting legislation that provides funding (for whatever they perceive to be priorities)
 
 --
 
@@ -263,9 +388,22 @@ class: top
 
 ### Judicial influence
 
+???
+
+Judicial oversight determines when police have abused their authority, and impacts the **outer limits of enforcement**, which we'll discuss more later in the semester.
+
 --
 
 - E.G., landmark SCOTUS decisions
+
+???
+
+***In what ways have the courts impacted policing in the last ~50 years?***
+
+- Legality of terry stops
+- Exceptions to the warrant requirement
+- Police use of force
+- Note that many cases that don't make it to SCOTUS remain binding in their state or federal circuit
 
 --
 
@@ -331,6 +469,13 @@ knitr::include_graphics("headline.png")
 
 - ***In general, do you think the news media accurately portrays crime and policing?***
 
+???
+
+**Impression management**
+- Many agencies operate their own social media pages, enabling them to circumvent the news media (e.g., Cheng 2021). 
+
+- ***Do you agree with this practice?***
+
 ---
 class: top
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bf/Socialmedia-pm.png)
@@ -370,9 +515,22 @@ class: top
 
 - [International Association of Chiefs of Police](https://www.theiacp.org/)
 
+???
+
+IACP is one of the largest professional organizations in the world. Founded in 1893 and has over 20K members from 89 countries.
+- Annual conference with panels on technology, training, evidence-based practices, etc. 
+- Research Center
+- Police Chief Magazine
+
 --
 
 - [Major Cities Chiefs Association](https://majorcitieschiefs.com/)
+
+???
+
+MCCA is comprised of the 50 largest cities in the US and the 7 largest in Canada
+- Holds two conferences per year
+- Pushes out publications, survey results
 
 --
 
@@ -381,6 +539,13 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "45%"}
 knitr::include_graphics("more_data.jpg")
 ```
+
+???
+
+ASEBP founded much more recently, circa 2015.
+- Pushing to formalize evidence-based policing, i.e., agencies have a moral responsibility to follow the science.
+- Annual conference, usually in a city with a strong criminology department
+- Most of the executive board hold PhDs
 
 ---
 class: top
@@ -391,13 +556,31 @@ class: top
 
 - [FBI National Academy](https://www.fbi.gov/services/training-academy/national-academy)
 
+???
+
+FBI NA was founded in 1935 and is based in Quantico VA
+- Runs a 10-wk course for managers nominated by their agency heads
+- Covers intelligence theory, terrorism, law, forensics, leadership...
+
 --
 
 - [Southern Police Institute](https://louisville.edu/spi)
 
+???
+
+SPI was founded in 1951 and is housed at the University of Louisville.
+- For mid-level managers
+- Has two different courses, 10/12 weeks
+
 --
 
 - [Federal Law Enforcement Training Center](https://www.fletc.gov/)
+
+???
+
+FLETC is operated by DHS and is based in Glynco GA
+- Courses on firearms, tactics, driving, investigations
+- Hosts periodic summits that include presentations and roundtables with researchers
 
 --
 
@@ -407,9 +590,21 @@ class: top
 
 - [Police Executive Research Forum](https://www.policeforum.org/)
 
+???
+
+PERF is a nonprofit founded in 1976
+- Research and policy organization
+- Provides management services, technical assistance, and executive-level education to agencies
+- Pushes out periodic reports
+
 --
 
 - [National Police Foundation](https://www.policefoundation.org/)
+
+???
+
+NPF is a nonprofit founded in 1970 that did some of the earliest evaluations of police practices (e.g., KC Patrol Experiment)
+- I collaborated with them in 2018 on a report analyzing a spike in shootings by the Phoenix Police Department
 
 ---
 class: top, center
