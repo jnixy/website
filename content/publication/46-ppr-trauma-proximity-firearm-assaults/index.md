@@ -11,7 +11,7 @@ image:
   caption: "Image by [Robert Linder](https://unsplash.com/@rwlinder) on [Unsplash](https://unsplash.com/photos/IV6Ge9vzmHE)"
   focal_point: top
   preview_only: no
-doi: 
+doi: 10.1080/15614263.2022.2036611
 projects: []
 publication: '*Police Practice & Research*'
 publication_short: PPR
