@@ -504,6 +504,8 @@ class: top
 ???
 
 States in the south often have a more decentralized model
+Usually have other adjunct, state-level agencies
+- E.G., State Wildlife Commission, Board of Alcohol Beverage Control
 
 --
 
@@ -521,6 +523,13 @@ class: top
 --
 
 - Decentralized and fragmented
+
+???
+In fact, some towns/communities contract with private security
+- Others have no municipal department, and just depend on the county sheriff
+
+It's expensive to hire, train, and pay a police officer
+- Many small towns just can't afford much on their budgets
 
 --
 
@@ -552,11 +561,6 @@ Recall there are >12K municipal police departments in the US
 
 ???
 
-Most are small
-- 75% employ < 25 officers
-- 50% employ < 10 officers
-- Meanwhile, only 5% employ > 100 officers
-
 Responsibilities
 - Enforce traffic laws
 - Investigate accidents, crimes
@@ -567,11 +571,41 @@ Responsibilities
 ---
 class: top
 
+## Municipal Police
+
+```{r, echo=FALSE, fig.align='center', out.width = "95%"}
+knitr::include_graphics("local_agency_sizes.png")
+```
+
+???
+
+Most are small
+- 75% employ < 25 officers
+- 50% employ < 10 officers
+- Meanwhile, only 5% employ > 100 officers
+
+---
+class: top
+
+## Municipal Police
+
+```{r, echo=FALSE, fig.align='center', out.width = "95%"}
+knitr::include_graphics("local_agency_proportions.png")
+```
+
+---
+class: top
+
 # Local Policing
 
 --
 
 ## Sheriff's Departments
+
+???
+
+The sheriff answers **directly** to the voters
+- Recall chiefs are one step removed from voters - they answer directly to the mayor/council/city manager.
 
 --
 
@@ -613,6 +647,10 @@ class: top
 
   - Colleges and universities
   
+???
+
+Note that your book refers to campus/transit police as local agencies. I disagree - they're special jurisdictions IMO. 
+  
 --
 
   - State and county parks
@@ -634,9 +672,23 @@ class: top
 
 - Highly bureaucratized
 
+???
+
+Every organization, public or private, follows some sort of **chain of command**. 
+- Private companies tend to have a CEO, a president, or both at the helm. 
+- Schools have principals. 
+- In SCCJ, we have a director, who reports to the Dean of CPACS, who reports to the Senior Vice Chancellor, who reports to the Chancellor. 
+
+For police, it's the chief or the sheriff at the top of the department. 
+
 --
 
   - See for example [OPD](https://public.powerdms.com/OPDEP1/tree/documents/2547925) and [LAPD](https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/2021/12/Org_chart_DP12_11232021.pdf) organizational charts...
+  
+???
+
+And take note of the **span of control** associated with each position in the chain of command.
+- I.E., the number of subordinates each person has. 
   
 --
 
@@ -722,6 +774,10 @@ class: top
 --
 
 - **Frederick Taylor**, *Scientific Management Theory*
+
+???
+
+Taylor: Use data and human strengths to maximize output
   
 --
 
@@ -731,10 +787,19 @@ class: top
 knitr::include_graphics("weber.jpg")
 ```
 
-  
+???
+
+Weber: Use hierarchies and tight job roles to maximize efficiency
+
 --
 
 - ***What do you think of structuring organizations this way?***
+
+???
+
+The point is to **maximize productivity** through **minimal required effort**. 
+
+- E.G., *specialization* is meant to ensure that people primarily work on tasks they are familiar with. 
 
 ---
 class: top
