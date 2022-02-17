@@ -779,7 +779,8 @@ class: top
 
 AKA *Taylorism*  
 Taylor: Use data and human strengths to maximize output
-- Analyze and synthesize workflows to improve economic efficiency and labor productivity
+- Heavily focused on **individuals**
+  - Analyze and synthesize workflows to improve economic efficiency and labor productivity
   
 --
 
@@ -798,10 +799,11 @@ Weber: Use hierarchies and tight job roles to maximize efficiency
 The point is to **maximize productivity** through **minimal required effort**. 
 
 - E.G., *specialization* is meant to ensure that people primarily work on tasks they are familiar with. 
+  - Good where there are a lot of repetitive tasks
 - Hierarchy of authority (as we've seen)
 - Formalization (i.e., rules to ensure uniformity)
 - Impersonality of management
-  - Decisions should be made with best interests of organization in mind, without regard for individuals
+  - Decisions should be made with best interests of **organization** in mind, without regard for individuals
 - Merit-based personnel decisions
 
 --
