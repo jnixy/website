@@ -63,7 +63,20 @@ class: center, middle, inverse
 
 Read this [op-ed](https://www.jurist.org/commentary/2020/06/sierra-arevalo-police-training/)
 
-And listen to this ~50 minute episode of the [Criminal Injustice Podcast](http://www.criminalinjusticepodcast.com/blog/2021/06/01/138-to-fix-policing-understand-it)
+Listen to this ~50 minute episode of the [Criminal Injustice Podcast](http://www.criminalinjusticepodcast.com/blog/2021/06/01/138-to-fix-policing-understand-it)
+
+And watch this [brief clip](https://www.cnn.com/2017/08/31/us/georgia-cobb-county-officer-racial-comment-trnd/index.html) of a traffic stop in Georgia in 2016
+
+???
+
+**Michael's op-ed**. He concludes by saying:
+- *This policing system, stretching from the 18,000 local departments to the Supreme Court, was built, expanded, and strengthened over more than a century. It is why the tragic killings of Floyd and so many others should not be thought of as cases of individual immorality. Instead, such killings and the lack of consequences for officers involved are evidence of a system working as intended.*
+  - Agree or disagree?
+
+Regarding the **clip** - is this just a joke in poor taste, or do you think it's a symptom of a broader, cultural problem in policing?
+- **Canteen Subculture**, Tank Waddington
+  - Water cooler war stories are a way for officers to cope with stress
+  - Perhaps this officer has made the same joke to his colleagues in the past, but here he is saying it to a citizen right in front of his dash camera!
 
 ---
 class: top
@@ -77,22 +90,46 @@ background-size: 40%
 
 **Culture**
 
+???
+
+Culture = a shared set of values, norms, and behaviors that form a particular way of life
+
 --
 
 - **Values**
 
+???
+
+Values = things that are perceived to be important
+
+- Cultural values might include a belief about the "best way" to go about a task
+- But also, the "moral superiority" of one approach over another
+- ***Consider how a scientific approach to a problem might differ from a faith-based approach.***
+
 --
 
 - **Norms**
+
+???
+
+Norms = rules and expectations about which forms of behavior are acceptable and which are not
 
 --
 
 <br>
 **Subculture**
 
+???
+
+Subculture = cultural patterns of a group that differ meaningfully from the larger population's culture
+
 --
 
 - **Police subculture**
+
+???
+
+Police subculture = shared values and norms, and the established patterns of behavior, that are found among police officers
   
 --
 
@@ -142,6 +179,23 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "55%"}
 knitr::include_graphics("org_justice.png")
 ```
+
+???
+
+Employees of any organization value **fairness** - and police organizations are no different. 
+
+What does **fairness** look like?
+
+- **DJ** = fairness of outcomes. Raises, promotions, special assignments, discipline, etc., should be distributed fairly/based on merit
+- **PJ** = fairness of procedures. Explain decisions. Give officers a voice in the process. Make decisions based on facts.
+- **IJ** = treating officers with dignity and respect. Like human beings. Providing them with timely information. 
+
+Study after study shows officers who view their agency as more fair...
+- More likely to treat citizens fairly
+- Less reliant on using force
+- Less likely to engage in misconduct
+- More supportive of due process for citizens…
+- Less sensitive to criticism from the media (Ferguson Effect)
 
 ---
 class: top
@@ -253,13 +307,28 @@ class: top
 
 - Control
 
+???
+
+- E.G., order maintenance in the general sense
+- But also maintaining control while interacting with citizens
+  - Including the seemingly slightest details, such as posturing
+
 --
 
 - Suspicion
 
+???
+
+Officers are basically always working on suspicions. A key question we'll wrestle with in later chapters is **what makes a suspicion (un)reasonable.**
+- And importantly, their lack of trust in others permeates their personal lives, too. 
+
 --
 
 - Secrecy
+
+???
+
+Maybe you've heard of the "blue wall of silence." Unclear how widespread this is, but there are certainly anecdotal accounts of officers covering for or looking the other way during peer misconduct
 
 ---
 class: top
@@ -284,6 +353,14 @@ class: top
 --
 
 - The [*Danger Imperative*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2864104)
+
+???
+
+Again, the **danger imperative** = a cultural frame that emphasizes **violence** and the need for **officer safety**.
+- It justifies risky/reckless behaviors such as breaking departmental policies
+  - E.G., to speed across town to assist an officer in distress
+- It is also salient every single time officers approach vehicles during a traffic stop.
+  - E.g., touching three fingers to the trunk
 
 --
 
