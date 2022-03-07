@@ -73,9 +73,22 @@ knitr::include_graphics("choices.png")
 
 - What potential *benefits* does discretion offer?
 
+???
+
+**Benefits**: can allow for greater justice/consideration of context
+- greater autonomy, job satisfaction
+- greater system efficiency
+- promotes goals that are more realistic/attainable
+
 --
 
 - What potential *drawbacks* does it involve? 
+
+???
+
+**Drawbacks**: potential for abuse
+- disparities in terms of how discretion is applied
+  - which, in addition to being unjust, can lead to litigation
   
 ---
 class: top
@@ -86,14 +99,36 @@ class: top
 
 - *Total enforcement* is impossible
 
+???
+
+**Total enforcement** is precluded by due process restrictions on arrests, searches, seizures, interrogations. The police have a duty **not** to enforce the substantive law **unless** invocation of the process can be achieved within constitutional bounds (as well as statutes, court precedents, and even official pronouncements by the prosecutor). 
+
+The area of **no enforcement** falls between the perimeter of total enforcement and the outer limits of full enforcement. In this area, police have no authority to invoke the criminal process. 
+
 --
 
   - *Full enforcement* possible [in theory](https://www.jstor.org/stable/973838), but we know that police often decide *not to enforce*
+  
+???
+
+According to Goldstein's research, police are *authorized and expected* to enforce **fully** the law of crimes. They have **not** been delegated discretion to choose not to invoke the criminal process. 
+
+But this is an unrealistic expectation. 
+
+Police have limited time, personnel, and investigative capabilities (all of which are influenced by their **budget**)
   
 --
 
   - This leaves us with *actual enforcement* - the "area" of which shrinks as we advance through the stages of the CJ process
   
+???
+
+**Actual enforcement** is what the police do. But note that their decisions **not to enforce** the law impact every subsequent stage of the CJ system. 
+
+- These decisions are **low visibility**
+  - Meaning they're poorly tracked (if at all)
+  - Meaning they're difficult to measure
+  - Which hinders accountability
 --
 
 - Officers' decisions whether to invoke the criminal process "largely determine the outer limits of law enforcement" [(Goldstein, 1960:543)](https://www.jstor.org/stable/794445)
@@ -107,6 +142,10 @@ class: top
 
 .small[See [Goldstein (1960:563)](https://www.jstor.org/stable/794445).]
 
+???
+
+So let's start by imagining these are the outer bounds of criminal law. So any behaviors that fall outside of this space are legal, and any behaviors that fall inside are criminal. 
+
 ---
 class: top
 
@@ -115,6 +154,14 @@ class: top
 ![goldstein2](goldstein_discretion_2.png)
 
 .small[See [Goldstein (1960:563)](https://www.jstor.org/stable/794445).]
+
+???
+
+We know that police are the **gatekeepers** of the CJ system. They detect crime, make arrests, and hand over cases to the prosecutor. 
+
+The prosecutor chooses to accept or deny cases, and presents them to the judge or jury (assuming no plea bargain).
+
+The jury (or judge) decides whether there is enough evidence to convict, and recommends a sentence.
 
 ---
 class: top
@@ -125,6 +172,10 @@ class: top
 
 .small[See [Goldstein (1960:563)](https://www.jstor.org/stable/794445).]
 
+???
+
+Here's what **total enforcement** looks like in theory. But again, it is restricted by due process. 
+
 ---
 class: top
 
@@ -133,6 +184,10 @@ class: top
 ![goldstein4](goldstein_discretion_4.png)
 
 .small[See [Goldstein (1960:563)](https://www.jstor.org/stable/794445).]
+
+???
+
+**Full enforcement**, on the other hand, is what police are authorized and expected to do. Where they can invoke the criminal process within constitutional bounds, they should (at least according to Goldstein's review of the state of affairs at the time).
 
 ---
 class: top
@@ -143,6 +198,14 @@ class: top
 
 .small[See [Goldstein (1960:563)](https://www.jstor.org/stable/794445).]
 
+???
+
+But like we've discussed, we know that police frequently use their discretion **not to** invoke the criminal process. 
+
+So here's what that ends up looking like. Each time they decide not to enforce the law, that precludes a potential prosecution, trial, formal punishment.
+
+In other words, the rest of the system **only deals with those individuals who police arrested.**
+
 ---
 class: top
 
@@ -151,6 +214,15 @@ class: top
 ![goldstein6](goldstein_discretion_6.png)
 
 .small[See [Goldstein (1960:563)](https://www.jstor.org/stable/794445).]
+
+???
+
+It's also important to note that the other CJ system actors have discretion as well. So, for various reasons, prosecutors decide not to more forward with some portion of cases that are turned over to them. 
+
+And as we discussed last week, prosecutorial discretion can cause police officers to stop enforcing the law for certain offenses.
+
+- Recall Alvin Bragg's stated policy in Manhattan
+- Marilyn Mosby's decision to stop prosecuting misdemeanor marijuana offenses in Baltimore
 
 ---
 class: top
@@ -169,6 +241,19 @@ class: top
 ![goldstein8](goldstein_discretion_8.png)
 
 .small[See [Goldstein (1960:563)](https://www.jstor.org/stable/794445).]
+
+???
+
+So as you can see, the area of **actual enforcement** shrinks at each stage of the system. 
+
+Now, recall some of the drawbacks of discretion that we discussed. 
+
+***If we find that there are [disparities in the Nebraska prison population](https://omaha.com/news/state-and-regional/crime-and-courts/paying-the-price-well-worn-path-to-prison-in-north-omaha-fuels-racial-incarceration-disparities/article_172bbfa2-9bdb-11ec-a484-0b6d5d0b125b.html?utm_medium=social&utm_source=twitter_OWHnews), correctional reforms may only go so far to fix the problem if there are disparities in the use of discretion by other CJ actors.***
+
+In fact, many studies suggest there are disparities at **every** stage of the system. 
+
+But recall that police decisions not to invoke the law are **low visibility** decisions.
+- ***How can we increase oversight and accountability for police decisions not to invoke the law?***
 
 ---
 class: top
@@ -189,6 +274,21 @@ class: top
 
 - Consider how officers used their discretion in [this incident](https://www.cnn.com/2014/03/04/us/court-police-chase/index.html)
 
+???
+
+Write down **Plumhoff v. Rickard (2014)**
+
+***Do you think the officers' actions were justified?***
+- Including the decision to **fire 15 rounds**?
+  - SCOTUS ruled that if the first shot is justified, so too are the next 14 if they're still trying to stop the threat.
+  
+***Do you think we should give officers the discretion to fire shots at someone speeding away from them?***
+- Or is this something we should forbid as a matter of policy?
+
+In this case, the Court agreed that the officers have qualified immunity, so long as their actions were reasonable
+- I.E., *did their actions violate a "clearly established" law or right?*
+  - The court said no, in this case.
+  
 --
 
 - Think of it like an incredibly high-stakes game of [blackjack](https://www.police1.com/police-products/pursuit-management-technology/articles/16-to-a-dealers-10-could-blackjack-odds-help-inform-police-pursuit-policies-Y9x2Avr8SWzJG1c4/)
@@ -196,6 +296,15 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "25%"}
 knitr::include_graphics("blackjack.png")
 ```
+
+???
+
+- 40% of pursuits end in a crash
+- 20% end in traumatic injuries
+- One-third of the deaths caused by high-speed pursuits are **innocent bystanders**
+- And 91% of pursuits involve non-violent crimes - usually just traffic violations
+
+So framing the decision as "good v. bad" is not the right approach for this. Instead, this is a dilemma where agencies have to take a **calculated risk** and hope that they choose the **lesser of two bads**.
 
 --
 
@@ -210,29 +319,63 @@ class: top
 
 1. [Nature](https://doi.org/10.1111/j.1745-9125.1997.tb00877.x) of the crime or problem
 
+???
+
+Police are more likely to arrest for more serious crimes.
+- Maybe precisely because they're more serious, but also maybe because there is more evidence, which helps more easily establish probable cause (recall police can't arrest if they don't believe they have probable cause).
+
 --
 
 2. [Neighborhood context](https://doi.org/10.1016/j.jcrimjus.2021.101829)
+
+???
+
+Likely a curve-linear relationship between neighborhood crime/disorder and police decisions to arrest.
+- I.E., they're more likely to arrest up to a point, but then in the most disadvantaged neighborhoods they become more likely to take a hands-off approach (per Klinger's theory of negotiating order in patrol work, at least)
 
 --
 
 3. [Relational distance](https://doi.org/10.1177%2F0011128711420102) between offender and victim
 
+???
+
+Police more likely to handle situations informally where the victim and offender know each other
+
+- Likewise, if cops know the perpetrator, they may be more likely to deal with the matter informally (e.g., Police on Skid Row, Bittner)
+
 --
 
 4. [Demeanor](https://doi.org/10.1007/s11292-019-09363-4)
+
+???
+
+- Decades of research (including some of my own) suggest people with a bad demeanor are treated more harshly by cops
 
 --
 
 5. Demographics of the [offender](https://doi.org/10.1111/j.1745-9125.2011.00230.x) or victim
 
+???
+
+- Similarly, lots of evidence that minorities are more likely to be stopped, ticketed, searched, and arrested. 
+- As are young people and men
+
 --
 
 6. [Departmental policy](https://doi.org/10.1080/07418825.2016.1147593)
 
+???
+
+- In some cases, officers do not have discretion. E.G., like we just discussed, many agencies have moved toward more restrictive pursuit policies. 
+- LAPD (and many other agencies) recently announced they're restricting traffic stops for minor "non-moving" violations, as these are frequently used as a pretext to search/investigate drivers. And these stops, in particular, contribute to racial disparities in who is stopped (Epp et al.)
+
 --
 
 7. [Prosecutorial discretion](https://twitter.com/samswey/status/1480836643607040003/photo/1)
+
+???
+
+We've talked about this already - when prosecutors say they're not going to take certain cases, police inevitably stop arresting for those offenses. 
 
 --
 
