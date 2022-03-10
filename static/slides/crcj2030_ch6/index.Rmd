@@ -388,9 +388,22 @@ class: top
 
 # Classic Studies of Police Discretion
 
+???
+
+***If you wanted to study DISCRETION (or CULTURE), how would you go about it?***
+
 --
 
 William Westley: [Violence and the Police](https://www.journals.uchicago.edu/doi/10.1086/221264)
+
+???
+
+Westley – one of the first police ethnographies 
+- 1949 ethnography in Gary, Indiana
+- *Socialization* is the key factor shaping police behavior
+- Old-timers teach recruits how to handle confrontations
+- Found officers felt isolated, and as a result they developed a tight-knit culture
+- Secrecy, looking out for one another
 
 --
 
@@ -413,6 +426,12 @@ As part of his dissertation fieldwork in the late 1940s, Westley asked officers 
 | For sex criminals           |         2 |          3 |
 |                   **Total** |        73 |        100 |
 
+???
+
+Respect is everything. Without it, police can’t be effective
+- Recruits earned respect (from community) if they showed they could take charge.
+- The way to respond to citizens who challenged police was with force
+
 ---
 class: top
 
@@ -422,6 +441,10 @@ class: top
 
 Jerome Skolnick: [Justice without Trial](https://www.google.com/books/edition/Justice_Without_Trial/4IHWq5A31IoC?hl=en&gbpv=1)
 
+???
+
+- Police have the discretion to administer justice with no trial
+
 --
 
 - "Symbolic assailants" and "danger signifiers"
@@ -430,9 +453,21 @@ Jerome Skolnick: [Justice without Trial](https://www.google.com/books/edition/Ju
 knitr::include_graphics("danger.png")
 ```
 
+???
+
+- Symbolic assailant: someone a police officer thinks is potentially dangerous
+Based on past experiences and war stories from other cops
+Behavior, location, race, dress, age, sex, etc. = “danger signifiers”
+
 --
 
 - Tension between "law" and "order"
+
+???
+
+**Tension between law and order**
+- Law sets rules by which police must abide
+- Order, though, can’t always be accomplished within the limits of the law. 
 
 ---
 class: top
@@ -445,13 +480,33 @@ knitr::include_graphics("jqwilson.png")
 
 James Q. Wilson: [Varieties of Police Behavior](https://www.hup.harvard.edu/catalog.php?isbn=9780674932111)
 
+???
+
+James Q. Wilson’s book was an ethnographic study of 8 police agencies in th 1960s. 
+- Identifies policing styles that explain discretion and other behavior
+- Characteristics of agencies, but also can be used to understand individual personalities
+
 --
   
   - Watchman
   
+???
+
+**Watchman** found in lower class communities
+- Concerned with **order maintenance**
+- Controlling illegal and disruptive behaviors
+- Lots of discretion to handle things informally
+- Persuasion, threats, or even roughing up troublemakers
+  
 --
 
   - Legalistic
+  
+???
+
+**Legalistic** – by the book type of agencies
+- Tend to avoid community disputes that result from violating social norms that don’t break the law. 
+- In other words, they take a “hands off” approach to any problems that are not criminal. 
   
 --
 
@@ -460,6 +515,13 @@ James Q. Wilson: [Varieties of Police Behavior](https://www.hup.harvard.edu/cata
 <br>
 
 .small[\* Image By Rakesh M 759 - Own work, CC BY-SA 4.0, [Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=66446243)]
+
+???
+
+**Service** - Strive to meet the needs of the community
+- Police see themselves as helpers rather than soldiers in a war on crime
+- Work with social services to provide counseling for minor offenders
+- Assist community groups in preventing crimes and solving problems
   
 ---
 class: top
@@ -474,9 +536,20 @@ class: top
 
 - Police behavior?
 
+???
+
+1. Through a **monitoring/accountability** effect
+2. By influencing individuals' perceptions and beliefs, thereby creating demand for specific policies
+  
 --
 
 - Crime?
+
+???
+
+1. Increasing the salience / fear of crime might cause individuals to take more precautions (or more risks)
+2. Indirectly, by influencing police behavior
+  - So if police "pull back," do offenders become emboldened?
 
 --
 
@@ -487,6 +560,20 @@ class: top
   - What did Drs. Mastrorocco and Ornaghi find in [their study](https://ariannaornaghi.github.io/ariannaornaghi.com/who_watches_the_watchmen.pdf)?
 
       - Think back to the Probable Causation Podcast
+      
+???
+
+*Sinclair Media Company* controlled 33 local news stations in 2010 and almost 120 by the end of 2017. 
+- They were reaching 40% of the US population by the end of 2017
+  - Which happens to be the maximum share of the population that a single owner can reach, per FCC regulations
+  - And these acquisitions were spread out geographically (again driven by FCC regulations)
+  - If Sinclair is looking to expand, they're not going to buy up all the stations in one market. They're going to try to enter new markets.
+  
+When Sinclair buys a station, we see a **nationalization** of news coverage at the expense of **local stories**
+- It's also likely that coverage begins to slant more conservative after they take ownership, as they're a right-leaning group.
+
+**Results**: When Sinclair acquires a station, local municipalities are 2.2 percentage points less likely to be mentioned in crime stories (25% of baseline mean)
+- And the violent crime clearance rate is 4.5 percentage points lower (10% of the baseline mean)
 
 ---
 class: top, center
