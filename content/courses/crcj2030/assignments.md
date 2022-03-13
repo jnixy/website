@@ -25,3 +25,7 @@ Your first assignment of the semester is to **read the article and write a 500 w
 Your essay should be uploaded to Canvas no later than **10AM next Tuesday (2/8/22)**. If you want, you can write your essay in Word (or whatever you normally use), then cut/paste it into Canvas when you’re finished. 
 
 **Do not plagiarize**. Please note that your submissions will be reviewed by Turnitin, a plagiarism review software. If you’re unsure about what constitutes plagiarism, please consult with me before you submit your essay. 
+
+## Assignment 2: Reading Quiz
+
+Assignment #2 is a reading quiz I've posted to our course page on Canvas. It has ten multiple-choice questions drawn from the material we've covered in Chapters 5 and 6. It should be completed by **5PM on Sunday, March 20th**.
