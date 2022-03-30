@@ -130,7 +130,7 @@ knitr::include_graphics("scale.png")
 
 --
 
-  - E.G., let's discuss the facts in [Kansas v. Glover (2019)](https://www.oyez.org/cases/2019/18-556)
+  - E.G., let's discuss the facts in [Kansas v. Glover (2020)](https://www.oyez.org/cases/2019/18-556)
   
 ???
 
