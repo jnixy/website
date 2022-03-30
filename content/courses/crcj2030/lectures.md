@@ -53,7 +53,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 10
 
-Policing and the law
+[Policing and the law](https://jnix.netlify.app/slides/crcj2030_ch10/)
 
 ## Chapter 11
 
