@@ -38,6 +38,11 @@ background-size: 10%
 .white[April 5, 2022]
 
 ---
+class: middle, center, inverse
+
+# The 4th Amendment
+
+---
 class: top
 background-image: url(we_the_ppl.jpg)
 background-position: 94% 5%
@@ -55,62 +60,20 @@ background-size: 30%
 
 ---
 class: top
-background-image: url(bacon.jpg)
-background-position: 90% 5%
-background-size: 40%
-
-# Suspicion
-
-</br>
-</br>
-
-<p style="text-align: right;">.small[(Image by [RaphaelMoreno0601](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Francis_Bacon_filosofo.jpg/800px-Francis_Bacon_filosofo.jpg?20180817165909), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons)]</p>
-
-</br>
-
-> Suspicions amongst thoughts are like bats amongst birds, they ever fly by twilight. Certainly they are to be repressed, or at least well-guarded; for they cloud the mind...they are defects, not in the heart, but in the brain...for commonly they are not admitted, but with examination, whether they be likely or no; but in fearful natures they gain ground too fast. There is nothing makes a man suspect much, more than to know little; and therefore men should remedy suspicion by procuring to know more, and not to keep their suspicions in smother.
-
-<div style="text-align: right"> - Francis Bacon </div>
-
----
-class: top
-
-# Searches and seizures
-
---
-
-In some circumstances, police may infringe on our expectation of privacy to **search** for evidence that could be used for criminal prosecution
-
---
-
-- 4th Amendment "protects people, not places"
-
-  - See [Katz v. United States (1967)](https://www.oyez.org/cases/1967/35)
-  
-???
-
-In **Katz**, federal agents placed a listening device outside a phone booth in which Katz was having a conversation.
-- Agents suspected him of transmitting gambling information over the phone to clients in other states
-- He makes incriminating statements, and the FBI sought to use them against him at trial
-- Lower courts said that the FBI's activities did not amount to a search, because there was **no physical entry into the phone booth**.
-- SCOTUS voted 7-1 to **reverse**, holding that 4th Amendment "protects people, not places," and doesn't require physical intrusion into any enclosure.
-
-In Katz, SCOTUS went on to say that a 4th Amendment search/seizure has only occurred when there is an infringement on an expectation of prviacy that society (through the eyes of a court) is willing to accept as reasonable.
-- Further, anything a person knowingly exposes to the public - including in their home or office - is not subject to 4th Amendment protection
-- Protection is afforded only for what he seeks to preserve as private.
-
---
-
-A **seizure** can refer to property (i.e., evidence) *or* people (i.e., restricting their movement)
-
---
-
-- SCOTUS: a seizure occurs when an officer intentionally restrains a person's liberty in such a manner that a *reasonable person* would believe they are not free to leave
-
----
-class: top
 
 # Standards of proof
+
+???
+
+The Constitution places limits on Government Authority
+- Officers can intrude on personal rights *only when justified*
+
+“Standards of Proof”
+- The degree of certainty in a particular proposition needed to justify government intrusion
+  - “To **[ACTION]**, you must have **[STANDARD OF PROOF]** to believe that **[PROPOSITION]**”
+
+Examples
+- To **convict a person of a crime** (action), the government must have proof **beyond a reasonable doubt** (standard of proof) to believe the person **committed a crime** (proposition)
 
 --
 
@@ -157,6 +120,25 @@ knitr::include_graphics("scale.png")
 
 ---
 class: top
+background-image: url(bacon.jpg)
+background-position: 90% 5%
+background-size: 40%
+
+# Reasonable suspicion
+
+</br>
+</br>
+
+<p style="text-align: right;">.small[(Image by [RaphaelMoreno0601](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Francis_Bacon_filosofo.jpg/800px-Francis_Bacon_filosofo.jpg?20180817165909), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons)]</p>
+
+</br>
+
+> Suspicions amongst thoughts are like bats amongst birds, they ever fly by twilight. Certainly they are to be repressed, or at least well-guarded; for they cloud the mind...they are defects, not in the heart, but in the brain...for commonly they are not admitted, but with examination, whether they be likely or no; but in fearful natures they gain ground too fast. There is nothing makes a man suspect much, more than to know little; and therefore men should remedy suspicion by procuring to know more, and not to keep their suspicions in smother.
+
+<div style="text-align: right"> - Francis Bacon </div>
+
+---
+class: top
 
 # Probable cause
 
@@ -197,6 +179,41 @@ more from SCOTUS on PC: "Requiring more would unduly hamper law enforcement. To 
 ---
 class: top
 
+# Searches and seizures
+
+--
+
+In some circumstances, police may infringe on our expectation of privacy to **search** for evidence that could be used for criminal prosecution
+
+--
+
+- 4th Amendment "protects people, not places"
+
+  - See [Katz v. United States (1967)](https://www.oyez.org/cases/1967/35)
+  
+???
+
+In **Katz**, federal agents placed a listening device outside a phone booth in which Katz was having a conversation.
+- Agents suspected him of transmitting gambling information over the phone to clients in other states
+- He makes incriminating statements, and the FBI sought to use them against him at trial
+- Lower courts said that the FBI's activities did not amount to a search, because there was **no physical entry into the phone booth**.
+- SCOTUS voted 7-1 to **reverse**, holding that 4th Amendment "protects people, not places," and doesn't require physical intrusion into any enclosure.
+
+In Katz, SCOTUS went on to say that a 4th Amendment search/seizure has only occurred when there is an infringement on an expectation of prviacy that society (through the eyes of a court) is willing to accept as reasonable.
+- Further, anything a person knowingly exposes to the public - including in their home or office - is not subject to 4th Amendment protection
+- Protection is afforded only for what he seeks to preserve as private.
+
+--
+
+A **seizure** can refer to property (i.e., evidence) *or* people (i.e., restricting their movement)
+
+--
+
+- SCOTUS: a seizure occurs when an officer intentionally restrains a person's liberty in such a manner that a *reasonable person* would believe they are not free to leave
+
+---
+class: top
+
 # 3 requirements for search & arrest warrants
 
 --
@@ -224,67 +241,6 @@ class: middle, center, inverse
 
 # But there are exceptions
 # to the warrant requirement!
-
----
-class: top
-
-# Warrantless searches
-
---
-
-## The plain view doctrine
-
-```{r, echo=FALSE, fig.align='center', out.width = "45%"}
-knitr::include_graphics("plain_view.jpg")
-```
-<p style="text-align: center;">.small[Image by [Coolcaesar](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CHP_HOV_traffic_stop.jpg/800px-CHP_HOV_traffic_stop.jpg?20090521173939), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons]</p>
-
-See [Coolidge v. New Hampshire (1971)](https://www.oyez.org/cases/1970/323)
-
-???
-
-**Coolidge**: 14 y.o. Pamela Mason places ad in a merchant’s window for babysitting
-- She gets picked up by Edward Coolidge who needed a babysitter and is never seen alive again
-- Body found eight days later, stabbed and shot to death
-- State AG took charge of policing activities related to the murder
-- Home visits, shows 3 guns, willing to take polygraph
-- Later visit with wife, who gives them 4 guns as well as some clothing…
-- Police applied for a warrant to search Coolidge’s vehicle, the AG authorized it (acting as JOP)
-- Coolidge found guilty and sentenced to life
-- **Key issue**: did the searches of Coolidge's home and automobile violate the 4th Amendment? 
-  - SCOTUS: yes, they did, because the warrants were not signed by a neutral and detached magistrate
-  - However, plain view doctrine was inapplicable here since police had ample opportunity to obtain a warrant
-  
----
-class: top
-
-# Warrantless searches
-
---
-
-## The open fields doctrine
-
---
-
-See [Oliver v. United States (1984)](https://www.oyez.org/cases/1983/82-15)
-
-```{r, echo=FALSE, fig.align='center', out.width = "45%"}
-knitr::include_graphics("trespass.png")
-```
-<p style="text-align: center;">.small[[Image](https://flic.kr/p/TtAYjd) by [Bill Smith](https://www.flickr.com/photos/byzantiumbooks/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]</p>
-
-???
-
-**Oliver v. United States**
-- KSP got a tip about a marijuana growing operation
-- Drove onto defendant’s land, past his house, up to a gate with a “no trespassing” sign
-- Got out of vehicles and walked down a footpath beyond the gate for ½ mile
-- Spotted a large marijuana crop
-- SCOTUS said this didn’t constitute a search
-  - “Cannot legitimately demand privacy for activities conducted out of doors in fields, except in area immediately surrounding home
-  - Open fields are usually accessible to the public
-  - No trespassing signs are generally ineffective
-  - And air surveillance is lawful
 
 ---
 class: top
@@ -330,29 +286,29 @@ class: top
 
 --
 
-## Plain feel
+## The open fields doctrine
 
 --
 
-See [Minnesota v. Dickerson (1993)](https://www.oyez.org/cases/1992/91-2019)
+See [Oliver v. United States (1984)](https://www.oyez.org/cases/1983/82-15)
 
-```{r, echo=FALSE, fig.align='center', out.width = "40%"}
-knitr::include_graphics("cocaine.jpg")
+```{r, echo=FALSE, fig.align='center', out.width = "45%"}
+knitr::include_graphics("trespass.png")
 ```
-<p style="text-align: center;">.small[Image by [Thoric](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/CocaineHCl.jpg/664px-CocaineHCl.jpg?20070501183913), [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), via Wikimedia Commons]</p>
+<p style="text-align: center;">.small[[Image](https://flic.kr/p/TtAYjd) by [Bill Smith](https://www.flickr.com/photos/byzantiumbooks/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]</p>
 
 ???
 
-**Minnesota v. Dickerson**
-- Defendant spotted leaving a building known for cocaine traffic
-- Seemed to be aware of police presence and hurriedly tried to get away
-- Police stopped him and ordered he submit to a pat down
-- Felt small lump they believed to be cocaine (it was)
-- Dickerson filed a motion to suppress the cocaine as evidence but was found guilty of possession of controlled substance
-- MN COA ruled the S&F was valid under Terry, but the seizure of the cocaine was unconstitutional
-  - Was **not** a plain view exception
-  - Court seemed to acknowledge it would permit a “plain feel” exception during a Terry Frisk, provided the substance was immediately identifiable as contraband upon touch. 
-  - **But that in this case** it would not because the search went **far beyond what is permissible under Terry**
+**Oliver v. United States**
+- KSP got a tip about a marijuana growing operation
+- Drove onto defendant’s land, past his house, up to a gate with a “no trespassing” sign
+- Got out of vehicles and walked down a footpath beyond the gate for ½ mile
+- Spotted a large marijuana crop
+- SCOTUS said this didn’t constitute a search
+  - “Cannot legitimately demand privacy for activities conducted out of doors in fields, except in area immediately surrounding home
+  - Open fields are usually accessible to the public
+  - No trespassing signs are generally ineffective
+  - And air surveillance is lawful
 
 ---
 class: top
@@ -504,6 +460,78 @@ knitr::include_graphics("carroll.jpg")
 
 - Note that a traffic violation by itself does not provide an officer with the authority to search an entire vehicle. 
   - There must be specific factors creating probable cause to justify officers doing anything more than looking inside the vehicle (within plain view)
+
+---
+class: middle, center, inverse
+
+# There are also exceptions to the
+# warrant requirement for seizures
+
+---
+class: top
+
+# Warrantless seizures
+
+--
+
+## The plain view doctrine
+
+```{r, echo=FALSE, fig.align='center', out.width = "45%"}
+knitr::include_graphics("plain_view.jpg")
+```
+<p style="text-align: center;">.small[Image by [Coolcaesar](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CHP_HOV_traffic_stop.jpg/800px-CHP_HOV_traffic_stop.jpg?20090521173939), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons]</p>
+
+See [Coolidge v. New Hampshire (1971)](https://www.oyez.org/cases/1970/323)
+
+???
+
+**Coolidge**: 14 y.o. Pamela Mason places ad in a merchant’s window for babysitting
+- She gets picked up by Edward Coolidge who needed a babysitter and is never seen alive again
+- Body found eight days later, stabbed and shot to death
+- State AG took charge of policing activities related to the murder
+- Home visits, shows 3 guns, willing to take polygraph
+- Later visit with wife, who gives them 4 guns as well as some clothing…
+- Police applied for a warrant to search Coolidge’s vehicle, the AG authorized it (acting as JOP)
+- Coolidge found guilty and sentenced to life
+- **Key issue**: did the searches of Coolidge's home and automobile violate the 4th Amendment? 
+  - SCOTUS: yes, they did, because the warrants were not signed by a neutral and detached magistrate
+  - However, plain view doctrine was inapplicable here since police had ample opportunity to obtain a warrant
+
+---
+class: top
+
+# Warrantless seizures
+
+--
+
+## Plain feel
+
+--
+
+See [Minnesota v. Dickerson (1993)](https://www.oyez.org/cases/1992/91-2019)
+
+```{r, echo=FALSE, fig.align='center', out.width = "40%"}
+knitr::include_graphics("cocaine.jpg")
+```
+<p style="text-align: center;">.small[Image by [Thoric](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/CocaineHCl.jpg/664px-CocaineHCl.jpg?20070501183913), [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), via Wikimedia Commons]</p>
+
+???
+
+**Minnesota v. Dickerson**
+- Defendant spotted leaving a building known for cocaine traffic
+- Seemed to be aware of police presence and hurriedly tried to get away
+- Police stopped him and ordered he submit to a pat down
+- Felt small lump they believed to be cocaine (it was)
+- Dickerson filed a motion to suppress the cocaine as evidence but was found guilty of possession of controlled substance
+- MN COA ruled the S&F was valid under Terry, but the seizure of the cocaine was unconstitutional
+  - Was **not** a plain view exception
+  - Court seemed to acknowledge it would permit a “plain feel” exception during a Terry Frisk, provided the substance was immediately identifiable as contraband upon touch. 
+  - **But that in this case** it would not because the search went **far beyond what is permissible under Terry**
+  
+---
+class: middle, center, inverse
+
+# The 5th Amendment
 
 ---
 class: top
