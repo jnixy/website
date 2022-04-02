@@ -29,9 +29,11 @@ Just eyeballing those histograms, it looks like the C and D bars flipped.
 
 I don't take attendance, but at the beginning of the semester I tried to make it **very clear** to my students that although I was posting the slides, they'd still need to come to class and participate in order to get the most out of the class. I also put a disclaimer at the top of the [webpage that lists all my lectures](https://jnix.netlify.app/courses/crcj2030/lectures/), warning that the slides are *merely skeletons* and that *in class, we'll discuss the material in much greater detail.* 
 
-But like I said, attendance does seem to be down a bit. So last week, I took attendance on the day before the exam. Unsurprisingly, as a group, those who attended that particular day did **much better** on Exam 2 than those who didn't:
+But like I said, attendance does seem to be down a bit. So last week, I took attendance on the day before the exam. Looking out at the room, it was the usual crowd, so while this wasn't a perfect measure of attendance, I'm confident that attendance on that day was highly correlated with regular attendance. Unsurprisingly, as a group, those who attended that particular day did **much better** on Exam 2 than those who didn't. On average, those who attended scored almost 17 points higher. And whereas the highest score among the absent group was an 82, nearly 1/3 of the attended group earned an 82 or higher. 
 
 ![box](boxplots.png)
 
 To be clear, I can't say for sure that those who aren't attending regularly have made a calculated decision to skip based on the slides being posted. And I do think that those who *do* attend regularly appreciate having the slides because it makes note-taking more manageable. But looking at those boxplots, I'm thinking that next semester and moving forward I'll need to take attendance. 
+
+Friends who teach: do you take attendance or otherwise entice students to attend? How so? I'd love to hear from you.
 
