@@ -25,7 +25,7 @@ I've just graded the second exam, and it's got me somewhat concerned. In the pas
 
 ![hist](histograms.png)
 
-Just eyeballing those histograms, it looks like the C and D bars flipped. 
+Just eyeballing those histograms, it looks like maybe the C and D bars flipped. And maybe a few students improved their score from a B last time to an A this time.
 
 I don't take attendance, but at the beginning of the semester I tried to make it **very clear** to my students that although I was posting the slides, they'd still need to come to class and participate in order to get the most out of the class. I also put a disclaimer at the top of the [webpage that lists all my lectures](https://jnix.netlify.app/courses/crcj2030/lectures/), warning that the slides are *merely skeletons* and that *in class, we'll discuss the material in much greater detail.* 
 
