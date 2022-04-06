@@ -22,7 +22,7 @@ projects: ""
 publishDate: "2022-04-08T08:30:00Z"
 slides: ""
 doi: 
-summary: At the 2022 ACJS Conference, my colleagues and I present an ongoing project on the relationship between police discretionary behaviors and crime in Denver.
+summary: 
 tags: 
 - Police
 - Officer-involved shootings
@@ -37,5 +37,5 @@ url_video: ""
 
 
 {{% alert note %}}
-Click on the **Slides** button above to download a copy of our presentation.
+Click on the **Slides** button above to download a copy of my presentation.
 {{% /alert %}}
