@@ -3,8 +3,8 @@ abstract: "My talk provides a broad overview of the research on police use of de
 all_day: false
 authors: 
 - admin
-date: "2022-04-08T17:30:00Z"
-date_end: "2022-04-08T18:45:00Z"
+date: "2022-04-12T17:30:00Z"
+date_end: "2022-04-12T18:45:00Z"
 event: UNO Curious People Series
 event_url: https://www.unomaha.edu/community-engagement-center/news/events/2022/04/curious-people-april2022.php
 featured: false
