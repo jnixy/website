@@ -9,7 +9,7 @@ event: UNO Curious People Series
 event_url: https://www.unomaha.edu/community-engagement-center/news/events/2022/04/curious-people-april2022.php
 featured: false
 image:
-  caption: ""
+  caption: "Image by [@muukii](https://unsplash.com/@muukii) on [Unsplash](https://unsplash.com/photos/rtX4wxMEI2M)"
   focal_point: Smart
 links:
 - icon: twitter
