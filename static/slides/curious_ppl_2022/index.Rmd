@@ -139,8 +139,6 @@ class: top
 
 ## ...And racial disparities vary a lot by region, too
 
---
-
 ```{r, echo=FALSE, fig.align='center', out.width = "90%", fig.cap= "Source: Schwartz & Jahn (2020)"}
 knitr::include_graphics("schwartz_jahn_2.png")
 ```
