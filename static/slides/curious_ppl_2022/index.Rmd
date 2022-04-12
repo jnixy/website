@@ -164,6 +164,7 @@ knitr::include_graphics("schwartz_jahn_3.png")
 This one shows Latino-white IRRs
 - Not all are >1 as in the Black-white IRRs
 - And the largest disparity is 1.5 (whereas for Black-white it was 6.5)
+- The highest Latino-White disparity is less than the lowest Black-White disparity. 
 
 Here, we see greater disparity in the southwest, Colorado, but also in some places in the northeast. 
 
@@ -302,6 +303,20 @@ class: top
 
 <div style="text-align: right"> - Jim Fyfe (1978) </div>
 
+???
+
+Jim Fyfe was a pioneer in the study of police use of deadly force
+- He defined "deadly force" as *force that kills or is likely to kill*, noting that *it does not always kill*
+
+Any time a police officer discharges their firearm toward a person, they're using force that is likely to kill. Think of the Jacob Blake shooting in Kenosha, Wisconsin. Blake didn't die, but this was obviously a use of deadly force and it resulted in significant blowback. After Ferguson, everyone wanted to know how often police kill. I wish that after Kenosha, there was the same push to understand how often police shoot but don't kill. 
+
+Some of Fyfe's early work higlighted noteworthy differences across agencies in terms of their "fatality rates." 
+- Now much of that variation could just be random noise. But there could also be more to the story. 
+- Consider those maps I showed earlier from the Schwartz and Jahn study. They only had fatality data. As did the Edwards paper that calculated the lifetime risks of being killed by police. 
+
+- Now ask yourself, how much of those differences in police killing rates (or the disparities therein) are explained by officers' decisions to use deadly force, as opposed to, say, how close the nearest hospital happens to be, or what departmental policy is on administering aid, and if it is safe to administer aid? 
+  - **Note that these have different policy implications**
+
 --
 
 So our **best datasets** only provide us with a non-random sample of the outcome we seek to understand
@@ -309,6 +324,16 @@ So our **best datasets** only provide us with a non-random sample of the outcome
 ```{r, echo=FALSE, fig.align='center', out.width = "30%", fig.cap="Image by Mike Sweeney from Pixabay"}
 knitr::include_graphics("puzzle.png")
 ```
+
+???
+
+**A non-random sample**
+
+This is critical because if the data we have are biased in some way (e.g., certain people or places more likely to show up in the data, or be ommitted from the data), it can cloud our vision on this. 
+
+I've likened it to working on a puzzle where you don't have the box to know what the picture is, and you've only got about 35% of the pieces. You'd probably get a vague sense of what the picture is, but you could also have huge holes in what you see.
+
+**Researchers/academics in the audience**, have you ever tried to publish a paper with a 35% response rate? Unless you fell over yourself explaining why your data was still useful (and maybe regardless), you probably had at least one reviewer tell you this was a serious problem with your study. 
 
 ---
 class: top
@@ -323,7 +348,11 @@ knitr::include_graphics("vice_fatality_rates.png")
 
 ???
 
-- The Detroit Police Department said it would take up to 3,120 business days and cost at least $77,532 to retrieve records that other departments made available online for free. 
+Around 2016, VICE News published shooting data from 47/50 largest jurisdictions in the US. *All* shootings, not just those resulting in death. 
+- Like Fyfe's earlier work, one of the first things I noticed was the variation in fatality rates. 
+- Most agencies hovered in the 30-50% range, but you can see here that Boston's was 71% and at the other extreme, St. Louis was 17%.
+
+- **Transparency shenanigans**: The Detroit Police Department said it would take up to 3,120 business days and cost at least $77,532 to retrieve records that other departments made available online for free. 
 
 ---
 class: top
@@ -334,6 +363,13 @@ class: top
 knitr::include_graphics("vice_boston_atl.png")
 ```
 
+???
+
+Let's do a thought exercise. Imagine you pull data from one of the three sources I mentioned earlier - WAPO, FE, MPV - which only track fatalities. And you want to compare agencies to see how they stack up in terms of police killings. 
+
+- So according to VICE, you'd see that Boston and Atlanta each fatally shot 10 people. So you'd conclude they're on par with each other.
+  - **But actually,** Atlanta used deadly force on 33 other occasions, compared to Boston's 4. The truth is, Atlanta PD used deadly force over 3x as much as Boston during this period. 
+  
 ---
 class: top
 
@@ -342,6 +378,13 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "90%", fig.cap="Source: VICE News"}
 knitr::include_graphics("vice_vegas_stlouis.png")
 ```
+
+???
+
+From the same data, you might see that Las Vegas had 47 fatal shootings to St. Louis' 20. And you'd conclude that LVMPD kills people over twice as often as SLMPD. 
+- **But actually**, their total shooting numbers were nearly identical. 
+
+And granted, I'm just talking about frequencies here - we've not yet gotten to the need to calculate meaningful *rates*. That's coming. 
 
 ---
 class: top
@@ -352,6 +395,12 @@ class: top
 knitr::include_graphics("pone_vbar.png")
 ```
 
+???
+
+Last year, my colleague John Shjarback (who just became a dad!) and I published a paper that leveraged several years of data from four states. Three of these states had recently passed legislation requiring all local agencies to submit data on fatal AND injurious police shootings. Florida's data were compiled for a story by the Tampa Bay Times. So note in this case we still don't have information on incidents where police shot but missed people. 
+
+This first bar chart just shows the raw number of people killed or injured by police gunfire in each state during the study period. The first takeaway is that in just these 4 states, **there were 1322 police shootings that resulted in injury but not death**. 
+
 ---
 class: top
 
@@ -360,6 +409,18 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "90%", fig.cap="Source: Nix & Shjarback (2021)"}
 knitr::include_graphics("pone_dot.png")
 ```
+
+???
+
+A follow-up question is: are there factors that increase (or decrease) a person's odds of death upon being shot by a police officer? 
+
+This dot plot suggests the answer is yes. Take note of each state's symbol. On the y-axis, we've got a list of several individual/ecological factors, and on the x-axis, we've got the mortality rate that runs from 0 to 100%.
+
+- In all 4 states, Black people shot by police were *less likely* to die than White, Hispanic, or Asian people. 
+- In every state but Texas, men were more likely to die than women. 
+- Pretty consistently, we see that the mortality rate increases with age. 
+- In all 4 states, people armed with a deadly weapon were quite a bit more likely to die than people who were unarmed. 
+- No clear patterns emerged with respect to trauma care availability or the "urbanicity" of the county. 
 
 ---
 class: top
@@ -370,6 +431,17 @@ class: top
 knitr::include_graphics("pone_race_margins.png")
 ```
 
+???
+
+John and I went on to run regression models that estimate the odds of death (conditional on being shot) while controlling for these same factors. 
+
+This margins plot shows each group's probability of death upon being shot by police. 
+
+- So while controlling for the presence of a weapon, age, gender, access to trauma care, etc., we find that Black people in the pooled sample were about 7% less likely to die when they were shot. 
+
+- I also like that this plot shows how much more uncertainty there is for, e.g., Asian or Native American People. Because the number of such people shot each year is so much smaller in comparison than the number of White, Black, and Hispanic people, it's much harder to discern meaningful variation from noise. 
+  - E.G., for "Other" people, our 95% confidence interval runs from about 54% (which would be on par with White and Hispanic) to about 74% (which would be much higher than the other groups).
+
 ---
 class: top
 
@@ -378,6 +450,10 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "90%", fig.cap="Source: Nix & Shjarback (2021)"}
 knitr::include_graphics("pone_age_margins.png")
 ```
+
+???
+
+And here we've plotted the probability of death for each of four different age groups. This suggest a rather clear positive correlation between age and the likelihood of death upon being shot by police. On average, as we get older, our bodies become less effective at responding to trauma. 
 
 ---
 class: top
@@ -388,6 +464,14 @@ class: top
 knitr::include_graphics("hou_fig10.png")
 ```
 
+???
+
+Just a couple months ago, Yuchen Hou (from John Jay) published his dissertation, which involved scraping the Gun Violence Archive for all fatal and nonfatal police shootings in the US in 2015. 
+
+In just that one year, he discovered 733 injurious shootings and 246 that resulted in no injuries (probably a significant undercount). 
+
+Here you can see that in the Pacific, Mountain, and West South Central census divisions, fatal shootings were more prevalent than nonfatal shootings. But the opposite is true in the other 6 divisions. 
+
 ---
 class: top
 
@@ -397,16 +481,36 @@ class: top
 knitr::include_graphics("hou_fig11.png")
 ```
 
+???
+
+In this figure, he sorts states by:
+- The total number of shootings (top)
+- The rate of shootings per 100K (middle)
+- And the difference between the fatal and nonfatal shooting rates (bottom)
+
+- Recall my study with John where we had data from TX, CA, FL, and CO. Most of these states appear on the left side of the chart. How well might our findings generalize to, say, New Mexico or Kentucky? 
+  - The honest answer is we don't know. 
+  
 ---
 class: top
 
 ## Those tricky counterfactuals
+
+???
+
+OK, hopefully I've convinced you that we need better data on nonfatal police shootings. To be clear, some agencies provide this information on their websites or in annual reports. Or on request. But I think it'd be really useful if we had more comprehensive data, such as what we have for fatal shootings. 
+
+That said, knowing all the details of when police shoot only tells us so much. To really understand some of the variation I've discussed thus far, we need to know the counterfactuals. And this is way trickier. 
 
 --
 
 ```{r, echo=FALSE, fig.align='center', out.width = "75%"}
 knitr::include_graphics("iceburg.jpg")
 ```
+
+???
+
+Imagine you're on a boat and you can see an iceberg up ahead in the water. You've got no idea how big it *really* is because you can't see what lurks beneath the surface. But just because you can't see it doesn't mean you can simply ignore it!
 
 ---
 class: top
@@ -417,6 +521,17 @@ class: top
 knitr::include_graphics("iceburg2.jpg")
 ```
 
+???
+
+- Researchers and other users of data on police use of deadly force have to be mindful of the iceberg problem. 
+  - **What's the right denominator?**
+      - In other words, *who was exposed to the risk of being shot or killed by the police*? And *how much*?
+  
+  - It's not the population. But nor is it crime or arrest data. 
+  - It is well-documented that police are more likely to initiate contact with nonwhite people (e.g., stop or arrest). And in order to be killed by police, you have to first come into contact with police. 
+  
+  - At the same time, we can't focus only on who gets stopped, because that erases any bias that might have gone into the decision to make contact with individuals of various groups.
+
 ---
 class: top
 
@@ -426,14 +541,34 @@ class: top
 knitr::include_graphics("denominators_538.PNG")
 ```
 
+???
+
+Here I'm sharing an image from an excellent story in FiveThirtyEight a while back, which illustrates how the iceburg problem can mislead us. The story is linked at the end of my presentation, which I'll make available on my website. 
+
+- **Key takeaway:** Comparing use of force rates only among those who were stopped can obscure bias. 
+
+- My sense in studying deadly force over the years is that it's useful to analyze the various "decision points" separately
+  - E.G., the decision to stop is quite different from the decision to use deadly force, so I find it useful to examine whether there are disparities in use of force, conditional on who was stopped. Finding no disparity doesn't mean there **isn't** disparity - in fact it probably just occurs earlier in the "decision tree." 
+  
+  - And again, this is important information for reforms meant to reduce the use of deadly force. It would suggest that best way to reduce disparities in police killings would be to reduce stops. Then the key question is whether/to what extent there's a public safety tradeoff. 
+  
 ---
 class: top
 
 ## More about the officers involved
 
+???
+
+Another thing we need to know more about is who the officers involved in these shootings are.
+
 --
 
 Just identifying them has proven difficult
+
+???
+
+Agencies often withhold the identity of officers - citing officer safety concerns or that investigations are ongoing. 
+- WAPO tried to start tracking down information about the officers who shoot in 2016, but quickly found this much more difficult than tracking down information about the decedents. And ultimately, AFAIK, they abandoned the effort. At minimum, they haven't shared that information publicly.
 
 --
 
@@ -445,10 +580,22 @@ knitr::include_graphics("thinker.png")
 
 <p style="text-align: center; color: gray">.small[Image by [Stephen Carlile](https://www.flickr.com/photos/stephencarlile/) on [Flickr](https://flic.kr/p/K5Mdx), [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)]</p>
 
+???
+
+Two points to keep in mind here. 👉 
+
 ---
 class: top
 
 ### Beware **data density bias!** (see Chalfin & Kaplan, 2021)
+
+???
+
+The first is "data density bias." (h/t to Aaron Chalfin & Jacob Kaplan).
+
+- By definition, when some outcome (deadly force, complaints) is relatively small compared to the number of officers, it will be true **by definition** that a small share of the officers will account for a large share of the outcome. 
+
+- Imagine an agency with 1000 officers that has five deadly force incidents in a given year. Even if there were five separate officers involved (which is by definition **not clustered**), it will be true that 0.5% of the agency is responsible for 100% of the deadly force incidents. This sounds scary but it's just a statistical artifact of studying a rare outcome. 
 
 --
 
@@ -468,6 +615,18 @@ knitr::include_graphics("wapo_misconduct.png")
 ```
 ]
 
+???
+
+Here I've shown two tweets by an individual with a huge platform and social media reach, who suggests we simply lay off the officers who are involved in the most use of force incidents.
+
+- This is not a sound recommendation based on these data IMO
+
+And in the lower right corner, a recent story from WAPO. Over 11 years, 5 officers were involved in misconduct that resulted in 101 or more cash settlements each. One officer racked up 143. 
+
+- I don't mean to suggest we shouldn't pay attention to outliers. Of course we should. We just shouldn't leap to conclusions, especially given the possibility of data density bias. 
+
+  - What we need is more context...
+
 ---
 class: top
 
@@ -481,9 +640,24 @@ Officers vary in the rate at which they [stop/investigate people](https://doi.or
 knitr::include_graphics("ba_science.png")
 ```
 
+???
+
+This figure is from a recent study of the Chicago Police Department in Science Magazine by Bocar Ba and colleagues. 
+- Here the authors are comparing officers who work the same beats on the same shifts on the same days of the same months
+  - As close to "apples to apples" as you can get
+  - And they're comparing the rate of stops, arrests, and uses of force per 100 shifts
+  - **Takeaway**: Compared to white officers, Black officers make fewer stops and arrests, and use force less often. Same is true of Hispanic officers, albeit the disparity is smaller. 
+      - Women stop at the same rate, but make fewer arrests and use force less often. 
+      
+Granted, this is just Chicago, and what I said earlier about generalizing still applies here. But at least in Chicago, when analyzing how often certain officers use force, it's necessary to account for **differences in how often they expose themselves to the opportunity to use force**. 
+
 --
 
 As well as in their ["thresholds"](https://doi.org/10.1177%2F0002716219896553) and ability to [talk to people](https://doi.org/10.1177%2F0002716219887366)
+
+???
+
+My friend Natalie Todak has done extensive fieldwork on de-escalation. Not surprisingly, she found considerable variation in officers' ability to communicate with people, to empathize with their situations, and so on. And officers were keen to these differences as well - there were certain individuals within the agency she studied who were recognized by their peers as being especially skilled communicators. 
 
 ---
 class: top
@@ -497,10 +671,30 @@ knitr::include_graphics("reel.png")
 ```
 <p style="text-align: center; color: gray">.small[Image by [Steve Snodgrass](https://www.flickr.com/photos/stevensnodgrass/) on [Flickr](https://flic.kr/p/nJfVwE), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]</p>
 
+???
+
+Before moving on to some reform ideas, I just want to mention that with all this new data, we have to remember not to obsess over the "final frame" to the point that we ignore important details during the lead up to the final frame. 
+
+Again, BWCs are very helpful here.
+
+Questions to consider include: 
+
+- Was this a case of officer-initiated jeopardy? 
+  - Could the officer have waited for backup? Or waited the citizen out? 
+  - Could the officer have safely attempted less-lethal options? Did he? 
+  
+My point is, these 1000 fatal shootings per year come in many different forms, and there's so much more to consider than simple questions like "was the person who was shot armed or unarmed at the moment he was shot." 
+
 ---
 class: middle, center, inverse
 
 # What Are Some Promising Reforms?
+
+???
+
+OK. Moving on. 
+
+I'm not suggesting this list is exhaustive, or fool-proof. It's just a short list of ideas I believe are promising based on what I know. 
 
 ---
 class: top
@@ -510,6 +704,12 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "60%"}
 knitr::include_graphics("cowbell.jpg")
 ```
+
+???
+
+Hopefully I can get off this soapbox at this point in my presentation. Better data can provide us with a better understanding of the issue. As long as we understand how to use it in a meaningful way. 
+
+Again, just 10 short years ago we didn't know nearly as much as we know now. 
 
 ---
 class: top
@@ -522,7 +722,13 @@ knitr::include_graphics("opd_shootings.png")
 
 ???
 
-Chief Schmaderer points to BWCs, better training, mental health co-responder program, hiring more veterans from other agencies, and a culture shift.
+Better data can reveal which agencies are performing well so that we can learn from them. Here in Omaha, there has been a sharp decline in police shootings since 2010. From 2010-11, there were 20 shootings. In the last 3 years, AFAIK, there have been 5.
+
+**Why?** 
+
+Chief Todd Schmaderer points to BWCs, better training, mental health co-responder program, hiring more veterans from other agencies, and a culture shift.
+
+Tough to say as we've not done any sort of rigorous analysis that I'm aware of, but the truth is it probably is some combination of factors like these. There probably isn't some silver bullet reform - it'll take more work than that. 
 
 ---
 class: top
@@ -545,6 +751,18 @@ knitr::include_graphics("shjarback.jpg")
 ```
 ]
 
+???
+
+According to a 2016 estimate, only about 54% of all agencies require written documentation when officers display their firearms. 
+
+- When officers point their guns at a person, that's a use of force. And I believe that all uses of force should be tracked, just from a moral perspective. 
+
+- But it turns out we have good evidence that this reporting requirement is associated with lower rates of deadly force.
+  - On the left, a national study of 1100 agencies which found that this reporting requirement is associated with lower police-involved death rates, while controlling for inequality, racial composition, urbanicity, and community policing training, among others. 
+  
+  - On the right, a study by some of my colleagues who found that since the Dallas Police Department implemented this policy circa 2013, shootings have declined significantly. And moreover, they uncovered no evidence that cops were more at risk because of this policy. 
+  
+- So to me this seems like an easy one. Require officers to document this type of force. 
 ---
 class: top
 
@@ -556,6 +774,13 @@ class: top
 knitr::include_graphics("icat.png")
 ```
 
+???
+
+Much has been made of de-escalation training and we're finally accumulating a body of evidence to go on. Here's a figure from an evaluation of Louisville's "ICAT" training, which suggests that as the training was rolled out, LMPD's use of force rates declined significantly. 
+- Researchers found a 28% reduction in use of force incidents, 
+- A 26% reduction in citizen injuries
+- And a 36% reduction in officer injuries
+
 ---
 class: top
 
@@ -565,10 +790,22 @@ class: top
 knitr::include_graphics("t3_training.png")
 ```
 
+???
+
+However, more research is needed before agencies go all in on this. 
+
+In Tucson and Fayetteville, my colleagues didn't find the same noteworthy reductions in use of force incidents. This was true among both low and high-dose treatment conditions. 
+
+So my recommendation is for communities to **consider** this sort of training. They're not cheap nor are they guaranteed to generate the reductions that Louisville experienced. 
+
 ---
 class: top
 
 ## Cut down on shootings of people who aren't brandishing or shooting a gun
+
+???
+
+My last recommendation is the one that I'm sure will generate the most pushback from police. But I'll say it anyway. In 2017 Frank Zimring published a book called "When Police Kill." It's a fantastic read and I highly recommend it. On page 87 he makes the following observation:
 
 --
 
@@ -582,10 +819,18 @@ knitr::include_graphics("leoka.png")
 
 ???
 
+I've paired his observation with LEOKA data showing officers killed each year going back to 2021, and how they were killed. 
+- It's true in the US that officers are very rarely killed by anything other than guns. 
+- Zimring goes as far as to sugggest that knives aren't "deadly weapons" when used on the police. 
+  - That's maybe pushing it a bit...
+
 - Probably can't *forbid* shooting people with knives or blunt objects, as Zimring argues...
   - Consider **Kisela v. Hughes** and the **Ma'Khia Bryant** shootings
   
 - But the alternative shouldn't be to do nothing
+- We know that police shoot and kill about 1000 people every year.
+- If we set out to reduce killings by 10%, where would we start? 
+  - All I'm saying is that on average, it's probably harder to reduce killings of people armed with guns (~600) than everyone else (~400).
 
 ---
 class: top
@@ -595,6 +840,14 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "45%", fig.cap = "Source: Montgomery et al. (2017)"}
 knitr::include_graphics("chitwood.png")
 ```
+
+???
+
+To do so would require a culture shift, as well as a change in how we train officers to respond to persons armed with knives or blunt instruments. 
+
+I've pasted here a quote from a police chief in Florida, who recounted the time a guy almost bit off his finger. Though he might have been legally justified to shoot, he instead chose to strike the man until he let go. In doing so he broke his left hand in four places.
+
+- With this example, all I'm saying is I suspect many cops might have handled the situation differently.
 
 ---
 class: middle, center, inverse
