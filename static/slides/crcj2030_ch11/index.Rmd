@@ -1,0 +1,298 @@
+---
+title: "Chapter 11"
+subtitle: "Civil liability and accountability"
+author: "Justin Nix"
+institute: "University of Nebraska Omaha"
+date: "Apr. 14, 2022"
+output:
+  xaringan::moon_reader:
+    css: [default, rutgers, rutgers-fonts, custom-font.css]
+    lib_dir: libs
+    seal: false
+    nature:
+      titleSlideClass: ["left", "middle", "inverse", "title-slide"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%"
+---
+class: center, middle, inverse
+background-image: url(https://www.unomaha.edu/university-communications/downloadables/campus-icon-the-o/uno-icon-color.png)
+background-position: 95% 90%
+background-size: 10%
+
+# Civil Liability and Accountability
+
+<br>
+<br>
+<br>
+
+[Justin Nix](https://jnix.netlify.app)  
+*School of Criminology and Criminal Justice*  
+*University of Nebraska Omaha*
+
+<br>
+<br>
+<br>
+<br>
+.white[April 14, 2022]
+
+---
+class: middle, center, inverse
+
+# The 14th Amendment
+
+---
+class: top
+background-image: url(we_the_ppl.jpg)
+background-position: 94% 5%
+background-size: 30%
+
+# The 14th Amendment
+
+</br>
+
+<p style="text-align: right;">.small[Image by [ClaraDon](https://www.flickr.com/photos/florida_photo_guy/) on [Flickr](https://flic.kr/p/2jhRXa8), [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/) ]</p>
+
+</br>
+
+>No State shall make or enforce any law which shall abridge the privileges or immunities of citizens of the United States; **nor shall any State deprive any person of life, liberty, or property, without due process of law**; nor deny to any person within its jurisdiction the **equal protection of the laws**.
+
+---
+class: middle, center, inverse
+
+# Rules of Evidence
+
+---
+class: top
+
+# Rules of Evidence
+
+???
+
+While the police have only the power to arrest, and not prosecute, rules of evidence are important because it is the police who are responsible for collecting evidence.
+- The police have the primary responsibility for detecting and investigating crime, gathering evidence to present in court, and arresting suspects.
+- **Rules of evidence** stipulate the requirements for introducing evidence
+- If evidence is not collected properly, it can be declared inadmissible, in which case it cannot be used against a defendant.
+
+--
+
+[Weeks v. United States (1914)](https://www.oyez.org/cases/1900-1940/232us383)
+
+</br>
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("warrant.jpg")
+```
+
+???
+
+**Exclusionary rule** established in *Weeks v. United States*
+- Weeks suspected of illegally sending lottery tickets through the mail
+- Officers twice entered his home without a warrant and seized the evidence
+- SCOTUS ruled unanimously that a warrantless seizure violates the 4th Amendment
+  - To allow private documents to be seized and held as evidence against citizens would mean the 4th Amendment is of no value whatsoever. 
+  - **HOWEVER** they didn’t incorporate this ruling to the state courts
+
+---
+class: top
+
+# Rules of Evidence
+
+--
+
+What to do with *derivatives* of illegally obtained evidence? 
+
+???
+
+The exclusionary rule established in *Weeks* only applies to "primary" evidence.
+- What should be done if the police seize a company's documents without a warrant, make copies of the documents, and use *that* as evidence to prosecute the CEO for tax fraud? 
+
+- What should be done if a warrantless search produces a map that indicates where a homicide suspect has buried his victim's body? 
+  - The map couldn't be used as evidence...but what about the body? 
+
+--
+
+- [Silverthorne Lumber Co. v. United States (1918)](https://caselaw.findlaw.com/us-supreme-court/251/385.html)
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("apple.png")
+```
+<p style="text-align: center;">.small[[Image](https://flic.kr/p/ogSmC) by [jstreit](https://www.flickr.com/photos/jstreit/) on Flickr, [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0)]</p>
+
+???
+
+An indictment on a single specific charge led to Frederick Silverthorne's arrest. While he was in custody, DOJ representatives and a US Marhsal go sweep his office (without a warrant)
+- They seize all the books, papers, documents, and take all employees to the US District Attorney's office
+- They make photo copies of everything, and use the information gleaned to get a new indictment
+- The District Court orders all the originals be returned, but impounds the photo copies
+- Silverthorne is charged with contempt of court and fined $250 fo refusal to obey a subpoena
+  - In which the Court ordered him to produce the original books and documents from his company before a grand jury
+- **Key issue**: "Although of course its seizure was an outrage which the Government now regrets, it may study the papers before it returns them, copy them, and then may use the knowledge that it has gained to call upon the owners in a more regular form to produce them"
+  - In other words, "that the protection of the Constitution covers the physical possession but not any advantages that the Government can gain over the object of its pursuit by doing the forbidden act"
+- SCOTUS rules that to allow this would be to reduce the 4th Amendment to a form of words.
+
+- This is now known as the **fruit of the poisonous tree doctrine.**
+  - Which extends the exclusionary rule to derivatives of illegally obtained evidence. 
+  
+- **But importantly**, the Court's decision only applies in federal court. SCOTUS did not incorporate the Fruit of the Poisonous Tree Doctrine to the states. 
+
+---
+class: top
+
+# Rules of Evidence
+
+What to do with *derivatives* of illegally obtained evidence? 
+
+- [Wolf v. Colorado (1949)](https://en.wikipedia.org/wiki/Wolf_v._Colorado)
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("apple.png")
+```
+<p style="text-align: center;">.small[[Image](https://flic.kr/p/ogSmC) by [jstreit](https://www.flickr.com/photos/jstreit/) on Flickr, [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0)]</p>
+
+???
+
+Dr. Julius Wolf, Charles and Betty Fulton are charged with conspiracy to perform an abortion. 
+- One of Wolf's patients had complications and ended up in the hospital
+- Police seized his patient list without a warrant and contacted women who were on the list
+- Wolf moved to supress this evidence, arguing that it would be inadmissible in a federal prosecution, which was a violation of **due process per the 14th Amendment**
+- Supreme Court of Colorado upheld his conviction, arguing that the exclusionary rule was not required by the US Constitution, rather it was a remedy fashioned for use by the federal courts
+- **Key issue for SCOTUS**: Are states required to exclude illegal seized evidence from trial under the 4th and 14th Amendments? 
+  - Court rules 6-3 that **states do not have to adopt the exclusionary rule**
+  - While this might be an effective way to deter unreasonable searches, other methods could be equally effective and would not fall below the minimal standards required by the Due Process Clause. 
+      - Civil remedies like "internal discipline of the police, under the eyes of an alert public opinion" were sufficient, in the Court's view. 
+
+---
+class: top
+
+# Rules of Evidence
+
+What to do with *derivatives* of illegally obtained evidence? 
+
+- [Mapp v. Ohio (1961)](https://www.oyez.org/cases/1960/236)
+
+```{r, echo=FALSE, fig.align='center', out.width = "30%"}
+knitr::include_graphics("warren.jpg")
+```
+
+???
+
+**MAPP V. OHIO**
+Cleveland police get a tip that a bombing suspect is hiding at Dollree Mapp’s house, as well as proof that Mapp was involved in illegal gambling racket
+- 3 cops ask for permission to enter and search, but she says no
+- 2 leave to go get a warrant, 1 stays behind and watches the house
+- 3 hours later, 4 cop cars arrive. Police knock but don’t get an answer, so they kick in the door
+- Mapp demands a warrant and they flash a piece of paper which she then stuffs in her shirt without looking at it
+- They search the entire house and find the bombing suspect in a downstairs apartment
+- In the basement they find betting slips, a pistol and pornographic books
+- She gets cleared of the betting slips, but after refusing to testify in another case, they try to slap her with possession of obscene material 
+- Mapp is convicted, but she appeals on the basis of freedom of expression (1st Amendment)
+
+- **Key issue**: Were the confiscated items protected from seizure by the 4th Amendment, given that the search for the fugitive was admittedly illegal? 
+  - Note that SCOTUS essentially brushes aside the 1st Amendment claim. 
+  - Remember that in Weeks, Silverthorne, and Wolf, SCOTUS did not extend the Exclusionary Rule to states. 
+  - This time, SCOTUS rules 6-3 that all evidence obtained from searches and seizures that violate the 4th Amendment is inadmissible in state court. 
+  - Thus, they extended the Exclusionary Rule to states, arguing that states had not done a sufficient job protecting their citizens from police abuse. 
+
+---
+class: middle, center, inverse
+
+# Exceptions
+
+---
+class: top
+
+# Pulic Safety
+
+.pull-left[
+```{r, echo=FALSE, fig.align='center', out.width = "80%"}
+knitr::include_graphics("locker.jpg")
+```
+<p style="text-align: center;">.small[[Image](https://flic.kr/p/Utwk3q) by [jdog90](https://www.flickr.com/photos/forthefunofit/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)]</p>
+]
+
+.pull-right[
+```{r, echo=FALSE, fig.align='center', out.width = "100%"}
+knitr::include_graphics("border.jpg")
+```
+<p style="text-align: center;">.small[[Image](https://flic.kr/p/4AAsAQ) by [Debra](https://www.flickr.com/photos/debcll/) on Flickr, [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0)]</p>
+]
+
+---
+class: top
+
+# Good Faith
+
+</br>
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("oops.png")
+```
+
+---
+class: middle, center, inverse
+
+# Civil Liability
+
+---
+class: top
+
+# 42 USC Section 1983
+
+--
+
+Meant to hold officers liable for violating constitutional rights
+
+--
+
+Defense 👉 *Qualified Immunity*
+
+???
+
+QI: a police officer cannot be sued for an *honest mistake* or a *lapse in judgment*
+- *Unless the official's actions were* ***clearly established*** *as unconstitutional at the time!*
+
+- Courts use the *objective reasonableness* standard
+  - That is, did the officer violate *clearly established rights* of which a *reasonable person* would have known
+
+A constitutional violation is *clear* only if a court in the relevant jurisdiction has previously concluded that very similar police conduct occurring under very similar circumstances was unconstitutional. 
+- SCOTUS has, for example, applied QI in a case where an officer standing on an interstate overpass shot at a fleeing vehicle, something that not only contravenes best practices, but that the officer was not trained to do, a supervisor had explicitly instructed him not to do, and was unnecessary because officers under the overpass had set up stop strips and then taken appropriate cover. 
+  - Nevertheless, because no court had previously reviewed such conduct and found it to be unconstitutional, the Court held that any violation was not clearly established and, thus, that the officer could not be sued for his actions.
+- Essentially, QI "provides ample protection to all but the plainly incompetent or those who knowingly violate the law." 
+  - Stoughton et al: "It protects *even* the plainly incompetent."
+
+--
+
+- Many, including the authors of [this article](https://www.theatlantic.com/ideas/archive/2020/06/how-actually-fix-americas-police/612520/), argue we should *get rid of qualified immunity*. 
+
+- ***What do you think?***
+  
+---
+class: top, center
+
+# Have a great day! 😄
+
+```{r, echo=FALSE, fig.align='center', out.width = "25%"}
+knitr::include_graphics("robin.jpg")
+```
+<p style="text-align: center;">.small[[Image](https://upload.wikimedia.org/wikipedia/commons/5/59/Robin_Williams_Happy_Feet_premiere.jpg) by Eva Rinaldi, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0), via Wikimedia Commons]</p>
+
+### *No matter what people tell you, words and ideas can change the world.*
+
+<div style="text-align: right"> - Robin Williams </div>
+
+<!-- ```{css, echo=FALSE} -->
+<!-- @media print { -->
+<!--   .has-continuation { -->
+<!--     display: block; -->
+<!--   } -->
+<!-- } -->
+<!-- ``` -->
+
+<style>
+p.caption {
+  font-size: 0.5em;
+  color: lightgray;
+}
+</style>
