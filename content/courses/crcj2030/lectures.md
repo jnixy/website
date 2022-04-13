@@ -57,7 +57,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 11
 
-Civil liability and accountability
+[Civil liability and accountability](https://jnix.netlify.app/slides/crcj2030_ch11/)
 
 ## Chapter 12
 
