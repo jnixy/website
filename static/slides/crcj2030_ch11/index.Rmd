@@ -203,32 +203,22 @@ class: middle, center, inverse
 ---
 class: top
 
-# Public Safety
-
-.pull-left[
-```{r, echo=FALSE, fig.align='center', out.width = "80%"}
-knitr::include_graphics("locker.jpg")
-```
-<p style="text-align: center;">.small[[Image](https://flic.kr/p/Utwk3q) by [jdog90](https://www.flickr.com/photos/forthefunofit/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)]</p>
-]
-
-.pull-right[
-```{r, echo=FALSE, fig.align='center', out.width = "100%"}
-knitr::include_graphics("border.jpg")
-```
-<p style="text-align: center;">.small[[Image](https://flic.kr/p/4AAsAQ) by [Debra](https://www.flickr.com/photos/debcll/) on Flickr, [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0)]</p>
-]
-
----
-class: top
-
-# Good Faith
+## Good Faith Exception
 
 </br>
+--
 
-```{r, echo=FALSE, fig.align='center', out.width = "50%"}
-knitr::include_graphics("oops.png")
-```
+## Independent Source Doctrine
+
+</br>
+--
+
+## Inevitable Discovery
+
+</br>
+--
+
+## Evidence Admissible for Impeachment
 
 ---
 class: middle, center, inverse
