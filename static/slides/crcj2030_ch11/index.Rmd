@@ -203,7 +203,7 @@ class: middle, center, inverse
 ---
 class: top
 
-# Pulic Safety
+# Public Safety
 
 .pull-left[
 ```{r, echo=FALSE, fig.align='center', out.width = "80%"}
