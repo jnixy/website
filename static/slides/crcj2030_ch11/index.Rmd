@@ -209,19 +209,42 @@ background-size: 30%
 ## Good Faith Exception
 
 </br>
+
+???
+
+US v Leon: search warrant later ruled invalid b/c it wasn't supported by PC. Yet the Court upheld the search because the officers acted in good faith. 
+
+Massachusetts v. Sheppard: Officers had a difficult time securing a warrant because it was the weekend. They settled on a form they had previously used for controlled substances. Made some changes, got a judge to sign it at his home. Judge makes a few changes of his own. Trial judge declared the warrant invalid because it lacked particularity, but SCOTUS disagreed. 
+
+Arizona v. Evans: During a stop, officer's computer shows an outstanding warrant (that had been quashed 17 days prior). Evidence obtained from his search was admissible, because according to the Court, "there was no basis for believing that applying the exclusionary rule in these circumstances would have a significant effect on court employees responsible for letting police know that a warrant has been quashed."
+
 --
 
 ## Independent Source Doctrine
 
 </br>
+
+???
+
+Illegally obtained evidence can be introduced if it was initially discovered during an unlawful search, but later obtained independently by lawful conduct that was untainted by the initial illegality. 
+
 --
 
 ## Inevitable Discovery
 
 </br>
+
+???
+
+Illegally obtained evidence can be introduced if the prosecutor can prove that such evidence would have been lawfully discovered in the course of a routine, predictable investigation
+
 --
 
 ## Evidence Admissible for Impeachment
+
+???
+
+The exclusionary rule does not prevent the government from introducing illegally gathered evidence to “impeach,” or attack the credibility of, defendants’ testimony at trial. The Supreme Court recognized this exception in Harris v. New York as a truth-testing device to prevent perjury. Even when the government suspects perjury, however, it may only use tainted evidence for impeachment, and may not use it to show guilt.
 
 ---
 class: middle, center, inverse
@@ -237,9 +260,30 @@ class: top
 
 Meant to hold officers liable for violating constitutional rights
 
+- [Bivens v. Six Unknown Named Agents (1971)](https://www.oyez.org/cases/1970/301)
+
+???
+
+Six agents of the Federal Bureau of Narcotics forced their way into Webster Bivens' home without a warrant and searched.
+- Handcuffed Bivens in front of his wife and children and arrested him on narcotics charges
+- Later they interrogate him and strip search him
+- Bivens sues the agents for 15K in damages each for humiliation and mental suffering
+- District Court dismisses the case, US Court of Appeals for 2nd Circuit affirms that decision
+- **Key Issue for SCOTUS**: Does violation of 4th Amendment protection against unreasonable search and seizure give rise to a federal claim for damages?
+  - AND does governmental privilege extend to federal agents who clearly violate constitutional rights and act outside their authority? 
+  - In a 6-3 decision, SCOTUS sides with Bivens. He can sue, though he must provide proof of his injuries. SCOTUS didn't address the 2nd question because the COA didn't consider it. But this case ultimately revealed that federal officers can be sued under 42 USC 1983. 
+
 --
 
-Defense 👉 *Qualified Immunity*
+**Absolute Immunity**
+
+???
+
+Absolute - official cannot be sued under any circumstances (judges, prosecutors). But Bivens indicated federal law enforcement officers *can* be sued. 
+
+--
+
+**Qualified Immunity**
 
 ???
 
@@ -260,7 +304,58 @@ A constitutional violation is *clear* only if a court in the relevant jurisdicti
 - Many, including the authors of [this article](https://www.theatlantic.com/ideas/archive/2020/06/how-actually-fix-americas-police/612520/), argue we should *get rid of qualified immunity*. 
 
 - ***What do you think?***
-  
+
+---
+class: middle, center, inverse
+
+# Other External Accountability Measures
+
+---
+class: top
+
+# Citizen Oversight
+
+???
+
+The idea behind citizen oversight is that it will produce:
+- More thorough and objective investigations of complaints
+- A higher rate of sustained complaints, and more disciplinary measures taken against guilty officers
+- Greater **deterrence** of misconduct
+- Higher levels of satisfaction on the part of complainants and the general public
+
+--
+
+## Civilian Input
+
+</b>
+
+???
+
+Civilians receive and investigate complaints, but next steps are taken by police department
+
+--
+
+## Civilian Monitor
+
+</b>
+
+???
+
+Complaints received by police department, and the process from beginning to end is monitored by an external unit. The unit monitors but does not make decisions. 
+
+E.G., Federal Consent Decrees include a court-appointed monitor who is supposed to ensure the agency is making sufficient progress on agreed-upon reforms. 
+
+At least [one study](https://doi.org/10.1080/07418825.2020.1733637) suggests that consent decrees reduce police killings by ~27%. 
+- The author cautions however that the results are unstable - two outliers really influence the results. 
+
+--
+
+## Civilian Review
+
+???
+
+Group of citizens investigates complaints against the police, adjudicates the complaints, and recommends punishment. Typically, the chief still retains discretion in what to do (though unions have some power here too). 
+
 ---
 class: top, center
 
