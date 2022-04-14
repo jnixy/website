@@ -61,5 +61,5 @@ The second panel focused on research regarding community engagement and effectiv
 Chief Barnes, a nationally recognized leader in police-community relations and a former Law Enforcement Advancing Data and Science (LEADS) Scholar with the National Institute of Justice, and Professor Nix shared their research on effective community policing programs.
 
 {{% alert note %}}
-Click on the **Video** button above to download a copy of my presentation.
+Click on the **Video** button above to view the webinar.
 {{% /alert %}}
