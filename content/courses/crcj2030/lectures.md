@@ -61,7 +61,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 12
 
-Deviance, ethics, and professionalism
+[Deviance, ethics, and professionalism](https://jnix.netlify.app/slides/crcj2030_ch12/)
 
 ## Chapter 13
 
