@@ -26,9 +26,13 @@ Your essay should be uploaded to Canvas no later than **10AM on Tuesday, Februar
 
 **Do not plagiarize**. Please note that your submissions will be reviewed by Turnitin, a plagiarism review software. If you’re unsure about what constitutes plagiarism, please consult with me before you submit your essay. 
 
+</br>
+
 ## Assignment 2: Reading Quiz
 
 Assignment #2 is a reading quiz I've posted to our course page on Canvas. It has ten multiple-choice questions drawn from the material we've covered in Chapters 5 and 6. It should be completed by **5PM on Sunday, March 20th**.
+
+</br>
 
 ## Assignment 3: Reflecting on *Kansas v. Glover*
 
@@ -43,3 +47,24 @@ For this assignment, you need to read the U.S. Supreme Court's ruling in [Kansas
 It should be clear to me that you have carefully read - not just skimmed - the Court's decision based on your response.
 
 Your essay should be uploaded to Canvas no later than **10 AM on Tuesday, April 12th.** 
+
+</br>
+
+## Assignment 4: Matching Quiz
+
+Assignment #4 is a matching quiz I've posted to our course page on Canvas. It requires you to match 10 court cases we've discussed to their primary implication for policing and society. It should be completed by **10AM on Thursday, April 21st**.
+
+</br>
+
+## Assignment 5: Reflecting on *Kisela v. Hughes*
+
+For this assignment, you need to read the U.S. Supreme Court's ruling in [Kisela v. Hughes (2018)](https://www.supremecourt.gov/opinions/17pdf/17-467_bqm1.pdf) and **write a 500 word reflection essay**. *In your own words*, describe: 
+
+1. The pertinent case facts (i.e., the shooting of Ms. Hughes)
+2. The key points made in the Per Curiam opinion
+3. The key points made in the dissenting opinion (authored by Justice Sotomayor and joined by Justice Ginsburg)
+4. Which side you are in agreement with, and why 
+
+It should be clear to me that you have carefully read – not just skimmed – the Court’s decision based on your response.
+
+Your essay should be uploaded to Canvas no later than **10AM on Tuesday, May 3rd.**
