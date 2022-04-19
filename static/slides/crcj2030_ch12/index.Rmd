@@ -343,13 +343,38 @@ class: top
 
 # How Common is Police Deviance?
 
+--
+
 Less serious forms of deviance are much harder to measure
 
 --
 
-- But let's take a look at [Police Scorecard](https://policescorecard.org/)
+Let's take a look at some [Police Scorecard](https://policescorecard.org/) data 👉 
 
-  - Here's how [Omaha](https://policescorecard.org/ne/police-department/omaha) did
+```{r, echo=FALSE, fig.align='center', out.width = "95%"}
+knitr::include_graphics("scorecard_method.png")
+```
+
+---
+class: top
+
+## Police Scorecard Data - Overall Scores
+
+```{r, echo=FALSE, fig.align='center', out.width = "100%"}
+knitr::include_graphics("police_scorecard.png")
+```
+
+---
+class: top
+
+## Police Scorecard Data - Accountability in Omaha
+
+[Omaha](https://policescorecard.org/ne/police-department/omaha) scored 48% on accountability  
+.small[(*Note*: Omaha was the **only** agency in Nebraska that provided enough data for Police Scorecard to evaluate)]
+
+```{r, echo=FALSE, fig.align='center', out.width = "85%"}
+knitr::include_graphics("allegations_omaha.png")
+```
 
 ---
 class: top
