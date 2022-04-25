@@ -65,4 +65,4 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 13
 
-Police use of force
+[Police use of force](https://jnix.netlify.app/slides/crcj2030_ch13/)
