@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1"
+title: "Chapter 13"
 subtitle: "Police Use of Force"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
@@ -378,8 +378,14 @@ class: top
 
 # Prevalence of deadly force
 
-*Let's pick up here on Thursday...*
-  
+I discussed this and more in my recent *Curious People* [lecture](https://www.unomaha.edu/community-engagement-center/news/events/2022/04/curious-people-april2022.php)
+
+```{r, echo=FALSE, fig.align='center', out.width = "70%"}
+knitr::include_graphics("curious_ppl.png")
+```
+
+👉 *Let's flip over to* [*those slides*](https://jnix.netlify.app/slides/curious_ppl_2022/#1)
+
 ---
 class: top, center
 
