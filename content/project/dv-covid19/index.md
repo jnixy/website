@@ -49,7 +49,7 @@ links = [{name = "Brief Report", url="/files/pdfs/dv_help_brief.pdf"}, {name = "
 
 ## Summary
 
-[Study after study](https://covid19.counciloncj.org/2021/01/31/impact-report-covid-19-and-crime-3/) has shown that help-seeking for domestic violence increased during the COVID-19 pandemic. My colleague, [Tara Richards](https://twitter.com/Prof_TNR) (Faculty Lead for SCCJ's [Victimology and Victim Studies Research Lab](https://www.unomaha.edu/college-of-public-affairs-and-community-service/criminology-and-criminal-justice/research/victimology-and-victim-studies-research.php)), was quick to observe that all of the research to date has relied on official data (e.g., calls for police service, reported crimes). Research has yet to consider whether victim service agency hotlines experienced an uptick in calls during COVID-19.
+[Study after study](https://covid19.counciloncj.org/2021/01/31/impact-report-covid-19-and-crime-3/) has shown that help-seeking for domestic violence increased during the COVID-19 pandemic. My colleague, [Tara Richards](https://twitter.com/Prof_TNR) (Faculty Lead for SCCJ's [Victimology and Victim Studies Research Lab](https://vvsrlab.org/)), was quick to observe that all of the research to date has relied on official data (e.g., calls for police service, reported crimes). Research has yet to consider whether victim service agency hotlines experienced an uptick in calls during COVID-19.
 
 So, we started collecting official data from several jurisdictions from the [Police Data Initiative](https://www.policedatainitiative.org/datasets/), and reaching out to victim service agencies in the same jurisdictions to request the daily number of emergency hotline calls they'd received from 2018 to 2020. 
 
@@ -76,7 +76,7 @@ Thus far, we've collected data from the following jurisdictions:
 
 * Nix, J., & Richards, T. N. (2021). The immediate and long-term effects of COVID-19 stay-at-home orders on domestic violence calls for service across six US jurisdictions. [*Police Practice and Research*](https://doi.org/10.1080/15614263.2021.1883018).
 
-* Richards, T. N., Nix, J., Mourtgos, S., & Adams, I. (*Forthcoming*). Comparing 911 and emergency hotline calls for domestic violence in seven cities: What happened when people started staying home due to COVID-19?. *Criminology & Public Policy* (Accepted 9/27/21; *pre-print version available at the top of this page*)
+* Richards, T. N., Nix, J., Mourtgos, S., & Adams, I. (*Forthcoming*). Comparing 911 and emergency hotline calls for domestic violence in seven cities: What happened when people started staying home due to COVID-19? [*Criminology & Public Policy*](https://doi.org/10.1111/1745-9133.12564). (*Pre-print version available at the top of this page*).
 
 ## Presentations
 
