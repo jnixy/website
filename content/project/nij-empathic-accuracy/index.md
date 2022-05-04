@@ -3,7 +3,7 @@
 title = "An Evaluation of De-Escalation Training to Understand the Links between Training and Outcomes"
 
 # Authors
-authors = ["Kyle McLean", "Jeff Rojek", "admin", "Geoff Alpert"]
+authors = ["Kyle McLean", "Jeff Rojek", "admin", "Geoff Alpert", "Trey Bussey"]
 
 # Date this page was created.
 date = 2022-05-04T11:00:00
