@@ -1,6 +1,6 @@
 ---
 title: Courses Taught at UNO
-date: "2021-12-29T14:00:00Z"
+date: "2022-08-09T16:30:00Z"
 
 # View.
 #   1 = List
