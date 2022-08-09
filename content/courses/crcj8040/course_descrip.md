@@ -1,5 +1,5 @@
 ---
-date: "2021-08-03T11:00:00"
+date: "2022-08-08T11:00:00"
 draft: false
 linktitle: Course Description
 menu:
@@ -18,25 +18,22 @@ In this course, we will explore the function of the police in American society �
 
 I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. Most of the required readings are available on Canvas. In addition, you will need access to the following books:
 
-* Kelling, George L. and Catherine M. Coles (1997). *Fixing broken windows: Restoring order and reducing crime in our communities*. Simon and Schuster.
-* Zimring, Franklin E. (2012). *The city that became safe: New York’s lessons for urban crime and its control*. Oxford University Press.
-* Stoughton, Seth W., Jeffrey J. Noble, and Geoffrey P. Alpert (2020). *Evaluating police uses of force*. New York University Press.
-* Deuchar, Ross, Vaughn J. Crichlow, and Seth W. Fallik (2021). *Police–Community Relations in Times of Crisis: Decay and Reform in the Post-Ferguson Era*. Bristol University Press.
+* 
 
 ## Journals
 
 Each week at the end of class, I’ll ask you to take approximately 10 minutes to reflect on a question or issue and write your thoughts down in a “journal.” Then as you do the readings for the following week on your own time, you’ll update your journal. *Do you still feel the same way? Why or why not? Did the readings change your mind or make you to think about the issue in a different way? What questions do you still have?* At the begining of the next class, we’ll break the ice by discussing what you wrote in your journals.
 
-## Research Proposal and Presentation
+## Exams
 
-Each student will select a topic on which to write a research proposal and make an oral presentation to the class based upon its content. The written proposal should be 10 – 15 pages (double-spaced) and the oral presentation should be 10 – 15 minutes (or 20 including Q&A). The written proposal is due no later than **December 1st**, and oral presentations will take place during our last two classes. We will discuss this assignment in more detail later in the semester. Topics must be approved by me, and should be submitted in writing (approx. one page) no later than **October 6th**.
+There will be two in-class exams this semester: **a midterm on October 5th and a final on December 7th**. For each exam, you will choose one of three essay questions, using class time to respond to it.
 
 ## Grades 
 
-* Attendance and participation: 30%
+* Attendance and participation: 25%
 * Journal: 25%
-* Research proposal: 25%
-* Research presentation: 20%
+* Midterm: 25%
+* Final: 25%
 
 These weighted scores will be added up at the end of the semester to generate your overall grade in the course:
 

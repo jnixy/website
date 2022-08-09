@@ -1,7 +1,7 @@
 ---
 date: "2021-08-03T11:00:00Z"
 draft: false
-lastmod: "2021-08-03T11:00:00Z"
+lastmod: "2022-08-08T11:00:00Z"
 linktitle: CRCJ 8040 - Police & Society
 menu:
   crcj8040:
@@ -14,8 +14,12 @@ type: docs
 weight: 1
 ---
 
-## Fall 2021
+## Fall 2022
 
-* Meeting time: Wednesdays 5:30 - 8:15PM
+👈 If you're viewing on a desktop, the course syllabus and lectures are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
 
-* Office hours: Wednesdays 3 - 5PM or by appointment
+You may also download a PDF of the syllabus by clicking [this link](crcj8040-syllabus.pdf).
+
+{{% alert note %}}
+<p style="text-align:center"> Please note this syllabus has not yet been finalized for Fall 2022.</p>
+{{% /alert %}}

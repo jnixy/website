@@ -1,5 +1,5 @@
 ---
-date: "2021-08-03T11:00:00"
+date: "2022-08-08T11:00:00"
 draft: false
 linktitle: Course Schedule
 menu:
@@ -12,86 +12,112 @@ type: docs
 weight: 2
 ---
 
-## Week 1, 8/25: Introduction
+## Week 1, 8/24: Introduction
 
-* Schwartz, M. A. (2008). The importance of stupidity in scientific research. [*Journal of Cell Science*](https://jcs.biologists.org/content/joces/121/11/1771.full.pdf) 121: 1771.
+* Schwartz, M. A. (2008). [The importance of stupidity in scientific research](https://jcs.biologists.org/content/joces/121/11/1771.full.pdf). *Journal of Cell Science* 121: 1771.
 
-* Packer, H. L. (1964). Two models of the criminal process. [*University of Pennsylvania Law Review*](https://heinonline.org/HOL/P?h=hein.journals/pnlr113&i=21), 113, 1-68. 
+* Packer, H. L. (1964). [Two models of the criminal process](https://heinonline.org/HOL/P?h=hein.journals/pnlr113&i=21). *University of Pennsylvania Law Review*, 113, 1-68. 
 
-## Week 2, 9/1: Function of Police
+* Kaba, M. (2020, Jun 12). [Yes, we mean literally abolish the police](https://www.nytimes.com/2020/06/12/opinion/sunday/floyd-abolish-defund-police.html). *The New York Times*.
 
-* President’s Commission on Law Enforcement & Administration of Justice (1967). [*The challenge of crime in a free society*](https://www.ojp.gov/sites/g/files/xyckuh241/files/archives/ncjrs/42.pdf). Washington, DC: US Government Printing Office. (Chapters 1 & 4)
+## Week 2, 8/31: Function of Police
 
-* Bittner, E. (1970). [*The functions of the police in modern society: A review of background factors, current practices, and possible role models*](https://www.ojp.gov/pdffiles1/Digitization/147822NCJRS.pdf). National Institute of Mental Health, Center for Studies of Crime and Delinquency. (Chapters 1-2)
+* Klockars, C. (1985). [*The idea of police*](https://www.ojp.gov/ncjrs/virtual-library/abstracts/idea-police). SAGE Publications, Inc.
 
-* Brantingham, P. J. & Faust, F. L. (1976). A conceptual model of crime prevention. [*Crime & Delinquency*](https://doi.org/10.1177%2F001112877602200302), 22(3), 284-296.
+  + Chapters 1-3
+  
+* President's Commission on Law Enforcement & Administration of Justice (1967). [*The challenge of crime in a free society*](https://www.ojp.gov/pdffiles1/Digitization/42NCJRS.pdf). Washington, DC: US Government Printing Office.
 
-## Week 3, 9/8: Function of Police
+  + Chapter 4
 
-* President’s Task Force on 21st Century Policing (2015). [*Final report of the President’s Task force on 21st Century Policing*](https://cops.usdoj.gov/pdf/taskforce/taskforce_finalreport.pdf). Washington, DC: Office of Community Oriented Policing Services.
+## Week 3, 9/7: Function of Police
 
-* Kaba, M. (2020, Jun 12). Yes, we mean literally abolish the police. [*The New York Times*](https://www.nytimes.com/2020/06/12/opinion/sunday/floyd-abolish-defund-police.html).
+* Bittner, E. (1980). [*The functions of the police in modern society: A review of background factors, current practices, and possible role models*](https://www.ojp.gov/pdffiles1/Digitization/147822NCJRS.pdf). Oelgeschlager, Gunn & Hain.
 
-* Lum, C., Koper, C. S., & Wu, X. (2021). Can we really defund the police? A nine-agency study of police response to calls for service. [*Police Quarterly*](https://doi.org/10.1177/10986111211035002). Advance online publication. 
+  + Chapters 1 & 2
 
-## Week 4, 9/15: Discretion
+* Thacher, D. (2022). [Shrinking the police footprint](https://doi.org/10.1080/0731129X.2022.2062546). *Criminal Justice Ethics*, 41(1), 62-85.
 
-* Goldstein, J. (1960). Police discretion not to invoke the criminal process: Low-visibility decisions in the administration of justice. [*The Yale Law Journal*](https://heinonline.org/HOL/P?h=hein.journals/ylr69&i=553), 69(4), 543-594.
+## Week 4, 9/14: Police Culture
 
-* Goldstein, H. (1963). Police discretion: The ideal versus the real. [*Public Administration Review*](https://www.jstor.org/stable/973838), 23, 140-148.
+* Van Maanen, J. (1973). [Observations on the making of policemen](https://www.jstor.org/stable/44127631). *Human Organization*, 32(4), 407-418.
 
-* Bittner, E. (1967). The police on Skid-Row: A study of peace keeping. [*American Sociological Review*](http://www.jstor.org/stable/2092019), 32(5), 699-715.
+* Van Maanen, J. (1978). [Kinsmen in repose: Occupational perspectives of patrolmen](https://www.ojp.gov/ncjrs/virtual-library/abstracts/kinsmen-repose-occupational-perspectives-patrolmen-police-and). In P. Manning & J. Van Maanen (Eds.), *Policing: A View from the Street* (pp. 115-128). Goodyear publishing Co. 
 
-## Week 5, 9/22: Policing Disorder
+* Van Maanen, J. (1978). [The asshole](http://ww.jthomasniu.org/class/377a/Readings/vanmaanen-1978.pdf). In P. Manning & J. Van Maanen (Eds.), *Policing: A View from the Street* (pp. 221-238). Goodyear Publishing Co.
 
-* Kelling, G. L. & Coles, C. M. (1997). [*Fixing broken windows: Restoring order and reducing crime in our communities*](https://www.simonandschuster.com/books/Fixing-Broken-Windows/Catherine-M-Coles/9780684837383). Simon and Schuster. 
+## Week 5, 9/21: Police Culture
 
-## Week 6, 9/29: Racial Disparities
+* Skolnick, J. (1966). *Justice without trial: Law enforcement in democratic society*. John Wiley.
 
-* Goff, P. A. & Kahn, K. B. (2012). Racial bias in policing: Why we know less than we should. [*Social Issues and Policy Review*](https://doi.org/10.1111/j.1751-2409.2011.01039.x), 6(1), 177-210.
+  + Chapters 3 & 9
 
-* Goff, P. A. (2016). Identity traps: How to think about race & policing. [*Behavioral Science & Policy*](https://doi.org/10.1353/bsp.2016.0012), 2(2), 10-22.
+* Bittner, E. (1974). Florence Nightingale in pursuit of Willie Sutton: A theory of the police. In H. Jacob (Ed.), *The potential for reform of criminal justice*. Sage Publications, Inc.
+  
+* Crank, J. & Langworthy, R. (1992). [An institutional perspective of policing](https://heinonline.org/HOL/P?h=hein.journals/jclc83&i=348). *Journal of Criminal Law & Criminology*, 83, 338-363.
 
-* Epp, C. R., Maynard-Moody, S., & Haider-Markel, D. (2017). Beyond profiling: The institutional sources of racial disparities in policing. [*Public Administration Review*](https://doi.org/10.1111/puar.12702), 77(2), 168-178.
+## Week 6, 9/28: Discretion
 
-## Week 7, 10/6: Racial Disparities
+* Bittner, E. (1967). [The police on Skid-Row: A study of peace keeping](http://www.jstor.org/stable/2092019). *American Sociological Review*, 32(5), 699-715.
 
-* Smith, M. R. & Alpert, G. P. (2007). Explaining police bias: A theory of social conditioning and illusory correlation. [*Criminal Justice & Behavior*](https://doi.org/10.1177%2F0093854807304484), 34(10), 1262-1283.
+* Wilson, J. Q. (1978) [*Varieties of police behavior: The management of law & order in eight communities*](https://www.ojp.gov/ncjrs/virtual-library/abstracts/varieties-police-behavior-management-law-and-order-eight). Harvard University Press.
 
-* Welsh, M., Chanin, J., & Henry, S. (2021). Complex colorblindness in police processes and practices. [*Social Problems*](https://doi.org/10.1093/socpro/spaa008), 68(2), 374-392.
+  + Chapter 4
 
-* Spencer, K. B., Charbonneau, A. K., & Glaser, J. (2016). Implicit bias and policing. [*Social and Personality Psychology Compass*](https://doi.org/10.1111/spc3.12210), 10(1), 50-63.
+* Walker, S. (1992). [*Taming the system: The control of discretion in criminal justice 1950-1990*](https://www.ojp.gov/ncjrs/virtual-library/abstracts/taming-system-control-discretion-criminal-justice-1950-1990). Oxford University Press. 
 
-## Week 8, 10/13: Reducing Crime
+  + Chapter 2
 
-* Zimring, F. E. (2012). [*The city that became safe: New York's lessons for urban crime and its control*](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199844425.001.0001/acprof-9780199844425). Oxford University Press.
+## Week 7, 10/5: Midterm Exam
 
-## Week 9, 10/20: Police Use of Force
+* No readings
 
-* Stoughton, S. W., Noble, J. J., & Alpert, G. P. (2020). [*Evaluating police uses of force*](https://nyupress.org/9781479814657/evaluating-police-uses-of-force/). NYU Press. (Chapters 1-2)
+## Week 8, 10/12: Reducing Crime
 
-## Week 10, 10/27: Police Use of Force
+* Sherman, L. (1986). [Policing communities: What works?](https://www.journals.uchicago.edu/doi/epdf/10.1086/449127) *Crime & Justice*, 8, 343-386.
 
-* Stoughton, S. W., Noble, J. J., & Alpert, G. P. (2020). [*Evaluating police uses of force*](https://nyupress.org/9781479814657/evaluating-police-uses-of-force/). NYU Press. (Chapters 3-4)
+* Sherman, L., Gartin, P., & Buerger, M. (1989). [Hot spots of predatory crime: Routine activities and the criminology of place](https://doi.org/10.1111/j.1745-9125.1989.tb00862.x). *Criminology*, 27(1), 27-56.
 
-## Week 11, 11/3: Policing through a Legitimacy Crisis
+## Week 9, 10/19: Reducing Crime
 
-* Deuchar, R., Crichlow, V. J., & Fallik, S. W. (2021). [*Police-community relations in times of crisis: Decay and reform in the post-Ferguson Era*](https://bristoluniversitypress.co.uk/police-community-relations-in-times-of-crisis). Bristol University Press. (Chapters 1-5)
+* Goldstein, H. (1979). [Improving policing: A problem-oriented approach](https://doi.org/10.1177%2F001112877902500207). *Crime & Delinquency*, 25(2), 236-258.
 
-## Week 12, 11/10: Policing through a Legitimacy Crisis
+* Wilson, J. Q. & Kelling, G. (1982). [Broken windows](https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/). *The Atlantic*. 
 
-* Deuchar, R., Crichlow, V. J., & Fallik, S. W. (2021). [*Police-community relations in times of crisis: Decay and reform in the post-Ferguson Era*](https://bristoluniversitypress.co.uk/police-community-relations-in-times-of-crisis). Bristol University Press. (Chapters 6-8 & Epilogue)
+* Eck, J. & Spelman, W. (1987). [Who ya gonna call? The police as problem-busters](https://doi.org/10.1177%2F0011128787033001003). *Crime & Delinquency*, 33(1), 31-52.
 
-## Week 13, 11/17: No Class
+## Week 10, 10/26: Police Use of Force
 
-*ASC Conference in Chicago, IL*
+* Fyfe, J. (1986). The split-second syndrome and other determinants of police violence. In A. Campbell & John Gibbs (Eds.), *Violent transactions*. Basil Blackwell. 
 
-## Week 14, 11/24: No Class
+* Bayley, D. & Garofalo, J. (1989). [The management of violence by police patrol officers](https://doi.org/10.1111/j.1745-9125.1989.tb00861.x). *Criminology*, 27(1), 1-26.
+
+## Week 11, 11/2: Police Use of Force
+
+* Smith, D. (1986). [The neighborhood context of police behavior](https://www.journals.uchicago.edu/doi/epdf/10.1086/449126). *Crime and Justice*, 8, 313-341.
+
+* Terrill, W. & Reisig, M. (2003). [Neighborhood context and police use of force](https://doi.org/10.1177%2F0022427803253800). *Journal of Research in Crime and Delinquency*, 40(3), 291-321.
+
+## Week 12, 11/9: Accountability and Oversight
+
+* Skolnick, J. & McCoy, C. (1984). [Police accountability and the media](https://www.jstor.org/stable/pdf/828317.pdf). *American Bar Foundation Research Journal*, 9(3), 521-557.
+
+## Week 13, 11/16: No Class
+
+*ASC Conference in Atlanta, GA*
+
+## Week 14, 11/23: No Class
 
 *Thanksgiving Break*
 
-## Week 15, 12/1: Student Presentations
+## Week 15, 11/30: Accountability and Oversight
 
-*Research proposals due*
+* Walker, S. (2022). [The Justice Department's Pattern-or-Practice Police Reform Program, 1994-2017: Goals, achievements, and issues](https://www.annualreviews.org/doi/full/10.1146/annurev-criminol-030920-102432). *Annual Review of Criminology*, 5, 21-42.
 
-## Week 16, 12/8: Student Presentations
+* President's Task Force on 21st Century Policing (2015). [*Final report of the President's Task force on 21st Century Policing*](https://cops.usdoj.gov/pdf/taskforce/taskforce_finalreport.pdf). Washington, DC: Office of Community Oriented Policing Services.
+
+  + Pillar 2
+
+## Week 16, 12/7: Final Exam
+
+* No readings
