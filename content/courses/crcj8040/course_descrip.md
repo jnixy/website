@@ -16,9 +16,7 @@ In this course, we will explore the function of the police in American society â
 
 ## Required Readings
 
-I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. Most of the required readings are available on Canvas. In addition, you will need access to the following books:
-
-* 
+I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. All required readings are available on Canvas (or linked whenever possible on the [Course Schedule](https://jnix.netlify.app/courses/crcj8040/course_schedule/) page).
 
 ## Journals
 
