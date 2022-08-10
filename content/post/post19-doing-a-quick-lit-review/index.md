@@ -6,7 +6,7 @@ date: "2022-08-10T09:00:00Z"
 draft: false
 featured: false
 image:
-  caption: "Image by [Germán Poo-Caamaño](https://www.flickr.com/photos/gpoo/) on [flickr](https://flic.kr/p/eHJWM3), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)"
+  caption: "Image by [Germán Poo-Caamaño](https://www.flickr.com/photos/gpoo/) on [flickr](https://flic.kr/p/eHJWM3), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)"
   focal_point: smart
 projects: []
 subtitle: ""
@@ -21,4 +21,4 @@ Awhile back I pulled together some thoughts on how to (1) find scientific resear
 
 I'm sharing it below in hopes it might be useful for folks teaching research methods or assigning term papers/research proposals to students who don't have much experience doing that sort of stuff. We all started somewhere - I wish I'd known all this 12 years ago 😝 
 
-knitr::include_url('https://jnix.netlify.app/slides/doing_a_lit_review/#1')
+knitr::include_url('https://jnix.netlify.app/slides/doing_a_lit_review/index#1')
