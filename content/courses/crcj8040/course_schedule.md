@@ -88,7 +88,7 @@ weight: 2
 
 ## Week 10, 10/26: Police Use of Force
 
-* Fyfe, J. (1986). The split-second syndrome and other determinants of police violence. In A. Campbell & John Gibbs (Eds.), *Violent transactions*. Basil Blackwell. 
+* Fyfe, J. (1986). [The split-second syndrome and other determinants of police violence](https://img1.wsimg.com/blobby/go/f3f11b75-143e-4007-a4ef-d815ec0cbd12/downloads/Fyfe%201986%20-%20The%20Split-Second%20Syndrome%20%20-%20Brand.pdf). In A. Campbell & John Gibbs (Eds.), *Violent transactions* (pp. 207-223). Basil Blackwell. 
 
 * Bayley, D. & Garofalo, J. (1989). [The management of violence by police patrol officers](https://doi.org/10.1111/j.1745-9125.1989.tb00861.x). *Criminology*, 27(1), 1-26.
 
@@ -98,9 +98,11 @@ weight: 2
 
 * Terrill, W. & Reisig, M. (2003). [Neighborhood context and police use of force](https://doi.org/10.1177%2F0022427803253800). *Journal of Research in Crime and Delinquency*, 40(3), 291-321.
 
-## Week 12, 11/9: Accountability and Oversight
+## Week 12, 11/9: Legitimacy
 
-* Skolnick, J. & McCoy, C. (1984). [Police accountability and the media](https://www.jstor.org/stable/pdf/828317.pdf). *American Bar Foundation Research Journal*, 9(3), 521-557.
+Tyler, T. & Blader, S. (2003). [The group engagement model: Procedural justice, social identity, and cooperative behavior](https://doi.org/10.1207%2FS15327957PSPR0704_07). *Personality and Social Psychology Review*, 7(4), 349-361.
+
+Bell, M. (2017). [Police reform and the dismantling of legal estrangement](https://www.jstor.org/stable/45222555). *The Yale Law Journal*, 126(7), 2054-2150.
 
 ## Week 13, 11/16: No Class
 
@@ -111,6 +113,8 @@ weight: 2
 *Thanksgiving Break*
 
 ## Week 15, 11/30: Accountability and Oversight
+
+* Skolnick, J. & McCoy, C. (1984). [Police accountability and the media](https://www.jstor.org/stable/pdf/828317.pdf). *American Bar Foundation Research Journal*, 9(3), 521-557.
 
 * Walker, S. (2022). [The Justice Department's Pattern-or-Practice Police Reform Program, 1994-2017: Goals, achievements, and issues](https://www.annualreviews.org/doi/full/10.1146/annurev-criminol-030920-102432). *Annual Review of Criminology*, 5, 21-42.
 
