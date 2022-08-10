@@ -26,3 +26,6 @@ I'm sharing it now in hopes it might be useful for folks teaching research metho
 {{% alert note %}}
 <p style="text-align:center"> Click the "Slides" button above to download the presentation.</p>
 {{% /alert %}}
+
+
+<iframe src="https://jnix.netlify.app/slides/doing_a_lit_review/#1" width="800" height="600" scrolling="no" />
