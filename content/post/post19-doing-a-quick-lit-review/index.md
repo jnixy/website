@@ -23,4 +23,6 @@ Awhile back I pulled together some thoughts on how to (1) find scientific resear
 
 I'm sharing it below in hopes it might be useful for folks teaching research methods or assigning term papers/research proposals to students who don't have much experience doing that sort of stuff. We all started somewhere - I wish I'd known all this 12 years ago 😝 
 
-[📁 Download the slideshow]('https://jnix.netlify.app/slides/doing_a_lit_review/#1')
+{{% alert note %}}
+<p style="text-align:center"> Click the "Slides" button above to download the presentation.</p>
+{{% /alert %}}
