@@ -100,9 +100,9 @@ weight: 2
 
 ## Week 12, 11/9: Legitimacy
 
-Tyler, T. & Blader, S. (2003). [The group engagement model: Procedural justice, social identity, and cooperative behavior](https://doi.org/10.1207%2FS15327957PSPR0704_07). *Personality and Social Psychology Review*, 7(4), 349-361.
+* Tyler, T. & Blader, S. (2003). [The group engagement model: Procedural justice, social identity, and cooperative behavior](https://doi.org/10.1207%2FS15327957PSPR0704_07). *Personality and Social Psychology Review*, 7(4), 349-361.
 
-Bell, M. (2017). [Police reform and the dismantling of legal estrangement](https://www.jstor.org/stable/45222555). *The Yale Law Journal*, 126(7), 2054-2150.
+* Bell, M. (2017). [Police reform and the dismantling of legal estrangement](https://www.jstor.org/stable/45222555). *The Yale Law Journal*, 126(7), 2054-2150.
 
 ## Week 13, 11/16: No Class
 
