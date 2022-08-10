@@ -21,7 +21,7 @@ categories: []
 
 Awhile back I pulled together some thoughts on how to (1) find scientific research and (2) make sense of it all once you've found it. It's mainly geared toward students or practitioners who need to quickly assess the evidence base on some program or policy. 
 
-I'm sharing it below in hopes it might be useful for folks teaching research methods or assigning term papers/research proposals to students who don't have much experience doing that sort of stuff. We all started somewhere - I wish I'd known all this 12 years ago 😝 
+I'm sharing it now in hopes it might be useful for folks teaching research methods or assigning term papers/research proposals to students who don't have much experience doing that sort of stuff. We all started somewhere - I wish I'd known all this 12 years ago 😝 
 
 {{% alert note %}}
 <p style="text-align:center"> Click the "Slides" button above to download the presentation.</p>
