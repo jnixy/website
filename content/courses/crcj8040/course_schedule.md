@@ -98,21 +98,7 @@ weight: 2
 
 * Terrill, W. & Reisig, M. (2003). [Neighborhood context and police use of force](https://doi.org/10.1177%2F0022427803253800). *Journal of Research in Crime and Delinquency*, 40(3), 291-321.
 
-## Week 12, 11/9: Legitimacy
-
-* Tyler, T. & Blader, S. (2003). [The group engagement model: Procedural justice, social identity, and cooperative behavior](https://doi.org/10.1207%2FS15327957PSPR0704_07). *Personality and Social Psychology Review*, 7(4), 349-361.
-
-* Bell, M. (2017). [Police reform and the dismantling of legal estrangement](https://www.jstor.org/stable/45222555). *The Yale Law Journal*, 126(7), 2054-2150.
-
-## Week 13, 11/16: No Class
-
-*ASC Conference in Atlanta, GA*
-
-## Week 14, 11/23: No Class
-
-*Thanksgiving Break*
-
-## Week 15, 11/30: Accountability and Oversight
+## Week 12, 11/9: Accountability and Oversight
 
 * Skolnick, J. & McCoy, C. (1984). [Police accountability and the media](https://www.jstor.org/stable/pdf/828317.pdf). *American Bar Foundation Research Journal*, 9(3), 521-557.
 
@@ -122,6 +108,26 @@ weight: 2
 
   + Pillar 2
 
-## Week 16, 12/7: Final Exam
+## Week 13, 11/16: No Class
+
+*ASC Conference in Atlanta, GA*
+
+## Week 14, 11/23: No Class
+
+*Thanksgiving Break*
+
+## Week 15, 11/30: Legitimacy
+
+* Tyler, T. & Blader, S. (2003). [The group engagement model: Procedural justice, social identity, and cooperative behavior](https://doi.org/10.1207%2FS15327957PSPR0704_07). *Personality and Social Psychology Review*, 7(4), 349-361.
+
+* Bell, M. (2017). [Police reform and the dismantling of legal estrangement](https://www.jstor.org/stable/45222555). *The Yale Law Journal*, 126(7), 2054-2150.
+
+## Week 16, 12/7: Legitimacy
+
+* Nix, J., & Wolfe, S. E. (2017). [The impact of negative publicity on police self-legitimacy](https://doi.org/10.1080/07418825.2015.1102954). *Justice Quarterly*, 34(1), 84-108.
+
+* Nix, J., Pickett, J. T., & Wolfe, S. E. (2020). [Testing a theoretical model of perceived audience legitimacy: The neglected linkage in the dialogic model of police–community relations](https://doi.org/10.1177/0022427819873957). *Journal of Research in Crime and Delinquency*, 57(2), 217-259.
+
+## Week 17, 12/14: Final Exam
 
 * No readings
