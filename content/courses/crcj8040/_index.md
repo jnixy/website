@@ -19,7 +19,3 @@ weight: 1
 👈 If you're viewing on a desktop, the course syllabus and lectures are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
 
 You may also download a PDF of the syllabus by clicking [this link](crcj8040-syllabus.pdf).
-
-{{% alert note %}}
-<p style="text-align:center"> Please note this syllabus has not yet been finalized for Fall 2022.</p>
-{{% /alert %}}
