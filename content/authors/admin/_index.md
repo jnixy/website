@@ -36,9 +36,18 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=_Jr8r8UAAAAJ&hl=en
+- icon: orcid
+  icon_pack: fab
+  link: "https://orcid.org/0000-0002-3812-8590"
+- icon: publons
+  icon_pack: ai
+  link: "https://www.webofscience.com/wos/author/record/32110118"
 - icon: github
   icon_pack: fab
   link: https://github.com/jnixy
+- icon: cv
+  icon_pack: ai
+  link: "files/cv.pdf"
 superuser: true
 user_groups:
 - Researchers
