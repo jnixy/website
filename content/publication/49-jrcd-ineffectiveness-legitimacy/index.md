@@ -8,7 +8,7 @@ date: "2022-08-30T11:00:00Z"
 output: 
 featured: no
 image:
-  caption: ""
+  caption: "Photo by [R. D. Smith](https://unsplash.com/@rd421) on [Unsplash](https://unsplash.com/photos/od3jdQqX8O8)"
   focal_point: smart
   preview_only: no
 doi: 10.1177/00224278221121622
