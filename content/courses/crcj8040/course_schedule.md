@@ -32,7 +32,7 @@ weight: 2
 
 ## Week 3, 9/7: Function of Police
 
-* Bittner, E. (1980). [*The functions of the police in modern society: A review of background factors, current practices, and possible role models*](https://www.ojp.gov/pdffiles1/Digitization/147822NCJRS.pdf). Oelgeschlager, Gunn & Hain.
+* Bittner, E. (1970). [*The functions of the police in modern society: A review of background factors, current practices, and possible role models*](https://www.ojp.gov/pdffiles1/Digitization/147822NCJRS.pdf). Oelgeschlager, Gunn & Hain.
 
   + Chapters 1 & 2
 
