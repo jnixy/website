@@ -63,7 +63,7 @@ duplicates tag RBNumber ReportedDate ReportedTime StatuteOrdinanceDescription Oc
 drop if dup > 0
 ```
 
-Next, you need to convert the **ReportedDate** field from string to Stata's appropriate date format. This is really easy with Stata's *date* function. We'll also drop 2015 because everything before July looks wonky.
+Next, you need to convert the *ReportedDate* field from string to Stata's appropriate date format. This is really easy with Stata's *date* function. We'll also drop 2015 because everything before July looks wonky.
 
 ```
 gen date = date(ReportedDate, "MDY")
@@ -79,7 +79,7 @@ OK, we want to quickly get a sense of whether violence was unusually high this s
 
 Note we could do this at smaller units of time, such as weeks or days, but homicides are rare enough in most places that daily or weekly graphs will mostly produce 0s and 1s, which isn't super helpful for a visualization. For consistency, we'll also plot robberies and aggravated assaults at the monthly level.
 
-Next we create dummy variables from the **StatuteOrdinanceDescription** variable, which is in string format. Then we can use tabstat to quickly count how many homicides, completed and attempted aggravated assaults, and completed and attempted robberies occurred each year. Note that for robberies, there are several different entries we want to include in the "1" category of our dummy. To save a few lines of code, we can use the *regexm* function, which flags all cases that include some string of characters that we define. 
+Next we create dummy variables from the *StatuteOrdinanceDescription* variable, which is in string format. Then we can use **tabstat** to quickly count how many homicides, completed and attempted aggravated assaults, and completed and attempted robberies occurred each year. Note that for robberies, there are several different entries we want to include in the "1" category of our dummy. To save a few lines of code, we can use the **regexm** function, which flags all cases that include some string of characters that we define. 
 
 There should be 158 homicides, 4084 aggravated assaults (completed and attempted), and 3299 robberies (completed and attempted) between 2016 and 2021. The totals for 2022 will change between now and December 31st.
 
@@ -169,7 +169,7 @@ Hopefully, everything has worked up to this point, and you were able to render t
 
 ![figure](combined_figure.png)
 
-We can see pretty clearly that the 7 homicides in August 2022 were unusual - the previous 6-year average for August was 2, and the previous high was 3. It's too soon to determine whether this is a blip or the start of a trend, but if I had to guess I'd say that line will come probably back down in the last quarter. I'd also be reluctant to call this one-month spike statistically meaningful - it could still very well be "random." Consider, for example, that part of what differentiates a nonfatal shooting from a fatal shooting is [luck](https://doi.org/10.1111/1745-9133.12451) (in terms of whether bullets hit or miss vital organs). 
+We can see pretty clearly that the 7 homicides in August 2022 were unusual - the previous 6-year average for August was 2, and the previous high was 3. It's too soon to determine whether this is a blip or the start of a trend, but if I had to guess I'd say that line will probably come back down in the last quarter. I'd also be reluctant to call this one-month spike statistically meaningful - it could still very well be "random." Consider, for example, that part of what differentiates a nonfatal shooting from a fatal shooting is [luck](https://doi.org/10.1111/1745-9133.12451) (in terms of whether bullets hit or miss vital organs). 
 
 Anyway, robberies have been down for most of 2022, compared to the previous 6-year average. Aggravated assaults were up a bit in the first part of the summer, but within typical ranges, then close to the 6-year average for July and August.
 
