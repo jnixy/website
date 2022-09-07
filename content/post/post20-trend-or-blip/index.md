@@ -58,7 +58,6 @@ OPD posts separate data files for each calendar year on [this webpage](https://p
 Now that the data are all merged up, you should screen for duplicates.[^1] Use the code below to ask Stata how many rows are exact matches on *RBNumber*, *Reported Date and Time*, *Statute/Ordinance Description*, and *Location*. Then tag them with a new variable, *dup*, and drop any rows where *dup* has a value greater than 0. 
 
 ```
-	
 duplicates report RBNumber ReportedDate ReportedTime StatuteOrdinanceDescription OccurredLocation
 duplicates tag RBNumber ReportedDate ReportedTime StatuteOrdinanceDescription OccurredLocation, gen(dup)
 drop if dup > 0
@@ -152,7 +151,7 @@ twoway (rarea agg_min agg_max month2, color(gs14)) ///
 	leg(off) title("Agg Assaults & Attempted Agg Assaults", size(small)) name(aggs, replace)
 ```
 	
-We could stop there, but often we want to be able to look at multiple visualizations simultaneously. To do that, we can use Stata's **graph combine** command. But first, we should create a legend. We could have left the legend on for each individual graph we created above, but then our combined graph would be very cluttered. **Graph combine**allows you to arrange figures in *N* rows by *N* columns. Here, we'll lay the figures out in 2 rows and 2 columns, where the space on the bottom right will be our legend. 
+We could stop there, but often we want to be able to look at multiple visualizations simultaneously. To do that, we can use Stata's **graph combine** command. But first, we should create a legend. We could have left the legend on for each individual graph we created above, but then our combined graph would be very cluttered. **Graph combine** allows you to arrange figures in *N* rows by *N* columns. Here, we'll lay the figures out in 2 rows and 2 columns, where the space on the bottom right will be our legend. 
 
 Notice the first three lines of the code below are the same as in the code to make the homicide graph above. The difference is we'll suppress everything but the legend, which will be centered in the plot region. Name it "graph_leg" (or whatever you want), and include it with the other figures when you run the **graph combine** command. 
 
