@@ -24,6 +24,8 @@ Recently, a couple local journalists reached out to me about an apparent surge i
 
 So below I'm going to share some code that I hope is easily adaptable and will enable you to quickly see if crime is up, down, or consistent with prior years. With apologies to those of you who use R...I realize that by still using Stata I'm quickly becoming a dinosaur. That said, you could check out the very helpful [stata2r package](https://stata2r.github.io/). But even if you can't plug & play with this code, hopefully the logic is still useful.
 
+(***UPDATE***: *Thanks to [Matt Herman](https://twitter.com/buddyherms) for translating my code to R! Get it [here](https://gist.github.com/mfherman/892d8e3861c36a305ec3c8da885d3d2c)*.)
+
 First, I like to set a global that directs to the folder where I'll store the data files. You can call it whatever you want. Here, I'm calling it *omaha*. Thereafter, when I type **$omaha**, Stata will recognize this as shorthand for the folder's filepath.
 
 ```
