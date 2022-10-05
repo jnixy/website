@@ -162,7 +162,7 @@ Notice the first three lines of the code below are the same as in the code to ma
 twoway (rarea homicide_min homicide_max month, color(gs14)) ///
 	|| line homicide_avg month, lc(gs0) lp(dash) ///
 	|| line homicide_22 month if month <= 8, lc(red) lw(thick) ///
-	leg(ring(0) pos(0) size(medium) label(1 "Min/Max 2016-21") label(2 "Mean 2016-21") label(3 "2022"))yscale(off) xscale(off) xtitle("") name(graph_leg, replace)
+	leg(ring(0) pos(0) size(medium) label(1 "Min/Max 2016-21") label(2 "Mean 2016-21") label(3 "2022")) yscale(off) xscale(off) xtitle("") name(graph_leg, replace)
 gr_edit .plotregion1.draw_view.setstyle, style(no) 
 
 graph combine homs robs aggs graph_leg, rows(2)
