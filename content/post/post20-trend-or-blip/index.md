@@ -17,6 +17,7 @@ tags:
 - Stata
 url_pdf: ""
 url_slides: ""
+url_code: "trend-or-blip-code.txt"
 categories: []
 ---
 

@@ -1,0 +1,92 @@
+global omaha "" // insert your local filepath in the quotations
+
+cd "$omaha"
+	local files: dir "$omaha" files "Incidents*.csv"
+	di `"`files'"'
+	tempfile master // generate temporary save file to store data in
+	save `master', replace empty
+	foreach x in `files' {
+		di "`x'" // display file name
+		
+		* import each file
+			qui: import delimited "`x'", delimiter(",") case(preserve) clear // import csv file
+			qui: gen data_id = subinstr("`x'", ".csv", "", .) // generate id variable
+		
+		* append each file to the master file
+			append using `master', force
+			save `master', replace
+	}
+	
+	order data_id, first
+	sort data_id
+	save "$omaha\incidents_merged.dta", replace // save the merged file with a new name
+
+duplicates report RBNumber ReportedDate ReportedTime StatuteOrdinanceDescription OccurredLocation
+duplicates tag RBNumber ReportedDate ReportedTime StatuteOrdinanceDescription OccurredLocation, gen(dup)
+drop if dup > 0
+
+gen date = date(ReportedDate, "MDY")
+format date %td
+
+gen year = year(date)
+gen month = month(date)
+
+drop if year == 2015 // reporting looks inconsistent prior to July
+
+gen homicide = 1 if StatuteOrdinanceDescription == "HOMICIDE"
+tabstat homicide, by(year) s(sum)
+
+gen agg = 1 if StatuteOrdinanceDescription == "ASSAULT - FELONY - AGGRAVATED" | StatuteOrdinanceDescription == "ASSAULT - FELONY - AGGRAVATED -ATTEMPT"
+tabstat agg, by(year) s(sum)
+
+gen rob = 1 if regexm(StatuteOrdinanceDescription, "ROBBERY") == 1
+tastat rob, by(year) s(sum)
+
+local crime "homicide rob agg"
+	foreach i in `crime' {
+		gen `i'_16 = 1 if `i' == 1 & year == 2016
+		gen `i'_17 = 1 if `i' == 1 & year == 2017
+		gen `i'_18 = 1 if `i' == 1 & year == 2018
+		gen `i'_19 = 1 if `i' == 1 & year == 2019
+		gen `i'_20 = 1 if `i' == 1 & year == 2020
+		gen `i'_21 = 1 if `i' == 1 & year == 2021
+		gen `i'_22 = 1 if `i' == 1 & year == 2022
+	}
+
+collapse (sum) homicide* rob* agg*, by(month)
+
+local crime "homicide rob agg"
+  foreach i in `crime' {
+    egen `i'_avg = rmean(`i'_16 `i'_17 `i'_18 `i'_19 `i'_20 `i'_21)
+    egen `i'_min = rowmin(`i'_16 `i'_17 `i'_18 `i'_19 `i'_20 `i'_21)
+    egen `i'_max = rowmax(`i'_16 `i'_17 `i'_18 `i'_19 `i'_20 `i'_21)
+  }
+
+ net install cleanplots, from("https://tdmize.github.io/data/cleanplots") // optional
+ set scheme cleanplots // optional
+ 
+twoway (rarea homicide_min homicide_max month2, color(gs14)) ///
+	|| line homicide_avg month2, lc(gs0) lp(dash) ///
+	|| line homicide_22 month2 if month2 <= 8, lc(red) lw(thick) ///
+	xscale(range(1(1)12)) xlabel(1(1)12) xmtick(1(1)12) xtitle("Month", size(small)) ///
+	leg(off) title("Homicides", size(small)) name(homs, replace)
+	
+twoway (rarea rob_min rob_max month2, color(gs14)) ///
+	|| line rob_avg month2, lc(gs0) lp(dash) ///
+	|| line rob_22 month2 if month2 <= 8, lc(red) lw(thick) ///
+	xscale(range(1(1)12)) xlabel(1(1)12) xmtick(1(1)12) xtitle("Month", size(small)) ///
+	leg(off) title("Robberies & Attempted Robberies", size(small)) name(robs, replace)
+	
+twoway (rarea agg_min agg_max month2, color(gs14)) ///
+	|| line agg_avg month2, lc(gs0) lp(dash) ///
+	|| line agg_22 month2 if month2 <= 8, lc(red) lw(thick) ///
+	xscale(range(1(1)12)) xlabel(1(1)12) xmtick(1(1)12) xtitle("Month", size(small)) ///
+	leg(off) title("Agg Assaults & Attempted Agg Assaults", size(small)) name(aggs, replace)
+
+twoway (rarea homicide_min homicide_max month2, color(gs14)) ///
+    || line homicide_avg month2, lc(gs0) lp(dash) ///
+    || line homicide_22 month2 if month2 <= 8, lc(red) lw(thick) ///
+    leg(ring(0) pos(0) size(medium) label(1 "Min/Max 2016-21") label(2 "Mean 2016-21") label(3 "2022"))yscale(off) xscale(off) xtitle("") name(graph_leg, replace)
+gr_edit .plotregion1.draw_view.setstyle, style(no) 
+
+graph combine homs robs aggs graph_leg, rows(2)
