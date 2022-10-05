@@ -135,21 +135,21 @@ We've now got everything we need to create some visualizations. First, optionall
  net install cleanplots, from("https://tdmize.github.io/data/cleanplots") // optional
  set scheme cleanplots // optional
  
-twoway (rarea homicide_min homicide_max month2, color(gs14)) ///
-	|| line homicide_avg month2, lc(gs0) lp(dash) ///
-	|| line homicide_22 month2 if month2 <= 8, lc(red) lw(thick) ///
+twoway (rarea homicide_min homicide_max month, color(gs14)) ///
+	|| line homicide_avg month, lc(gs0) lp(dash) ///
+	|| line homicide_22 month if month <= 8, lc(red) lw(thick) ///
 	xscale(range(1(1)12)) xlabel(1(1)12) xmtick(1(1)12) xtitle("Month", size(small)) ///
 	leg(off) title("Homicides", size(small)) name(homs, replace)
 	
-twoway (rarea rob_min rob_max month2, color(gs14)) ///
-	|| line rob_avg month2, lc(gs0) lp(dash) ///
-	|| line rob_22 month2 if month2 <= 8, lc(red) lw(thick) ///
+twoway (rarea rob_min rob_max month, color(gs14)) ///
+	|| line rob_avg month, lc(gs0) lp(dash) ///
+	|| line rob_22 month if month <= 8, lc(red) lw(thick) ///
 	xscale(range(1(1)12)) xlabel(1(1)12) xmtick(1(1)12) xtitle("Month", size(small)) ///
 	leg(off) title("Robberies & Attempted Robberies", size(small)) name(robs, replace)
 	
-twoway (rarea agg_min agg_max month2, color(gs14)) ///
-	|| line agg_avg month2, lc(gs0) lp(dash) ///
-	|| line agg_22 month2 if month2 <= 8, lc(red) lw(thick) ///
+twoway (rarea agg_min agg_max month, color(gs14)) ///
+	|| line agg_avg month, lc(gs0) lp(dash) ///
+	|| line agg_22 month if month <= 8, lc(red) lw(thick) ///
 	xscale(range(1(1)12)) xlabel(1(1)12) xmtick(1(1)12) xtitle("Month", size(small)) ///
 	leg(off) title("Agg Assaults & Attempted Agg Assaults", size(small)) name(aggs, replace)
 ```
@@ -159,9 +159,9 @@ We could stop there, but often we want to be able to look at multiple visualizat
 Notice the first three lines of the code below are the same as in the code to make the homicide graph above. The difference is we'll suppress everything but the legend, which will be centered in the plot region. Name it "graph_leg" (or whatever you want), and include it with the other figures when you run the **graph combine** command. 
 
 ```	
-twoway (rarea homicide_min homicide_max month2, color(gs14)) ///
-	|| line homicide_avg month2, lc(gs0) lp(dash) ///
-	|| line homicide_22 month2 if month2 <= 8, lc(red) lw(thick) ///
+twoway (rarea homicide_min homicide_max month, color(gs14)) ///
+	|| line homicide_avg month, lc(gs0) lp(dash) ///
+	|| line homicide_22 month if month <= 8, lc(red) lw(thick) ///
 	leg(ring(0) pos(0) size(medium) label(1 "Min/Max 2016-21") label(2 "Mean 2016-21") label(3 "2022"))yscale(off) xscale(off) xtitle("") name(graph_leg, replace)
 gr_edit .plotregion1.draw_view.setstyle, style(no) 
 
