@@ -40,7 +40,7 @@ gen agg = 1 if StatuteOrdinanceDescription == "ASSAULT - FELONY - AGGRAVATED" | 
 tabstat agg, by(year) s(sum)
 
 gen rob = 1 if regexm(StatuteOrdinanceDescription, "ROBBERY") == 1
-tastat rob, by(year) s(sum)
+tabstat rob, by(year) s(sum)
 
 local crime "homicide rob agg"
 	foreach i in `crime' {

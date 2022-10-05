@@ -94,7 +94,7 @@ gen agg = 1 if StatuteOrdinanceDescription == "ASSAULT - FELONY - AGGRAVATED" | 
 tabstat agg, by(year) s(sum)
 
 gen rob = 1 if regexm(StatuteOrdinanceDescription, "ROBBERY") == 1
-tastat rob, by(year) s(sum)
+tabstat rob, by(year) s(sum)
 ```
 
 Now we need to create **crime + year** dummies that we'll use for the visualizations. Here's a loop that will do this for each year in the data:
