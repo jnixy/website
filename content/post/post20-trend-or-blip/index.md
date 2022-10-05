@@ -23,7 +23,7 @@ categories: []
 
 Recently, a couple local journalists reached out to me about an apparent surge in shootings and homicides in Omaha. My first instinct when I get those calls around this time of the year is that it's probably seasonal variation. But maybe not. So before I schedule an interview, I like to pull the data and have a quick look, if possible. Fortunately, OPD has been posting incident-level crime data [on its website](https://police.cityofomaha.org/crime-information/incident-data-download) since 2015. 
 
-So below I'm going to share some code that I hope is easily adaptable and will enable you to quickly see if crime is up, down, or consistent with prior years. With apologies to those of you who use R...I realize that by still using Stata I'm quickly becoming a dinosaur. That said, you could check out the very helpful [stata2r package](https://stata2r.github.io/). But even if you can't plug & play with this code, hopefully the logic is still useful.
+So below I'm going to walk through some code that I hope is easily adaptable and will enable you to quickly see if crime is up, down, or consistent with prior years. To save the trouble of copying and pasting each snippet, click the **Code** button at the top of the page. With apologies to those of you who use R...I realize that by still using Stata I'm quickly becoming a dinosaur. That said, you could check out the very helpful [stata2r package](https://stata2r.github.io/). But even if you can't plug & play with this code, hopefully the logic is still useful. 
 
 (***UPDATE***: *Thanks to [Matt Herman](https://twitter.com/buddyherms) for translating my code to R! Get it [here](https://gist.github.com/mfherman/892d8e3861c36a305ec3c8da885d3d2c)*.)
 
