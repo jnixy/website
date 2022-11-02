@@ -51,8 +51,8 @@ NOTE: I'll come back and upload slides for my paper presentations once they're r
 
 #### Authors Meet Critics: *Police-Community Relations in Times of Crisis: Decay and Reform in the Post-Ferguson Era*
 
-Authors: Ross Deuchar, Vaughn Crichlow, Seth Fallik  
-Critics: David Pyrooz, Ken Novak, me
+* Authors: Ross Deuchar, Vaughn Crichlow, Seth Fallik
+* Critics: David Pyrooz, Ken Novak, me
 
 ## Thursday, 11/17
 
@@ -60,8 +60,8 @@ Critics: David Pyrooz, Ken Novak, me
 
 #### Author Meets Critics: *Policing Unrest: On the Front Lines of the Ferguson Protests*
 
-Author: Tammy Kochel  
-Critics: Jacinta Gau, Robert Brown, me
+* Author: Tammy Kochel
+* Critics: Jacinta Gau, Robert Brown, me
 
 ## Friday, 11/18
 
@@ -81,7 +81,7 @@ Assessing the Feasibility and Impact of Using the Violent Criminal Apprehension 
 
 #### Police Culture and Deviance II
 
-Discussant
+* Discussant
 
 ### 2:00 PM - L508
 
