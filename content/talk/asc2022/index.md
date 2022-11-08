@@ -41,9 +41,7 @@ url_slides: ""
 url_video: ""
 ---
 
-I'll be busy again this year at the ASC Conference. Here's a list of all the panels I'll be participating in. 
-
-NOTE: I'll come back and upload slides for my paper presentations once they're ready.
+Here's a list of everything I'll be involved in at this year's ASC Conference. Where possible, I'll circle back and upload slides for the presentations.
 
 ## Wednesday, 11/16
 
