@@ -52,6 +52,8 @@ Here's a list of everything I'll be involved in at this year's ASC Conference. W
 * Authors: Ross Deuchar, Vaughn Crichlow, Seth Fallik
 * Critics: David Pyrooz, Ken Novak, me
 
+***
+
 ## Thursday, 11/17
 
 ### 2:00 PM - International 9
@@ -60,6 +62,8 @@ Here's a list of everything I'll be involved in at this year's ASC Conference. W
 
 * Author: Tammy Kochel
 * Critics: Jacinta Gau, Robert Brown, me
+
+***
 
 ## Friday, 11/18
 
@@ -77,11 +81,15 @@ Here's a list of everything I'll be involved in at this year's ASC Conference. W
 * w/Tara Richards, Michaela Goldsmith, Emily Wright, Brad Campbell, and Scott Mourtgos
 * ABSTRACT: In 2018 new federal Sexual Assault Kit Initiative (SAKI) requirements dictated the submission of appropriate cases from SAKI projects to the Violent Criminal Apprehension Program (ViCAP). ViCAP was originally established in 1985 to aide coordination and collaboration across law enforcement agencies in the investigation of violent crimes – primarily serial homicides and sexual assaults. The ViCAP database provides a repository of behavioral and investigative information of violent crimes for participating agencies across the country (Office of Justice Programs, 2018). Discussions on the importance of ViCAP and continued cross-agency communication in the investigation of sexual assault cases are prevalent, but previous research on the usefulness of ViCAP in criminal investigations has largely focused on serial homicides, not sexual assaults (Howlett et al., 1986). Comparatively, little research has investigated the utility of ViCAP for SAKI project stakeholders or the impact of using ViCAP on investigation outcomes for sexual assault cases. We will discuss findings from an examination of case level data from the Minnesota SAKI project regarding case submissions to ViCAP and impacts on case outcomes. We will also present common themes from interviews of SAKI personnel on the viability and usefulness of ViCAP for investigating sexual assault cases.
 
+***
+
 ### 9:30 AM - L507
 
 #### Police Culture and Deviance II
 
 * Discussant
+
+***
 
 ### 2:00 PM - L508
 
@@ -97,6 +105,8 @@ Here's a list of everything I'll be involved in at this year's ASC Conference. W
 * w/Erin Kearns, Sadaf Hashimi, and Jessie Huff
 * ABSTRACT: The study aims to better understand current policies and procedures used to screen for and identify insider threats in the law enforcement hiring process and among active officers. Specifically, we are interested in a) how law enforcement agencies currently conduct background screenings to identify potential insider threats during and after the hiring process, b) what information law enforcement agencies around the country ask as part of their hiring and screening processes, and c) what policies and procedures currently exist to mitigate risks from insider threats across U.S law enforcement departments. With a stratified random sample of 4,000 local police and sheriff’s departments, we use a survey design to ask about agency hiring and screening policies and procedures. Surveys will be fielded in April 2022 and findings will be presented at the conference. Findings will shed light on the law enforcement hiring process, which is an understudied aspect of policing though also one that potentially opens agencies up to insider threats.
 
+***
+
 ### 3:30 PM - L508
 
 #### Violence in Policing in the United States and Canada (Organized by the Division of Policing)
@@ -110,5 +120,3 @@ Here's a list of everything I'll be involved in at this year's ASC Conference. W
 
 * w/Michael Sierra-Arévalo and Scott Mourtgos
 * ABSTRACT: To assess renewed claims that retaliatory violence against officers has made policing more dangerous in the wake of the George Floyd murder. Using data collected by the Gun Violence Archive on firearm assaults of U.S. police officers, we first descriptively assess trends in gun violence directed at officers between 2014 and 2020. Second, we use Bayesian structural time series (BSTS) modeling to examine how patterns of firearm assault on U.S. police officers were influenced by the police murder of George Floyd. Our descriptive analysis finds little evidence of a sharp or sustained increase in firearm assaults of police since 2014. Our BSTS analysis finds that the murder of George Floyd was associated with a 3-week spike in firearm assaults on police, after which the trend in firearms assaults dropped to levels only slightly above that which were predicted by pre-Floyd data. We discuss potential explanations for these patterns and the implications of our findings for ongoing discussion of the “war on cops,” officer safety, and violence.
-
-
