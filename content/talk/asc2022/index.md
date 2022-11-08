@@ -4,7 +4,6 @@ all_day: false
 authors: 
 - admin
 date: "2022-11-16T08:00:00Z"
-date_end: "2022-11-19T12:00:00Z"
 event: American Society of Criminology
 event_url: https://asc41.com/events/2022-asc-annual-meeting/
 featured: false
