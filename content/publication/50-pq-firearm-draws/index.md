@@ -18,7 +18,7 @@ publication_types:
 - "2"
 publishDate: "2022-11-25T09:00:00Z"
 slides: ""
-summary: ""
+summary: "We model the factors associated with officers displaying their firearms in 4 agencies."
 tags:
 - Police
 - Use of Force
