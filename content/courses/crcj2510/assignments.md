@@ -3,7 +3,7 @@ date: "2022-11-30T14:00:00"
 draft: false
 linktitle: Assignments
 menu:
-  crcj2030:
+  crcj2510:
     parent: 2. Course Content
     weight: 2
 title: Assignments

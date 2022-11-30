@@ -3,7 +3,7 @@ date: "2022-01-06T13:00:00"
 draft: false
 linktitle: Lectures
 menu:
-  crcj2030:
+  crcj2510:
     parent: 2. Course Content
     weight: 1
 title: Lectures

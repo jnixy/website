@@ -4,7 +4,7 @@ draft: false
 lastmod: "2022-11-30T14:00:00Z"
 linktitle: CRCJ 2510 - Research Methods
 menu:
-  crcj2030:
+  crcj2510:
     name: Overview
     weight: 1
 summary: The primary goal of this undergraduate course is to facilitate students' growth as both consumers and producers of research. We will explore a variety of methodologies (e.g., survey research/self-report, official stats/secondary data, quasi-experimental design, etc.) used in criminological and criminal justice research. Further, we will evaluate these methodologies within the context of design concerns such as: research purpose, operationalization, validity, reliability, and ethics.

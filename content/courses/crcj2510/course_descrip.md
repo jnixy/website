@@ -3,7 +3,7 @@ date: "2022-11-30T14:00:00"
 draft: false
 linktitle: Course Description
 menu:
-  crcj2030:
+  crcj2510:
     parent: 1. Syllabus
     weight: 1
 title: Course Description
