@@ -11,7 +11,7 @@ summary: This graduate course covers a variety of topics that are fundamental to
 title: CRCJ 9130 - Advanced Research on Policing
 toc: true
 type: docs
-weight: 1
+weight: 40
 ---
 
 ## Spring 2021

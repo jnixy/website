@@ -12,7 +12,7 @@ title: CRCJ 2510 - Research Methods
 toc: true
 type: docs
 url_syllabus: "crcj2510-syllabus.pdf"
-weight: 1
+weight: 20
 ---
 
 ## Spring 2023

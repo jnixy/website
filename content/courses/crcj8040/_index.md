@@ -11,7 +11,7 @@ summary: This graduate course pushes students to think critically about the role
 title: CRCJ 8040 - Police & Society
 toc: true
 type: docs
-weight: 1
+weight: 30
 ---
 
 ## Fall 2022

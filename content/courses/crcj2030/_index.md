@@ -12,7 +12,7 @@ title: CRCJ 2030 - Police & Society
 toc: true
 type: docs
 url_syllabus: "crcj2030-syllabus.pdf"
-weight: 1
+weight: 10
 ---
 
 ## Spring 2022
