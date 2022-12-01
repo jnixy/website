@@ -18,84 +18,84 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ![calendar](/courses/crcj2510_calendar_spring23.png)
 
-## Week 1
+## Week 1 | 1/23
 
 * Tuesday: Intro / Review syllabus
 * Thursday: Chapter 1 - Science, society, and criminological research
 
-## Week 2
+## Week 2 | 1/30
 
 * Tuesday: Chapter 1 - Science, society, and criminological research
 * Thursday: Chapter 2 - The process and problems of criminological research
 
-## Week 3
+## Week 3 | 2/6
 
 * Tuesday: Chapter 2 - The process and problems of criminological research
 * Thursday: Chapter 3 - Research ethics and philosophies
 
-## Week 4
+## Week 4 | 2/13
 
 * Tuesday: Chapter 3 - Research ethics and philosophies
 * Thursday: Chapter 4 - Conceptualization and measurement
 
-## Week 5
+## Week 5 | 2/20
 
 * Tuesday: Chapter 4 - Conceptualization and measurement
 * Thursday: **Exam #1**
 
-## Week 6
+## Week 6 | 2/27
 
 * Tuesday: Chapter 5 - Sampling
 * Thursday: Chapter 5 - Sampling
 
-## Week 7 
+## Week 7 | 3/6
 
 * Tuesday: Chapter 6 - Causation and research design
 * Thursday: Chapter 6 - Causation and research design
 
-## Week 8
+## Week 8 | 3/13
 
 * **Spring Break - no class**
 
-## Week 9
+## Week 9 | 3/20
 
 * Tuesday: Chapter 7 - Survey research
 * Thursday: Chapter 7 - Survey research
 
-## Week 10
+## Week 10 | 3/27
 
 * Tuesday: Chapter 8 - Qualitative methods and data analysis
 * Thursday: Chapter 8 - Qualitative methods and data analysis
 
-## Week 11
+## Week 11 | 4/3
 
 * Tuesday: **Exam 2**
 * Thursday: Chapter 9 - Analyzing content
 
-## Week 12 
+## Week 12 | 4/10
 
 * Tuesday: Chapter 9 - Analyzing content
 * Thursday: Chapter 10 - Evaluation and policy analysis
 
-## Week 13
+## Week 13 | 4/17
 
 * Tuesday: Chapter 10 - Evaluation and policy analysis
 * Thursday: Chapter 11 - Mixing and comparing methods
 
-## Week 14
+## Week 14 | 4/24
 
 * Tuesday: Chapter 11 - Mixing and comparing methods
 * Thursday: Chapter 12 - Reporting research results
 
-## Week 15 
+## Week 15 | 5/1
 
 * Tuesday: Chapter 12 - Reporting research results
 * Thursday: Review for final
 
-## Week 16
+## Week 16 | 5/8
 
 * **Prep Week - no class**
 
-## Week 17
+## Week 17 | 5/15
 
 * Tuesday: **Final Exam**
