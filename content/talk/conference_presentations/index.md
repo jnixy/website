@@ -42,9 +42,9 @@ url_video: ""
 
 Rather than continue listing conference presentations ad nauseum on [my CV](https://jnix.netlify.app/files/cv.pdf), I've decided to archive them here. For some of these, you can download the presentation by clicking the "Slides" link that appears after the presentation title. Note that a \* indicates the co-author is a graduate student.
 
-➡️ *Jump to: [American Society of Criminology](#american-society-of-criminology), [American Sociological Association](#american-sociological-association), [Southern Criminal Justice Association](#southern-criminal-justice-association)*
+➡️ *Jump to: [American Society of Criminology](#asc), [American Sociological Association](#asa), [Southern Criminal Justice Association](#scja)*
 
-## [Academy of Criminal Justice Sciences](https://www.acjs.org/)
+## [Academy of Criminal Justice Sciences](https://www.acjs.org/) {#acjs}
 
 ### 60th Annual Meeting: National Harbor, MD
 
@@ -66,7 +66,7 @@ Rather than continue listing conference presentations ad nauseum on [my CV](http
 
 * **Nix, Justin**. (2015). Does legitimacy promote cooperation among the public? A survey of U.S. police executives.
 
-## [American Society of Criminology](https://asc41.com/)
+## [American Society of Criminology](https://asc41.com/) {#asc}
 
 ### 78th Annual Meeting: Atlanta, GA
 
@@ -140,7 +140,7 @@ Rather than continue listing conference presentations ad nauseum on [my CV](http
 
 * **Nix, Justin**, Jeff Rojek, & Robert J. Kaminski. (2012). Immigration and law enforcement: Results from a state census of police executives.
 
-## [American Sociological Association](https://www.asanet.org/)
+## [American Sociological Association](https://www.asanet.org/) {#asa}
 
 ### 114th Annual Meeting: New York, NY
 
@@ -150,7 +150,7 @@ Rather than continue listing conference presentations ad nauseum on [my CV](http
 
 * **Nix, Justin**. (2018). Was there a Ferguson Effect on policing? Examining police perceptions and behaviors in the post-Ferguson era.
 
-## [Southern Criminal Justice Association](https://www.southerncj.org/)
+## [Southern Criminal Justice Association](https://www.southerncj.org/) {#scja}
 
 ### 43rd Annual Meeting: Charleston, SC
 
