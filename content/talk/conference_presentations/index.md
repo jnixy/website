@@ -42,7 +42,7 @@ url_video: ""
 
 Rather than continue listing conference presentations ad nauseum on [my CV](https://jnix.netlify.app/files/cv.pdf), I've decided to archive them here. For some of these, you can download the presentation by clicking the "Slides" link that appears after the presentation title. Note that a \* indicates the co-author is a graduate student.
 
-➡️ *Jump to: [American Society of Criminology](https://jnix.netlify.app/talk/conference_presentations/#american-society-of-criminology), [American Sociological Association](https://jnix.netlify.app/talk/conference_presentations/#american-sociological-association), [Southern Criminal Justice Association](https://jnix.netlify.app/talk/conference_presentations/#southern-criminal-justice-association)*
+➡️ *Jump to: [American Society of Criminology](#american-society-of-criminology), [American Sociological Association](#american-sociological-association), [Southern Criminal Justice Association](#southern-criminal-justice-association)*
 
 ## [Academy of Criminal Justice Sciences](https://www.acjs.org/)
 
