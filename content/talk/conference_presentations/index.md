@@ -48,23 +48,23 @@ Rather than continue listing conference presentations ad nauseum on [my CV](http
 
 ### 60th Annual Meeting: National Harbor, MD
 
-* Mourtgos, Scott\*, Ian Adams, & **Justin Nix** (2023). "Police turnover: Further empirical evidence of a growing police workforce crisis in the US."
+* Mourtgos, Scott\*, Ian Adams, & **Justin Nix** (2023). Police turnover: Further empirical evidence of a growing police workforce crisis in the US.
 
 ### 59th Annual Meeting: Las Vegas, NV
 
-* **Nix, Justin**, Jessie Huff, Scott Wolfe, & David Pyrooz. (2022). "COVID-19, George Floyd protests, and a violent crime spike: The Denver experience." ([Slides](https://jnix.netlify.app/slides/acjs22/))
+* **Nix, Justin**, Jessie Huff, Scott Wolfe, & David Pyrooz. (2022). COVID-19, George Floyd protests, and a violent crime spike: The Denver experience. ([Slides](https://jnix.netlify.app/slides/acjs22/))
 
 ### 54th Annual Meeting: Kansas City, MO
 
-* **Nix, Justin**, Scott E. Wolfe, & Bradley A. Campbell. (2017). "Do suspect race and demeanor influence officers' willingness to use procedural fairness?"
+* **Nix, Justin**, Scott E. Wolfe, & Bradley A. Campbell. (2017). Do suspect race and demeanor influence officers' willingness to use procedural fairness? ([Slides](https://jnix.netlify.app/files/acjs2017.pdf))
 
 ### 53rd Annual Meeting: Denver, CO
 
-* **Nix, Justin** & Scott E. Wolfe. (2016). "Sensitivity to the Ferguson Effect."
+* **Nix, Justin** & Scott E. Wolfe. (2016). Sensitivity to the Ferguson Effect.
 
 ### 52nd Annual Meeting: Orlando, FL
 
-* **Nix, Justin**. (2015). "Does legitimacy promote cooperation among the public? A survey of U.S. police executives."
+* **Nix, Justin**. (2015). Does legitimacy promote cooperation among the public? A survey of U.S. police executives.
 
 ## [American Society of Criminology](https://asc41.com/)
 
@@ -82,76 +82,76 @@ Rather than continue listing conference presentations ad nauseum on [my CV](http
 
 ### 77th Annual Meeting: Chicago, IL
 
-* **Nix, Justin** & John Shjarback. (2021). "Factors associated with police shooting mortality: A focus on race and a plea for more comprehensive data." ([Slides](https://jnix.netlify.app/slides/asc21_pone_paper/#1))
+* **Nix, Justin** & John Shjarback. (2021). Factors associated with police shooting mortality: A focus on race and a plea for more comprehensive data. ([Slides](https://jnix.netlify.app/slides/asc21_pone_paper/#1))
 
-* McLean, Kyle & **Justin Nix**. (2021). "Weber, legitimacy, and police empowerment: Experimental results from a survey of US adults." ([Slides](https://jnix.netlify.app/slides/asc21_jq_weberlegitimacy/#1))  
+* McLean, Kyle & **Justin Nix**. (2021). Weber, legitimacy, and police empowerment: Experimental results from a survey of US adults. ([Slides](https://jnix.netlify.app/slides/asc21_jq_weberlegitimacy/#1))  
 
-* Nam, Yongjae\*, Scott Wolfe, & **Justin Nix**. (2021). "Does procedural justice protect against the adverse effects of perceived ineffectiveness on police legitimacy?" 
+* Nam, Yongjae\*, Scott Wolfe, & **Justin Nix**. (2021). Does procedural justice protect against the adverse effects of perceived ineffectiveness on police legitimacy? 
 
-* Richards, Tara, **Justin Nix**, Scott Mourtgos\*, & Ian Adams\*. (2021). "911 and domestic violence service emergency hotline calls before and during COVID-19." 
+* Richards, Tara, **Justin Nix**, Scott Mourtgos\*, & Ian Adams\*. (2021). 911 and domestic violence service emergency hotline calls before and during COVID-19. 
 
-* Adams, Ian\*, Scott Mourtgos\*, & **Justin Nix**. (2021). "Elevated police turnover following the summer of George Floyd protests: A synthetic control study. 
+* Adams, Ian\*, Scott Mourtgos\*, & **Justin Nix**. (2021). Elevated police turnover following the summer of George Floyd protests: A synthetic control study. 
 
 ### 75th Annual Meeting: San Francisco, CA
 
-* **Nix, Justin**, Natalie Todak, & Brandon Tregle\*. (2019). "Predictors of body-worn camera diffusion amidst the push for greater transparency in 21st Century policing in the United States." ([Slides](https://jnix.netlify.app/files/asc19_slides.pdf))
+* **Nix, Justin**, Natalie Todak, & Brandon Tregle\*. (2019). Predictors of body-worn camera diffusion amidst the push for greater transparency in 21st Century policing in the United States. ([Slides](https://jnix.netlify.app/files/asc19_slides.pdf))
 
 ### 74th Annual Meeting: Atlanta, GA
 
-* **Nix, Justin**, Scott E. Wolfe, Justin T. Pickett, & Brandon Tregle\*. (2018). "An exploration of the sources of self-legitimacy among a US sample of municipal police executives."
+* **Nix, Justin**, Scott E. Wolfe, Justin T. Pickett, & Brandon Tregle\*. (2018). An exploration of the sources of self-legitimacy among a US sample of municipal police executives.
 
-* Chao, Weng-Fong\*, **Justin Nix**, & Joseph A. Schwartz. (2018). "Do residents perceive their neighborhoods similarly? Assessing measurement invariance of collective efficacy among residents in a Southeastern city."
+* Chao, Weng-Fong\*, **Justin Nix**, & Joseph A. Schwartz. (2018). Do residents perceive their neighborhoods similarly? Assessing measurement invariance of collective efficacy among residents in a Southeastern city.
 
-* Tregle, Brandon\*, **Justin Nix**, Justin T. Pickett, & Scott E. Wolfe. (2018). "Police executives' willingness to be transparent with body-worn camera footage: Experimental findings from a national survey."
+* Tregle, Brandon\*, **Justin Nix**, Justin T. Pickett, & Scott E. Wolfe. (2018). Police executives' willingness to be transparent with body-worn camera footage: Experimental findings from a national survey.
 
 ### 73rd Annual Meeting: Philadelphia, PA
 
-* Anderson, Amy, **Justin Nix**, & Samantha Clinkinbeard. (2017). "Culpable cops? College students' attitudes toward police shootings of unarmed civilians in the aftermath of Ferguson."
+* Anderson, Amy, **Justin Nix**, & Samantha Clinkinbeard. (2017). Culpable cops? College students' attitudes toward police shootings of unarmed civilians in the aftermath of Ferguson.
 
-* **Nix, Justin**, Scott E. Wolfe, & Bradley A. Campbell. (2017). "The (in)variance of police self-legitimacy."
+* **Nix, Justin**, Scott E. Wolfe, & Bradley A. Campbell. (2017). The (in)variance of police self-legitimacy.
 
-* Pickett, Justin T. & **Justin Nix**. (2017). "Demeanor and police culture: Theorizing how procedurally just cooperation influences police officers."
+* Pickett, Justin T. & **Justin Nix**. (2017). Demeanor and police culture: Theorizing how procedurally just cooperation influences police officers.
 
 ### 72nd Annual Meeting: New Orleans, LA
 
-* Pinchevsky, Gillian M. & **Justin Nix**. (2016). "A closer look at domestic disturbances that resulted in fatal shootings by police in 2015."
+* Pinchevsky, Gillian M. & **Justin Nix**. (2016). A closer look at domestic disturbances that resulted in fatal shootings by police in 2015.
 
-* **Nix, Justin**, Bradley A. Campbell, Edward H. Byers\*, & Geoffrey P. Alpert. (2016). "A bird's eye view of civilians killed by police in 2015: Further evidence of shooter bias."
+* **Nix, Justin**, Bradley A. Campbell, Edward H. Byers\*, & Geoffrey P. Alpert. (2016). A bird's eye view of civilians killed by police in 2015: Further evidence of shooter bias.
 
-* Campbell, Bradley A., **Justin Nix**, & Edward R. Maguire. (2016). "Civilians killed by police pre- and post-Ferguson: A time-series analysis."
+* Campbell, Bradley A., **Justin Nix**, & Edward R. Maguire. (2016). Civilians killed by police pre- and post-Ferguson: A time-series analysis.
 
-* Byers, Edward H.\*, Bradley A. Campbell, & **Justin Nix**. (2016). "Less-lethal force? An in-depth look at 50 civilians killed by conductive energy devices in 2015."
+* Byers, Edward H.\*, Bradley A. Campbell, & **Justin Nix**. (2016). Less-lethal force? An in-depth look at 50 civilians killed by conductive energy devices in 2015.
 
 ### 71st Annual Meeting: Washington, DC
 
-* Wolfe, Scott E. & **Justin Nix**. (2015). "Does officer self-legitimacy minimize the impact of supervisor procedural injustice? Police organizational trust and sensitivity to the Ferguson Effect." 
+* Wolfe, Scott E. & **Justin Nix**. (2015). Does officer self-legitimacy minimize the impact of supervisor procedural injustice? Police organizational trust and sensitivity to the Ferguson Effect. 
 
-* Smith, Michael R., Jeff Rojek, **Justin Nix**, & Matthew Petrocelli. (2015). "Use of Social Media by Alleged Members of Transnational Criminal Organizations."
+* Smith, Michael R., Jeff Rojek, **Justin Nix**, & Matthew Petrocelli. (2015). Use of social media by alleged members of transnational criminal organizations.
 
 ### 70th Annual Meeting: San Francisco, CA
 
-* **Nix, Justin**. (2014). "Legitimacy in the eye of the beholder? The case of a southeastern sheriff's department."
+* **Nix, Justin**. (2014). Legitimacy in the eye of the beholder? The case of a southeastern sheriff's department.
 
 ### 69th Annual Meeting: Atlanta, GA
 
-* **Nix, Justin**, Jeff Rojek, Scott E. Wolfe, & Robert J. Kaminski. (2013). "Influencing police organizational change: Who are the key players?"
+* **Nix, Justin**, Jeff Rojek, Scott E. Wolfe, & Robert J. Kaminski. (2013). Influencing police organizational change: Who are the key players?
 
 ### 68th Annual Meeting: Chicago, IL
 
-* **Nix, Justin**, Jeff Rojek, & Robert J. Kaminski. (2012). "Immigration and law enforcement: Results from a state census of police executives."
+* **Nix, Justin**, Jeff Rojek, & Robert J. Kaminski. (2012). Immigration and law enforcement: Results from a state census of police executives.
 
 ## [American Sociological Association](https://www.asanet.org/)
 
 ### 114th Annual Meeting: New York, NY
 
-* **Nix, Justin** & Geoffrey P. Alpert. (2019). "Crowdsourced police shooting data: What we know and what we're missing." ([Slides](https://jnix.netlify.app/files/asa19_slides.pdf))
+* **Nix, Justin** & Geoffrey P. Alpert. (2019). Crowdsourced police shooting data: What we know and what we're missing. ([Slides](https://jnix.netlify.app/files/asa19_slides.pdf))
 
 ### 113th Annual Meeting: Philadelphia, PA
 
-* **Nix, Justin**. (2018). "Was there a Ferguson Effect on policing? Examining police perceptions and behaviors in the post-Ferguson era."
+* **Nix, Justin**. (2018). Was there a Ferguson Effect on policing? Examining police perceptions and behaviors in the post-Ferguson era.
 
 ## [Southern Criminal Justice Association](https://www.southerncj.org/)
 
 ### 43rd Annual Meeting: Charleston, SC
 
-* **Nix, Justin** & Scott E. Wolfe. (2015). "The impact of negative publicity on police self-legitimacy."
+* **Nix, Justin** & Scott E. Wolfe. (2015). The impact of negative publicity on police self-legitimacy.
