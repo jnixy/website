@@ -3,9 +3,6 @@ abstract: ""
 all_day: false
 authors: 
 - admin
-date: ""
-event: 
-event_url:
 featured: false
 image:
   caption: ""
@@ -40,9 +37,9 @@ url_slides: ""
 url_video: ""
 ---
 
-Rather than continue listing all these ad nauseum on [my CV](https://jnix.netlify.app/files/cv.pdf), I've decided to archive them here. For some of these, you can download the presentation by clicking the "Slides" link that appears after the presentation title. Note that a \* indicates the co-author is a graduate student.
+Rather than continue listing conference presentations ad nauseum on [my CV](https://jnix.netlify.app/files/cv.pdf), I've decided to archive them here. For some of these, you can download the presentation by clicking the "Slides" link that appears after the presentation title. Note that a \* indicates the co-author is a graduate student.
 
-➡️ *Jump to: [American Society of Criminology](https://jnix.netlify.app/talk/conference_presentations/american-society-of-criminology), [American Sociological Association](https://jnix.netlify.app/talk/conference_presentations/american-sociological-association), [Southern Criminal Justice Association](https://jnix.netlify.app/talk/conference_presentations/southern-criminal-justice-association)*
+➡️ *Jump to: [American Society of Criminology](https://jnix.netlify.app/talk/conference_presentations/#american-society-of-criminology), [American Sociological Association](https://jnix.netlify.app/talk/conference_presentations/#american-sociological-association), [Southern Criminal Justice Association](https://jnix.netlify.app/talk/conference_presentations/#southern-criminal-justice-association)*
 
 # [Academy of Criminal Justice Sciences](https://www.acjs.org/)
 
@@ -52,7 +49,7 @@ Rather than continue listing all these ad nauseum on [my CV](https://jnix.netlif
 
 ## 59th Annual Meeting: Las Vegas, NV
 
-* **Nix, Justin**, Jessie Huff, Scott Wolfe, & David Pyrooz. (2022). COVID-19, George Floyd protests, and a violent crime spike: The Denver experience. ([Slides](https://jnix.netlify.app/slides/acjs22/))
+* **Nix, Justin**, Jessie Huff, Scott Wolfe, & David Pyrooz. (2022). "COVID-19, George Floyd protests, and a violent crime spike: The Denver experience." ([Slides](https://jnix.netlify.app/slides/acjs22/))
 
 ## 54th Annual Meeting: Kansas City, MO
 
