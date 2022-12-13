@@ -1,6 +1,6 @@
 ---
 abstract: ""
-all_day: false
+all_day: true
 authors: 
 - admin
 featured: false
@@ -15,6 +15,9 @@ links:
 location: 
 math: true
 projects: ""
+date: "2012-11-14T15:30:00Z"
+date_end: "2023-03-15T09:30:00Z"
+event: "Various"
 publishDate: "2022-12-13T11:00:00Z"
 slides: ""
 doi: 
