@@ -27,7 +27,7 @@ It took me, on average, about 3.5 weeks to submit my reviews. Note that the outl
 
 ![time](time.png)
 
-One final thing I wanted to check is how often my initial recommendation was at (in)consistent with the Editor's decision. Last year, my vote was consistent with the Editor's decision 12 times and inconsistent 5 times (3 papers still TBD). So roughly 30% of the time, what I recommended for a paper was inconsistent with what the Editor decided. And that's been pretty consistent over the last 5 years. 
+One final thing I wanted to check is how often my initial recommendation was (in)consistent with the Editor's decision. Last year, my vote was consistent with the Editor's decision 12 times and inconsistent 5 times (3 papers still TBD). So roughly 30% of the time, what I recommended for a paper was inconsistent with what the Editor decided. And that's been pretty stable over the last 5 years. 
 
 ![consistency](consistency.png)
 
