@@ -19,11 +19,11 @@ url_pdf: ""
 
 About 2 years ago I [posted](https://jnix.netlify.app/post/post14-my-reviewer-history/) about my peer review "stats" and how I typically approach the review process. Today, I decided to look back at my reviews for 2022. 
 
-Altogether, I've now reviewed 162 manuscripts. Last year, I agreed to review 20 manuscripts for 15 different journals, which is par for the course for me. I've completed 19 as of today (the last is due in a few weeks). Of those 19, I recommended conditionally accepting 2, revising and resubmitting 5, and rejecting 12. 
+Altogether, I've now reviewed 162 manuscripts. Last year, I agreed to review 20 manuscripts for 15 different journals, which is par for the course for me. I've completed 19 as of today (the last is due in a few weeks). Of those 19, I recommended conditionally accepting 2 (11%), revising and resubmitting 5 (26%), and rejecting 12 (63%). Since 2015, I've recommended conditionally accepting 9%, revising and resubmitting 44%, and rejecting 47% of papers I've reviewed.
 
 ![scores](scores.png)
 
-It took me, on average, about 3.5 weeks to submit my reviews. Note that the outlier below was for a special issue where the Guest Editor gave a much longer deadline than usual, so I was in no particular hurry. I was late 4 times - by one day on 3 occasions, and by 5 days on one occasion. FWIW, whenever I know I won't meet the deadline, I always email the Editor and/or Managing Editor to give them a heads up. And at least thus far, that's never been a problem.
+In 2022 it took me, on average, about 3.5 weeks to submit my reviews. Note that the outlier below was for a special issue where the Guest Editor gave a much longer deadline than usual, so I was in no particular hurry. I was late 4 times - by one day on 3 occasions, and by 5 days on one occasion.
 
 ![time](time.png)
 
