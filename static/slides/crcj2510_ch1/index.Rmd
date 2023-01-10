@@ -132,10 +132,9 @@ class: top
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "55%"}
-knitr::include_graphics("blinders.jpg")
+```{r, echo=FALSE, fig.align='center', fig.cap='Credit: @thesocycinema', out.width = "88%"}
+knitr::include_graphics("blinders.png")
 ```
-<p style="text-align: center; color: gray">.small[Image by [Emilio Labrador](https://flickr.com/photos/3059349393/) on [Flickr](https://flic.kr/p/dbWTNt), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]</p>
 
 ???
 
