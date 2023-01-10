@@ -18,7 +18,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 1
 
-[Science, society, and criminological research](https://jnix.netlify.app/slides/crcj510_ch1/)
+[Science, society, and criminological research](https://jnix.netlify.app/slides/crcj2510_ch1/)
 
 ## Chapter 2
 
