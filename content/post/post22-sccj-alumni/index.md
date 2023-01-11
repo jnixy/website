@@ -37,6 +37,7 @@ Three things to keep in mind:
 2.	A few graduates had been working in academia at one point, but have since moved on to other opportunities. 
 
 3.	I haven’t yet tried to parse out the “other” category as Andy did (i.e., government, private sector, think tanks). That’s not meant as a slight – I was just shocked at the % who are currently working in academia and haven’t gotten around to doing the rest of the work yet. 
+
 Other than what Andy shared about SUNY Albany, I have no idea how we stack up against other PhD-granting Crim/CJ programs. But this strikes me as an impressive track record.
 
 Onward and upward!
