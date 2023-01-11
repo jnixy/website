@@ -6,7 +6,7 @@ date: "2023-01-11T13:45:00Z"
 draft: false
 featured: false
 image:
-  caption: "[Image](https://commons.wikimedia.org/wiki/File:User-phd-group.svg) by RRZEicons on Wikimedia Commons, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)"
+  caption: "[Image](https://commons.wikimedia.org/wiki/File:435-graduation-cap.svg) by Vincent Le Moign on Wikimedia Commons, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)"
   focal_point: "smart"
 projects: []
 subtitle: ""
