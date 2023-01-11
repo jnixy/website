@@ -8,7 +8,7 @@ featured: false
 image:
   caption: ""
   focal_point: "smart"
-  placement: 2
+  placement: 3
 projects: []
 subtitle: ""
 summary: 
