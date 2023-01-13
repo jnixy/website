@@ -12,8 +12,9 @@ type: docs
 weight: 1
 ---
 
-## Assignment 1: TBA
+## Assignment 1: [Summarizing Empirical Research](https://jnix.netlify.app/courses/crcj2510/assignment-1.pdf)
 
+→ *Due in class on February 7th*
 
 </br>
 
