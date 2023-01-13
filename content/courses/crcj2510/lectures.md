@@ -22,7 +22,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 2
 
-[The process and problems of criminological research]
+[The process and problems of criminological research](https://jnix.netlify.app/slides/crcj2510_ch2/)
 
 ## Chapter 3
 
