@@ -30,7 +30,8 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## Week 3 | 2/6
 
-* Tuesday: Chapter 2 - The process and problems of criminological research ([Assignment #1](https://jnix.netlify.app/courses/crcj2510/assignment-1.pdf) due)
+* Tuesday: Chapter 2 - The process and problems of criminological research
+  - ([Assignment #1](https://jnix.netlify.app/courses/crcj2510/assignment-1.pdf) due)
 * Thursday: Chapter 3 - Research ethics and philosophies
 
 ## Week 4 | 2/13
