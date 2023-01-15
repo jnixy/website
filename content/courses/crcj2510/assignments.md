@@ -16,20 +16,12 @@ weight: 1
 
 → *Due in class on February 7th*
 
-</br>
-
 ## Assignment 2: [Doing Some Basic Data Analysis in Excel](https://jnix.netlify.app/courses/crcj2510/assignment-2.docx)
 
 → *Due in class on March 2nd*
 
-</br>
-
 ## Assignment 3: TBA
 
-</br>
-
 ## Assignment 4: TBA
-
-</br>
 
 ## Assignment 5: TBA
