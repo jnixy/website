@@ -18,7 +18,9 @@ weight: 1
 
 </br>
 
-## Assignment 2: TBA
+## Assignment 2: [Doing Some Basic Data Analysis in Excel](https://jnix.netlify.app/courses/crcj2510/assignment-2.doc)
+
+→ *Due in class on March 2nd*
 
 </br>
 

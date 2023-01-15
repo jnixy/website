@@ -48,6 +48,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 * Tuesday: Chapter 5 - Sampling
 * Thursday: Chapter 5 - Sampling
+  - ([Assignment #2](https://jnix.netlify.app/courses/crcj2510/assignment-2.doc) due)
 
 ## Week 7 | 3/6
 
