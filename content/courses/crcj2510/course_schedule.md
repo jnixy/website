@@ -68,6 +68,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 * Tuesday: Chapter 8 - Qualitative methods and data analysis
 * Thursday: Chapter 8 - Qualitative methods and data analysis
+  - ([Assignment #3](https://jnix.netlify.app/courses/crcj2510/assignment-3.pdf) due)
 
 ## Week 11 | 4/3
 
@@ -78,6 +79,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 * Tuesday: Chapter 9 - Analyzing content
 * Thursday: Chapter 10 - Evaluation and policy analysis
+  - ([Assignment #4](https://jnix.netlify.app/courses/crcj2510/assignment-4.pdf) due)
 
 ## Week 13 | 4/17
 
@@ -93,6 +95,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 * Tuesday: Chapter 12 - Reporting research results
 * Thursday: Review for final
+  - ([Assignment #5](https://jnix.netlify.app/courses/crcj2510/assignment-5.docx) due)
 
 ## Week 16 | 5/8
 
