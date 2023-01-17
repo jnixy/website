@@ -26,7 +26,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 3
 
-[Research ethics and philosophies]
+[Research ethics and philosophies](https://jnix.netlify.app/slides/crcj2510_ch3/)
 
 ## Chapter 4
 
