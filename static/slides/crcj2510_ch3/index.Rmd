@@ -3,7 +3,7 @@ title: "Chapter 3"
 subtitle: "Research Ethics and Philosophies"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 14, 2023"
+date: "Feb. 9, 2023"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 14, 2023]
+.white[February 9, 2023]
 
 ---
 class: middle, center
