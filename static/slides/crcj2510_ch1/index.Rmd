@@ -658,12 +658,11 @@ knitr::include_graphics("mirror.png")
 ```
 
 ---
-class: top, center, inverse
-
-# Have a great day! 😄
+class: middle, center, inverse
 
 ![maguire](show-me.jpg)
 
+# Have a great day! 😄
 
 <!-- ```{css, echo=FALSE} -->
 <!-- @media print { -->
