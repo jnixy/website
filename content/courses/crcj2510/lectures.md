@@ -30,7 +30,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 4
 
-[Conceptualization and measurement]
+[Conceptualization and measurement](https://jnix.netlify.app/slides/crcj2510_ch4/)
 
 ## Chapter 5
 
