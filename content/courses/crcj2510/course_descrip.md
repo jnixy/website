@@ -34,16 +34,16 @@ Email is the best way to reach me with questions or concerns. Please include the
 
 There will be *three* exams over the course of the semester, comprised of multiple choice and short-answer questions drawn from the assigned readings and class discussions. You will have the entire class session to complete each exam. *Each exam is worth 25% of your final grade.*
 
-### Other Assignments
+### Homework Assignments
 
-Periodically, you will be required to complete reading quizzes, writing assignments, or group activities. Collectively, *these will account for the remaining 25% of your final grade.*
+There will be 5 [homework assignments](https://jnix.netlify.app/courses/crcj2510/assignments/) over the course of the semester. They will require you to seek out and read social science research and do some basic data analysis in [JASP](https://jasp-stats.org/download/), among other things. Collectively, the homework assignments will account for the remaining 25% of your grade.
 
 ## Grades 
 
 * Exam 1: 25%
 * Exam 2: 25%
 * Exam 3: 25%
-* Other Assignments: 25%
+* Assignments: 25%
 
 These weighted scores will be added up at the end of the semester to generate your overall grade in the course:
 
