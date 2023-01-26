@@ -34,7 +34,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 5
 
-[Sampling]
+[Sampling](https://jnix.netlify.app/slides/crcj2510_ch5/)
 
 ## Chapter 6
 
