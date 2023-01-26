@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Chapter 5</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Justin Nix" />
+    <meta name="date" content="2023-02-28" />
+    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom-font.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle, inverse
+background-image: url(https://www.unomaha.edu/university-communications/downloadables/campus-icon-the-o/uno-icon-color.png)
+background-position: 95% 90%
+background-size: 10%
+
+# Sampling
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+[Justin Nix](https://jnix.netlify.app)  
+*School of Criminology and Criminal Justice*  
+*University of Nebraska Omaha*
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+.white[February 28, 2023]
+
+---
+class: middle, center, inverse
+
+# To start, let's reflect
+# on some of the following polls
+
+---
+class: middle
+
+&lt;iframe title="Americans' Confidence in Institutions" aria-label="Interactive line chart" id="datawrapper-chart-pLzzH" src="https://datawrapper.dwcdn.net/pLzzH/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"&gt;&lt;/iframe&gt;&lt;script type="text/javascript"&gt;!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r&lt;t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+&lt;/script&gt;
+
+???
+
+Gallup did its first *Confidence in Institutions* poll in 1973, and has been doing it annually since 1993 (usually in June). Here's the question:
+
+*Please tell me how much confidence you, yourself, have in each one --* ***a great deal***, ***quite a lot***, ***some*** or ***very little?***
+
+Gallup asks roughly 1,000 adults from all 50 states and Washington, DC. 
+
+**What jumps out at you when you look at the last 30 years of data?**
+
+- Confidence in *everything* has fallen since the pandemic started. 
+- Only *small business* and *the military* inspire a great deal/quite a lot of confidence in the **majority** of Americans. 
+- For all their problems, the police inspire more confidence than CJ system as a whole, the president, congress, the media, and the medical system
+  - That said, confidence in the police has been trending downward pretty steadily since 2004. 
+
+---
+class: middle
+
+&lt;img src="gallup-death-penalty.png" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;p style="text-align: center; color: gray"&gt;.small[click [here](https://news.gallup.com/poll/404975/steady-americans-support-death-penalty-murderers.aspx) for more]&lt;/p&gt;
+
+???
+
+Here's another Gallup poll that asks Americans: *are you in favor of the death penalty for a person convicted of murder?*
+
+**What do you see?**
+
+- A majority still support the use of capital punishment. 
+  - However, support is down significantly from the early 1990s, when it hovered around 80%. 
+  - Interestingly, that coincides with when the national homicide rate was at its highest. 
+  - And the increase from the late 60s to the early 90s coincides with rising violent crime rates. 
+
+---
+class: middle
+
+&lt;img src="skeptic-poll.png" width="90%" style="display: block; margin: auto;" /&gt;
+&lt;p style="text-align: center; color: gray"&gt;.small[click [here](https://www.skeptic.com/research-center/reports/Research-Report-CUPES-007.pdf) for more]&lt;/p&gt;
+
+???
+
+This poll was done by **Skeptic Research Center**, as part of its *Civil Unrest and Presidential Election Study* in September/October of 2020. 
+- 980 U.S. adults "from the CUPES dataset"
+
+**Does anybody know what the correct number is?**
+
+---
+class: middle
+
+&lt;img src="animal-fights.png" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;p style="text-align: center; color: gray"&gt;.small[click [here](https://yougov.co.uk/topics/society/articles-reports/2021/05/21/which-animals-could-britons-beat-fight) for more]&lt;/p&gt;
+
+???
+
+This one comes from YouGov - they surveyed ~1200 Americans in April 2021 and ~2000 Britons in May 2021.
+
+**What do you see?**
+
+- It looks to me like ~5% of Britons and ~12% of Americans either:
+  - Trolled
+  - Did not read the question (i.e., missed the "unarmed" bit)
+  - Vastly overestimated their fighting prowess
+  
+- Also, way too many people on both sides of the pond are underestimating geese. 
+
+- Also, 1 in 3 people don't think they could win a fight against a rat???
+
+---
+class: middle, center, inverse
+
+# You buying all these?
+
+--
+
+## Why or why not? 
+
+???
+
+Remember, we want **valid** results.
+- Do you trust that the *Skeptic* [poll is as generalizable as the *Gallup* polls? 
+  - It might be! But it's very hard to evaluate its external validity, given the lack of information about how the sample was selected. 
+  
+Sample planning is a first-order concern when doing criminological research. It's not the only concern - i.e., we could nitpick question wording, or we might wonder about response rates. But without knowing how a sample was selected, it's very difficult to know what to make of results like these. 
+
+---
+class: middle, center, inverse
+
+# Sample planning
+
+---
+class: top
+
+# Sample planning
+
+--
+
+## Define sample components and the population
+
+--
+
+Let's say we're curious what today's high school students' career aspirations are...
+
+--
+
+We don't have the time or resources to survey this entire **population**
+
+&lt;img src="no-cash.svg" width="20%" style="display: block; margin: auto;" /&gt;
+
+???
+
+More often than not, we can't survey the entire population. That'd be a *census* (more on that in a moment). 
+- Expensive. Time consuming. Sometimes impossible because we can't define the population. 
+
+So as researchers we should be clear at the outset what the **population for our research is**. We may wish to generalize to some larger group, but we have to be careful. 
+
+---
+class: top
+
+# Sample planning
+
+## Define sample components and the population
+
+--
+
+So we set our sights on *Nebraska* high school students' career aspirations...
+
+--
+
+Still ambitious - we'll still need to draw a **sample**!
+
+&lt;img src="nebraska-sampling-example1.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+???
+
+Even surveying the population of Nebraska high school students would be very difficult. 
+
+By one estimate, there are 368 high schools in Nebraska - 320 public and 48 private. 
+
+---
+class: top
+
+# Sample planning
+
+## Define sample components and the population
+
+So we set our sights on *Nebraska* high school students' career aspirations...
+
+Still ambitious - we'll still need to draw a **sample**!
+
+&lt;img src="nebraska-sampling-example2.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+???
+
+Even surveying the population of Nebraska high school students would be very difficult. 
+
+So perhaps we resolve to survey *public high school* students at a random sample of schools in these 7 cities/towns. 
+- We *purposely* select these places for various reasons
+  - Access
+  - Spread out geographically across the state
+  - Represent urban and rural areas
+- Note that this means the study we carry out may not produce findings that are generalizable to private school students. We'll have no way to know. 
+
+The students enrolled in those schools from which we draw our sample is the **sampling frame**. 
+
+---
+class: top
+
+# Sample planning
+
+## Define sample components and the population
+
+--
+
+&lt;img src="nebraska-sampling-example3.png" width="58%" style="display: block; margin: auto;" /&gt;
+
+???
+
+I think your book calls the "ideal" population the "target" population. The key point here is that we have to be careful not to conflate it with the *actual* population that we sampled from. In this case, we didn't sample from all high school students. We sampled from students attending public high schools in Nebraska. 
+
+Now that we've identified our sampling frame, we try to survey all students within. 
+- Inevitably, some students will be absent on the day(s) we administer our survey. 
+- And inevitably, some students who are present won't complete our survey. 
+- The surveys returned from those who completed the survey will constitute the data we use to answer our research question (what are high school students' career aspirations?)
+  - We'll have to be cognizant of the threat of *nonresponse bias*. More on that later. 
+
+---
+class: top
+
+# Sample planning
+
+--
+
+## Evaluate generalizability
+
+--
+
+Key question: how much **sampling error**?
+
+&lt;img src="question-girl.svg" width="40%" style="display: block; margin: auto;" /&gt;
+
+???
+
+**Sampling error** is the difference between characteristics of the sample and characteristics of the population from which it was selected.
+
+The larger the sampling error, the less representative the sample, and thus the less generalizable our findings. 
+
+Ask yourself these 3 questions:
+
+1. From what population were cases selected?
+2. What *method* was used to select those cases?
+3. DO the cases that were studied represent - in the aggregate - the population from which they were selected? 
+
+---
+class: top
+
+# Sample planning
+
+--
+
+## Assess population diversity
+
+If all units in the population were identical, there'd be no need to sample
+
+--
+
+- e.g., physicists don't need to sample atomic particles
+
+&lt;img src="atom.png" width="10%" style="display: block; margin: auto;" /&gt;
+&lt;p style="text-align: center; color: gray"&gt;.small[[Image](https://commons.wikimedia.org/wiki/File:Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg) by [Indolences](https://commons.wikimedia.org/wiki/User:Indolences), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)]&lt;/p&gt;
+
+--
+
+But, as the great Ted Lasso noted:
+
+&gt; *All people are different people.*
+
+???
+
+Physicists don't need a sample of atomic particles to learn about basic physical properties. 
+
+This is what makes social science so tricky. We **do** have to sample. And it can be very difficult. 
+
+Ultimately the goal of sampling is to study a *representative* subset of the population we're interested in. 
+- In other words, it looks like the population from which it was drawn in all respects that are potentially relevant to our study. 
+- The distribution of characteristics among our sample elements are the same as in the total population. 
+
+If our sample is unrepresentative, some characteristics are over- or under-represented in our sample, and this can introduce **sampling error**, which can skew our results. 
+
+---
+class: top
+
+# Sample planning
+
+--
+
+## Consider a census
+
+???
+
+In some situations you can bypass concerns about generalizability by studying your entire population of interest. 
+- Much like the federal government does every 10 years with its US Census. 
+
+So, e.g., all employees in an organization or all students in a university. 
+
+Obviously, with large populations, this quickly becomes daunting. 
+
+--
+
+For example: you might send a survey to **all 228 law enforcement agencies** in Nebraska
+
+&lt;img src="ne-leas.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: middle, center, inverse
+
+# Sampling methods
+
+---
+class: top
+
+# Sampling methods
+
+--
+
+## Probability sampling methods
+
+--
+
+### Simple random sampling
+
+--
+
+&lt;img src="douglas-pop.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Sampling methods
+
+## Probability sampling methods
+
+### Simple random sampling
+
+--
+
+&lt;img src="douglas-rsample10.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Sampling methods
+
+## Probability sampling methods
+
+### Simple random sampling
+
+--
+
+&lt;img src="douglas-rsample100.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Sampling methods
+
+## Probability sampling methods
+
+### Simple random sampling
+
+--
+
+&lt;img src="douglas-rsample1000.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Sampling methods
+
+## Probability sampling methods
+
+--
+
+### Systematic random sampling
+
+--
+
+Let's say we have a population, ***N***, of 1000, and we want to draw a random sample, ***n***, of 20. 
+
+--
+
+Our *systematic sampling interval*, or ***k***, is:
+
+`\(k = N/n\)`
+
+--
+
+So here, we'd [pick a number at random](https://www.google.com/search?q=random+number+generator) between 1 and 50 as the starting point, then select every 50th observation
+
+--
+
+***NOTE***: *This won't work if the data are sorted in some meaningful way!*
+
+---
+class: top
+
+# Sampling methods
+
+## Probability sampling methods
+
+--
+
+### Stratified random sampling
+
+&lt;img src="douglas-pro-strat.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Sampling methods
+
+## Probability sampling methods
+
+### Stratified random sampling
+
+--
+
+&lt;img src="douglas-dis-strat.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: top
+
+# Sampling methods
+
+## Probability sampling methods
+
+--
+
+### Multistage cluster sampling
+
+--
+
+Useful when a sampling frame is not available
+
+--
+
+For example, the [National Crime Victimization Survey](https://bjs.ojp.gov/data-collection/ncvs)
+
+&lt;img src="ncvs-sampling.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+???
+
+Randomly sample **clusters** of elements, then randomly sample the individual elements from the selected clusters
+
+**NCVS**
+1. primary sampling units are a sample of rural counties and large metropolitan areas
+2. from there, NCVS samples geographic districts from within (according to Census Bureau)
+3. then, a probability sample of residential dwellings is drawn
+4. finally, anyone in the selected households who is 12+ and is a US citizen is eligible for the NCVS
+
+- They select approximately 50,500 housing units each year
+
+---
+class: top
+
+# Sampling methods
+
+--
+
+## Nonprobability sampling
+
+--
+
+### Availability sampling
+
+&lt;img src="street-interview.jpg" width="55%" style="display: block; margin: auto;" /&gt;
+&lt;p style="text-align: center; color: gray"&gt;.small[[Image](https://pxhere.com/en/photo/1443859) by [Bünyamin GÖV](https://pxhere.com/en/photographer/1212555)]&lt;/p&gt;
+
+---
+class: top
+
+# Sampling methods
+
+## Nonprobability sampling
+
+--
+
+### Quota sampling
+
+--
+
+An improvement over mere availability sampling because you ensure the sample represents some characteristics in proportion to their prevalence in the population
+
+--
+
+The problem: no way to know if the sample is representative in terms of other characteristics
+
+---
+class: top
+
+# Sampling methods
+
+## Nonprobability sampling
+
+--
+
+### Purposive sampling
+
+--
+
+Target individuals who are particularly knowledgeable about the issue you're studying
+
+--
+
+For example: 
+
+- [Weisburd et al. (1995)](https://doi.org/10.1111/j.1745-9125.1995.tb01191.x)  
+  - People convicted of white-collar offenses in 7 federal judicial districts
+  
+- [Venkatesh (2008)](https://www.penguinrandomhouse.com/books/300406/gang-leader-for-a-day-by-sudhir-venkatesh/)  
+  - Gang members and residents of the [Robert Taylor Homes](https://en.wikipedia.org/wiki/Robert_Taylor_Homes)
+
+---
+class: top
+
+# Sampling methods
+
+## Nonprobability sampling
+
+--
+
+### Snowball sampling
+
+&lt;img src="snowball.jpg" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Sampling methods
+
+--
+
+## Lessons about sample quality
+
+--
+
+1. We can't evaluate a sample's quality if we don't know what population it is meant to represent.
+
+--
+
+2. ...Or if we don't know exactly how cases in the sample were selected.
+
+--
+
+3. Sample quality is determined by the sample *actually obtained*, not just by the method itself.
+
+--
+
+4. Pay attention: researchers sometimes talk about the implications of their findings for some group larger than (or just different from) the population they actually sampled. 
+
+---
+class: middle, center, inverse
+
+# Units of analysis and errors in causal reasoning
+
+---
+class: top
+
+# Units of analysis and errors in causal reasoning
+
+--
+
+## Individual and group units of analysis
+
+--
+
+Be careful to distinguish **units of analysis** and **units of observation**
+
+--
+
+For example: [Sampson et al. (1997)](https://www.science.org/doi/full/10.1126/science.277.5328.918)
+
+&lt;img src="sampson.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Units of analysis and errors in causal reasoning
+
+--
+
+## The ecological fallacy
+
+--
+
+Drawing conclusions about individual-level processes from group-level data
+
+&lt;img src="ecological-fallacy.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Units of analysis and errors in causal reasoning
+
+--
+
+## Reductionism
+
+--
+
+Drawing conclusions about group-level processes from individual-level data
+
+&lt;img src="reductionism.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+class: middle, center, inverse 
+
+&lt;img src="sample-bias.png" width="63%" style="display: block; margin: auto;" /&gt;
+&lt;p style="text-align: center; color: gray"&gt;.small[Credit: [Sketchplanations](https://sketchplanations.com/)]
+
+# Have a great day! 😄
+
+&lt;!-- ```{css, echo=FALSE} --&gt;
+&lt;!-- @media print { --&gt;
+&lt;!--   .has-continuation { --&gt;
+&lt;!--     display: block; --&gt;
+&lt;!--   } --&gt;
+&lt;!-- } --&gt;
+&lt;!-- ``` --&gt;
+
+&lt;style&gt;
+p.caption {
+  font-size: 0.5em;
+  color: lightgray;
+}
+&lt;/style&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
