@@ -45,6 +45,10 @@ class: middle
 
 <p style="text-align: right; color: gray">\- Martin Schwartz, [*The importance of stupidity in scientific research*](https://doi.org/10.1242/jcs.033340)
 
+???
+
+Science is basically just (super methodical) trial and error. 
+
 ---
 class: middle, center, inverse
 
@@ -184,14 +188,15 @@ knitr::include_graphics("tannenbaum.jpg")
   
 A good theory will contain **theoretical constructs** - which describe what is important to examine in order to understand, explain, predict, and ultimately "do something" about crime. 
 
-A theory must also be **falsifiable**. If we can't empirically scrutinize a theory, it's not a theory at all, but a philosphy or faith-based belief. 
+A theory must also be **falsifiable**. If we can't empirically scrutinize a theory, it's not a theory at all, but a philosophy or faith-based belief. 
 
 **Discussion**: Are you familiar with any theories about criminal or deviant behaviors, or how society should respond to them? 
 - Maybe refer back to our discussion from Chapter 1 about the causes of youth violence
 
 **Deterrence Theory** (Cesare Beccaria shown on the left)
 - People are at least marginally rational; they weigh the expected costs and benefits of their actions
-- Criminal sanctions can deter time *generally* and *specifically*. 
+- Criminal sanctions can deter crime *generally* and *specifically*. 
+  - Provided they're *swift, certain, and severe* enough. 
 
 **Labeling Theory** (Frank Tannenbaum shown on the right)
 - Distinguishes between *primary* and *secondary* deviance
@@ -234,12 +239,6 @@ All research is an effort to connect theory and empirical data, and the two have
 Consider a finding that runs counter to your theoretical expectations (and doesn't appear to be a methodological misstep). You'd want to reason inductively to make whatever theoretical sense you could of such an **anomalous finding**. And if it's sufficiently important, you might return to deductive reasoning and draw up a new study to formally test your ideas. 
 
 ---
-class: middle, center, inverse
-
-# Case study:
-# Domestic violence and the research wheel
-
----
 class: middle, center
 
 # Case study:
@@ -253,9 +252,24 @@ Imagine you're a police officer and you've been dispatched to a **domestic viole
 
 What options do you have to resolve the matter?
 
+???
+
+You could: 
+
+- Arrest the suspected offender.
+- Warn the offender, separate them, and leave.
+- "Counsel" the offender and victim, or recommend services.
+
 --
 
 Which do you think would most effectively reduce **repeat offenses**?
+
+???
+
+Which do you think would reduce **recidivism**?
+- Why? 
+
+**OK, how would you test your theory?**
 
 ---
 class: top
@@ -269,6 +283,13 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "69%"}
 knitr::include_graphics("minneapolis-dv-exp.png")
 ```
+
+???
+
+Based on these results, many jurisdictions implemented **mandatory arrest** policies. 
+- I.E., when there is **probable cause** that a domestic assault occurred, the offender *must* be arrested. 
+
+**Do you think this is a smart policy? Why or why not?**
 
 ---
 class: top
@@ -316,11 +337,13 @@ class: top
 ???
 
 Now, researchers needed to make theoretical sense of their conflicting observations. 
+
+**What do you think might explain why the replication studies were so inconsistent?**
 - Just a function of different samples? 
 - Implementation? 
 - Is the theory wrong? 
 
-Sherman turns to **control theory** (Toby, 1957)
+Sherman turns to **control theory** (Jackson Toby, 1957)
 - **Stakes in conformity** decrease a person's propensity to offend. 
   - Hypothesis derived from theory: people who are employed, married, have kids are more likely to be deterred by the threat of arrest than those who are unemployed, single, and have no kids.
   - Because they have more to lose
@@ -333,12 +356,13 @@ knitr::include_graphics("milwaukee-dv-exp.png")
 
 ???
 
-Now we've been around the wheel **three** times, and maybe it's more appropriate to call it a spriral at this point. 
+Re-examination of Milwaukee data: offenders who were married/employed were *less* likely to recidivate. Those who weren't were *more* likely to recidivate.
+
+Now we've been around the wheel **three** times, and maybe it's more appropriate to call it a spiral at this point. 
 
 1. Minneapolis study seemed to support deterrence theory
-2. Only 2/5 SARP sites replicated the Minneapolis findings; thus, arrest doesn't always deter DV recidivism. 
-3a. Re-examine Milwaukee w/control theory in mind: arrest is a deterrence *if* a person is married, employed. 
-3b. Arrest can also deter so long as offenders feel like they were treated fairly by officers. 
+2. Only 2/5 SARP sites replicated the Minneapolis findings; thus, arrest doesn't *always* deter DV recidivism. 
+3. Re-examine Milwaukee w/control theory in mind: arrest is a deterrence *if* a person is married, employed. 
 
 ---
 class: top
