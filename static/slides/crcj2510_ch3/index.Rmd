@@ -67,13 +67,19 @@ class: top
 ```{r, echo=FALSE, fig.align='center', out.width = "80%"}
 knitr::include_graphics("nuremberg.jpg")
 ```
-<p style="text-align: center; color: gray">.small[[The Nuremberg Trials](https://www.nationalww2museum.org/war/topics/nuremberg-trials)]</p>
+<p style="text-align: center; color: gray">.small[[The Nuremberg Trials](https://en.wikipedia.org/wiki/Nazi_human_experimentation)]</p>
 ]
 
 ???
 
 1946: The Nuremberg War Crime Trials expose horrific medical experiments conducted by Nazi doctors and others in the name of "science."
+- Conducted on prisoners - including children and people with disabilities - without their consent
+- Often without anesthesia, and often resulting in death, trauma, disfigurement, or permanent disability
 
+For example: at Auschwitz from 1943-44, experiments were performed on nearly 1500 sets of twins, of which, only 200 people survived. 
+- Experiments including amputations, infecting them with various diseases, and injecting dye in their eyes to change their eye color
+- Lead doctor, Josef Mengele, also tried to create conjoined twins by sewing them together
+- If the first twin died, the other "control twin" would be brought in and killed. Alternatively, if the first twin survived, Mengele would dissect their bodies. 
 ---
 class: top
 
