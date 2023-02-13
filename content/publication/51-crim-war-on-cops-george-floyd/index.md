@@ -1,7 +1,8 @@
 ---
-title: "The War on Cops, Retaliatory Violence, and the Murder of George Floyd"
+title: >
+  The "War on Cops," Retaliatory Violence, and the Murder of George Floyd
 authors:
-- Michael Sierra-Arévalo
+- Michael Sierra-ArÃ©valo
 - admin
 - Scott Mourtgos
 date: "2023-02-10T11:00:00Z"
