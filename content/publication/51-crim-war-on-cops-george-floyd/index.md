@@ -37,3 +37,6 @@ url_source: ""
 url_video: ""
 ---
 
+??? Download the [accepted version](https://jnix.netlify.app/files/pdfs/crim_war_on_cops.pdf) of our paper.
+
+??? Download the [slides](https://jnix.netlify.app/publication/51-crim-war-on-cops-george-floyd/asc_2022_presentation.pdf) from our November 2022 presentation at the ASC Conference.
