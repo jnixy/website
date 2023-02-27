@@ -1,20 +1,22 @@
 ---
 title: "Are fatal police shootings increasing?"
 categories: []
-date: '2023-02-27T11:00:00Z'
-featured: no
+date: "2023-02-27T11:00:00Z"
+featured: false
 image:
-  caption: '[Image](https://unsplash.com/photos/y5LaV9IEC_g) by [Michael Förtsch](https://unsplash.com/@michael_f) on [Unsplash](https://unsplash.com/license)'
-  focal_point: smart
+  caption: "[Image](https://unsplash.com/photos/y5LaV9IEC_g) by [Michael Förtsch](https://unsplash.com/@michael_f) on [Unsplash](https://unsplash.com/license)"
+  focal_point: "smart"
 projects: []
 summary: null
-tags: Peer Review
+tags:
+- Police
+- Offier-involved shootings
 authors:
 - admin
 - Ian T. Adams
 subtitle: "Maybe, but it could just be noise."
-url_pdf: ''
-draft: no
+url_pdf: ""
+draft: false
 ---
 
 Much is being made about an apparent increase in the use of deadly force by U.S. police officers. In January, *The Guardian* ran a story titled ["It never stops: killings by US police reach record high in 2022"](https://www.theguardian.com/us-news/2023/jan/06/us-police-killings-record-number-2022). And last week, *The Washington Post* (WAPO) ran a story titled ["Fatal police shootings are still going up, and nobody knows why"](https://www.washingtonpost.com/investigations/2023/02/21/fatal-police-shootings-increase-2022/). In this story, one of us (Justin) was quoted as saying "It's hard to know if the increase is meaningful or random." As is sometimes the case with these sorts of interviews, 20-minute conversations get cut down to a single sentence or two, and a lot of context doesn't make it into the story. The point of this blog post is to continue shouting some of that context out into the void. 
