@@ -4,7 +4,7 @@ categories: []
 date: "2023-02-27T11:00:00Z"
 featured: false
 image:
-  caption: "[Image](https://unsplash.com/photos/y5LaV9IEC_g) by [Michael Förtsch](https://unsplash.com/@michael_f) on [Unsplash](https://unsplash.com/license)"
+  caption: "[Image](https://unsplash.com/photos/y5LaV9IEC_g) by [Michael Fortsch](https://unsplash.com/@michael_f) on [Unsplash](https://unsplash.com/license)"
   focal_point: "smart"
 projects: []
 summary: null
