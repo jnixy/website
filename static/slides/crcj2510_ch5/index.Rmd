@@ -369,6 +369,16 @@ class: top
 knitr::include_graphics("douglas-pop.png")
 ```
 
+???
+
+Douglas county is:
+- 80% white
+- 11% black
+- 1% American Indian/Alaskan Native
+- 4.5% Asian
+- Less than 1% Native Hawaiian/PI
+- 3% two or more races
+
 ---
 class: top
 
