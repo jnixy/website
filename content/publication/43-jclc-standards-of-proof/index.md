@@ -15,7 +15,7 @@ image:
 doi: null
 projects: []
 publication: '*Journal of Criminal Law and Criminology*'
-publication_short: JCLC
+publication_short: 
 publication_types: 
 - "2"
 publishDate: "2021-06-25T16:00:00Z"

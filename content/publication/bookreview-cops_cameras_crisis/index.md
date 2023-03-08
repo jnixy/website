@@ -11,7 +11,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Theoretical Criminology*'
-publication_short: TC
+publication_short: 
 publication_types:
 - "0"
 publishDate: "2020-10-28T10:00:00Z"

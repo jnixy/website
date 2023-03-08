@@ -14,7 +14,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Justice Quarterly*, XX, 1-23'
-publication_short: JQ
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2019-11-05T00:00:00Z"

@@ -15,7 +15,7 @@ image:
 doi: 
 projects: []
 publication: '*Criminology*'
-publication_short: CRIM
+publication_short: 
 publication_types: 
 - "2"
 publishDate: "2023-02-13T16:00:00Z"

@@ -11,7 +11,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Theory In Action, 10*(118-127)'
-publication_short: TIA
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2017-10-01T00:00:00Z"

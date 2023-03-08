@@ -14,7 +14,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Criminology & Public Policy*'
-publication_short: CAPP
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2020-11-09T09:00:00Z"

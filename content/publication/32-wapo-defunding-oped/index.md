@@ -12,7 +12,7 @@ image:
   preview_only: false
 projects: []
 publication: '*The Washington Post*'
-publication_short: WAPO
+publication_short: 
 publication_types:
 - "0"
 publishDate: "2020-06-18T10:52:00Z"

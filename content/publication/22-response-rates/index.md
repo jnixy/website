@@ -29,7 +29,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Policing and Society*, 29(5), 530-50'
-publication_short: P&S
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2019-05-01T00:00:00Z"

@@ -11,7 +11,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Critical Issues in Policing: Contemporary Readings, 8th Ed.*(pp. 140-155)'
-publication_short: Critical Issues
+publication_short: 
 publication_types:
 - "6"
 publishDate: "2020-07-10T00:00:00Z"

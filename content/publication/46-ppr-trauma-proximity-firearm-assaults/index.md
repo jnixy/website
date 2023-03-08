@@ -14,7 +14,7 @@ image:
 doi: 10.1080/15614263.2022.2036611
 projects: []
 publication: '*Police Practice & Research*'
-publication_short: PPR
+publication_short: 
 publication_types: 
 - "2"
 publishDate: "2022-01-06T09:30:00Z"

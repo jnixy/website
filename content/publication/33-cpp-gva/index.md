@@ -14,7 +14,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Criminology & Public Policy*, 19(3), 1041-1066'
-publication_short: CPP
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2020-07-16T00:00:00Z"

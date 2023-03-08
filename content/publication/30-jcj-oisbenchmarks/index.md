@@ -18,7 +18,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Journal of Criminal Justice*, 66(101653), 1-10'
-publication_short: JCJ
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2020-01-29T00:00:00Z"

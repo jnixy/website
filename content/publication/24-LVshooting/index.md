@@ -36,7 +36,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Journal of Trauma and Acute Care Surgery*, 86(1), 128-33'
-publication_short: JTACS
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2019-01-01T00:00:00Z"

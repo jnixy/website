@@ -13,7 +13,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Journal of Research in Crime and Delinquency*, 57(2), 217-59'
-publication_short: JRCD
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2020-02-03T00:00:00Z"

@@ -13,7 +13,7 @@ image:
 doi: 10.1371/journal.pone.0259024
 projects: []
 publication: '*PLOS ONE*'
-publication_short: PONE
+publication_short: 
 publication_types: 
 - "2"
 publishDate: "2021-11-10T13:00:00Z"

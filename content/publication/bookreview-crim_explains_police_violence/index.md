@@ -11,7 +11,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Criminal Law and Criminal Justice Books*: Rutgers University - Newark.'
-publication_short: CLCJB
+publication_short: 
 publication_types:
 - "0"
 publishDate: "2020-09-30T00:00:00Z"

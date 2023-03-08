@@ -32,7 +32,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Crime & Delinquency*, 61(4), 610-40'
-publication_short: C&D
+publication_short:
 publication_types:
 - "2"
 publishDate: "2015-05-01T00:00:00Z"

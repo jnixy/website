@@ -14,7 +14,7 @@ image:
 doi: 10.1177/00224278221121622
 projects: []
 publication: '*Journal of Research in Crime and Delinquency*'
-publication_short: JRCD
+publication_short: 
 publication_types: 
 - "2"
 publishDate: "2022-08-30T11:00:00Z"

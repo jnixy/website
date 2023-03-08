@@ -13,7 +13,7 @@ image:
 doi: 10.1177/10986111221136230
 projects: []
 publication: '*Police Quarterly*'
-publication_short: PQ
+publication_short: 
 publication_types: 
 - "2"
 publishDate: "2022-11-25T09:00:00Z"

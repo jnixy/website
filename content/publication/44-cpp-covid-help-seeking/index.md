@@ -15,7 +15,7 @@ image:
 doi: 10.1111/1745-9133.12564
 projects: []
 publication: '*Criminology & Public Policy*'
-publication_short: CPP
+publication_short: 
 publication_types: 
 - "2"
 publishDate: "2021-10-31T09:00:00Z"

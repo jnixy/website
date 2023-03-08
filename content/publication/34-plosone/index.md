@@ -11,7 +11,7 @@ image:
   preview_only: false
 projects: []
 publication: '*PLOS ONE*, 15(7): e0236158'
-publication_short: PONE
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2020-07-28T00:00:00Z"

@@ -13,7 +13,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Police Quarterly*, 23(3), 396-422'
-publication_short: PQ
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2020-04-26T00:00:00Z"

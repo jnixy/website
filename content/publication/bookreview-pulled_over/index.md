@@ -11,7 +11,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Journal of Criminal Justice Education, 28*(151-153)'
-publication_short: JCJE
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2017-03-01T00:00:00Z"

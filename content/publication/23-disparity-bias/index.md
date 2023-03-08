@@ -25,7 +25,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Journal of Crime and Justice*, 42(1), 18-31'
-publication_short: JC&J
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2019-01-01T00:00:00Z"
