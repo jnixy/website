@@ -23,7 +23,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Crime & Delinquency*, 64(9), 1143-70'
-publication_short: C&D
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2018-09-01T00:00:00Z"

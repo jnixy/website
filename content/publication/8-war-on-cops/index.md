@@ -23,7 +23,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Justice Quarterly*, 34(5), 739-58'
-publication_short: JQ
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2017-08-01T00:00:00Z"

@@ -28,7 +28,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Journal of Criminal Justice*, 47, 12-20'
-publication_short: JCJ
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2016-12-01T00:00:00Z"

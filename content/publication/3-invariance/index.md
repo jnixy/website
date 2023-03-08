@@ -33,7 +33,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Journal of Quantitative Criminology*, 32(2), 253-82'
-publication_short: JQC
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2016-06-01T00:00:00Z"

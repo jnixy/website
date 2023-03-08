@@ -25,7 +25,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Social Psychology Quarterly*, 81(2), 97-125'
-publication_short: SPQ
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2018-06-01T00:00:00Z"

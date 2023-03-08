@@ -27,7 +27,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Justice Quarterly*, 34(7), 1154-83'
-publication_short: JQ
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2017-11-01T00:00:00Z"

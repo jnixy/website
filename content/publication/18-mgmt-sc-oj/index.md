@@ -30,7 +30,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Law and Human Behavior*, 42(1), 71-82'
-publication_short: LHB
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2018-02-01T00:00:00Z"

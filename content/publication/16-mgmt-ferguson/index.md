@@ -28,7 +28,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Policing: An International Journal*, 41(2), 262-75'
-publication_short: PIJPSM
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2018-04-01T00:00:00Z"

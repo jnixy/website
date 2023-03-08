@@ -24,7 +24,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Police Quarterly*, 21(1), 53-76'
-publication_short: PQ
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2018-03-01T00:00:00Z"

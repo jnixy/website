@@ -27,7 +27,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Criminology & Public Policy*, 16(1), 309-40'
-publication_short: CPP
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2017-02-01T00:00:00Z"

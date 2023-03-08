@@ -24,7 +24,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Criminal Justice and Behavior*, 44(5), 717-32'
-publication_short: CJB
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2017-05-01T00:00:00Z"

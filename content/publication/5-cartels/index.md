@@ -24,7 +24,7 @@ image:
   preview_only: false
 projects: []
 publication: '*Journal of Homeland Security and Emergency Management*, 13(3), 395-418'
-publication_short: JHSEM
+publication_short: 
 publication_types:
 - "2"
 publishDate: "2016-12-01T00:00:00Z"
