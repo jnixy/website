@@ -38,7 +38,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 6
 
-[Causation and research design]
+[Causation and research design](https://jnix.netlify.app/slides/crcj2510_ch6/)
 
 ## Chapter 7
 
