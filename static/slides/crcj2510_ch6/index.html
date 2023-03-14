@@ -306,6 +306,20 @@ class: top
 
 &lt;img src="before-after-designs.png" width="80%" style="display: block; margin: auto;" /&gt;
 
+???
+
+The common feature of before-and-after designs is the absence of a comparison group. All cases are exposed to the experimental treatment. Pre-treatment measures are then compared to post-treatment measures in the lone treatment group. 
+
+**Fixed-sample panel designs** are the simplest form. The same individuals are studied over time, perhaps just once before and once after treatment. Remember, this is a *quasi-experimental* method because there is no separate comparison group that does not receive treatment. 
+
+- It is possible that other influences, `\(Z\)`, can affect subjects following the pretest. In young subjects, this could be many *basic life experiences*, for example. 
+
+- A better way to ensure that the IV is actually what affected the DV when using before-and-after designs is by using multiple groups. Here, you do before/after comparisons of the same variables between different groups. 
+
+**Repeated measures panel designs** include several pretest and posttest observations, allowing researchers to study the process by which an intervention or treatment has an impact over time. Useful to pick up on, e.g., lagged effects or effects that decay with time (as is often the case with, e.g., trainings). 
+
+**Time-series designs** include *many* such observations in both the pre and posttest periods. A common goal for researchers is 30 observations pre and post. The idea here is to identify a trend in the dependent variable *up to* the date of the intervention, control for outside influences and project the trend into the postintervention period. Researchers then compare the projected trend to the *actual* trend post-treatment. If there is a significant disparity, this can be good evidence that the intervention or event had an impact on the DV. (Example to follow on the next slides.) 
+
 ---
 class: top
 
@@ -347,11 +361,257 @@ class: top
 ]
 
 ---
+class: top
+
+# What if a True Experiment Isn't Possible?
+
+--
+
+## Ex post facto control group designs
+
+???
+
+Researchers often mistakenly refer to this design as quasi-experimental. It's not. 
+
+- Like nonequivalent control group designs, it has treatment and comparison groups that are not created by random assignment. 
+
+- However, in this design, the groups are designated *after treatment has already occurred*. 
+  - The problem here is that if the treatment takes any time at all, people with particular characteristics may select into or opt out of treatment
+  - This of course makes it difficult to determine whether the association between group membership and the outcome is spurious. 
+  
+--
+
+Treatment and comparison groups are not randomly assigned
+
+Group assignment determined **after treatment has already occurred**
+
+---
+class: top
+
+# What if a True Experiment Isn't Possible?
+
+--
+
+## Case study: [Does an arrest increase delinquency?](https://heinonline.org/HOL/P?h=hein.journals/bjcrim17&amp;i=122)
+
+&lt;img src="farrington1977.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+---
+class: top
+
+# Threats to Validity in Experiments
+
+???
+
+Experiments are the gold standard for testing causality, but that doesn't mean we don't have to be mindful of **threats to validity.** 
+
+--
+
+## Internal validity
+
+???
+
+OK, quick refresher: what does **internal validity** refer to?
+
+--
+
+&lt;img src="threats-to-IV.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+???
+
+So there are five main threats to internal validity in experiments:
+
+1. **Selection bias** occurs when the characteristics of the treatment and control group subjects differ
+
+2. **Endogenous change** occurs when subjects develop or change during the course of the experiment as part of an ongoing process that is *independent of* the treatment
+  - Examples include **testing**, **maturation**, and **regression**. 
+  
+3. **External events** or **history effects** means something significant occurs during the experiment, besides treatment, that influences scores on the outcome
+
+4. **Contamination** occurs when either the experimental group or the control group is aware of the other group, and is influenced in the posttest as a result (huge concern in BWC evaluation studies, for example)
+  - Examples include the *John Henry* effect
+
+5. **Treatment misidentification** occurs when variation in the treatment is associated with variation in the observed outcome, but the change occurs through a process that the resaercher has not identified
+  - Examples include **expectancies of the research group**, **placebo effects**, and the **Hawthorne effect**
+
+---
+class: top
+
+# Threats to Validity in Experiments
+
+--
+
+## Generalizability
+
+???
+
+Your book calls the need for generalizable findings the "Achilles Heel" of experimental research. In other words, the design components needed to maximize internal validity often come at the expense of sample generalizability or the ability to generalize to the larger population of interest. 
+
+--
+
+Sample generalizability
+
+Cross-population generalizability
+
+&lt;img src="generalizability.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+???
+
+Cross-population generalizability, aka external validity: do findings hold true for other subgroups or different populations?
+
+---
+class: top
+
+# Threats to Validity in Experiments
+
+--
+
+## Interaction of testing and treatment
+
+???
+
+This is a variation of the external validity problem, where the treatment is effective only under particular conditions created by the experiment. 
+- E.G., a pretest might sensitize subjects to a particular issue so that when they're exposed to treatment, their reaction is different from what it would have been absent the exposure to the pretest. In other words: testing and treatment *interacted* to produce the outcome. 
+
+--
+
+One solution: the **Solomon four-group design**
+
+&lt;img src="solomon-design.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+???
+
+**Solomon design**: random assignment to at least 2 experimental groups and at least 2 control groups. One experimental group and one control group receive the pretest, and the others do not. If testing and treatment do interact, the outcome scores will differ between those who took the pretest and those who didn't. 
+
+---
+class: top
+
+# The Element of Time in Research
+
+--
+
+&lt;img src="calendar.jpg" width="85%" style="display: block; margin: auto;" /&gt;
+
+???
+
+Non-experimental research can be **cross-sectional** or **longitudinal**. 
+
+Sometimes we can collect data retrospectively that still enables us to determine whether `\(X\)` precedes `\(Y\)`. 
+
+- As in the study by Lo, Kim, and Cheng (2008): they were interested in whether offenders specialize in crimes, so they asked inmates to reconstruct their alcohol and drug use each month in previous years. Inmates were provided **anchors** to help with recall (birthdays, arrests, holidays, anniversaries, and so on).
+  - Results were mixed. Most offenders had engaged in a variety of offenses prior to the current offense. However, violent offenders were more likely to "specialize" in that they were the most likely to have violent arrest records prior to their current offense. 
+
+---
+class: top
+
+# The Element of Time in Research
+
+--
+
+## Repeated cross-sectional designs
+
+--
+
+Data collected at 2+ points in time from **different samples** of the same population
+
+&lt;img src="trend-study.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+???
+
+These are also known as **trend studies**. Common in election years as we try to understand support for various candidates leading up to election day. 
+
+This is also the design used by the *Gallup* "Confidence in Institutions" poll that we've looked at this semester. 
+
+According to Stimson (2004, p. 24):
+
+&gt; What is a 1 percent movement in a survey? How much can it signify? Well, if we think of a survey as a sample, then 1 percent of a sample of 1,500 is fifteen people. Fifteen people who once opposed some government action now support it. What can that signify? But the sample is a sample of American citizens, **and 1 percent of them (say, of the roughly half who vote) is about a million people**. If we were to hear that **a million people who once opposed something have switched to supporters, we would think that is a pretty big deal**. And that is exactly what those samples tell us, that millions of people were in movement. And that is why those 1 percent movements, well within what reporters like to call a “margin of error,” stand for something noteworthy.
+
+---
+class: top
+
+# The Element of Time in Research
+
+--
+
+## Fixed-sample panel designs
+
+--
+
+Data collected at 2+ points in time from the **same sample**
+
+- Though likely with some **attrition**
+
+&lt;img src="panel-study.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+???
+
+**Panel designs** allow us to identify changes in individuals, groups, or whatever we are studying. 
+
+In terms of testing causal hypotheses, it's an improvement over trend studies. 
+
+The problem is that tracking people for an extended period of time is expensive and participants inevitably drop out. 
+
+- Attrition
+
+- Fatigue
+
+---
+class: top
+
+# The Element of Time in Research
+
+--
+
+## Event-based designs
+
+--
+
+Follow-up samples are selected from the same **cohort**
+
+&lt;img src="cohort-study.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+???
+
+AKA **cohort studies**. Follow-up samples are selected from the same cohort, or people who have all experienced a similar event or common starting point
+
+Examples include:
+
+- Birth cohorts
+- Seniority cohorts - people who worked at the same place for 5, 10 years, or so on
+- School cohorts
+
+---
+class: top
+
+# Causality in Nonexperimental Designs
+
+--
+
+In nonexperimental designs, researchers use **statistical controls** to reduce the risk of [spuriousness](https://www.tylervigen.com/spurious-correlations)
+
+&lt;img src="fake_study.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: top
+
+# Causality in Nonexperimental Designs
+
+In nonexperimental designs, researchers use **statistical controls** to reduce the risk of [spuriousness](https://www.tylervigen.com/spurious-correlations)
+
+&lt;img src="fake_study2.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
 class: middle, center, inverse 
 
-# Have a great SPRING BREAK! 😄
+# Have a great day! 😄
 
-## (We'll resume Chapter 6 on March 21st) 
+&lt;img src="starry_night.jpg" width="40%" style="display: block; margin: auto;" /&gt;
+&lt;p style="text-align: center; color: gray"&gt;.small[Image by Vincent van Gogh on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_2.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)]&lt;/p&gt;
+
+### *What would life be if we had no courage to attempt anything?*
+
+&lt;div style="text-align: right"&gt; - Vincent van Gogh &lt;/div&gt;
 
 &lt;!-- ```{css, echo=FALSE} --&gt;
 &lt;!-- @media print { --&gt;
