@@ -621,10 +621,15 @@ class: top
 
 In nonexperimental designs, researchers use **statistical controls** to reduce the risk of [spuriousness](https://www.tylervigen.com/spurious-correlations)
 
-```{r, echo=FALSE, fig.align='center', out.width = "75%"}
+--
+
+Consider this hypothetical: an agency purchases body-worn cameras and wants to know if they reduce misconduct
+
+--
+
+```{r, echo=FALSE, fig.align='center', out.width = "65%"}
 knitr::include_graphics("fake_study.png")
 ```
-
 
 ---
 class: top
@@ -633,7 +638,15 @@ class: top
 
 In nonexperimental designs, researchers use **statistical controls** to reduce the risk of [spuriousness](https://www.tylervigen.com/spurious-correlations)
 
-```{r, echo=FALSE, fig.align='center', out.width = "75%"}
+--
+
+But they wouldn't agree to an RCT, instead allowing officers to volunteer to be in the treatment group
+
+--
+
+If female officers are more likely to select into treatment, we must control for this!
+
+```{r, echo=FALSE, fig.align='center', out.width = "55%"}
 knitr::include_graphics("fake_study2.png")
 ```
 
