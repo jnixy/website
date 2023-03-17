@@ -1,5 +1,6 @@
 ---
-title: "Policing Suspicion: Qualified Immunity and *Clearly Established* Standards of Proof"
+title: >
+  Policing Suspicion: Qualified Immunity and "Clearly Established" Standards of Proof
 authors:
 - Seth W. Stoughton
 - Kyle McLean
