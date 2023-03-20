@@ -43,7 +43,7 @@ tags:
 - Police shootings
 title: "The Criminology Academy Podcast - Episode 68"
 url_code: ""
-url_pdf: ""
+url_pdf: "https://thecriminologyacademy.com/wp-content/uploads/2023/03/TheCrimAcademy_68_Nix.pdf"
 url_slides: ""
 url_video: ""
 ---
@@ -51,7 +51,7 @@ url_video: ""
 I was recently a guest on the [The Criminology Academy Podcast](https://thecriminologyacademy.com/episode-68-nix/), hosted by Jenn Tostlebe and Jose Sanchez.
 
 {{% alert note %}}
-Click on the **Listen** buttons near the top of the page to listen to the podcast on your preferred streaming platform.
+Click on the **Listen** buttons near the top of the page to listen to the podcast on your preferred streaming platform. Or click **PDF** to read the transcript.
 {{% /alert %}}
 
 Topics discussed include police killings, police legitimacy, and the "war on cops." 
