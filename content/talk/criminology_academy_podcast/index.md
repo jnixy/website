@@ -48,6 +48,8 @@ url_slides: ""
 url_video: ""
 ---
 
+![](Capture.jpg "A screenshot while recording")
+
 I was recently a guest on the [The Criminology Academy Podcast](https://thecriminologyacademy.com/episode-68-nix/), hosted by Jenn Tostlebe and Jose Sanchez.
 
 {{% alert note %}}
