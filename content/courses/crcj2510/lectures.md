@@ -42,7 +42,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 7
 
-[Survey research]
+[Survey research](https://jnix.netlify.app/slides/crcj2510_ch7/)
 
 ## Chapter 8
 
