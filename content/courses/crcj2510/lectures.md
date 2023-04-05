@@ -46,7 +46,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 8
 
-[Qualitative methods and data analysis]
+[Qualitative methods and data analysis](https://jnix.netlify.app/slides/crcj2510_ch8/)
 
 ## Chapter 9
 
