@@ -5,7 +5,7 @@ abstract: ' __Research Summary__: We analyzed 990 police fatal shootings using d
   bias by using multivariate regression models that predict two indicators of threat
   perception failure: (1) whether the civilian was not attacking the officer(s) or
   other civilians just before being fatally shot and (2) whether the civilian was
-  unarmed when fatally shot. The results indicated civilians from “other” minority
+  unarmed when fatally shot. The results indicated civilians from other minority
   groups were significantly more likely than Whites to have not been attacking the
   officer(s) or other civilians and that Black civilians were more than twice as likely
   as White civilians to have been unarmed. __Policy Implications__: We implore the
@@ -17,7 +17,7 @@ authors:
 - admin
 - Bradley Campbell
 - Edward Byers
-- Geoffrey Alpert
+- Geoff Alpert
 date: "2017-02-01T00:00:00Z"
 doi: 10.1111/1745-9133.12269
 featured: false

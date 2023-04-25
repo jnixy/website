@@ -2,9 +2,9 @@
 abstract: Racial disparities in officer-involved shootings have dominated the national
   discourse recently. Unfortunately, we have yet to identify an appropriate benchmark,
   or at-risk population, to put these observed racial disparities into context. In
-  this article, we use seven benchmarks—based on population data from the US Census,
+  this article, we use seven benchmarks - based on population data from the US Census,
   police-citizen interaction data from the Police-Public Contact Survey, and arrest
-  data from the Uniform Crime Report—to compare OIS fatality rates for black and white
+  data from the Uniform Crime Report - to compare OIS fatality rates for black and white
   citizens from 2015 to 2017. Using population, police-citizen interactions, or total
   arrests as a benchmark, we observe that black citizens appear more likely than white
   citizens to be fatally shot by police officers in both years. Using violent crime
@@ -15,7 +15,7 @@ abstract: Racial disparities in officer-involved shootings have dominated the na
 authors:
 - Brandon Tregle
 - admin
-- Geoffrey Alpert
+- Geoff Alpert
 date: "2019-01-01T00:00:00Z"
 doi: 10.1080/0735648X.2018.1547269
 featured: false

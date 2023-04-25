@@ -1,6 +1,6 @@
 ---
 abstract: 'In recent years, policing scholars have increasingly used survey methods
-  to gain insight into officers’ attitudes and behaviours. Yet, surprisingly, methodological
+  to gain insight into officers' attitudes and behaviours. Yet, surprisingly, methodological
   research analysing surveys of police officers is rare. We analysed the extent and
   correlates of response rates in police surveys, providing insights about the survey
   design features and study characteristics associated with higher rates of officer
@@ -12,14 +12,14 @@ abstract: 'In recent years, policing scholars have increasingly used survey meth
   response rates, and (4) response rates have declined over time (though primarily
   among surveys not administered in-person). Given the weight of the evidence suggesting
   response rates are typically a poor predictor of nonresponse bias, we argue that
-  a low response rate on its own is an insufficient reason to dismiss a study’s merit.
+  a low response rate on its own is an insufficient reason to dismiss a study's merit.
   Furthermore, we recommend minimally acceptable reporting standards and discuss avenues
   for future research.'
 authors:
 - admin
 - Justin Pickett
 - Hyunin Baek
-- Geoffrey Alpert
+- Geoff Alpert
 date: "2019-05-01T00:00:00Z"
 doi: 10.1080/10439463.2017.1394300
 featured: false

@@ -4,8 +4,8 @@ authors:
 - Kyle McLean
 - admin
 - Seth W. Stoughton
-- Ian T. Adams
-- Geoffrey P. Alpert
+- Ian Adams
+- Geoff Alpert
 date: "2023-04-25T11:00:00Z"
 output: 
 featured: no
