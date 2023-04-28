@@ -12,7 +12,7 @@ image:
   caption: "Image by [Chad Davis](https://flickr.com/photos/chaddavisphotography/) on [Flickr](https://flic.kr/p/2j7Gp9i), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
   focal_point: smart
   preview_only: no
-doi: 
+doi: 10.1111/1745-9125.12334
 projects: []
 publication: '*Criminology*'
 publication_short: 
