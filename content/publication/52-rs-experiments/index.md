@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ---
 title: "An experimental look at reasonable suspicion and police discretion"
 authors:

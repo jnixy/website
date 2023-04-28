@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ---
 abstract: Racial disparities in officer-involved shootings have dominated the national
   discourse recently. Unfortunately, we have yet to identify an appropriate benchmark,

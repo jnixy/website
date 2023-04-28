@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ---
 abstract: 'In recent years, policing scholars have increasingly used survey methods
   to gain insight into officers' attitudes and behaviours. Yet, surprisingly, methodological

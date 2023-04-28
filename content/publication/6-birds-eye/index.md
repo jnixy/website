@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 ---
 abstract: ' __Research Summary__: We analyzed 990 police fatal shootings using data
   compiled by TheWashington Post in 2015. After first providing a basic descriptive
