@@ -54,7 +54,7 @@ The answer to our first question, then, was that just 14.5% of the 600 police su
 
 ![fig2](fig2.png)
 
-The answer to our second question wasn't quite as straightforward. One study ((this one)[https://doi.org/10.1108/PIJPSM-08-2016-0128]) fully replicated. Another ((this one)[https://doi.org/10.1080/07418825.2017.1334808]) mostly replicated. Most of the others were decidedly mixed - see Table 2 of our [post-print](https://jnix.netlify.app/files/pdfs/ppr_generalizability.pdf) for detailed discussion. 
+The answer to our second question wasn't quite as straightforward. One study ([this one](https://doi.org/10.1108/PIJPSM-08-2016-0128)) fully replicated. Another ([this one](https://doi.org/10.1080/07418825.2017.1334808)) mostly replicated. Most of the others were decidedly mixed - see Table 2 of our [post-print](https://jnix.netlify.app/files/pdfs/ppr_generalizability.pdf) for detailed discussion. 
 
 Researchers (ourselves included) are often quick to point out the heterogeneity in American policing, which is comprised of some 18,000 agencies. Thus, we have to be careful when we interpret the results of studies involving just one of those agencies - we can't be certain the results would hold up elsewhere. Maybe they would! But maybe not. Simply put: we need more replication research.
 
