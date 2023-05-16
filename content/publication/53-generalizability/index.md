@@ -66,6 +66,6 @@ The answer to our second question wasn't quite as straightforward. One study ([t
 
 Researchers (ourselves included) are often quick to point out the heterogeneity in American policing, which is comprised of some 18,000 agencies. Thus, we have to be careful when we interpret the results of studies involving just one of those agencies - we can't be certain the results would hold up elsewhere. Maybe they would! But maybe not. Simply put: we need more replication research.
 
-Our field - authors, editors, and reviewers alike - must take [the need for replication studies](https://link.springer.com/article/10.1007/s11292-018-9337-3) more seriously.**
+**Our field - authors, editors, and reviewers alike - must take [the need for replication studies](https://link.springer.com/article/10.1007/s11292-018-9337-3) more seriously.**
 
 [^1]: Another limitation is that we restricted our search to criminology and policing journals. Thus our study can't speak to the state of affairs in, e.g., economics and political science journals. 
