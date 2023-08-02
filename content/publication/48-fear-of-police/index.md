@@ -1,5 +1,6 @@
 ---
-title: "Officer Diversity May Reduce Black Americans' Fear of the Police"
+title: >
+  Officer Diversity May Reduce Black Americans' Fear of the Police
 authors:
 - Justin Pickett
 - Amanda Graham
