@@ -9,7 +9,7 @@ date: "2023-07-27T11:00:00Z"
 output: 
 featured: no
 image:
-  caption: ""
+  caption: "[Image](https://pixabay.com/photos/bodyworn-body-camera-794108/) by [BodyWorn by Utility](https://pixabay.com/users/utility_inc-1078771/) on Pixabay"
   focal_point: smart
   preview_only: no
 doi: 10.31235/osf.io/7mrgp
