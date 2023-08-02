@@ -41,7 +41,7 @@ url_source: ""
 url_video: ""
 ---
 
-**NOTE: This paper was accepted by** ***Criminology*** **in July 2023. It is scheduled to appear in the February 2024 issue.** 
+**NOTE: This paper was originally posted as a pre-print on SocArXiv on August 25, 2022. On July 27, 2023, it was accepted for publication by** ***Criminology.*** **It is scheduled to appear in the February 2024 issue.** 
 
 ## BACKGROUND
 
