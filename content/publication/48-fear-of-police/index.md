@@ -78,7 +78,7 @@ First, our baseline measures replicate the findings from Pickett and colleagues'
 
 Turning to our experimental results, we found that net of other randomized factors, Black respondents expressed less fear of officers who were Hispanic/Latino or Black (compared to White), and less fearful of female officers (compared to male officers). In Experiment 1, we also found that Black and non-Black respondents were less fearful of officers who were wearing body-worn cameras, and more fearful of officers who were known to have a prior complaint for being disrespectful, using excessive force, or both.
 
-![figure_3](fig3.jpg) ![figure_4](fig4.jpg)
+![figures_3-4](figs3-4.jpg)
 
 ## IMPLICATIONS
 
@@ -91,7 +91,7 @@ Increasing recruitment won't be enough, though. [Retaining officers](https://osf
 And finally, given [evidence](https://doi.org/10.1126/science.abd8694) that assignment to beats (in terms of both time and geographic location) varies by officer race and sex, our findings suggest taht when deciding assignments, one consideration should be ensuring the racial and gender diversity of the officers patrolling a given area at a particular time, as doing so may reduce fear among the citizens who live and work in said areas. From the standpoint of symbolic representation, and for signaling normative alignment with civilians, it would also be beneficial for police agencies to communicate clearly to the public (e.g., via official social media posts) that they are committed to racial and gender diversification and are taking specific steps to increase the diversity of their officers.
 
 {{% alert note %}}
-<p style="text-align:center"> Click on the PDF button at the top of this page to download the post-print (accepted) version of our paper.</p>
+<p style="text-align:center"> Click on the PDF button at the top of this page to download the pre-print version of our paper.</p>
 {{% /alert %}}
 
 ^1: For more about the sample see pp. 13-14 of the pre-print as well as the supplemental appendix. 
