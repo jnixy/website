@@ -16,7 +16,7 @@ In this course, we will explore the function of the police in American society -
 
 ## Required Readings
 
-This semester, we'll read a mixture of seminal articles by police researchers and more contemporary work by journalists, psychologists, legal scholars, and other experts working in this area. I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. Most of the required readings are available on Canvas and/or linked whenever possible on the [Course Schedule](https://jnix.netlify.app/courses/crcj8040/course_schedule/) page). The three assigned books are all available for fairly cheap as paperbacks or eBooks. You may also be able to borrow/request them from the [campus library](https://www.unomaha.edu/criss-library/index.php) or [Omaha Public Library](https://omahalibrary.org/). 
+This semester, we'll read a mixture of seminal articles by police researchers and more contemporary work by journalists, psychologists, legal scholars, and other experts working in this area. I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. Most of the required readings are available on Canvas and/or linked whenever possible on the [Course Schedule](https://jnix.netlify.app/courses/crcj8040/course_schedule/) page. The three assigned books are all available for fairly cheap as paperbacks or eBooks. You may also be able to borrow/request them from the [campus library](https://www.unomaha.edu/criss-library/index.php) or [Omaha Public Library](https://omahalibrary.org/). 
 
 ## Journals
 
