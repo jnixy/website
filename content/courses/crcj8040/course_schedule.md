@@ -100,9 +100,9 @@ weight: 2
 
 * Chalfin, A., & Kaplan, J. (2021). [How many complaints against police officers can be abated by incapacitating a few "bad apples?"](https://doi.org/10.1111/1745-9133.12542) *Criminology & Public Policy*, 20(2), 351-370.
 
-* Sierra-Ar\u00e9valo, M., & Papachristos, A. (2021).[Bad apples and incredible certitude](https://doi.org/10.1111/1745-9133.12545). *Criminology & Public Policy*, 20(2), 371-381.
+* Sierra-Arévalo, M., & Papachristos, A. (2021).[Bad apples and incredible certitude](https://doi.org/10.1111/1745-9133.12545). *Criminology & Public Policy*, 20(2), 371-381.
 
-* Chalfin, A., & Kaplan, J. (2021). [Reply to Sierra-Ar\u00e9valo and Papachristos (2021)](https://crimedatatool.com/documents/police_complaints_reply.pdf).
+* Chalfin, A., & Kaplan, J. (2021). [Reply to Sierra-Arévalo and Papachristos (2021)](https://crimedatatool.com/documents/police_complaints_reply.pdf).
 
 ## Week 13, 11/15: ASC Conference - No class
 
