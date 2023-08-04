@@ -24,7 +24,7 @@ You may also download a PDF of the syllabus by clicking [this link](crcj8040-syl
 
 * [Fall 2022](crcj8040-syllabus-fall22.pdf)
 
-* [Fall 2021]((crcj8040-syllabus-fall21.pdf))
+* [Fall 2021](crcj8040-syllabus-fall21.pdf)
 
 * [Fall 2019](crcj8040-syllabus-fall19.pdf)
 
