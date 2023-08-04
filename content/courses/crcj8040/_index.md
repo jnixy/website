@@ -16,7 +16,7 @@ weight: 30
 
 ## Fall 2023
 
-???? If you're viewing on a desktop, the course syllabus and lectures are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
+👈 If you're viewing on a desktop, the course syllabus and lectures are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
 
 You may also download a PDF of the syllabus by clicking [this link](crcj8040-syllabus-fall23.pdf).
 
