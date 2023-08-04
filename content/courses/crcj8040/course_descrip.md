@@ -12,15 +12,15 @@ type: docs
 weight: 1
 ---
 
-In this course, we will explore the function of the police in American society – all the while considering the challenges associated with balancing civil liberties on the one hand with the goal of controlling crime on the other. I will push you to think critically about the scientific methods used to answer various research questions, as well as reflect on policing’s contributions to the larger CJ system and society, more generally.
+In this course, we will explore the function of the police in American society - all the while considering the challenges associated with balancing civil liberties on the one hand with the goal of controlling crime on the other. I will push you to think critically about the scientific methods used to answer various research questions, as well as reflect on policing's contributions to the larger CJ system and society, more generally.
 
 ## Required Readings
 
-I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. All required readings are available on Canvas (or linked whenever possible on the [Course Schedule](https://jnix.netlify.app/courses/crcj8040/course_schedule/) page).
+This semester, we'll read a mixture of seminal articles by police researchers and more contemporary work by journalists, psychologists, legal scholars, and other experts working in this area. I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. Most of the required readings are available on Canvas and/or linked whenever possible on the [Course Schedule](https://jnix.netlify.app/courses/crcj8040/course_schedule/) page). The three assigned books are all available for fairly cheap as paperbacks or eBooks. You may also be able to borrow/request them from the [campus library](https://www.unomaha.edu/criss-library/index.php) or [Omaha Public Library](https://omahalibrary.org/). 
 
 ## Journals
 
-Each week at the end of class, I’ll ask you to take approximately 10 minutes to reflect on a question or issue and write your thoughts down in a “journal.” Then as you do the readings for the following week on your own time, you’ll update your journal. *Do you still feel the same way? Why or why not? Did the readings change your mind or make you to think about the issue in a different way? What questions do you still have?* At the begining of the next class, we’ll break the ice by discussing what you wrote in your journals.
+Each week at the end of class, I'll ask you to take approximately 10 minutes to reflect on a question or issue and write your thoughts down in a "journal." Then as you do the readings for the following week on your own time, you'll update your journal. *Do you still feel the same way? Why or why not? Did the readings change your mind or make you to think about the issue in a different way? What questions do you still have?* At the beginning of the next class, we'll break the ice by discussing what you wrote in your journals. 
 
 ## Exams
 
@@ -45,7 +45,7 @@ F             | 0 - 59
 
 ## Academic Integrity
 
-*Don’t cheat.* Students should familiarize themselves with the University of Nebraska at Omaha’s Statement of Student Rights and Responsibilities and the [policy on academic integrity](https://www.unomaha.edu/student-life/student-conduct-and-community-standards/policies/academic-integrity.php). Any form of academic dishonesty is unacceptable. Instances of academic dishonesty will, at a minimum, result in a failing grade for that assignment, and a record of academic dishonesty will be placed in the student’s academic file that is maintained by the School of Criminology and Criminal Justice. Instances of academic dishonesty may also be subject to disciplinary action by the University.
+*Don't cheat.* Students should familiarize themselves with the University of Nebraska at Omaha's Statement of Student Rights and Responsibilities and the [policy on academic integrity](https://www.unomaha.edu/student-life/student-conduct-and-community-standards/policies/academic-integrity.php). Any form of academic dishonesty is unacceptable. Instances of academic dishonesty will, at a minimum, result in a failing grade for that assignment, and a record of academic dishonesty will be placed in the student's academic file that is maintained by the School of Criminology and Criminal Justice. Instances of academic dishonesty may also be subject to disciplinary action by the University.
 
 ## Students with Accessibility Needs
 

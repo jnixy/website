@@ -12,122 +12,118 @@ type: docs
 weight: 2
 ---
 
-## Week 1, 8/24: Introduction
+## Week 1, 8/24: Contemporary Discourse Re: Police Reform
 
-* Schwartz, M. A. (2008). [The importance of stupidity in scientific research](https://jcs.biologists.org/content/joces/121/11/1771.full.pdf). *Journal of Cell Science* 121: 1771.
+* Vitale, A. (2017). [Police and the liberal fantasy](https://jacobin.com/2017/10/police-reform-prisons-racism-vitale). *Jacobin*. 
 
-* Packer, H. L. (1964). [Two models of the criminal process](https://heinonline.org/HOL/P?h=hein.journals/pnlr113&i=21). *University of Pennsylvania Law Review*, 113, 1-68. 
+* Cobbina-Dungy, J. E., & Jones-Brown, D. (2023). [Too much policing: Why calls are made to defund the police](https://doi.org/10.1177/14624745211045652). *Punishment & Society*, 25(1), 3-20.
 
-* Kaba, M. (2020, Jun 12). [Yes, we mean literally abolish the police](https://www.nytimes.com/2020/06/12/opinion/sunday/floyd-abolish-defund-police.html). *The New York Times*.
+* Mangual, R. (2022). *Criminal (injustice): What the push for decarceration and depolicing gets wrong and who it hurts most.* Center Street.
 
-## Week 2, 8/31: Function of Police
+  + Chapter 5
 
+## Week 2, 8/30: Function of Police
+
+* Bittner, E. (1980). [*The functions of the police in modern society: A review of background factors, current practices, and possible role models*](https://www.ojp.gov/pdffiles1/Digitization/147822NCJRS.pdf). Oelgeschlager, Gunn & Hain.
+
+  + Chapters 1 & 2
+  
 * Klockars, C. (1985). [*The idea of police*](https://www.ojp.gov/ncjrs/virtual-library/abstracts/idea-police). SAGE Publications, Inc.
 
   + Chapters 1-3
-  
-* President's Commission on Law Enforcement & Administration of Justice (1967). [*The challenge of crime in a free society*](https://www.ojp.gov/pdffiles1/Digitization/42NCJRS.pdf). Washington, DC: US Government Printing Office.
 
-  + Chapter 4
-
-## Week 3, 9/7: Function of Police
-
-* Bittner, E. (1970). [*The functions of the police in modern society: A review of background factors, current practices, and possible role models*](https://www.ojp.gov/pdffiles1/Digitization/147822NCJRS.pdf). Oelgeschlager, Gunn & Hain.
-
-  + Chapters 1 & 2
-
-* Thacher, D. (2022). [Shrinking the police footprint](https://doi.org/10.1080/0731129X.2022.2062546). *Criminal Justice Ethics*, 41(1), 62-85.
-
-## Week 4, 9/14: Police Culture
+## Week 3, 9/6: Police Culture
 
 * Van Maanen, J. (1973). [Observations on the making of policemen](https://www.jstor.org/stable/44127631). *Human Organization*, 32(4), 407-418.
 
-* Van Maanen, J. (1978). [Kinsmen in repose: Occupational perspectives of patrolmen](https://www.ojp.gov/ncjrs/virtual-library/abstracts/kinsmen-repose-occupational-perspectives-patrolmen-police-and). In P. Manning & J. Van Maanen (Eds.), *Policing: A View from the Street* (pp. 115-128). Goodyear publishing Co. 
-
-* Van Maanen, J. (1978). [The asshole](http://ww.jthomasniu.org/class/377a/Readings/vanmaanen-1978.pdf). In P. Manning & J. Van Maanen (Eds.), *Policing: A View from the Street* (pp. 221-238). Goodyear Publishing Co.
-
-## Week 5, 9/21: Police Culture
+* Bittner, E. (1974). Florence Nightingale in pursuit of Willie Sutton: A theory of the police. In H. Jacob (Ed.), *The potential for reform of criminal justice*. Sage Publications, Inc.
 
 * Skolnick, J. (1966). *Justice without trial: Law enforcement in democratic society*. John Wiley.
 
-  + Chapters 3 & 9
+  + Chapter 3 
 
-* Bittner, E. (1974). Florence Nightingale in pursuit of Willie Sutton: A theory of the police. In H. Jacob (Ed.), *The potential for reform of criminal justice*. Sage Publications, Inc.
+## Week 4, 9/13: No Class
+
+* *Get a head start on reading for next week!*
+
+## Week 5, 9/20: Stop & Frisk
+
+* Skogan, W. G. (2022). [*Stop & frisk and the politics of crime in Chicago*](https://global.oup.com/academic/product/stop-and-frisk-and-the-politics-of-crime-in-chicago-9780197675069?lang=en&cc=us). Oxford University Press.
   
-* Crank, J. & Langworthy, R. (1992). [An institutional perspective of policing](https://heinonline.org/HOL/P?h=hein.journals/jclc83&i=348). *Journal of Criminal Law & Criminology*, 83, 338-363.
+## Week 6, 9/27: Community and Problem-Oriented Policing
 
-## Week 6, 9/28: Discretion
+* Skogan, W. G. (2019). Community policing. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
+
+* Mastrofski, S. (2019). Community policing: A skeptical view. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
+
+* Eck, J. (2019). Why problem-oriented policing. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
+
+* Braga, A. & Weisburd, D. (2019). Problem-oriented policing: The disconnect between principles and practice. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
+
+## Week 7, 10/4: Broken Windows and Hot Spots Policing
+
+* Sousa, W. & Kelling, G. (2019). Of 'broken windows' criminology and criminal justice. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
+
+* Taylor, R. (2019). Incivilities reduction policing, zero tolerance, and the retreat from coproduction: Even weaker foundations and stronger pressures. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
+
+* Braga, A. & Weisburd, D. (2019). Hot spots policing as a model for police innovation. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
+
+* Rosenbaum, D. (2019). The limits of hot spots policing. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
+
+## Week 8, 10/11: Midterm Exam
+
+* No readings
+
+## Week 9, 10/18: Discretion
+
+* Goldstein, H. (1963). [Police discretion: The ideal versus the real](https://www.jstor.org/stable/973838). *Public Administration Review*, 23(3), 140-148.
 
 * Bittner, E. (1967). [The police on Skid-Row: A study of peace keeping](http://www.jstor.org/stable/2092019). *American Sociological Review*, 32(5), 699-715.
-
-* Wilson, J. Q. (1978) [*Varieties of police behavior: The management of law & order in eight communities*](https://www.ojp.gov/ncjrs/virtual-library/abstracts/varieties-police-behavior-management-law-and-order-eight). Harvard University Press.
-
-  + Chapter 4
 
 * Walker, S. (1992). [*Taming the system: The control of discretion in criminal justice 1950-1990*](https://www.ojp.gov/ncjrs/virtual-library/abstracts/taming-system-control-discretion-criminal-justice-1950-1990). Oxford University Press. 
 
   + Chapter 2
 
-## Week 7, 10/5: Midterm Exam
+## Week 10, 10/25: Use of Force
 
-* No readings
+* Lowery, W. (2016). [*"They can't kill us all": The story of the struggle for Black lives*](https://www.hachettebookgroup.com/titles/wesley-lowery/they-cant-kill-us-all/9780316312493/). Little, Brown and Company.
 
-## Week 8, 10/12: Reducing Crime
+* Nix, J. (2020). [On the challenges associated with the study of police use of deadly force in the United States: A response to Schwartz & Jahn](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0236158). *PLOS ONE*, 15(7), e0236158.
 
-* Sherman, L. (1986). [Policing communities: What works?](https://www.journals.uchicago.edu/doi/epdf/10.1086/449127) *Crime & Justice*, 8, 343-386.
+## Week 11, 11/1: Procedural Justice
 
-* Sherman, L., Gartin, P., & Buerger, M. (1989). [Hot spots of predatory crime: Routine activities and the criminology of place](https://doi.org/10.1111/j.1745-9125.1989.tb00862.x). *Criminology*, 27(1), 27-56.
+* Tyler, T. & Meares, T. (2019). Procedural justice policing. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
 
-## Week 9, 10/19: Reducing Crime
+* Thacher, D. (2019). The limits of procedural justice. In D. Weisburd & A. Braga (Eds.), *Policing Innovation: Contrasting Perspectives*. Cambridge University Press.
 
-* Goldstein, H. (1979). [Improving policing: A problem-oriented approach](https://doi.org/10.1177%2F001112877902500207). *Crime & Delinquency*, 25(2), 236-258.
+## Week 12, 11/8: Police Misconduct and Accountability
 
-* Wilson, J. Q. & Kelling, G. (1982). [Broken windows](https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/). *The Atlantic*. 
+* Chalfin, A., & Kaplan, J. (2021). [How many complaints against police officers can be abated by incapacitating a few "bad apples?"](https://doi.org/10.1111/1745-9133.12542) *Criminology & Public Policy*, 20(2), 351-370.
 
-* Eck, J. & Spelman, W. (1987). [Who ya gonna call? The police as problem-busters](https://doi.org/10.1177%2F0011128787033001003). *Crime & Delinquency*, 33(1), 31-52.
+* Sierra-Arévalo, M., & Papachristos, A. (2021).[Bad apples and incredible certitude](https://doi.org/10.1111/1745-9133.12545). *Criminology & Public Policy*, 20(2), 371-381.
 
-## Week 10, 10/26: Police Use of Force
+* Chalfin, A., & Kaplan, J. (2021). [Reply to Sierra-Arévalo and Papachristos (2021)](https://crimedatatool.com/documents/police_complaints_reply.pdf).
 
-* Fyfe, J. (1986). [The split-second syndrome and other determinants of police violence](https://img1.wsimg.com/blobby/go/f3f11b75-143e-4007-a4ef-d815ec0cbd12/downloads/Fyfe%201986%20-%20The%20Split-Second%20Syndrome%20%20-%20Brand.pdf). In A. Campbell & John Gibbs (Eds.), *Violent transactions* (pp. 207-223). Basil Blackwell. 
+## Week 13, 11/15: ASC Conference - No class
 
-* Bayley, D. & Garofalo, J. (1989). [The management of violence by police patrol officers](https://doi.org/10.1111/j.1745-9125.1989.tb00861.x). *Criminology*, 27(1), 1-26.
+* *Get a head start on reading for Week 15!*
 
-## Week 11, 11/2: Police Use of Force
+## Week 14, 11/22: Thanksgiving Break - No class
 
-* Smith, D. (1986). [The neighborhood context of police behavior](https://www.journals.uchicago.edu/doi/epdf/10.1086/449126). *Crime and Justice*, 8, 313-341.
+* *Keep reading for Week 15!*
 
-* Terrill, W. & Reisig, M. (2003). [Neighborhood context and police use of force](https://doi.org/10.1177%2F0022427803253800). *Journal of Research in Crime and Delinquency*, 40(3), 291-321.
+## Week 15, 11/29: Militarization
 
-## Week 12, 11/9: Accountability and Oversight
+* Balko, R. (2013). [*Rise of the Warrior Cop: The Militarization of America's Police Forces*](https://www.hachettebookgroup.com/titles/radley-balko/rise-of-the-warrior-cop/9781541774537/?lens=publicaffairs). PublicAffairs.
 
-* Skolnick, J. & McCoy, C. (1984). [Police accountability and the media](https://www.jstor.org/stable/pdf/828317.pdf). *American Bar Foundation Research Journal*, 9(3), 521-557.
+* Klinger, D. A., & Rojek, J. (2008). [*Multi-method study of special weapons and tactics teams*](https://www.ojp.gov/pdffiles1/nij/grants/223855.pdf). National Institute of Justice (Report No. 223855).
 
-* Walker, S. (2022). [The Justice Department's Pattern-or-Practice Police Reform Program, 1994-2017: Goals, achievements, and issues](https://www.annualreviews.org/doi/full/10.1146/annurev-criminol-030920-102432). *Annual Review of Criminology*, 5, 21-42.
+## Week 16, 12/6: Consent Decrees
 
-* President's Task Force on 21st Century Policing (2015). [*Final report of the President's Task force on 21st Century Policing*](https://cops.usdoj.gov/pdf/taskforce/taskforce_finalreport.pdf). Washington, DC: Office of Community Oriented Policing Services.
+* U.S. Department of Justice (2023). [*Investigation of the City of Minneapolis and the Minneapolis Police Department*](https://www.justice.gov/opa/press-release/file/1587661/download).
 
-  + Pillar 2
+* Savolainen, J. & Wright, J. P. (2023). [Maligning Minneapolis](https://www.city-journal.org/article/biden-doj-claims-minneapolis-police-discriminate-but-ignores-crime-disparities). *City Journal*. 
 
-## Week 13, 11/16: No Class
-
-*ASC Conference in Atlanta, GA*
-
-## Week 14, 11/23: No Class
-
-*Thanksgiving Break*
-
-## Week 15, 11/30: Legitimacy
-
-* Tyler, T. & Blader, S. (2003). [The group engagement model: Procedural justice, social identity, and cooperative behavior](https://doi.org/10.1207%2FS15327957PSPR0704_07). *Personality and Social Psychology Review*, 7(4), 349-361.
-
-* Bell, M. (2017). [Police reform and the dismantling of legal estrangement](https://www.jstor.org/stable/45222555). *The Yale Law Journal*, 126(7), 2054-2150.
-
-## Week 16, 12/7: Legitimacy
-
-* Nix, J., & Wolfe, S. E. (2017). [The impact of negative publicity on police self-legitimacy](https://doi.org/10.1080/07418825.2015.1102954). *Justice Quarterly*, 34(1), 84-108.
-
-* Nix, J., Pickett, J. T., & Wolfe, S. E. (2020). [Testing a theoretical model of perceived audience legitimacy: The neglected linkage in the dialogic model of policeâ€“community relations](https://doi.org/10.1177/0022427819873957). *Journal of Research in Crime and Delinquency*, 57(2), 217-259.
-
-## Week 17, 12/14: Final Exam
+## Week 17, 12/13: Final Exam
 
 * No readings
