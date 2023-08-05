@@ -7,7 +7,7 @@ date = "2023-07-27T11:00:00Z"
 
 [image]
   caption = "[Image](https://pixabay.com/photos/bodyworn-body-camera-794108/) by [BodyWorn by Utility](https://pixabay.com/users/utility_inc-1078771/) on Pixabay"
-  focal_point = smart
+  focal_point = "smart"
 
 doi = "10.31235/osf.io/7mrgp"
 
