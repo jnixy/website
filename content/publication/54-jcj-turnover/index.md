@@ -2,16 +2,11 @@
 # Paper title
 title = "Turnover in large US police agencies following the George Floyd Protests"
 
-# Publication & DOI
-publication = "*Journal of Criminal Justice*"
-publication_types = "2"
-doi = ""
-
 # Authors
 authors = ["Ian Adams", "Scott Mourtgos", "admin"]
 
 # Date this page was created.
-date = "2023-08-04T14:00:00"
+date = 2023-08-04T14:00:00
 
 # Project summary to display on homepage.
 summary = ""
