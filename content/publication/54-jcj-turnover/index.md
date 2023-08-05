@@ -11,7 +11,7 @@ doi = ""
 authors = ["Ian Adams", "Scott Mourtgos", "admin"]
 
 # Date this page was created.
-date = 2023-08-04T14:00:00
+date = "2023-08-04T14:00:00"
 
 # Project summary to display on homepage.
 summary = ""
