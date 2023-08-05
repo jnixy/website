@@ -15,7 +15,7 @@ date = 2023-07-27T14:00:00
 summary = ""
 
 # Abstract
-abstract = "Would police racial and gender diversification reduce Black Americans\' fear of the police? The theory of representative bureaucracy indicates that it might. We tested the effects of officer diversity in two experiments embedded in a national survey that oversampled Black Americans, producing several findings. First, in early 2022, nearly two years after George Floyd\'s killing, most Black Americans remained afraid of police mistreatment. Second, in a conjoint experiment where respondents were presented with 11,000 officer profiles, Black Americans were less afraid when the officers were non-White (Black or Hispanic/Latino) instead of White and were female instead of male. Third, in a separate experiment with pictured police teams, Black Americans were less afraid of being mistreated by non-White and female officers. Fourth, experimental evidence emerged that body-worn cameras (BWC) reduced fear among both Black and nonBlack respondents. These findings support calls to diversify police agencies and to require officers to wear and notify civilians of BWC."
+abstract = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
