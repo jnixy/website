@@ -1,6 +1,6 @@
 +++
 # Paper title
-title = "Officer Diversity May Reduce Black Americans\' Fear of the Police"
+title = "Officer Diversity May Reduce Black Americans Fear of the Police"
 
 # Authors
 authors = ["Justin Pickett", "Amanda Graham", "admin", "Francis Cullen"]
