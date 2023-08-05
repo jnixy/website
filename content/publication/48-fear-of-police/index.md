@@ -55,7 +55,7 @@ links = [{name = "Preprint", url="https://doi.org/10.31235/osf.io/7mrgp"}]
 
 **NOTE: This paper was originally posted as a pre-print on SocArXiv on August 25, 2022. On July 27, 2023, it was accepted for publication by** ***Criminology.*** **It is scheduled to appear in the February 2024 issue.** 
 
-## BACKGROUND
+## Background
 
 Calls to diversify the police date back to at least the 1960s, when President Johnson's [Commission on Law Enforcement and Administration of Justice](https://www.ojp.gov/sites/g/files/xyckuh241/files/archives/ncjrs/42.pdf) argued that a lack of racial diversity in police departments signals to Black communities that their neighborhoods are "being policed, not for the purpose of maintaining law and order, but for the purpose of maintaining ... [the] status quo" (p. 101). That same year, the [Kerner Commission](https://belonging.berkeley.edu/sites/default/files/kerner_commission_full_report.pdf) noted that "for police in a [Black] community, to be predominantly white can serve as a dangerous irritant" (p. 165). Drawing on the theory of [representative bureaucracy](https://onlinelibrary.wiley.com/share/ZAKVIGN4SZBUDI6NSNX4?target=10.1111/puar.12649), both commissions recommended intensifying recruitment of Black applicants, fully and visibly integrating Black officers (e.g., not strictly assigning them to patrol primarily Black neighborhoods), and reviewing promotion policies to ensure Black officers are not unfairly prevented from obtaining supervisory or leadership roles. According to the Kerner Commission:
 
@@ -72,7 +72,7 @@ Couple this mixed evidence with continued highly visible examples of police misc
 
 And because Black Americans are the group that [most fears and distrusts the police](https://t.co/JGUihX0YaN), it is among them that we expected the effects of officer diversity to be largest.
 
-## METHOD
+## Method
 
 We embedded two experiments in a YouGov survey fielded between April 21 and May 2, 2022, oversampling Black Americans to ensure similarly sized analytic samples of Black and non-Black Americans (N=511 and 589, respectively).[^1] 
 
@@ -82,7 +82,7 @@ We embedded two experiments in a YouGov survey fielded between April 21 and May 
 
 ![figure_1](fig1.jpg)
 
-## KEY FINDINGS
+## Key Findings
 
 First, our baseline measures replicate the findings from Pickett and colleagues' [2021 study](https://t.co/JGUihX0YaN), demonstrating that the American racial divide in police-related fear was not a temporary artifact of the events of 2020-21, but a persistent social fact in the United States. Black respondents were significantly more fearful than White respondents of police, but were no different from other groups in terms of their fear of crime.
 
@@ -94,7 +94,7 @@ Turning to our experimental results, we found that net of other randomized facto
 
 <span style="color:grey">*Note: You can right-click the image above and open it in a new window to make it larger.*</span>
 
-## IMPLICATIONS
+## Implications
 
 Every poll and every survey question to our knowledge has shown the same thing - namely, that police-related fear is widespread in Black America. As my colleague [points out](https://twitter.com/JustinTPickett/status/1619371974219952129), if we believe White Americans who say they aren't afraid of the police, we need to believe Black Americans who say they are. So, what to make of our key findings? 
 
@@ -102,7 +102,7 @@ The key policy implication of our finding is that we should continue increasing 
 
 Increasing recruitment won't be enough, though. [Retaining officers](https://osf.io/r9mjf/) once they've been hired is [equally critical](https://www.policeforum.org/assets/RecruitmentRetention.pdf).
 
-Given [evidence](https://doi.org/10.1126/science.abd8694) that assignment to beats (in terms of both time and geographic location) varies by officer race and sex, our findings suggest that when deciding assignments, one consideration should be ensuring the racial and gender diversity of the officers patrolling a given area at a particular time, as doing so may reduce fear among the citizens who live and work in said areas. From the standpoint of symbolic representation, and for signaling normative alignment with civilians, it would also be beneficial for police agencies to communicate clearly to the public (e.g., via official social media posts) that they are committed to racial and gender diversification and are taking specific steps to increase the diversity of their officers.
+Given [evidence](https://doi.org/10.1126/science.abd8694) that assignment to beats (in terms of both time and geographic location) varies by officer race and sex, our findings suggest that when deciding assignments, one consideration might be ensuring the racial and gender diversity of the officers patrolling a given area at a particular time, as doing so may reduce fear among the citizens who live and work in said areas. From the standpoint of symbolic representation, and for signaling normative alignment with civilians, it would also be beneficial for police agencies to communicate clearly to the public (e.g., via official social media posts) that they are committed to racial and gender diversification and are taking specific steps to increase the diversity of their officers.
 
 And finally, our results suggest that requiring officers to wear (and notify citizens of) body-worn cameras might reduce fear in the community. There seems to be a lot of disagreement about whether body-worn cameras have "lived up to the hype." I think that stems in part from a lack of clarity about what we expected from them 10+ years ago. But in any event, there is [definitely evidence](https://jnix.netlify.app/files/pdfs/TC_cops_cameras_crisis.pdf) that *in the right circumstances*, they can improve citizen perceptions of police (as well as reduce complaints, reduce use of force incidents, and perhaps even [save agencies money](https://www.ojp.gov/pdffiles1/nij/grants/251416.pdf) in the long run). 
 
