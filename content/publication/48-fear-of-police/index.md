@@ -1,46 +1,57 @@
----
-title: >
-  Officer Diversity May Reduce Black Americans' Fear of the Police
-authors:
-- Justin Pickett
-- Amanda Graham
-- admin
-- Francis Cullen
-date: "2023-07-27T11:00:00Z"
-output: 
-featured: no
-image:
-  caption: "[Image](https://pixabay.com/photos/bodyworn-body-camera-794108/) by [BodyWorn by Utility](https://pixabay.com/users/utility_inc-1078771/) on Pixabay"
-  focal_point: smart
-  preview_only: no
-doi: 10.31235/osf.io/7mrgp
-projects: []
-publication: '*Criminology*'
-publication_short: 
-publication_types: 
-- "2"
-publishDate: "2023-07-27T11:00:00Z"
-slides: ""
-summary: "In two experiments, we find that officer racial and gender diversity reduces Black Americans' fear of the police."
-tags:
-- Police
-- Experimental design
-- Fear
-- Race
-- Black Lives Matter
-- Body-worn cameras
-abstract: "Would police racial and gender diversification reduce Black Americans' fear of the police? The theory of representative bureaucracy indicates that it might. We tested the effects of officer
-diversity in two experiments embedded in a national survey that oversampled Black Americans, producing several findings. First, in early 2022, nearly two years after George Floyd's killing,
-most Black Americans remained afraid of police mistreatment. Second, in a conjoint experiment where respondents were presented with 11,000 officer profiles, Black Americans were less afraid when the officers were non-White (Black or Hispanic/Latino) instead of White and were female instead of male. Third, in a separate experiment with pictured police teams, Black Americans were less afraid of being mistreated by non-White and female officers. Fourth, experimental evidence emerged that body-worn cameras (BWC) reduced fear among both Black and nonBlack respondents. These findings support calls to diversify police agencies and to require officers to wear and notify civilians of BWC. "
-url_code: ""
-url_dataset: ""
-url_pdf: "https://doi.org/10.31235/osf.io/7mrgp"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "Officer Diversity May Reduce Black Americans\' Fear of the Police"
+
+# Authors
+authors = ["Justin Pickett", "Amanda Graham", "admin", "Francis Cullen"]
+
+# Publication
+publication = "*Criminology*"
+
+# Date this page was created.
+date = 2023-07-27T14:00:00
+
+# Project summary to display on homepage.
+summary = ""
+
+# Abstract
+abstract = "Would police racial and gender diversification reduce Black Americans\' fear of the police? The theory of representative bureaucracy indicates that it might. We tested the effects of officer diversity in two experiments embedded in a national survey that oversampled Black Americans, producing several findings. First, in early 2022, nearly two years after George Floyd\'s killing, most Black Americans remained afraid of police mistreatment. Second, in a conjoint experiment where respondents were presented with 11,000 officer profiles, Black Americans were less afraid when the officers were non-White (Black or Hispanic/Latino) instead of White and were female instead of male. Third, in a separate experiment with pictured police teams, Black Americans were less afraid of being mistreated by non-White and female officers. Fourth, experimental evidence emerged that body-worn cameras (BWC) reduced fear among both Black and nonBlack respondents. These findings support calls to diversify police agencies and to require officers to wear and notify civilians of BWC."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Experimental design", "Fear", "Race", "Black Lives Matter", "Body-worn cameras"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Preprint", url="https://doi.org/10.31235/osf.io/7mrgp"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "[Image](https://pixabay.com/photos/bodyworn-body-camera-794108/) by [BodyWorn by Utility](https://pixabay.com/users/utility_inc-1078771/) on Pixabay"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
++++
 
 **NOTE: This paper was originally posted as a pre-print on SocArXiv on August 25, 2022. On July 27, 2023, it was accepted for publication by** ***Criminology.*** **It is scheduled to appear in the February 2024 issue.** 
 
@@ -96,7 +107,7 @@ Given [evidence](https://doi.org/10.1126/science.abd8694) that assignment to bea
 And finally, our results suggest that requiring officers to wear (and notify citizens of) body-worn cameras might reduce fear in the community. There seems to be a lot of disagreement about whether body-worn cameras have "lived up to the hype." I think that stems in part from a lack of clarity about what we expected from them 10+ years ago. But in any event, there is [definitely evidence](https://jnix.netlify.app/files/pdfs/TC_cops_cameras_crisis.pdf) that *in the right circumstances*, they can improve citizen perceptions of police (as well as reduce complaints, reduce use of force incidents, and perhaps even [save agencies money](https://www.ojp.gov/pdffiles1/nij/grants/251416.pdf) in the long run). 
 
 {{% alert note %}}
-<p style="text-align:center"> Click on the PDF button at the top of this page to download the pre-print version of our paper.</p>
+<p style="text-align:center"> Click on the button at the top of this page to download the pre-print version of our paper.</p>
 {{% /alert %}}
 
 [^1]: For more about the sample see pp. 13-14 of the pre-print as well as the supplemental appendix. 
