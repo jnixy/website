@@ -18,6 +18,12 @@ In this course, we will explore the function of the police in American society -
 
 This semester, we'll read a mixture of seminal articles by police researchers and more contemporary work by journalists, psychologists, legal scholars, and other experts working in this area. I expect you to read critically and come prepared to discuss how the material relates to contemporary policing and society. Most of the required readings are available on Canvas and/or linked whenever possible on the [Course Schedule](https://jnix.netlify.app/courses/crcj8040/course_schedule/) page. The three assigned books are all available for fairly cheap as paperbacks or eBooks. You may also be able to borrow/request them from the [campus library](https://www.unomaha.edu/criss-library/index.php) or [Omaha Public Library](https://omahalibrary.org/). 
 
+- Skogan, W. G. (2022). [*Stop & frisk and the politics of crime in Chicago*](https://global.oup.com/academic/product/stop-and-frisk-and-the-politics-of-crime-in-chicago-9780197675069?lang=en&cc=us). Oxford University Press.
+
+- Lowery, W. (2016). [*"They can't kill us all": The story of the struggle for Black lives*](https://www.hachettebookgroup.com/titles/wesley-lowery/they-cant-kill-us-all/9780316312493/). Little, Brown and Company.
+
+- Balko, R. (2013). [*Rise of the Warrior Cop: The Militarization of America's Police Forces*](https://www.hachettebookgroup.com/titles/radley-balko/rise-of-the-warrior-cop/9781541774537/?lens=publicaffairs). PublicAffairs.
+
 ## Journals
 
 Each week at the end of class, I'll ask you to take approximately 10 minutes to reflect on a question or issue and write your thoughts down in a "journal." Then as you do the readings for the following week on your own time, you'll update your journal. *Do you still feel the same way? Why or why not? Did the readings change your mind or make you to think about the issue in a different way? What questions do you still have?* At the beginning of the next class, we'll break the ice by discussing what you wrote in your journals. 
