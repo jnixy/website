@@ -24,9 +24,7 @@ weight: 2
 
 ## Week 2, 8/30: Function of Police
 
-* Bittner, E. (1980). [*The functions of the police in modern society: A review of background factors, current practices, and possible role models*](https://www.ojp.gov/pdffiles1/Digitization/147822NCJRS.pdf). Oelgeschlager, Gunn & Hain.
-
-  + Chapters 1 & 2
+* Bittner, E. (1974). Florence Nightingale in pursuit of Willie Sutton: A theory of the police. In H. Jacob (Ed.), *The potential for reform of criminal justice*. Sage Publications, Inc.
   
 * Klockars, C. (1985). [*The idea of police*](https://www.ojp.gov/ncjrs/virtual-library/abstracts/idea-police). SAGE Publications, Inc.
 
@@ -34,13 +32,13 @@ weight: 2
 
 ## Week 3, 9/6: Police Culture
 
-* Van Maanen, J. (1973). [Observations on the making of policemen](https://www.jstor.org/stable/44127631). *Human Organization*, 32(4), 407-418.
-
-* Bittner, E. (1974). Florence Nightingale in pursuit of Willie Sutton: A theory of the police. In H. Jacob (Ed.), *The potential for reform of criminal justice*. Sage Publications, Inc.
-
 * Skolnick, J. (1966). *Justice without trial: Law enforcement in democratic society*. John Wiley.
 
   + Chapter 3 
+  
+* Van Maanen, J. (1973). [Observations on the making of policemen](https://www.jstor.org/stable/44127631). *Human Organization*, 32(4), 407-418.
+
+* Herbert, S. (1998). [Police subculture reconsidered](https://doi.org/10.1111/j.1745-9125.1998.tb01251.x). *Criminology*, 36(2), 343-370.
 
 ## Week 4, 9/13: No Class
 
