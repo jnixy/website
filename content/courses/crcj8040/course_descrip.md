@@ -30,7 +30,7 @@ Each week at the end of class, I'll ask you to take approximately 10 minutes to 
 
 ## Exams
 
-There will be two in-class exams this semester: **a midterm on October 5th and a final on December 14th**. For each exam, you will choose one of three essay questions, using class time to respond to it.
+There will be two in-class exams this semester: **a midterm on October 11th and a final on December 13th**. For each exam, you will choose one of three essay questions, using class time to respond to it.
 
 ## Grades 
 
