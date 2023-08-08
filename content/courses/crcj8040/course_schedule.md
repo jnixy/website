@@ -12,7 +12,7 @@ type: docs
 weight: 2
 ---
 
-## Week 1, 8/24: Contemporary Discourse on Police Reform
+## Week 1, 8/23: Contemporary Discourse on Police Reform
 
 * Vitale, A. (2017). [Police and the liberal fantasy](https://jacobin.com/2017/10/police-reform-prisons-racism-vitale). *Jacobin*. 
 
