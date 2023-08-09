@@ -12,6 +12,15 @@ title: CRCJ 8040 - Police & Society
 toc: true
 type: docs
 weight: 30
+footer:
+  block: minimal
+  copyright:
+    notice: '© {year} Me. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 ---
 
 ## Fall 2023
