@@ -70,3 +70,7 @@ F             | 0 - 59
 ## Students with Accessibility Needs
 
 Reasonable accommodations are provided for students who are registered with the Accessibility Services Center and make their requests sufficiently in advance. For more information, contact the Accessibility Services Center (MBSC 126, Phone 554-2872, TTY 554-3799, or visit their [website](https://www.unomaha.edu/student-life/inclusion/disability-services/index.php)).
+
+***
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
