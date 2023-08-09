@@ -30,6 +30,15 @@ url_code: ""
 url_pdf: ""
 url_slides: "https://jnix.netlify.app/slides/building_a_website"
 url_video: ""
+footer:
+  block: minimal
+  copyright:
+    notice: '© {year} Me. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 ---
 
 For our SCCJ Grad Seminar Series, I put together this crash course on building a professional website in RStudio with [Wowchemy](https://wowchemy.com/). I'm sharing it here in case others might be interested. Following these basic steps **should** get you up and running in less than an hour. If you think I've missed an important step, please [let me know](https://jnix.netlify.app/#contact)!
