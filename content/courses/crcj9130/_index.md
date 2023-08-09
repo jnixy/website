@@ -19,3 +19,7 @@ weight: 40
 * Meeting time: Tuesdays 1 - 3:40PM
 
 * (Virtual) Office hours: Tuesdays 12 - 1PM or by appointment
+
+***
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
