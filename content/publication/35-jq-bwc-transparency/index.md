@@ -5,8 +5,8 @@ discretion of police executives, and we know little about how they interpret and
 – particularly footage involving critical incidents. We asked a nationally representative sample of police
 executives (N=476) how supportive they were of legislation that would mandate releasing BWC footage
 upon request as public information, and presented them with an experimental vignette about BWC capturing
-one of their offcers fatally shooting an [armed/unarmed] [Black/White] suspect. Results indicated
-inconsistency in executives’ attiudes and decision-making: (1) less than one-third of executives supported
+one of their officers fatally shooting an [armed/unarmed] [Black/White] suspect. Results indicated
+inconsistency in executives’ attitudes and decision-making: (1) less than one-third of executives supported
 such legislation, (2) suspect race and armed/unarmed status shaped how executives felt media would cover
 the incident and whether they would state publicly that the shooting was justified, and (3) agency size conditioned
 the effects of armed/unarmed status on executives’ perceptions."
@@ -22,7 +22,7 @@ image:
   focal_point: center
   preview_only: false
 projects: []
-publication: '*Justice Quarterly*'
+publication: '*Justice Quarterly*, 39(3), 455-477'
 publication_short: 
 publication_types:
 - "2"

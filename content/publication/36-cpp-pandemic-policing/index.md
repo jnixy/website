@@ -13,7 +13,7 @@ image:
   focal_point: smart
   preview_only: false
 projects: []
-publication: '*Criminology & Public Policy*'
+publication: '*Criminology & Public Policy*, 20(3), 545-571'
 publication_short: 
 publication_types:
 - "2"

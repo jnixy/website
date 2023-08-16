@@ -6,7 +6,7 @@ title = "Turnover in large US police agencies following the George Floyd Protest
 authors = ["Ian Adams", "Scott Mourtgos", "admin"]
 
 # Publication
-publication = "*Journal of Criminal Justice*"
+publication = "*Journal of Criminal Justice*, 88(102105), 1-16"
 
 # Date this page was created.
 date = 2023-08-04T14:00:00

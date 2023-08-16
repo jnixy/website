@@ -15,7 +15,7 @@ image:
   preview_only: no
 doi: null
 projects: []
-publication: '*Journal of Criminal Law and Criminology*'
+publication: '*Journal of Criminal Law and Criminology*, 112(1), 37-78'
 publication_short: 
 publication_types: 
 - "2"

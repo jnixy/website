@@ -13,7 +13,7 @@ image:
   preview_only: no
 doi: 10.1080/15614263.2022.2036611
 projects: []
-publication: '*Police Practice & Research*'
+publication: '*Police Practice & Research*, 23(3), 388-396'
 publication_short: 
 publication_types: 
 - "2"

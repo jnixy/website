@@ -12,7 +12,7 @@ image:
   preview_only: no
 doi: 10.1080/15614263.2023.2214282
 projects: []
-publication: '*Police Practice and Research*'
+publication: '*Police Practice and Research*, 24(5), 597-611'
 publication_short: 
 publication_types: 
 - "2"

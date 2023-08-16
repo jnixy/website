@@ -15,7 +15,7 @@ image:
   preview_only: no
 doi: 10.1108/PIJPSM-01-2023-0002
 projects: []
-publication: '*Policing: An International Journal*'
+publication: '*Policing: An International Journal*, 46(3), 503-520'
 publication_short: 
 publication_types: 
 - "2"

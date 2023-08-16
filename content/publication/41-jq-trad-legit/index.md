@@ -11,7 +11,7 @@ image:
   focal_point: smart
   preview_only: false
 projects: []
-publication: '*Justice Quarterly*'
+publication: '*Justice Quarterly*, 39(6), 1287-1309'
 publication_short: 
 publication_types:
 - "2"

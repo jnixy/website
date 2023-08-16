@@ -11,7 +11,7 @@ image:
   focal_point: center
   preview_only: false
 projects: []
-publication: '*Police Practice & Research*'
+publication: '*Police Practice & Research*, 22(3), 1330-1339'
 publication_short:
 publication_types:
 - "2"

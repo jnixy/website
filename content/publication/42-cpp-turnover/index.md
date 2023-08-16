@@ -13,7 +13,7 @@ image:
   preview_only: no
 doi: 10.1111/1745-9133.12556
 projects: []
-publication: '*Criminology & Public Policy*'
+publication: '*Criminology & Public Policy*, 21(1), 9-33'
 publication_short: 
 publication_types: 
 - "2"

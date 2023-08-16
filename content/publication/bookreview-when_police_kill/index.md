@@ -10,7 +10,7 @@ image:
   focal_point: center
   preview_only: false
 projects: []
-publication: '*Theory In Action, 10*(118-127)'
+publication: '*Theory In Action*, 10, 118-127'
 publication_short: 
 publication_types:
 - "2"

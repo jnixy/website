@@ -10,7 +10,7 @@ image:
   focal_point: center
   preview_only: false
 projects: []
-publication: '*Theoretical Criminology*'
+publication: '*Theoretical Criminology*, 25(2), 352-355'
 publication_short: 
 publication_types:
 - "0"

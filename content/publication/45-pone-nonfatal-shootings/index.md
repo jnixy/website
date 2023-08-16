@@ -12,7 +12,7 @@ image:
   preview_only: no
 doi: 10.1371/journal.pone.0259024
 projects: []
-publication: '*PLOS ONE*'
+publication: '*PLOS ONE*, 16(11), e0259024'
 publication_short: 
 publication_types: 
 - "2"

@@ -13,7 +13,7 @@ image:
   focal_point: smart
   preview_only: false
 projects: []
-publication: '*Justice Evaluation Journal*'
+publication: '*Justice Evaluation Journal*, 4(1), 145-162'
 publication_short: 
 publication_types:
 - "2"

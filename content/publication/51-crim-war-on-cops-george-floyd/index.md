@@ -14,7 +14,7 @@ image:
   preview_only: no
 doi: 10.1111/1745-9125.12334
 projects: []
-publication: '*Criminology*'
+publication: '*Criminology*, 61(3), 389-420'
 publication_short: 
 publication_types: 
 - "2"
