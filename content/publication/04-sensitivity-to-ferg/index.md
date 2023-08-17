@@ -1,7 +1,6 @@
 +++
 # Paper title
-title = "Sensitivity to the Ferguson Effect: The Role of Managerial Organizational
-  Justice"
+title = "Sensitivity to the Ferguson Effect: The Role of Managerial Organizational Justice"
 
 # Authors
 authors = ["admin", "Scott Wolfe"]
