@@ -18,8 +18,6 @@ abstract = "In response to increasing violent crime rates in several U.S. cities
 [image]
   caption = "Photo by Randy Colas on [Unsplash](https://unsplash.com/photos/r2lq1VIyuO4)"
 
-publication_types = "2"
-
-links = [{name = "Postprint", url="https://jnix.netlify.app/files/pdfs/lhb_fergeffect.pdf"}, {name = "DOI", url="https://psycnet.apa.org/doi/10.1037/lhb0000164"}]
+links = [{name = "Postprint", url="/files/pdfs/lhb_fergeffect.pdf"}, {name = "DOI", url="https://psycnet.apa.org/doi/10.1037/lhb0000164"}]
 +++
 
