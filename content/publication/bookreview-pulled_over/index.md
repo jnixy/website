@@ -26,7 +26,7 @@ tags:
 title: 'Review of "Pulled Over: How Police Stops Define Race and Citizenship"'
 url_code: ""
 url_dataset: ""
-url_pdf: "https://www.tandfonline.com/doi/full/10.1080/10511253.2016.1186993"
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""
