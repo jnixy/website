@@ -6,7 +6,7 @@ title = "A Bird’s Eye View of Civilians Killed by Police in 2015: Further Evid
 authors = ["admin", "Bradley Campbell", "Edward Byers", "Geoff Alpert"]
 
 # Publication
-publication = "*Journal of Criminal Justice*, 47, 12-20"
+publication = "*Criminology & Public Policy*, 16(1), 309-40"
 
 # Date this page was created.
 date = 2017-02-01T00:00:00Z
