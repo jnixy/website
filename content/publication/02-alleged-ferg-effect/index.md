@@ -1,5 +1,19 @@
----
-abstract: 'In response to increasing violent crime rates in several U.S. cities over
++++
+title = "The Alleged Ferguson Effect and Police Willingness to Engage in Community Partnership"
+
+authors = ["Scott Wolfe", "admin"]
+
+publication = "*Law and Human Behavior*, 40(1), 1-10"
+
+date = "2016-02-01T00:00:00Z"
+
+publishDate = "2016-02-01T00:00:00Z"
+
+summary = "Upon surveying 567 sheriff's deputies, we found little support for the Ferguson Effect."
+
+tags = ["Police", "Ferguson Effect", "De-policing", "Organizational justice", "Self-legitimacy", "Survey"]
+
+abstract = 'In response to increasing violent crime rates in several U.S. cities over
   the past year, some have pointed the finger of blame at de-policing, a result of
   the so-called “Ferguson Effect.” Although the Ferguson Effect on crime rates remains
   an open question, there may also be a Ferguson Effect on other aspects of police
@@ -17,40 +31,12 @@ abstract: 'In response to increasing violent crime rates in several U.S. cities 
   that officers who have confidence in their authority or perceive their agency as
   fair are more willing to partner with the community to solve problems, regardless
   of the effects of negative publicity.'
-authors:
-- Scott Wolfe
-- admin
-date: "2016-02-01T00:00:00Z"
-doi: 10.1037/lhb0000164
-featured: false
-image:
-  caption: Photo by Randy Colas on [Unsplash](https://unsplash.com/photos/r2lq1VIyuO4)
-  focal_point: ""
-  preview_only: false
-projects: []
-publication: '*Law and Human Behavior*, 40(1), 1-10'
-publication_short: 
-publication_types:
-- "2"
-publishDate: "2016-02-01T00:00:00Z"
-slides: ""
-summary: Upon surveying 567 sheriff's deputies, we found little support for the Ferguson
-  Effect.
-tags:
-- Police
-- Ferguson Effect
-- De-policing
-- Organizational justice
-- Self-legitimacy
-- Survey
-title: The Alleged Ferguson Effect and Police Willingness to Engage in Community Partnership
-url_code: ""
-url_dataset: ""
-url_pdf: "/files/pdfs/lhb_fergeffect.pdf"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
+
+[image]
+  caption = "Photo by Randy Colas on [Unsplash](https://unsplash.com/photos/r2lq1VIyuO4)"
+
+publication_types = "2"
+
+links = [{name = "Postprint", url="/files/pdfs/lhb_fergeffect.pdf"}, {name = "DOI", url="https://psycnet.apa.org/doi/10.1037/lhb0000164"}]
++++
 
