@@ -50,7 +50,7 @@ title: 'Trust in the Police:  The Influence of Procedural Justice and Perceived 
 url_cite: ""
 url_code: ""
 url_dataset: ""
-url_pdf: https://journals.sagepub.com/doi/full/10.1177/0011128714530548
+url_pdf: 
 url_poster: ""
 url_project: ""
 url_slides: ""
