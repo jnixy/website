@@ -37,7 +37,7 @@ title: Is the Number of Citizens Fatally Shot by Police Increasing in the Post-F
   Era?
 url_code: ""
 url_dataset: ""
-url_pdf: https://journals.sagepub.com/doi/10.1177/0011128716686343
+url_pdf: 
 url_poster: ""
 url_project: ""
 url_slides: ""
