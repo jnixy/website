@@ -8,6 +8,9 @@ authors = ["admin"]
 # Publication
 publication = "*Crime & Delinquency*, 63(10), 1250-78"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2017-10-01T00:00:00Z
 

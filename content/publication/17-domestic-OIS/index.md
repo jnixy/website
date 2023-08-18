@@ -8,6 +8,9 @@ authors = ["Gillian Pinchevsky", "admin"]
 # Publication
 publication = "*Police Quarterly*, 21(1), 53-76"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2018-03-01T00:00:00Z
 

@@ -8,6 +8,9 @@ authors = ["admin", "Michael Smith", "Matthew Petrocelli", "Jeff Rojek", "Victor
 # Publication
 publication = "*Journal of Homeland Security and Emergency Management*, 13(3), 395-418"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2016-09-01T00:00:00Z
 

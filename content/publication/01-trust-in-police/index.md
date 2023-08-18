@@ -8,6 +8,9 @@ authors = ["admin", "Scott Wolfe", "Jeff Rojek", "Robert Kaminski"]
 # Publication
 publication = "*Crime & Delinquency*, 61(4), 610-40"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2015-05-01T00:00:00Z
 

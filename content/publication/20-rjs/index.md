@@ -8,6 +8,9 @@ authors = ["Justin Pickett", "admin", "Sean Patrick Roche"]
 # Publication
 publication = "*Social Psychology Quarterly*, 81(2), 97-125"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2018-06-01T00:00:00Z
 

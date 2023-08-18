@@ -5,6 +5,8 @@ authors = ["Scott Wolfe", "admin"]
 
 publication = "*Law and Human Behavior*, 40(1), 1-10"
 
+publication_types = ["2"]
+
 date = "2016-02-01T00:00:00Z"
 
 publishDate = "2016-02-01T00:00:00Z"

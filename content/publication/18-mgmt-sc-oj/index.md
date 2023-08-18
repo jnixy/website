@@ -8,6 +8,9 @@ authors = ["Scott Wolfe", "admin", "Bradley Campbell"]
 # Publication
 publication = "*Law and Human Behavior*, 42(1), 71-82"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2018-02-01T00:00:00Z
 

@@ -8,6 +8,9 @@ authors = ["admin", "Justin Pickett"]
 # Publication
 publication = "*Journal of Criminal Justice*, 51, 24-33"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2017-07-01T00:00:00Z
 

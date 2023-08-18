@@ -8,6 +8,9 @@ authors = ["admin", "Bradley Campbell", "Edward Byers", "Geoff Alpert"]
 # Publication
 publication = "*Criminology & Public Policy*, 16(1), 309-40"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2017-02-01T00:00:00Z
 

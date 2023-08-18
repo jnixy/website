@@ -5,6 +5,8 @@ authors = ["Scott Wolfe", "admin", "Robert Kaminski", "Jeff Rojek"]
 
 publication = "*Journal of Quantitative Criminology*, 32(2), 253-82"
 
+publication_types = ["2"]
+
 date = "2016-06-01T00:00:00Z"
 
 publishDate = "2016-06-01T00:00:00Z"
