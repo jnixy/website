@@ -19,7 +19,7 @@ abstract = "Domestic disturbances are often touted as one of the most dangerous 
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Police", "Officer-involved shootings" "Domestic disturbances"]
+tags = ["Police", "Officer-involved shootings", "Domestic disturbances"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
