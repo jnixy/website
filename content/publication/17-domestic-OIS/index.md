@@ -3,7 +3,7 @@
 title = "Domestic Disturbances and Fatal Police Shootings: An Analysis of the Washington Post’s Data"
 
 # Authors
-authors = ["Gillian Pinchevsky, "admin"]
+authors = ["Gillian Pinchevsky", "admin"]
 
 # Publication
 publication = "*Police Quarterly*, 21(1), 53-76"
