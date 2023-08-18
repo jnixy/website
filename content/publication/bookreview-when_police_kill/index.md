@@ -24,7 +24,7 @@ tags:
 title: 'Review of "When Police Kill"'
 url_code: ""
 url_dataset: ""
-url_pdf: "http://transformativestudies.org/wp-content/uploads/10.3798tia.1937-0237.1730.pdf"
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""
