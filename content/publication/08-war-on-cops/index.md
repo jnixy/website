@@ -39,7 +39,7 @@ title: A War on Cops? The Effects of Ferguson on the Number of U.S. Police Offic
   Murdered in the Line of Duty
 url_code: ""
 url_dataset: ""
-url_pdf: https://www.tandfonline.com/doi/abs/10.1080/07418825.2016.1236205?journalCode=rjqy20
+url_pdf: 
 url_poster: ""
 url_project: ""
 url_slides: ""

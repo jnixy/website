@@ -40,7 +40,7 @@ title: 'Police Officers'' Trust in Their Agency: Does Self-Legitimacy Protect Ag
   Supervisor Procedural Injustice?'
 url_code: ""
 url_dataset: ""
-url_pdf: https://journals.sagepub.com/doi/abs/10.1177/0093854816671753
+url_pdf: 
 url_poster: ""
 url_project: ""
 url_slides: ""
