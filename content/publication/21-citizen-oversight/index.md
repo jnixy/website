@@ -9,7 +9,7 @@ authors = ["admin", "Scott Wolfe", "Brandon Tregle"]
 publication = "*Policing: An International Journal*, 41(4), 418-34"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
-publication_types = 2
+publication_types = ["2"]
 
 # Date this page was created.
 date = 2018-08-01T00:00:00Z
