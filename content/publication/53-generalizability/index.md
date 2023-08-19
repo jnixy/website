@@ -1,40 +1,60 @@
----
-title: "How Generalizable are Findings from Police Surveys? A Review of Multi-Agency Studies"
-authors:
-- Erin Kearns
-- admin
-date: "2023-05-10T11:00:00Z"
-output: 
-featured: no
-image:
-  caption: "Image by [wlef70](https://www.flickr.com/photos/wlef70/) on [Flickr](https://flic.kr/p/9E1KJG), [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)"
-  focal_point: smart
-  preview_only: no
-doi: 10.1080/15614263.2023.2214282
-projects: []
-publication: '*Police Practice and Research*, 24(5), 597-611'
-publication_short: 
-publication_types: 
-- "2"
-publishDate: "2023-05-15T15:00:00Z"
-slides: ""
-summary: ""
-tags:
-- Police
-- Survey
-- External validity
-- Generalizability
-- Replication
-abstract: "Policing scholars frequently use surveys to understand officer attitudes and behavioral intentions. Yet, it is difficult to gain access to one - let alone multiple - agencies. Thus, officer surveys often reflect views in a single department, making it unclear how generalizable the findings are. For the present study, we conducted an exploratory review of articles published in 16 criminology and policing journals from 2000 to 2017. We identified 600 studies that involved surveying one or more samples of police officers. From this list, we set out to determine: (1) how often authors administered their surveys to more than one sample, and (2) when surveys were administered to more than one sample, how often were results consistent across samples? We found eighty-seven (14.5%) articles that involved collecting survey data from multiple agencies, though only 29 (4.8% overall, 33.3% of multi-agencies studies) met our inclusion criteria. Importantly, only 15 studies could be analyzed as some authors no longer had data, could not share data, or did not response to our emails. Results were fully consistent across samples in just one published study. In the other studies, findings partially replicated-though sometimes results were in the opposite direction across departments. Thus, replication is critical before policy is created from single-agency surveys."
-url_code: ""
-url_dataset: ""
-url_pdf: "/files/pdfs/ppr_generalizability.pdf"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "How Generalizable are Findings from Police Surveys? A Review of Multi-Agency Studies"
+
+# Authors
+authors = ["Erin Kearns", "admin"]
+
+# Publication
+publication = "*Police Practice and Research*, 24(5), 597-611"
+
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
+# Date this page was created.
+date = 2023-05-10T11:00:00Z
+
+# Project summary to display on homepage.
+summary = ""
+
+# Abstract
+abstract = "Policing scholars frequently use surveys to understand officer attitudes and behavioral intentions. Yet, it is difficult to gain access to one - let alone multiple - agencies. Thus, officer surveys often reflect views in a single department, making it unclear how generalizable the findings are. For the present study, we conducted an exploratory review of articles published in 16 criminology and policing journals from 2000 to 2017. We identified 600 studies that involved surveying one or more samples of police officers. From this list, we set out to determine: (1) how often authors administered their surveys to more than one sample, and (2) when surveys were administered to more than one sample, how often were results consistent across samples? We found eighty-seven (14.5%) articles that involved collecting survey data from multiple agencies, though only 29 (4.8% overall, 33.3% of multi-agencies studies) met our inclusion criteria. Importantly, only 15 studies could be analyzed as some authors no longer had data, could not share data, or did not respond to our emails. Results were fully consistent across samples in just one published study. In the other studies, findings partially replicated - though sometimes results were in the opposite direction across departments. Thus, replication is critical before policy is created from single-agency surveys."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Survey", "External validity", "Generalizability", "Replication"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Postprint", url="/files/pdfs/ppr_generalizability.pdf"}, {name = "DOI", url="https://doi.org/10.1080/15614263.2023.2214282"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image by [wlef70](https://www.flickr.com/photos/wlef70/) on [Flickr](https://flic.kr/p/9E1KJG), [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "smart"
++++
 
 **Background**
 
