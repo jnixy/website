@@ -160,8 +160,8 @@
 - id: pub_book
   translation: Book
 
-- id: pub_book_section
-  translation: Book section
+- id: pub_book_chapter
+  translation: Book chapter
 
 - id: pub_thesis
   translation: Thesis
