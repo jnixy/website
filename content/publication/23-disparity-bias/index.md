@@ -3,7 +3,7 @@
 title = "Disparity Does Not Mean Bias: Making Sense of Observed Racial Disparities in Fatal Officer-involved Shootings with Multiple Benchmarks"
 
 # Authors
-authors = ["Brandon Tregle", admin", "Geoff Alpert"]
+authors = ["Brandon Tregle", "admin", "Geoff Alpert"]
 
 # Publication
 publication = "*Journal of Crime and Justice*, 42(1), 18-31"
