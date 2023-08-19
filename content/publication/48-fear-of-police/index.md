@@ -8,6 +8,9 @@ authors = ["Justin Pickett", "Amanda Graham", "admin", "Francis Cullen"]
 # Publication
 publication = "*Criminology*"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2023-07-27T14:00:00
 
@@ -53,7 +56,7 @@ links = [{name = "Preprint", url="https://doi.org/10.31235/osf.io/7mrgp"}]
   focal_point = "Smart"
 +++
 
-**NOTE: This paper was originally posted as a pre-print on SocArXiv on August 25, 2022. On July 27, 2023, it was accepted for publication by** ***Criminology.*** **It is scheduled to appear in the February 2024 issue.** 
+**NOTE: This paper was originally posted as a pre-print on SocArXiv on August 25, 2022. On July 27, 2023, it was accepted for publication by** ***Criminology.*** **It is scheduled to appear in the February 2024 issue. In the meantime, you can download the pre-print using the button above.** 
 
 ## Background
 
