@@ -1,41 +1,60 @@
----
-title: 'A National Analysis of Trauma Care Proximity and Firearm Assault Survival among U.S. Police'
-authors:
-- Michael Sierra-Arévalo
-- admin
-- Bradley O'Guinn
-date: "2022-01-05T13:00:00Z"
-output: pdf_document
-featured: no
-image:
-  caption: "Image by [Robert Linder](https://unsplash.com/@rwlinder) on [Unsplash](https://unsplash.com/photos/IV6Ge9vzmHE)"
-  focal_point: top
-  preview_only: no
-doi: 10.1080/15614263.2022.2036611
-projects: []
-publication: '*Police Practice & Research*, 23(3), 388-396'
-publication_short: 
-publication_types: 
-- "2"
-publishDate: "2022-01-06T09:30:00Z"
-slides: ""
-summary: "We look at 7 years of firearm assaults on US police officers and find that proximity to trauma care is not significantly associated with odds of survival."
-tags:
-- Police
-- Gun violence
-- Trauma care
-- Public health
-- Spatial methods
-abstract: "Past research on factors influencing firearm assault (FA) mortality have not focused on police officers who, compared to other U.S. workers and the general public, experience especially high rates of firearm victimization. This study focuses on this unique population of FA victims and examines the relationship between travel time to the nearest trauma care facility and the probability of survival among officers shot on duty. Combining data on trauma care center location and 7 years of data on U.S. police officers fatally or non-fatally assaulted with a firearm, we use logistic regression to model the probability of FA fatality among police by proximity of the FA to the nearest trauma care facility. We find that travel time to trauma care was not associated with reduced FA mortality among police from 2014 to 2020. FA mortality was significantly lower in 2020 than the six years prior."
-url_code: ""
-url_dataset: ""
-url_pdf: "/files/pdfs/ppr_trauma_proximity.pdf"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "A National Analysis of Trauma Care Proximity and Firearm Assault Survival among U.S. Police"
+
+# Authors
+authors = ["Michael Sierra-Arévalo", "admin", "Bradley O’Guinn"]
+
+# Publication
+publication = "*Police Practice & Research*, 23(3), 388-396"
+
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
+# Date this page was created.
+date = 2022-01-05T13:00:00Z
+
+# Project summary to display on homepage.
+summary = "We look at 7 years of firearm assaults on US police officers and find that proximity to trauma care is not significantly associated with odds of survival."
+
+# Abstract
+abstract = "Past research on factors influencing firearm assault (FA) mortality have not focused on police officers who, compared to other U.S. workers and the general public, experience especially high rates of firearm victimization. This study focuses on this unique population of FA victims and examines the relationship between travel time to the nearest trauma care facility and the probability of survival among officers shot on duty. Combining data on trauma care center location and 7 years of data on U.S. police officers fatally or non-fatally assaulted with a firearm, we use logistic regression to model the probability of FA fatality among police by proximity of the FA to the nearest trauma care facility. We find that travel time to trauma care was not associated with reduced FA mortality among police from 2014 to 2020. FA mortality was significantly lower in 2020 than the six years prior."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Gun violence", "Trauma care", "Public health", "Spatial methods"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Postprint", url="/files/pdfs/ppr_trauma_proximity.pdf"}, {name = "DOI", url="https://doi.org/10.1080/15614263.2022.2036611"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image by [Robert Linder](https://unsplash.com/@rwlinder) on [Unsplash](https://unsplash.com/photos/IV6Ge9vzmHE)"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Top"
++++
 
 
 ***************
