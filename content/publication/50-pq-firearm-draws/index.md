@@ -1,40 +1,60 @@
----
-title: "A Multi-Site Study of Firearms Displays by Police at Use of Force Incidents"
-authors:
-- Timothy Cubitt
-- admin
-date: "2022-10-25T11:00:00Z"
-output: 
-featured: no
-image:
-  caption: "Image by [Jan](https://pixabay.com/users/janjf93-3084263/) on [Pixabay](https://pixabay.com/vectors/weapon-handgun-run-mouth-1613997/)"
-  focal_point: smart
-  preview_only: no
-doi: 10.1177/10986111221136230
-projects: []
-publication: '*Police Quarterly*'
-publication_short: 
-publication_types: 
-- "2"
-publishDate: "2022-11-25T09:00:00Z"
-slides: ""
-summary: "We model the factors associated with officers displaying their firearms in 4 agencies."
-tags:
-- Police
-- Use of Force
-- Machine Learning
-- Firearms
-- External Validity
-abstract: "The power to use force is a defining characteristic of policing, one that is accompanied by a responsibility to exercise these powers in the circumstances deemed necessary. This study analyzes data from four policing agencies to predict the likelihood of an officer drawing and pointing their firearm at a use of force incident. Findings suggest that situational factors were important in influencing whether an officer may draw and point their firearm. However, a priming effect, in which officers were more likely to draw their firearms when dispatched to an incident, may also be present. The rate that officers drew and pointed their firearms varied between jurisdictions, as did the nature of the incidents. Caution should be exercised in generalizing the results of single-site studies on police use of force, or introducing research into policy beyond the jurisdiction in which it was performed."
-url_code: ""
-url_dataset: ""
-url_pdf: "https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1147&context=criminaljusticefacpub"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "A Multi-Site Study of Firearms Displays by Police at Use of Force Incidents"
+
+# Authors
+authors = ["Timothy Cubitt", "admin"]
+
+# Publication
+publication = "*Police Quarterly*"
+
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
+# Date this page was created.
+date = 2022-10-25T11:00:00Z
+
+# Project summary to display on homepage.
+summary = "We model the factors associated with officers displaying their firearms in 4 agencies."
+
+# Abstract
+abstract = "The power to use force is a defining characteristic of policing, one that is accompanied by a responsibility to exercise these powers in the circumstances deemed necessary. This study analyzes data from four policing agencies to predict the likelihood of an officer drawing and pointing their firearm at a use of force incident. Findings suggest that situational factors were important in influencing whether an officer may draw and point their firearm. However, a priming effect, in which officers were more likely to draw their firearms when dispatched to an incident, may also be present. The rate that officers drew and pointed their firearms varied between jurisdictions, as did the nature of the incidents. Caution should be exercised in generalizing the results of single-site studies on police use of force, or introducing research into policy beyond the jurisdiction in which it was performed."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Use of force", "Firearms", "Machine learning", "External validity"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Postprint", url="https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1147&context=criminaljusticefacpub"}, {name = "DOI", url="https://doi.org/10.1177/10986111221136230"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image by [Jan](https://pixabay.com/users/janjf93-3084263/) on [Pixabay](https://pixabay.com/vectors/weapon-handgun-run-mouth-1613997/)"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
++++
 
 **Summary**
 
