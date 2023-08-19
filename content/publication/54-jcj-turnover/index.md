@@ -8,6 +8,9 @@ authors = ["Ian Adams", "Scott Mourtgos", "admin"]
 # Publication
 publication = "*Journal of Criminal Justice*, 88(102105), 1-16"
 
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
 # Date this page was created.
 date = 2023-08-04T14:00:00
 
