@@ -22,7 +22,7 @@ abstract = "Qualified immunity famously provides *ample protection to all but th
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Police", "Accountability", "Qualified immunity", "Probable cause", "Standards of proof" "4th Amendment"]
+tags = ["Police", "Accountability", "Qualified immunity", "Probable cause", "Standards of proof", "4th Amendment"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
