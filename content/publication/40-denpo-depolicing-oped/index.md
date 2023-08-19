@@ -15,7 +15,7 @@ projects: []
 publication: '*The Denver Post*'
 publication_short: 
 publication_types:
-- "0"
+- "9"
 publishDate: "2021-02-24T09:50:00Z"
 slides: ""
 summary: We argue that Denver's 2020 crime spike was likely the result of a police legitimacy crisis.

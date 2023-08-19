@@ -13,7 +13,7 @@ projects: []
 publication: '*Theoretical Criminology*, 25(2), 352-355'
 publication_short: 
 publication_types:
-- "0"
+- "10"
 publishDate: "2020-10-28T10:00:00Z"
 slides: ""
 summary: My brief review of White & Malm's NYU press book about police body-worn cameras. 

@@ -13,7 +13,7 @@ projects: []
 publication: '*Theory In Action*, 10, 118-127'
 publication_short: 
 publication_types:
-- "2"
+- "10"
 publishDate: "2017-10-01T00:00:00Z"
 slides: ""
 summary: My review of Frank Zimring's book on police use of deadly force.

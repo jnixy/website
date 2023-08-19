@@ -8,6 +8,8 @@ authors = ["admin"]
 # Publication
 publication = "*Journal of Criminal Justice Education, 28*(151-153)"
 
+publication_types = ["10"]
+
 # Date this page was created.
 date = 2016-05-23T00:00:00Z
 

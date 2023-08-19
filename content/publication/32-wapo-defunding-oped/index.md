@@ -14,7 +14,7 @@ projects: []
 publication: '*The Washington Post*'
 publication_short: 
 publication_types:
-- "0"
+- "9"
 publishDate: "2020-06-18T10:52:00Z"
 slides: ""
 summary: Scott and I wrote about defunding the police for Tom Jackman's "True Crime" column in *The Washington Post*.

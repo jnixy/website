@@ -168,6 +168,12 @@
 
 - id: pub_patent
   translation: Patent
+  
+- id: pub_op_ed
+  translation: Op-Ed
+  
+- id: pub_book_review
+  translatoin: Book review
 
 # Project details
 

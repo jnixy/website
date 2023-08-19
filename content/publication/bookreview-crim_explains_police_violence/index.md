@@ -13,7 +13,7 @@ projects: []
 publication: '*Criminal Law and Criminal Justice Books*: Rutgers University - Newark.'
 publication_short: 
 publication_types:
-- "0"
+- "10"
 publishDate: "2020-09-30T00:00:00Z"
 slides: ""
 summary: My brief review of Philip Stinson's new book in the *Criminology Explains* series. 
