@@ -1,37 +1,61 @@
----
-abstract: "Despite considerable evidence that police legitimacy results in beneficial outcomes like compliance, cooperation, and empowerment, scholars have yet to agree on how to define and operationalize legitimacy. Drawing on Max Weber’s facets of legitimacy, we developed and tested a measure of *traditional authority*, reflecting the possibility that some people legitimate the police more so based on tradition than normative concerns regarding fairness. Confirmatory factor analysis of survey data from a national sample of 701 US adults revealed that our traditional authority items loaded separately from items commonly used to capture feelings of trust, obligation to obey, and moral alignment. Furthermore, although perceived legitimacy appears to flow from perceptions of procedural and distributive fairness regardless of how it is measured, traditional authority is more strongly associated with empowerment of the police. We discuss the theoretical and practical implications of these findings and urge researchers to replicate and extend our work."
-authors:
-- Kyle McLean
-- admin
-date: "2021-05-14T17:00:00Z"
-doi: 10.1080/07418825.2021.1933141
-featured: false
-image:
-  caption: "Image by [Todd Kent](https://unsplash.com/@churchoftodd) from [Unsplash](https://unsplash.com/photos/JnaPjPIT5ic)"
-  focal_point: smart
-  preview_only: false
-projects: []
-publication: '*Justice Quarterly*, 39(6), 1287-1309'
-publication_short: 
-publication_types:
-- "2"
-publishDate: "2021-05-25T16:00:00Z"
-slides: ""
-summary: 
-tags:
-- Police
-- Legitimacy
-- Empowerment
-title: 'Understanding the Bounds of Legitimacy: Weber’s Facets of Legitimacy and the Police Empowerment Hypothesis'
-url_code: ""
-url_dataset: ""
-url_pdf: "https://assets.pubpub.org/dlf7pauk/61635084936784.pdf"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "Understanding the Bounds of Legitimacy: Weber’s Facets of Legitimacy and the Police Empowerment Hypothesis"
+
+# Authors
+authors = ["Kyle McLean", "admin"]
+
+# Publication
+publication = "*Justice Quarterly*, 39(6), 1287-1309"
+
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
+# Date this page was created.
+date = 2021-05-14T17:00:00Z
+
+# Project summary to display on homepage.
+summary = ""
+
+# Abstract
+abstract = "Despite considerable evidence that police legitimacy results in beneficial outcomes like compliance, cooperation, and empowerment, scholars have yet to agree on how to define and operationalize legitimacy. Drawing on Max Weber’s facets of legitimacy, we developed and tested a measure of *traditional authority*, reflecting the possibility that some people legitimate the police more so based on tradition than normative concerns regarding fairness. Confirmatory factor analysis of survey data from a national sample of 701 US adults revealed that our traditional authority items loaded separately from items commonly used to capture feelings of trust, obligation to obey, and moral alignment. Furthermore, although perceived legitimacy appears to flow from perceptions of procedural and distributive fairness regardless of how it is measured, traditional authority is more strongly associated with empowerment of the police. We discuss the theoretical and practical implications of these findings and urge researchers to replicate and extend our work."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Legitimacy", "Empowerment"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+url_project = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Postprint", url="https://assets.pubpub.org/dlf7pauk/61635084936784.pdf"}, {name = "DOI", url="https://doi.org/10.1080/07418825.2021.1933141"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image by [Todd Kent](https://unsplash.com/@churchoftodd) from [Unsplash](https://unsplash.com/photos/JnaPjPIT5ic)"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
++++
 
 ***************
 
