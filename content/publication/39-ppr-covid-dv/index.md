@@ -1,39 +1,61 @@
----
-abstract: "We assessed immediate and long-term trends in calls for police service regarding domestic violence following COVID-19 stay-at-home orders. Using open data from the *Police Data Initiative*, we performed interrupted time-series analyses of weekly calls for service for domestic violence in New Orleans (LA), Cincinnati (OH), Seattle (WA), Salt Lake City (UT), Montgomery County (MD), and Phoenix (AZ). Results indicate that five of the six jurisdictions experienced an immediate, significant spike in domestic violence calls for service (Cincinnati being the lone exception). As stay-at-home orders were lifted throughout the remainder of 2020, domestic violence calls for service declined in every jurisdiction but Salt Lake City. These results illustrate (1) the importance of studying the *localized* effects of COVID-19 on criminal justice issues, (2) the need for more agencies to publish open data in a timely fashion, and (3) the caution researchers and the public must use when working with calls for service data, which are not uniform across agencies and require careful cleaning prior to analysis."
-authors:
-- admin
-- Tara Richards
-date: "2021-01-25T20:00:00Z"
-doi: 10.1080/15614263.2021.1883018
-featured: false
-image:
-  caption: "Image by [Sharon McCutcheon](https://unsplash.com/@sharonmccutcheon) from [Unsplash](https://unsplash.com/photos/gxkWSW6K15Y)"
-  focal_point: smart
-  preview_only: false
-projects: []
-publication: '*Police Practice & Research*, 22(4), 1443-1451'
-publication_short: 
-publication_types:
-- "2"
-publishDate: "2021-01-25T20:00:00Z"
-slides: ""
-summary: In 5 of 6 jurisdictions, domestic violence calls for police service spiked during stay-at-home orders.
-tags:
-- Police
-- Time series analysis
-- Evidence-based policing
-- COVID-19
-- Cooperation
-title: 'The immediate and long-term effects of COVID-19 stay-at-home orders on domestic violence calls for service across six U.S. jurisdictions'
-url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_richards_PPR_InPress"
-url_dataset:
-url_pdf: "https://assets.pubpub.org/oibiaw6d/71636036997434.pdf"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "The immediate and long-term effects of COVID-19 stay-at-home orders on domestic violence calls for service across six U.S. jurisdictions"
+
+# Authors
+authors = ["admin", "Tara Richards"]
+
+# Publication
+publication = "*Police Practice & Research*, 22(4), 1443-1451"
+
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
+# Date this page was created.
+date = 2021-01-25T20:00:00Z
+
+# Project summary to display on homepage.
+summary = "In 5 of 6 jurisdictions, domestic violence calls for police service spiked during stay-at-home orders"
+
+# Abstract
+abstract = "We assessed immediate and long-term trends in calls for police service regarding domestic violence following COVID-19 stay-at-home orders. Using open data from the *Police Data Initiative*, we performed interrupted time-series analyses of weekly calls for service for domestic violence in New Orleans (LA), Cincinnati (OH), Seattle (WA), Salt Lake City (UT), Montgomery County (MD), and Phoenix (AZ). Results indicate that five of the six jurisdictions experienced an immediate, significant spike in domestic violence calls for service (Cincinnati being the lone exception). As stay-at-home orders were lifted throughout the remainder of 2020, domestic violence calls for service declined in every jurisdiction but Salt Lake City. These results illustrate (1) the importance of studying the *localized* effects of COVID-19 on criminal justice issues, (2) the need for more agencies to publish open data in a timely fashion, and (3) the caution researchers and the public must use when working with calls for service data, which are not uniform across agencies and require careful cleaning prior to analysis."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Time series analysis", "Evidence-based policing", "COVID-19", "Cooperation"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+url_project = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Postprint", url="https://assets.pubpub.org/oibiaw6d/71636036997434.pdf"}, {name = "DOI", url="https://doi.org/10.1080/15614263.2021.1883018"}, {name = "Replication Materials", url="https://github.com/jnixy/replication-materials/tree/master/nix_richards_PPR_InPress"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image by [Sharon McCutcheon](https://unsplash.com/@sharonmccutcheon) from [Unsplash](https://unsplash.com/photos/gxkWSW6K15Y)"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
++++
 
 ***************
 

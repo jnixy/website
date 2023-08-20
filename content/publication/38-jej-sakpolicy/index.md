@@ -1,40 +1,61 @@
----
-abstract: "The present study employs a quasi-experimental design to evaluate the effects of a mandatory sexual assault kit (SAK) testing policy on rape arrests in a large western US jurisdiction. We use a Bayesian structural time-series model and monthly data on arrests for rape from 2010 through 2019. In the post-implementation period, we observed a downward trend in the arrest rate for rape. Based on the results, the most conservative interpretation of our findings is that the policy implementation did not affect rape arrest rates. While mandatory SAK testing policies are often advocated for based on the belief that they will increase arrest rates for sexual assault (among other proposed benefits), we add to growing empirical evidence that policy interventions beyond mandatory SAK testing are needed to increase arrest rates for sexual assault. Jurisdictions that currently use mandatory SAK testing policies are encouraged to assess stakeholders’ experiences to proactively address resource allocation, consider other policies that may increase accountability for sexual assault offenders, and utilize victim service providers to support other measures of success with victims in instances where no arrest is made."
-authors:
-- Scott Mourtgos
-- Ian Adams
-- admin
-- Tara Richards
-date: "2021-01-21T08:00:00Z"
-doi: 10.1080/24751979.2021.1881410
-featured: false
-image:
-  caption: "Image by [Peggy und Marco Lachmann-Anke](https://pixabay.com/users/peggy_marco-1553824/) from [Pixabay](https://pixabay.com/images/id-2512003/)"
-  focal_point: smart
-  preview_only: false
-projects: []
-publication: '*Justice Evaluation Journal*, 4(1), 145-162'
-publication_short: 
-publication_types:
-- "2"
-publishDate: "2021-01-22T08:00:00Z"
-slides: ""
-summary: We evaluated the effect of a mandatory SAK testing policy on the monthly rape arrest rate in a western jurisdiction.
-tags:
-- Police
-- Time series analysis
-- Evidence-based policing
-- LEADS
-title: 'Mandatory Sexual Assault Kit Testing Policies and Arrest Trends: A Natural Experiment'
-url_code: ""
-url_dataset:
-url_pdf: "/files/pdfs/jej_sakpolicy.pdf"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "Mandatory Sexual Assault Kit Testing Policies and Arrest Trends: A Natural Experiment"
+
+# Authors
+authors = ["Scott Mourtgos", "Ian Adams", "admin", "Tara Richards"]
+
+# Publication
+publication = "*Justice Evaluation Journal*, 4(1), 145-162"
+
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
+# Date this page was created.
+date = 2021-01-21T08:00:00Z
+
+# Project summary to display on homepage.
+summary = "We evaluated the effect of a mandatory SAK testing policy on the monthly rape arrest rate in a western jurisdiction"
+
+# Abstract
+abstract = "The present study employs a quasi-experimental design to evaluate the effects of a mandatory sexual assault kit (SAK) testing policy on rape arrests in a large western US jurisdiction. We use a Bayesian structural time-series model and monthly data on arrests for rape from 2010 through 2019. In the post-implementation period, we observed a downward trend in the arrest rate for rape. Based on the results, the most conservative interpretation of our findings is that the policy implementation did not affect rape arrest rates. While mandatory SAK testing policies are often advocated for based on the belief that they will increase arrest rates for sexual assault (among other proposed benefits), we add to growing empirical evidence that policy interventions beyond mandatory SAK testing are needed to increase arrest rates for sexual assault. Jurisdictions that currently use mandatory SAK testing policies are encouraged to assess stakeholders’ experiences to proactively address resource allocation, consider other policies that may increase accountability for sexual assault offenders, and utilize victim service providers to support other measures of success with victims in instances where no arrest is made."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Time series analysis", "Evidence-based policing", "LEADS"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+url_project = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Postprint", url="/files/pdfs/jej_sakpolicy.pdf"}, {name = "DOI", url="https://doi.org/10.1080/24751979.2021.1881410"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image by [Peggy und Marco Lachmann-Anke](https://pixabay.com/users/peggy_marco-1553824/) from [Pixabay](https://pixabay.com/images/id-2512003/)"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
++++
 
 ***************
 
