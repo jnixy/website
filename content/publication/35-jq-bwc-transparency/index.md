@@ -1,51 +1,61 @@
----
-abstract: "Body-worn cameras (BWC) have diffused rapidly throughout policing as a means of promoting transparency
-and accountability. Yet, whether to release BWC footage to the public remains largely up to the
-discretion of police executives, and we know little about how they interpret and respond to BWC footage
-– particularly footage involving critical incidents. We asked a nationally representative sample of police
-executives (N=476) how supportive they were of legislation that would mandate releasing BWC footage
-upon request as public information, and presented them with an experimental vignette about BWC capturing
-one of their officers fatally shooting an [armed/unarmed] [Black/White] suspect. Results indicated
-inconsistency in executives’ attitudes and decision-making: (1) less than one-third of executives supported
-such legislation, (2) suspect race and armed/unarmed status shaped how executives felt media would cover
-the incident and whether they would state publicly that the shooting was justified, and (3) agency size conditioned
-the effects of armed/unarmed status on executives’ perceptions."
-authors:
-- Brandon Tregle
-- admin
-- Justin Pickett
-date: "2020-09-03T06:00:00Z"
-doi: 10.1080/07418825.2020.1821086
-featured: false
-image:
-  caption: "Image by [Tony Webster](https://www.flickr.com/photos/diversey/) at [Flickr](https://flic.kr/p/2hBaNzA)"
-  focal_point: center
-  preview_only: false
-projects: []
-publication: '*Justice Quarterly*, 39(3), 455-477'
-publication_short: 
-publication_types:
-- "2"
-publishDate: "2020-09-03T12:00:00Z"
-slides: ""
-summary: Forthcoming at *Justice Quarterly.*
-tags:
-- Police
-- Officer-involved shootings
-- Legitimacy
-- Transparency
-- Body-worn cameras
-- Survey
-title: 'Body-worn cameras and transparency: Experimental evidence of inconsistency in police executive decision-making'
-url_code: "https://github.com/jnixy/replication-materials/tree/master/tregle_et_al_JQ_InPress"
-url_dataset:
-url_pdf: "/files/pdfs/jq_bwc_transparency.pdf"
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "Body-worn cameras and transparency: Experimental evidence of inconsistency in police executive decision-making"
+
+# Authors
+authors = ["Brandon Tregle", "admin", "Justin Pickett"]
+
+# Publication
+publication = "*Justice Quarterly*, 39(3), 455-477"
+
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
+# Date this page was created.
+date = 2020-09-03T06:00:00Z
+
+# Project summary to display on homepage.
+summary = ""
+
+# Abstract
+abstract = "Body-worn cameras (BWC) have diffused rapidly throughout policing as a means of promoting transparency and accountability. Yet, whether to release BWC footage to the public remains largely up to the discretion of police executives, and we know little about how they interpret and respond to BWC footage – particularly footage involving critical incidents. We asked a nationally representative sample of police executives (N=476) how supportive they were of legislation that would mandate releasing BWC footage upon request as public information, and presented them with an experimental vignette about BWC capturing one of their officers fatally shooting an [armed/unarmed] [Black/White] suspect. Results indicated inconsistency in executives’ attitudes and decision-making: (1) less than one-third of executives supported such legislation, (2) suspect race and armed/unarmed status shaped how executives felt media would cover the incident and whether they would state publicly that the shooting was justified, and (3) agency size conditioned the effects of armed/unarmed status on executives’ perceptions."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Legitimacy", "Transparency", "Officer-involved shootings", "Body-worn cameras", "Survey", "Experimental design"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+url_project = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Postprint", url="/files/pdfs/jq_bwc_transparency.pdf"}, {name = "DOI", url="https://doi.org/10.1080/07418825.2020.1821086"}, {name = "Replication Materials", url="https://github.com/jnixy/replication-materials/tree/master/tregle_et_al_JQ_InPress"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image by [Tony Webster](https://www.flickr.com/photos/diversey/) at [Flickr](https://flic.kr/p/2hBaNzA)"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Center"
++++
 
 ***************
 
