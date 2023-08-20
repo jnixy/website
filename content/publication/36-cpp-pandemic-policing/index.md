@@ -1,43 +1,61 @@
----
-abstract: "**Research Summary**: We administered a survey experiment to a national sample of 1,068 US adults in April 2020 to determine the factors that shape support for various policing tactics in the midst of the COVID-19 pandemic. Respondents were sharply divided in their views about pandemic policing tactics, and were least supportive of policies that might limit public access to officers or reduce crime deterrence. Information about the health risks to officers, but not to inmates, significantly increased support for *precautionary* policing, but not for *social distance* policing. The information effect was modest, but may be larger if the information came from official sources and/or was communicated on multiple occasions. Other factors that are associated with attitudes toward pandemic policing include perceptions of procedural justice, altruistic fear, racial resentment, and authoritarianism.  
-**Policy Implications**: When considered together with other evidence, one clear takeaway from our study is that the public values police patrols and wants officers on call, even during pandemics. Another is that people who believe the police are procedurally just are more willing to trust officers in times of crisis and to empower them to enforce new laws, such as social distancing ordinances. Our results thus support continued procedural justice training for officers. A third takeaway is that agencies must proactively communicate with the public about the risks their officers face when responding to public health crises or natural disasters, in addition to how they propose to mitigate those risks. They must also be amenable to adjusting in response to community feedback."
-authors:
-- admin
-- Stefan Ivanov
-- Justin Pickett
-date: "2020-11-09T09:00:00Z"
-doi: 10.1111/1745-9133.12535
-featured: false
-image:
-  caption: "Image by [Julien Tromeur](https://pixabay.com/users/julientromeur-3630051/) from [Pixabay](https://pixabay.com/illustrations/police-officer-mask-corona-flu-5128019/)"
-  focal_point: smart
-  preview_only: false
-projects: []
-publication: '*Criminology & Public Policy*, 20(3), 545-571'
-publication_short: 
-publication_types:
-- "2"
-publishDate: "2020-11-09T09:00:00Z"
-slides: ""
-summary: Forthcoming at *Criminology & Public Policy.*
-tags:
-- Police
-- Legitimacy
-- Survey
-- Experimental design
-- COVID-19
-- Media
-- Public health
-title: 'What Does the Public Want Police to Do During Pandemics? A National Experiment'
-url_code: "https://github.com/jnixy/replication-materials/tree/master/nix_et_al_CAPP_2021"
-url_dataset:
-url_pdf: ""
-url_poster: ""
-url_project: ""
-url_slides: ""
-url_source: ""
-url_video: ""
----
++++
+# Paper title
+title = "What Does the Public Want Police to Do During Pandemics? A National Experiment"
+
+# Authors
+authors = ["admin", "Stefan Ivanov", "Justin Pickett"]
+
+# Publication
+publication = "*Criminology & Public Policy*, 20(3), 545-571"
+
+# Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
+publication_types = ["2"]
+
+# Date this page was created.
+date = 2020-11-09T09:00:00Z
+
+# Project summary to display on homepage.
+summary = ""
+
+# Abstract
+abstract = "**Research Summary**: We administered a survey experiment to a national sample of 1,068 US adults in April 2020 to determine the factors that shape support for various policing tactics in the midst of the COVID-19 pandemic. Respondents were sharply divided in their views about pandemic policing tactics, and were least supportive of policies that might limit public access to officers or reduce crime deterrence. Information about the health risks to officers, but not to inmates, significantly increased support for *precautionary* policing, but not for *social distance* policing. The information effect was modest, but may be larger if the information came from official sources and/or was communicated on multiple occasions. Other factors that are associated with attitudes toward pandemic policing include perceptions of procedural justice, altruistic fear, racial resentment, and authoritarianism. **Policy Implications**: When considered together with other evidence, one clear takeaway from our study is that the public values police patrols and wants officers on call, even during pandemics. Another is that people who believe the police are procedurally just are more willing to trust officers in times of crisis and to empower them to enforce new laws, such as social distancing ordinances. Our results thus support continued procedural justice training for officers. A third takeaway is that agencies must proactively communicate with the public about the risks their officers face when responding to public health crises or natural disasters, in addition to how they propose to mitigate those risks. They must also be amenable to adjusting in response to community feedback."
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["Police", "Legitimacy", "Survey", "Experimental design", "COVID-19", "Media", "Public health"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references 
+#   `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides = ""
+
+# Links (optional).
+url_pdf = ""
+url_slides = ""
+url_video = ""
+url_code = ""
+url_project = ""
+
+# Custom links (optional).
+#   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+links = [{name = "Postprint", url="pandemic_policing_postprint.pdf"}, {name = "DOI", url="https://doi.org/10.1111/1745-9133.12535"}, {name = "Replication Materials", url="https://github.com/jnixy/replication-materials/tree/master/nix_et_al_CAPP_2021"}]
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Image by [Julien Tromeur](https://pixabay.com/users/julientromeur-3630051/) from [Pixabay](https://pixabay.com/illustrations/police-officer-mask-corona-flu-5128019/)"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
++++
 
 ***************
 
