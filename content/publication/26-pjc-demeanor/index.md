@@ -47,7 +47,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [name = "Postprint", url = "/files/pdfs/pijpsm_demeanor_culture.pdf"}, {name = "DOI", url = "https://doi.org/10.1108/PIJPSM-09-2018-0133"}]
+links = [{name = "Postprint", url = "/files/pdfs/pijpsm_demeanor_culture.pdf"}, {name = "DOI", url = "https://doi.org/10.1108/PIJPSM-09-2018-0133"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
