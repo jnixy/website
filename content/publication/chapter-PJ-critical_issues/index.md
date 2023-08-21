@@ -15,7 +15,7 @@ publication_types = ["6"]
 date = 2020-07-10T00:00:00Z
 
 # Date this article was published.
-date = 2021-01-01T00:00:00Z
+publishDate = 2021-01-01T00:00:00Z
 
 # Project summary to display on homepage.
 summary = "I briefly summarize the literature on procedural justice theory and identify some avenues for future research."
