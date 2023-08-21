@@ -11,10 +11,10 @@ publication = "*Critical Issues in Policing: Contemporary Readings, 8th Ed.*(pp.
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["6"]
 
-# Date this page was created.
+# Date this article was published.
 date = 2020-07-10T00:00:00Z
 
-# Date this article was published.
+# Date this page was created.
 publishDate = 2021-01-01T00:00:00Z
 
 # Project summary to display on homepage.
