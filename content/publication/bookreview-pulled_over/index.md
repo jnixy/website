@@ -1,6 +1,6 @@
 +++
 # Paper title
-title = "Review of *Pulled Over: How Police Stops Define Race and Citizenship*"
+title = "Review of ‘‘Pulled Over: How Police Stops Define Race and Citizenship’’"
 
 # Authors
 authors = ["admin"]
