@@ -11,11 +11,11 @@ publication = "*Justice Quarterly*, 38(7), 1405-1427"
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
 
-# Date this page was created.
-date = 2019-11-05T00:00:00Z
-
 # Date this article was published.
-publishDate = 2021-11-01T00:00:00Z
+date = 2021-11-01T00:00:00Z
+
+# Date this page was created.
+publishDate = 2019-11-05T00:00:00Z
 
 # Project summary to display on homepage.
 summary = "Using NIBRS data, we show domestic incidents are _not_ more likely to involve officers being assaulted or injured"
