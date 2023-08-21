@@ -51,7 +51,7 @@ title: 'The Las Vegas Mass Shooting: An Analysis of Blood Component Administrati
   and Blood Bank Donations'
 url_code: ""
 url_dataset: ""
-url_pdf: https://journals.lww.com/jtrauma/Abstract/2019/01000/The_Las_Vegas_mass_shooting__An_analysis_of_blood.18.aspx
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""
