@@ -21,8 +21,7 @@ publishDate = 2017-10-01T00:00:00Z
 summary = "My brief review of Frank Zimring’s book on police use of deadly force."
 
 # Abstract
-abstract = "My brief review of Frank Zimring’s book on police use of deadly force. Zimring carefully navigates multiple datasets to draw conclusions about what we know - and don’t know - about citizen deaths at the hands of police. He makes several policy recommendations which he believes can eliminate 50 to 80% of police killings without jeapordizing the lives of officers or drastically changing the way they do their jobs.
-
+abstract = "My brief review of Frank Zimring’s book on police use of deadly force. Zimring carefully navigates multiple datasets to draw conclusions about what we know - and don’t know - about citizen deaths at the hands of police. He makes several policy recommendations which he believes can eliminate 50 to 80% of police killings without jeapordizing the lives of officers or drastically changing the way they do their jobs."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
