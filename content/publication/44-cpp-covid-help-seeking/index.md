@@ -1,6 +1,6 @@
 +++
 # Paper title
-title = "Factors associated with police shooting mortality: A focus on race and a plea for more comprehensive data"
+title = "Comparing 911 and emergency hotline calls for domestic violence in seven cities: What happened when people started staying home due to COVID-19?"
 
 # Authors
 authors = ["Tara Richards", "admin", "Scott Mourtgos", "Ian Adams"]
