@@ -6,7 +6,7 @@ title = "A Multi-Site Study of Firearms Displays by Police at Use of Force Incid
 authors = ["Timothy Cubitt", "admin"]
 
 # Publication
-publication = "*Police Quarterly*"
+publication = "*Police Quarterly*, 26(3), 379-408"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
