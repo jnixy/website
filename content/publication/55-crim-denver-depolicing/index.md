@@ -3,7 +3,7 @@
 title = "When police pull back: Neighborhood-level effects of de-policing on violent and property crime"
 
 # Authors
-authors = ["admin", "Jessie Huff", "Scott Wolfe", "David Pyrooz", Scott Mourtgos"]
+authors = ["admin", "Jessie Huff", "Scott Wolfe", "David Pyrooz", "Scott Mourtgos"]
 
 # Publication
 publication = "*Criminology*"
