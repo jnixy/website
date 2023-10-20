@@ -60,25 +60,4 @@ links = [{name = "Postprint", url="/files/pdfs/ebp_DV_book_chapter.pdf"}, {name 
   focal_point = "Smart"
 +++
 
-This work is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1).
-
-<div id="banner" style="overflow: hidden; ">
-  <div class="inline-block" >
-    <img src ="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
-  </div>
-
-  <div class="inline-block" >
-    <img src ="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
-  </div>
-
-  <div class="inline-block" >
-    <img src ="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1">
-  </div>
-  
-  <div class="inline-block" >
-    <img src ="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1">
-  </div>
-  <div style="clear:left;"></div>
-</div>
-
-<p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-ND 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"></a></p>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
