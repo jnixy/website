@@ -21,7 +21,7 @@ publishDate = 2023-10-20T17:00:00Z
 summary = ""
 
 # Abstract
-abstract = ""
+abstract = "The police response to domestic violence has changed dramatically: from a “hands off approach” to one that mandates an arrest be made. Identifying “what works” in policing domestic violence can be challenging given the often-competing goals of criminal justice system actors and victims of domestic violence. Policies that were once thought to be empirically sound, such as mandatory arrest for domestic violence, have been shown over time to have little deterrent effect and many negative, unintended consequences. Practices that rely on non-traditional policing methods like specialized DV units and second responder programs show some promise at reducing recidivism and increasing victims’ confidence in the system, respectively, while risk assessments may help police better connect victims to social service providers. The future of the police response to domestic violence likely emphasizes the role of community-based interventions over traditional policing strategies."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
