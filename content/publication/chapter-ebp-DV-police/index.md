@@ -63,19 +63,19 @@ links = [{name = "Postprint", url="/files/pdfs/ebp_DV_book_chapter.pdf"}, {name 
 This work is licensed under [CC BY-NC-ND 4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1).
 
 <div id="banner" style="overflow: hidden; ">
-  <div class="image-div" >
+  <div class="inline-block" >
     <img src ="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
   </div>
 
-  <div class="image-div" >
+  <div class="inline-block" >
     <img src ="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
   </div>
 
-  <div class="image-div" >
+  <div class="inline-block" >
     <img src ="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1">
   </div>
   
-  <div class="image-div" >
+  <div class="inline-block" >
     <img src ="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1">
   </div>
   <div style="clear:left;"></div>
