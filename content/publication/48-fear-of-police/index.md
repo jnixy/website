@@ -43,7 +43,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://doi.org/10.31235/osf.io/7mrgp"}, {name = "Replication Materials", url="https://osf.io/ephst/"}]
+links = [{name = "Preprint", url="https://doi.org/10.31235/osf.io/7mrgp"}, {name = "Replication Materials", url="https://osf.io/ephst/"}, {name = "DOI", url="https://doi.org/10.1111/1745-9125.12360"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
