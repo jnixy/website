@@ -27,7 +27,7 @@ The way I scored these manuscripts looks pretty similar to [past years](https://
 
 ![scores](scores.png)
 
-In 2023 it took me, on average, about 4 weeks to submit my reviews (range 0 to 63 days). I've always tried my best to get my reviews in on time, but this year the wheels fell off. Eleven of the 17 I've submitted were late. Usually only by a day or two! But once I was two weeks late, and another time I was late by a month (range 1 to 32 days, median = 3). That latter one just completely slipped through the cracks and I'd forgotten about it until I got a follow-up email telling me I was late. 
+In 2023 it took me, on average, about 4 weeks to submit my reviews (range 0 to 63 days). I've always tried my best to get my reviews in on time, but this year was rough, to say the least, and the wheels fell off. Eleven of the 17 I've submitted were late. Usually only by a day or two! But once I was two weeks late, and another time I was late by a month (range 1 to 32 days, median = 3). That latter one just completely slipped through the cracks and I'd forgotten about it until I got a follow-up email telling me I was late. 
 
 ![days_taken_2023](days_taken_2023.png)
 
