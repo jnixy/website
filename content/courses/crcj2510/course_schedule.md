@@ -16,92 +16,93 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## Semester Overview
 
-![calendar](/courses/crcj2510_calendar_spring23.png)
+![calendar](/courses/crcj2510_calendar_spring24.png)
 
-## Week 1 | 1/23
+## Week 1 | 1/22
 
 * Tuesday: Intro / Review syllabus
-* Thursday: Chapter 1 - Science, society, and criminological research
+* Thursday: Chapter 1 - Science, Society, and Research Related to Criminal Justice and Criminology
 
-## Week 2 | 1/30
+## Week 2 | 1/29
 
-* Tuesday: Chapter 1 - Science, society, and criminological research
-* Thursday: Chapter 2 - The process and problems of criminological research
+* Tuesday: Chapter 1 - Science, Society, and Research Related to Criminal Justice and Criminology
+* Thursday: Chapter 2 - The Process and Problems of Research Related to Crime and Criminology
 
-## Week 3 | 2/6
+## Week 3 | 2/5 
 
-* Tuesday: Chapter 2 - The process and problems of criminological research
+* Tuesday: Chapter 2 - The Process and Problems of Research Related to Crime and Criminology
   - ([Assignment #1](https://jnix.netlify.app/courses/crcj2510/assignment-1.pdf) due)
-* Thursday: Chapter 3 - Research ethics and philosophies
+* Thursday: Chapter 3 - Ethical Guidelines for Research
 
-## Week 4 | 2/13
+## Week 4 | 2/12
 
-* Tuesday: Chapter 3 - Research ethics and philosophies
-* Thursday: Chapter 4 - Conceptualization and measurement
+* Tuesday: Chapter 3 - Ethical Guidelines for Research
+* Thursday: Chapter 4 - Conceptualization and Measurement
 
-## Week 5 | 2/20
+## Week 5 | 2/19
 
-* Tuesday: Chapter 4 - Conceptualization and measurement
-* Thursday: **Exam #1**
+* Tuesday: Chapter 4 - Conceptualization and Measurement
+* Thursday: **No class**
 
-## Week 6 | 2/27
+## Week 6 | 2/26
+
+* Tuesday: **Exam 1**
+* Thursday: Chapter 5 - Sampling
+
+## Week 7 | 3/4
 
 * Tuesday: Chapter 5 - Sampling
-* Thursday: Chapter 5 - Sampling
   - ([Assignment #2](https://jnix.netlify.app/courses/crcj2510/assignment-2.docx) due)
+* Thursday: Chapter 6 - Causation and Experimentation
 
-## Week 7 | 3/6
+## Week 8 | 3/11
 
-* Tuesday: Chapter 6 - Causation and research design
-* Thursday: Chapter 6 - Causation and research design
+* **Spring Break - No class**
 
-## Week 8 | 3/13
+## Week 9 | 3/18
 
-* **Spring Break - no class**
+* Tuesday: Chapter 6 - Causation and Experimentation
+* Thursday: Chapter 7 - Survey Research
 
-## Week 9 | 3/20
+## Week 10 | 3/25
 
-* Tuesday: Chapter 7 - Survey research
-* Thursday: Chapter 7 - Survey research
+* Tuesday: Chapter 7 - Survey Research
+* Thursday: Chapter 8 - Qualitative Methods and Data Analysis
 
-## Week 10 | 3/27
+## Week 11 | 4/2
 
-* Tuesday: Chapter 8 - Qualitative methods and data analysis
-* Thursday: Chapter 8 - Qualitative methods and data analysis
+* Tuesday: Chapter 8 - Qualitative Methods and Data Analysis
   - ([Assignment #3](https://jnix.netlify.app/courses/crcj2510/assignment-3.pdf) due)
+* Thursday: **Exam 2**
 
-## Week 11 | 4/3
+## Week 12 | 4/9 
 
-* Tuesday: **Exam #2**
-* Thursday: Chapter 9 - Analyzing content
+* Tuesday: Chapter 9 - Analyzing Content and Police Data
+* Thursday: Chapter 9 - Analyzing Content and Police Data
 
-## Week 12 | 4/10
+## Week 13 | 4/16
 
-* Tuesday: Chapter 9 - Analyzing content
-* Thursday: Chapter 10 - Evaluation and policy analysis
+* Tuesday: Chapter 10 - Evaluation and Policy Analysis
+* Thursday: Chapter 10 - Evaluation and Policy Analysis
   - ([Assignment #4](https://jnix.netlify.app/courses/crcj2510/assignment-4.pdf) due)
 
-## Week 13 | 4/17
+## Week 14 | 4/23
 
-* Tuesday: Chapter 10 - Evaluation and policy analysis
-* Thursday: Chapter 11 - Mixing and comparing methods
+* Tuesday: Chapter 11 - Mixing and Comparing Methods
+* Thursday: Chapter 11 - Mixing and Comparing Methods
 
-## Week 14 | 4/24
+## Week 15 | 4/30
 
-* Tuesday: Chapter 11 - Mixing and comparing methods
-* Thursday: Chapter 12 - Reporting research results
-
-## Week 15 | 5/1
-
-* Tuesday: Chapter 12 - Reporting research results
-* Thursday: Review for final
+* Tuesday: Chapter 12 - Summarizing and Reporting Research
+* Thursday: Chapter 12 - Summarizing and Reporting Research
   - ([Assignment #5](https://jnix.netlify.app/courses/crcj2510/assignment-5.docx) due)
+  
+## Week 16 | 5/6
 
-## Week 16 | 5/8
+* Tuesday: Review for Final
+* Thursday: **No class**
 
-* **Prep Week - no class**
-
-## Week 17 | 5/15
+## Week 17 | 5/13
 
 * Tuesday: **Final Exam**
 

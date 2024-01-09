@@ -1,7 +1,7 @@
 ---
 date: "2022-11-30T14:00:00Z"
 draft: false
-lastmod: "2022-11-30T14:00:00Z"
+lastmod: "2024-01-04T12:00:00Z"
 linktitle: CRCJ 2510 - Research Methods
 menu:
   crcj2510:
@@ -15,7 +15,7 @@ url_syllabus: "crcj2510-syllabus.pdf"
 weight: 20
 ---
 
-## Spring 2023
+## Spring 2024
 
 👈 If you're viewing on a desktop, the course syllabus and lectures are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
 

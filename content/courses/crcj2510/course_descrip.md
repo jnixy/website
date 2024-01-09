@@ -16,13 +16,13 @@ The primary goal of this course is to facilitate students' growth as both consum
 
 ## Required Readings
 
-* Ronet Bachman & Russell K. Schutt (2015). *Fundamentals of research in criminology and criminal justice* (3rd Ed.). Sage (ISBN: 978-1-4833-3345-8).
+* Ronet Bachman & Russell K. Schutt (2020). *Fundamentals of research in criminology and criminal justice* (5th Ed.). Sage (ISBN: 9781544374055).
 
 * Additional readings may be uploaded from time to time to our course page on Canvas. 
 
 ## Office Hours
 
-I have office hours immediately preceding our class on Tuesdays and Thursdays. You can drop in during this time if you have questions or concerns about the course, your grade, etc. If these times don't work for you, email me to set up an appointment.  
+I have office hours immediately following our class on Tuesdays and Thursdays. You can drop in during this time if you have questions or concerns about the course, your grade, etc. If these times don't work for you, email me to set up an appointment.  
 
 ## Communication Etiquette
 
