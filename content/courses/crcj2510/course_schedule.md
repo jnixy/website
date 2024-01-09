@@ -18,91 +18,91 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ![calendar](/courses/crcj2510_calendar_spring24.png)
 
-## Week 1 | 1/22
+## 1. Week of January 22nd
 
 * Tuesday: Intro / Review syllabus
 * Thursday: Chapter 1 - Science, Society, and Research Related to Criminal Justice and Criminology
 
-## Week 2 | 1/29
+## 2. Week of January 29th
 
 * Tuesday: Chapter 1 - Science, Society, and Research Related to Criminal Justice and Criminology
 * Thursday: Chapter 2 - The Process and Problems of Research Related to Crime and Criminology
 
-## Week 3 | 2/5 
+## 3. Week of February 5th
 
 * Tuesday: Chapter 2 - The Process and Problems of Research Related to Crime and Criminology
   - ([Assignment #1](https://jnix.netlify.app/courses/crcj2510/assignment-1.pdf) due)
 * Thursday: Chapter 3 - Ethical Guidelines for Research
 
-## Week 4 | 2/12
+## 4. Week of February 12th
 
 * Tuesday: Chapter 3 - Ethical Guidelines for Research
 * Thursday: Chapter 4 - Conceptualization and Measurement
 
-## Week 5 | 2/19
+## 5. Week of February 19th
 
 * Tuesday: Chapter 4 - Conceptualization and Measurement
 * Thursday: **No class**
 
-## Week 6 | 2/26
+## 6. Week of February 26th
 
 * Tuesday: **Exam 1**
 * Thursday: Chapter 5 - Sampling
 
-## Week 7 | 3/4
+## 7. Week of March 4th
 
 * Tuesday: Chapter 5 - Sampling
   - ([Assignment #2](https://jnix.netlify.app/courses/crcj2510/assignment-2.docx) due)
 * Thursday: Chapter 6 - Causation and Experimentation
 
-## Week 8 | 3/11
+## 8. Week of March 11th
 
 * **Spring Break - No class**
 
-## Week 9 | 3/18
+## 9. Week of March 18th
 
 * Tuesday: Chapter 6 - Causation and Experimentation
 * Thursday: Chapter 7 - Survey Research
 
-## Week 10 | 3/25
+## 10. Week of March 25th
 
 * Tuesday: Chapter 7 - Survey Research
 * Thursday: Chapter 8 - Qualitative Methods and Data Analysis
 
-## Week 11 | 4/2
+## 11. Week of April 1st
 
 * Tuesday: Chapter 8 - Qualitative Methods and Data Analysis
   - ([Assignment #3](https://jnix.netlify.app/courses/crcj2510/assignment-3.pdf) due)
 * Thursday: **Exam 2**
 
-## Week 12 | 4/9 
+## 12. Week of April 8th
 
 * Tuesday: Chapter 9 - Analyzing Content and Police Data
 * Thursday: Chapter 9 - Analyzing Content and Police Data
 
-## Week 13 | 4/16
+## 13. Week of April 15th
 
 * Tuesday: Chapter 10 - Evaluation and Policy Analysis
 * Thursday: Chapter 10 - Evaluation and Policy Analysis
   - ([Assignment #4](https://jnix.netlify.app/courses/crcj2510/assignment-4.pdf) due)
 
-## Week 14 | 4/23
+## 14. Week of April 22nd
 
 * Tuesday: Chapter 11 - Mixing and Comparing Methods
 * Thursday: Chapter 11 - Mixing and Comparing Methods
 
-## Week 15 | 4/30
+## 15. Week of April 29th
 
 * Tuesday: Chapter 12 - Summarizing and Reporting Research
 * Thursday: Chapter 12 - Summarizing and Reporting Research
   - ([Assignment #5](https://jnix.netlify.app/courses/crcj2510/assignment-5.docx) due)
   
-## Week 16 | 5/6
+## 16. Week of May 6th
 
 * Tuesday: Review for Final
 * Thursday: **No class**
 
-## Week 17 | 5/13
+## 17. Week of May 13th
 
 * Tuesday: **Final Exam**
 
