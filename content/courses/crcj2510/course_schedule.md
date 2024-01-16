@@ -52,8 +52,8 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 ## 7. Week of March 4th
 
 * Tuesday: Chapter 5 - Sampling
+* Thursday: No class
   - ([Assignment #2](https://jnix.netlify.app/courses/crcj2510/assignment-2.docx) due)
-* Thursday: Chapter 6 - Causation and Experimentation
 
 ## 8. Week of March 11th
 
@@ -62,45 +62,45 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 ## 9. Week of March 18th
 
 * Tuesday: Chapter 6 - Causation and Experimentation
-* Thursday: Chapter 7 - Survey Research
+* Thursday: Chapter 6 - Causation and Experimentation
 
 ## 10. Week of March 25th
 
 * Tuesday: Chapter 7 - Survey Research
-* Thursday: Chapter 8 - Qualitative Methods and Data Analysis
+* Thursday: Chapter 7 - Survey Research
 
 ## 11. Week of April 1st
 
 * Tuesday: Chapter 8 - Qualitative Methods and Data Analysis
   - ([Assignment #3](https://jnix.netlify.app/courses/crcj2510/assignment-3.pdf) due)
-* Thursday: **Exam 2**
+* Thursday: Chapter 8 - Qualitative Methods and Data Analysis
 
 ## 12. Week of April 8th
 
-* Tuesday: Chapter 9 - Analyzing Content and Police Data
+* Tuesday: **Exam 2**
 * Thursday: Chapter 9 - Analyzing Content and Police Data
 
 ## 13. Week of April 15th
 
-* Tuesday: Chapter 10 - Evaluation and Policy Analysis
+* Tuesday: Chapter 9 - Analyzing Content and Police Data
 * Thursday: Chapter 10 - Evaluation and Policy Analysis
-  - ([Assignment #4](https://jnix.netlify.app/courses/crcj2510/assignment-4.pdf) due)
 
 ## 14. Week of April 22nd
 
-* Tuesday: Chapter 11 - Mixing and Comparing Methods
+* Tuesday: Chapter 10 - Evaluation and Policy Analysis
+  - ([Assignment #4](https://jnix.netlify.app/courses/crcj2510/assignment-4.pdf) due)
 * Thursday: Chapter 11 - Mixing and Comparing Methods
 
 ## 15. Week of April 29th
 
-* Tuesday: Chapter 12 - Summarizing and Reporting Research
+* Tuesday: Chapter 11 - Mixing and Comparing Methods
 * Thursday: Chapter 12 - Summarizing and Reporting Research
-  - ([Assignment #5](https://jnix.netlify.app/courses/crcj2510/assignment-5.docx) due)
   
 ## 16. Week of May 6th
 
-* Tuesday: Review for Final
-* Thursday: **No class**
+* Tuesday: Chapter 12 - Summarizing and Reporting Research
+  - ([Assignment #5](https://jnix.netlify.app/courses/crcj2510/assignment-5.docx) due)
+* Thursday: Review for final exam
 
 ## 17. Week of May 13th
 
