@@ -18,7 +18,7 @@ weight: 1
 
 ## Assignment 2: [Doing Some Basic Data Analysis in JASP](https://jnix.netlify.app/courses/crcj2510/assignment-2.docx)
 
-→ *Due in class on March 5th*
+→ *Submit via Canvas by March 7th*
 
 ## Assignment 3: [Designing a Qualitative Study](https://jnix.netlify.app/courses/crcj2510/assignment-3.pdf)
 
@@ -26,11 +26,11 @@ weight: 1
 
 ## Assignment 4: [Evaluation Research in Academic Journals](https://jnix.netlify.app/courses/crcj2510/assignment-4.pdf)
 
-→ *Due in class on April 18th*
+→ *Due in class on April 23rd*
 
 ## Assignment 5: [Comparing Research Methods](https://jnix.netlify.app/courses/crcj2510/assignment-5.docx)
 
-→ *Due in class on May 2nd*
+→ *Due in class on May 7th*
 
 ***
 
