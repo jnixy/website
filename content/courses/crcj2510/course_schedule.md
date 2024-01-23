@@ -16,7 +16,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## Semester Overview
 
-![calendar](/courses/crcj2510_calendar_spring24.png)
+![calendar](/courses/crcj2510_calendar_spring24.jpeg)
 
 ## 1. Week of January 22nd
 
