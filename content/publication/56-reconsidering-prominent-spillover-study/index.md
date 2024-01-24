@@ -37,7 +37,7 @@ slides = ""
 
 # Links (optional).
 url_pdf = ""
-url_slides = "  "
+url_slides = ""
 url_video = ""
 url_code = "https://osf.io/d9wkr/"
 
