@@ -1,9 +1,9 @@
 ---
 title: "Chapter 1"
-subtitle: "Science, Society, and Criminological Research"
+subtitle: "Science, Society, and Research Related to Criminal Justice and Criminology"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Jan. 24, 2023"
+date: "Jan. 25, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -21,7 +21,7 @@ background-image: url(https://www.unomaha.edu/university-communications/download
 background-position: 95% 90%
 background-size: 10%
 
-# Science, Society, and Criminological Research
+# Science, Society, and Research Related to Criminal Justice and Criminology
 
 <br>
 <br>
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[January 24, 2023]
+.white[January 25, 2024]
 
 ---
 class: middle, center, inverse
