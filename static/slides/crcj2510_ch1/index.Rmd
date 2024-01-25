@@ -395,7 +395,7 @@ class: top
 
 ???
 
-**Exploratory research** seeks to find out how people get along in certain settings, what meanings they give to their actions, and what issues concern them. The goal is to answer the question: *what's going on here?*, and to investigate social phenomena without expectations. Often, questions asked are *open-ended.*
+**Exploratory research** seeks to find out how people get along in certain settings, what meanings they give to their actions, and what issues concern them. The goal is to answer the question: *what's going on here?*, and to investigate social phenomena without expectations. Often, questions asked are *open-ended.* That is, researchers aren't forcing participants to respond in any pre-determined way. 
 
 --
 
@@ -408,6 +408,10 @@ Seeks a better understanding of some phenomena, without expectations going in
 ```{r, echo=FALSE, fig.align='center', out.width = "15%"}
 knitr::include_graphics("kochel.png")
 ```
+
+???
+
+So here it probably wouldn't make sense to ask cops "Hey are you for or against the protests that are occurring?" I'd guess it's a little more complicated than that (and if you read Kochel's book, you'll see that is in fact the case).
 
 ---
 class: top
