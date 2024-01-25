@@ -600,7 +600,7 @@ class: top
 
 ???
 
-**Sample generalizability** exists when our conclusions based on our sample of the larger population holds true for that larger population (i.e., our sampling frame).
+**Sample generalizability** exists when our conclusions based on our sample of the larger population holds true for that larger population.
 
 - E.G., if we wanted to study Omaha police officers' perceptions of the June 2020 protests, and we asked them all to take our survey, but only 20% actually take it. Do findings from the 20% who took our survey generalize to the entire Omaha PD, including the 80% who did not? 
 
