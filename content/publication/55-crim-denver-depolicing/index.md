@@ -88,9 +88,10 @@ Our study adds to a growing number of studies in recent years that have document
 
 - [Shi (2009)](https://www.sciencedirect.com/science/article/pii/S0047272708001242) - Cincinnati
 - [Rivera & Ba (2019)](https://scholarship.law.upenn.edu/faculty_scholarship/2109) - Chicago
+- [Weisburd (2021)](https://doi.org/10.1162/rest_a_00889) - Dallas
 - [Piza & Connealy (2022)](https://doi.org/10.1111/1745-9133.12570) - The CHOP Zone in Seattle
 - [Ratcliffe & Taylor (2023)](https://doi.org/10.1016/j.jcrimjus.2023.102103) - Philadelphia
-- [Weisburd (2021)](https://doi.org/10.1162/rest_a_00889) - Dallas
+
 
 Of course, there are exceptions. See, for example, [Cho et al. (2021)](https://ssrn.com/abstract=4114411) and [Roman et al. (2023)](https://www.marcelroman.com/pdfs/wps/depol.pdf).
 
