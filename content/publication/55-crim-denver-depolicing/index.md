@@ -97,8 +97,6 @@ Of course, there are exceptions. See, for example, [Cho et al. (2021)](https://s
 
 **In Conclusion**
 
-I don't know that I can summarize it any better than we already did in the paper itself:
-
 > Does de-policing lead to more crime? Denver’s 2020 experience suggests the answer depends on what “policing” means and how much of it was occurring in the first place. Proactive
 stops appear to have a preventive effect on violent crime and drug-related arrests appear to have a similar effect on property crime. Notably, officers made ~32,000 fewer traffic stops in 2020 – a huge departure from the norm – and the reduction had a much smaller relationship with changes in crime than pedestrian stops. Police can likely reduce certain types of enforcement without disastrous consequences for crime, at least in the short term. As we continue to debate the role of policing, it is critical to understand the effects of various types of policing on crime and community. We hope such discussions are guided by sound evidence rather than emotion because the livelihoods of the public are at stake. 
 
