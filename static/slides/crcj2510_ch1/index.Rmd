@@ -668,10 +668,10 @@ It's a subjective world out there, and as researchers we should be cautious not 
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "40%"}
-knitr::include_graphics("mirror.png")
+```{r, echo=FALSE, fig.align='center', out.width = "30%"}
+knitr::include_graphics("cheng_book.jfif")
 ```
-
+<p style="text-align: center; color: gray">.small[NYU Press, authored by Tony Cheng]</p>
 ---
 class: middle, center, inverse
 
