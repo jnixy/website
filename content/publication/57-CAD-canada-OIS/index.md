@@ -55,3 +55,5 @@ links = [{name = "DOI", url="https://doi.org/10.1177/00111287231226182"}]
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
 +++
+
+This article is freely available [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) to all who may be interested. You can download it [here](https://journals.sagepub.com/doi/10.1177/00111287231226182).
