@@ -1,9 +1,9 @@
 ---
 title: "Chapter 3"
-subtitle: "Research Ethics and Philosophies"
+subtitle: "Ethical Guidelines for Research"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 9, 2023"
+date: "Feb. 8, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -21,7 +21,7 @@ background-image: url(https://www.unomaha.edu/university-communications/download
 background-position: 95% 90%
 background-size: 10%
 
-# Research Ethics & Philosophies
+# Ethical Guidelines for Research
 
 <br>
 <br>
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 9, 2023]
+.white[February 8, 2024]
 
 ---
 class: middle, center
