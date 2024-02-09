@@ -43,20 +43,20 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://doi.org/10.31235/osf.io/54dyh"}, {name = "Replication Materials", url="https://doi.org/10.7910/DVN/HNFQSP"}, {name = "DOI", url="https://doi.org/10.1111/1745/9125.12363"}]
+links = [{name = "Preprint", url="https://doi.org/10.31235/osf.io/54dyh"}, {name = "Replication Materials", url="https://doi.org/10.7910/DVN/HNFQSP"}, {name = "DOI", url="https://doi.org/10.1111/1745-9125.12363"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Image by [Michael Levine-Clark](https://flickr.com/photos/39877441@N05/) on [Flickr](https://flic.kr/p/2oKFUQ4), [CC BY-NC-ND 2.0 DEED](https://creativecommons.org/licenses/by-nc-nd/2.0/)"
+  caption = "Image by [@designbykris](https://www.instagram.com/designbykris) on [VISIT DENVER](https://www.denver.org/media/photo-video-requests/)"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
 +++
 
-**NOTE: This paper was originally posted as a pre-print on SocArXiv on March 3, 2023. On October 2, 2023, it was accepted for publication by** ***Criminology.*** **It is scheduled to appear in the February 2024 issue. In the meantime, you can download the pre-print using the button above.** 
+**NOTE: This paper was originally posted as a pre-print on SocArXiv on March 3, 2023. On October 2, 2023, it was accepted for publication by** ***Criminology.*** **It will be published open-access in the February 2024 issue.** 
 
 **Background**
 
@@ -98,5 +98,9 @@ Of course, there are exceptions. See, for example, [Cho et al. (2021)](https://s
 **In Conclusion**
 
 > Does de-policing lead to more crime? Denver’s 2020 experience suggests the answer depends on what “policing” means and how much of it was occurring in the first place. Proactive
-stops appear to have a preventive effect on violent crime and drug-related arrests appear to have a similar effect on property crime. Notably, officers made ~32,000 fewer traffic stops in 2020 – a huge departure from the norm – and the reduction had a much smaller relationship with changes in crime than pedestrian stops. Police can likely reduce certain types of enforcement without disastrous consequences for crime, at least in the short term. As we continue to debate the role of policing, it is critical to understand the effects of various types of policing on crime and community. We hope such discussions are guided by sound evidence rather than emotion because the livelihoods of the public are at stake. 
+stops appear to have a preventive effect on violent crime and drug-related arrests appear to have a similar effect on property crime. Notably, officers made ~32,000 fewer traffic stops in 2020 – a huge departure from the norm – and the reduction had a much smaller relationship with changes in crime than pedestrian stops. Police can likely reduce certain types of enforcement without disastrous consequences for crime, at least in the short term. As we continue to debate the role of policing, it is critical to understand the effects of various types of policing on crime and community. We hope such discussions are guided by sound evidence rather than emotion because the livelihoods of the public are at stake.
+
+***
+
+> :star: **If you're interested in reading the long version, where we elaborate more on prior work and what our findings mean, you can download it [here](https://osf.io/download/6402aa8f28e5c500389383a7/?version=1&displayName=Nix%20et%20al%20Depolicing%20Crime_PREPRINT-2023-03-03T22%3A02%3A09.804Z.pdf).**
 
