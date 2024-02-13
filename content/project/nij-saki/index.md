@@ -3,7 +3,7 @@
 title = "Minnesota Sexual Assault Kit Research Project"
 
 # Authors
-authors = ["Tara Richards", "admin", "Emily Wright", "Brad Campbell", "Caralin Branscum", "Michaela Goldsmith"]
+authors = ["Tara Richards", "admin", "Brad Campbell", "Emily Wright", "Caralin Branscum", "Sheena Gilbert", "Michaela Benson-Goldsmith", "Emily Meinert"]
 
 # Date this page was created.
 date = 2022-05-04T11:00:00
@@ -34,7 +34,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Award Information", url="https://nij.ojp.gov/funding/awards/2019-mu-mu-0095"}]
+links = [{name = "Award Information", url="https://nij.ojp.gov/funding/awards/2019-mu-mu-0095"}, {name = "Final Report", url="https://www.ojp.gov/pdffiles1/nij/grants/308454.pdf"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
@@ -55,7 +55,7 @@ The SAK research project will focus on the activities undertaken by law enforcem
 
 All research activities will be identified in collaboration with the Minnesota SAKI stakeholders, will minimize additional burdens on Minnesota SAKI stakeholders, and will prioritize victim safety and confidentiality, and ensure research integrity and data protections. 
 
-</br>
+## Results
 
-***When possible, this page will link to published and ongoing work from this project.***
+You can read the executive summary and final report [here](https://www.ojp.gov/pdffiles1/nij/grants/308454.pdf). 
 
