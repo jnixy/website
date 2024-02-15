@@ -4,8 +4,8 @@
     <title>Chapter 4</title>
     <meta charset="utf-8" />
     <meta name="author" content="Justin Nix" />
-    <meta name="date" content="2023-02-16" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <meta name="date" content="2024-02-15" />
+    <script src="libs/header-attrs-2.24/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
@@ -34,7 +34,7 @@ background-size: 10%
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-.white[February 16, 2023]
+.white[February 15, 2024]
 
 ---
 class: middle, center, inverse
@@ -48,7 +48,7 @@ class: top
 
 ???
 
-After we've defined our theoretical concepts in the abstract (i.e., conceptualizing), and after we have specified the specific variables we'd like to measure, we must develop our measurement procedures (i.e., **operationalization**). 
+After we've defined our theoretical concepts in the abstract (i.e., conceptualizing), and after we have specified the variables we'd like to measure, we must develop our measurement procedures (i.e., **operationalization**). 
 
 So it might be useful to look at some recent examples of the **operationalization process** used by my coauthors and me in a couple of recent studies. 
 
@@ -117,16 +117,57 @@ Local governments often compile annual reports, or in some cases publish data on
 
 For example: [National Incident-Based Reporting System](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
 
-&lt;img src="nibrs-homicides.png" width="50%" style="display: block; margin: auto;" /&gt;
+&lt;img src="nibrs-homicides.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+???
+
+NIBRS is compiled annually by the FBI from data submitted by local police departments.
+- But participation is voluntary, so the estimates come with a good bit of *uncertainty* due to non-reporting. 
+  - In 2022 - which is the most recent data we have - 70% of agencies submitted data. 
+  - **Think back to your first homework assignment**: do you trust a 70% sample? 
+  - What if I told you those 70% of agencies covered 93.5% of the US population?
+
+- What's your primary takeaway from this chart?
+
+- Homicide rate redirected circa 2015
+- Still substantially lower than its peak in the early 90s
+- Some good news: Down 6% from 2022
+
+- Not shown here:
+  - All violent crime down about 1.7% YOY
+  - Rape down 5%
+  - Agg. assaults and robberies each down about 1%
+  
+---
+class: top
+
+# Identifying the best data
+
+## Using available data
+
+For example: [National Incident-Based Reporting System](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
+
+&lt;img src="nibrs-homicides2.png" width="83%" style="display: block; margin: auto;" /&gt;
 
 ???
 
 NIBRS is compiled annually by the FBI from data submitted by local police departments.
 - But participation is voluntary, so the estimates come with a good bit of *uncertainty* due to non-reporting. 
   - In 2021 - which is the most recent data we have - only about 63% of agencies submitted data. 
-  - **Think back to your first homework assignment**: do you trust a 63% sample? 
-  - Maybe we could non-response was randomly distributed. But it's not. NIBRS overrepresents southern agencies and underrepresents large cities. 
+  - **Think back to your first homework assignment**: do you trust a 70% sample? 
+  - What if I told you those 70% of agencies covered 93.5% of the US population?
 
+- What's your primary takeaway from this chart?
+
+- Homicide rate redirected circa 2015
+- Still substantially lower than its peak in the early 90s
+- Some good news: Down 6% from 2022
+
+- Not shown here:
+  - All violent crime down about 1.7% YOY
+  - Rape down 5%
+  - Agg. assaults and robberies each down about 1%
+  
 ---
 class: top
 
@@ -136,13 +177,17 @@ class: top
 
 For example: [Gun Violence Archive](https://www.gunviolencearchive.org/)
 
-&lt;img src="mass_shootings.png" width="55%" style="display: block; margin: auto;" /&gt;
+&lt;img src="mass_shootings.png" width="53%" style="display: block; margin: auto;" /&gt;
 
 ???
 
-I made this map back on January 25th after reading that mass shootings were off to a quicker start than in the last few years. 
+Through the first 45 days of 2024, there have been 49 mass shootings, 7 of which were mass murders. 
 
-40 through January 24th, whereas there had only been 27 by that time in each of the previous two years. 
+So in this case, GVA operationalizes a "mass shooting" as any shooting involving 4+ injured victims (not including the shooter). These are the blue dots on the map. If there were 4+ deaths, which is how the FBI defines mass murders by firearms, I've colored those dots red.
+
+The lesson here is that if you would operationalize "mass shooting" differently for whatever reason, you couldn't simply download GVA data. You'd need to supplement it with more data or sort through it to extract only what you want. 
+
+Meanwhile, if you wanted to differentiate the TYPES of mass shootings - e.g., bar incidents v. domestic incidents v. workplace incidents v public incidents - you would need to sort through GVA to extract what you wanted. 
 
 ---
 class: top
@@ -153,17 +198,22 @@ class: top
 
 For example: [National Law Enforcement Officers Memorial Fund](https://nleomf.org/memorial/facts-figures/officer-fatalities-by-state/)
 
-&lt;img src="nleomf.jfif" width="65%" style="display: block; margin: auto;" /&gt;
+&lt;img src="nleomf.png" width="75%" style="display: block; margin: auto;" /&gt;
 
 ???
 
 Nonprofits and other private organizations often compile and release data, too. 
 
-For example, USA Today recently ran a story claiming a "disturbing trend" in killings of police officers. There were 64 officers killed in the line of duty in 2022.
+For example, USA Today recently ran a story about this time last year claiming a "disturbing trend" in killings of police officers. There were 64 officers killed in the line of duty in 2022.
 - I pulled the data from the story and made this graph, which shows that killings of officers have hovered around 55 per year since 1995. 
 - Yes, the number isn't exactly 55 every year. It's bounced as low as ~35 and as high as ~75. **Because that's what statistically rare outcomes do**. 
   - How much of the variation is meaningful, and how much is just noise? Hard to say. 
-  - But one thing clear from this graph is that killings of police officers are much less common today than they were in the 1970s. **Why?**
+  - Last year, the number fell from 64 to 47
+  - You could go find stories that make a big deal out of this decline and you could find others that focus more on the fact that nonfatal shootings *didn't* show a similar decline and still do their best to scaremonger. 
+  
+But one thing clear from this graph is that killings of police officers are much less common today than they were in the 1970s. **Why?**
+
+**What if you wanted to measure deaths caused by other means - such as knives, or car accidents? Or illness? Or suicide?**
   
 ---
 class: top
@@ -763,6 +813,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
