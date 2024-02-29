@@ -3,7 +3,7 @@ title: "Chapter 5"
 subtitle: "Sampling"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 28, 2023"
+date: "Feb. 29, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 28, 2023]
+.white[February 29, 2024]
 
 ---
 class: middle, center, inverse
@@ -106,6 +106,40 @@ This poll was done by **Skeptic Research Center**, as part of its *Civil Unrest 
 ---
 class: middle
 
+```{r, echo=FALSE, fig.align='center', out.width = "90%"}
+knitr::include_graphics("goldberg.jpg")
+```
+<p style="text-align: center; color: gray">.small[click [here](https://media4.manhattan-institute.org/wp-content/uploads/what-americans-get-wrong-about-police-violence.pdf) for more]</p>
+
+???
+
+This comes from a study by Zach Goldberg in February 2023. He surveyed 1500 US adults on "Prolific." Not a random sample, but stratified by age, sex, and ethnicty to mirror the US population on those variables. 
+
+On the left, where averages are shown, you can see there are some EXTREME outliers skewing things. 
+
+On the right, the medians actually suggest Americans underestimate the prevalance of fatal police shootings, with liberals being closest to "correct" despite the median being half of the true number. 
+
+---
+class: middle
+
+```{r, echo=FALSE, fig.align='center', out.width = "90%"}
+knitr::include_graphics("goldberg2.jpg")
+```
+<p style="text-align: center; color: gray">.small[click [here](https://media4.manhattan-institute.org/wp-content/uploads/what-americans-get-wrong-about-police-violence.pdf) for more]</p>
+
+???
+
+This comes from a study by Zach Goldberg in February 2023. He surveyed 1500 US adults on "Prolific." Not a random sample, but stratified by age, sex, and ethnicty to mirror the US population on those variables. 
+
+Note that the bottom row reflects the true percentages (per WAPO)
+
+On the left, you can see every group overestimates Black and Asian representation in fatal police shootings, and underestimates white representation. 
+
+On the right, every group overestimates the % of EVERY racial group that was unarmed when fatally shot. 
+
+---
+class: middle
+
 ```{r, echo=FALSE, fig.align='center', out.width = "80%"}
 knitr::include_graphics("animal-fights.png")
 ```
@@ -138,7 +172,7 @@ class: middle, center, inverse
 ???
 
 Remember, we want **valid** results.
-- Do you trust that the *Skeptic* [poll is as generalizable as the *Gallup* polls? 
+- Do you trust that the *Skeptic* poll is as generalizable as the *Gallup* polls? 
   - It might be! But it's very hard to evaluate its external validity, given the lack of information about how the sample was selected. 
   
 Sample planning is a first-order concern when doing criminological research. It's not the only concern - i.e., we could nitpick question wording, or we might wonder about response rates. But without knowing how a sample was selected, it's very difficult to know what to make of results like these. 
@@ -160,6 +194,12 @@ class: top
 --
 
 Let's say we're curious what today's high school students' career aspirations are...
+
+???
+
+Any guesses as to how many high school students there are in the United States? 
+
+- 16-17 million as of 2021
 
 --
 
@@ -187,6 +227,14 @@ class: top
 
 So we set our sights on *Nebraska* high school students' career aspirations...
 
+???
+
+Even surveying the population of Nebraska high school students would be very difficult - any guesses how many high schoolers are in Nebraska?
+
+According to [NE Dept. of Education](https://www.education.ne.gov/wp-content/uploads/2022/02/Statsfacts_20212022.pdf), in 2021-22, there were 262 public schools in Nebraska that include grades 9-12 (95 "high schools" and 167 "secondary schools"). 
+
+- And together, these schools had **~105,000 students** enrolled.
+
 --
 
 Still ambitious - we'll still need to draw a **sample**!
@@ -197,9 +245,6 @@ knitr::include_graphics("nebraska-sampling-example1.png")
 
 ???
 
-Even surveying the population of Nebraska high school students would be very difficult. 
-
-By one estimate, there are 368 high schools in Nebraska - 320 public and 48 private. 
 
 ---
 class: top
