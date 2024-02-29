@@ -424,6 +424,8 @@ Douglas county is:
 - Less than 1% Native Hawaiian/PI
 - 3% two or more races
 
+**So how large of a sample do you think we'd need to draw to get a sample representative of Douglas County in terms of race/ethnicity?**
+
 ---
 class: top
 
