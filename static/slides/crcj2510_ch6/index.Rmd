@@ -3,7 +3,7 @@ title: "Chapter 6"
 subtitle: "Causation and Research Design"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 9, 2023"
+date: "Mar. 19, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 9, 2023]
+.white[March 19, 2024]
 
 ---
 class: middle, center, inverse
