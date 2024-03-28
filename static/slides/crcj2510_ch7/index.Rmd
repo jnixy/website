@@ -3,7 +3,7 @@ title: "Chapter 7"
 subtitle: "Survey Research"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 23, 2023"
+date: "Mar. 28, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 23, 2023]
+.white[March 28, 2024]
 
 ---
 class: middle, center, inverse
@@ -86,9 +86,30 @@ Most surveys are directed at a specific research question or questions. An **omn
 --
 
 <details>
-  <summary>Would you ever approve of a policeman striking a citizen ... who was attacking the policeman with his fists?</summary>
+  <summary>Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen?</summary>
+  
+  <br>
 
-```{r, echo=FALSE, fig.align='center', out.width = "40%"}
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("mourtgos_adams_jq.jpg")
+```
+<p style="text-align: center; color: gray">.small[See [Mourtgos & Adams, 2020](https://doi.org/10.1080/07418825.2019.1679864)]</p>
+
+</details>
+
+---
+class: top
+
+# What Is a Survey?
+
+## Example of an *omnibus survey:*  [The GSS](https://gss.norc.org/)
+
+<details>
+  <summary>Would you ever approve of a policeman striking a citizen ... who was attacking the policeman with his fists?</summary>
+  
+  <br>
+
+```{r, echo=FALSE, fig.align='center', out.width = "37%"}
 knitr::include_graphics("gss_uof.jfif")
 ```
 <p style="text-align: center; color: gray">.small[See [Mourtgos & Adams, 2020](https://doi.org/10.1080/07418825.2019.1679864)]</p>

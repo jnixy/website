@@ -4,8 +4,8 @@
     <title>Chapter 7</title>
     <meta charset="utf-8" />
     <meta name="author" content="Justin Nix" />
-    <meta name="date" content="2023-03-23" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <meta name="date" content="2024-03-28" />
+    <script src="libs/header-attrs-2.24/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
@@ -34,7 +34,7 @@ background-size: 10%
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-.white[March 23, 2023]
+.white[March 28, 2024]
 
 ---
 class: middle, center, inverse
@@ -82,9 +82,28 @@ Most surveys are directed at a specific research question or questions. An **omn
 --
 
 &lt;details&gt;
-  &lt;summary&gt;Would you ever approve of a policeman striking a citizen ... who was attacking the policeman with his fists?&lt;/summary&gt;
+  &lt;summary&gt;Are there any situations you can imagine in which you would approve of a policeman striking an adult male citizen?&lt;/summary&gt;
+  
+  &lt;br&gt;
 
-&lt;img src="gss_uof.jfif" width="40%" style="display: block; margin: auto;" /&gt;
+&lt;img src="mourtgos_adams_jq.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+&lt;p style="text-align: center; color: gray"&gt;.small[See [Mourtgos &amp; Adams, 2020](https://doi.org/10.1080/07418825.2019.1679864)]&lt;/p&gt;
+
+&lt;/details&gt;
+
+---
+class: top
+
+# What Is a Survey?
+
+## Example of an *omnibus survey:*  [The GSS](https://gss.norc.org/)
+
+&lt;details&gt;
+  &lt;summary&gt;Would you ever approve of a policeman striking a citizen ... who was attacking the policeman with his fists?&lt;/summary&gt;
+  
+  &lt;br&gt;
+
+&lt;img src="gss_uof.jfif" width="37%" style="display: block; margin: auto;" /&gt;
 &lt;p style="text-align: center; color: gray"&gt;.small[See [Mourtgos &amp; Adams, 2020](https://doi.org/10.1080/07418825.2019.1679864)]&lt;/p&gt;
 
 &lt;/details&gt;
@@ -440,6 +459,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
