@@ -288,7 +288,17 @@ class: top
 
 --
 
-Single questions are prone to **idiosyncratic variation**
+<details>
+  <summary>Single questions are prone to <b>idiosyncratic variation</b></summary>
+  
+  <br>
+
+```{r, echo=FALSE, fig.align='center', out.width = "65%"}
+knitr::include_graphics("mourtgos_adams_jq_2.jpg")
+```
+<p style="text-align: center; color: gray">.small[See [Mourtgos & Adams, 2020](https://doi.org/10.1080/07418825.2019.1679864)]</p>
+
+</details>
 
 --
 
