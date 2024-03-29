@@ -675,7 +675,10 @@ knitr::include_graphics("cheng_book.jfif")
 ---
 class: middle, center, inverse
 
-![maguire](show-me.jpg)
+```{r, echo=FALSE, fig.align='center', out.width = "56%"}
+knitr::include_graphics("kahneman_quote.jfif")
+```
+<p style="text-align: center; color: gray">.small[h/t [@rmnth](https://twitter.com/rmnth/status/1773036347088949341)]</p>
 
 # Have a great day! 😄
 
