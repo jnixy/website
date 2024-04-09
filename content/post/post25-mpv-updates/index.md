@@ -30,7 +30,7 @@ So here's why I ended up going down a rabbit hole today. Way back in December 20
 * people who had crashed and died while fleeing police, 
 * people who were involved in accidental collisions with police vehicles, 
 * people who died in correctional facilities, 
-* people who were killed by off-duty cops or correctional officers, 
+* people who were killed by off-duty cops or correctional officers (e.g., off-duty cop commits [murder-suicide](https://www.nytimes.com/2013/04/16/nyregion/officer-killed-boyfriend-and-son-in-murder-suicide-police-say.html)) 
 * people who died for reasons that were not attributed to police actions, 
 * people who were armed or attempted to gain control of a cop's gun, and 
 * people who were holding a toy/replica gun or something that resembled a gun.
