@@ -25,7 +25,7 @@ The other day I got a Google Scholar alert about this [new article](https://inje
 
 At first I didn't think this was correct, as I've looked at the Mapping Police Violence data pretty closely in the past. Turns out it is correct *now*. MPV apparently modified its inclusion criteria at some point (their [Data & Methodology document](https://mappingpoliceviolence.org/files/MappingPoliceViolence_Methodology.pdf#page=9.09) was last updated on October 3, 2022). 
 
-So here's what happened. Way back in December 2019, I posted [a preprint](https://osf.io/preprints/socarxiv/ajz2q) responding to [this article](https://www.thelancet.com/journals/lancet/article/PIIS0140-67361831130-9/fulltext) in *The Lancet*.[^1] Long story short: my colleague and I argued that 91 incidents in MPV purporting to involve unarmed Black people killed by police should have been re-coded prior to analysis. Broadly, these involved:
+So here's why I ended up going down a rabbit hole today. Way back in December 2019, I posted [a preprint](https://osf.io/preprints/socarxiv/ajz2q) responding to [this article](https://www.thelancet.com/journals/lancet/article/PIIS0140-67361831130-9/fulltext) in *The Lancet*.[^1] Long story short: my colleague and I argued that 91 incidents in MPV purporting to involve unarmed Black people killed by police should have been re-coded prior to analysis. Broadly, these involved:
 
 * people who had crashed and died while fleeing police, 
 * people who were involved in accidental collisions with police vehicles, 
