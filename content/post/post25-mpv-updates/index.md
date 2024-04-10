@@ -23,7 +23,7 @@ The other day I got a Google Scholar alert about this [new article](https://inje
 
 > MPV defines fatal police violence as “any incident where a law enforcement officer (off-duty or on-duty) applies, on a civilian, lethal force resulting in the civilian being killed whether it is considered ‘justified’ or ‘unjustified’ by the U.S. Criminal Legal System” (Campaign Zero 2022). MPV thus excludes incidents reported to be caused by speeding or crashing during a police chase, overdose, and in most cases, jumping from a height in a foot chase—i.e., cases in which reviewers determined that police did not directly apply lethal force.
 
-At first I didn't think this was correct, as I've looked at the Mapping Police Violence data pretty closely in the past. Turns out it is correct *now*. MPV apparently modified its inclusion criteria at some point (their [Data & Methodology document](https://mappingpoliceviolence.org/files/MappingPoliceViolence_Methodology.pdf#page=9.09) was last updated on October 3, 2022). 
+At first I didn't think this was correct, as I've looked at the Mapping Police Violence data pretty closely in the past. Turns out it is correct *now*. MPV apparently modified its inclusion criteria at some point a few years ago (more about their methodology [here](https://mappingpoliceviolence.us/aboutthedata)). 
 
 So here's why I ended up going down a rabbit hole today. Way back in December 2019, I posted [a preprint](https://osf.io/preprints/socarxiv/ajz2q) responding to [this article](https://www.thelancet.com/journals/lancet/article/PIIS0140-67361831130-9/fulltext) in *The Lancet*.[^1] Long story short: my colleague and I argued that 91 incidents in MPV purporting to involve unarmed Black people killed by police should have been re-coded prior to analysis. Broadly, these involved:
 
@@ -52,7 +52,9 @@ Nearly 40% of those 91 incidents no longer appear in the MPV data. All 21 crashe
 
 To be clear: I think MPV's new definition is an improvement, and the updates to the database are a net good. But it does create a bit of a challenge for interpreting the (sometimes conflicting) results of studies that have used MPV over the past 10 years (and those that will use it moving forward). And as always, it concerns me that a lot of the consumers of these and similar datasets don't always seem to recognize or appreciate these little nuances. 
 
-Ian Adams wrote a [Twitter thread](https://twitter.com/ian_t_adams/status/1661726758679224321) about this last May - it's worth a read. 
+Ian Adams wrote a [Twitter thread](https://twitter.com/ian_t_adams/status/1661726758679224321) about this last May - it's worth a read.
+
+**One last thing**: anyone who'd like to use the MPV data should download it from [mappingpoliceviolence.us](https://mappingpoliceviolence.us/), **not** "mappingpoliceviolence.org". Samuel Sinyangwe has a Twitter thread explaining why [here](https://x.com/samswey/status/1488606309674991616). 
 
 [^1]: It took some time but the preprint was finally published in [*Police Practice and Research*](https://www.tandfonline.com/doi/full/10.1080/15614263.2021.1878894) on January 31, 2021. 
 [^2]: I had people tell me, for example, that a screwdriver shouldn't be considered a weapon, and that Sandra Bland should in fact be treated as a police killing even though her death at the Waller County Jail was [ruled a suicide](https://en.wikipedia.org/wiki/Death_of_Sandra_Bland#Incarceration_and_death).
