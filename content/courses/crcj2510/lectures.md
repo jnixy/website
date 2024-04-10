@@ -50,7 +50,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 9
 
-[Analyzing content: Crime mapping and historical, secondary, and content analysis]
+[Analyzing content: Crime mapping and historical, secondary, and content analysis](https://jnix.netlify.app/slides/crcj2510_ch9/)
 
 ## Chapter 10
 
