@@ -115,7 +115,28 @@ knitr::include_graphics("thacher.png")
 
 **Method**: matched UCR and Census data from 1970 to 2000. Included a measure of income inequality as a proxy for poverty. 
 
+So this is a good example of using official statistics as a secondary data source. It's also a sort of historical study of sorts.
+
+---
+class: top
+
+# What are Secondary Data?
+
+## Case Study
+
+[David Thacher (2011): "The Distribution of Police Protection"]((https://link.springer.com/article/10.1007/s10940-010-9125-3)
+
+```{r, echo=FALSE, fig.align='center', out.width = "80%"}
+knitr::include_graphics("thacher_t1.png")
+```
+
+???
+
 **Key finding**: wealthier and lower-crime areas receive more police per crime. 
+
+Crime became more concentrated in the poorest communities over these 4 decades, and as a result, police resources per crime have become less egalitarian. 
+
+- "The result is a growing workload disparity between rich and poor jurisdictions. In rich jurisdictions, each police officer has responsibility for fewer and fewer crimes over time, while in poor jurisdictions this part oif the police workload has either remained constant or grown." (p. 289)
 
 - Note that crime is much rarer in wealthier areas: should police spend less time in those places? 
   - How might this go over with the residents of those areas?
