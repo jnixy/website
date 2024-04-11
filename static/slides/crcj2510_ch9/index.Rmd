@@ -362,6 +362,40 @@ class: top
 
 # Crime Mapping
 
+```{r, echo=FALSE, fig.align='center', out.width = "60%"}
+knitr::include_graphics("crime_mapping.png")
+```
+
+???
+
+Police departments have been doing "crime mapping" for 100+ years, but that's not what we're talking about today. We're talking about mapping for traditional research purposes (e.g., testing theories of criminal behavior), not mapping for investigative purposes. 
+
+Crime mapping allows for an advanced form of statistical analysis. 
+
+---
+class: top
+
+# Crime Mapping
+
+## Case study
+
+Shaw & McKay (1942) [*Juvenile delinquency and urban areas*](https://psycnet.apa.org/record/1943-00271-000)
+
+```{r, echo=FALSE, fig.align='center', out.width = "45%"}
+knitr::include_graphics("shaw_mckay.png")
+```
+
+???
+
+Shaw & McKay mapped thousands of arrests for juvenile delinquency in Chicago, using police records to determine the names and addresses of those arrested between 1927 and 1935.
+
+They found a decrease in rates of delinquency as distance from the city center (Zone 1) increased. 
+- Zone 2 had the highest rates of delinquency
+
+"The communities with the highest rates of delinquents are occupied by these segments of the population whose position is most disadvantageous in relation to the distribution of economic, social, and cultural values...these have the fewest facilities for acquiring the economic goods indicative of status and success in our conventional culture" (pp. 318-19). 
+
+**But keep in mind**: what do arrests as a measure of delinquency tell us? What do they not tell us? 
+
 ---
 class: top
 
