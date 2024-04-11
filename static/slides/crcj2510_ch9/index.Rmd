@@ -411,6 +411,11 @@ class: middle, center, inverse
 
 # Have a great day! 😄
 
+## *Not everything that can be counted counts,*  
+```{r, echo=FALSE, fig.align='center', out.width = "40%"}
+knitr::include_graphics("einstein.png")
+```
+## *and not everything that counts can be counted.*
 
 <!-- ```{css, echo=FALSE} -->
 <!-- @media print { -->
