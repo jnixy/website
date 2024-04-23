@@ -54,7 +54,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 10
 
-[Evaluation and policy analysis]
+[Evaluation and policy analysis](https://jnix.netlify.app/slides/crcj2510_ch10/)
 
 ## Chapter 11
 
