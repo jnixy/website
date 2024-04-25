@@ -329,63 +329,207 @@ knitr::include_graphics("therapeutic_community.png")
 
 ???
 
-This study was a CBA of a modified therapeutic community. 342 individuals who'd been referred by homeless shelters or psychiatric facilities were randomly assigned to a TC or "treatment as usual," which in this case could have been a variety of things:
+"The core principles and methods of the TC are especially relevant to the treatment of mentally ill chemical abusers (MICAs). These include: providing a highly structured daily regimen, fostering personal responsibility and self-help in addressing life's difficulties, and using peers as role models and guides. The modified TC program for MICAs involves three fundamental alterations: increased flexibility, decreased intensity, and greater individualization. Nevertheless, the central TC feature remains: the modified TC seeks to develop a culture where clients learn through self-help and affiliation with the community to foster change in themselves and others" (p. 137)
+
+This study was a CBA of a modified therapeutic community at three sites in Brooklyn. 342 individuals who'd been referred by homeless shelters or psychiatric facilities were **SEQUENTIALLY** assigned to a TC or "treatment as usual," which in this case could have been a variety of things:
 - Other residential programs, discharge without follow up, intensive case management, continue at the referral site, or drop out and wind up back on the streets.
 
 Employment status, criminal behavior, and use of health care services were measured for each group 3 months prior to treatment and 3 months post-treatment
 
 Earnings from employment in each period were adjusted for costs incurred by criminal behavior and use of health care services.
 
-**Results**: The average cost of TC treatment for a client was about \$20K. But the economic benefit based on earnings to the average TC client was \$305K. 
-- So after adjustments for costs the benefit to cost ratio as 13:1. 
+---
+class: top
+
+# Evaluation Alternatives
+
+## Is the program **worth it**?
+
+### Case study: [Therapeutic communities](https://doi.org/10.1016/S0149-7189%2802%2900006-X)
+
+Modified TC Costs (1994 Dollars) (French et al., 2002: Table 3)
+
+.medium[| Resource Category       | Accounting Cost | % of Total | Economic Cost | % of Total |
+|-------------------------|-----------------|-----------:|---------------|-----------:|
+| Labor                   | $1,415,601      | 67.3%      | $1,415,601    | 65.5%      |
+| Miscellaneous           | $327,131        | 15.5%      | $327,131      | 15.1%      |
+| Supplies                | $189,667        | 9.0%       | $189,667      | 8.8%       |
+| Contracted Services     | $160,450        | 7.6%       | $160,450      | 7.4%       |
+| Buildings and Facilities| $0              | 0.0%       | $51,077       | 2.4%       |
+| Equipment               | $11,855         | 0.06%      | $16,193       | 0.75%      |
+| **Total annualized cost**   | **$2,104,704**     |            | **$2,160,120**  |            |
+| **Average annual cost (per client)** | **$28,062**       |            | **$28,802**      |            |
+| **Average weekly cost (per client)** | **$540**           |            | **$554**         |            |
+| **Average episode cost** | **$19,845**|            | **$20,361**|            |]
+
+???
+
+**Results**: The average cost of TC treatment for a client was about $20K.  
+But the economic benefit based on earnings to the average TC client, relative to the average TAU client, was $274K. 
+- So after adjustments for costs the benefit to cost ratio was 13:1.
+- In other words: for every dollar spent on this program, taxpayers saved $13
+- (closer to a 5:2 ratio after removing extreme outliers)
+
+**Limitations**: While the majority of subjects (N=281, 82%) completed at least one of the follow-up interviews, **only 218 subjects (64%) completed both the 6-month and 12-month follow-up interviews**. The study cohort in this paper was derived from **the 218 subjects that had both baseline and full 12-month follow-up data**. The sample consisted of 186 clients (146 modified TC clients and 40 TAU clients) who completed both the 6-month and 12-month follow-up interviews and had no missing values for any of the variables used in the benefit calculations. 
+
 ---
 class: top
 
 # Design Decisions
+
+--
 
 ## Black box evaluation or program theory?
 
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("black-box.png")
+```
+
+???
+
+**Do we care how the program gets results?** 
+
+Some might argue that we should simply be testing the input-output model - whether cases changed as a result of exposure to the program. 
+
+If an investigation of the program process is conducted, a program theory might be developed - describing what has been learned about *how* the program has its effect.
+
+If researchers have sufficient knowledge before the evaluation begins, they can perhaps perform a *theory-driven evaluation*, which could guide the process in a more productive way. 
+
 ---
 class: top
 
 # Design Decisions
 
+--
+
 ## Researcher or stakeholder orientation?
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("whose_orientation.png")
+```
+
+???
+
+**Whose goals matter most?**
+
+In social science research, the researcher typically defines research questions, applicable theories, and outcomes to be investigated.
+
+In program evaluation, program sponsors or government agencies often define the research questions, and findings get reported to them (rather than, or at least prior to, being published in a journal).
+
+***What to do as a researcher if the program sponsor pushes back on your proposed research design?***
+- What responsibility do you have to politicians and taxpayers when evaluating government-funded programs? 
+
+If you adopt a *stakeholder approach*, you conduct the evaluation in a way that will be most *useful* to stakeholders. This might involve program participants engaging with the researchers to help design, conduct, and report the research (i.e., *action* or *participatory research*).
+
+A *social science approach* OTOH emphasizes the importance of researcher expertise. S/he is given more autonomy to develop the most unbiased program evaluation possible. 
+
+Or you might take a more *integrative approach*.
 
 ---
 class: top
 
 # Evaluation in Action
 
-## Case study: POP in Jersey City
+--
+
+## Case study: [POP in Jersey City](https://doi.org/10.1111/j.1745-9125.1999.tb00496.x)
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("pop-jersey-city.png")
+```
+
+???
+
+***What does POP refer to?***
+
+**Anthony Braga** and colleagues are able to randomly assign 56 violent crime "hot spots" to receive POP or business as usual. There are 28 matched pairs, and a coin flip determines which gets treatment and which is control.
+
+- Officers in POP spots worked with community to identify problems and come up with solutions. Most solutions involved targeting social disorder problems (order maintenance policing, securing vacant lots, and picking up litter). 
+
+- Citizen calls for police service are examined before and after the onset of the experiment.
+- As well as incident report data and physical observation of each spot
+
+**Results**: Generally, crime and disorder fell in the POP spots, without being displaced into surrounding areas. 
 
 ---
 class: top
 
 # When Experiments are not Feasible
 
-## Case study: Boot camps
+--
+
+## Case study: [Boot camps](https://onlinelibrary.wiley.com/doi/full/10.4073/CSR.2003.1)
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("boot-camp.png")
+```
+
+???
+
+Boot camps started in 1983 in Georgia, and are also known as "shock incarceration programs." 
+
+***Do you think Boot Camps reduce recidivism?***
+
+The idea is that a strict, military-style punishment can serve as an effective alternative to extended periods of traditional incarceration. 
+- But do they work? Part of the challenge of answering this question is that boot camps have been implemented in a variety of ways. 
+
+**Doris MacKenzie** and colleagues evaluated boot camp program efficacy in eight states
+- Characterized by strict rules, discipline, and a military-like atmosphere; mandatory participation in military drills and PT; separation of program participants from other inmates.
+
+They used a non-equivalent control group design to evaluate:
+
+- In each state, a sample of male boot camp program graduates served as the "treatment group," and two other samples were used as comparison groups (prison parolees, probationers, and boot camp dropouts). Importantly, individuals in all samples had initially met the eligibility requirements for boot camp. 
+
+- 2 year follow-ups, with recidivism measured as arrests and revocations for new crimes or technical violations.
+
+**Results** were mixed. Programs with more intensive long-term follow-up supervision showed less recidivism, but traditional boot camps without such long-term supervision did not. 
+
+**Limitation**: NO RANDOM ASSIGNMENT!!
 
 ---
 class: top
 
 # When Experiments are not Feasible
 
-## Case study: Drinking and homicide in Eastern Europe
+--
+
+## Case study: [Drinking and homicide in Eastern Europe](https://doi.org/10.1177/1088767907310851)
+
+```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+knitr::include_graphics("the-club.png")
+```
+
+???
+
+***Do you think drinking alcohol causes people to be violent?***
+
+- Lots of research in the US and elsewhere suggests a correlation for sure. 
+- E.G., a large percentage of homicides are committed under the influence of alcohol
+
+- Research also suggests the relationship between alcohol and violence is *culturally mediated*
+
+**Results of Bye (2008)**: Effects of alcohol consumption on homicide rates were more pronounced in countries with more detrimental drinking patterns:
+
+> Implying that the relative risk will depend on the patterns of drinking and of behavior associated with drinking in a particular society.
 
 ---
 class: top
+background-image: url(https://static.wixstatic.com/media/f5df24_6755bbd35fac4ae09d0d8227126d091f~mv2.jpg/v1/fill/w_2396,h_1192,al_c,q_90/f5df24_6755bbd35fac4ae09d0d8227126d091f~mv2.webp)
+background-position: 50% 65%
+background-size: 97%
+
+# The Hierarchy of Evidence
 
 ---
 class: middle, center, inverse 
 
 # Have a great day! 😄
 
-## *Not everything that can be counted counts,*  
-```{r, echo=FALSE, fig.align='center', out.width = "40%"}
-knitr::include_graphics("thinking.png")
+## *There are no perfect [evaluation] studies. And there cannot be, for there is no agreement on what constitutes perfection.*
+```{r, echo=FALSE, fig.align='center', out.width = "30%"}
+knitr::include_graphics("perfect-study.png")
 ```
-## *and not everything that counts can be counted.*
+## (Michael Patton, 1997:23)
 
 <!-- ```{css, echo=FALSE} -->
 <!-- @media print { -->
