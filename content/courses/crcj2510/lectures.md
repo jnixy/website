@@ -58,7 +58,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 11
 
-[Mixing and comparing methods]
+[Mixing and comparing methods](https://jnix.netlify.app/slides/crcj2510_ch11/)
 
 ## Chapter 12
 
