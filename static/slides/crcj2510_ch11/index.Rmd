@@ -291,24 +291,36 @@ class: top
 ???
 
 Meta-synthesis is a related method used to analyze and integrate findings from qualitative studies. 
-
----
-class: top
-
-# Comparing Results Across Studies
-
-## Meta-Synthesis
-
 --
 
 ### Case Study: Female drug dealers
+
+```{r, echo=FALSE, fig.align='center', out.width = "40%"}
+knitr::include_graphics("meta_synthesis.png")
+```
+
+???
 
 ---
 class: middle, center, inverse 
 
 # Have a great day! 😄
 
+.pull-left[
+```{r, echo=FALSE, fig.align='center', out.width = "60%"}
+knitr::include_graphics("vonnegut.png")
+```
+<p style="text-align: center;">.small[[Image](https://flic.kr/p/4MEVGU) by [Rashawerakh](https://www.flickr.com/photos/rashawerakh/2485115131/in/photostream/) on Flickr, [CC BY-NC 2.0 DEED](https://creativecommons.org/licenses/by-nc/2.0/)]</p>
+]
 
+.pull-right[
+
+<br>
+
+### *That's one thing Earthlings might learn to do, if they tried hard enough: Ignore the awful times, and concentrate on the good ones.* 
+]
+
+<p style="text-align: center;">– Kurt Vonnegut, <i>Slaughterhouse-Five</i></p>
 
 <!-- ```{css, echo=FALSE} -->
 <!-- @media print { -->
