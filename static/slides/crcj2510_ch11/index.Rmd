@@ -230,6 +230,61 @@ class: top
 
 --
 
+### Bullying in schools
+
+```{r, echo=FALSE, fig.align='center', out.width = "75%"}
+knitr::include_graphics("bullying_2005-19.png")
+```
+
+.medium[Source: [BJS Report on Indicators of School Crime and Safety: 2019](https://bjs.ojp.gov/document/iscs19.pdf), [2022](https://bjs.ojp.gov/document/iscs22.pdf)]
+
+---
+class: top
+
+# Comparing Results Across Studies
+
+## Meta-Analysis
+
+### Bullying in schools
+
+.pull-left[
+![bullying_sex](bullying_sex.png)
+]
+
+.pull-right[
+![bullying_race](bullying_race.png)
+]
+
+.medium[Source: [BJS Report on Indicators of School Crime and Safety: 2022](https://bjs.ojp.gov/document/iscs22.pdf)]
+
+---
+class: top
+
+# Comparing Results Across Studies
+
+## Meta-Analysis
+
+### Bullying in schools
+
+.pull-left[
+![bullying_grade](bullying_grade.png)
+]
+
+.pull-right[
+![bullying_location](bullying_location.png)
+]
+
+.medium[Source: [BJS Report on Indicators of School Crime and Safety: 2022](https://bjs.ojp.gov/document/iscs22.pdf)]
+
+---
+class: top
+
+# Comparing Results Across Studies
+
+## Meta-Analysis
+
+--
+
 ### Case Study: Anti-bullying programs
 
 ```{r, echo=FALSE, fig.align='center', out.width = "40%"}
@@ -245,11 +300,60 @@ knitr::include_graphics("bullying.jpg")
 
 **Results**: A statistically significant, but small effect of anti-bullying programs. 
 
+***This is a consistent theme in the literature***: the stronger the research design, the smaller the effects we observe (weaker designs, meanwhile, tend to show larger effects - but this is primarily because the evidentiary threshold is lower!)
+
 **Limitations**: only looked at published, peer-reviewed studies (publication bias?)
 
 Another meta-analysis by [Lee et al. (2015)](https://journals.sagepub.com/doi/full/10.1177/1367493513503581) examined the heterogeneity across studies, and concluded that:
 
 >Effective school-based anti-bullying programs should include training in *emotional control, peer counseling, and the establishment of a school policy* on bullying.
+
+From BJS:  
+"Bullying” includes students who reported that another student had
+made fun of them, called them names, or insulted them; spread rumors
+about them; threatened them with harm; tried to make them do something
+they did not want to do; excluded them from activities on purpose;
+destroyed their property on purpose; or pushed, shoved, tripped, or spit
+on them. 
+
+---
+class: top
+
+# Comparing Results Across Studies
+
+## Meta-Analysis
+
+--
+
+### Child abuse
+
+???
+
+What is **child abuse**? 
+
+--
+
+According to data compiled by the [US Administration for Children & Families](https://www.acf.hhs.gov/cb/data-research/child-maltreatment): 
+
+--
+
+- More than 600K children are abused in the United States each year
+
+--
+
+- American Indian/Alaska Native children and African American children have highest rates of victimization
+
+--
+
+- In 2021, an estimated 1,820 children died from abuse and neglect in the US
+
+--
+
+- Neglect is the most common form of abuse (76%), followed by physical abuse (16%), sexual abuse (10%), and sex trafficking (0.2%)
+
+???
+
+77% of offenders are parents to the victim.
 
 ---
 class: top
@@ -300,6 +404,17 @@ knitr::include_graphics("meta_synthesis.png")
 ```
 
 ???
+
+Maher & Hudson (2007) did a meta-synthesis of the qualitative literature on women in the illicit drug economy in an attempt to identify and integrate key themes.
+
+They identified 36 studies, but only 15 met their inclusion criteria *and* provided thick descriptions of female experiences using field notes or narrative data from transcribed interviews.
+
+They identified 6 themes, including:
+- Gender-stratified nature of women's involvement
+- Tended to occupy roles subordinate to men, even if they were deemed "successful dealers"
+- Typically introduced to dealing through relationships with sex partners
+
+They conclude: "Most women in drug markerts remain confined to low level and marginal roles" (p. 821)
 
 ---
 class: middle, center, inverse 
