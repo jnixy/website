@@ -62,7 +62,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 ## Chapter 12
 
-[Reporting research results]
+[Reporting research results](https://jnix.netlify.app/slides/crcj2510_ch12/)
 
 ***
 
