@@ -16,7 +16,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## Semester Overview
 
-![calendar](/courses/crcj2510_calendar_fall24.jpeg)
+![calendar](/courses/crcj2510_calendar_fall24.png)
 
 ## 1. Week of August 26th
 
