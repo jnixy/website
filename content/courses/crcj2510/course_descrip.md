@@ -1,5 +1,5 @@
 ---
-date: "2022-11-30T14:00:00"
+date: "2024-08-20T14:00:00"
 draft: false
 linktitle: Course Description
 menu:

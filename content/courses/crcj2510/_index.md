@@ -15,7 +15,7 @@ url_syllabus: "crcj2510-syllabus.pdf"
 weight: 20
 ---
 
-## Spring 2024
+## Fall 2024
 
 👈 If you're viewing on a desktop, the course syllabus and lectures are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
 

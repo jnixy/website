@@ -1,5 +1,5 @@
 ---
-date: "2022-11-30T14:00:00"
+date: "2024-08-20T12:00:00"
 draft: false
 linktitle: Course Schedule
 menu:
@@ -16,95 +16,96 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## Semester Overview
 
-![calendar](/courses/crcj2510_calendar_spring24.jpeg)
+![calendar](/courses/crcj2510_calendar_fall24.jpeg)
 
-## 1. Week of January 22nd
+## 1. Week of August 26th
 
 * Tuesday: Intro / Review syllabus
 * Thursday: Chapter 1 - Science, Society, and Research Related to Criminal Justice and Criminology
 
-## 2. Week of January 29th
+## 2. Week of September 2nd
 
 * Tuesday: Chapter 1 - Science, Society, and Research Related to Criminal Justice and Criminology
 * Thursday: Chapter 2 - The Process and Problems of Research Related to Crime and Criminology
 
-## 3. Week of February 5th
+## 3. Week of September 9th
 
 * Tuesday: Chapter 2 - The Process and Problems of Research Related to Crime and Criminology
   - ([Assignment #1](https://jnix.netlify.app/courses/crcj2510/assignment-1.pdf) due)
 * Thursday: Chapter 3 - Ethical Guidelines for Research
 
-## 4. Week of February 12th
+## 4. Week of September 16th
 
-* Tuesday: Chapter 3 - Ethical Guidelines for Research
-* Thursday: Chapter 4 - Conceptualization and Measurement
+* Tuesday: **No class**
+* Thursday: Chapter 3 - Ethical Guidelines for Research
 
-## 5. Week of February 19th
+## 5. Week of September 23rd
 
 * Tuesday: Chapter 4 - Conceptualization and Measurement
-* Thursday: **No class**
+* Thursday: Chapter 4 - Conceptualization and Measurement
 
-## 6. Week of February 26th
+## 6. Week of September 30th
 
 * Tuesday: **Exam 1**
 * Thursday: Chapter 5 - Sampling
 
-## 7. Week of March 4th
+## 7. Week of October 7th
 
 * Tuesday: Chapter 5 - Sampling
-* Thursday: No class
   - ([Assignment #2](https://jnix.netlify.app/courses/crcj2510/assignment-2.docx) due)
-
-## 8. Week of March 11th
-
-* **Spring Break - No class**
-
-## 9. Week of March 18th
-
-* Tuesday: Chapter 6 - Causation and Experimentation
 * Thursday: Chapter 6 - Causation and Experimentation
 
-## 10. Week of March 25th
+## 8. Week of October 14th
 
+* Tuesday: Chapter 6 - Causation and Experimentation
 * Tuesday: Chapter 7 - Survey Research
+
+## 9. Week of October 21st
+
+* Tuesday: **Fall Break - No class**
 * Thursday: Chapter 7 - Survey Research
 
-## 11. Week of April 1st
+## 10. Week of October 28th
 
 * Tuesday: Chapter 8 - Qualitative Methods and Data Analysis
-  - ([Assignment #3](https://jnix.netlify.app/courses/crcj2510/assignment-3.pdf) due)
 * Thursday: Chapter 8 - Qualitative Methods and Data Analysis
+  - ([Assignment #3](https://jnix.netlify.app/courses/crcj2510/assignment-3.pdf) due)
 
-## 12. Week of April 8th
+## 11. Week of November 4th
 
 * Tuesday: **Exam 2**
 * Thursday: Chapter 9 - Analyzing Content and Police Data
 
-## 13. Week of April 15th
+## 12. Week of November 11th
 
 * Tuesday: Chapter 9 - Analyzing Content and Police Data
 * Thursday: Chapter 10 - Evaluation and Policy Analysis
 
-## 14. Week of April 22nd
+## 13. Week of November 18th
+
+* Tuesday: **No class**
+* Thursday: **No class**
+
+## 14. Week of November 25th
 
 * Tuesday: Chapter 10 - Evaluation and Policy Analysis
   - ([Assignment #4](https://jnix.netlify.app/courses/crcj2510/assignment-4.pdf) due)
-* Thursday: Chapter 11 - Mixing and Comparing Methods
+* Thursday: **Thanksgiving Break - No class**
 
-## 15. Week of April 29th
+## 15. Week of December 2nd
 
 * Tuesday: Chapter 11 - Mixing and Comparing Methods
-* Thursday: Chapter 12 - Summarizing and Reporting Research
-  
-## 16. Week of May 6th
-
 * Tuesday: Chapter 12 - Summarizing and Reporting Research
   - ([Assignment #5](https://jnix.netlify.app/courses/crcj2510/assignment-5.docx) due)
-* Thursday: Review for final exam
+  
+## 16. Week of December 9th
 
-## 17. Week of May 13th
+* Tuesday: **Prep week - No class**
+* Thursday: **Prep week - No class**
 
-* Tuesday: **Final Exam**
+## 17. Week of December 16th
+
+* Thursday: **Final Exam**
 
 ***
 
