@@ -78,13 +78,13 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## 12. Week of November 11th
 
-* Tuesday: Chapter 9 - Analyzing Content and Police Data
-* Thursday: Chapter 10 - Evaluation and Policy Analysis
+* Tuesday: **No class**
+* Thursday: **No class**
 
 ## 13. Week of November 18th
 
-* Tuesday: **No class**
-* Thursday: **No class**
+* Tuesday: Chapter 9 - Analyzing Content and Police Data
+* Thursday: Chapter 10 - Evaluation and Policy Analysis
 
 ## 14. Week of November 25th
 
