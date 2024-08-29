@@ -3,7 +3,7 @@ title: "Chapter 1"
 subtitle: "Science, Society, and Research Related to Criminal Justice and Criminology"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Jan. 25, 2024"
+date: "Aug. 29, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[January 25, 2024]
+.white[August 29, 2024]
 
 ---
 class: middle, center, inverse
@@ -115,15 +115,29 @@ For example:
 
 --
 
+.pull-left[
+```{r, echo=FALSE, fig.align='center', out.width = "76%"}
+knitr::include_graphics("all_politicians.png")
+```
+]
+
+--
+
+.pull-right[
+```{r, echo=FALSE, fig.align='center', out.width = "58%"}
+knitr::include_graphics("all_clemson_fans.png")
+```
+]
+
+???
+
+Or:
+
 - *The McFlurry machine is always broken*
 
---
-
-- *All politicians are corrupt*
-
---
-
 - *ACAB*
+
+- "It never rains in southern California"
 
 ---
 class: top
@@ -303,10 +317,9 @@ class: top
 
 ### Academic motivations
 
-```{r, echo=FALSE, fig.align='center', out.width = "35%"}
-knitr::include_graphics("thinker.jpg")
+```{r, echo=FALSE, fig.align='center', out.width = "40%"}
+knitr::include_graphics("academic_motivations.png")
 ```
-<p style="text-align: center; color: gray">.small[Image by [Fredrik Rubensson](https://flickr.com/photos/froderik/) on [Flickr](https://flic.kr/p/dC1gvd), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)]</p>
 
 ???
 
