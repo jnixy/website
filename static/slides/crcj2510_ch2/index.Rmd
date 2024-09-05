@@ -3,7 +3,7 @@ title: "Chapter 2"
 subtitle: "The Process and Problems of Criminological Research"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 2, 2023"
+date: "Sep. 5, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 2, 2023]
+.white[September 5, 2024]
 
 ---
 class: middle
@@ -410,9 +410,20 @@ Researchers used exploratory, qualitative research to find out why.
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "58%"}
+```{r, echo=FALSE, fig.align='center', out.width = "42%"}
 knitr::include_graphics("bennett-et-al.png")
 ```
+
+???
+
+1. Confusion about the process
+
+2. Frustrated by delays
+
+3. Fear of retribution
+
+4. Didn't want their batterer to go to jail
+
 
 ---
 class: middle, center, inverse
