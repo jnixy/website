@@ -3,7 +3,7 @@ title: "Chapter 3"
 subtitle: "Ethical Guidelines for Research"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 8, 2024"
+date: "Sep. 12, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,17 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 8, 2024]
+.white[September 12, 2024]
+
+???
+
+What does it mean to be **(un)ethical**? 
+
+If you're out for a stroll and you see someone lying on the sidewalk in need of CPR, is it unethical for you to refrain from giving them CPR? 
+
+Thinking back to SARC, would it have been ethical to go ahead and run the Atlanta replication in light of evidence that arrest caused additional harms in 3 of the previous 5 sites?
+
+If you're a researcher and you've got an experimental drug you think has the potential to cure cancer - but it may cause some serious side effects - would it be ethical to inject cancer patients with it as part of a randomized controlled trial? 
 
 ---
 class: middle, center
