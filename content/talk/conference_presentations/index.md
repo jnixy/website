@@ -68,6 +68,18 @@ Rather than continue listing conference presentations ad nauseum on [my CV](http
 
 ## [American Society of Criminology](https://asc41.com/) {#asc}
 
+### 79th Annual Meeting: Philadelphia, PA
+
+* Bussey, Preston\*, **Justin Nix**, Kyle McLean, & Jeff Rojek (2023). Development of a policing-specific emotion recognition test.
+
+* Goldsmith, Michaela E.\*, Tara Richards, Bradley Campbell, **Justin Nix**, & Emily Wright. (2023). ViCAP usage and viability for sexual assault investigations: Findings from a survey of SAKI sites.
+
+* Adams, Ian, Kyle McLean, Seth Stoughton, **Justin Nix**, and Geoff Alpert. (2023). An unreasonable divide: Divergence in reasonable suspicion perceptions between law enforcement, the public, and the courts.
+
+* Simpson, Rylan & **Justin Nix**. (2023). Trends among police shootings in Canada by space and time.
+
+* Richards, Tara, Caralin Branscum\*, **Justin Nix**, Bradley Campbell, & Emily Wright (2023). Sexual assault kit initiatives and the importance of forensic testing: Looking beyond solving sexual assault cases.
+
 ### 78th Annual Meeting: Atlanta, GA
 
 * McLean, Kyle, **Justin Nix**, Seth Stoughton, Ian Adams, & Geoff Alpert. (2022). Forming suspicion during traffic stops: Results from an experimental survey of patrol officers.
