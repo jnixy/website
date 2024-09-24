@@ -3,7 +3,7 @@ title: "Chapter 4"
 subtitle: "Conceptualization and Measurement"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 15, 2024"
+date: "Sep. 24, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 15, 2024]
+.white[September 24, 2024]
 
 ---
 class: middle, center, inverse
@@ -121,30 +121,21 @@ Local governments often compile annual reports, or in some cases publish data on
 
 --
 
-For example: [National Incident-Based Reporting System](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
+For example: [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
 
-```{r, echo=FALSE, fig.align='center', out.width = "75%"}
-knitr::include_graphics("nibrs-homicides.png")
+```{r, echo=FALSE, fig.align='center', out.width = "85%"}
+knitr::include_graphics("cde_homicides.png")
 ```
 
 ???
 
-NIBRS is compiled annually by the FBI from data submitted by local police departments.
-- But participation is voluntary, so the estimates come with a good bit of *uncertainty* due to non-reporting. 
-  - In 2022 - which is the most recent data we have - 70% of agencies submitted data. 
-  - **Think back to your first homework assignment**: do you trust a 70% sample? 
-  - What if I told you those 70% of agencies covered 93.5% of the US population?
+FBI collects data submitted voluntarily by state and local police departments and publishes it annually, usually around the end of September the following year. 
 
-- What's your primary takeaway from this chart?
+The 2023 data were just released this week!
 
-- Homicide rate redirected circa 2015
-- Still substantially lower than its peak in the early 90s
-- Some good news: Down 6% from 2022
+Key findings:
 
-- Not shown here:
-  - All violent crime down about 1.7% YOY
-  - Rape down 5%
-  - Agg. assaults and robberies each down about 1%
+- Murder down 11.6%
   
 ---
 class: top
@@ -153,30 +144,19 @@ class: top
 
 ## Using available data
 
-For example: [National Incident-Based Reporting System](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
+For example: [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home)
 
-```{r, echo=FALSE, fig.align='center', out.width = "83%"}
-knitr::include_graphics("nibrs-homicides2.png")
+```{r, echo=FALSE, fig.align='center', out.width = "85%"}
+knitr::include_graphics("cde_violent_crimes.png")
 ```
 
 ???
 
-NIBRS is compiled annually by the FBI from data submitted by local police departments.
-- But participation is voluntary, so the estimates come with a good bit of *uncertainty* due to non-reporting. 
-  - In 2021 - which is the most recent data we have - only about 63% of agencies submitted data. 
-  - **Think back to your first homework assignment**: do you trust a 70% sample? 
-  - What if I told you those 70% of agencies covered 93.5% of the US population?
-
-- What's your primary takeaway from this chart?
-
-- Homicide rate redirected circa 2015
-- Still substantially lower than its peak in the early 90s
-- Some good news: Down 6% from 2022
-
-- Not shown here:
-  - All violent crime down about 1.7% YOY
-  - Rape down 5%
-  - Agg. assaults and robberies each down about 1%
+- Violent crime down 3% year over year
+- Rape down 9.4%
+- Robberies relatively flat
+- Property crime down 2.4%
+- MVT *up* 12.6%
   
 ---
 class: top
@@ -366,8 +346,6 @@ class: top
 
 # Identifying the best data
 
---
-
 ## Collecting unobtrusive measures
 
 --
@@ -421,11 +399,11 @@ Gender, race, ethnicity, occupation, region of the country → all nominal varia
 
 --
 
-<br>
-
 <p style="text-align: center">For example: occupation
 
-<p style="text-align: center">.large[`r emo::ji("policeman")` `r emo::ji("male_detective")` `r emo::ji("woman_health_worker")` `r emo::ji("woman_teacher")` `r emo::ji("man_technologist")` ]
+```{r, echo=FALSE, fig.align='center', out.width = "40%"}
+knitr::include_graphics("occupation.png")
+```
 
 ???
 
@@ -495,11 +473,12 @@ class: top
 
 --
 
-<br>
-
 <p style="text-align: center">For example: age in years
 
-<p style="text-align: center">.large[`r emo::ji("baby")` `r emo::ji("man")` `r emo::ji("older_man")`]
+```{r, echo=FALSE, fig.align='center', out.width = "40%"}
+knitr::include_graphics("bbq.png")
+```
+
 ???
 
 At the **ratio** level, numbers are fixed units AND there is an absolute zero point - where zero means there is none of the thing being measured. 
