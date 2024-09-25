@@ -21,7 +21,9 @@ weight: 10
 
 You may also download a PDF of the syllabus by clicking [this link](crcj2030-syllabus.pdf).
 
-## Prior Student Evaluations
+</br>
+
+## Student Evaluations
 
 <div style="min-height:597px" id="datawrapper-vis-m6iBx"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/m6iBx/embed.js" charset="utf-8" data-target="#datawrapper-vis-m6iBx"></script><noscript><img src="https://datawrapper.dwcdn.net/m6iBx/full.png" alt="" /></noscript></div>
 

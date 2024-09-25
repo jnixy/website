@@ -21,6 +21,12 @@ weight: 20
 
 You may also download a PDF of the syllabus by clicking [this link](crcj2510-syllabus.pdf).
 
+</br>
+
+## Student Evaluations
+
+<div style="min-height:596px" id="datawrapper-vis-jJdCE"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/jJdCE/embed.js" charset="utf-8" data-target="#datawrapper-vis-jJdCE"></script><noscript><img src="https://datawrapper.dwcdn.net/jJdCE/full.png" alt="" /></noscript></div>
+
 ***
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

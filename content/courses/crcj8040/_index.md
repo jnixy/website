@@ -20,6 +20,8 @@ weight: 30
 
 You may also download a PDF of the syllabus by clicking [this link](crcj8040-syllabus-fall23.pdf).
 
+</br>
+
 ## Past syllabi
 
 * [Fall 2022](crcj8040-syllabus-fall22.pdf)
@@ -31,6 +33,12 @@ You may also download a PDF of the syllabus by clicking [this link](crcj8040-syl
 * [Fall 2018](crcj8040-syllabus-fall18.pdf)
 
 * [Fall 2017](crcj8040-syllabus-fall17.pdf)
+
+</br>
+
+## Student Evaluations
+
+<div style="min-height:597px" id="datawrapper-vis-46YOL"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/46YOL/embed.js" charset="utf-8" data-target="#datawrapper-vis-46YOL"></script><noscript><img src="https://datawrapper.dwcdn.net/46YOL/full.png" alt="" /></noscript></div>
 
 ***
 
