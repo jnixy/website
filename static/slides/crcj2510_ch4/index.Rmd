@@ -126,6 +126,7 @@ For example: [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/
 ```{r, echo=FALSE, fig.align='center', out.width = "85%"}
 knitr::include_graphics("cde_homicides.png")
 ```
+<p style="text-align: center; color: gray">.medium[Homicides in the United States, 1986-2023]</p>
 
 ???
 
@@ -149,6 +150,7 @@ For example: [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/
 ```{r, echo=FALSE, fig.align='center', out.width = "85%"}
 knitr::include_graphics("cde_violent_crimes.png")
 ```
+<p style="text-align: center; color: gray">.medium[Violent crimes in the United States, 1986-2023]</p>
 
 ???
 
@@ -632,6 +634,18 @@ If we have no criterion to judge our measure against...
 --
 
 We can still attempt to show that our measure is related to *other* measures specified in a theory
+
+???
+
+Take self-control theory for example (Gottfredson & Hirschi). 
+- They argued that people with low self-control are:
+  - impulsive
+  - risk-seeking
+  - have a preference for simple tasks, and physical tasks
+  - self-centered
+  - and have a temper
+  
+So if for example our novel measure of impulsiveness was strongly correlated with established measures of risk-seeking, selfishness, etc., we might point to this as evidence of construct validity. 
 
 ---
 class: top
