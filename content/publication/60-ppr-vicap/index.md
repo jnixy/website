@@ -22,7 +22,7 @@ abstract = "In 2018, the Bureau of Justice Assistance Sexual Assault Kit Initiat
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["policing", "victimization", "SAKI", "sexual assault" "investigations"]
+tags = ["policing", "victimization", "SAKI", "sexual assault", "investigations"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
