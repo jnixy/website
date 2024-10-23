@@ -17,7 +17,11 @@ image:
   caption: ""
   focal_point: Center
   preview_only: true
-links: ""
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/jnixy
 location: Pittsburgh, PA
 math: true
 projects: ""
