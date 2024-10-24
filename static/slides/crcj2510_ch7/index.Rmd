@@ -3,7 +3,7 @@ title: "Chapter 7"
 subtitle: "Survey Research"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 28, 2024"
+date: "Oct. 24, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 28, 2024]
+.white[October 24, 2024]
 
 ---
 class: middle, center, inverse
