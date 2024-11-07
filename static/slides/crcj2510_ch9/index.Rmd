@@ -3,7 +3,7 @@ title: "Chapter 9"
 subtitle: "Analyzing Content"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Apr. 11, 2023"
+date: "Nov. 7, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[April 11, 2024]
+.white[November 7, 2024]
 
 ???
 
@@ -49,6 +49,9 @@ class: top
 knitr::include_graphics("secondary_data.png")
 ```
 
+???
+
+Secondary data analysis is simply the act of collecting or analyzing data that were originally collected by someone else at another time.
 
 ---
 class: top
@@ -65,6 +68,17 @@ Generally, four types:
 knitr::include_graphics("secondary_data_types.png")
 ```
 
+???
+
+*Official statistics* refers to aggregated data released for public use by, e.g., police, courts, and correctional agencies, or other federal, state, and/or local agencies. 
+
+- Example: the incident-level reported crime data posted by OPD that you used for your sampling assignment earlier this semester. 
+- Or: [crime maps](http://opdcrimemapping.com/) produced by OPD. 
+
+*Official records*, meanwhile, refers to the more detailed, raw data that these agencies keep primarily for administrative purposes. These typically contain more granular information but access may be restricted due to privacy concerns, ongoing investigations, etc. 
+
+- Example: homicide case files, police-involved shooting investigations.
+
 ---
 class: top
 
@@ -77,6 +91,10 @@ Check out the University of Michigan's [ICPSR](https://www.icpsr.umich.edu/web/p
 ```{r, echo=FALSE, fig.align='center', out.width = "50%"}
 knitr::include_graphics("icpsr.png")
 ```
+
+???
+
+ICPSR contains data and information from thousands of studies, including some conducted independently and some by the US government (e.g., BJS). 
 
 ---
 class: top
@@ -136,7 +154,7 @@ knitr::include_graphics("thacher_t1.png")
 
 Crime became more concentrated in the poorest communities over these 4 decades, and as a result, police resources per crime have become less egalitarian. 
 
-- "The result is a growing workload disparity between rich and poor jurisdictions. In rich jurisdictions, each police officer has responsibility for fewer and fewer crimes over time, while in poor jurisdictions this part oif the police workload has either remained constant or grown." (p. 289)
+- "The result is a growing workload disparity between rich and poor jurisdictions. In rich jurisdictions, each police officer has responsibility for fewer and fewer crimes over time, while in poor jurisdictions this part of the police workload has either remained constant or grown." (p. 289)
 
 - Note that crime is much rarer in wealthier areas: should police spend less time in those places? 
   - How might this go over with the residents of those areas?
@@ -158,7 +176,11 @@ knitr::include_graphics("historical_events.png")
 
 ???
 
-Historical Events research seeks to develop theoretical explanations of historical events and processes rather than offer "fact-centered" descriptions of them
+We can improve our understanding of social processes when we are able to make comparisons to other times and places. 
+
+**Historical Events research** seeks to develop theoretical explanations of historical events and processes rather than offer "fact-centered" descriptions of them.
+
+There are no hard rules for determining how far in the past the focus of research must be for it to be considered "historical"; in practice, we generally consider something historical research if it focuses on a period prior to the experience of most of the people conducting the research. 
 
 --
 
@@ -183,6 +205,21 @@ Ohio State University's [Historical Violence Database](https://cjrc.osu.edu/rese
 ```{r, echo=FALSE, fig.align='center', out.width = "75%"}
 knitr::include_graphics("nyc_homicides_historical.jfif")
 ```
+
+???
+
+Huge interdisciplinary collaboration that has produced historical violence data for:
+- NYC
+- Chicago (1870 - 1930)
+- LA County (1830 - 1874)
+- Philadelphia (1839 - 1932)
+- San Francisco (1849 - 2003)
+- "the American West"
+- Asia
+- Australia and New Zealand
+- Several countries in Europe
+
+As well as information about riots in the US
 
 ---
 class: top
@@ -221,7 +258,7 @@ knitr::include_graphics("world.png")
 
 ???
 
-•	Comparative Methods are used by researchers interested in making often transnational connections and comparisons between entities across time and space (historical periods and geographical contexts, respectively)
+Comparative Methods are used by researchers interested in making often transnational connections and comparisons between entities across time and space (historical periods and geographical contexts, respectively)
 
 --
 
