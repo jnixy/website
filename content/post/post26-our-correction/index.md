@@ -2,13 +2,13 @@
 title: "Our Correction for *When Police Pull Back*"
 categories: []
 date: '2024-11-08T09:00:00Z'
-featured: no
+featured: false
 image:
   caption: 
   focal_point: smart
 projects: []
-subtitle: 
-summary: 
+subtitle: ""
+summary: ""
 tags:
 - Open science
 - Police
@@ -17,9 +17,10 @@ tags:
 - Neighborhoods
 - Violence
 - COVID-19
-authors: admin
+authors: 
+- admin
 url_pdf: ""
-draft: no
+draft: false
 ---
 
 **BOTTOM LINE: Yes, there was a merge error in our research note, ["When Police Pull Back"](https://doi.org/10.1111/1745-9125.12363). However, correcting it did not render all our key findings nonsignificant as Jacob Kang-Brown claimed. In his replication, Jacob calculated our spatial lag variable differently, thereby reintroducing the endogeneity problem we designed our analysis to avoid. We are correcting, not retracting, the research note.**
