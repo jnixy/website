@@ -1,5 +1,6 @@
 ---
-title: "Our Correction for *When Police Pull Back*"
+title: >
+  Our Correction for "When Police Pull Back"
 categories: []
 date: '2024-11-08T09:00:00Z'
 featured: false
