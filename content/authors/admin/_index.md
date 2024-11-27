@@ -39,9 +39,9 @@ social:
 - icon: orcid
   icon_pack: ai
   link: "https://orcid.org/0000-0002-3812-8590"
-- icon: publons
+- icon: clarivate
   icon_pack: ai
-  link: "https://www.webofscience.com/wos/author/record/32110118"
+  link: "https://www.webofscience.com/wos/author/record/IUM-8969-2023"
 - icon: github
   icon_pack: fab
   link: https://github.com/jnixy
