@@ -30,9 +30,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
-  link: https://twitter.com/jnixy
+  link: https://x.com/jnixy
+- icon: bluesky
+  icon_pack: fa
+  link: https://bsky.app/profile/jnixy.bsky.social
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=_Jr8r8UAAAAJ&hl=en
