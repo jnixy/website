@@ -33,9 +33,10 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://x.com/jnixy
-- icon: bluesky
-  icon_pack: fa
+- icon: custom
+  icon_pack: custom
   link: https://bsky.app/profile/jnixy.bsky.social
+  custom_icon: icons/bluesky.svg
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=_Jr8r8UAAAAJ&hl=en
