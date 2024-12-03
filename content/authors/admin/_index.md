@@ -30,7 +30,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
+- icon: x-twitter
   icon_pack: fab
   link: https://x.com/jnixy
 - icon: bluesky
