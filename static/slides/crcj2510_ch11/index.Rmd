@@ -3,7 +3,7 @@ title: "Chapter 11"
 subtitle: "Mixing and Comparing Methods"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Apr. 30, 2024"
+date: "Dec. 3, 2024"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -36,7 +36,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[April 30, 2024]
+.white[December 3, 2024]
 
 ???
 
@@ -93,7 +93,7 @@ class: top
 
 --
 
-## Case Study: Should K-2 schools employ cops/"SROs?"
+## Case Study: Should K-12 schools employ cops/"SROs?"
 
 ```{r, echo=FALSE, fig.align='center', out.width = "50%"}
 knitr::include_graphics("homeroom_security.png")
