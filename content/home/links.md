@@ -9,32 +9,33 @@ title = "Explore"
 +++
 
 <div style="text-align: center;">
-    <a href="/post/" style="margin: 10px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-book-open" style="font-size: 50px; color: #007BFF;"></i>
-        <p>Blog</p>
+    <a href="/publication/" style="margin: 20px; text-decoration: none; display: inline-block;">
+        <i class="fas fa-file-alt" style="font-size: 60px; color: #228B22;"></i>
+        <p style="color: #228B22;">Publications</p>
     </a>
-    <a href="/publications/" style="margin: 10px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-file-alt" style="font-size: 50px; color: #007BFF;"></i>
-        <p>Publications</p>
+    <a href="/project/" style="margin: 20px; text-decoration: none; display: inline-block;">
+        <i class="fas fa-project-diagram" style="font-size: 60px; color: #228B22;"></i>
+        <p style="color: #228B22;">Projects</p>
     </a>
-    <a href="/projects/" style="margin: 10px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-project-diagram" style="font-size: 50px; color: #007BFF;"></i>
-        <p>Projects</p>
+    <a href="/talk/" style="margin: 20px; text-decoration: none; display: inline-block;">
+        <i class="fas fa-microphone" style="font-size: 60px; color: #228B22;"></i>
+        <p style="color: #228B22;">Talks</p>
     </a>
-    <a href="/talks/" style="margin: 10px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-microphone" style="font-size: 50px; color: #007BFF;"></i>
-        <p>Talks</p>
+    <a href="/courses/" style="margin: 20px; text-decoration: none; display: inline-block;">
+        <i class="fas fa-chalkboard-teacher" style="font-size: 60px; color: #228B22;"></i>
+        <p style="color: #228B22;">Courses</p>
     </a>
-    <a href="/courses/" style="margin: 10px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-chalkboard-teacher" style="font-size: 50px; color: #007BFF;"></i>
-        <p>Courses</p>
+    <a href="/post/" style="margin: 20px; text-decoration: none; display: inline-block;">
+        <i class="fas fa-book-open" style="font-size: 60px; color: #228B22;"></i> <!-- Adjust size and color -->
+        <p style="color: #228B22;">Blog</p>
     </a>
-    <a href="/awards/" style="margin: 10px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-trophy" style="font-size: 50px; color: #007BFF;"></i>
-        <p>Awards</p>
+    <a href="/awards/" style="margin: 20px; text-decoration: none; display: inline-block;">
+        <i class="fas fa-trophy" style="font-size: 60px; color: #228B22;"></i>
+        <p style="color: #228B22;">Awards</p>
     </a>
-    <a href="/contact/" style="margin: 10px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-envelope" style="font-size: 50px; color: #007BFF;"></i>
-        <p>Contact</p>
+    <a href="/contact/" style="margin: 20px; text-decoration: none; display: inline-block;">
+        <i class="fas fa-envelope" style="font-size: 60px; color: #228B22;"></i>
+        <p style="color: #228B22;">Contact</p>
     </a>
 </div>
+
