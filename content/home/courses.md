@@ -16,7 +16,7 @@ title: Courses
 subtitle:
 
 design:
-  columns: "1"
+  columns: "2"
 
 ---
 
