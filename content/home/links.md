@@ -33,6 +33,10 @@ title = "Explore"
         <i class="fas fa-trophy" style="font-size: 60px; color: #228B22;"></i>
         <p style="color: #228B22;">Awards</p>
     </a>
+    <a href="/files/cv.pdf" style="margin: 20px; text-decoration: none; display: inline-block;">
+        <i class="ai ai-cv" style="font-size: 60px; color: #228B22;"></i>
+        <p style="color: #228B22;">CV</p>
+    </a>
     <a href="/contact/" style="margin: 20px; text-decoration: none; display: inline-block;">
         <i class="fas fa-envelope" style="font-size: 60px; color: #228B22;"></i>
         <p style="color: #228B22;">Contact</p>
