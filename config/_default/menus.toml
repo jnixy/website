@@ -20,17 +20,17 @@
 
 [[main]]
   name = "Publications"
-  url = "#publications"
+  url = "publication"
   weight = 40
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "project"
   weight = 50
 
 [[main]]
   name = "Talks"
-  url = "#talks"
+  url = "talk"
   weight = 60
   
 [[main]]
@@ -40,7 +40,7 @@
   
 [[main]]
   name = "Honors & Awards"
-  url = "#accomplishments"
+  url = "accomplishments"
   weight = 80
   
 [[main]]
