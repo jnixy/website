@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .homepage-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .link-item {
+            text-align: center;
+            text-decoration: none;
+            color: black;
+        }
+        .link-item i {
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: #007BFF; /* Customize icon color */
+            transition: transform 0.2s ease;
+        }
+        .link-item:hover i {
+            transform: scale(1.1);
+        }
+        .link-item:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <div class="homepage-links">
+        <a href="/post/" class="link-item">
+            <i class="fas fa-book-open"></i> <!-- Font Awesome icon -->
+            <p>Blog</p>
+        </a>
+        <a href="/publications/" class="link-item">
+            <i class="ai ai-publication"></i> <!-- Academicons icon -->
+            <p>Publications</p>
+        </a>
+        <a href="/projects/" class="link-item">
+            <i class="fas fa-project-diagram"></i>
+            <p>Projects</p>
+        </a>
+        <a href="/talks/" class="link-item">
+            <i class="fas fa-microphone"></i>
+            <p>Talks</p>
+        </a>
+        <a href="/courses/" class="link-item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <p>Courses</p>
+        </a>
+        <a href="/awards/" class="link-item">
+            <i class="fas fa-trophy"></i>
+            <p>Awards</p>
+        </a>
+        <a href="/contact/" class="link-item">
+            <i class="fas fa-envelope"></i>
+            <p>Contact</p>
+        </a>
+    </div>
+</body>
+</html>
