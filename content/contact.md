@@ -9,4 +9,4 @@ email_form = 1 # Change to 1 for Netlify, or 2 for Formspree
 
 Feel free to reach out using the form below.
 
-{{< form-contact action="/thank-you/" >}}
+{{< form-contact action="" >}}
