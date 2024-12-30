@@ -6,7 +6,7 @@ title = "Officer Diversity May Reduce Black Americans' Fear of the Police"
 authors = ["Justin Pickett", "Amanda Graham", "admin", "Francis Cullen"]
 
 # Publication
-publication = "*Criminology*"
+publication = "*Criminology*, 62(1), 35-63"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
