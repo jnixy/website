@@ -45,7 +45,6 @@ links = [{name = "Award Information", url="https://www.unomaha.edu/ncite/news/20
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
-  height = "400px; background-position:center; background-size: contain"
 +++
 
 ## Abstract
