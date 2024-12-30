@@ -6,7 +6,7 @@ title = "Police shootings in Canada: An empirical analysis and call for data"
 authors = ["Rylan Simpson", "admin"]
 
 # Publication
-publication = "*Crime & Delinquency*"
+publication = "*Crime & Delinquency*, 70(12), 3343-3368"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
