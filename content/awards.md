@@ -6,6 +6,10 @@ layout = "single"  # Optional: specifies the template layout to use
 date = "2024-12-29"  # Optional: date of creation
 +++
 
+### 2024 Outstanding PhD Alumni Award
+**USC Department of Criminology & Criminal Justice**  
+Awarded to doctoral program graduates for their outstanding academic and non-academic achievements in the field.
+
 ### 2021 Outstanding Young Experimental Criminologist  
 **American Society of Criminology - Division of Experimental Criminology**  
 Recognizes exceptional early-career scholarship.
@@ -30,5 +34,5 @@ Recognizes early-career academics advancing police science through data and rese
 
 ### 2017 Outstanding Reviewer for *Policing: An International Journal*
 **Emerald Literati Awards**  
-[Learn more](https://www.emeraldgrouppublishing.com/our-awards/emerald-literati-awards?year=2017&journal=pijpsm)
+[Learn more](https://www.emeraldgrouppublishing.com/our-awards/emerald-literati-awards?year=2017&journal=pijpsm)  
 The editor and Editorial Advisory Board (EAB) of each journal select a winner of the "Outstanding Reviewer Award" from the previous year’s volume, based on timeliness, quality, and depth of reviews provided.
