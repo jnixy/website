@@ -68,6 +68,10 @@ Rather than continue listing conference presentations ad nauseum on [my CV](http
 
 ## [American Society of Criminology](https://asc41.com/) {#asc}
 
+### 80th Annual Meeting: San Francisco, CA
+
+* Bussey, Preston\*, Brenna Dunlap\*, **Justin Nix**, & Jessica Huff. (2024). Proximity to trauma care and police shooting victim mortality.
+
 ### 79th Annual Meeting: Philadelphia, PA
 
 * Bussey, Preston\*, **Justin Nix**, Kyle McLean, & Jeff Rojek (2023). Development of a policing-specific emotion recognition test.
