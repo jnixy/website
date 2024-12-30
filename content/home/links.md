@@ -26,7 +26,7 @@ title = "Explore"
         <p style="color: #228B22;">Courses</p>
     </a>
     <a href="/post/" style="margin: 20px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-book-open" style="font-size: 60px; color: #228B22;"></i> <!-- Adjust size and color -->
+        <i class="fas fa-book-open" style="font-size: 60px; color: #228B22;"></i>
         <p style="color: #228B22;">Blog</p>
     </a>
     <a href="/awards/" style="margin: 20px; text-decoration: none; display: inline-block;">
@@ -34,8 +34,8 @@ title = "Explore"
         <p style="color: #228B22;">Awards</p>
     </a>
     <a href="https://viprlab.org" style="margin: 20px; text-decoration: none; display: inline-block;">
-        <img src="/icons/vipr_lab.svg" alt="VIPR Lab Icon" style="width: 60px; height: 60px;">
-        <p style="color: #228B22;">VIPR Lab</p>
+        <img src="/icons/vipr_lab.svg" alt="VIPR Lab Icon" style="width: 60px; height: 60px; display: block; margin: 0 auto;">
+        <p style="color: #228B22; margin-top: 5px;">VIPR Lab</p>
     </a>
     <a href="/files/cv.pdf" style="margin: 20px; text-decoration: none; display: inline-block;">
         <i class="ai ai-cv" style="font-size: 60px; color: #228B22;"></i>
