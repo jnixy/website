@@ -148,6 +148,7 @@ sharing = true
   post_view = 2
   publication_view = 2
   talk_view = 2
+  project_view = 3
 
 # Search.
 [search]
