@@ -1,5 +1,0 @@
-.featured-image img {
-    max-width: 100%; /* Ensures the image fits within its container */
-    height: auto;    /* Preserves the aspect ratio */
-    display: block;  /* Prevents inline images from adding extra space */
-}
