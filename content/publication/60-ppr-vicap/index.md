@@ -6,13 +6,16 @@ title = "ViCAP usage and viability for sexual assault investigations: Findings f
 authors = ["Michaela Benson-Goldsmith", "Bradley Campbell", "Tara N. Richards", "admin"]
 
 # Publication
-publication = "*Police Practice & Research*"
+publication = "*Police Practice & Research*, 26(1), 110-118"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
 
+# Date the paper was published.
+date = 2025-01-01T10:00:00Z
+
 # Date this page was created.
-date = 2024-10-11T09:00:00Z
+publishdate = 2024-10-11T11:00:00Z
 
 # Project summary to display on homepage.
 summary = ""
