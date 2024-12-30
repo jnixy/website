@@ -34,7 +34,7 @@ title = "Explore"
         <p style="color: #228B22;">Awards</p>
     </a>
     <a href="https://viprlab.org" style="margin: 20px; text-decoration: none; display: inline-block;">
-        <i class="fa-solid fa-scale-balanced" style="font-size: 60px; color: #228B22;"></i>
+        <img src="/icons/vipr_lab.svg" alt="VIPR Lab Icon" style="width: 60px; height: 60px;">
         <p style="color: #228B22;">VIPR Lab</p>
     </a>
     <a href="/files/cv.pdf" style="margin: 20px; text-decoration: none; display: inline-block;">
