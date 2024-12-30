@@ -36,7 +36,7 @@
   {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
 </div>
 
-{{ $image := $featured.Fill "680x500 q90" }}
+{{ $image := $featured.Resize "680x" }}
 <div class="container-fluid split-header d-none d-xl-block">
   <div class="row">
     <div class="col-6">
