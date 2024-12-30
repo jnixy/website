@@ -6,7 +6,7 @@ title = "Does Procedural Justice Reduce the Harmful Effects of Perceived Ineffec
 authors = ["Yongjae Nam", "Scott Wolfe", "admin"]
 
 # Publication
-publication = "*Journal of Research in Crime and Delinquency*"
+publication = "*Journal of Research in Crime and Delinquency*, 61(1), 124-167"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
