@@ -34,7 +34,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Award Information", url="https://www.unomaha.edu/ncite/news/2021/11/prevention-grant-insider-threats.php"}]
+links = [{name = "Award Information", url="https://www.unomaha.edu/ncite/news/2021/11/prevention-grant-insider-threats.php"}, {name = "Final Report", url="https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1079&context=ncitereportsresearch"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
