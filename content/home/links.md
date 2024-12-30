@@ -14,8 +14,8 @@ title = "Explore"
         <p style="color: #228B22;">Publications</p>
     </a>
     <a href="/project/" style="margin: 20px; text-decoration: none; display: inline-block;">
-        <i class="fas fa-project-diagram" style="font-size: 60px; color: #228B22;"></i>
-        <p style="color: #228B22;">Projects</p>
+        <i class="fas fa-landmark" style="font-size: 60px; color: #228B22;"></i>
+        <p style="color: #228B22;">Funded Projects</p>
     </a>
     <a href="/talk/" style="margin: 20px; text-decoration: none; display: inline-block;">
         <i class="fas fa-microphone" style="font-size: 60px; color: #228B22;"></i>
@@ -33,7 +33,7 @@ title = "Explore"
         <i class="fas fa-trophy" style="font-size: 60px; color: #228B22;"></i>
         <p style="color: #228B22;">Awards</p>
     </a>
-    <a href="/lab/" style="margin: 20px; text-decoration: none; display: inline-block;">
+    <a href="https://viprlab.org" style="margin: 20px; text-decoration: none; display: inline-block;">
         <i class="fa-solid fa-scale-balanced" style="font-size: 60px; color: #228B22;"></i>
         <p style="color: #228B22;">VIPR Lab</p>
     </a>
