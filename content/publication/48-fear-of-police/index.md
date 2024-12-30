@@ -11,8 +11,11 @@ publication = "*Criminology*, 62(1), 35-63"
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
 
+# Date the paper was published.
+date = 2024-02-01T10:00:00Z
+
 # Date this page was created.
-date = 2023-07-27T14:00:00
+publishdate = 2023-07-27T14:00:00
 
 # Project summary to display on homepage.
 summary = ""
