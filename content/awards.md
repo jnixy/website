@@ -7,7 +7,7 @@ date = "2024-12-29"  # Optional: date of creation
 +++
 
 ### 2024 Outstanding PhD Alumni Award
-**USC Department of Criminology & Criminal Justice**  
+**UofSC Department of Criminology & Criminal Justice**  
 Awarded to doctoral program graduates for their outstanding academic and non-academic achievements in the field.
 
 ### 2021 Outstanding Young Experimental Criminologist  
