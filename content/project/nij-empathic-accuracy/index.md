@@ -45,6 +45,7 @@ links = [{name = "Award Information", url="https://nij.ojp.gov/funding/awards/15
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   focal_point = "Smart"
+  height = "300px; background-position:center; background-size: contain"
 +++
 
 ## Abstract
