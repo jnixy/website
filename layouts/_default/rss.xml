@@ -28,7 +28,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
       {{ with .Params.featured_image }}
-        {{ if .Page }}
+        {{ if and .Page (.Page.Resources.GetMatch .) }}
         <enclosure url="{{ .Page.Resources.GetMatch . | absURL }}" type="{{ if strings.HasSuffix . ".png" }}image/png{{ else if strings.HasSuffix . ".jpg" }}image/jpeg{{ else if strings.HasSuffix . ".jpeg" }}image/jpeg{{ else }}application/octet-stream{{ end }}"/>
         {{ else }}
         <enclosure url="{{ . | absURL }}" type="{{ if strings.HasSuffix . ".png" }}image/png{{ else if strings.HasSuffix . ".jpg" }}image/jpeg{{ else if strings.HasSuffix . ".jpeg" }}image/jpeg{{ else }}application/octet-stream{{ end }}"/>
