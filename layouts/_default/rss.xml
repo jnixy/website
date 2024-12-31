@@ -28,9 +28,8 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
       {{ with .Params.featured_image }}
-      <enclosure url="{{ . | absURL }}" type="{{ if strings.HasSuffix . ".png" }}image/png{{ else if strings.HasSuffix . ".jpg" }}image/jpeg{{ else if strings.HasSuffix . ".jpeg" }}image/jpeg{{ else }}application/octet-stream{{ end }}"/>
+      <enclosure url="{{ .Page.RelPermalink | absURL }}" type="{{ if strings.HasSuffix . ".png" }}image/png{{ else if strings.HasSuffix . ".jpg" }}image/jpeg{{ else if strings.HasSuffix . ".jpeg" }}image/jpeg{{ else }}application/octet-stream{{ end }}"/>
       {{ end }}
-    </item>
     {{ end }}
   </channel>
 </rss>
