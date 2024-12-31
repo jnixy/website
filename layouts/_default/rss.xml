@@ -1,25 +1,34 @@
-<rss version="2.0">
+{{/* Generate RSS with full page content rather than just summary. */}}
+{{- $pages := .Data.Pages -}}
+{{- $limit := site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+  {{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ .Site.Title }}</title>
-    <link>{{ .Site.BaseURL }}</link>
-    <description>{{ .Site.Params.description }}</description>
-    <language>{{ .Site.LanguageCode }}</language>
-
-    {{ range .Pages }}
+    <title>{{ if eq  .Title  site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ site.Title }}</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>{{ with site.LanguageCode }}
+    <language>{{.}}</language>{{end}}{{ with site.Author.email }}
+    <managingEditor>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with site.Author.email }}
+    <webMaster>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with site.Copyright }}
+    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}
+	    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}
+    {{ range $pages }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{ with site.Author.email }}<author>{{ . }}{{ with site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }}</description>
-
+      <description>{{ .Content | html }}</description>
       {{ with .Params.featured_image }}
-      {{ $image := .Page.Resources.GetMatch . }}
-      {{ if $image }}
-      <enclosure url="{{ $image.Permalink }}" type="{{ if strings.HasSuffix $image.Name ".png" }}image/png{{ else if strings.HasSuffix $image.Name ".jpg" }}image/jpeg{{ else if strings.HasSuffix $image.Name ".jpeg" }}image/jpeg{{ else }}application/octet-stream{{ end }}"/>
-      {{ else }}
-      <!-- Image not found -->
-      {{ end }}
+      <enclosure url="{{ . | absURL }}" type="{{ if strings.HasSuffix . ".png" }}image/png{{ else if strings.HasSuffix . ".jpg" }}image/jpeg{{ else if strings.HasSuffix . ".jpeg" }}image/jpeg{{ else }}application/octet-stream{{ end }}"/>
       {{ end }}
     </item>
     {{ end }}
