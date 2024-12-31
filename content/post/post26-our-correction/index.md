@@ -4,6 +4,7 @@ title: >
 categories: []
 date: '2024-11-08T09:00:00Z'
 featured: false
+featured_image: "featured.png"
 image:
   caption: 
   focal_point: smart
