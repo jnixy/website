@@ -3,7 +3,7 @@
 title = "ViCAP usage and viability for sexual assault investigations: Findings from a survey of SAKI sites"
 
 # Authors
-authors = ["Michaela Benson-Goldsmith", "Bradley Campbell", "Tara N. Richards", "admin"]
+authors = ["Michaela Benson-Goldsmith", "Bradley Campbell", "Tara Richards", "admin"]
 
 # Publication
 publication = "*Police Practice & Research*, 26(1), 110-118"
