@@ -27,6 +27,9 @@
       {{ with site.Author.email }}<author>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
+      {{ with .Params.featured_image }}
+      <enclosure url="{{ . | absURL }}" type="{{ . | extMIMEType }}"/>
+      {{ end }}
     </item>
     {{ end }}
   </channel>
