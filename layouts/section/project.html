@@ -1,0 +1,34 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  {{ end }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  <div class="card-container">
+    {{ range $paginator.Pages }}
+    <div class="card">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      {{ with .Params.image }}
+      <img src="{{ . }}" alt="{{ .Title }}">
+      {{ end }}
+      <div class="article-style">
+        {{ if .Params.summary }}
+        <p>{{ .Params.summary | plainify | emojify }}</p>
+        {{ else if .Params.abstract }}
+        <p>{{ .Params.abstract | plainify | emojify | truncate 250 }}</p>
+        {{ else if .Summary }}
+        <p>{{ .Summary | plainify | emojify }}</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ partial "pagination" . }}
+</div>
+
+{{- end -}}
