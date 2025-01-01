@@ -1,39 +1,48 @@
-/* Card layout styles for the projects section */
-.card-container {
+/* Project container styles */
+.project-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin: 20px 0;
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards within the container */
+    gap: 20px; /* Add vertical spacing between cards */
+    margin: 20px auto; /* Center the container and add top/bottom margin */
+    max-width: 800px; /* Optional: limit the maximum width for readability */
+    padding: 0 15px; /* Add padding for smaller screens */
 }
 
-.card {
+/* Individual card styles */
+.project-card {
+    width: 100%; /* Each card spans the full container width */
     background: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
-    width: calc(33.333% - 32px); /* Adjust width for three cards per row */
+    box-sizing: border-box; /* Include padding/border in size calculations */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.card:hover {
+/* Hover effect for cards */
+.project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.card img {
+/* Image styles within cards */
+.project-card img {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
     margin-bottom: 8px;
 }
 
-.card h2 {
+/* Card title styles */
+.project-card h4 {
     font-size: 1.25em;
     margin: 0 0 8px;
 }
 
-.card p {
+/* Card description styles */
+.project-card .card-description p {
     font-size: 0.9em;
     color: #555;
 }
