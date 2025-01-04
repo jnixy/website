@@ -7,17 +7,17 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ if eq  .Title  site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ site.Title }}{{ end }}</title>
+    <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Recent content {{ if ne  .Title  site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ site.Title }}</description>
+    <description>Recent content {{ if ne .Title site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ site.Title }}</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>{{ with site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with site.Author.email }}
-    <managingEditor>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with site.Author.email }}
-    <webMaster>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with site.Copyright }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <language>{{ . }}</language>{{ end }}{{ with site.Author.email }}
+    <managingEditor>{{ . }}{{ with site.Author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with site.Author.email }}
+    <webMaster>{{ . }}{{ with site.Author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with site.Copyright }}
+    <copyright>{{ . | plainify }}</copyright>{{ end }}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     {{ with .OutputFormats.Get "RSS" }}
-	    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
     {{ range $pages }}
     <item>
@@ -26,9 +26,9 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with site.Author.email }}<author>{{ . }}{{ with site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | html }}</description>
+      <description>{{ .Content | plainify | html }}</description>
       {{ with .Params.featured_image }}
-      <enclosure url="{{ . | absURL }}" type="{{ if strings.HasSuffix . ".png" }}image/png{{ else if strings.HasSuffix . ".jpg" }}image/jpeg{{ else if strings.HasSuffix . ".jpeg" }}image/jpeg{{ else }}application/octet-stream{{ end }}"/>
+      <enclosure url="{{ . | absURL }}" type="{{ if strings.HasSuffix . ".png" }}image/png{{ else if strings.HasSuffix . ".jpg" }}image/jpeg{{ else if strings.HasSuffix . ".jpeg" }}image/jpeg{{ else }}application/octet-stream{{ end }}" length="0" />
       {{ end }}
     </item>
     {{ end }}
