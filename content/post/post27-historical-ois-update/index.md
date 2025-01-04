@@ -3,7 +3,7 @@ title: Update on the Historical OIS Data I've Been Pulling Together
 categories: []
 date: '2025-01-04T11:00:00Z'
 featured: false
-featured_image: "featured.svg"
+featured_image: "featured.png"
 image:
   caption: 
   focal_point: smart
