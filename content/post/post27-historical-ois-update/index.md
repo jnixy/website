@@ -29,11 +29,11 @@ Roughly 2 years ago I started [building a database](https://github.com/jnixy/age
 
 The former go back many decades, the latter only to 2013 or so (2000 in the case of Fatal Encounters, though the early 2000s data are likely less reliable than ~2013 onward). 
 
-What this means is that, unfortunately, we just don't really know how current OIS trends square with more historical data, as we do in the case of [crime data](https://link.springer.com/article/10.1007/s10940-015-9277-2). That doesn't stop researchers from [trying](https://x.com/jnixy/status/1635677916762886149), though. And of course there have been [headlines](https://www.theguardian.com/us-news/2024/jan/08/2023-us-police-violence-increase-record-deadliest-year-decade) the last few Januarys about how the year before was a ["record high"](https://www.theguardian.com/us-news/2023/jan/06/us-police-killings-record-number-2022) for [police killings](https://www.usatoday.com/story/news/nation/2024/01/17/police-killings-record-2023/72174081007/). The headlines rarely convey that the "record" only goes back like 12 years. So, using WAPO data, we can visualize trends like this, going back to 2015:
+What this means is that, unfortunately, we just don't really know how current OIS trends square with more historical data, as we do in the case of [crime data](https://link.springer.com/article/10.1007/s10940-015-9277-2). That doesn't stop researchers from [trying](https://x.com/jnixy/status/1635677916762886149), though. And of course there have been [headlines](https://www.theguardian.com/us-news/2024/jan/08/2023-us-police-violence-increase-record-deadliest-year-decade) the last few Januarys about how the year before was a ["record high"](https://www.theguardian.com/us-news/2023/jan/06/us-police-killings-record-number-2022) for [police killings](https://www.usatoday.com/story/news/nation/2024/01/17/police-killings-record-2023/72174081007/). The headlines rarely convey that the "record" only goes back like 12 years. So, using WAPO data, we can visualize trends [like this](https://x.com/ian_t_adams/status/1874608480054866092), going back to 2015:
 
 ![](cumulative_ois.jfif)
 
-Or like this:
+Or [like this](https://x.com/ian_t_adams/status/1874608484748329388):
 
 ![](national_ois_rates.jfif)
 
