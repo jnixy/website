@@ -29,7 +29,19 @@ Roughly 2 years ago I started [building a database](https://github.com/jnixy/age
 
 The former go back many decades, the latter only to 2013 or so (2000 in the case of Fatal Encounters, though the early 2000s data are likely less reliable than ~2013 onward). 
 
-What this means is that, unfortunately, we just don't really know how current OIS trends square with more historical data, as we do in the case of [crime data](https://link.springer.com/article/10.1007/s10940-015-9277-2). That doesn't stop researchers from [trying](https://x.com/jnixy/status/1635677916762886149), though. And of course there have been [headlines](https://www.theguardian.com/us-news/2024/jan/08/2023-us-police-violence-increase-record-deadliest-year-decade) the last few Januarys about how the year before was a ["record high"](https://www.theguardian.com/us-news/2023/jan/06/us-police-killings-record-number-2022) for [police killings](https://www.usatoday.com/story/news/nation/2024/01/17/police-killings-record-2023/72174081007/). The headlines rarely convey that the "record" only goes back like 12 years. 
+What this means is that, unfortunately, we just don't really know how current OIS trends square with more historical data, as we do in the case of [crime data](https://link.springer.com/article/10.1007/s10940-015-9277-2). That doesn't stop researchers from [trying](https://x.com/jnixy/status/1635677916762886149), though. And of course there have been [headlines](https://www.theguardian.com/us-news/2024/jan/08/2023-us-police-violence-increase-record-deadliest-year-decade) the last few Januarys about how the year before was a ["record high"](https://www.theguardian.com/us-news/2023/jan/06/us-police-killings-record-number-2022) for [police killings](https://www.usatoday.com/story/news/nation/2024/01/17/police-killings-record-2023/72174081007/). The headlines rarely convey that the "record" only goes back like 12 years. So, using WAPO data, we can visualize trends like this, going back to 2015:
+
+![](cumulative_ois.jfif)
+
+Or like this:
+
+![](national_ois_rates.jfif)
+
+But if we want to go further back in time than that, we can't, at least not with good national-level data. We can with a few of the largest agencies, though:
+
+![](lapd_nypd_ppd.png)
+
+But in the end, we just don't know how current **national** trends compare to historical **national** trends.
 
 So if you check the [ReadMe file](https://github.com/jnixy/agency-level-fatal-OIS/blob/main/README.md) on my Github repo, you can catch up with what I set out to do 2 years ago. I started with Geller & Scott's book, *Deadly Force: What We Know*, which includes historical OIS data (i.e., as far back as 1970 in some cases) for 11 major cities. Then I tried to track down data for the ~100 largest U.S. cities. Usually this involved: (1) checking their websites for open data or annual reports, (2) looking for other published reports (e.g., by academics, Attorney Generals, or groups like ACLU), (3) looking for other data compiled by journalists, often at the city (e.g., *Texas Tribune*) or state level (e.g., *Tampa Bay Times*, *Salt Lake Tribune*, *Honolulu Civil Beat*). I didn't have much luck finding data from before 2000, but I did end up with at least some pre-2015 data for 417 agencies. 
 
