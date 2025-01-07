@@ -25,7 +25,7 @@ Roughly 2 years ago I started [building a database](https://github.com/jnixy/age
 
 * Official data compiled by the FBI and NVSS have long been [recognized](https://heinonline.org/HOL/P?h=hein.journals/jclc70&i=556) as [woefully incomplete](https://doi.org/10.3818/JRP.4.1.2002.87) and thus [inadequate](https://doi.org/10.1177/1088767911430861). 
 
-* Unofficial data compiled by current/former journalists, activists, and researchers have become available over the last decade or so. These do a much better job of estimating how many people are killed by police officers in the United States each year. See [Fatal Encounters](https://fatalencounters.org), [Mapping Police Violence](policedata.org), [Fatal Force by WAPO](https://www.washingtonpost.com/graphics/investigations/police-shootings-database/), [Gun Violence Archive](https://www.gunviolencearchive.org/), and [SPOTLITE](https://clinecenter.illinois.edu/spotlite). 
+* Unofficial data compiled by current/former journalists, activists, and researchers have become available over the last decade or so. These do a much better job of estimating how many people are killed by police officers in the United States each year. See [Fatal Encounters](https://fatalencounters.org), [Mapping Police Violence](https://policedata.org), [Fatal Force by WAPO](https://www.washingtonpost.com/graphics/investigations/police-shootings-database/), [Gun Violence Archive](https://www.gunviolencearchive.org/), and [SPOTLITE](https://clinecenter.illinois.edu/spotlite). 
 
 The former go back many decades, the latter only to 2013 or so (2000 in the case of Fatal Encounters, though the early 2000s data are likely less reliable than ~2013 onward). 
 
