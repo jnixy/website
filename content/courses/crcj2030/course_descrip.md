@@ -1,5 +1,5 @@
 ---
-date: "2021-11-25T11:00:00"
+date: "2025-01-15T11:00:00"
 draft: false
 linktitle: Course Description
 menu:
@@ -23,7 +23,7 @@ I expect you to read critically *before class* and come prepared to discuss how 
 
 ## Office Hours
 
-My office hours are T/Th 11:30AM to 12:30PM, or by appointment. You can come by to discuss course content, your grades, career aspirations, etc.
+My office hours are M/W 11:15AM to 12:15PM, or by appointment. You can come by to discuss course content, your grades, career aspirations, etc.
 
 ## Communication Etiquette
 

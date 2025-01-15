@@ -20,97 +20,84 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## Week 1: Introduction
 
-* 1/25: Introductions and Review of Syllabus
-
-* 1/27: A Brief Overview of Policing Today
+* Introductions and Review of Syllabus
 
 ## Week 2: Origins and Evolution of American Policing
 
-* 2/1: W&S Chapter 1
-
-* 2/3: W&S Chapter 1
+* W&S Chapter 1
 
 ## Week 3: Policing in the American Context
 
-* 2/8: W&S Chapter 2; [*Kids’ perceptions of police fall as they age – for Black children the decline starts earlier and is constant*](https://theconversation.com/kids-perceptions-of-police-fall-as-they-age-for-black-children-the-decline-starts-earlier-and-is-constant-145511)
-
-* 2/10: W&S Chapter 2
+* W&S Chapter 2
+* [*Kids’ perceptions of police fall as they age – for Black children the decline starts earlier and is constant*](https://theconversation.com/kids-perceptions-of-police-fall-as-they-age-for-black-children-the-decline-starts-earlier-and-is-constant-145511)
 
 ## Week 4: Police Organizations
 
-* 2/15: W&S Chapter 3
-
-* 2/17: W&S Chapter 3
+* W&S Chapter 3
 
 ## Week 5: Becoming a Cop
 
-* 2/22: W&S Chapter 4; [*Arresting the Recruitment Crisis*](https://www.city-journal.org/police-departments-recruitment-crisis)
+* W&S Chapter 4
+* [*Arresting the Recruitment Crisis*](https://www.city-journal.org/police-departments-recruitment-crisis)
 
-* 2/24: **EXAM 1**
+## Week 6: First Exam
 
-## Week 6: Police Subculture
+* No class on Feb. 24th
+* **Exam 1 on Feb. 26th**
 
-* 3/1: W&S Chapter 5; [*Danger and “Officer Safety” Shape Police Socialization, Practice and Policy*](https://www.jurist.org/commentary/2020/06/sierra-arevalo-police-training/)
+## Week 7: Police Subculture
 
-* 3/3: W&S Chapter 5; [*Criminal Injustice Podcast*, Ep. 138 - Rosa Brooks](http://www.criminalinjusticepodcast.com/blog/2021/06/01/138-to-fix-policing-understand-it)
+* No class on Mar. 3rd
+* W&S Chapter 5
+* [*Danger and “Officer Safety” Shape Police Socialization, Practice and Policy*](https://www.jurist.org/commentary/2020/06/sierra-arevalo-police-training/)
+* [*Criminal Injustice Podcast*, Ep. 138 - Rosa Brooks](http://www.criminalinjusticepodcast.com/blog/2021/06/01/138-to-fix-policing-understand-it)
 
-## Week 7: Police Discretion & Behavior
+## Week 8: Police Discretion and Behavior
 
-* 3/8: W&S Chapter 6; [*Probable Causation Podcast*, Ep. 44 - Arianna Ornaghi](https://www.probablecausation.com/podcasts/episode-44-arianna-ornaghi)
+* 3/8: W&S Chapter 6
+* [*Probable Causation Podcast*, Ep. 44 - Arianna Ornaghi](https://www.probablecausation.com/podcasts/episode-44-arianna-ornaghi)
 
-* 3/10: W&S Chapter 6
+## Week 9: Spring Break
 
-## Week 8: Spring Break & ACJS Conference
+* Spring Break - no class
 
-* 3/15: Spring Break - No class
+## Week 10: Community and Problem-Oriented Policing
 
-* 3/17: ACJS Conference - No class
+* W&S Chapter 8
+* [*Biden's plan to spend billions on community policing is bad policy*](https://thehill.com/opinion/white-house/563276-bidens-plan-to-spend-billions-on-community-policing-is-bad-policy)
 
-## Week 9: Policing in the Modern Era
+## Week 11: Policing in the Modern Era
 
-* 3/22: W&S Chapter 8; [*Biden's plan to spend billions on community policing is bad policy*](https://thehill.com/opinion/white-house/563276-bidens-plan-to-spend-billions-on-community-policing-is-bad-policy)
+* W&S Chapter 9
+* [*Necessary but Not Sufficient: The Police Role in Reducing Violence*](https://www.policechiefmagazine.org/necessary-but-not-sufficient/?ref=e6b395be13bf27a03cf9a63a7c18aced)
+* [*When cities add cops, Black residents could have the most to gain – and the most to lose*](https://www.niskanencenter.org/when-cities-add-cops-black-residents-could-have-the-most-to-gain-and-the-most-to-lose/)
 
-* 3/24: W&S Chapter 9; [*Necessary but Not Sufficient: The Police Role in Reducing Violence*](https://www.policechiefmagazine.org/necessary-but-not-sufficient/?ref=e6b395be13bf27a03cf9a63a7c18aced)
+## Week 12: Exam 2, Policing and the Law
 
-## Week 10: Policing in the Modern Era
+* **Exam 2 on Apr. 7th**
+* W&S Chapter 10
+* [*Kansas v. Glover, 589 U.S. ___ (2020)*](https://www.supremecourt.gov/opinions/19pdf/18-556_e1pf.pdf)
 
-* 3/29: W&S Chapter 9; [*When cities add cops, Black residents could have the most to gain – and the most to lose*](https://www.niskanencenter.org/when-cities-add-cops-black-residents-could-have-the-most-to-gain-and-the-most-to-lose/)
+## Week 13: Civil Liability and Accountability
 
-* 3/31: **EXAM 2**
+* W&S Chapter 11
+* [*How to Actually Fix America’s Police*](https://www.theatlantic.com/ideas/archive/2020/06/how-actually-fix-americas-police/612520/)
+* [*The concrete effects of body-worn cameras on police accountability*](https://theconversation.com/the-concrete-effects-of-body-cameras-on-police-accountability-171460)
 
-## Week 11: Policing and the Law
+## Week 14: Deviance, Ethics, and Professionalism
 
-* 4/5: W&S Chapter 10
-
-* 4/7: W&S Chapter 10; [*Kansas v. Glover, 589 U.S. ___ (2020)*](https://www.supremecourt.gov/opinions/19pdf/18-556_e1pf.pdf)
-
-## Week 12: Civil Liability and Accountability
-
-* 4/12: W&S Chapter 11; [*How to Actually Fix America’s Police*](https://www.theatlantic.com/ideas/archive/2020/06/how-actually-fix-americas-police/612520/)
-
-* 4/14: W&S Chapter 11; [*The concrete effects of body-worn cameras on police accountability*](https://theconversation.com/the-concrete-effects-of-body-cameras-on-police-accountability-171460)
-
-## Week 13: Deviance, Ethics, and Professionalism
-
-* 4/19: W&S Chapter 12
-
-* 4/21: W&S Chapter 12
-
-## Week 14: Police Use of Force
-
-* 4/26: W&S Chapter 13; [*Tennessee v. Garner, 471 U.S. 1 (1985)*](https://www.policinglaw.info/assets/downloads/US_Supreme_Court_Tennessee_v._Garner_1985.pdf)
-
-* 4/28: W&S Chapter 13; [*Graham v. Connor et al., 490 U.S. 386 (1989)* - Oral Argument](https://apps.oyez.org/player/#/rehnquist3/oral_argument_audio/19082f)
+* W&S Chapter 12
 
 ## Week 15: Police Use of Force
 
-* 5/3: W&S Chapter 13; [*Kisela v. Hughes, 584 U.S. ___ (2018)*](https://www.supremecourt.gov/opinions/17pdf/17-467_bqm1.pdf)
+* W&S Chapter 13
+* [*Tennessee v. Garner, 471 U.S. 1 (1985)*](https://www.policinglaw.info/assets/downloads/US_Supreme_Court_Tennessee_v._Garner_1985.pdf)
+* [*Graham v. Connor et al., 490 U.S. 386 (1989)* - Oral Argument](https://apps.oyez.org/player/#/rehnquist3/oral_argument_audio/19082f)
+* [*Kisela v. Hughes, 584 U.S. ___ (2018)*](https://www.supremecourt.gov/opinions/17pdf/17-467_bqm1.pdf)
 
-* 5/5: *Study Day - No class*
+## Week 16: Review for Final Exam
 
-## Week 16: Final Exam
-
-* 5/12: **EXAM 3**
+* Final Exam date still TBD
 
 ***
 

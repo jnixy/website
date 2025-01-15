@@ -1,7 +1,7 @@
 ---
 date: "2021-11-25T11:00:00Z"
 draft: false
-lastmod: "2021-11-25T11:00:00Z"
+lastmod: "2025-01-15T11:00:00Z"
 linktitle: CRCJ 2030 - Police & Society
 menu:
   crcj2030:
@@ -15,7 +15,7 @@ url_syllabus: "crcj2030-syllabus.pdf"
 weight: 10
 ---
 
-## Spring 2022
+## Spring 2025
 
 👈 If you're viewing on a desktop, the course syllabus and lectures are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
 

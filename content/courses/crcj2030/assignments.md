@@ -12,6 +12,7 @@ type: docs
 weight: 1
 ---
 
+<!--
 ## Assignment 1: Identifying the Best Path Forward
 
 An [article](https://doi.org/10.1111/1745-9133.12572) published in *Criminology & Public Policy* last month polled a national sample of 1,137 Americans about their support for “popular slogans and their substantive policy goals.” I have uploaded the article to the “files” folder in Canvas.
@@ -68,6 +69,8 @@ For this assignment, you need to read the U.S. Supreme Court's ruling in [Kisela
 It should be clear to me that you have carefully read – not just skimmed – the Court’s decision based on your response.
 
 Your essay should be uploaded to Canvas no later than **10AM on Tuesday, May 3rd.**
+
+-->
 
 ***
 
