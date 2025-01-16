@@ -49,7 +49,7 @@ I was recently a guest on Dr. Scott Phillips' new podcast, "Police In-Service Tr
 
 > This podcast is dedicated to providing research evidence to street-level police officers and command staff alike.  The program is intended to provide research in a jargon-free manner that cuts through the noise, misinformation, and misperceptions about the police.  The discussions with policing experts will help the law enforcement community create better programs, understand challenging policies, and dispel myths of police officer behavior.  
 
-In my episode, we discussed procedural justice theory, including some of my own work on the topic, including:
+In my episode, we discussed procedural justice theory, including some of my own work on the topic:
 
 * [Understanding the bounds of legitimacy: Weber’s facets of legitimacy and the police empowerment hypothesis](https://doi.org/10.1080/07418825.2021.1933141)
 * [Testing a theoretical model of perceived audience legitimacy: The neglected linkage in the dialogic model of police-community relations](https://doi.org/10.1177/0022427819873957)
