@@ -3,7 +3,7 @@ title: "Day 1"
 subtitle: "A Brief Overview of U.S. Policing Today"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Jan. 27, 2022"
+date: "Jan. 22, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[January 27, 2022]
+.white[January 22, 2025]
 
 ---
 class: top
@@ -187,7 +187,7 @@ class: top
 knitr::include_graphics("fig3.png")
 ```
 
-.small[sources: [Gallup](https://news.gallup.com/poll/1597/confidence-institutions.aspx) and [FBI Crime Data Explorer](https://crime-data-explorer.fr.cloud.gov/pages/explorer/crime/crime-trend)]
+.small[sources: [Gallup](https://news.gallup.com/poll/1597/confidence-institutions.aspx) and [FBI Crime Data Explorer](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/query)]
 
 ???
 
@@ -271,7 +271,7 @@ class: top
 knitr::include_graphics("fig5b.png")
 ```
 
-.small[source: working paper using data from [Gun Violence Archive](https://www.gunviolencearchive.org/)]
+.small[[Link to source](https://www.gunviolencearchive.org/)]
 
 ---
 class: middle, center, inverse
