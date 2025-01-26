@@ -3,7 +3,7 @@ title: "Chapter 1"
 subtitle: "Origins and Evolution of American Policing"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 1, 2022"
+date: "Jan. 27, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -34,16 +34,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 1, 2022]
-
----
-class: middle, center
-
-# Before we begin...
-
---
-
-## Take this quick [survey](https://unomaha.az1.qualtrics.com/jfe/form/SV_eILhS73Apjt7Q3k)
+.white[January 27, 2025]
 
 ---
 class: top
