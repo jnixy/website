@@ -28,7 +28,9 @@ Your essay should be uploaded to Canvas no later than **10AM on Monday, February
 **Do not plagiarize**. Please note that your submissions will be reviewed for evidence of plagiarism and/or the use of AI software. If you’re unsure about what constitutes plagiarism, please consult with me before you submit your essay. 
 
 </br>
+
 <!--
+
 ## Assignment 2: Reading Quiz
 
 Assignment #2 is a reading quiz I've posted to our course page on Canvas. It has ten multiple-choice questions drawn from the material we've covered in Chapters 5 and 6. It should be completed by **5PM on Sunday, March 20th**.
