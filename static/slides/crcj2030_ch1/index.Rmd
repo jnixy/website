@@ -455,10 +455,6 @@ Professional model fell out of favor, and the Community Era emerged circa 1970
 - Improve officer morale by giving them more flexibility
 - Improve communication between agencies
 
-Broken Windows Theory
-- Zimbardo’s experiment in Palo Alto & Bronx
-- If poor community conditions (e.g., trash, graffiti, loitering) and minor offenses (e.g., drunk in public, prostitution, etc.) go unchecked, more and more serious crime will be allowed to flourish.
-
 --
 
 - Emphasis on:
@@ -483,6 +479,13 @@ Broken Windows Theory
 knitr::include_graphics("broken_windows.jfif")
 ```
 
+???
+
+**Broken Windows Theory**
+- Summarize Zimbardo’s experiment in Palo Alto & Bronx
+- ***What's the lesson here for the police?***
+  - If poor community conditions (e.g., trash, graffiti, loitering) and minor offenses (e.g., drunk in public, prostitution, etc.) go unchecked, more and more serious crime will be allowed to flourish.
+
 ---
 class: top
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/08/Black_Lives_Matter_Sign_-_Minneapolis_Protest_%2822632545857%29.jpg)
@@ -506,6 +509,12 @@ background-size: 30%
 --
 
 - President Obama's [Task Force on Policing in the 21st Century](https://cops.usdoj.gov/RIC/Publications/cops-p341-pub.pdf)
+
+???
+
+6 pillars of reform: build trust and legitimacy, policy/oversight, technology and social media, community policing and crime reduction, training/education, safety/wellness
+
+***10 years later: has this report had any impact on policing?***
 
 --
 
