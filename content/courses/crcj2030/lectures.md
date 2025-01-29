@@ -12,7 +12,7 @@ type: docs
 weight: 1
 ---
 
-On this page, you'll find links to slides for each lecture. Words that appear in <span style="color:red">red text</span> on the slides link to supplemental materials on the web.
+On this page, you'll find links to slides for each lecture. Words that appear in <span style="color:FF2400">red text</span> on the slides link to supplemental materials on the web.
 
 *Please note these are merely* ***skeletons.*** *In class, we'll discuss the material in much greater detail.* 
 
