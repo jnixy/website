@@ -1,0 +1,23 @@
+body {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.remark-slide-content {
+  font-size: 1.2em;
+}
+
+.references-font {
+  font-size: 15px;
+}
