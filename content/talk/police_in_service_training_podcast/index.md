@@ -12,7 +12,7 @@ featured: false
 image:
   caption: ""
   focal_point: Center
-  preview_only: true
+  preview_only: false
 links:
 - icon: spotify
   icon_pack: fab
