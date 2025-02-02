@@ -354,7 +354,7 @@ class: top
 
   - How do mayors and city council members influence policing?
   
-```{r, echo=FALSE, fig.align='center', out.width = "30%"}
+```{r, echo=FALSE, fig.align='center', out.width = "25%"}
 knitr::include_graphics("stothert.jpg")
 ```
 --
