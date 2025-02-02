@@ -3,7 +3,7 @@ title: "Chapter 2"
 subtitle: "Policing in the American Context"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 8, 2022"
+date: "Feb. 3, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -34,7 +34,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 8, 2022]
+.white[February 3, 2025]
 
 ---
 class: top
@@ -188,9 +188,8 @@ class: top
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "90%"}
-knitr::include_graphics("gallup_police.png")
-```
+<iframe title="% of Americans who have &quot;a great deal&quot; or &quot;quite a lot&quot; of confidence in the police" aria-label="Interactive line chart" id="datawrapper-chart-6yuWq" src="https://datawrapper.dwcdn.net/6yuWq/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="423" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
 
 ???
 
@@ -208,9 +207,8 @@ class: top
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "90%"}
-knitr::include_graphics("gallup.png")
-```
+<iframe title="Americans' Confidence in Institutions" aria-label="Interactive line chart" id="datawrapper-chart-pLzzH" src="https://datawrapper.dwcdn.net/pLzzH/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
 
 ???
 
@@ -302,10 +300,18 @@ class: top
 --
 
   - How does POTUS influence policing?
-  
-```{r, echo=FALSE, fig.align='center', out.width = "50%"}
+
+.pull-left[  
+```{r, echo=FALSE, fig.align='center', out.width = "70%"}
 knitr::include_graphics("biden.jpg")
 ```
+]
+
+.pull-right[
+```{r, echo=FALSE, fig.align='center', out.width = "70%"}
+knitr::include_graphics("trump.jpg")
+```
+]
 
 ???
 
@@ -327,7 +333,7 @@ class: top
   - How do governors influence policing?
   
 ```{r, echo=FALSE, fig.align='center', out.width = "30%"}
-knitr::include_graphics("ricketts.jpg")
+knitr::include_graphics("pillen.jpg")
 ```
 
 ???
@@ -348,7 +354,7 @@ class: top
 
   - How do mayors and city council members influence policing?
   
-```{r, echo=FALSE, fig.align='center', out.width = "25%"}
+```{r, echo=FALSE, fig.align='center', out.width = "30%"}
 knitr::include_graphics("stothert.jpg")
 ```
 --
@@ -599,7 +605,7 @@ PERF is a nonprofit founded in 1976
 
 --
 
-- [National Police Foundation](https://www.policefoundation.org/)
+- [National Policing Institute](https://www.policinginstitute.org/)
 
 ???
 
