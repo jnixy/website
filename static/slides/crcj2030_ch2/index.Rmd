@@ -426,25 +426,31 @@ class: top
 
 --
 
-- What are some of your favorite fictional movies that depict police characters?
+<details>
+  <summary>What are some of your favorite fictional movies that depict police characters?</summary>
 
---
-
-  - Some of mine are *Beverly Hills Cop*, *Die Hard*, *Training Day*, *The Departed*, and *Blue Streak*
+  <br>
   
---
-
-- What about television shows? 
-
---
-
-  - My favorites were *Brooklyn Nine-Nine* and *Reno 911!*
+  Some of mine are <em>Beverly Hills Cop, Die Hard, Training Day, The Departed,</em> and <em>Blue Streak</em>
+</details>
 
 --
 
-  - But don't forget reality shows like *COPS* and *Live PD*
+<br>
+
+<details>
+  <summary>What about television shows?</summary>
+
+  <br>
+  
+  My favorites were <em>Brooklyn Nine-Nine</em> and <em>Reno 911!</em>
+  
+  And don't forget reality shows like <em>COPS</em> and <em>Live PD</em>
+</details>
 
 --
+
+<br>
 
 - ***Do you think these depictions influence our expectations of the police?***
 
