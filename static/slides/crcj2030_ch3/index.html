@@ -4,8 +4,8 @@
     <title>Chapter 3</title>
     <meta charset="utf-8" />
     <meta name="author" content="Justin Nix" />
-    <meta name="date" content="2022-02-15" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <meta name="date" content="2025-02-10" />
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
@@ -32,7 +32,7 @@ background-size: 10%
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-.white[February 15, 2022]
+.white[February 10, 2025]
 
 ---
 class: top
@@ -45,22 +45,53 @@ How many police departments exist in the United States?
 
 --
 
-- According to the [Bureau of Justice Statistics](https://bjs.ojp.gov/content/pub/pdf/lpd16p.pdf):
-
---
-
-|Agency Type             |   N   |
-|:-----------------------|------:|
-|   Federal              |83     |
-|   Tribal               |280    |
-|   State                |49     |
-|   Local                |12,261 |
-|   Sheriff              |3,012  |
-|   Special jurisdiction*|1,733  |
-|   Other*               |638    |
-|   **Total**            |18,056 |
-
-.small[\* From [CSLLEA (2008)](https://www.bjs.gov/index.cfm/dataonline/content/index.cfm?ty=pbdetail&amp;iid=2216)]
+&lt;details&gt;
+  &lt;summary&gt;According to the &lt;a href="https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/csllea18st.pdf" target="_blank"&gt;Bureau of Justice Statistics&lt;/a&gt;:&lt;/summary&gt;
+  &lt;br&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Agency Type&lt;/th&gt;
+        &lt;th&gt;N&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Federal&lt;/td&gt;
+        &lt;td style="text-align: right;"&gt;94&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Tribal&lt;/td&gt;
+        &lt;td style="text-align: right;"&gt;217&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;State&lt;/td&gt;
+        &lt;td style="text-align: right;"&gt;49&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Local&lt;/td&gt;
+        &lt;td style="text-align: right;"&gt;11,824&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Sheriff&lt;/td&gt;
+        &lt;td style="text-align: right;"&gt;3,051&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Special jurisdiction&lt;/td&gt;
+        &lt;td style="text-align: right;"&gt;1,753&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Other&lt;/td&gt;
+        &lt;td style="text-align: right;"&gt;647&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;b&gt;Total&lt;/b&gt;&lt;/td&gt;
+        &lt;td style="text-align: right;"&gt;&lt;b&gt;17,635&lt;/b&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+  &lt;br&gt;
+&lt;/details&gt;
 
 ???
 
@@ -68,11 +99,11 @@ Most local agencies are very small (fewer than 25 officers)
 
 *Other* agencies are primarily county constable agencies in Texas
 
-All told, there are ~700K full-time, sworn police officers at the state and local levels
-- Another 350K full-time civilian employees
-- And another 100K part-time sworn/civilian employees
+All told, there are ~780K full-time, sworn police officers at the state and local levels
+- Another 427K civilian employees
 
-Roughly 132K federal employees
+Roughly 137K federal employees employed by 94 federal agencies (including 45 Offices of Inspector Generals)
+- Not including US Armed Forces, officers stationed overseas, or agencies with confidentiality restrictions, such as the Federal Air Marshal Service.
 
 As we've discussed, there is no single agency that oversees all of these 18K agencies
 - Their powers and responsibilities are determined/bounded by their jurisdiction
@@ -903,6 +934,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

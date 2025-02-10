@@ -3,7 +3,7 @@ title: "Chapter 3"
 subtitle: "Police Organizations"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 15, 2022"
+date: "Feb. 10, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -34,7 +34,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 15, 2022]
+.white[February 10, 2025]
 
 ---
 class: top
@@ -47,22 +47,53 @@ How many police departments exist in the United States?
 
 --
 
-- According to the [Bureau of Justice Statistics](https://bjs.ojp.gov/content/pub/pdf/lpd16p.pdf):
-
---
-
-|Agency Type             |   N   |
-|:-----------------------|------:|
-|   Federal              |83     |
-|   Tribal               |280    |
-|   State                |49     |
-|   Local                |12,261 |
-|   Sheriff              |3,012  |
-|   Special jurisdiction*|1,733  |
-|   Other*               |638    |
-|   **Total**            |18,056 |
-
-.small[\* From [CSLLEA (2008)](https://www.bjs.gov/index.cfm/dataonline/content/index.cfm?ty=pbdetail&iid=2216)]
+<details>
+  <summary>According to the <a href="https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/csllea18st.pdf" target="_blank">Bureau of Justice Statistics</a>:</summary>
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th>Agency Type</th>
+        <th>N</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Federal</td>
+        <td style="text-align: right;">94</td>
+      </tr>
+      <tr>
+        <td>Tribal</td>
+        <td style="text-align: right;">217</td>
+      </tr>
+      <tr>
+        <td>State</td>
+        <td style="text-align: right;">49</td>
+      </tr>
+      <tr>
+        <td>Local</td>
+        <td style="text-align: right;">11,824</td>
+      </tr>
+      <tr>
+        <td>Sheriff</td>
+        <td style="text-align: right;">3,051</td>
+      </tr>
+      <tr>
+        <td>Special jurisdiction</td>
+        <td style="text-align: right;">1,753</td>
+      </tr>
+      <tr>
+        <td>Other</td>
+        <td style="text-align: right;">647</td>
+      </tr>
+      <tr>
+        <td><b>Total</b></td>
+        <td style="text-align: right;"><b>17,635</b></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+</details>
 
 ???
 
@@ -70,11 +101,11 @@ Most local agencies are very small (fewer than 25 officers)
 
 *Other* agencies are primarily county constable agencies in Texas
 
-All told, there are ~700K full-time, sworn police officers at the state and local levels
-- Another 350K full-time civilian employees
-- And another 100K part-time sworn/civilian employees
+All told, there are ~780K full-time, sworn police officers at the state and local levels
+- Another 427K civilian employees
 
-Roughly 132K federal employees
+Roughly 137K federal employees employed by 94 federal agencies (including 45 Offices of Inspector Generals)
+- Not including US Armed Forces, officers stationed overseas, or agencies with confidentiality restrictions, such as the Federal Air Marshal Service.
 
 As we've discussed, there is no single agency that oversees all of these 18K agencies
 - Their powers and responsibilities are determined/bounded by their jurisdiction
@@ -683,7 +714,7 @@ For police, it's the chief or the sheriff at the top of the department.
 
 --
 
-  - See for example [OPD](https://public.powerdms.com/OPDEP1/tree/documents/2547925) and [LAPD](https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/2021/12/Org_chart_DP12_11232021.pdf) organizational charts...
+  - See for example [OPD](https://public.powerdms.com/OPDEP1/tree/documents/2547925) and [LAPD](https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/11x17-Organizational-Chart-2024-DP-1.pdf) organizational charts...
   
 ???
 
