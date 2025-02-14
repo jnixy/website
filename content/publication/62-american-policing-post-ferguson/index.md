@@ -12,7 +12,7 @@ publication = "*Fordham Urban Law Journal*"
 publication_types = ["2"]
 
 # Date the paper was published.
-date = 2017-01-01T10:00:00Z
+date = 2017-08-01T10:00:00Z
 
 # Date this page was created.
 publishdate = 2025-02-14T11:00:00Z
@@ -39,7 +39,7 @@ external_link = ""
 slides = ""
 
 # Links (optional).
-url_pdf = "nix_fordham_urban_law_journal.pdf"
+url_pdf = "/files/pdfs/nix_fordham_urban_law_journal.pdf"
 url_slides = ""
 url_video = ""
 url_code = ""
