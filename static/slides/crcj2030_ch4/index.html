@@ -4,8 +4,8 @@
     <title>Chapter 4</title>
     <meta charset="utf-8" />
     <meta name="author" content="Justin Nix" />
-    <meta name="date" content="2022-02-22" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <meta name="date" content="2025-03-10" />
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
@@ -33,7 +33,7 @@ background-size: 10%
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-.white[February 22, 2022]
+.white[March 10, 2025]
 
 ---
 class: top
@@ -331,8 +331,8 @@ class: top
 Types of academies:
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="academy_types.png" alt="(Source: BJS - State and Local Law Enforcement Training Academies, 2018)" width="40%" /&gt;
-&lt;p class="caption"&gt;(Source: BJS - State and Local Law Enforcement Training Academies, 2018)&lt;/p&gt;
+&lt;img src="academy_types.png" alt="(Source: BJS - State and Local Law Enforcement Training Academies, 2022)" width="85%" /&gt;
+&lt;p class="caption"&gt;(Source: BJS - State and Local Law Enforcement Training Academies, 2022)&lt;/p&gt;
 &lt;/div&gt;
 
 ---
@@ -347,8 +347,8 @@ class: top
 --
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="recruit_race.png" alt="(Source: BJS - State and Local Law Enforcement Training Academies, 2018)" width="60%" /&gt;
-&lt;p class="caption"&gt;(Source: BJS - State and Local Law Enforcement Training Academies, 2018)&lt;/p&gt;
+&lt;img src="recruit_race.png" alt="(Source: BJS - State and Local Law Enforcement Training Academies, 2022)" width="75%" /&gt;
+&lt;p class="caption"&gt;(Source: BJS - State and Local Law Enforcement Training Academies, 2022)&lt;/p&gt;
 &lt;/div&gt;
 
 ---
@@ -376,7 +376,7 @@ So here's our chance to teach these people how to be good cops.
   
 --
 
-- Teaching methods and curricula [vary significantly](https://bjs.ojp.gov/content/pub/pdf/slleta13.pdf) across jurisdictions
+- Teaching methods and curricula [vary significantly](https://bjs.ojp.gov/document/slletar22st.pdf) across jurisdictions
 
 --
 
@@ -575,6 +575,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

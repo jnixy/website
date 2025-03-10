@@ -3,7 +3,7 @@ title: "Chapter 4"
 subtitle: "Becoming a Cop"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 22, 2022"
+date: "Mar. 10, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 22, 2022]
+.white[March 10, 2025]
 
 ---
 class: top
@@ -333,7 +333,7 @@ class: top
 
 Types of academies:
 
-```{r, echo=FALSE, fig.align='center', out.width = "40%", fig.cap = "(Source: BJS - State and Local Law Enforcement Training Academies, 2018)"}
+```{r, echo=FALSE, fig.align='center', out.width = "85%", fig.cap = "(Source: BJS - State and Local Law Enforcement Training Academies, 2022)"}
 knitr::include_graphics("academy_types.png")
 ```
 
@@ -348,7 +348,7 @@ class: top
 
 --
 
-```{r, echo=FALSE, fig.align='center', out.width = "60%", fig.cap = "(Source: BJS - State and Local Law Enforcement Training Academies, 2018)"}
+```{r, echo=FALSE, fig.align='center', out.width = "75%", fig.cap = "(Source: BJS - State and Local Law Enforcement Training Academies, 2022)"}
 knitr::include_graphics("recruit_race.png")
 ```
 
@@ -377,7 +377,7 @@ So here's our chance to teach these people how to be good cops.
   
 --
 
-- Teaching methods and curricula [vary significantly](https://bjs.ojp.gov/content/pub/pdf/slleta13.pdf) across jurisdictions
+- Teaching methods and curricula [vary significantly](https://bjs.ojp.gov/document/slletar22st.pdf) across jurisdictions
 
 --
 
