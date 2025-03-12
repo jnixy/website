@@ -3,7 +3,7 @@ title: "Chapter 5"
 subtitle: "Police Subculture"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 1, 2022"
+date: "Mar. 12, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 1, 2022]
+.white[March 12, 2025]
 
 ---
 class: top
@@ -137,6 +137,11 @@ Police subculture = shared values and norms, and the established patterns of beh
 Social institutions *construct* and *maintain* culture
 
 ---
+class: middle, center, inverse
+
+# Sources of Police Subculture
+
+---
 class: top
 
 # Sources of Police Subculture
@@ -147,7 +152,7 @@ class: top
 
 --
 
-- Starts with basic and field training
+- Starts with [basic](https://nyupress.org/9781479813278/before-the-badge/) and [field training](https://journals.sagepub.com/doi/full/10.1177/0011128714545829)
 
 --
 
@@ -264,7 +269,7 @@ class: top
 
 - Prosecutors and judges
 
-  - E.G., newly elected Manhattan D.A. Alvin Bragg [recently announced](https://www.nytimes.com/2022/01/08/nyregion/alvin-bragg-police-chief-eric-adams.html) a policy to "avoid seeking jail or prison time for all but the most serious crimes, and to cease charging a number of lower level crimes"
+  - E.G., when Manhattan D.A. Alvin Bragg [announced](https://www.nytimes.com/2022/01/08/nyregion/alvin-bragg-police-chief-eric-adams.html) a policy to "avoid seeking jail or prison time for all but the most serious crimes, and to cease charging a number of lower level crimes"
   
 --
 
@@ -280,7 +285,8 @@ class: center, middle, inverse
 ## Police subculture 👉 officer perceptions and behaviors
 
 ---
-class: top
+class: top, bg_war
+
 
 # Components of Police Subculture
 
@@ -331,7 +337,7 @@ Officers are basically always working on suspicions. A key question we'll wrestl
 Maybe you've heard of the "blue wall of silence." Unclear how widespread this is, but there are certainly anecdotal accounts of officers covering for or looking the other way during peer misconduct
 
 ---
-class: top
+class: top, bg_van
 
 # Components of Police Subculture
 
@@ -377,12 +383,12 @@ Again, the **danger imperative** = a cultural frame that emphasizes **violence**
 | 1990s  |        68        |        59       |   36  |
 | 2000s  |        57        |        71       |   43  |
 | 2010s  |        53        |        52       |   58  |
-| 2020   |        48        |        44       |  172  |
+| 2020s  |        54        |        48       |   p67  |
 
 <br>
 <br>
 <br>
-.small[Source: National Law Enforcement Memorial and Museum, [2020 Law Enforcement Officers Fatality Report](https://www.aamva.org/2020-LE-Officers-Fatalities-Report/)]
+.small[Source: National Law Enforcement Memorial and Museum, [2024 Law Enforcement Officers Fatality Report](https://nleomf.org/wp-content/uploads/2025/01/2024-Fatalites-Report-FINAL.pdf)]
 
 ---
 class: top, center
@@ -412,3 +418,43 @@ p.caption {
   color: gray;
 }
 </style>
+
+```{css, echo = F}
+.bg_war {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_war::before {    
+      content: "";
+      background-image: url('police_locker_room.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+```
+
+```{css, echo = F}
+.bg_van {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_van::before {    
+      content: "";
+      background-image: url('van_maanen_quote.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+```

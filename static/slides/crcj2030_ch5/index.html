@@ -4,8 +4,8 @@
     <title>Chapter 5</title>
     <meta charset="utf-8" />
     <meta name="author" content="Justin Nix" />
-    <meta name="date" content="2022-03-01" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <meta name="date" content="2025-03-12" />
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
@@ -33,7 +33,7 @@ background-size: 10%
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-.white[March 1, 2022]
+.white[March 12, 2025]
 
 ---
 class: top
@@ -135,6 +135,11 @@ Police subculture = shared values and norms, and the established patterns of beh
 Social institutions *construct* and *maintain* culture
 
 ---
+class: middle, center, inverse
+
+# Sources of Police Subculture
+
+---
 class: top
 
 # Sources of Police Subculture
@@ -145,7 +150,7 @@ class: top
 
 --
 
-- Starts with basic and field training
+- Starts with [basic](https://nyupress.org/9781479813278/before-the-badge/) and [field training](https://journals.sagepub.com/doi/full/10.1177/0011128714545829)
 
 --
 
@@ -259,7 +264,7 @@ class: top
 
 - Prosecutors and judges
 
-  - E.G., newly elected Manhattan D.A. Alvin Bragg [recently announced](https://www.nytimes.com/2022/01/08/nyregion/alvin-bragg-police-chief-eric-adams.html) a policy to "avoid seeking jail or prison time for all but the most serious crimes, and to cease charging a number of lower level crimes"
+  - E.G., when Manhattan D.A. Alvin Bragg [announced](https://www.nytimes.com/2022/01/08/nyregion/alvin-bragg-police-chief-eric-adams.html) a policy to "avoid seeking jail or prison time for all but the most serious crimes, and to cease charging a number of lower level crimes"
   
 --
 
@@ -275,7 +280,8 @@ class: center, middle, inverse
 ## Police subculture 👉 officer perceptions and behaviors
 
 ---
-class: top
+class: top, bg_war
+
 
 # Components of Police Subculture
 
@@ -326,7 +332,7 @@ Officers are basically always working on suspicions. A key question we'll wrestl
 Maybe you've heard of the "blue wall of silence." Unclear how widespread this is, but there are certainly anecdotal accounts of officers covering for or looking the other way during peer misconduct
 
 ---
-class: top
+class: top, bg_van
 
 # Components of Police Subculture
 
@@ -372,12 +378,12 @@ Again, the **danger imperative** = a cultural frame that emphasizes **violence**
 | 1990s  |        68        |        59       |   36  |
 | 2000s  |        57        |        71       |   43  |
 | 2010s  |        53        |        52       |   58  |
-| 2020   |        48        |        44       |  172  |
+| 2020s  |        54        |        48       |   p67  |
 
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-.small[Source: National Law Enforcement Memorial and Museum, [2020 Law Enforcement Officers Fatality Report](https://www.aamva.org/2020-LE-Officers-Fatalities-Report/)]
+.small[Source: National Law Enforcement Memorial and Museum, [2024 Law Enforcement Officers Fatality Report](https://nleomf.org/wp-content/uploads/2025/01/2024-Fatalites-Report-FINAL.pdf)]
 
 ---
 class: top, center
@@ -403,6 +409,46 @@ class: top, center
 p.caption {
   font-size: 0.5em;
   color: gray;
+}
+&lt;/style&gt;
+
+&lt;style type="text/css"&gt;
+.bg_war {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_war::before {    
+      content: "";
+      background-image: url('police_locker_room.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+&lt;/style&gt;
+
+&lt;style type="text/css"&gt;
+.bg_van {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_van::before {    
+      content: "";
+      background-image: url('van_maanen_quote.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
 }
 &lt;/style&gt;
     </textarea>
@@ -453,6 +499,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
