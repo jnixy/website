@@ -4,8 +4,8 @@
     <title>Chapter 6</title>
     <meta charset="utf-8" />
     <meta name="author" content="Justin Nix" />
-    <meta name="date" content="2022-03-01" />
-    <script src="libs/header-attrs-2.11/header-attrs.js"></script>
+    <meta name="date" content="2025-03-24" />
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
@@ -33,7 +33,7 @@ background-size: 10%
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;
-.white[March 8, 2022]
+.white[March 24, 2025]
 
 ---
 class: center, middle, inverse
@@ -47,15 +47,13 @@ Listen to this ~50 minute episode of the [Probable Causation Podcast](https://ww
 (or if you prefer you can read the [transcript](https://static1.squarespace.com/static/5c8e59f6e8ba44fdeb42f85f/t/60be34b912a67c77bb79a448/1623078074837/Episode44_Ornaghi_Transcript.pdf))
 
 ---
-class: top
+class: top, bg_choices
 
 # Discretion
 
 --
 
 - The freedom to act according to one's own judgment and conscience
-
-&lt;img src="choices.png" width="30%" style="display: block; margin: auto;" /&gt;
 
 --
 
@@ -66,6 +64,8 @@ class: top
   - Stops and arrests, prosecution, sentencing, probation and parole
   
 --
+
+&lt;br&gt;
 
 - What potential *benefits* does discretion offer?
 
@@ -252,7 +252,7 @@ But recall that police decisions not to invoke the law are **low visibility** de
 - ***How can we increase oversight and accountability for police decisions not to invoke the law?***
 
 ---
-class: top
+class: top, bg_blackjack
 
 # The Decision to Enforce
 
@@ -267,6 +267,8 @@ class: top
   2. *How* to intervene
   
 --
+
+&lt;br&gt;
 
 - Consider how officers used their discretion in [this incident](https://www.cnn.com/2014/03/04/us/court-police-chase/index.html)
 
@@ -288,8 +290,6 @@ In this case, the Court agreed that the officers have qualified immunity, so lon
 --
 
 - Think of it like an incredibly high-stakes game of [blackjack](https://www.police1.com/police-products/pursuit-management-technology/articles/16-to-a-dealers-10-could-blackjack-odds-help-inform-police-pursuit-policies-Y9x2Avr8SWzJG1c4/)
-
-&lt;img src="blackjack.png" width="25%" style="display: block; margin: auto;" /&gt;
 
 ???
 
@@ -593,6 +593,46 @@ p.caption {
   color: gray;
 }
 &lt;/style&gt;
+
+&lt;style type="text/css"&gt;
+.bg_choices {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_choices::before {    
+      content: "";
+      background-image: url('choices.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.15;
+      z-index: -1;
+}
+&lt;/style&gt;
+
+&lt;style type="text/css"&gt;
+.bg_blackjack {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_blackjack::before {    
+      content: "";
+      background-image: url('blackjack.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.15;
+      z-index: -1;
+}
+&lt;/style&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -641,6 +681,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable

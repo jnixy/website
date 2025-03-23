@@ -3,7 +3,7 @@ title: "Chapter 6"
 subtitle: "Police Discretion and Behavior"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 1, 2022"
+date: "Mar. 24, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 8, 2022]
+.white[March 24, 2025]
 
 ---
 class: center, middle, inverse
@@ -49,17 +49,13 @@ Listen to this ~50 minute episode of the [Probable Causation Podcast](https://ww
 (or if you prefer you can read the [transcript](https://static1.squarespace.com/static/5c8e59f6e8ba44fdeb42f85f/t/60be34b912a67c77bb79a448/1623078074837/Episode44_Ornaghi_Transcript.pdf))
 
 ---
-class: top
+class: top, bg_choices
 
 # Discretion
 
 --
 
 - The freedom to act according to one's own judgment and conscience
-
-```{r, echo=FALSE, fig.align='center', out.width = "30%"}
-knitr::include_graphics("choices.png")
-```
 
 --
 
@@ -70,6 +66,8 @@ knitr::include_graphics("choices.png")
   - Stops and arrests, prosecution, sentencing, probation and parole
   
 --
+
+<br>
 
 - What potential *benefits* does discretion offer?
 
@@ -256,7 +254,7 @@ But recall that police decisions not to invoke the law are **low visibility** de
 - ***How can we increase oversight and accountability for police decisions not to invoke the law?***
 
 ---
-class: top
+class: top, bg_blackjack
 
 # The Decision to Enforce
 
@@ -271,6 +269,8 @@ class: top
   2. *How* to intervene
   
 --
+
+<br>
 
 - Consider how officers used their discretion in [this incident](https://www.cnn.com/2014/03/04/us/court-police-chase/index.html)
 
@@ -292,10 +292,6 @@ In this case, the Court agreed that the officers have qualified immunity, so lon
 --
 
 - Think of it like an incredibly high-stakes game of [blackjack](https://www.police1.com/police-products/pursuit-management-technology/articles/16-to-a-dealers-10-could-blackjack-odds-help-inform-police-pursuit-policies-Y9x2Avr8SWzJG1c4/)
-
-```{r, echo=FALSE, fig.align='center', out.width = "25%"}
-knitr::include_graphics("blackjack.png")
-```
 
 ???
 
@@ -602,3 +598,43 @@ p.caption {
   color: gray;
 }
 </style>
+
+```{css, echo = F}
+.bg_choices {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_choices::before {    
+      content: "";
+      background-image: url('choices.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.15;
+      z-index: -1;
+}
+```
+
+```{css, echo = F}
+.bg_blackjack {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_blackjack::before {    
+      content: "";
+      background-image: url('blackjack.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.15;
+      z-index: -1;
+}
+```
