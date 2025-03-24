@@ -429,7 +429,7 @@ Respect is everything. Without it, police can’t be effective
 - The way to respond to citizens who challenged police was with force
 
 ---
-class: top
+class: top, bg_danger
 
 # Classic Studies of Police Discretion
 
@@ -439,15 +439,11 @@ Jerome Skolnick: [Justice without Trial](https://www.google.com/books/edition/Ju
 
 ???
 
-- Police have the discretion to administer justice with no trial
+- Police have the discretion to administer "justice" with no trial
 
 --
 
 - "Symbolic assailants" and "danger signifiers"
-
-```{r, echo=FALSE, fig.align='center', out.width = "35%"}
-knitr::include_graphics("danger.png")
-```
 
 ???
 
@@ -459,6 +455,9 @@ Behavior, location, race, dress, age, sex, etc. = “danger signifiers”
 
 - Tension between "law" and "order"
 
+  - *Laws* set rules by which police must abide
+  
+  - *Order* cannot always be achieved/restored within the bounds of the law 🤷
 ???
 
 **Tension between law and order**
@@ -520,7 +519,7 @@ James Q. Wilson’s book was an ethnographic study of 8 police agencies in th 19
 - Assist community groups in preventing crimes and solving problems
   
 ---
-class: top
+class: top, bg_news_crime
 
 # Media Coverage and Police Behavior
 
@@ -635,6 +634,46 @@ p.caption {
       bottom: 0px;
       left: 0px;
       opacity: 0.15;
+      z-index: -1;
+}
+```
+
+```{css, echo = F}
+.bg_danger {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_danger::before {    
+      content: "";
+      background-image: url('danger.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.15;
+      z-index: -1;
+}
+```
+
+```{css, echo = F}
+.bg_news_crime {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_news_crime::before {    
+      content: "";
+      background-image: url('news_crime.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.10;
       z-index: -1;
 }
 ```
