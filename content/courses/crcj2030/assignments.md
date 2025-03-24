@@ -61,7 +61,7 @@ Most of this information can probably be found on the agency's website. You coul
 
 Then, in a paragraph, tell me if you think this process is sufficient. In other words, do you trust that this process adequately prepares individuals for police work? Are there any areas where you see room for improvement?
 
-**Papers are due at the beginning of class on Monday, March 10th**. They should be typed and adhere to APA formatting (see [here](https://owl.english.purdue.edu/owl/resource/560/01/) for additional information. You may upload them as a Word or PDF document.
+**Papers are due at the beginning of class on Monday, March 10th**. They should be typed and adhere to APA formatting (see [here](https://owl.english.purdue.edu/owl/resource/560/01/) for additional information). You may upload them as a Word or PDF document.
 
 * Title page including your name, the date, and course number
 * 12 point font, Times New Roman, black
