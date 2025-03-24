@@ -29,13 +29,49 @@ Your essay should be uploaded to Canvas no later than **10AM on Monday, February
 
 </br>
 
-<!--
-
 ## Assignment 2: Reading Quiz
 
-Assignment #2 is a reading quiz I've posted to our course page on Canvas. It has ten multiple-choice questions drawn from the material we've covered in Chapters 5 and 6. It should be completed by **5PM on Sunday, March 20th**.
+Due to inclement weather, I'm requiring you to complete Assignment #2 - a reading quiz - in lieu of today's lecture.
+
+* It will be worth 5% of your course grade.
+* There are ten questions (multiple choice, true/false, and short answer) related to the material we've covered up to this point in the semester.
+* Once you start the quiz, you will have 60 minutes to complete and submit it.
+* Your quiz must be submitted no later than **10AM on Wednesday, February 19th**. 
 
 </br>
+
+## Assignment 3: Becoming a Police Officer
+
+Each of you have been randomly assigned a US state. I want you to choose any municipal police or sheriff's department in that state and tell me how to become a sworn officer with said agency. Things you should cover include:
+
+* Hiring decision
+  - Minimum requirements to apply?
+  - Testing requirements (e.g., written exam, physical exam)?
+  - Interview process?
+  - Automatic disqualifiers (e.g., restrictions on prior criminal record, visible tattoos)?
+* Training Academy
+  - In-house, regional, or state operated?
+  - Length?
+  - Topics covered (as well as time spent on each, if possible)?
+* Field Training
+  - Length?
+* Overall estimated length of time from application to first day of patrol
+
+Most of this information can probably be found on the agency's website. You could also call the agency and ask for materials related to the application/training processes.
+
+Then, in a paragraph, tell me if you think this process is sufficient. In other words, do you trust that this process adequately prepares individuals for police work? Are there any areas where you see room for improvement?
+
+**Papers are due at the beginning of class on Monday, March 10th**. They should be typed and adhere to APA formatting (see [here](https://owl.english.purdue.edu/owl/resource/560/01/) for additional information. You may upload them as a Word or PDF document.
+
+* Title page including your name, the date, and course number
+* 12 point font, Times New Roman, black
+* 1" margins all around
+* Double spaced
+* 2 - 3 pages in length
+
+</br>
+
+<!--
 
 ## Assignment 3: Reflecting on *Kansas v. Glover*
 
