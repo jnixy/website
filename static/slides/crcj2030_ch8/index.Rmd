@@ -3,7 +3,7 @@ title: "Chapter 8"
 subtitle: "Community Policing"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 22, 2022"
+date: "Mar. 31, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 22, 2022]
+.white[March 31, 2025]
 
 ---
 class: middle, center
@@ -325,24 +325,20 @@ class: top
 
 --
 
-| Population Served   | Has a written COP plan |
-|---------------------|:----------------------:|
-| 1 million+          |           80%          |
-| 500,000-999,999     |           72%          |
-| 250,000-499,999     |           78%          |
-| 100,000-249,999     |           62%          |
-| 50,000-99,999       |           62%          |
-| 25,000-49,999       |           57%          |
-| 10,000-24,999       |           51%          |
-| 2,500-9,999         |           38%          |
-| 2,499 or fewer      |           36%          |
-| **All departments** |           **42%**      |
+<iframe title="Percentage of local police departments with a written COP plan" aria-label="Bar Chart" id="datawrapper-chart-dEWT8" src="https://datawrapper.dwcdn.net/dEWT8/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="440" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+</script>
 
-<br>
-<br>
-<br>
+---
+class: top
 
-.small[Source: [Local Police Departments: Policies and Procedures, 2016](https://bjs.ojp.gov/content/pub/pdf/lpdpp16.pdf)]
+# How prevalent is "Community Policing" today?
+
+--
+
+```{r, echo=FALSE, fig.align='center', out.width = "90%"}
+knitr::include_graphics("local-pd-functions.png")
+```
+<p style="text-align: center;">.small[Source: [Local Police Departments Personnel, 2020](https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/lpdp20.pdf)]</p>
 
 ---
 class: middle, center
