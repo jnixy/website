@@ -38,7 +38,13 @@
     {{ end }}
     {{- .Date.Format "2006" -}}.
 
-    <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+    <p>
+      {{ if .Params.abstract }}
+        <button class="abstract-toggle inline-button">Abstract</button>
+      {{ end }}
+      {{ partial "page_links" (dict "page" . "is_list" 1) }}
+    </p>
+
 
     {{ if .Params.abstract }}
       <button class="abstract-toggle">Abstract</button>

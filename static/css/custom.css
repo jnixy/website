@@ -47,21 +47,25 @@
     color: #555;
 }
 
-/* Abstract toggle button styles */
+/* Inline abstract button styled to match other publication links */
 .abstract-toggle {
-  margin-top: 0.5rem;
-  background-color: #f8f9fa;
-  border: 1px solid #ccc;
-  padding: 5px 10px;
-  font-size: 0.9rem;
+  display: inline-block;
+  background-color: transparent;
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 4px 10px;
+  font-size: 0.85rem;
   border-radius: 4px;
+  text-decoration: none;
+  margin-right: 6px;
   cursor: pointer;
-  color: #333;
-  transition: background-color 0.2s ease;
+  line-height: 1.5;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .abstract-toggle:hover {
-  background-color: #e2e6ea;
+  background-color: #007bff;
+  color: white;
 }
 
 /* Abstract content container */
