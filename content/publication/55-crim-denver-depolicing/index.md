@@ -83,7 +83,7 @@ The figure below shows weekly deviations in policing and crime across Denver's 7
 
 ![fig1](fig1.png)
 
-Mixed effects negative-binomial regression models showed that reductions in pedestrian stops and vehicle stops were associated with increases in violent crimes, while reductions in drug arrests were associated with increases in property crimes. Moreover, there was significant variation across neighborhoods. See Table 1 of the preprint (models displaying all controls are presented in Tables S5-S7). Our results were robust to several different model specifications - see pp. 2-3 of the Supplemental Appendix. 
+Mixed effects negative-binomial regression models showed that reductions in pedestrian stops ~~and vehicle stops~~ were associated with increases in violent and property crimes. ~~while reductions in drug arrests were associated with increases in property crimes.~~ Moreover, there was significant variation across neighborhoods. See Table 1 of the preprint (models displaying all controls are presented in Tables S5-S7). Our results were robust to several different model specifications - see pp. 2-3 of the Supplemental Appendix. 
 
 **How Our Results Square with the Literature**
 
