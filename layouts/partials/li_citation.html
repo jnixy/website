@@ -15,16 +15,6 @@
       {{- .Params.publication | markdownify -}}.
     {{ end }}
 
-    <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
-
-    <span class="article-links">
-      {{ if .Params.abstract }}
-        <a class="btn btn-outline-success abstract-toggle" role="button">Abstract</a>
-      {{ end }}
-      {{ partial "page_links" (dict "page" . "is_list" 1) }}
-    </span>
-
-
   {{ else }}
 
     {{/* MLA Style */}}
@@ -39,20 +29,19 @@
     {{ end }}
     {{- .Date.Format "2006" -}}.
 
-    <span class="article-links">
-      {{ if .Params.abstract }}
-        <a class="btn btn-outline-success abstract-toggle" role="button">Abstract</a>
-      {{ end }}
-      {{ partial "page_links" (dict "page" . "is_list" 1) }}
-    </span>
+  {{ end }}
 
-
+  {{/* === Unified Buttons Row === */}}
+  <div class="article-links">
     {{ if .Params.abstract }}
-      <div class="abstract-content" style="display: none;">
-        {{ .Params.abstract | markdownify }}
-      </div>
+      <a class="btn btn-outline-success abstract-toggle" role="button">Abstract</a>
     {{ end }}
+    {{ partial "page_links" (dict "page" . "is_list" 1) }}
+  </div>
 
+  {{ if .Params.abstract }}
+    <div class="abstract-content" style="display: none;">
+      {{ .Params.abstract | markdownify }}
+    </div>
   {{ end }}
 </div>
-
