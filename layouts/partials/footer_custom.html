@@ -1,12 +1,12 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    document.querySelectorAll(".abstract-toggle").forEach(function (button) {
-      button.addEventListener("click", function () {
-        var abstract = button.nextElementSibling;
-        if (abstract.style.display === "none" || !abstract.style.display) {
-          abstract.style.display = "block";
-        } else {
-          abstract.style.display = "none";
+    document.querySelectorAll(".abstract-toggle").forEach(function (toggle) {
+      toggle.addEventListener("click", function (e) {
+        e.preventDefault();  // prevent jump if it's an <a>
+        const parent = toggle.closest(".pub-list-item");
+        const abstract = parent.querySelector(".abstract-content");
+        if (abstract) {
+          abstract.style.display = (abstract.style.display === "none" || !abstract.style.display) ? "block" : "none";
         }
       });
     });
