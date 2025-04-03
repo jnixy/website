@@ -34,7 +34,7 @@
   {{/* === Unified Buttons Row === */}}
   <div class="article-links">
     {{ if .Params.abstract }}
-      <a class="btn btn-outline-primary abstract-toggle" role="button">Abstract</a>
+      <a class="btn btn-outline-primary my-1 mr-1 btn-sm abstract-toggle" role="button">Abstract</a>
     {{ end }}
     {{ partial "page_links" (dict "page" . "is_list" 1) }}
   </div>
@@ -45,3 +45,4 @@
     </div>
   {{ end }}
 </div>
+
