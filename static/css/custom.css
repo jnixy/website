@@ -73,10 +73,3 @@
   position: relative;
   z-index: 10;
 }
-
-/* Add a buffer to the bottom of the last pub so its abstract doesn't get chopped off */
-body {
-  padding-bottom: 150px;
-}
-
-
