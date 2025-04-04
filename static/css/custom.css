@@ -74,6 +74,6 @@
 
 /* Add a buffer to the bottom of the last pub so its abstract doesn't get chopped off */
 .pub-list-item:last-child {
-  margin-bottom: 150px; /* Increase this value if needed */
+  margin-bottom: 500px; /* Increase this value if needed */
 }
 
