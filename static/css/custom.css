@@ -67,4 +67,6 @@
   padding: 0.75rem;
   border-left: 3px solid #28a745;  /* Adjust to match your forest green if needed */
   font-size: 0.95rem;
+  background-color: #f8f9fa;
+  color: #333;
 }
