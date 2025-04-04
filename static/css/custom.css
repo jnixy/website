@@ -70,10 +70,13 @@
   font-size: 0.95rem;
   background-color: #f8f9fa;
   color: #333;
+  position: relative;
+  z-index: 10;
 }
 
 /* Add a buffer to the bottom of the last pub so its abstract doesn't get chopped off */
-.pub-list-item:last-child {
-  margin-bottom: 500px; /* Increase this value if needed */
+body {
+  padding-bottom: 150px;
 }
+
 
