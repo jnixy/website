@@ -53,10 +53,13 @@
   margin-right: 6px;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
+  color: #28a745 !important;
+  background-color: transparent !important;
 }
 
 .abstract-toggle:hover {
-  /* Let the theme’s hover styles take over */
+  color: #ffffff !important;
+  background-color: #28a745 !important;
 }
 
 /* Abstract content container */
