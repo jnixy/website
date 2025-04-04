@@ -21,7 +21,8 @@ publishDate = 2021-12-01T17:00:00Z
 summary = "The 4 inaugural NIJ LEADS Academics review our first year in the program working with the LEADS Scholars."
 
 # Abstract
-abstract = ""
+abstract = "The National Institute of Justice’s (NIJ) Law Enforcement Advancing Data and Science (LEADS) Program was developed in 2014 to facilitate and support the use of evidence-based practices in US policing by contributing to the professional development of mid-career officers. The program helps officers conduct their own original research projects, attend trainings and conferences, and develop a supportive
+network of peers who are similarly committed to improving policing. In 2019, NIJ piloted a new program, selecting four early career policing scholars to serve as the first cohort of LEADS Academics. This program seeks to promote partnerships, communication, and collaboration between academics and practitioners, an ongoing challenge in the field of police practice and research, but fundamental to the facilitation of evidence-based policing. In this chapter, we discuss the history of LEADS and the purpose of the pilot Academics program, highlight research and progress born during its first year, and chart a map for maximizing its contribution to evidence-based policing moving forward."
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
