@@ -57,6 +57,7 @@
   background-color: transparent !important;
 }
 
+/* Hover effects */
 .abstract-toggle:hover {
   color: #ffffff !important;
   background-color: #28a745 !important;
@@ -70,3 +71,9 @@
   background-color: #f8f9fa;
   color: #333;
 }
+
+/* Add a buffer to the bottom of the last pub so its abstract doesn't get chopped off */
+.pub-list-item:last-child {
+  margin-bottom: 150px; /* Increase this value if needed */
+}
+
