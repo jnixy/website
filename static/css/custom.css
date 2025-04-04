@@ -50,23 +50,18 @@
 /* Inline abstract button styled to match other publication links */
 .abstract-toggle {
   display: inline-block;
-  background-color: transparent;
-  padding: 4px 10px;
-  font-size: 0.85rem;
-  border-radius: 4px;
-  text-decoration: none;
   margin-right: 6px;
   cursor: pointer;
-  line-height: 1.5;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .abstract-toggle:hover {
+  /* Let the theme’s hover styles take over */
 }
 
 /* Abstract content container */
 .abstract-content {
   padding: 0.75rem;
-  border-left: 3px solid #007bff;
+  border-left: 3px solid #28a745;  /* Adjust to match your forest green if needed */
   font-size: 0.95rem;
 }
