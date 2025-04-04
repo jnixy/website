@@ -77,3 +77,8 @@
 footer {
   position: static !important;
 }
+
+.container-publications {
+  overflow: visible !important;
+  height: auto !important;
+}
