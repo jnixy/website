@@ -3,7 +3,7 @@ title: "Chapter 9"
 subtitle: "Policing in the Modern Era"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 24, 2022"
+date: "Apr. 9, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 24, 2022]
+.white[April 9, 2025]
 
 ---
 class: top, center
@@ -115,7 +115,9 @@ Decades of research suggest [procedural justice](https://jnix.netlify.app/files/
 
 --
 
-Diversify departments to reflect the demographics of their communities
+Representative bureaucracy
+
+- [Diversify](https://doi.org/10.1111/1745-9125.12360) departments to reflect the [demographics of their communities](https://www.pnas.org/doi/abs/10.1073/pnas.2213986119)
 
 ---
 class: top
@@ -173,7 +175,7 @@ More data transparency:
   
 --
 
-Civilian oversight
+[Civilian oversight](https://onlinelibrary.wiley.com/doi/full/10.1111/1745-9133.12674)
   
 ---
 class: top
@@ -192,7 +194,7 @@ knitr::include_graphics("bwc.png")
 --
 
 <br>
-- ***Do you think BWCs have improved policing?***
+- ***Do you think BWCs improve policing?***
   
 ---
 class: top
@@ -231,6 +233,10 @@ Use of [social media](https://doi.org/10.1111/1745-9125.12277)
 
 <p style="text-align: center;">.small[Source: PERF & COPS Office (2014), [*Future Trends in Policing*](https://www.policeforum.org/assets/docs/Free_Online_Documents/Leadership/future%20trends%20in%20policing%202014.pdf)]</p>
 
+--
+
+Counterpoint: [Social media, socialization, and pursuing legitimation of police violence](https://onlinelibrary.wiley.com/doi/full/10.1111/1745-9125.12277)
+
 ---
 class: top
 
@@ -250,7 +256,7 @@ Adopt policies that address needs of most at-risk youth / Reduce aggressive enfo
 
 --
 
-School resource officers - but "limit involvement in student discipline"
+School resource officers ... but "limit involvement in student discipline"
 
 ---
 class: top
@@ -323,12 +329,18 @@ background-size: 30%
 
 # A Legitimacy Crisis Renewed
 
-COVID-19 changes everything
+COVID-19 [changes everything](https://onlinelibrary.wiley.com/doi/full/10.1111/1745-9133.12535)
+
+--
 
 George Floyd killed by Officer Derek Chauvin  
 on May 25, 2020
 
+--
+
 "Defund the Police" gains traction
+
+--
 
 [Elevated turnover](https://jnix.netlify.app/files/pdfs/cpp_turnover.pdf) in some agencies
 
@@ -360,7 +372,7 @@ Popular theories:
 
 --
 
-- [De-policing, decreased trust, and emboldened offenders](https://www.denverpost.com/2021/02/24/denver-crime-rate-homicide-shooting-property-crime-police/)
+- [De-policing, decreased trust, and emboldened offenders](https://theconversation.com/more-guns-pandemic-stress-and-a-police-legitimacy-crisis-created-perfect-conditions-for-homicide-spike-in-2020-168823)
 
 --
 

@@ -47,11 +47,11 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 [Community policing](https://jnix.netlify.app/slides/crcj2030_ch8/)
 
-<!--
 ## Chapter 9
 
 [Policing in the modern era](https://jnix.netlify.app/slides/crcj2030_ch9/)
 
+<!--
 ## Chapter 10
 
 [Policing and the law](https://jnix.netlify.app/slides/crcj2030_ch10/)
