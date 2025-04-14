@@ -98,7 +98,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## Week 16/May 5: Review for Final Exam
 
-* Final Exam date still TBD
+* **Exam 3 on May 12th at 9:30AM**
 
 ***
 
