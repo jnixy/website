@@ -51,11 +51,11 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 [Policing in the modern era](https://jnix.netlify.app/slides/crcj2030_ch9/)
 
-<!--
 ## Chapter 10
 
 [Policing and the law](https://jnix.netlify.app/slides/crcj2030_ch10/)
 
+<!--
 ## Chapter 11
 
 [Civil liability and accountability](https://jnix.netlify.app/slides/crcj2030_ch11/)
