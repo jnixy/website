@@ -3,7 +3,7 @@ title: "Chapter 10"
 subtitle: "Policing and the Law"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Apr. 5, 2022"
+date: "Apr. 14, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[April 5, 2022]
+.white[April 14, 2025]
 
 ---
 class: middle, center, inverse
@@ -372,6 +372,19 @@ knitr::include_graphics("smartphone.png")
 - Search of person and immediate vicinity is allowed
 - Search for weapons and/or evidence
 - Traffic offense arrestee can be searched
+
+**Riley**
+- David Riley belonged to the Lincoln Park gang of San Diego. On August 2, 2009, he and others opened fire on a rival gang member driving past them. The shooters then got into Riley's Oldsmobile and drove away. 
+
+- On August 22, 2009, the police pulled Riley over driving a different car; he was driving on expired license registration tags. Because Riley's driver's license was suspended, police policy required that the car be impounded. Before a car is impounded, police are required to perform an inventory search to confirm that the vehicle has all its components at the time of seizure, to protect against liability claims in the future, and to discover hidden contraband. During the search, police located two guns and subsequently arrested Riley for possession of the firearms.
+
+- Riley had his cell phone in his pocket when he was arrested, so a gang unit detective analyzed videos and photographs of Riley making gang signs and other gang indicia that were stored on the phone to determine whether Riley was gang affiliated. Riley was subsequently tied to the shooting on August 2 via ballistics tests, and separate charges were brought to include shooting at an occupied vehicle, attempted murder, and assault with a semi-automatic firearm.
+
+- Before trial, Riley moved to suppress the evidence regarding his gang affiliation that had been acquired through his cell phone. His motion was denied. At trial, a gang expert testified to Riley's membership in the Lincoln Park gang, the rivalry between the gangs involved, and why the shooting could have been gang-related. The jury convicted Riley on all three counts and sentenced to fifteen years to life in prison. The California Court of Appeal, Fourth District, Division 1, affirmed.
+
+***Question***: Was the evidence admitted at trial from Riley's cell phone discovered through a search that violated his Fourth Amendment right to be free from unreasonable searches?
+
+- SCOTUS ruled unanimously in Riley's favor: *warrantless search exception following an arrest exists for the purposes of protecting officer safety and preserving evidence, neither of which is at issue in the search of digital data.*
 
 ---
 class: top
