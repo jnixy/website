@@ -71,9 +71,7 @@ Then, in a paragraph, tell me if you think this process is sufficient. In other 
 
 </br>
 
-<!--
-
-## Assignment 3: Reflecting on *Kansas v. Glover*
+## Assignment 4: Reflecting on *Kansas v. Glover*
 
 For this assignment, you need to read the U.S. Supreme Court's ruling in [Kansas v. Glover (2020)](https://www.supremecourt.gov/opinions/19pdf/18-556_e1pf.pdf) and **write a 500 word reflection essay**. *In your own words*, describe:
 
@@ -85,9 +83,11 @@ For this assignment, you need to read the U.S. Supreme Court's ruling in [Kansas
 
 It should be clear to me that you have carefully read - not just skimmed - the Court's decision based on your response.
 
-Your essay should be uploaded to Canvas no later than **10 AM on Tuesday, April 12th.** 
+Your essay should be uploaded to Canvas no later than **10 PM on Friday, April 18th.** 
 
 </br>
+
+<!--
 
 ## Assignment 4: Matching Quiz
 
