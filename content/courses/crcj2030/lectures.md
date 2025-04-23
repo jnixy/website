@@ -55,11 +55,12 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 [Policing and the law](https://jnix.netlify.app/slides/crcj2030_ch10/)
 
-<!--
+
 ## Chapter 11
 
 [Civil liability and accountability](https://jnix.netlify.app/slides/crcj2030_ch11/)
 
+<!--
 ## Chapter 12
 
 [Deviance, ethics, and professionalism](https://jnix.netlify.app/slides/crcj2030_ch12/)
