@@ -2,7 +2,6 @@
 title: Reflecting on My Promotion!
 categories: []
 date: '2025-04-25T09:00:00Z'
-featured: false
 share: true
 image:
   filename: featured.jpg
