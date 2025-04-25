@@ -2,11 +2,10 @@
 title: Reflecting on My Promotion!
 categories: []
 date: '2025-04-25T09:00:00Z'
-share: true
+featured: false
+featured_image: "featured.png"
 image:
-  filename: featured.jpg
-  placement: 1
-  caption: ""
+  caption: 
   focal_point: smart
 projects: []
 subtitle: ""
