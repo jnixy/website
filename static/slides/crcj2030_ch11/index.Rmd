@@ -212,11 +212,17 @@ background-size: 30%
 
 ???
 
-US v Leon: search warrant later ruled invalid b/c it wasn't supported by PC. Yet the Court upheld the search because the officers acted in good faith. 
+***Allows evidence obtained through a search warrant to be admissible in court, even if it is later deemed invalid, if the police acted in good faith reliance on it.***
 
-Massachusetts v. Sheppard: Officers had a difficult time securing a warrant because it was the weekend. They settled on a form they had previously used for controlled substances. Made some changes, got a judge to sign it at his home. Judge makes a few changes of his own. Trial judge declared the warrant invalid because it lacked particularity, but SCOTUS disagreed. 
+**US v Leon (1984)**: Cops get a search warrant following an informant's tip and surveillance. Later ruled invalid b/c it wasn't supported by PC. 
+- Yet SCOTUS upheld the search because the officers acted in good faith. 
 
-Arizona v. Evans: During a stop, officer's computer shows an outstanding warrant (that had been quashed 17 days prior). Evidence obtained from his search was admissible, because according to the Court, "there was no basis for believing that applying the exclusionary rule in these circumstances would have a significant effect on court employees responsible for letting police know that a warrant has been quashed."
+**Massachusetts v. Sheppard (1984)**: Boston police had a difficult time securing a warrant for a suspected murder because it was the weekend. Detective O'Malley prepares an affidavit listing the evidence he hopes to find at Shepphard's home. They settled on a warrant form they had previously used for controlled substances. Got a judge to review and sign it at his home, but the judge failed to list the items from the affidavit in the warrant. 
+- Trial judge declared the warrant invalid because it lacked particularity 
+- **but SCOTUS disagreed, saying the exclusionary rule is meant to deter police misconduct, not punish the errors of magistrates.**
+
+**Arizona v. Evans (1995)**: During a stop for driving the wrong way on a one way, a Phoenix officer's computer shows an outstanding warrant. During the arrest, Evans drops a hand-rolled cigarette that smelled like marijuana, so officers search the vehicle and find a bag. When they charged him with possession of marijuana, the police were informed that the arrest warrant had been quashed 17 days earlier, and remained on the record due to a clerical error. 
+- Evidence obtained from his search was admissible, because according to the Court, "there was no basis for believing that applying the exclusionary rule in these circumstances would have a significant effect on court employees responsible for letting police know that a warrant has been quashed."
 
 --
 
@@ -226,7 +232,7 @@ Arizona v. Evans: During a stop, officer's computer shows an outstanding warrant
 
 ???
 
-Illegally obtained evidence can be introduced if it was initially discovered during an unlawful search, but later obtained independently by lawful conduct that was untainted by the initial illegality. 
+Illegally obtained evidence can be introduced if it was initially discovered during an unlawful search, but **later obtained independently by lawful conduct that was untainted by the initial illegality** (see *Murray v. United States (1988)*)
 
 --
 
@@ -236,7 +242,15 @@ Illegally obtained evidence can be introduced if it was initially discovered dur
 
 ???
 
-Illegally obtained evidence can be introduced if the prosecutor can prove that such evidence would have been lawfully discovered in the course of a routine, predictable investigation
+see *Brewer v. Williams (1984)* and the "Christian Burial Speech"
+- Robert Williams (an escaped mental patient) is suspected of murdering 10y.o. Pamela Powers after kidnapping her from a Des Moines YMCA on Christmas Eve, 1968.
+- As hundreds of cops and volunteers began to search the area for Pamela's body, Williams surrendered and was arraigned in Davenport.
+- Two detectives drive him to Des Moines to meet with his lawyer, and during the drive suggest he should reveal where the body was before an impending snowstorm. Williams ultimately led them to the body.
+- **Did Williams waive his Miranda rights?** **Was he denied his right to counsel?**
+- Trial court convicted him of 1st degree murder, Iowa Supreme Court affirmed. 
+- He petitioned for a writ of habeas corpus, and ultimately SCOTUS agreed to consider the constitutional issues.
+
+**Illegally obtained evidence can be introduced if the prosecutor can prove that such evidence would have been lawfully discovered in the course of a routine, predictable investigation** 
 
 --
 
@@ -244,7 +258,9 @@ Illegally obtained evidence can be introduced if the prosecutor can prove that s
 
 ???
 
-The exclusionary rule does not prevent the government from introducing illegally gathered evidence to “impeach,” or attack the credibility of, defendants’ testimony at trial. The Supreme Court recognized this exception in Harris v. New York as a truth-testing device to prevent perjury. Even when the government suspects perjury, however, it may only use tainted evidence for impeachment, and may not use it to show guilt.
+*Harris v. New York*: Harris arrested for making 2 sales of heroin to an undercover officer. Before being Mirandized, he asid he made both sales at the request of the officer. This statement wasn't admitted into evidence at trial. But Harris later testifed that he did not make the first sale, and for the second sale it was actually baking powder. The prosecution then used Harris' initial statement in an attempt to impeach his credibility.
+- SCOTUS ruled 5-4 that this did not violate Harris' 5th, 6th, and 14th Amendment Rights. Miranda does not mandate that evidence inadmissible against an accused person be barred **for all purposes** from the trial.
+- The exclusionary rule *does not* prevent the government from introducing illegally gathered evidence to “impeach,” or attack the credibility of, defendants’ testimony at trial. The Supreme Court recognized this exception in *Harris v. New York (1970)* as a truth-testing device to prevent perjury. Even when the government suspects perjury, however, it may only use tainted evidence for impeachment, and may not use it to show guilt.
 
 ---
 class: middle, center, inverse
