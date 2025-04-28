@@ -87,13 +87,15 @@ Your essay should be uploaded to Canvas no later than **10 PM on Friday, April 1
 
 </br>
 
-<!--
 
-## Assignment 4: Matching Quiz
 
-Assignment #4 is a matching quiz I've posted to our course page on Canvas. It requires you to match 10 court cases we've discussed to their primary implication for policing and society. It should be completed by **10AM on Thursday, April 21st**.
+## Assignment 5: Matching Quiz
+
+Assignment #5 is a reading quiz I've posted to our course page on Canvas. It requires you to match 10 court cases we've discussed to their primary implication for policing and society. It should be completed by **10PM on Saturday, May 3rd**.
 
 </br>
+
+<!--
 
 ## Assignment 5: Reflecting on *Kisela v. Hughes*
 
