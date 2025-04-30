@@ -87,9 +87,22 @@ class: middle, center
 ## A police officer has a private arrangement with a local auto body shop to refer the owners of cars damaged in accidents to the shop. In exchange for each referral, he receives payment of 5 percent of the repair bill from the shop owner.
 
 ---
+class: middle, center
+
+## A police officer, who happens to be a very good auto mechanic, is scheduled to work during coming holidays. A supervisor offers to give him these days off, if he agrees to tune up his supervisor’s personal car. 
+
+### **(Evaluate the supervisor’s behavior)**
+
+---
 class: middle, center, inverse
 
 ## Now, check out how a sample of ~3200 officers from 30 US police departments [felt about these scenarios](https://www.ojp.gov/pdffiles1/nij/181465.pdf).
+
+---
+class: top
+
+<iframe title="Police officers' perceptions of offense seriousness and appropriate discipline" aria-label="Bar Chart" id="datawrapper-chart-SiL5K" src="https://datawrapper.dwcdn.net/SiL5K/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="517" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+</script>
 
 ---
 class: middle, center
@@ -360,21 +373,36 @@ class: top
 
 ## Police Scorecard Data - Overall Scores
 
-```{r, echo=FALSE, fig.align='center', out.width = "100%"}
-knitr::include_graphics("police_scorecard.png")
-```
+<iframe title="U.S. Police Department Scores on the &quot;Police Scorecard&quot;" aria-label="Column Chart" id="datawrapper-chart-xZAni" src="https://datawrapper.dwcdn.net/xZAni/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="495" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+</script>
+
+???
+
+Only 155 agencies "passed"
+
+Omaha PD got a 53% overall. 
+
+Highest score: 70% in Owatonna, MN
+
+Lowest score: 18% in Irwindale, CA
+- Chicago PD 24%
+- NYPD 35%
+- LAPD 32%
+- Houston 47%
 
 ---
 class: top
 
 ## Police Scorecard Data - Accountability in Omaha
 
-[Omaha](https://policescorecard.org/ne/police-department/omaha) scored 48% on accountability  
-.small[(*Note*: Omaha was the **only** agency in Nebraska that provided enough data for Police Scorecard to evaluate)]
+<iframe title="Civilian complaints against the Omaha Police Department" aria-label="Stacked Bars" id="datawrapper-chart-gan8l" src="https://datawrapper.dwcdn.net/gan8l/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="408" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
+</script>
 
-```{r, echo=FALSE, fig.align='center', out.width = "85%"}
-knitr::include_graphics("allegations_omaha.png")
-```
+???
+
+[Omaha](https://policescorecard.org/ne/police-department/omaha) scored 47% on accountability  
+
+*Note*: Omaha was the **only** agency in Nebraska that provided enough data for Police Scorecard to evaluate
 
 ---
 class: top
