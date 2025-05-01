@@ -1,11 +1,12 @@
-+++
-title        = "Contact"
-url          = "/contact"
-widget       = "contact"
-headless     = false
-active       = true
-autolink     = true
-email_form   = 2
-+++
+---
+title: "Contact"
+url: "/contact"
+menu:
+  main:
+    name: "Contact"
+    weight:  90
+autolink: true
+email_form: 2
+---
 
 
