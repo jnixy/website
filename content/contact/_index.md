@@ -1,11 +1,10 @@
 +++
 title       = "Contact"
 url         = "/contact"
-[menu.main]
-  name   = "Contact"
-  weight = 90
+"menu.main" = { name = "Contact", weight = 90 }
 
 # === page-builder widget settings ===
+
 widget      = "contact"
 headless    = false
 active      = true
