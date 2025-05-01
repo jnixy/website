@@ -1,4 +1,4 @@
 {{ define "main" }}
-  {{ partial "hero.html" . }}            <!-- optional—keeps your header style -->
-  {{ template "_internal/pagebuilder.html" . }}
+  {{ partial "hero.html" . }}          <!-- optional: keeps your site’s header/hero -->
+  {{ partial "pagebuilder.html" . }}   <!-- ← pulls in your Contact widget -->
 {{ end }}
