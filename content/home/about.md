@@ -4,7 +4,7 @@ active = true
 weight = 1
 title = ""
 subtitle = ""
-avatar = "user.png"
+avatar = true
 +++
 
 <div class="circular-icons">
