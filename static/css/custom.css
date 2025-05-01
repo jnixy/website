@@ -83,8 +83,19 @@ footer {
   height: auto !important;
 }
 
-/* Force the homepage avatar to sit dead-center of the screen */
-.home #about img.avatar {
+/* ─────────────────────────────────────────────────────────────────────────
+   Force the avatar to center on the homepage
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* 1) Let the about section flow edge-to-edge */
+#about .container {
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 2) Center the <img> itself */
+#about img.avatar {
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
