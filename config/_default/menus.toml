@@ -47,5 +47,5 @@
   
 [[main]]
   name = "Contact"
-  url = "#contact"
+  url = "mailto:jnix@unomaha.edu"
   weight = 90
