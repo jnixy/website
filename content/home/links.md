@@ -2,7 +2,7 @@
 # Custom Links Widget
 widget = "custom"  # Use a custom widget type
 headless = true  # This is part of the homepage
-active = true  # Enable the widget
+active = false  # Enable the widget
 weight = 45  # Adjust the weight to position it correctly
 
 title = "Explore"
