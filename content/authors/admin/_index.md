@@ -29,7 +29,7 @@ role: Associate Professor of Criminology and Criminal Justice
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'contact'
+  link: '#contact'
 - icon: x-twitter
   icon_pack: fab
   link: https://x.com/jnixy
