@@ -5,8 +5,11 @@ menu:
   main:
     name: "Contact"
     weight:  90
-autolink: true
-email_form: 2
+widget:  "contact"
+headless:  false
+active:  true
+autolink:  true
+email_form:  2
+weight:  100
 ---
-
 
