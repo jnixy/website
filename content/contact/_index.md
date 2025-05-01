@@ -1,7 +1,6 @@
 +++
 title        = "Contact"
 url          = "/contact"
-menu.main    = { name = "Contact", weight = 90 }
 widget       = "contact"
 headless     = false
 active       = true
