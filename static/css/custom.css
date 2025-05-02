@@ -101,4 +101,13 @@ footer {
   margin-right: auto !important;
 }
 
+/* ─────────────────────────────────────────────────────────────────────────
+   Remove the white box around the avatar in dark mode
+───────────────────────────────────────────────────────────────────────── */
+@media (prefers-color-scheme: dark) {
+  #about .container.centered {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+}
 
