@@ -21,6 +21,7 @@ interests:
 - Organizational justice
 - Officer decision-making
 - Officer-involved shootings
+title: Justin Nix, Ph.D.
 name: Justin Nix, Ph.D.
 organizations:
 - name: University of Nebraska Omaha
