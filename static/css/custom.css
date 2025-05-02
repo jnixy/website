@@ -102,12 +102,11 @@ footer {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
-   Remove the white box around the avatar in dark mode
+   Kill that white box around the avatar in the About widget
 ───────────────────────────────────────────────────────────────────────── */
-@media (prefers-color-scheme: dark) {
-  #about .container.centered {
-    background-color: transparent !important;
-    box-shadow: none !important;
-  }
+section#about .container.centered {
+  background: transparent !important;
+  box-shadow: none       !important;
+  padding: 0             !important;
 }
 
