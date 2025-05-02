@@ -101,12 +101,4 @@ footer {
   margin-right: auto !important;
 }
 
-/* ─────────────────────────────────────────────────────────────────────────
-   Kill that white box around the avatar in the About widget
-───────────────────────────────────────────────────────────────────────── */
-section#about .container.centered {
-  background: transparent !important;
-  box-shadow: none       !important;
-  padding: 0             !important;
-}
 
