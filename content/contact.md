@@ -1,6 +1,6 @@
 ---
 title: Contact
-type: landing
+type: widget_page
 
 sections:
   - block: contact
@@ -11,7 +11,7 @@ sections:
       text: ''
       # Contact details - edit or remove options as needed
       email: jnix@unomaha.edu
-      phone: +1 402 554 6157
+      phone: 402 554 6157
       address:
         street: 6001 Dodge Street
         city: Omaha
