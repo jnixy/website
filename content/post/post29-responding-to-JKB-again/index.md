@@ -1,7 +1,7 @@
 ---
 title: "Responding to Kang-Brown (again)"
 categories: []
-date: '2025-05-01T09:00:00Z'
+date: '2025-05-06T09:00:00Z'
 featured: false
 featured_image: featured.png
 image:
