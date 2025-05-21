@@ -30,7 +30,7 @@ One exception to the larger trend seems to be in the Pacific Division - that is,
 
 ![](census_divisions.png)
 
-Which it turns out is largely a California effect. Here's every state's trend, for what it's worth. Just eyeballing the post-2020 trends, it looks like Maryland is the only other state that has seen a notable downward trend. *Maybe* Oklahoma?
+Which it turns out is largely a California effect. Here's every state's trend, for what it's worth. Just eyeballing the post-2020 trends, it looks like Maryland is the only other state that has seen a notable downward trend. *Maybe* Oklahoma? (Right click the graph and open it in a new window if it's hard to read). 
 
 ![](states.png)
 
