@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://assets.pubpub.org/fc1e9q2r/Richards%20et%20al%20(Preprint)%20Lessons%20learned%20from%20a%20decade%20of%20SAKI%20evals-61738697602416.pdf"}]
+links = [{name = "Postprint", url="https://assets.pubpub.org/y8znc9pm/Richards%20et%20al%20(Postprint)%20Minnesota%20SAKI%20-%20Lessons%20learned-51748967076417.pdf"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
