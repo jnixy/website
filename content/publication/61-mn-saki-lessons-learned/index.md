@@ -9,7 +9,7 @@ authors = ["Tara Richards", "admin", "Emily Wright", "Caralin Branscum", "Bradle
 publication = ""
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Date the paper was published.
 date = 2025-01-03T10:00:00Z
