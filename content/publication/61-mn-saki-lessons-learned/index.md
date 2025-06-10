@@ -6,7 +6,7 @@ title = "The Minnesota Sexual Assault Kit Initiative (SAKI): Lessons learned fro
 authors = ["Tara Richards", "admin", "Emily Wright", "Caralin Branscum", "Bradley Campbell"]
 
 # Publication
-publication = "Justice Evaluation Journal"
+publication = "*Justice Evaluation Journal*"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
