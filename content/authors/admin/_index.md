@@ -24,7 +24,7 @@ interests:
 title: Justin Nix, Ph.D.
 name: Justin Nix
 organizations:
-- name: University of Nebraska Omaha
+- name: University of Nebraska at Omaha
   url: https://www.unomaha.edu/college-of-public-affairs-and-community-service/criminology-and-criminal-justice/index.php
 role: Distinguished Professor of Criminology and Criminal Justice
 social:
