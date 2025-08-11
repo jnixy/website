@@ -14,7 +14,9 @@ weight: 1
 
 On this page, you'll find links to slides for each lecture. Words that appear in <span style="color:red">red text</span> on the slides link to supplemental materials on the web.
 
-*Please note these are merely* ***skeletons.*** *In class, we'll discuss the material in much greater detail.* 
+*Please note these are merely* ***skeletons.*** *In class, we'll discuss the material in much greater detail.*
+
+<!--
 
 ## Introduction
 [A brief overview of U.S. policing today](https://jnix.netlify.app/slides/crcj2030_first_day)
@@ -67,7 +69,7 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 [Police use of force](https://jnix.netlify.app/slides/crcj2030_ch13/)
 
-<!--
+
 -->
 
 ***
