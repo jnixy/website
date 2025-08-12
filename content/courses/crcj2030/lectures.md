@@ -16,10 +16,10 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 *Please note these are merely* ***skeletons.*** *In class, we'll discuss the material in much greater detail.*
 
-<!--
-
 ## Introduction
 [A brief overview of U.S. policing today](https://jnix.netlify.app/slides/crcj2030_first_day)
+
+<!--
 
 ## Chapter 1
 
