@@ -1,6 +1,6 @@
 +++
 # Paper title
-title = "99 Problems but a Clean IV Ain’t One: Measuring and Studying Officer-Involved Shootings"
+title = "Measuring and Studying Officer-Involved Shootings in the U.S.: Comparing Estimates from Multiple Open-Source Registries"
 
 # Authors
 authors = ["admin", "Ian Adams", "Josh McCrain"]
