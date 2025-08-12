@@ -47,7 +47,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="/files/pdfs/chapter_violence_against_police.pdf"}]
+links = [{name = "Postprint", url="chapter_violence_against_police.pdf"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
@@ -57,6 +57,6 @@ links = [{name = "Postprint", url="/files/pdfs/chapter_violence_against_police.p
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Smart"
+  focal_point = "Center"
 +++
 
