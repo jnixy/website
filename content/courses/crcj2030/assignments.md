@@ -12,6 +12,7 @@ type: docs
 weight: 1
 ---
 
+<!--
 
 ## Assignment 1: Identifying the Best Path Forward
 
@@ -94,8 +95,6 @@ Your essay should be uploaded to Canvas no later than **10 PM on Friday, April 1
 Assignment #5 is a reading quiz I've posted to our course page on Canvas. It requires you to consider 10 court cases we've discussed and correctly identify their primary implication for policing and society. It should be completed by **10PM on Saturday, May 3rd**.
 
 </br>
-
-<!--
 
 ## Assignment 5: Reflecting on *Kisela v. Hughes*
 
