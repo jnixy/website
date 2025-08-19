@@ -50,7 +50,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 
 ## Week 7/Oct 7: Police Discretion and Behavior
 
-* 3/8: W&S Chapter 6
+* W&S Chapter 6
 * [*Probable Causation Podcast*, Ep. 44 - Arianna Ornaghi](https://www.probablecausation.com/podcasts/episode-44-arianna-ornaghi)
 
 ## Week 8/Oct 14: Community and Problem-Oriented Policing
@@ -87,7 +87,7 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 ## Week 14/Nov 25: Deviance, Ethics, and Professionalism
 
 * W&S Chapter 12
-* **No class on 11/27 - Thanksgiving Holiday**
+* **No class on Nov 27 - Thanksgiving Holiday**
 
 ## Week 15/Dec 2: Police Use of Force
 
