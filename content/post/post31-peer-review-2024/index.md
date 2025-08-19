@@ -29,9 +29,9 @@ Looks like things have slowed down quite a bit year-over-year...perhaps because 
 
 | Year | Invitations | Agreements | % Agreed    |
 | ---- | ----------- | ---------- | ----------- |
-| 2023 | 68          | 20         | 29.0        |
-| 2024 | 75          | 13         | 17.1        |
-| 2025 | 29          | 8          | 29.6        |
+| 2023 | 69          | 20         | 29.0        |
+| 2024 | 76          | 13         | 17.1        |
+| 2025 | 27          | 8          | 29.6        |
 
 ## Recommendations Made
 
