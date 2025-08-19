@@ -6,7 +6,7 @@ date: "2025-08-19T15:00:00Z"
 draft: false
 featured: false
 image:
-  caption: "Image by [Nathan Shively](https://unsplash.com/@shivelycreative) at [Unsplash](https://unsplash.com/photos/MgIPNC8TG1c)"
+  caption: "Image created by ChatGPT 5.0"
   focal_point: "smart"
 projects: []
 subtitle: ""
