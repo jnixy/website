@@ -74,15 +74,15 @@ Please note I reserve the right to make changes to the schedule as necessary. In
 * W&S Chapter 10
 * [*Kansas v. Glover, 589 U.S. ___ (2020)*](https://www.supremecourt.gov/opinions/19pdf/18-556_e1pf.pdf)
 
-## Week 12/Nov 11: Civil Liability and Accountability
+## Week 12/Nov 11: ASC Conference
+
+* **No class this week**
+
+## Week 13/Nov 18: Civil Liability and Accountability
 
 * W&S Chapter 11
 * [*How to Actually Fix America’s Police*](https://www.theatlantic.com/ideas/archive/2020/06/how-actually-fix-americas-police/612520/)
 * [*The concrete effects of body-worn cameras on police accountability*](https://theconversation.com/the-concrete-effects-of-body-cameras-on-police-accountability-171460)
-
-## Week 13/Nov 18: ASC Conference
-
-* **No class this week**
 
 ## Week 14/Nov 25: Deviance, Ethics, and Professionalism
 
