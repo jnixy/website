@@ -6,10 +6,10 @@ title = "Developing and Validating an Emotion Recognition Test for Policing"
 authors = ["Kyle McLean", "Preston Bussey", "admin", "Jeff Rojek", "Abigail Curran", "Vivian Ta-Johnson", "Geoff Alpert"]
 
 # Publication
-publication = ""
+publication = "*Policing: An International Journal*"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
-publication_types = ["3"]
+publication_types = ["2"]
 
 # Date the paper was published.
 date = 2025-06-12T10:00:00Z
