@@ -12,21 +12,22 @@ type: docs
 weight: 1
 ---
 
-<!--
+## Assignment 1: Interpreting Political Slogans
 
-## Assignment 1: Identifying the Best Path Forward
+**First, read**: L. Glass (2025). Moderate versus extreme interpretations of political slogans. *Journal of Pragmatics*, 236, 25-39. Click [here](https://doi.org/10.1016/j.pragma.2024.12.005) for access or download it from Canvas. 
 
-A recent [article](https://doi.org/10.1111/1745-9133.12572) in *Criminology & Public Policy* polled a national sample of 1,137 Americans about their support for “popular slogans and their substantive policy goals.” I have uploaded the article to the “files” folder in Canvas.
+**Then, write**: A 500-word reflection essay that accomplishes the following:
 
-Your first assignment of the semester is to **read the article and write a 500 word reflection essay**. In it, you should do the following:
+1. *Identify the key finding*. What does Glass reveal about how people interpret slogans like #DefundThePolice? Do you find the results compelling? Why/why not? 
+2. *Which interpretation resonates with you, and why?* Does the moderate or extreme framing feel more accurate or persuasive, and why do you think that is? 
+3. *Discuss feasibility.* How realistic is it that interpretations of slogans influence public discourse or real-world policy? What factors might enhance or limit that effect? 
 
-1.	Identify the key finding. In other words, what’s the big-picture takeaway from this article? 
-2.	Identify which policy you are most supportive of and explain why. You should also explain why you’re less supportive of the other policies.
-3.	Explain how likely (or unlikely) you believe it is that we can achieve said policy in the foreseeable future. 
-
-Your essay should be uploaded to Canvas no later than **10AM on Monday, February 3rd**. If you want, you can write your essay in Word (or whatever you normally use), then cut/paste it into Canvas when you’re finished. 
+Your essay should be in APA format (UNO's Writing Center has provided helpful resources [here](https://www.unomaha.edu/college-of-arts-and-sciences/writing-center/student-resources/sresearch_citation.php)). Upload it to Canvas (as a .pdf or .doc) no later than **1PM on Tuesday, September 9th**. 
 
 **Do not plagiarize**. Please note that your submissions will be reviewed for evidence of plagiarism and/or the use of AI software. If you’re unsure about what constitutes plagiarism, please consult with me before you submit your essay. 
+
+
+<!--
 
 </br>
 
@@ -108,6 +109,22 @@ For this assignment, you need to read the U.S. Supreme Court's ruling in [Kisela
 It should be clear to me that you have carefully read – not just skimmed – the Court’s decision based on your response.
 
 Your essay should be uploaded to Canvas no later than **10AM on Tuesday, May 3rd.**
+
+</br>
+
+## Old Assignment #1: Identifying the Best Path Forward
+
+A recent [article](https://doi.org/10.1111/1745-9133.12572) in *Criminology & Public Policy* polled a national sample of 1,137 Americans about their support for “popular slogans and their substantive policy goals.” I have uploaded the article to the “files” folder in Canvas.
+
+Your first assignment of the semester is to **read the article and write a 500 word reflection essay**. In it, you should do the following:
+
+1.	Identify the key finding. In other words, what’s the big-picture takeaway from this article? 
+2.	Identify which policy you are most supportive of and explain why. You should also explain why you’re less supportive of the other policies.
+3.	Explain how likely (or unlikely) you believe it is that we can achieve said policy in the foreseeable future. 
+
+Your essay should be uploaded to Canvas no later than **10AM on Monday, February 3rd**. If you want, you can write your essay in Word (or whatever you normally use), then cut/paste it into Canvas when you’re finished. 
+
+**Do not plagiarize**. Please note that your submissions will be reviewed for evidence of plagiarism and/or the use of AI software. If you’re unsure about what constitutes plagiarism, please consult with me before you submit your essay. 
 
 -->
 
