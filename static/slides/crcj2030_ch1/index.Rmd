@@ -3,7 +3,7 @@ title: "Chapter 1"
 subtitle: "Origins and Evolution of American Policing"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Jan. 27, 2025"
+date: "Sep. 2, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -34,7 +34,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[January 27, 2025]
+.white[September 2, 2025]
 
 ---
 class: top
@@ -532,9 +532,9 @@ background-size: 40%
 
 --
 
-# [Assignment #1](https://jnix.netlify.app/courses/crcj2030/assignments/#assignment-1-identifying-the-best-path-forward)
+# [Assignment #1](https://jnix.netlify.app/courses/crcj2030/assignments/#assignment-1-interpreting-political-slogans)
 
-## Due Monday
+## Due Tuesday @ 1PM
 
 ---
 class: top, center
