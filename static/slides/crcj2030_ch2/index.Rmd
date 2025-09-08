@@ -3,7 +3,7 @@ title: "Chapter 2"
 subtitle: "Policing in the American Context"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Feb. 3, 2025"
+date: "Sep. 9, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -34,18 +34,63 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[February 3, 2025]
+.white[September 9, 2025]
 
 ---
-class: top
+class: middle
 
-# Policing in a Democracy
+> *If there is a fact whose pathological nature appears indisputable, it is crime. All criminologists agree on this score. Although they explain this pathology differently, they none the less unanimously acknowledge it.*
+
+--
+
+> *Crime is not only observed in most societies of a particular species, but in all societies of all types. There is not one in which criminality does not exist, although it changes in form and the actions which are termed criminal are not everywhere the same. Yet everywhere and always there have been men who have conducted themselves in such a way as to bring down punishment upon their heads.*
+
+--
+
+> *Crime is normal because it is completely impossible for any society entirely free of it to exist.*
+
+<div style="text-align: right"> - Émile Durkheim, The Rules of Sociological Method, pp. 97-99 </div>
+
+???
+
+Do you agree or disagree? Why?
+
+**Durkheim even suggests crime can be beneficial! How?**
+
+- By establishing the bounds of acceptable behavior. When we see someone punished for violating laws/norms, it reaffirms to us that the behavior in question is unacceptable. 
+
+---
+class: middle, center
+
+# Let's apply this thinking to the latest viral video...
+
+--
+
+## Is this deviance? 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fiCnrPleU3k?si=pS8NIQWb0n5p2y6N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+class: middle, center
+
+# The Functionalist Perspective on Crime and Deviance
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j7y__PNf3no?si=neMrCYSoQHie5-0C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ???
 
 Your textbook says that “democracy ensures that a certain amount of crime is inevitable.” 
+
+Durkheim actually goes a step further and says crime is normal; it's impossible for any society entirely free of it to exist. 
+
 - **Why?** 
-  - Concern over people’s rights and privacy, which vastly restricts the power of the police and the government
+  - There will always be those that go against the status quo
+  - And particularly in a democracy, we are concern about people’s rights and privacy, which vastly restricts the power of the police and the government
+  
+---
+class: top
+
+# Policing in a Democracy
 
 --
 
@@ -355,7 +400,7 @@ class: top
   - How do mayors and city council members influence policing?
   
 ```{r, echo=FALSE, fig.align='center', out.width = "25%"}
-knitr::include_graphics("stothert.jpg")
+knitr::include_graphics("ewing.jpg")
 ```
 --
 
@@ -443,7 +488,7 @@ class: top
 
   <br>
   
-  My favorites were <em>Brooklyn Nine-Nine</em> and <em>Reno 911!</em>
+  My favorites were <em>The Wire</em>, <em>Brooklyn Nine-Nine</em>, and <em>Reno 911!</em>
   
   And don't forget reality shows like <em>COPS</em> and <em>Live PD</em>
 </details>
