@@ -27,11 +27,11 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 [Policing in the American context](https://jnix.netlify.app/slides/crcj2030_ch2/)
 
-<!--
-
 ## Chapter 3
 
 [Police organizations](https://jnix.netlify.app/slides/crcj2030_ch3/)
+
+<!--
 
 ## Chapter 4
 
