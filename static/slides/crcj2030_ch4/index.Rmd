@@ -3,7 +3,7 @@ title: "Chapter 4"
 subtitle: "Becoming a Cop"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 10, 2025"
+date: "Sep. 30, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 10, 2025]
+.white[September 30, 2025]
 
 ---
 class: top
