@@ -29,8 +29,10 @@ Your essay should be in APA format (UNO's Writing Center has provided helpful re
 ## Assignment 2: Addressing the Workforce Crisis
 
 **Readings**: 
+
 * Nix et al., [“Arresting the Recruitment Crisis”](https://www.city-journal.org/article/arresting-the-recruitment-crisis) (City Journal, 2021)
-* Adams et al., [“Police Are Stretched Thin”](https://www.city-journal.org/article/police-are-stretched-thin) (City Journal, 2023)  
+* Adams et al., [“Police Are Stretched Thin”](https://www.city-journal.org/article/police-are-stretched-thin) (City Journal, 2023)
+
 **Length**: 600–800 words  
 **Due**: October 14, 2025 at 1PM
 
