@@ -36,13 +36,9 @@ Your essay should be in APA format (UNO's Writing Center has provided helpful re
 **Length**: 600–800 words  
 **Due**: October 14, 2025 at 1PM
 
-**Background**
+**Background**: Last week’s lectures focused on what it takes to “become a cop,” including the hiring, academy training, and field training phases. We also discussed recent recruitment and retention problems in American policing — how agencies across the country are struggling to retain good officers and fill an increasing number of vacancies left by those who retire or resign. The assigned op-eds argue that the problem is not just a temporary downturn but reflects deeper changes in policing and public attitudes.
 
-Last week’s lectures focused on what it takes to “become a cop,” including the hiring, academy training, and field training phases. We also discussed recent recruitment and retention problems in American policing — how agencies across the country are struggling to retain good officers and fill an increasing number of vacancies left by those who retire or resign. The assigned op-eds argue that the problem is not just a temporary downturn but reflects deeper changes in policing and public attitudes.
-
-**Your Task**
-
-Write a reflection essay that integrates ideas from the readings and from our class discussions. In doing so, address the following:
+**Your Task**: Write a reflection essay that integrates ideas from the readings and from our class discussions. In doing so, address the following:
 
 1. *Diagnose the problem*.
   + According to the authors of these op-eds, what’s driving the recruitment and retention crisis?
