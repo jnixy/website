@@ -31,11 +31,11 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 [Police organizations](https://jnix.netlify.app/slides/crcj2030_ch3/)
 
-<!--
-
 ## Chapter 4
 
 [Becoming a cop](https://jnix.netlify.app/slides/crcj2030_ch4/)
+
+<!--
 
 ## Chapter 5
 
