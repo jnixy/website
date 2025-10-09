@@ -437,6 +437,15 @@ Again, the **danger imperative** = a cultural frame that emphasizes **violence**
 .small[Source: National Law Enforcement Memorial and Museum, [2024 Law Enforcement Officers Fatality Report](https://nleomf.org/wp-content/uploads/2025/01/2024-Fatalites-Report-FINAL.pdf)]
 
 ---
+class: top, bg_van
+
+# In summary...
+
+```{r, echo=FALSE, fig.align='center', out.width = "92%", fig.cap = "[Paoline (2020)]"}
+knitr::include_graphics("paoline_culture.png")
+```
+
+---
 class: top, center
 
 # Have a great day! 😄
