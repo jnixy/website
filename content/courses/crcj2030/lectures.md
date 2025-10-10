@@ -35,11 +35,11 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 [Becoming a cop](https://jnix.netlify.app/slides/crcj2030_ch4/)
 
-<!--
-
 ## Chapter 5
 
 [Police subculture](https://jnix.netlify.app/slides/crcj2030_ch5/)
+
+<!--
 
 ## Chapter 6
 
