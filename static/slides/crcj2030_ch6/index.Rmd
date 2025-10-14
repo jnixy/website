@@ -3,7 +3,7 @@ title: "Chapter 6"
 subtitle: "Police Discretion and Behavior"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 24, 2025"
+date: "Oct. 14, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 24, 2025]
+.white[October 14, 2025]
 
 ---
 class: center, middle, inverse
