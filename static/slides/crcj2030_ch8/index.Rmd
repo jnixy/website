@@ -3,7 +3,7 @@ title: "Chapter 8"
 subtitle: "Community Policing"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Mar. 31, 2025"
+date: "Oct. 23, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[March 31, 2025]
+.white[October 23, 2025]
 
 ---
 class: middle, center
