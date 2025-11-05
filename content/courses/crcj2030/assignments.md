@@ -73,6 +73,8 @@ In your response, discuss both the potential crime-reduction benefits and the ri
 
 Your essay should be uploaded to Canvas no later than **10 PM on Tuesday, November 11th.** 
 
+<br>
+
 ## Assignment 4: Reflecting on *Kansas v. Glover*
 
 For this assignment, you need to read the U.S. Supreme Court's ruling in [Kansas v. Glover (2020)](https://www.supremecourt.gov/opinions/19pdf/18-556_e1pf.pdf) and **write an 800 word reflection essay**. *In your own words*, describe:
