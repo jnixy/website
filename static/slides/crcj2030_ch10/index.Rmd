@@ -3,7 +3,7 @@ title: "Chapter 10"
 subtitle: "Policing and the Law"
 author: "Justin Nix"
 institute: "University of Nebraska Omaha"
-date: "Apr. 14, 2025"
+date: "Nov. 18, 2025"
 output:
   xaringan::moon_reader:
     css: [default, rutgers, rutgers-fonts, custom-font.css]
@@ -35,7 +35,7 @@ background-size: 10%
 <br>
 <br>
 <br>
-.white[April 14, 2025]
+.white[November 18, 2025]
 
 ---
 class: middle, center, inverse
