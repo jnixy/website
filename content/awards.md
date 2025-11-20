@@ -10,8 +10,8 @@ date = "2024-12-29"  # Optional: date of creation
 *UofSC Department of Criminology & Criminal Justice*  
 Awarded to doctoral program graduates for their outstanding academic and non-academic achievements in the field.
 
-### 2021 Outstanding Young Experimental Criminologist  
-*American Society of Criminology - Division of Experimental Criminology*  
+### 2021 Outstanding Early Career Experimental Criminologist  
+*Academy of Experimental Criminology*  
 Recognizes exceptional early-career scholarship.
 
 ### 2021 Best Paper Award for Later-Career Scholars
