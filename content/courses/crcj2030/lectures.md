@@ -63,13 +63,11 @@ On this page, you'll find links to slides for each lecture. Words that appear in
 
 [Deviance, ethics, and professionalism](https://jnix.netlify.app/slides/crcj2030_ch12/)
 
-<!--
-
 ## Chapter 13
 
 [Police use of force](https://jnix.netlify.app/slides/crcj2030_ch13/)
 
-
+<!--
 -->
 
 ***
