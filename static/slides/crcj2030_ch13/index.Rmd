@@ -355,15 +355,15 @@ class: top
 
 --
 
-About 61.5 million people had at least one [contact with police in 2018](https://bjs.ojp.gov/content/pub/pdf/cbpp18st.pdf)
+About 49 million people had at least one [contact with police in 2022](https://bjs.ojp.gov/document/cbpp22.pdf)
 
 --
 
-- 2% of them were subjected to force or the threat of force by officers
+- 1.5% of them were subjected to force or the threat of force by officers
 
 --
 
-- (N ~ 1.25 million)
+- (N ~ 750,000)
 
 --
 
@@ -371,7 +371,7 @@ About 61.5 million people had at least one [contact with police in 2018](https:/
   
 --
   
-  - Pointing/shooting gun 👉 0.3%
+  - Pointing/shooting gun 👉 < 0.2%
   
 ---
 class: top
