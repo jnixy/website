@@ -25,7 +25,7 @@ My classes range in size from 20 to 35 students, so I end up splitting them into
 
 I discovered [Poll Everywhere 2.0](https://www.polleverywhere.com/) and it might just be a game-changer, not just for review sessions like today but for every class going forward. The free version allows you to create polls/surveys for up to 40 participants, and I found it to be super intuitive. In less than 30 minutes, I had pasted my Jeopardy questions from the old PowerPoint file into Poll Everywhere. Students can play from their laptops by visiting a unique URL or from their smartphones by using a QR code. They don't have to create an account or download an app. I put the questions on the big screen and students can see it mirrored on their devices, where they submit their answers individually. Once everyone has answered, we can see what the distribution of responses was, and I can see what content the class has a clear grasp of, and what content we might need to brush up on ahead of the final. 
 
-![poll](poll_everyhere.jpg)
+![poll](poll_everywhere.jpg)
 
 I didn't require students to attach their names to their responses, but it is an option, and in theory it would enable me to circle back to students individually to help tailor a study plan for them (e.g., helping them determine which topics or concepts they should consider spending more time with as they study).
 
