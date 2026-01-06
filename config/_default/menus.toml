@@ -38,14 +38,19 @@
   url = "https://viprlab.org/"
   weight = 70
   
+[[main]]
+  name = "Police Shooting News"
+  url = "/police-shooting-news/"
+  weight = 80
+  
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
   name = "CV"
   url = "files/cv.pdf"
-  weight = 80
+  weight = 90
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 90
+  weight = 100
