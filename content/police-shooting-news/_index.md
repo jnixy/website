@@ -1,12 +1,14 @@
 ---
 title: "U.S. Police Shooting News Tracker"
-summary: "Automatically tracking news and developments on officer-involved shootings in the United States"
+summary: "Automatically tracking news and developments on police-involved shootings in the United States"
 type: page
 reading_time: false
 share: false
 profile: false
 comments: false
 ---
+
+# U.S. Police Shooting News Tracker
 
 **Automatically updated daily** | [RSS Feed](/data/police-shooting-news.xml)
 
@@ -43,7 +45,7 @@ The news aggregator monitors multiple sources including law enforcement agencies
 
 .news-item {
   background: var(--article-bg-color, #f8f9fa);
-  border-left: 4px solid var(--primary-color, #2962ff);
+  border-left: 4px solid #4caf50;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 3px;
@@ -63,7 +65,7 @@ The news aggregator monitors multiple sources including law enforcement agencies
 }
 
 .news-item h3 a:hover {
-  color: var(--primary-color, #2962ff);
+  color: #4caf50;
   text-decoration: underline;
 }
 
@@ -80,7 +82,7 @@ The news aggregator monitors multiple sources including law enforcement agencies
 
 .news-category {
   display: inline-block;
-  background: var(--primary-color, #2962ff);
+  background: #4caf50;
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 3px;
@@ -106,13 +108,14 @@ The news aggregator monitors multiple sources including law enforcement agencies
 }
 
 .filter-btn:hover {
-  background: var(--btn-hover-bg, #dee2e6);
+  background: #e8f5e9;
+  border-color: #4caf50;
 }
 
 .filter-btn.active {
-  background: var(--primary-color, #2962ff);
+  background: #4caf50;
   color: white;
-  border-color: var(--primary-color, #2962ff);
+  border-color: #4caf50;
 }
 </style>
 
@@ -138,11 +141,27 @@ let currentFilter = 'all';
 async function loadNews() {
   try {
     const response = await fetch(RSS_FEED_URL);
+    
+    // Check if the file actually exists
+    if (!response.ok) {
+      console.log('RSS feed not found yet, showing sample data');
+      displaySampleNews();
+      return;
+    }
+    
     const text = await response.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(text, 'text/xml');
     
     const items = xml.querySelectorAll('item');
+    
+    // If no items found, show sample data
+    if (items.length === 0) {
+      console.log('RSS feed is empty, showing sample data');
+      displaySampleNews();
+      return;
+    }
+    
     allNews = Array.from(items).map(item => ({
       title: item.querySelector('title')?.textContent || '',
       link: item.querySelector('link')?.textContent || '',
