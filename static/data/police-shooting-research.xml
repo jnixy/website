@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>U.S. Police Shooting Research Tracker</title>
+    <link>https://jnix.netlify.app/police-shooting-research/</link>
+    <description>Recent academic research on police shootings and use of deadly force</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Jan 2026 22:50:17 +0000</lastBuildDate>
+    <item>
+      <title>Gender-Based Violence Concerns, Trust in Police and Support for Defunding the Police</title>
+      <link>https://doi.org/10.1093/bjc/azaf119</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Updegrove &amp; Craig&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; The British Journal of Criminology&lt;br&gt;&lt;p&gt;&lt;jats:title&gt;Abstract&lt;/jats:title&gt;
+                  &lt;jats:p&gt;Public opinion research has yet to fully consider the various contexts in which people evaluate calls to defund the police and how those contexts may relate to or interact with popular constructs like trust in police. Because Americans are socialized to view police as the primary response to gender-based violence, people concerned about gender-based violence may perceive that defunding would negatively impact responses to this issue. Us...&lt;/p&gt;</description>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>The British Journal of Criminology</source>
+      <priority>true</priority>
+    </item>
+    <item>
+      <title>Police Violence and White Supremacist Terrorism</title>
+      <link>https://doi.org/10.1093/9780197653463.003.0005</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Wolfendale, Jessica&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; American Torture and American Terrorism&lt;br&gt;&lt;p&gt;&lt;jats:title&gt;Abstract&lt;/jats:title&gt;
+                  &lt;jats:p&gt;Chapter 4 takes up the issue of white supremacist terrorism in America. While much scholarship on this issue focuses on the (very real) threat posed by nonstate white supremacist terrorism, this chapter reveals the complex and longstanding relationship between state and nonstate white supremacist terrorism. The complexity of this relationship makes it difficult to draw a neat distinction between state and nonstate forms of white suprema...&lt;/p&gt;</description>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>American Torture and American Terrorism</source>
+    </item>
+    <item>
+      <title>Police use of force data collection issues in Florida: A minor critique</title>
+      <link>https://doi.org/10.1016/j.polgeo.2025.103468</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Rose et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Political Geography</description>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Political Geography</source>
+    </item>
+  </channel>
+</rss>
