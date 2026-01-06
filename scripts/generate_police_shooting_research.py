@@ -370,7 +370,7 @@ def main():
         
         time.sleep(1)  # Be nice to API
     
-    Optionally fetch from PubMed (uncomment if desired)
+    # Optionally fetch from PubMed (uncomment if desired)
     print("\n=== Searching PubMed ===")
     for query in ['police shooting', 'officer-involved shooting']:
        print(f"Query: {query}")
