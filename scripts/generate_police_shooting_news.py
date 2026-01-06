@@ -17,11 +17,19 @@ DAYS_BACK = 30
 
 # Search terms for police shooting news
 SEARCH_QUERIES = [
-    'police shooting',
-    'officer-involved shooting',
-    'police shot',
-    'shot by police',
+    '"shot by police" OR "killed by police"',
+    '"police officer shot" AND (suspect OR man OR woman OR person OR dog OR animal)',
+    '"officer-involved shooting" AND (killed OR wounded OR fatally)',
+    '"police shot and killed"'
 ]
+
+EXCLUSIONS = (
+    'NOT "police investigating" '
+    'NOT "investigating a shooting" '
+    'NOT "after a shooting" '
+    'NOT "scene of a shooting" '
+    'NOT "mass shooting investigation"'
+)
 
 # Categories for classification
 CATEGORIES = {
@@ -42,10 +50,15 @@ def fetch_news_api(query, days_back=DAYS_BACK):
     from_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
     
     params = {
-        'q': query,
+        'q': f'({query}) {EXCLUSIONS}',
         'from': from_date,
         'sortBy': 'publishedAt',
         'language': 'en',
+        'sources': (
+        'ap-news,reuters,cnn,abc-news,cbs-news,nbc-news,'
+        'fox-news,usa-today'
+    ),
+        'qInTitle': '"shot by police" OR "police shot"',
         'apiKey': NEWS_API_KEY,
         'pageSize': 100
     }
@@ -157,14 +170,24 @@ def main():
         all_articles.extend(articles)
         print(f"  Found {len(articles)} articles")
     
+    # Deduplicate by URL first
+    seen_urls = set()
+    unique_articles = []
+    for article in all_articles:
+        url = article.get('url')
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            unique_articles.append(article)
+    
     # Sort by date (newest first)
-    all_articles.sort(
-        key=lambda x: x.get('publishedAt', ''), 
+    unique_articles.sort(
+        key=lambda x: x.get('publishedAt', ''),
         reverse=True
     )
     
     # Take top 50 most recent
-    all_articles = all_articles[:50]
+    all_articles = unique_articles[:50]
+
     
     print(f"\nTotal articles after deduplication: {len(all_articles)}")
     
