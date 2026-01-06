@@ -8,8 +8,6 @@ profile: false
 comments: false
 ---
 
-# Police Shooting Research Tracker
-
 **Updated weekly** | [RSS Feed](/data/police-shooting-research.xml)
 
 This page tracks recent academic publications on police-involved shootings and use of deadly force. Articles are automatically gathered from academic databases including Crossref and indexed by publication date.
