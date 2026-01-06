@@ -109,14 +109,8 @@ def create_rss_feed(articles):
     last_build.text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
     
     # Add items
-    seen_titles = set()  # Deduplicate
-    
     for article in articles:
-        # Skip duplicates
-        if article['title'] in seen_titles:
-            continue
-        seen_titles.add(article['title'])
-        
+
         item = ET.SubElement(channel, 'item')
         
         item_title = ET.SubElement(item, 'title')
@@ -156,6 +150,19 @@ def prettify_xml(elem):
     rough_string = ET.tostring(elem, encoding='unicode')
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent='  ')
+  
+def normalize_title(title):
+    """Normalize titles for deduplication across outlets"""
+    if not title:
+        return ''
+    return (
+        title.lower()
+        .replace('–', '-')
+        .replace('—', '-')
+        .replace(':', '')
+        .replace(';', '')
+        .strip()
+    )
 
 def main():
     """Main execution function"""
@@ -170,13 +177,14 @@ def main():
         all_articles.extend(articles)
         print(f"  Found {len(articles)} articles")
     
-    # Deduplicate by URL first
-    seen_urls = set()
+    # Deduplicate by normalized title (collapse wire duplicates)
+    seen_titles = set()
     unique_articles = []
+    
     for article in all_articles:
-        url = article.get('url')
-        if url and url not in seen_urls:
-            seen_urls.add(url)
+        norm_title = normalize_title(article.get('title'))
+        if norm_title and norm_title not in seen_titles:
+            seen_titles.add(norm_title)
             unique_articles.append(article)
     
     # Sort by date (newest first)
@@ -188,7 +196,6 @@ def main():
     # Take top 50 most recent
     all_articles = unique_articles[:50]
 
-    
     print(f"\nTotal articles after deduplication: {len(all_articles)}")
     
     # Create RSS feed
