@@ -15,30 +15,70 @@ NEWS_API_KEY = os.environ.get('NEWS_API_KEY', 'YOUR_API_KEY_HERE')
 OUTPUT_FILE = 'static/data/police-shooting-news.xml'
 DAYS_BACK = 30
 
-# Search terms for police shooting news
+# Search terms - focused on police shooting civilians (not investigating shootings)
 SEARCH_QUERIES = [
-    '"shot by police" OR "killed by police"',
-    '"police officer shot" AND (suspect OR man OR woman OR person OR dog OR animal)',
-    '"officer-involved shooting" AND (killed OR wounded OR fatally)',
-    '"police shot and killed"'
+    '"police shot" AND ("killed" OR "fatally wounded" OR "died")',
+    '"officer-involved shooting" AND ("fatal" OR "killed" OR "death")',
+    '"police opened fire" AND ("killed" OR "wounded" OR "struck")',
+    '"officer shot" AND ("suspect" OR "man" OR "woman" OR "person") AND ("killed" OR "died")',
 ]
 
-EXCLUSIONS = (
-    'NOT "police investigating" '
-    'NOT "investigating a shooting" '
-    'NOT "after a shooting" '
-    'NOT "scene of a shooting" '
-    'NOT "mass shooting investigation"'
-)
+# Strong exclusions to filter out irrelevant stories
+EXCLUSIONS = [
+    'NOT "police investigating"',
+    'NOT "investigating a shooting"',
+    'NOT "after a shooting"',
+    'NOT "scene of a shooting"',
+    'NOT "responded to a shooting"',
+    'NOT "police arrived"',
+    'NOT "police were called"',
+    'NOT "mass shooting"',
+    'NOT "school shooting"',
+    'NOT "officer shot and killed"',  # Officer as victim
+    'NOT "officer was shot"',  # Officer as victim
+    'NOT "deputy shot"',  # Deputy as victim
+    'NOT "trooper shot"',  # Trooper as victim
+]
+
+# Countries/cities to exclude (international stories)
+LOCATION_EXCLUSIONS = [
+    'NOT "UK"',
+    'NOT "Britain"',
+    'NOT "London"',
+    'NOT "Canada"',
+    'NOT "Toronto"',
+    'NOT "Montreal"',
+    'NOT "Australia"',
+    'NOT "Sydney"',
+    'NOT "Melbourne"',
+    'NOT "New Zealand"',
+    'NOT "India"',
+    'NOT "Pakistan"',
+    'NOT "Philippines"',
+    'NOT "Mexico"',
+]
 
 # Categories for classification
 CATEGORIES = {
-    'incident': ['shooting', 'killed', 'fatal', 'death', 'incident'],
-    'investigation': ['investigation', 'probe', 'review', 'inquiry', 'examining'],
-    'accountability': ['reform', 'policy', 'training', 'accountability', 'discipline'],
-    'legal': ['lawsuit', 'charges', 'trial', 'court', 'verdict', 'indictment'],
+    'incident': ['shooting', 'killed', 'fatal', 'death', 'shot', 'fired'],
+    'investigation': ['investigation', 'probe', 'review', 'inquiry', 'examining', 'district attorney'],
+    'accountability': ['reform', 'policy', 'training', 'accountability', 'discipline', 'fired', 'terminated'],
+    'legal': ['lawsuit', 'charges', 'trial', 'court', 'verdict', 'indictment', 'arrested', 'charged'],
     'research': ['study', 'research', 'data', 'analysis', 'report', 'findings']
 }
+
+# Additional filtering - words that MUST appear for incident stories
+INCIDENT_REQUIRED_WORDS = [
+    'shot by police',
+    'police shot',
+    'officer shot',
+    'police shooting',
+    'officer-involved shooting',
+    'police opened fire',
+    'officer opened fire',
+    'police killed',
+    'officer killed',
+]
 
 def fetch_news_api(query, days_back=DAYS_BACK):
     """
@@ -49,16 +89,16 @@ def fetch_news_api(query, days_back=DAYS_BACK):
     
     from_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
     
+    # Combine all exclusions
+    all_exclusions = ' '.join(EXCLUSIONS + LOCATION_EXCLUSIONS)
+    
     params = {
-        'q': f'({query}) {EXCLUSIONS}',
+        'q': f'({query}) {all_exclusions}',
         'from': from_date,
+        'to': datetime.now().strftime('%Y-%m-%d'),
         'sortBy': 'publishedAt',
         'language': 'en',
-        'sources': (
-        'ap-news,reuters,cnn,abc-news,cbs-news,nbc-news,'
-        'fox-news,usa-today'
-    ),
-        'qInTitle': '"shot by police" OR "police shot"',
+        'searchIn': 'title,description',
         'apiKey': NEWS_API_KEY,
         'pageSize': 100
     }
@@ -71,17 +111,70 @@ def fetch_news_api(query, days_back=DAYS_BACK):
         print(f"Error fetching from NewsAPI: {e}")
         return []
 
+def is_relevant_story(title, description):
+    """
+    Additional filtering to catch false positives
+    Returns True if story appears to be about police shooting someone
+    """
+    text = (title + ' ' + (description or '')).lower()
+    
+    # Must contain at least one incident indicator
+    has_incident_word = any(phrase in text for phrase in INCIDENT_REQUIRED_WORDS)
+    if not has_incident_word:
+        return False
+    
+    # Exclude stories where police are victims
+    officer_victim_phrases = [
+        'officer shot and killed',
+        'officer was shot',
+        'deputy shot and',
+        'trooper shot and',
+        'officer killed in',
+        'officers killed',
+        'police officer killed',
+        'gunman killed officer',
+        'shot and killed an officer',
+        'shot a police officer',
+        'shot an officer',
+    ]
+    if any(phrase in text for phrase in officer_victim_phrases):
+        return False
+    
+    # Exclude stories about police investigating shootings
+    investigation_phrases = [
+        'police are investigating',
+        'police investigating',
+        'investigation into shooting',
+        'responded to reports of',
+        'arrived at the scene',
+        'called to the scene',
+    ]
+    if any(phrase in text for phrase in investigation_phrases):
+        return False
+    
+    # Exclude international locations mentioned in text
+    international_indicators = [
+        'london', 'uk police', 'british police', 'met police',
+        'toronto', 'rcmp', 'canadian police',
+        'sydney', 'melbourne', 'australian',
+        'new zealand', 'auckland',
+    ]
+    if any(indicator in text for indicator in international_indicators):
+        return False
+    
+    return True
+
 def categorize_article(title, description):
     """Categorize article based on content"""
-    text = (title + ' ' + description).lower()
+    text = (title + ' ' + (description or '')).lower()
     
     scores = {}
     for category, keywords in CATEGORIES.items():
         scores[category] = sum(1 for keyword in keywords if keyword in text)
     
-    # Return category with highest score, or 'general' if no matches
+    # Return category with highest score, or 'incident' if no matches
     max_category = max(scores, key=scores.get)
-    return max_category if scores[max_category] > 0 else 'general'
+    return max_category if scores[max_category] > 0 else 'incident'
 
 def create_rss_feed(articles):
     """Create RSS 2.0 feed from articles"""
@@ -110,7 +203,6 @@ def create_rss_feed(articles):
     
     # Add items
     for article in articles:
-
         item = ET.SubElement(channel, 'item')
         
         item_title = ET.SubElement(item, 'title')
@@ -150,15 +242,15 @@ def prettify_xml(elem):
     rough_string = ET.tostring(elem, encoding='unicode')
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent='  ')
-  
+
 def normalize_title(title):
     """Normalize titles for deduplication across outlets"""
     if not title:
         return ''
     return (
         title.lower()
-        .replace('–', '-')
         .replace('—', '-')
+        .replace('–', '-')
         .replace(':', '')
         .replace(';', '')
         .strip()
@@ -177,15 +269,27 @@ def main():
         all_articles.extend(articles)
         print(f"  Found {len(articles)} articles")
     
-    # Deduplicate by normalized title (collapse wire duplicates)
+    print(f"\nTotal articles before filtering: {len(all_articles)}")
+    
+    # Apply additional relevance filtering
+    filtered_articles = [
+        article for article in all_articles
+        if is_relevant_story(article.get('title', ''), article.get('description', ''))
+    ]
+    
+    print(f"Articles after relevance filtering: {len(filtered_articles)}")
+    
+    # Deduplicate by normalized title
     seen_titles = set()
     unique_articles = []
     
-    for article in all_articles:
+    for article in filtered_articles:
         norm_title = normalize_title(article.get('title'))
         if norm_title and norm_title not in seen_titles:
             seen_titles.add(norm_title)
             unique_articles.append(article)
+    
+    print(f"Articles after deduplication: {len(unique_articles)}")
     
     # Sort by date (newest first)
     unique_articles.sort(
@@ -194,12 +298,12 @@ def main():
     )
     
     # Take top 50 most recent
-    all_articles = unique_articles[:50]
-
-    print(f"\nTotal articles after deduplication: {len(all_articles)}")
+    final_articles = unique_articles[:50]
+    
+    print(f"\nFinal article count: {len(final_articles)}")
     
     # Create RSS feed
-    rss = create_rss_feed(all_articles)
+    rss = create_rss_feed(final_articles)
     
     # Save to file
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
@@ -209,6 +313,12 @@ def main():
     
     print(f"\nRSS feed saved to: {OUTPUT_FILE}")
     print(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    # Print sample titles for verification
+    if final_articles:
+        print("\nSample titles:")
+        for article in final_articles[:5]:
+            print(f"  - {article['title']}")
 
 if __name__ == '__main__':
     main()
