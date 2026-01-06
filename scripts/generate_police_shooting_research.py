@@ -13,7 +13,7 @@ import time
 
 # Configuration
 OUTPUT_FILE = 'static/data/police-shooting-research.xml'
-DAYS_BACK = 90  # Check last 3 months (academic publishing is slower)
+DAYS_BACK = 180  # Check last 3 months
 
 # Academic search queries
 SEARCH_QUERIES = [
