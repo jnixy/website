@@ -43,7 +43,7 @@
   url = "/police-shooting-news/"
   weight = 80
   
-[[menu.main]]
+[[main]]
   name = "Police Shooting Research"
   url = "/police-shooting-research/"
   weight = 90
