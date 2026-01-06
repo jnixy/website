@@ -371,18 +371,18 @@ def main():
         time.sleep(1)  # Be nice to API
     
     # Optionally fetch from PubMed (uncomment if desired)
-    print("\n=== Searching PubMed ===")
-    for query in ['police shooting', 'officer-involved shooting']:
-       print(f"Query: {query}")
-       items = fetch_pubmed(query)
-       print(f"  Found {len(items)} results")
+    # print("\n=== Searching PubMed ===")
+    # for query in ['police shooting', 'officer-involved shooting']:
+      #  print(f"Query: {query}")
+      #  items = fetch_pubmed(query)
+      #  print(f"  Found {len(items)} results")
        
-       for item in items:
-           article = parse_pubmed_article(item)
-           if is_relevant_article(article['title'], ''):
-               all_articles.append(article)
+      #  for item in items:
+      #      article = parse_pubmed_article(item)
+      #      if is_relevant_article(article['title'], ''):
+      #          all_articles.append(article)
        
-       time.sleep(1)
+      #  time.sleep(1)
     
     print(f"\nTotal articles before deduplication: {len(all_articles)}")
     
