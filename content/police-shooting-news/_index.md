@@ -8,8 +8,6 @@ profile: false
 comments: false
 ---
 
-# U.S. Police Shooting News Tracker
-
 **Automatically updated daily** | [RSS Feed](/data/police-shooting-news.xml)
 
 This page automatically tracks news, research, and developments related to police-involved shootings in the United States. The feed is updated daily and includes incident reports, investigations, policy decisions, court proceedings, and accountability measures.
