@@ -15,47 +15,12 @@ NEWS_API_KEY = os.environ.get('NEWS_API_KEY', 'YOUR_API_KEY_HERE')
 OUTPUT_FILE = 'static/data/police-shooting-news.xml'
 DAYS_BACK = 30
 
-# Search terms - focused on police shooting civilians (not investigating shootings)
+# Simplified search queries - NewsAPI has query length limits
 SEARCH_QUERIES = [
-    '"police shot" AND ("killed" OR "fatally wounded" OR "died")',
-    '"officer-involved shooting" AND ("fatal" OR "killed" OR "death")',
-    '"police opened fire" AND ("killed" OR "wounded" OR "struck")',
-    '"officer shot" AND ("suspect" OR "man" OR "woman" OR "person") AND ("killed" OR "died")',
-]
-
-# Strong exclusions to filter out irrelevant stories
-EXCLUSIONS = [
-    'NOT "police investigating"',
-    'NOT "investigating a shooting"',
-    'NOT "after a shooting"',
-    'NOT "scene of a shooting"',
-    'NOT "responded to a shooting"',
-    'NOT "police arrived"',
-    'NOT "police were called"',
-    'NOT "mass shooting"',
-    'NOT "school shooting"',
-    'NOT "officer shot and killed"',  # Officer as victim
-    'NOT "officer was shot"',  # Officer as victim
-    'NOT "deputy shot"',  # Deputy as victim
-    'NOT "trooper shot"',  # Trooper as victim
-]
-
-# Countries/cities to exclude (international stories)
-LOCATION_EXCLUSIONS = [
-    'NOT "UK"',
-    'NOT "Britain"',
-    'NOT "London"',
-    'NOT "Canada"',
-    'NOT "Toronto"',
-    'NOT "Montreal"',
-    'NOT "Australia"',
-    'NOT "Sydney"',
-    'NOT "Melbourne"',
-    'NOT "New Zealand"',
-    'NOT "India"',
-    'NOT "Pakistan"',
-    'NOT "Philippines"',
-    'NOT "Mexico"',
+    'police shooting',
+    'officer-involved shooting',
+    'police shot killed',
+    'officer shot suspect',
 ]
 
 # Categories for classification
@@ -67,19 +32,6 @@ CATEGORIES = {
     'research': ['study', 'research', 'data', 'analysis', 'report', 'findings']
 }
 
-# Additional filtering - words that MUST appear for incident stories
-INCIDENT_REQUIRED_WORDS = [
-    'shot by police',
-    'police shot',
-    'officer shot',
-    'police shooting',
-    'officer-involved shooting',
-    'police opened fire',
-    'officer opened fire',
-    'police killed',
-    'officer killed',
-]
-
 def fetch_news_api(query, days_back=DAYS_BACK):
     """
     Fetch news from NewsAPI.org
@@ -89,16 +41,12 @@ def fetch_news_api(query, days_back=DAYS_BACK):
     
     from_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
     
-    # Combine all exclusions
-    all_exclusions = ' '.join(EXCLUSIONS + LOCATION_EXCLUSIONS)
-    
     params = {
-        'q': f'({query}) {all_exclusions}',
+        'q': query,
         'from': from_date,
         'to': datetime.now().strftime('%Y-%m-%d'),
         'sortBy': 'publishedAt',
         'language': 'en',
-        'searchIn': 'title,description',
         'apiKey': NEWS_API_KEY,
         'pageSize': 100
     }
@@ -113,53 +61,88 @@ def fetch_news_api(query, days_back=DAYS_BACK):
 
 def is_relevant_story(title, description):
     """
-    Additional filtering to catch false positives
+    Filter to identify stories about police shooting civilians (not investigating shootings)
     Returns True if story appears to be about police shooting someone
     """
+    if not title:
+        return False
+        
     text = (title + ' ' + (description or '')).lower()
     
-    # Must contain at least one incident indicator
-    has_incident_word = any(phrase in text for phrase in INCIDENT_REQUIRED_WORDS)
-    if not has_incident_word:
+    # Must contain phrases indicating police shot someone
+    positive_indicators = [
+        'police shot',
+        'officer shot',
+        'police shooting',
+        'officer-involved shooting',
+        'police opened fire',
+        'officer opened fire',
+        'police killed',
+        'officer killed',
+        'shot by police',
+        'shot by officer',
+        'police fatally shot',
+        'officer fatally shot',
+    ]
+    
+    has_positive = any(phrase in text for phrase in positive_indicators)
+    if not has_positive:
         return False
     
-    # Exclude stories where police are victims
+    # Exclude if officer is the victim
     officer_victim_phrases = [
         'officer shot and killed',
         'officer was shot',
-        'deputy shot and',
-        'trooper shot and',
+        'deputy shot and killed',
+        'deputy was shot',
+        'trooper shot and killed',
+        'trooper was shot',
         'officer killed in',
-        'officers killed',
-        'police officer killed',
+        'deputy killed in',
+        'shot and killed officer',
+        'shot and killed deputy',
         'gunman killed officer',
-        'shot and killed an officer',
-        'shot a police officer',
-        'shot an officer',
+        'shooter killed officer',
     ]
+    
     if any(phrase in text for phrase in officer_victim_phrases):
         return False
     
-    # Exclude stories about police investigating shootings
-    investigation_phrases = [
-        'police are investigating',
-        'police investigating',
-        'investigation into shooting',
-        'responded to reports of',
-        'arrived at the scene',
-        'called to the scene',
+    # Exclude investigation-only stories
+    investigation_only = [
+        'police are investigating a shooting',
+        'police investigating shooting',
+        'investigating a deadly shooting',
+        'investigation into a shooting',
+        'responded to reports of shooting',
+        'arrived at scene of shooting',
+        'police were called to',
+        'officers responded to',
     ]
-    if any(phrase in text for phrase in investigation_phrases):
+    
+    if any(phrase in text for phrase in investigation_only):
         return False
     
-    # Exclude international locations mentioned in text
-    international_indicators = [
-        'london', 'uk police', 'british police', 'met police',
-        'toronto', 'rcmp', 'canadian police',
-        'sydney', 'melbourne', 'australian',
-        'new zealand', 'auckland',
+    # Exclude international stories (check for specific location mentions)
+    international_locations = [
+        'london police', 'met police', 'uk police',
+        'toronto police', 'rcmp', 'canadian police',
+        'australian police', 'sydney police',
+        'new zealand police',
+        'in london', 'in toronto', 'in sydney', 'in melbourne',
+        'in canada', 'in australia', 'in uk',
     ]
-    if any(indicator in text for indicator in international_indicators):
+    
+    if any(location in text for location in international_locations):
+        return False
+    
+    # Additional quality filters
+    # Exclude very short titles (often not real stories)
+    if len(title) < 30:
+        return False
+    
+    # Exclude if title is mostly capitalized (often wire service duplicates)
+    if title.isupper():
         return False
     
     return True
@@ -253,6 +236,8 @@ def normalize_title(title):
         .replace('–', '-')
         .replace(':', '')
         .replace(';', '')
+        .replace('"', '')
+        .replace("'", '')
         .strip()
     )
 
@@ -264,14 +249,14 @@ def main():
     
     # Fetch from each query
     for query in SEARCH_QUERIES:
-        print(f"Searching for: {query}")
+        print(f"\nSearching for: {query}")
         articles = fetch_news_api(query)
+        print(f"  Raw results: {len(articles)} articles")
         all_articles.extend(articles)
-        print(f"  Found {len(articles)} articles")
     
     print(f"\nTotal articles before filtering: {len(all_articles)}")
     
-    # Apply additional relevance filtering
+    # Apply relevance filtering
     filtered_articles = [
         article for article in all_articles
         if is_relevant_story(article.get('title', ''), article.get('description', ''))
@@ -302,6 +287,14 @@ def main():
     
     print(f"\nFinal article count: {len(final_articles)}")
     
+    if len(final_articles) == 0:
+        print("\n⚠️  WARNING: No articles found. Feed will not be generated.")
+        print("This could mean:")
+        print("  - No relevant stories in the past 30 days")
+        print("  - Filtering is too strict")
+        print("  - NewsAPI returned no results")
+        return
+    
     # Create RSS feed
     rss = create_rss_feed(final_articles)
     
@@ -315,10 +308,9 @@ def main():
     print(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     # Print sample titles for verification
-    if final_articles:
-        print("\nSample titles:")
-        for article in final_articles[:5]:
-            print(f"  - {article['title']}")
+    print("\nSample titles from feed:")
+    for i, article in enumerate(final_articles[:5], 1):
+        print(f"  {i}. {article['title']}")
 
 if __name__ == '__main__':
     main()
