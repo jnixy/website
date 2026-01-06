@@ -25,6 +25,10 @@ The news aggregator monitors multiple sources including law enforcement agencies
 
 **Subscribe**: [RSS Feed](/data/police-shooting-news.xml)
 
+{{% alert note %}}
+Looking for the latest academic research on police shootings? Check out my [research tracker](https://jnix.netlify.app/police-shooting-research/).
+{{% /alert %}}
+
 ---
 
 <div id="news-feed">
