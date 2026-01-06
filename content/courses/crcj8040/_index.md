@@ -1,7 +1,7 @@
 ---
 date: "2021-08-03T11:00:00Z"
 draft: false
-lastmod: "2023-08-04T11:00:00Z"
+lastmod: "2026-01-06T09:30:00Z"
 linktitle: CRCJ 8040 - Police & Society
 menu:
   crcj8040:
@@ -14,15 +14,17 @@ type: docs
 weight: 30
 ---
 
-## Fall 2023
+## Spring 2026
 
 👈 If you're viewing on a desktop, the course description and schedule are linked over here. On mobile, there is a drop-down menu on the upper left side of your screen. 
 
-You may also download a PDF of the syllabus by clicking [this link](crcj8040-syllabus-fall23.pdf).
+You may also download a PDF of the syllabus by clicking [this link](crcj8040-syllabus-spring26.pdf).
 
 </br>
 
 ## Past syllabi
+
+* [Fall 2023](crcj8040-syllabus-fall23.pdf)
 
 * [Fall 2022](crcj8040-syllabus-fall22.pdf)
 
