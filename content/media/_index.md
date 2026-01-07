@@ -9,9 +9,7 @@ profile: false
 comments: false
 ---
 
-This page automatically tracks media coverage, interviews, and mentions of my research.
-
-**Subscribe:** [RSS Feed](/data/media-mentions.xml). Feed began active tracking on January 7, 2026.
+This page tracks media coverage, interviews, and mentions of my research.
 
 ---
 
