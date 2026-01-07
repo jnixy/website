@@ -49,7 +49,10 @@
       "Dallas Morning News",
       "Indianapolis Star",
       "Globe and Mail",
-      "NBC News"
+      "NBC News",
+      "The Hill",
+      "The Conversation",
+      "Scientific American"
     ],
     "date_range": {
       "earliest": "2015-01-01",
@@ -66,8 +69,9 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
-        "policy"
+        "national",
+        "policy",
+        "community policing"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -83,7 +87,7 @@
       "topics": [
         "police",
         "regional",
-        "Colorado"
+        "pursuits"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -98,6 +102,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
+        "accountability",
         "regional"
       ],
       "featured": false,
@@ -130,7 +135,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "use of force"
       ],
       "featured": false,
@@ -162,12 +167,29 @@
       "mention_type": "cited",
       "topics": [
         "police",
-        "national news",
+        "national",
         "accountability"
       ],
       "featured": false,
       "relevance_confidence": "high",
       "date_discovered": "2024-01-01"
+    },
+    {
+      "title": "Policing Works when It Is Done Right",
+      "url": "https://www.scientificamerican.com/article/policing-works-when-it-is-done-right/",
+      "source": "Scientific American",
+      "date": "2024-04-02",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "legitimacy",
+        "violent crime",
+        "reform"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
     },
     {
       "title": "Fewer police officers died in the line of duty in 2023, but 'scary number' were shot: Study",
@@ -178,7 +200,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "policy"
       ],
       "featured": false,
@@ -195,7 +217,7 @@
       "topics": [
         "police",
         "regional",
-        "Mountain West"
+        "violent crime"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -211,7 +233,8 @@
       "topics": [
         "police",
         "regional",
-        "accountability"
+        "accountability",
+        "violent crime"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -226,12 +249,29 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
-        "research"
+        "national",
+        "research",
+        "violent crime"
       ],
       "featured": false,
       "relevance_confidence": "high",
       "date_discovered": "2023-01-01"
+    },
+    {
+      "title": "Stretched Thin",
+      "url": "https://www.city-journal.org/article/police-are-stretched-thin",
+      "source": "City Journal",
+      "date": "2023-05-15",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "recruitment",
+        "retention"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
     },
     {
       "title": "Fatal police shootings are still going up, and nobody knows why",
@@ -242,7 +282,8 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
+        "use of force",
         "accountability"
       ],
       "featured": false,
@@ -259,12 +300,44 @@
       "topics": [
         "police",
         "regional",
-        "Nebraska",
+        "retention",
         "local"
       ],
       "featured": false,
       "relevance_confidence": "high",
       "date_discovered": "2023-01-01"
+    },
+    {
+      "title": "Memphis police numbers dropped by nearly a quarter in recent years – were staffing shortages a factor in the killing of Tyre Nichols?",
+      "url": "https://theconversation.com/memphis-police-numbers-dropped-by-nearly-a-quarter-in-recent-years-were-staffing-shortages-a-factor-in-the-killing-of-tyre-nichols-199078",
+      "source": "The Conversation",
+      "date": "2023-02-07",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "retention",
+        "use of force"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "Republicans say crime is on the rise – what is the crime rate and what does it mean?",
+      "url": "https://theconversation.com/republicans-say-crime-is-on-the-rise-what-is-the-crime-rate-and-what-does-it-mean-192900",
+      "source": "The Conversation",
+      "date": "2022-10-24",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "violent crime",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
     },
     {
       "title": "'Gonna lose my gun again,' Idaho deputy said minutes after fatally shooting man in mental health crisis",
@@ -275,7 +348,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "use of force"
       ],
       "featured": false,
@@ -307,7 +380,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "policy"
       ],
       "featured": false,
@@ -323,7 +396,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "accountability"
       ],
       "featured": false,
@@ -340,11 +413,28 @@
       "topics": [
         "police",
         "regional",
+        "use of force",
         "Colorado"
       ],
       "featured": false,
       "relevance_confidence": "high",
       "date_discovered": "2022-01-01"
+    },
+    {
+      "title": "Guest post: We've been underestimating racial disparities in police use of lethal force",
+      "url": "https://www.washingtonpost.com/crime-law/2021/11/11/non-fatal-police-shootings-disparities-data/",
+      "source": "Washington Post",
+      "date": "2021-11-11",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "use of force",
+        "disparities"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
     },
     {
       "title": "Special Report: After Floyd's killing, Minneapolis police retreated, data shows",
@@ -355,12 +445,45 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "research"
       ],
       "featured": false,
       "relevance_confidence": "high",
       "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "Arresting the Recruitment Crisis",
+      "url": "https://www.city-journal.org/article/arresting-the-recruitment-crisis",
+      "source": "City Journal",
+      "date": "2021-10-01",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "recruitment",
+        "retention"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "More guns, pandemic stress and a police legitimacy crisis created perfect conditions for homicide spike in 2020",
+      "url": "https://theconversation.com/more-guns-pandemic-stress-and-a-police-legitimacy-crisis-created-perfect-conditions-for-homicide-spike-in-2020-168823",
+      "source": "The Conversation",
+      "date": "2021-09-27",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "COVID-19",
+        "legitimacy",
+        "violent crime"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
     },
     {
       "title": "New data on Utah police shootings and race called ‘extremely uncomfortable’, ‘disappointing’",
@@ -372,7 +495,8 @@
       "topics": [
         "police",
         "regional",
-        "Mountain West"
+        "use of force",
+        "disparities"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -387,8 +511,9 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
-        "use of force"
+        "national",
+        "accountability",
+        "violent crime"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -403,7 +528,8 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
+        "use of force",
         "accountability"
       ],
       "featured": false,
@@ -419,9 +545,9 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "regional",
         "Nebraska",
-        "local"
+        "COVID-19",
+        "violent crime"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -436,12 +562,29 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
+        "use of force",
         "policy"
       ],
       "featured": false,
       "relevance_confidence": "high",
       "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "Domestic violence calls for help increased during the pandemic – but the answers haven’t gotten any easier",
+      "url": "https://theconversation.com/domestic-violence-calls-for-help-increased-during-the-pandemic-but-the-answers-havent-gotten-any-easier-156683",
+      "source": "The Conversation",
+      "date": "2021-04-20",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "domestic violence",
+        "COVID-19",
+        "victimization"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
     },
     {
       "title": "'It’s Evil. It’s Ruthless.' Five Months after Omaha Police Shooting, Questions Remain.",
@@ -452,11 +595,29 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "news"
+        "use of force",
+        "accountability"
       ],
       "featured": false,
       "relevance_confidence": "high",
       "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "Opinion: Understanding Denver’s devastating rise in homicides in 2020, the largest in at least 5 years",
+      "url": "https://www.denverpost.com/2021/02/24/denver-crime-rate-homicide-shooting-property-crime-police/",
+      "source": "Denver Post",
+      "date": "2021-02-24",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "regional",
+        "violent crime",
+        "reform"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
     },
     {
       "title": "Mountain West Has The Highest Rate Of People Killed By Police In The Nation",
@@ -468,7 +629,7 @@
       "topics": [
         "police",
         "regional",
-        "Mountain West"
+        "use of force"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -484,6 +645,7 @@
       "topics": [
         "police",
         "regional",
+        "use of force",
         "Arizona"
       ],
       "featured": false,
@@ -516,7 +678,7 @@
       "topics": [
         "health",
         "police",
-        "COVID"
+        "COVID-19"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -547,8 +709,8 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
-        "bias"
+        "national",
+        "disparities"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -563,7 +725,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "reform"
       ],
       "featured": false,
@@ -579,7 +741,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "news"
+        "disparities"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -595,6 +757,7 @@
       "topics": [
         "police",
         "regional",
+        "reform",
         "Colorado"
       ],
       "featured": false,
@@ -690,7 +853,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news"
+        "national"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -790,6 +953,22 @@
       "date_discovered": "2020-01-01"
     },
     {
+      "title": "Guest post: Defunding or disbanding the police is a dangerous idea if done hastily",
+      "url": "https://www.washingtonpost.com/crime-law/2020/06/18/guest-post-defunding-or-disbanding-police-is-dangerous-idea-if-done-hastily/",
+      "source": "Washington Post",
+      "date": "2020-06-18",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "national",
+        "reform"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
       "title": "In fatal police shootings, race of officer not predictive of civilian's race: Study",
       "url": "https://abcnews.go.com/Health/fatal-police-shootings-race-officer-predictive-civilians-race/story?id=64563567",
       "source": "ABC News",
@@ -798,7 +977,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "bias"
       ],
       "featured": false,
@@ -814,7 +993,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "accountability"
       ],
       "featured": false,
@@ -894,7 +1073,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "accountability"
       ],
       "featured": false,
@@ -910,7 +1089,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "reform"
       ],
       "featured": false,
@@ -926,7 +1105,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "use of force"
       ],
       "featured": false,
@@ -959,6 +1138,38 @@
         "police",
         "regional",
         "Minnesota"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "See something, say something, do nothing? There is a solution",
+      "url": "https://thehill.com/opinion/education/374556-see-something-say-something-do-nothing-there-is-a-solution/",
+      "source": "The Hill",
+      "date": "2018-02-21",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "national",
+        "school shootings"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "Police fatal force: What’s behind the curtain?",
+      "url": "https://thehill.com/opinion/criminal-justice/370328-police-fatal-force-whats-behind-the-curtain/",
+      "source": "The Hill",
+      "date": "2018-01-24",
+      "summary": "",
+      "mention_type": "byline",
+      "topics": [
+        "police",
+        "national",
+        "use of force"
       ],
       "featured": false,
       "relevance_confidence": "high",
@@ -1005,7 +1216,7 @@
       "mention_type": "quoted",
       "topics": [
         "police",
-        "national news",
+        "national",
         "policy"
       ],
       "featured": false,
@@ -1102,7 +1313,7 @@
       "mention_type": ["quoted", "cited"],
       "topics": [
         "police",
-        "national news",
+        "national",
         "accountability"
       ],
       "featured": false,
