@@ -1,0 +1,1189 @@
+{
+  "metadata": {
+    "total_mentions": 72,
+    "last_updated": "2026-01-07T16:34:12.586449",
+    "sources": [
+      "New York Magazine",
+      "CityLab",
+      "USA Today",
+      "Wichita Eagle",
+      "Denver Post",
+      "Mother Jones",
+      "Wall Street Journal",
+      "Huffington Post",
+      "Baltimore Sun",
+      "New York Times",
+      "Omaha World Herald",
+      "ABC News",
+      "Cronkite News",
+      "Arizona Republic",
+      "Cruso\u00e9",
+      "Milwaukee Journal Sentinel",
+      "Reader",
+      "Healthline",
+      "Houston Chronicle",
+      "Wyoming Public Media",
+      "Washington Post",
+      "Omaha World-Herald",
+      "American Psychological Association",
+      "Nature",
+      "WIRED",
+      "KETV",
+      "LA Times",
+      "Fox News",
+      "Lincoln Journal Star",
+      "Santa Fe Reporter",
+      "Texas Tribune",
+      "Boise State Public Radio",
+      "Topeka Capital Journal",
+      "Trace",
+      "Tampa Bay Times",
+      "Salt Lake Tribune",
+      "Die Welt",
+      "Minneapolis Star Tribune",
+      "NPR",
+      "Phoenix New Times",
+      "Newsy",
+      "Buzzfeed News",
+      "Reuters",
+      "Dallas Morning News",
+      "Indianapolis Star",
+      "Globe and Mail",
+      "NBC News"
+    ],
+    "date_range": {
+      "earliest": "2015-01-01",
+      "latest": "2025-01-01"
+    }
+  },
+  "stories": [
+    {
+      "title": "A 'heartthrob' cop is winning over the internet, and he has a message",
+      "url": "https://www.usatoday.com/story/news/politics/2025/11/16/michael-pickett-birmingham-alabama-police-chief/87114615007/",
+      "source": "USA Today",
+      "date": "2025-11-16",
+      "summary": "USA Today (2025)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "policy"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2025-01-01"
+    },
+    {
+      "title": "More people died in police chases in this Denver suburb than in the state’s biggest cities",
+      "url": "https://www.denverpost.com/2025/04/20/colorado-police-chases-deaths-injuries-westminster-aurora/",
+      "source": "Denver Post",
+      "date": "2025-04-20",
+      "summary": "Colorado Police Chases Deaths Injuries Westminster Aurora",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Colorado"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2025-01-01"
+    },
+    {
+      "title": "A Milwaukee cop was already on a list of officers with credibility concerns. Then he lied under oath – and kept patrolling",
+      "url": "https://www.jsonline.com/story/news/investigations/2025/08/20/milwaukee-police-officer-was-on-brady-list-twice-before-he-was-fired/85364335007/",
+      "source": "Milwaukee Journal Sentinel",
+      "date": "2025-08-20",
+      "summary": "Milwaukee Journal Sentinel (2025)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2025-01-01"
+    },
+    {
+      "title": "Omaha Police Department shares new look at overall crime",
+      "url": "https://www.ketv.com/article/ketv-investigates-exclusive-omaha-police-department-shares-new-look-at-overall-crime/64786856",
+      "source": "KETV",
+      "date": "2025-05-16",
+      "summary": "KETV (2025)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "local",
+        "Nebraska"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2025-01-01"
+    },
+    {
+      "title": "Since George Floyd's murder, police killings keep rising, not falling",
+      "url": "https://www.nytimes.com/2025/05/24/us/police-killings-george-floyd.html",
+      "source": "New York Times",
+      "date": "2025-05-24",
+      "summary": "Police Killings George Floyd",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "use of force"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2025-01-01"
+    },
+    {
+      "title": "ICE Agents Concealing Their Faces: Can They Really Do That?",
+      "url": "https://www.motherjones.com/politics/2025/06/ice-immigration-agents-masks-masking-concealing-faces-legal/",
+      "source": "Mother Jones",
+      "date": "2025-06-10",
+      "summary": "Ice Immigration Agents Masks Masking Concealing Faces Legal",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "civil liberties",
+        "policy"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2025-01-01"
+    },
+    {
+      "title": "D.C. audit of police ranks for links to white supremacy nears completion",
+      "url": "https://www.washingtonpost.com/dc-md-va/2024/10/09/dc-audits-mpd-extremism/",
+      "source": "Washington Post",
+      "date": "2024-10-09",
+      "summary": "Audits Mpd Extremism",
+      "mention_type": "cited",
+      "topics": [
+        "police",
+        "national news",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2024-01-01"
+    },
+    {
+      "title": "Fewer police officers died in the line of duty in 2023, but 'scary number' were shot: Study",
+      "url": "https://www.usatoday.com/story/news/nation/2024/01/11/police-officer-killings-2023/72152566007/",
+      "source": "USA Today",
+      "date": "2024-01-11",
+      "summary": "USA Today (2024)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "policy"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2024-01-01"
+    },
+    {
+      "title": "Violent crime is down across the country, but rates are mixed in the Mountain West",
+      "url": "https://www.wyomingpublicmedia.org/2024-08-05/violent-crime-is-down-across-the-country-but-rates-are-mixed-in-the-mountain-west",
+      "source": "Wyoming Public Media",
+      "date": "2024-08-05",
+      "summary": "Violent Crime Down Across Country But Rates Are Mixed Mountain West",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Mountain West"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2024-01-01"
+    },
+    {
+      "title": "Hillsborough crime data shows complexity as state attorney candidates claim declines",
+      "url": "https://www.tampabay.com/news/crime/2024/08/15/hillsborough-state-attorney-election-race/",
+      "source": "Tampa Bay Times",
+      "date": "2024-08-15",
+      "summary": "Hillsborough State Attorney Election Race",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2024-01-01"
+    },
+    {
+      "title": "4 key takeaways from the FBI's annual crime report",
+      "url": "https://www.npr.org/2023/10/20/1207276234/fbi-crime-report-takeaways",
+      "source": "NPR",
+      "date": "2023-10-20",
+      "summary": "Fbi Crime Report Takeaways",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "research"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2023-01-01"
+    },
+    {
+      "title": "Fatal police shootings are still going up, and nobody knows why",
+      "url": "https://www.unionleader.com/news/safety/fatal-police-shootings-are-still-going-up-and-nobody-knowswhy/article_121cc480-7ac6-57a6-8b84-5ef735ecfe6b.html",
+      "source": "Washington Post",
+      "date": "2023-02-21",
+      "summary": "Article_121Cc480 7Ac6 57A6 8B84 5Ef735Ecfe6B",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2023-01-01"
+    },
+    {
+      "title": "Staffing woes continue to plague Omaha Police Department",
+      "url": "https://omaha.com/news/local/staffing-woes-continue-to-plague-omaha-police-department/article_19b630de-bea5-11ed-b07c-9b7f82541a13.html",
+      "source": "Omaha World-Herald",
+      "date": "2023-03-21",
+      "summary": "Article_19B630De Bea5 11Ed B07C 9B7F82541A13",
+      "mention_type": ["quoted", "cited"],
+      "topics": [
+        "police",
+        "regional",
+        "Nebraska",
+        "local"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2023-01-01"
+    },
+    {
+      "title": "'Gonna lose my gun again,' Idaho deputy said minutes after fatally shooting man in mental health crisis",
+      "url": "https://www.nbcnews.com/news/us-news/gonna-lose-gun-idaho-deputy-said-minutes-fatally-shooting-man-mental-h-rcna33601",
+      "source": "NBC News",
+      "date": "2022-06-17",
+      "summary": "Gonna Lose Gun Idaho Deputy Said Minutes Fatally Shooting Man Mental Rcna33601",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "use of force"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2022-01-01"
+    },
+    {
+      "title": "More Utah officers were shot at in 2021 than in recent history. Here’s why officials say violence against police is rising.",
+      "url": "https://www.sltrib.com/news/2022/01/21/utah-broke-record-most/",
+      "source": "Salt Lake Tribune",
+      "date": "2022-01-21",
+      "summary": "Utah Broke Record Most",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Mountain West"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2022-01-01"
+    },
+    {
+      "title": "Police attacked in at least 5 states in about a week. Are officers being targeted?",
+      "url": "https://www.usatoday.com/story/news/nation/2022/01/29/police-attacked-4-us-cities-within-week-amid-violent-crime-spike/9248049002/?gnt-cfr=1",
+      "source": "USA Today",
+      "date": "2022-01-30",
+      "summary": "USA Today (2022)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "policy"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2022-01-01"
+    },
+    {
+      "title": "Washington D.C. police withhold key details about homicide unit amid murder surge",
+      "url": "https://www.foxnews.com/politics/washington-d-c-police-withhold-key-details-about-homicide-unit-amid-murder-surge",
+      "source": "Fox News",
+      "date": "2022-02-01",
+      "summary": "Washington Police Withhold Key Details About Homicide Unit Amid Murder Surge",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2022-01-01"
+    },
+    {
+      "title": "Denver police shooting in LoDo caused most injuries of any Colorado police shooting since at least 2010",
+      "url": "https://www.denverpost.com/2022/07/20/denver-police-shooting-lodo-injuries/",
+      "source": "Denver Post",
+      "date": "2022-07-20",
+      "summary": "Denver Police Shooting Lodo Injuries",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Colorado"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2022-01-01"
+    },
+    {
+      "title": "Special Report: After Floyd's killing, Minneapolis police retreated, data shows",
+      "url": "https://www.reuters.com/legal/government/after-floyds-killing-minneapolis-police-retreated-data-shows-2021-09-13/",
+      "source": "Reuters",
+      "date": "2021-09-13",
+      "summary": "After Floyds Killing Minneapolis Police Retreated Data Shows",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "research"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "New data on Utah police shootings and race called ‘extremely uncomfortable’, ‘disappointing’",
+      "url": "https://www.sltrib.com/news/2021/09/20/new-data-utah-police/",
+      "source": "Salt Lake Tribune",
+      "date": "2021-09-20",
+      "summary": "New Data Utah Police",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Mountain West"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "What Improves the Chances of Solving a Murder?",
+      "url": "https://www.nytimes.com/2021/07/23/upshot/murder-crime-solving.html",
+      "source": "New York Times",
+      "date": "2021-07-23",
+      "summary": "Murder Crime Solving",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "use of force"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "Police shootings continue daily, despite a pandemic, protests and pushes for reform",
+      "url": "https://www.washingtonpost.com/investigations/interactive/2021/police-shootings-since-2015/",
+      "source": "Washington Post",
+      "date": "2021-07-30",
+      "summary": "Police Shootings Since",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "Violent crime rose in 2020, while property crime dropped. A look at Omaha during the COVID pandemic",
+      "url": "https://omaha.com/news/local/crime-and-courts/violent-crime-rose-in-2020-while-property-crime-dropped-a-look-at-omaha-during-the/article_97ab10ee-963a-11eb-88d2-631cd75b0b83.html",
+      "source": "Omaha World-Herald",
+      "date": "2021-04-11",
+      "summary": "Article_97Ab10Ee 963A 11Eb 88D2 631Cd75B0B83",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Nebraska",
+        "local"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "Fact check: Posts on days without police killings in 2021 are true",
+      "url": "https://www.usatoday.com/story/news/factcheck/2021/04/28/fact-check-posts-days-without-police-killings-2021-true/7332866002/",
+      "source": "USA Today",
+      "date": "2021-04-28",
+      "summary": "USA Today (2021)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "policy"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "'It’s Evil. It’s Ruthless.' Five Months after Omaha Police Shooting, Questions Remain.",
+      "url": "https://thereader.com/news/its-evil-its-ruthless-five-months-after-omaha-police-shooting-questions-remain",
+      "source": "The Reader",
+      "date": "2021-05-03",
+      "summary": "Its Evil Its Ruthless Five Months After Omaha Police Shooting Questions Remain",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "Mountain West Has The Highest Rate Of People Killed By Police In The Nation",
+      "url": "https://www.boisestatepublicradio.org/news/2021-01-25/mountain-west-has-the-highest-rate-of-people-killed-by-police-in-the-nation",
+      "source": "Boise State Public Radio",
+      "date": "2021-01-25",
+      "summary": "Mountain West Has Highest Rate People Killed Police Nation",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Mountain West"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2021-01-01"
+    },
+    {
+      "title": "Phoenix police shootings dropped in 2019, after sharp spike in 2018",
+      "url": "https://cronkitenews.azpbs.org/2020/01/03/phoenix-police-shootings-dropped-in-2019-after-sharp-spike-in-2018/",
+      "source": "Cronkite News",
+      "date": "2020-01-03",
+      "summary": "Phoenix Police Shootings Dropped After Sharp Spike",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Arizona"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Baltimore police racked up overtime by working long hours with little oversight in past 2 years, records show",
+      "url": "https://www.baltimoresun.com/maryland/baltimore-city/bs-md-ci-police-overtime-20200207-z43l2amv3vf3lb4rtgsvfeye6i-story.html",
+      "source": "Baltimore Sun",
+      "date": "2020-02-07",
+      "summary": "Police Overtime Z43L2Amv3Vf3Lb4Rtgsvfeye6I Story",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "What Happens as More Police, Firefighters, and Paramedics Get Sick with COVID-19?",
+      "url": "https://www.healthline.com/health-news/what-do-we-do-if-our-police-firefighters-and-paramedics-all-get-sick-with-covid-19",
+      "source": "Healthline",
+      "date": "2020-04-14",
+      "summary": "What Our Police Firefighters Paramedics All Get Sick With Covid",
+      "mention_type": "quoted",
+      "topics": [
+        "health",
+        "police",
+        "COVID"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "‘It felt like a setup': Protesters arrested on Margaret Hunt Hill Bridge decry police crowd control tactic",
+      "url": "https://www.dallasnews.com/news/crime/2020/06/02/dallas-police-chief-renee-hall-says-demonstrators-broke-law-when-they-walked-onto-margaret-hunt-hill-bridge/",
+      "source": "Dallas Morning News",
+      "date": "2020-06-02",
+      "summary": "Dallas Police Chief Renee Hall Says Demonstrators Broke Law When They Walked Onto Margaret Hunt Hill Bridge",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "protests"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "What the latest research tells us about racial bias in policing",
+      "url": "https://abcnews.go.com/US/latest-research-tells-us-racial-bias-policing/story?id=70994421",
+      "source": "ABC News",
+      "date": "2020-06-04",
+      "summary": "ABC News (2020)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "bias"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "The Minneapolis Police Chief Promised Change. He Got a Disaster.",
+      "url": "https://www.wsj.com/articles/a-minneapolis-police-chief-promised-change-george-floyds-death-shows-hurdles-11590971860",
+      "source": "Wall Street Journal",
+      "date": "2020-05-31",
+      "summary": "Minneapolis Police Chief Promised Change George Floyds Death Shows Hurdles",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "reform"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Tickets and Arrests: Black and White Drivers Face Very Different Outcomes from Traffic Stops",
+      "url": "https://thereader.com/news/black-drivers-more-likely-to-receive-harsh-outcomes-in-traffic-stops",
+      "source": "Reader",
+      "date": "2020-6-12",
+      "summary": "Black Drivers More Likely Receive Harsh Outcomes Traffic Stops",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Colorado among first in U.S. to pass historic police reforms following protests",
+      "url": "https://www.denverpost.com/2020/06/13/colorado-police-reform-bill-passes-legislature/",
+      "source": "Denver Post",
+      "date": "2020-06-13",
+      "summary": "Colorado Police Reform Bill Passes Legislature",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Colorado"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Americanos contra os tiras",
+      "url": "https://crusoe.com.br/edicoes/111/americanos-contra-os-tiras/",
+      "source": "Cruso\u00e9",
+      "date": "2020-06-12",
+      "summary": "Americanos Contra Tiras",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Column: We need a lot more data on police abuse. Here’s why",
+      "url": "https://www.latimes.com/opinion/story/2020-06-17/police-shootings-data",
+      "source": "LA Times",
+      "date": "2020-06-17",
+      "summary": "Police Shootings Data",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "California",
+        "use of force"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "What the data say about police brutality and racial bias — and which reforms might work",
+      "url": "https://www.nature.com/articles/d41586-020-01846-z",
+      "source": "Nature",
+      "date": "2020-06-19",
+      "summary": "D41586",
+      "mention_type": "quoted",
+      "topics": [
+        "research",
+        "police",
+        "science"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "What went wrong at 72nd and Dodge? The anatomy of Omaha's May 29 street conflict",
+      "url": "https://www.omaha.com/news/local/what-went-wrong-at-72nd-and-dodge-the-anatomy-of-omahas-may-29-street-conflict/article_d943cc78-52a3-5f67-8f43-ac642922e5bc.html",
+      "source": "Omaha World Herald",
+      "date": "2020-06-21",
+      "summary": "Article_D943Cc78 52A3 5F67 8F43 Ac642922E5Bc",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Protesters describe being shot, gassed during Black Lives Matter rallies",
+      "url": "https://journalstar.com/news/local/crime-and-courts/protesters-describe-being-shot-gassed-during-black-lives-matter-rallies/article_dadfbf6c-1649-54ad-8e43-67e48e174dcb.html",
+      "source": "Lincoln Journal Star",
+      "date": "2020-06-21",
+      "summary": "Article_Dadfbf6C 54Ad 8E43 67E48E174Dcb",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Nebraska",
+        "local"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Investigation: Police Ignore FBI Request For 'Use Of Force' Data",
+      "url": "https://www.newsy.com/stories/police-can-ignore-fbi-request-for-use-of-force-data/",
+      "source": "Newsy",
+      "date": "2020-06-26",
+      "summary": "Police Can Ignore Fbi Request Use Force Data",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Einmal im Jahr Wochenendkurs, das kann es nicht sein",
+      "url": "https://www.welt.de/wissenschaft/article210167603/Polizeigewalt-in-USA-Neue-Strategien-zur-Deeskalation.html",
+      "source": "Die Welt",
+      "date": "2020-06-24",
+      "summary": "Polizeigewalt Usa Neue Strategien Zur Deeskalation",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "international"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Watch: Texas’ police use-of-force tactics scrutinized after George Floyd protests",
+      "url": "https://www.texastribune.org/2020/07/02/texas-police-george-floyd/",
+      "source": "Texas Tribune",
+      "date": "2020-07-02",
+      "summary": "Texas Police George Floyd",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "policy"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "How Often Are Police Shot in the Line of Duty?",
+      "url": "https://www.thetrace.org/2020/07/guns-policing-how-many-deaths-data-statistics/",
+      "source": "Trace",
+      "date": "2020-07-22",
+      "summary": "Guns Policing How Many Deaths Data Statistics",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Phoenix police records prove officers disproportionately use force against people of color",
+      "url": "https://www.azcentral.com/restricted/?return=https%3A%2F%2Fwww.azcentral.com%2Fin-depth%2Fnews%2Flocal%2Fphoenix%2F2020%2F08%2F10%2Fphoenix-police-use-force-data-black-latino-native-impact%2F5407299002%2F",
+      "source": "Arizona Republic",
+      "date": "2020-08-11",
+      "summary": "Restricted",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "use of force"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "Has crime gone up or down in Tampa? State attorney candidates differ.",
+      "url": "https://www.tampabay.com/news/crime/2020/10/13/has-crime-gone-up-or-down-in-tampa-state-attorney-candidates-differ/?utm_source=twitter&utm_content=%40tbtnewspaper&utm_campaign=SocialFlow&utm_medium=social",
+      "source": "Tampa Bay Times",
+      "date": "2020-10-13",
+      "summary": "Has Crime Gone Down Tampa State Attorney Candidates Differ",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "‘Us Versus Them’ Santa Fe County Sheriff’s Office using 'Thin Blue Line' and 'Blue Lives Matter' flag on recruitment truck",
+      "url": "https://www.sfreporter.com/news/2020/10/22/us-versus-them/",
+      "source": "Santa Fe Reporter",
+      "date": "2020-10-22",
+      "summary": "Versus Them",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2020-01-01"
+    },
+    {
+      "title": "In fatal police shootings, race of officer not predictive of civilian's race: Study",
+      "url": "https://abcnews.go.com/Health/fatal-police-shootings-race-officer-predictive-civilians-race/story?id=64563567",
+      "source": "ABC News",
+      "date": "2019-07-29",
+      "summary": "ABC News (2019)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "bias"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2019-01-01"
+    },
+    {
+      "title": "Four years in a row, police nationwide fatally shoot nearly 1,000 people",
+      "url": "https://www.washingtonpost.com/investigations/four-years-in-a-row-police-nationwide-fatally-shoot-nearly-1000-people/2019/02/07/0cb3b098-020f-11e9-9122-82e98f91ee6f_story.html?noredirect=on&utm_term=.8beeba6c1f0b",
+      "source": "Washington Post",
+      "date": "2019-02-12",
+      "summary": "0Cb3B098 020F 11E9 82E98F91Ee6F_Story",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2019-01-01"
+    },
+    {
+      "title": "Report Doesn’t Give Clear Cause for Phoenix Police Shooting Spike in 2018",
+      "url": "https://www.phoenixnewtimes.com/news/report-no-single-answer-for-2018-spike-in-phoenix-police-shootings-11273431",
+      "source": "Phoenix New Times",
+      "date": "2019-04-19",
+      "summary": "Report Single Answer Spike Phoenix Police Shootings",
+      "mention_type": ["quoted", "cited"],
+      "topics": [
+        "police",
+        "regional",
+        "Arizona"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2019-01-01"
+    },
+    {
+      "title": "What New Research Says About Race and Police Shootings",
+      "url": "https://www.citylab.com/equity/2019/08/police-officer-shootings-gun-violence-racial-bias-crime-data/595528/",
+      "source": "CityLab",
+      "date": "2019-08-06",
+      "summary": "CityLab (2019)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "policy",
+        "equity"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2019-01-01"
+    },
+    {
+      "title": "What the data say about police shootings",
+      "url": "https://www.nature.com/articles/d41586-019-02601-9",
+      "source": "Nature",
+      "date": "2019-09-04",
+      "summary": "D41586",
+      "mention_type": "quoted",
+      "topics": [
+        "research",
+        "police",
+        "science"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2019-01-01"
+    },
+    {
+      "title": "IMPD used to fatally shoot more people than NYC or Chicago. Here's what changed.",
+      "url": "https://www.indystar.com/story/news/crime/2019/09/18/how-indianapolis-reduced-fatal-police-shootings-compared-new-york-chicago/1943601001/",
+      "source": "Indianapolis Star",
+      "date": "2019-09-18",
+      "summary": "Indianapolis Star (2019)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "shooting"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2019-01-01"
+    },
+    {
+      "title": "Fatal police shootings of unarmed people have significantly declined, experts say",
+      "url": "https://www.washingtonpost.com/investigations/fatal-police-shootings-of-unarmed-people-have-significantly-declined-experts-say/2018/05/03/d5eab374-4349-11e8-8569-26fda6b404c7_story.html?noredirect=on&utm_term=.d2800bfb4d4f",
+      "source": "Washington Post",
+      "date": "2018-05-07",
+      "summary": "D5Eab374 11E8 26Fda6B404C7_Story",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "Federal Count of Deadly Police Shootings Is Slow to Get Going",
+      "url": "https://www.wsj.com/articles/federal-count-of-deadly-police-shootings-is-slow-to-get-going-1522494001",
+      "source": "Wall Street Journal",
+      "date": "2018-03-31",
+      "summary": "Federal Count Deadly Police Shootings Slow Get Going",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "reform"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "Stephon Clark was shot 8 times primarily in his back, family-ordered autopsy finds",
+      "url": "https://www.nytimes.com/2018/03/30/us/stephon-clark-independent-autopsy.html",
+      "source": "New York Times",
+      "date": "2018-03-30",
+      "summary": "Stephon Clark Independent Autopsy",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "use of force"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "Gun Deaths And Car Injuries Are On The Rise And No One Knows Why",
+      "url": "https://www.huffingtonpost.com/entry/gun-deaths-car-deaths_us_5b6b3337e4b0530743c676c8",
+      "source": "Huffington Post",
+      "date": "2018-08-17",
+      "summary": "Gun Deaths Car Deaths_Us_5B6B3337E4B0530743C676C8",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "After charges in Justine Damond killing, racial dynamic remains a focal point",
+      "url": "http://www.startribune.com/after-charges-in-damond-killing-racial-dynamic-remains-a-focal-point/477827553/",
+      "source": "Minneapolis Star Tribune",
+      "date": "2018-03-25",
+      "summary": "Minneapolis Star Tribune (2018)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Minnesota"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "Officer shot at dog in room full of children, wounding 9-year-old and alarming mom",
+      "url": "http://www.kansas.com/news/local/article194338784.html",
+      "source": "Wichita Eagle",
+      "date": "2018-01-12",
+      "summary": "Article194338784",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Kansas"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "Criminal justice professor: Topeka police officers had authority to search for gun before killing Dominique White",
+      "url": "http://cjonline.com/news/local/crime-courts/2018-01-04/criminal-justice-professor-topeka-police-officers-had-authority",
+      "source": "Topeka Capital Journal",
+      "date": "2018-01-04",
+      "summary": "Criminal Justice Professor Topeka Police Officers Had Authority",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Kansas"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2018-01-01"
+    },
+    {
+      "title": "Number of officers killed hits 2nd-lowest in more than 50 years",
+      "url": "https://www.usatoday.com/story/news/2017/12/28/number-officers-killed-2017-hits-nearly-50-year-low/984477001/",
+      "source": "USA Today",
+      "date": "2017-12-28",
+      "summary": "USA Today (2017)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national news",
+        "policy"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2017-01-01"
+    },
+    {
+      "title": "The US needs real data to confront bias in police shootings",
+      "url": "https://www.wired.com/2017/02/us-needs-real-data-confront-bias-police-shootings",
+      "source": "WIRED",
+      "date": "2017-10-16",
+      "summary": "Needs Real Data Confront Bias Police Shootings",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "technology",
+        "data"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2017-01-01"
+    },
+    {
+      "title": "Is 'reverse racism' among police real?",
+      "url": "http://www.citylab.com/crime/2017/02/is-reverse-racism-among-police-real/513503/",
+      "source": "CityLab",
+      "date": "2017-02-08",
+      "summary": "CityLab (2017)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "policy",
+        "equity"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2017-01-01"
+    },
+    {
+      "title": "Video shows use of force after Sioux County chase, raises more questions about Nebraska State Patrol",
+      "url": "http://www.omaha.com/news/nebraska/video-shows-use-of-force-after-sioux-county-chase-raises/article_50d3bc92-e2de-5fd8-a4ab-a9a6966a1d63.html",
+      "source": "Omaha World-Herald",
+      "date": "2017-07-04",
+      "summary": "Article_50D3Bc92 E2De 5Fd8 A4Ab A9A6966A1D63",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Nebraska",
+        "local"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2017-01-01"
+    },
+    {
+      "title": "A persisting problem: LPD probes into the racial disparities in Lincoln traffic stops",
+      "url": "http://journalstar.com/news/local/911/a-persisting-problem-lpd-probes-into-the-racial-disparities-in/article_30cc2fce-1e97-5362-9777-63ca24ed029a.html",
+      "source": "Lincoln Journal Star",
+      "date": "2017-05-15",
+      "summary": "Article_30Cc2Fce 1E97 63Ca24Ed029A",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Nebraska",
+        "local"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2017-01-01"
+    },
+    {
+      "title": "All Studies On Race And Police Shootings Are Lacking — Here’s Why",
+      "url": "https://www.buzzfeed.com/peteraldhous/race-and-police-force?utm_term=.to1jrQ82x#.ke9mzqjgZ",
+      "source": "Buzzfeed News",
+      "date": "2016-07-13",
+      "summary": "Race Police Force",
+      "mention_type": ["quoted", "cited"],
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2016-01-01"
+    },
+    {
+      "title": "Study finds police fatally shoot unarmed black men at disproportionate rates",
+      "url": "https://www.washingtonpost.com/national/study-finds-police-fatally-shoot-unarmed-black-men-at-disproportionate-rates/2016/04/06/e494563e-fa74-11e5-80e4-c381214de1a3_story.html?tid=sm_tw",
+      "source": "Washington Post",
+      "date": "2016-04-07",
+      "summary": "E494563E Fa74 11E5 80E4 C381214De1A3_Story",
+      "mention_type": ["quoted", "cited"],
+      "topics": [
+        "police",
+        "national news",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2016-01-01"
+    },
+    {
+      "title": "Commerce City asks feds to review its police department after years of officer misconduct",
+      "url": "http://www.denverpost.com/2016/07/27/commerce-city-asks-feds-for-help-with-police/",
+      "source": "Denver Post",
+      "date": "2016-07-27",
+      "summary": "Commerce City Asks Feds Help With Police",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "regional",
+        "Colorado"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2016-01-01"
+    },
+    {
+      "title": "After a violent week, two measures to make policing better",
+      "url": "http://www.theglobeandmail.com/news/world/after-a-violent-week-two-measures-to-make-policing-better/article30873038/?cmpid=rss1&click=sf_globe",
+      "source": "Globe and Mail",
+      "date": "2016-07-11",
+      "summary": "Article30873038",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2016-01-01"
+    },
+    {
+      "title": "'Ferguson Effect' Probably Not Keeping Police From Doing Their Jobs, Study Suggests",
+      "url": "http://www.huffingtonpost.com/entry/ferguson-effect-police-study_us_5630d33ee4b0c66bae5a41ab",
+      "source": "Huffington Post",
+      "date": "2015-10-28",
+      "summary": "Ferguson Effect Police Study_Us_5630D33Ee4B0C66Bae5A41Ab",
+      "mention_type": "cited",
+      "topics": [
+        "police",
+        "news"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2015-01-01"
+    },
+    {
+      "title": "A new paper rebuts the notion of a 'Ferguson Effect'",
+      "url": "http://nymag.com/scienceofus/2015/10/research-rebuts-the-idea-of-a-ferguson-effect.html",
+      "source": "New York Magazine",
+      "date": "2015-10-30",
+      "summary": "Research Rebuts Idea Ferguson Effect",
+      "mention_type": "cited",
+      "topics": [
+        "police",
+        "research"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2015-01-01"
+    },
+    {
+      "title": "Negative Publicity Reduces Police Motivation",
+      "url": "http://www.apa.org/news/press/releases/2015/10/police-motivation.aspx",
+      "source": "American Psychological Association",
+      "date": "2015-01-27",
+      "summary": "Police Motivation.Aspx",
+      "mention_type": "cited",
+      "topics": [
+        "research",
+        "police"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2015-01-01"
+    }
+  ]
+}
