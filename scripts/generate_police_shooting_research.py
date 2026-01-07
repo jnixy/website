@@ -13,9 +13,9 @@ import time
 
 # Configuration
 OUTPUT_FILE = 'static/data/police-shooting-research.xml'
-DAYS_BACK = 90  # Check last 3 months
+DAYS_BACK = 90  # Check last 3 months (academic publishing is slower)
 
-# Academic search queries - focused on police use of force research
+# Academic search queries - comprehensive coverage
 SEARCH_QUERIES = [
     'police shooting',
     'police use of force',
@@ -23,6 +23,9 @@ SEARCH_QUERIES = [
     'police violence',
     'officer-involved shooting',
     'police killings',
+    'police accountability',
+    'police misconduct',
+    'racial disparities police',
 ]
 
 # Journals/sources to prioritize (criminology, criminal justice, sociology, political science, public health)
@@ -145,7 +148,7 @@ def fetch_pubmed(query, days_back=DAYS_BACK):
 def is_relevant_article(title, abstract):
     """
     Filter to identify relevant research about police shootings and use of force
-    Balanced approach: not too strict, not too permissive
+    Balanced approach: catches broader policing research while excluding noise
     """
     if not title:
         return False
@@ -154,75 +157,100 @@ def is_relevant_article(title, abstract):
     
     # MUST contain explicit policing terms (core requirement)
     policing_terms = [
-        'police', 'policing', 'officer', 'law enforcement', 'cop'
+        'police', 'policing', 'law enforcement', 'cop', 'cops'
     ]
     
     has_policing = any(term in text for term in policing_terms)
     if not has_policing:
-        return False
-    
-    # But "officer" alone is too broad - if only "officer" appears, require context
-    if 'officer' in text and not any(term in text for term in ['police', 'policing', 'law enforcement', 'cop']):
-        # Allow only if it mentions specific policing contexts
-        policing_context = [
-            'patrol', 'arrest', 'department', 'precinct', 'badge',
-            'uniform police', 'state trooper', 'sheriff', 'deputy'
-        ]
-        if not any(context in text for context in policing_context):
+        # Special case: "officer" with clear policing context
+        if 'officer' in text:
+            policing_context = [
+                'patrol', 'arrest', 'department', 'badge',
+                'sheriff', 'deputy', 'trooper', 'detective'
+            ]
+            if any(context in text for context in policing_context):
+                has_policing = True
+        
+        if not has_policing:
             return False
     
-    # MUST relate to force/violence/deadly encounters (not just general policing)
-    force_violence_terms = [
+    # MUST relate to force/violence/encounters (but more permissive)
+    # Split into tiers - need at least one from either tier
+    
+    # Tier 1: Explicit violence/force (strongest relevance)
+    explicit_force = [
         'shooting', 'shot', 'deadly force', 'lethal force',
         'use of force', 'excessive force', 'violence', 'fatality',
         'killing', 'killed', 'death', 'homicide', 'fatal',
-        'firearm', 'gun', 'weapon discharge', 'armed encounter'
+        'shoot', 'fired weapon', 'discharged weapon'
     ]
     
-    if not any(term in text for term in force_violence_terms):
+    # Tier 2: Related concepts (still relevant but broader)
+    related_force = [
+        'firearm', 'gun', 'weapon', 'armed',
+        'force continuum', 'de-escalation', 'use-of-force',
+        'encounter', 'incident', 'confrontation',
+        'accountability', 'misconduct', 'brutality',
+        'racial disparity', 'disparate impact'
+    ]
+    
+    has_force_terms = (
+        any(term in text for term in explicit_force) or
+        any(term in text for term in related_force)
+    )
+    
+    if not has_force_terms:
         return False
     
     # Exclude clearly irrelevant topics (even if they mention "force" or "officer")
     exclude_terms = [
         # Physical science
-        'atomic force microscopy', 'electrostatic force',
+        'atomic force microscopy', 'electrostatic force', 'magnetic force',
         # Engineering
-        'reliability engineering', 'system safety',
+        'reliability engineering', 'system safety', 'structural force',
         # Military (not police)
         'armed forces', 'military officer', 'marine corps', 'army officer',
-        'air force', 'naval officer', 'combat officer',
+        'air force', 'naval officer', 'combat officer', 'military training',
         # Healthcare
         'nursing', 'nurse education', 'medical officer', 'health officer',
-        # Other
+        # Other occupations
         'warehouse', 'correctional officer', 'probation officer',
-        'fishing', 'wildlife officer', 'park ranger'
+        'fishing', 'wildlife officer', 'park ranger', 'forest officer',
+        # Non-policing contexts
+        'coal riot', 'romantic poetry', 'maritime police 18', 'river police 18'
     ]
     
     if any(term in text for term in exclude_terms):
         return False
     
-    # Exclude historical studies (unless they're comparative/contemporary relevance)
-    historical_only_terms = [
-        'world war', 'civil war', '19th century', '18th century',
-        'victorian', 'colonial police', 'historical police'
+    # Exclude historical studies older than 1950s (unless comparative)
+    very_old_historical = [
+        '18th century', '19th century', '1800s', '1700s',
+        'victorian', 'colonial police', 'historical marine police'
     ]
     
-    if any(term in text for term in historical_only_terms):
-        # Only allow if it has contemporary comparative elements
-        contemporary_terms = ['modern', 'contemporary', 'current', 'today', '21st century', '2000s', '2010s', '2020s']
+    if any(term in text for term in very_old_historical):
+        contemporary_terms = ['modern', 'contemporary', 'compared to', 'evolution']
         if not any(term in text for term in contemporary_terms):
             return False
     
-    # Exclude international studies unless explicitly comparative
+    # Exclude purely international studies (non-U.S.) unless explicitly comparative
     international_only_terms = [
-        'german police', 'british police', 'uk police', 'canadian police',
-        'australian police', 'european police', 'asian police'
+        'german police', 'uk police', 'british police', 'canadian police',
+        'australian police', 'european police', 'asian police',
+        'french police', 'italian police', 'spanish police'
     ]
     
     if any(term in text for term in international_only_terms):
-        # Allow if comparative (mentions U.S./American)
-        us_terms = ['united states', 'u.s.', 'american', 'us police']
+        # Allow if comparative (mentions U.S./American or is comparative study)
+        us_terms = ['united states', 'u.s.', 'us ', 'american', 'cross-national', 'comparative', 'international comparison']
         if not any(term in text for term in us_terms):
+            return False
+    
+    # Exclude fitness/training studies unless they relate to use of force
+    if any(term in text for term in ['physical fitness', 'strength training', 'conditioning', 'tactical fitness']):
+        # Must also mention force/violence context
+        if not any(term in text for term in explicit_force):
             return False
     
     return True
