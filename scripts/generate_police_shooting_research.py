@@ -13,16 +13,21 @@ import time
 
 # Configuration
 OUTPUT_FILE = 'static/data/police-shooting-research.xml'
-DAYS_BACK = 180  # Check last 3 months
+DAYS_BACK = 90  # Check last 3 months
 
-# Academic search queries
+# Academic search queries - broader to catch more relevant research
 SEARCH_QUERIES = [
     'police shooting',
     'officer-involved shooting',
     'police use of force',
     'police deadly force',
     'police violence',
+    'police killings',
     'officer-involved fatality',
+    'police-citizen encounters',
+    'law enforcement use of force',
+    'police firearms',
+    'officer shootings',
 ]
 
 # Journals/sources to prioritize (criminology, criminal justice, sociology, political science, public health)
@@ -33,12 +38,12 @@ PRIORITY_SOURCES = [
     'justice quarterly',
     'journal of criminal justice',
     'police quarterly',
-    'journal of research in crime',
+    'journal of research in crime and delinquency',
     'journal of quantitative criminology',
     'criminal justice and behavior',
     'crime & delinquency',
     'crime and delinquency',
-    'justice evaluation',
+    'justice evaluation journal',
     'policing and society',
     'police practice & research',
     'police practice and research',
@@ -145,39 +150,55 @@ def fetch_pubmed(query, days_back=DAYS_BACK):
 def is_relevant_article(title, abstract):
     """
     Filter to identify relevant research about police shootings
+    More permissive to catch broader policing research
     """
     text = (title + ' ' + (abstract or '')).lower()
     
-    # Must contain core topics
-    required_terms = [
-        'police', 'officer', 'law enforcement', 'policing'
+    # Must contain core policing topics
+    policing_terms = [
+        'police', 'officer', 'law enforcement', 'policing', 'cop'
     ]
     
-    if not any(term in text for term in required_terms):
+    if not any(term in text for term in policing_terms):
         return False
     
-    # Must relate to shootings/force/violence
+    # Broad force/violence/outcome terms (more permissive)
     force_terms = [
         'shooting', 'shot', 'deadly force', 'lethal force',
         'use of force', 'excessive force', 'violence', 'fatality',
-        'killing', 'death', 'homicide'
+        'killing', 'death', 'homicide', 'fatal', 'killed',
+        'force', 'weapon', 'armed', 'firearm', 'gun',
+        'encounter', 'incident', 'confrontation'
     ]
     
     if not any(term in text for term in force_terms):
         return False
     
-    # Exclude if it's about officer victimization (unless comparative)
-    officer_victim_only = [
-        'officer safety',
-        'officer victimization',
-        'violence against police',
-        'attacks on officers'
+    # Exclude clearly irrelevant topics
+    exclude_terms = [
+        'cybercrime', 'fraud', 'embezzlement', 'tax evasion',
+        'drug trafficking network', 'organized crime cartel',
+        'terrorism financing', 'money laundering'
     ]
     
-    # Allow if it mentions both officer and civilian outcomes
-    if any(term in text for term in officer_victim_only):
-        civilian_terms = ['civilian', 'suspect', 'citizen', 'community', 'public']
-        if not any(term in text for term in civilian_terms):
+    if any(term in text for term in exclude_terms):
+        return False
+    
+    # If title is ONLY about officer victimization, skip it
+    # But allow comparative/analytical studies
+    officer_victim_only_phrases = [
+        'violence against police officer',
+        'attacks on police officer',
+        'officer deaths in the line',
+        'police officer mortality',
+        'danger to law enforcement'
+    ]
+    
+    # Only exclude if it's clearly ONLY about officer victimization
+    if any(phrase in text for phrase in officer_victim_only_phrases):
+        # But allow if it has analytical/comparative terms
+        analytical_terms = ['determinants', 'predict', 'analysis', 'patterns', 'trends', 'factors']
+        if not any(term in text for term in analytical_terms):
             return False
     
     return True
@@ -353,44 +374,55 @@ def prettify_xml(elem):
 def main():
     """Main execution function"""
     print("Fetching police shooting research...")
+    print(f"Searching back {DAYS_BACK} days")
     
     all_articles = []
+    raw_count = 0
     
     # Fetch from Crossref
     print("\n=== Searching Crossref ===")
     for query in SEARCH_QUERIES:
         print(f"Query: {query}")
         items = fetch_crossref(query)
-        print(f"  Found {len(items)} results")
+        raw_count += len(items)
+        print(f"  Found {len(items)} raw results")
         
         for item in items:
             article = parse_crossref_article(item)
-            if is_relevant_article(article['title'], article.get('abstract', '')):
-                all_articles.append(article)
+            all_articles.append(article)
         
         time.sleep(1)  # Be nice to API
     
-    # Optionally fetch from PubMed (uncomment if desired)
-    # print("\n=== Searching PubMed ===")
-    # for query in ['police shooting', 'officer-involved shooting']:
-      #  print(f"Query: {query}")
-      #  items = fetch_pubmed(query)
-      #  print(f"  Found {len(items)} results")
-       
-      #  for item in items:
-      #      article = parse_pubmed_article(item)
-      #      if is_relevant_article(article['title'], ''):
-      #          all_articles.append(article)
-       
-      #  time.sleep(1)
+    print(f"\n=== Filtering Results ===")
+    print(f"Total raw articles from Crossref: {raw_count}")
+    print(f"Total articles before filtering: {len(all_articles)}")
     
-    print(f"\nTotal articles before deduplication: {len(all_articles)}")
+    # Apply relevance filtering
+    filtered_articles = []
+    for article in all_articles:
+        if is_relevant_article(article['title'], article.get('abstract', '')):
+            filtered_articles.append(article)
+    
+    print(f"Articles after relevance filtering: {len(filtered_articles)}")
+    
+    # Show some examples of what was filtered out (for debugging)
+    filtered_out = [a for a in all_articles if a not in filtered_articles]
+    if filtered_out and len(filtered_out) > 0:
+        print(f"\nExample of filtered OUT articles (first 3):")
+        for article in filtered_out[:3]:
+            print(f"  - {article['title'][:80]}...")
+    
+    # Show some examples of what passed
+    if filtered_articles and len(filtered_articles) > 0:
+        print(f"\nExample of articles that PASSED filter (first 3):")
+        for article in filtered_articles[:3]:
+            print(f"  - {article['title'][:80]}...")
     
     # Deduplicate by title
     seen_titles = set()
     unique_articles = []
     
-    for article in all_articles:
+    for article in filtered_articles:
         title_lower = article['title'].lower()
         if title_lower not in seen_titles:
             seen_titles.add(title_lower)
@@ -400,7 +432,7 @@ def main():
     
     # Sort by date (newest first), with priority sources first
     unique_articles.sort(
-        key=lambda x: (x.get('is_priority', False), x['pub_date']),
+        key=lambda x: (not x.get('is_priority', False), x['pub_date']),
         reverse=True
     )
     
@@ -408,9 +440,15 @@ def main():
     final_articles = unique_articles[:30]
     
     print(f"\nFinal article count: {len(final_articles)}")
+    print(f"  - From priority journals: {sum(1 for a in final_articles if a.get('is_priority'))}")
+    print(f"  - From other journals: {sum(1 for a in final_articles if not a.get('is_priority'))}")
     
     if len(final_articles) == 0:
         print("\n⚠️  WARNING: No articles found. Feed will not be generated.")
+        print("Consider:")
+        print("  - Increasing DAYS_BACK (currently {})".format(DAYS_BACK))
+        print("  - Relaxing filters in is_relevant_article()")
+        print("  - Adding more search queries")
         return
     
     # Create RSS feed
@@ -422,16 +460,16 @@ def main():
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(prettify_xml(rss))
     
-    print(f"\nRSS feed saved to: {OUTPUT_FILE}")
-    print(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"\n✓ RSS feed saved to: {OUTPUT_FILE}")
+    print(f"✓ Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     # Print sample titles
-    print("\nSample articles:")
+    print("\n=== Sample Articles in Feed ===")
     for i, article in enumerate(final_articles[:5], 1):
-        priority = "⭐ " if article.get('is_priority') else ""
-        print(f"  {i}. {priority}{article['authors']} ({article['pub_date'].year})")
-        print(f"     {article['title'][:80]}...")
-        print(f"     {article['journal']}\n")
+        priority = "⭐ " if article.get('is_priority') else "   "
+        print(f"{i}. {priority}{article['authors']}")
+        print(f"    {article['title'][:75]}...")
+        print(f"    {article['journal']} ({article['pub_date'].year})\n")
 
 if __name__ == '__main__':
     main()
