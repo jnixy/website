@@ -63,13 +63,15 @@ def is_relevant_story(title, description):
     """
     Filter to identify stories about police shooting civilians (not investigating shootings)
     Returns True if story appears to be about police shooting someone
+    
+    IMPROVED VERSION with more lenient filters
     """
     if not title:
         return False
         
     text = (title + ' ' + (description or '')).lower()
     
-    # Must contain phrases indicating police shot someone
+    # EXPANDED: More comprehensive positive indicators
     positive_indicators = [
         'police shot',
         'officer shot',
@@ -83,6 +85,19 @@ def is_relevant_story(title, description):
         'shot by officer',
         'police fatally shot',
         'officer fatally shot',
+        'deputy shot',
+        'deputy killed',
+        'deputies shot',
+        'deputies killed',
+        'trooper shot',
+        'trooper killed',
+        'state trooper shot',
+        'shooting by police',
+        'shooting by officer',
+        'police fire',  # as in "police fire at"
+        'officers fire',
+        'deputy fatally shot',
+        'trooper fatally shot',
     ]
     
     has_positive = any(phrase in text for phrase in positive_indicators)
@@ -99,29 +114,39 @@ def is_relevant_story(title, description):
         'trooper was shot',
         'officer killed in',
         'deputy killed in',
+        'trooper killed in',
         'shot and killed officer',
         'shot and killed deputy',
+        'shot and killed trooper',
         'gunman killed officer',
         'shooter killed officer',
+        'killed the officer',
+        'killed the deputy',
+        'officer died',
+        'deputy died',
+        'officer dies',
+        'deputy dies',
     ]
     
     if any(phrase in text for phrase in officer_victim_phrases):
         return False
     
-    # Exclude investigation-only stories
+    # RELAXED: More precise investigation-only exclusions
+    # Only exclude if it's CLEARLY just about investigating, not the incident itself
     investigation_only = [
-        'police are investigating a shooting',
-        'police investigating shooting',
-        'investigating a deadly shooting',
-        'investigation into a shooting',
-        'responded to reports of shooting',
+        'police are investigating a shooting that',  # More specific
+        'investigating a shooting at',  # More specific
         'arrived at scene of shooting',
-        'police were called to',
-        'officers responded to',
+        'officers responded to reports of a shooting',  # Clarified
     ]
     
-    if any(phrase in text for phrase in investigation_only):
-        return False
+    # Only exclude if investigation phrase is present AND no incident details
+    has_investigation_phrase = any(phrase in text for phrase in investigation_only)
+    if has_investigation_phrase:
+        # But allow it if it also contains incident indicators
+        incident_details = ['killed', 'fatal', 'death', 'died', 'wounded', 'injured', 'opened fire']
+        if not any(detail in text for detail in incident_details):
+            return False
     
     # Exclude international stories (check for specific location mentions)
     international_locations = [
@@ -137,8 +162,8 @@ def is_relevant_story(title, description):
         return False
     
     # Additional quality filters
-    # Exclude very short titles (often not real stories)
-    if len(title) < 30:
+    # RELAXED: Reduced minimum title length from 30 to 20 characters
+    if len(title) < 20:
         return False
     
     # Exclude if title is mostly capitalized (often wire service duplicates)
@@ -232,8 +257,8 @@ def normalize_title(title):
         return ''
     return (
         title.lower()
-        .replace('—', '-')
-        .replace('–', '-')
+        .replace('â€"', '-')
+        .replace('â€"', '-')
         .replace(':', '')
         .replace(';', '')
         .replace('"', '')
@@ -244,6 +269,7 @@ def normalize_title(title):
 def main():
     """Main execution function"""
     print("Fetching police shooting news...")
+    print("=" * 60)
     
     all_articles = []
     
@@ -254,7 +280,8 @@ def main():
         print(f"  Raw results: {len(articles)} articles")
         all_articles.extend(articles)
     
-    print(f"\nTotal articles before filtering: {len(all_articles)}")
+    print(f"\n{'=' * 60}")
+    print(f"Total articles before filtering: {len(all_articles)}")
     
     # Apply relevance filtering
     filtered_articles = [
@@ -285,7 +312,8 @@ def main():
     # Take top 50 most recent
     final_articles = unique_articles[:50]
     
-    print(f"\nFinal article count: {len(final_articles)}")
+    print(f"\n{'=' * 60}")
+    print(f"Final article count: {len(final_articles)}")
     
     if len(final_articles) == 0:
         print("\n⚠️  WARNING: No articles found. Feed will not be generated.")
@@ -308,9 +336,13 @@ def main():
     print(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     # Print sample titles for verification
-    print("\nSample titles from feed:")
-    for i, article in enumerate(final_articles[:5], 1):
-        print(f"  {i}. {article['title']}")
+    print(f"\n{'=' * 60}")
+    print("Sample titles from feed (most recent):")
+    for i, article in enumerate(final_articles[:10], 1):
+        published = article.get('publishedAt', 'Unknown date')
+        print(f"  {i}. [{published[:10]}] {article['title']}")
+    
+    print(f"\n{'=' * 60}")
 
 if __name__ == '__main__':
     main()
