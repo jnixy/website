@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-research/</link>
     <description>Recent academic research on police shootings and use of deadly force</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jan 2026 23:15:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 23:35:41 +0000</lastBuildDate>
     <item>
       <title>Police Violence and White Supremacist Terrorism</title>
       <link>https://doi.org/10.1093/9780197653463.003.0005</link>
@@ -62,6 +62,14 @@
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>International Journal of Strategic Communication</source>
+    </item>
+    <item>
+      <title>Human resources development model of Indonesian National Police: Case study in Lamongan Resort Police</title>
+      <link>https://doi.org/10.47577/tssj.v79i1.13387</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Dhirotsaha et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Technium Social Sciences Journal&lt;br&gt;&lt;p&gt;&lt;jats:p&gt;This study aimed to identify and analyze the current Indonesian National Police human resource development model at the Lamongan Police Resort and implemented efforts to realized more precise and transparent human resource development in Indonesian National Police. This type of research used a qualitative approach with a single case study design. Data collection techniques were done by interviewing, observing, and reviewing documents. This study used a purposive informant selection techn...&lt;/p&gt;</description>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Technium Social Sciences Journal</source>
     </item>
     <item>
       <title>2 Chutes and Ladders: Collecting Records of Police Shootings</title>
@@ -142,15 +150,6 @@
       <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Education in the 21st Century</source>
-    </item>
-    <item>
-      <title>Human resources development model of Indonesian National Police: Case study in Lamongan Resort Police</title>
-      <link>https://doi.org/10.47577/tssj.v79i1.13387</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Dhirotsaha et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Technium Social Sciences Journal&lt;br&gt;&lt;p&gt;&lt;jats:p&gt;This study aimed to identify and analyze the current Indonesian National Police human resource development model at the Lamongan Police Resort and implemented efforts to realized more precise and transparent human resource development in Indonesian National Police. This type of research used a qualitative approach with a single case study design. Data collection techniques were done by interviewing, observing, and reviewing documents. This study used a purposive informant selection techn...&lt;/p&gt;</description>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Technium Social Sciences Journal</source>
-      <priority>true</priority>
     </item>
   </channel>
 </rss>
