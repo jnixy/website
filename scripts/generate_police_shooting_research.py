@@ -32,16 +32,14 @@ SEARCH_QUERIES = [
     'officer shootings',              # NEW
 ]
 
-# Journals/sources to prioritize (criminology, criminal justice, sociology, political science, public health)
+# Priority journals - exact match only (case-insensitive)
 PRIORITY_SOURCES = [
     'criminology',
     'criminology & public policy',
     'criminology and public policy',
     'justice quarterly',
     'journal of criminal justice',
-    'journal of experimental criminology,'
     'police quarterly',
-    'homicide studies',
     'journal of research in crime and delinquency',
     'journal of quantitative criminology',
     'criminal justice and behavior',
@@ -57,14 +55,13 @@ PRIORITY_SOURCES = [
     'american journal of political science',
     'american journal of public health',
     'injury prevention',
-    'pnas',
     'jama',
     'new england journal of medicine',
     'plos one',
-    'social science & medicine',      
-    'social science research',      
-    'social science quarterly',    
-    'law and society review',     
+    'social science & medicine',
+    'social science research',
+    'social science quarterly',
+    'law and society review',
     'law & society review',
 ]
 
@@ -293,11 +290,12 @@ def is_relevant_article(title, abstract):
     return True
 
 def is_priority_source(source_name):
-    """Check if article is from a priority journal"""
+    """Check if article is from a priority journal (exact match, case-insensitive)"""
     if not source_name:
         return False
-    source_lower = source_name.lower()
-    return any(priority in source_lower for priority in PRIORITY_SOURCES)
+    
+    source_lower = source_name.lower().strip()
+    return source_lower in PRIORITY_SOURCES
 
 def format_authors(authors):
     """Format author list for display"""
