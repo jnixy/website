@@ -1,6 +1,6 @@
 ---
 title: "In the Media"
-summary: "Media coverage and interviews pertaining to my research"
+summary: "Media coverage and interviews featuring my research on policing and criminal justice"
 date: 2026-01-07
 type: page
 reading_time: false
@@ -9,7 +9,7 @@ profile: false
 comments: false
 ---
 
-This page tracks media coverage, interviews, and mentions of my research.
+This page tracks media coverage, interviews, and mentions of my research on policing and criminal justice.
 
 ---
 
@@ -60,9 +60,9 @@ This page tracks media coverage, interviews, and mentions of my research.
 
 .filter-btn {
   padding: 0.4rem 0.8rem;
-  border: 1px solid #DC143C;
+  border: 1px solid #4caf50;
   background: white;
-  color: #DC143C;
+  color: #4caf50;
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.85rem;
@@ -71,14 +71,14 @@ This page tracks media coverage, interviews, and mentions of my research.
 }
 
 .filter-btn:hover {
-  background: #DC143C;
+  background: #4caf50;
   color: white;
 }
 
 .filter-btn.active {
-  background: #DC143C;
+  background: #4caf50;
   color: white;
-  border-color: #DC143C;
+  border-color: #4caf50;
 }
 
 /* Featured Section */
@@ -92,7 +92,7 @@ This page tracks media coverage, interviews, and mentions of my research.
   gap: 0.5rem;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #DC143C;
+  border-bottom: 2px solid #4caf50;
 }
 
 .featured-header h3 {
@@ -102,7 +102,7 @@ This page tracks media coverage, interviews, and mentions of my research.
 }
 
 .featured-icon {
-  color: #DC143C;
+  color: #4caf50;
   font-size: 1.2rem;
 }
 
@@ -144,20 +144,20 @@ This page tracks media coverage, interviews, and mentions of my research.
 .news-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-  border-color: #DC143C;
+  border-color: #4caf50;
 }
 
 .news-card.featured {
-  border: 2px solid #DC143C;
-  box-shadow: 0 2px 8px rgba(220, 20, 60, 0.2);
+  border: 2px solid #4caf50;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.2);
 }
 
 .news-card.featured:hover {
-  box-shadow: 0 8px 24px rgba(220, 20, 60, 0.3);
+  box-shadow: 0 8px 24px rgba(76, 175, 80, 0.3);
 }
 
 .news-card:focus {
-  outline: 2px solid #DC143C;
+  outline: 2px solid #4caf50;
   outline-offset: 2px;
 }
 
@@ -182,14 +182,14 @@ This page tracks media coverage, interviews, and mentions of my research.
   letter-spacing: 0.03em;
   font-weight: 600;
   font-size: 0.75rem;
-  color: #DC143C;
+  color: #4caf50;
 }
 
 .source-icon {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  background: #DC143C;
+  background: #4caf50;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -205,12 +205,12 @@ This page tracks media coverage, interviews, and mentions of my research.
   align-items: center;
   gap: 0.25rem;
   padding: 0.15rem 0.4rem;
-  background: #fff0f5;
-  border: 1px solid #DC143C;
+  background: #f1f8e9;
+  border: 1px solid #4caf50;
   border-radius: 8px;
   font-size: 0.65rem;
   font-weight: 600;
-  color: #DC143C;
+  color: #4caf50;
   text-transform: uppercase;
 }
 
@@ -254,8 +254,8 @@ This page tracks media coverage, interviews, and mentions of my research.
 .topic-tag {
   display: inline-block;
   padding: 0.15rem 0.4rem;
-  background: #fce4ec;
-  color: #DC143C;
+  background: #e8f5e9;
+  color: #4caf50;
   border-radius: 4px;
   font-size: 0.7rem;
   font-weight: 500;
@@ -294,7 +294,7 @@ This page tracks media coverage, interviews, and mentions of my research.
 
 /* "Read More" Link */
 .card-footer a {
-  color: #DC143C !important;
+  color: #4caf50 !important;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s;
@@ -303,7 +303,7 @@ This page tracks media coverage, interviews, and mentions of my research.
 
 .card-footer a:hover {
   color: white !important;
-  background: #DC143C !important;
+  background: #4caf50 !important;
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
 }
@@ -357,9 +357,9 @@ This page tracks media coverage, interviews, and mentions of my research.
 
 .pagination-btn {
   padding: 0.5rem 1rem;
-  border: 1px solid #DC143C;
+  border: 1px solid #4caf50;
   background: white;
-  color: #DC143C;
+  color: #4caf50;
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.9rem;
@@ -373,7 +373,7 @@ This page tracks media coverage, interviews, and mentions of my research.
 }
 
 .pagination-btn:hover:not(:disabled) {
-  background: #DC143C;
+  background: #4caf50;
   color: white;
 }
 
@@ -385,9 +385,9 @@ This page tracks media coverage, interviews, and mentions of my research.
 }
 
 .pagination-btn.active {
-  background: #DC143C;
+  background: #4caf50;
   color: white;
-  border-color: #DC143C;
+  border-color: #4caf50;
 }
 
 .pagination-info {
