@@ -2,6 +2,7 @@
 """
 Police Shooting Research RSS Feed Generator
 Fetches recent academic publications about police shootings
+IMPROVED VERSION - More comprehensive filtering
 """
 
 import requests
@@ -15,7 +16,7 @@ import time
 OUTPUT_FILE = 'static/data/police-shooting-research.xml'
 DAYS_BACK = 90  # Check last 3 months (academic publishing is slower)
 
-# Academic search queries - comprehensive coverage
+# EXPANDED: Added more search query variations
 SEARCH_QUERIES = [
     'police shooting',
     'police use of force',
@@ -26,6 +27,9 @@ SEARCH_QUERIES = [
     'police accountability',
     'police misconduct',
     'racial disparities police',
+    'law enforcement deadly force',  # NEW
+    'police-involved fatalities',     # NEW
+    'officer shootings',              # NEW
 ]
 
 # Journals/sources to prioritize (criminology, criminal justice, sociology, political science, public health)
@@ -35,7 +39,9 @@ PRIORITY_SOURCES = [
     'criminology and public policy',
     'justice quarterly',
     'journal of criminal justice',
+    'journal of experimental criminology,'
     'police quarterly',
+    'homicide studies',
     'journal of research in crime and delinquency',
     'journal of quantitative criminology',
     'criminal justice and behavior',
@@ -51,6 +57,7 @@ PRIORITY_SOURCES = [
     'american journal of political science',
     'american journal of public health',
     'injury prevention',
+    'pnas',
     'jama',
     'new england journal of medicine',
     'plos one',
@@ -148,33 +155,38 @@ def fetch_pubmed(query, days_back=DAYS_BACK):
 def is_relevant_article(title, abstract):
     """
     Filter to identify relevant research about police shootings and use of force
-    Balanced approach: catches broader policing research while excluding noise
+    IMPROVED VERSION with more comprehensive term matching
     """
     if not title:
         return False
         
     text = (title + ' ' + (abstract or '')).lower()
     
-    # MUST contain explicit policing terms (core requirement)
+    # EXPANDED: More comprehensive policing terms
     policing_terms = [
-        'police', 'policing', 'law enforcement', 'cop', 'cops'
+        'police', 'policing', 'law enforcement', 'cop', 'cops',
+        'officer', 'officers',  # More permissive - no longer requires context
+        'deputy', 'deputies',   # NEW
+        'sheriff', 'sheriffs',  # NEW
+        'trooper', 'troopers',  # NEW
     ]
     
     has_policing = any(term in text for term in policing_terms)
-    if not has_policing:
-        # Special case: "officer" with clear policing context
-        if 'officer' in text:
-            policing_context = [
-                'patrol', 'arrest', 'department', 'badge',
-                'sheriff', 'deputy', 'trooper', 'detective'
-            ]
-            if any(context in text for context in policing_context):
-                has_policing = True
-        
-        if not has_policing:
-            return False
     
-    # MUST relate to force/violence/encounters (but more permissive)
+    # Special case: if no basic policing terms, check for law enforcement context
+    if not has_policing:
+        # Allow if clearly law enforcement context
+        le_context = [
+            'law enforcement agency', 'police department', 'police force',
+            'patrol officer', 'sworn officer', 'peace officer'
+        ]
+        if any(context in text for context in le_context):
+            has_policing = True
+    
+    if not has_policing:
+        return False
+    
+    # MUST relate to force/violence/encounters
     # Split into tiers - need at least one from either tier
     
     # Tier 1: Explicit violence/force (strongest relevance)
@@ -182,16 +194,28 @@ def is_relevant_article(title, abstract):
         'shooting', 'shot', 'deadly force', 'lethal force',
         'use of force', 'excessive force', 'violence', 'fatality',
         'killing', 'killed', 'death', 'homicide', 'fatal',
-        'shoot', 'fired weapon', 'discharged weapon'
+        'shoot', 'fired weapon', 'discharged weapon',
+        'use-of-force',  # hyphenated variant
+        'terminal force',  # NEW - academic term
+        'civilian casualties',  # NEW
+        'police-involved fatalities',  # NEW
     ]
     
     # Tier 2: Related concepts (still relevant but broader)
+    # EXPANDED with more academic terminology
     related_force = [
         'firearm', 'gun', 'weapon', 'armed',
-        'force continuum', 'de-escalation', 'use-of-force',
+        'force continuum', 'de-escalation', 
         'encounter', 'incident', 'confrontation',
         'accountability', 'misconduct', 'brutality',
-        'racial disparity', 'disparate impact'
+        'racial disparity', 'disparate impact',
+        'coercive', 'coercion',  # NEW
+        'use of physical force',  # NEW
+        'force option',  # NEW
+        'reasonable force',  # NEW
+        'threat response',  # NEW
+        'critical incident',  # NEW
+        'officer-involved',  # NEW
     ]
     
     has_force_terms = (
@@ -230,27 +254,37 @@ def is_relevant_article(title, abstract):
     ]
     
     if any(term in text for term in very_old_historical):
-        contemporary_terms = ['modern', 'contemporary', 'compared to', 'evolution']
+        contemporary_terms = ['modern', 'contemporary', 'compared to', 'evolution', 'historical analysis']
         if not any(term in text for term in contemporary_terms):
             return False
     
-    # Exclude purely international studies (non-U.S.) unless explicitly comparative
+    # RELAXED: More flexible international studies filter
+    # Only exclude if clearly focused on a single non-U.S. country
     international_only_terms = [
         'german police', 'uk police', 'british police', 'canadian police',
         'australian police', 'european police', 'asian police',
-        'french police', 'italian police', 'spanish police'
+        'french police', 'italian police', 'spanish police',
+        'in germany', 'in britain', 'in canada', 'in australia',
+        'in france', 'in italy', 'in spain'
     ]
     
     if any(term in text for term in international_only_terms):
-        # Allow if comparative (mentions U.S./American or is comparative study)
-        us_terms = ['united states', 'u.s.', 'us ', 'american', 'cross-national', 'comparative', 'international comparison']
+        # EXPANDED: More flexible comparative indicators
+        us_terms = [
+            'united states', 'u.s.', 'us ', 'american', 'u.s. police',
+            'cross-national', 'comparative', 'international comparison',
+            'compared to', 'comparison of', 'across countries',  # NEW
+            'multi-country', 'transnational',  # NEW
+            'vs.', 'versus',  # NEW - catches "UK vs. US" style comparisons
+        ]
         if not any(term in text for term in us_terms):
             return False
     
-    # Exclude fitness/training studies unless they relate to use of force
+    # RELAXED: Only exclude fitness studies if they have NO force context
     if any(term in text for term in ['physical fitness', 'strength training', 'conditioning', 'tactical fitness']):
-        # Must also mention force/violence context
-        if not any(term in text for term in explicit_force):
+        # Must also mention force/violence context OR decision-making/training
+        force_or_decision = explicit_force + ['training', 'decision', 'scenario', 'simulation']
+        if not any(term in text for term in force_or_decision):
             return False
     
     return True
@@ -425,19 +459,21 @@ def prettify_xml(elem):
 
 def main():
     """Main execution function"""
+    print("=" * 70)
     print("Fetching police shooting research...")
     print(f"Searching back {DAYS_BACK} days")
+    print("=" * 70)
     
     all_articles = []
     raw_count = 0
     
     # Fetch from Crossref
     print("\n=== Searching Crossref ===")
-    for query in SEARCH_QUERIES:
-        print(f"Query: {query}")
+    for i, query in enumerate(SEARCH_QUERIES, 1):
+        print(f"[{i}/{len(SEARCH_QUERIES)}] Query: {query}")
         items = fetch_crossref(query)
         raw_count += len(items)
-        print(f"  Found {len(items)} raw results")
+        print(f"         Found {len(items)} raw results")
         
         for item in items:
             article = parse_crossref_article(item)
@@ -445,7 +481,8 @@ def main():
         
         time.sleep(1)  # Be nice to API
     
-    print(f"\n=== Filtering Results ===")
+    print(f"\n{'=' * 70}")
+    print(f"=== Filtering Results ===")
     print(f"Total raw articles from Crossref: {raw_count}")
     print(f"Total articles before filtering: {len(all_articles)}")
     
@@ -462,13 +499,14 @@ def main():
     if filtered_out and len(filtered_out) > 0:
         print(f"\nExample of filtered OUT articles (first 3):")
         for article in filtered_out[:3]:
-            print(f"  - {article['title'][:80]}...")
+            print(f"  ✗ {article['title'][:75]}...")
     
     # Show some examples of what passed
     if filtered_articles and len(filtered_articles) > 0:
         print(f"\nExample of articles that PASSED filter (first 3):")
         for article in filtered_articles[:3]:
-            print(f"  - {article['title'][:80]}...")
+            priority = "⭐" if article.get('is_priority') else "  "
+            print(f"  {priority} ✓ {article['title'][:75]}...")
     
     # Deduplicate by title
     seen_titles = set()
@@ -491,7 +529,8 @@ def main():
     # Take top 30 most recent
     final_articles = unique_articles[:30]
     
-    print(f"\nFinal article count: {len(final_articles)}")
+    print(f"\n{'=' * 70}")
+    print(f"Final article count: {len(final_articles)}")
     print(f"  - From priority journals: {sum(1 for a in final_articles if a.get('is_priority'))}")
     print(f"  - From other journals: {sum(1 for a in final_articles if not a.get('is_priority'))}")
     
@@ -512,16 +551,20 @@ def main():
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(prettify_xml(rss))
     
-    print(f"\n✓ RSS feed saved to: {OUTPUT_FILE}")
+    print(f"\n{'=' * 70}")
+    print(f"✓ RSS feed saved to: {OUTPUT_FILE}")
     print(f"✓ Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     # Print sample titles
-    print("\n=== Sample Articles in Feed ===")
-    for i, article in enumerate(final_articles[:5], 1):
-        priority = "⭐ " if article.get('is_priority') else "   "
-        print(f"{i}. {priority}{article['authors']}")
-        print(f"    {article['title'][:75]}...")
-        print(f"    {article['journal']} ({article['pub_date'].year})\n")
+    print(f"\n{'=' * 70}")
+    print("=== Sample Articles in Feed ===")
+    for i, article in enumerate(final_articles[:8], 1):
+        priority = "⭐" if article.get('is_priority') else "  "
+        print(f"\n{i}. {priority} {article['authors']}")
+        print(f"    {article['title']}")
+        print(f"    {article['journal']} ({article['pub_date'].year})")
+    
+    print(f"\n{'=' * 70}")
 
 if __name__ == '__main__':
     main()
