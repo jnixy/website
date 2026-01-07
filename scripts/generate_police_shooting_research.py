@@ -61,8 +61,11 @@ PRIORITY_SOURCES = [
     'jama',
     'new england journal of medicine',
     'plos one',
-    'social science',
-    'law and society',
+    'social science & medicine',      
+    'social science research',      
+    'social science quarterly',    
+    'law and society review',     
+    'law & society review',
 ]
 
 def fetch_crossref(query, days_back=DAYS_BACK):
