@@ -77,6 +77,7 @@ def is_relevant_story(title, description):
     
     # EXPANDED: More comprehensive positive indicators
     # Includes local/state AND federal law enforcement
+    # Includes both passive ("shot by") and active ("shoots") voice
     positive_indicators = [
         'police shot',
         'officer shot',
@@ -103,21 +104,45 @@ def is_relevant_story(title, description):
         'officers fire',
         'deputy fatally shot',
         'trooper fatally shot',
+        'police shoots',           # Active voice
+        'officer shoots',          # Active voice
+        'deputy shoots',           # Active voice
+        'trooper shoots',          # Active voice
         # Federal law enforcement
-        'agent shot',                  # NEW
-        'agent killed',                # NEW
-        'agent fatally shot',          # NEW
-        'federal agent shot',          # NEW
-        'ice agent shot',              # NEW - Immigration and Customs Enforcement
-        'ice agent killed',            # NEW
-        'fbi agent shot',              # NEW - Federal Bureau of Investigation
-        'dea agent shot',              # NEW - Drug Enforcement Administration
-        'atf agent shot',              # NEW - Bureau of Alcohol, Tobacco, Firearms and Explosives
-        'border patrol shot',          # NEW - Customs and Border Protection
-        'border patrol agent shot',    # NEW
-        'marshal shot',                # NEW - U.S. Marshals
-        'shot by agent',               # NEW
-        'shot by federal',             # NEW
+        'agent shot',
+        'agent killed',
+        'agent fatally shot',
+        'federal agent shot',
+        'ice agent shot',              # Immigration and Customs Enforcement
+        'ice agent killed',
+        'ice agent shoots',            # Active voice
+        'ice agent fatally shot',
+        'ice officer shot',            # NEW - ICE uses "officer" too
+        'ice officer killed',          # NEW
+        'ice officer shoots',          # NEW - Active voice
+        'ice officer fatally shot',    # NEW
+        'ice officer fatally shoots',  # NEW - Active voice
+        'fbi agent shot',
+        'fbi agent shoots',
+        'dea agent shot',
+        'dea agent shoots',
+        'atf agent shot',
+        'atf agent shoots',
+        'border patrol shot',
+        'border patrol agent shot',
+        'border patrol shoots',
+        'marshal shot',
+        'marshal shoots',
+        'shot by agent',
+        'shot by federal',
+        'shot by ice',                 # NEW - "shot by ICE"
+        'killed by ice',               # NEW
+        'killed by agent',             # NEW
+        'killed by federal',           # NEW
+        'agent shoots',                # NEW - Active voice
+        'agent kills',                 # NEW - Active voice
+        'federal agent shoots',        # NEW
+        'federal agent kills',         # NEW
     ]
     
     has_positive = any(phrase in text for phrase in positive_indicators)
@@ -126,40 +151,55 @@ def is_relevant_story(title, description):
     
     # Exclude if officer is the victim
     # Includes local/state AND federal law enforcement as victims
+    # IMPORTANT: These must be specific enough to not catch cases where officer/agent is the SHOOTER
     officer_victim_phrases = [
-        'officer shot and killed',
         'officer was shot',
-        'deputy shot and killed',
+        'officer shot and killed by',    # "by" indicates officer is victim
         'deputy was shot',
-        'trooper shot and killed',
+        'deputy shot and killed by',
         'trooper was shot',
-        'officer killed in',
-        'deputy killed in',
-        'trooper killed in',
-        'shot and killed officer',
+        'trooper shot and killed by',
+        'officer killed in ambush',
+        'officer killed in attack',
+        'deputy killed in ambush',
+        'deputy killed in attack',
+        'trooper killed in ambush',
+        'trooper killed in attack',
+        'shot and killed officer',       # officer is object (victim)
         'shot and killed deputy',
         'shot and killed trooper',
         'gunman killed officer',
         'shooter killed officer',
+        'suspect killed officer',
         'killed the officer',
         'killed the deputy',
-        'officer died',
-        'deputy died',
-        'officer dies',
-        'deputy dies',
+        'officer died from',             # "from" indicates victim
+        'deputy died from',
+        'officer dies after being',      # "after being" indicates victim
+        'deputy dies after being',
         # Federal law enforcement as victims
-        'agent shot and killed',       # NEW
-        'agent was shot',              # NEW
-        'agent killed in',             # NEW
-        'shot and killed agent',       # NEW
-        'ice agent killed',            # NEW
-        'fbi agent killed',            # NEW
-        'dea agent killed',            # NEW
-        'atf agent killed',            # NEW
-        'border patrol agent killed',  # NEW
-        'marshal killed',              # NEW
-        'agent died',                  # NEW
-        'agent dies',                  # NEW
+        'agent was shot',
+        'agent shot and killed by',      # "by" indicates agent is victim
+        'agent killed in ambush',
+        'agent killed in attack',
+        'shot and killed agent',         # agent is object (victim)
+        'ice agent was shot',            # More specific
+        'ice agent was killed',          # More specific
+        'fbi agent was shot',
+        'fbi agent was killed',
+        'dea agent was shot',
+        'dea agent was killed',
+        'atf agent was shot',
+        'atf agent was killed',
+        'border patrol agent was shot',
+        'border patrol agent was killed',
+        'marshal was shot',
+        'marshal was killed',
+        'agent died from',
+        'agent dies after being',
+        'suspect killed agent',
+        'gunman killed agent',
+        'shooter killed agent',
     ]
     
     if any(phrase in text for phrase in officer_victim_phrases):
