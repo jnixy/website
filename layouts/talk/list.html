@@ -1,0 +1,290 @@
+{{ define "main" }}
+<article class="article">
+  <div class="article-container">
+    <h1>{{ .Title }}</h1>
+    
+    {{ with .Params.subtitle }}
+    <p class="page-subtitle">{{ . }}</p>
+    {{ end }}
+    
+    {{ with .Content }}
+    <div class="article-style">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    <style>
+    /* Card Grid Layout - Matching media/blog pages */
+    .post-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    @media (min-width: 1200px) {
+      .post-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 767px) {
+      .post-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+    }
+
+    /* Individual Card Styling */
+    .post-card {
+      display: flex;
+      flex-direction: column;
+      background: var(--article-bg-color, white);
+      border: 1px solid var(--border-color, #e0e0e0);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+      text-decoration: none;
+      color: inherit;
+      height: 100%;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .post-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      border-color: #4caf50;
+    }
+
+    /* Card Header with Featured Image */
+    .card-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background: #f5f5f5;
+    }
+
+    /* Card Body */
+    .card-body {
+      flex: 1;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.4;
+      margin: 0 0 0.75rem 0;
+      color: var(--heading-color, #1a1a1a);
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* Topic Tags */
+    .card-topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: auto;
+    }
+
+    .topic-tag {
+      display: inline-block;
+      padding: 0.15rem 0.4rem;
+      background: #e8f5e9;
+      color: #4caf50;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+
+    /* Talk-specific tag styling */
+    .talk-type-tag {
+      background: #e3f2fd;
+      color: #1565c0;
+    }
+
+    .location-tag {
+      background: #fff3e0;
+      color: #ef6c00;
+    }
+
+    /* Card Footer */
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+      border-top: 1px solid var(--border-color, #eee);
+      font-size: 0.8rem;
+      color: var(--text-muted, #666);
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .card-date {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      white-space: nowrap;
+    }
+
+    .card-links {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .card-link {
+      display: inline-block;
+      padding: 0.15rem 0.4rem;
+      background: #4caf50;
+      color: white !important;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .card-link:hover {
+      background: #45a049;
+      transform: translateY(-1px);
+    }
+    </style>
+
+    <div class="post-grid">
+      {{ range .Paginator.Pages }}
+      <article class="post-card">
+        <a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit; display: flex; flex-direction: column; height: 100%;">
+          {{ $featured := (.Resources.ByType "image").GetMatch "*featured*" }}
+          {{ if $featured }}
+          <img src="{{ $featured.RelPermalink }}" 
+               alt="{{ .Title }}" 
+               class="card-image"
+               loading="lazy">
+          {{ else }}
+          <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+          {{ end }}
+          
+          <div class="card-body">
+            <h3 class="card-title">{{ .Title }}</h3>
+            
+            <div class="card-topics">
+              {{ if .Params.location }}
+              <span class="topic-tag location-tag">📍 {{ .Params.location }}</span>
+              {{ end }}
+              
+              {{ if .Params.event }}
+              <span class="topic-tag talk-type-tag">{{ .Params.event }}</span>
+              {{ end }}
+              
+              {{ range first 3 .Params.tags }}
+              <span class="topic-tag">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+          
+          <div class="card-footer">
+            <div class="card-meta">
+              <span class="card-date">
+                {{ .Date.Format "Jan 2, 2006" }}
+              </span>
+              {{ if .Params.time_start }}
+              <span>
+                • {{ (time .Params.time_start).Format "3:04 PM" }}
+              </span>
+              {{ end }}
+            </div>
+          </div>
+        </a>
+        
+        <!-- External links outside the main card link -->
+        {{ if or .Params.url_slides .Params.url_video .Params.url_audio .Params.url_code .Params.url_pdf }}
+        <div style="padding: 0.5rem 1rem; border-top: 1px solid var(--border-color, #eee); display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          {{ with .Params.url_slides }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="card-link">📊 Slides</a>
+          {{ end }}
+          {{ with .Params.url_video }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="card-link">🎥 Video</a>
+          {{ end }}
+          {{ with .Params.url_audio }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="card-link">🎧 Listen</a>
+          {{ end }}
+          {{ with .Params.url_code }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="card-link">💻 Code</a>
+          {{ end }}
+          {{ with .Params.url_pdf }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="card-link">📄 PDF</a>
+          {{ end }}
+        </div>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+
+    {{ if gt .Paginator.TotalPages 1 }}
+    <nav class="pagination">
+      {{ if .Paginator.HasPrev }}
+      <a href="{{ .Paginator.Prev.URL }}" class="pagination-btn">← Previous</a>
+      {{ end }}
+      
+      <span class="pagination-info">
+        Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+      </span>
+      
+      {{ if .Paginator.HasNext }}
+      <a href="{{ .Paginator.Next.URL }}" class="pagination-btn">Next →</a>
+      {{ end }}
+    </nav>
+
+    <style>
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 2rem;
+      padding: 1rem;
+    }
+
+    .pagination-btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid #4caf50;
+      background: white;
+      color: #4caf50;
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+      font-weight: 500;
+    }
+
+    .pagination-btn:hover {
+      background: #4caf50;
+      color: white;
+    }
+
+    .pagination-info {
+      font-size: 0.9rem;
+      color: var(--text-muted, #666);
+    }
+    </style>
+    {{ end }}
+
+  </div>
+</article>
+{{ end }}
