@@ -16,11 +16,15 @@ OUTPUT_FILE = 'static/data/police-shooting-news.xml'
 DAYS_BACK = 30
 
 # Simplified search queries - NewsAPI has query length limits
+# Includes both local/state and federal law enforcement
 SEARCH_QUERIES = [
     'police shooting',
     'officer-involved shooting',
     'police shot killed',
     'officer shot suspect',
+    'federal agent shooting',      # NEW - federal law enforcement
+    'ICE agent shot',               # NEW - Immigration and Customs Enforcement
+    'Border Patrol shooting',       # NEW - Customs and Border Protection
 ]
 
 # Categories for classification
@@ -72,6 +76,7 @@ def is_relevant_story(title, description):
     text = (title + ' ' + (description or '')).lower()
     
     # EXPANDED: More comprehensive positive indicators
+    # Includes local/state AND federal law enforcement
     positive_indicators = [
         'police shot',
         'officer shot',
@@ -98,6 +103,21 @@ def is_relevant_story(title, description):
         'officers fire',
         'deputy fatally shot',
         'trooper fatally shot',
+        # Federal law enforcement
+        'agent shot',                  # NEW
+        'agent killed',                # NEW
+        'agent fatally shot',          # NEW
+        'federal agent shot',          # NEW
+        'ice agent shot',              # NEW - Immigration and Customs Enforcement
+        'ice agent killed',            # NEW
+        'fbi agent shot',              # NEW - Federal Bureau of Investigation
+        'dea agent shot',              # NEW - Drug Enforcement Administration
+        'atf agent shot',              # NEW - Bureau of Alcohol, Tobacco, Firearms and Explosives
+        'border patrol shot',          # NEW - Customs and Border Protection
+        'border patrol agent shot',    # NEW
+        'marshal shot',                # NEW - U.S. Marshals
+        'shot by agent',               # NEW
+        'shot by federal',             # NEW
     ]
     
     has_positive = any(phrase in text for phrase in positive_indicators)
@@ -105,6 +125,7 @@ def is_relevant_story(title, description):
         return False
     
     # Exclude if officer is the victim
+    # Includes local/state AND federal law enforcement as victims
     officer_victim_phrases = [
         'officer shot and killed',
         'officer was shot',
@@ -126,6 +147,19 @@ def is_relevant_story(title, description):
         'deputy died',
         'officer dies',
         'deputy dies',
+        # Federal law enforcement as victims
+        'agent shot and killed',       # NEW
+        'agent was shot',              # NEW
+        'agent killed in',             # NEW
+        'shot and killed agent',       # NEW
+        'ice agent killed',            # NEW
+        'fbi agent killed',            # NEW
+        'dea agent killed',            # NEW
+        'atf agent killed',            # NEW
+        'border patrol agent killed',  # NEW
+        'marshal killed',              # NEW
+        'agent died',                  # NEW
+        'agent dies',                  # NEW
     ]
     
     if any(phrase in text for phrase in officer_victim_phrases):
