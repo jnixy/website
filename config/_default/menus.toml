@@ -8,54 +8,54 @@
   url = "publication"
   weight = 10
   
-[[main]]
-  name = "Projects"
-  url = "project"
-  weight = 20
+# [[main]]
+  # name = "Projects"
+  # url = "project"
+  # weight = 20
 
 [[main]]
   name = "Talks"
   url = "talk"
-  weight = 30
-  
-[[main]]
-  name = "Blog"
-  url = "post"
-  weight = 40
-  
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
+  weight = 20
   
 [[main]]
   name = "Media"
   url = "media"
+  weight = 30
+  
+[[main]]
+  name = "Courses"
+  url = "courses/"
+  weight = 40
+  
+[[main]]
+  name = "Blog"
+  url = "post"
+  weight = 50
+  
+[[main]]
+  name = "OIS News"
+  url = "/police-shooting-news/"
   weight = 60
+  
+[[main]]
+  name = "OIS Research"
+  url = "/police-shooting-research/"
+  weight = 70
   
 [[main]]
   name = "Lab"
   url = "https://viprlab.org/"
-  weight = 70
-  
-[[main]]
-  name = "Police Shooting News"
-  url = "/police-shooting-news/"
   weight = 80
-  
-[[main]]
-  name = "Police Shooting Research"
-  url = "/police-shooting-research/"
-  weight = 90
   
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
   name = "CV"
   url = "files/cv.pdf"
-  weight = 100
+  weight = 90
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 110
+  weight = 100
