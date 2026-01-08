@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jan 2026 06:47:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 16:06:10 +0000</lastBuildDate>
     <item>
       <title>Man with machete shot and killed by police, who then find 3 more dead inside home: officials</title>
       <link>https://www.foxnews.com/us/man-machete-shot-killed-police-find-3-more-dead-inside-home-officials</link>
@@ -69,6 +69,14 @@
       <pubDate>Thu, 18 Dec 2025 19:43:03 +0000</pubDate>
       <category>incident</category>
       <source>WSB Atlanta</source>
+    </item>
+    <item>
+      <title>Shooting reported after US Border Patrol agents involved in 'struggle' near Texas riverbank: sheriff's office</title>
+      <link>https://www.foxnews.com/us/shooting-reported-after-us-border-patrol-agents-involved-struggle-near-texas-riverbank-sheriffs-office</link>
+      <description>Texas Rangers investigate officer-involved shooting with U.S. Border Patrol agents near a Midway riverbank. Breaking news story developing with scene secured.</description>
+      <pubDate>Fri, 12 Dec 2025 01:01:23 +0000</pubDate>
+      <category>incident</category>
+      <source>Fox News</source>
     </item>
   </channel>
 </rss>
