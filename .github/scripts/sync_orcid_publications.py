@@ -16,15 +16,46 @@ import yaml
 
 
 class ORCIDPublicationSync:
-    def __init__(self, orcid_id: str, content_dir: str = "content/publication"):
+    def __init__(self, orcid_id: str, content_dir: str = "content/publication", 
+                 client_id: str = None, client_secret: str = None):
         self.orcid_id = orcid_id
         self.content_dir = Path(content_dir)
         self.base_url = "https://pub.orcid.org/v3.0"
+        self.client_id = client_id
+        self.client_secret = client_secret
+        self.access_token = None
+        
+        # Get access token if credentials provided
+        if self.client_id and self.client_secret:
+            self._get_access_token()
+    
+    def _get_access_token(self):
+        """Get access token using client credentials"""
+        token_url = "https://orcid.org/oauth/token"
+        data = {
+            'client_id': self.client_id,
+            'client_secret': self.client_secret,
+            'grant_type': 'client_credentials',
+            'scope': '/read-public'
+        }
+        headers = {'Accept': 'application/json'}
+        
+        print("Obtaining access token...")
+        response = requests.post(token_url, data=data, headers=headers)
+        response.raise_for_status()
+        
+        token_data = response.json()
+        self.access_token = token_data.get('access_token')
+        print("✅ Access token obtained")
         
     def fetch_works(self) -> List[Dict]:
         """Fetch all works from ORCID API"""
         url = f"{self.base_url}/{self.orcid_id}/works"
         headers = {"Accept": "application/json"}
+        
+        # Add authorization header if we have an access token
+        if self.access_token:
+            headers["Authorization"] = f"Bearer {self.access_token}"
         
         print(f"Fetching works from ORCID: {self.orcid_id}")
         response = requests.get(url, headers=headers)
@@ -48,6 +79,10 @@ class ORCIDPublicationSync:
         """Fetch detailed information for a specific work"""
         url = f"{self.base_url}/{self.orcid_id}/work/{put_code}"
         headers = {"Accept": "application/json"}
+        
+        # Add authorization header if we have an access token
+        if self.access_token:
+            headers["Authorization"] = f"Bearer {self.access_token}"
         
         response = requests.get(url, headers=headers)
         response.raise_for_status()
@@ -313,6 +348,14 @@ def main():
         help="Path to Hugo publication content directory"
     )
     parser.add_argument(
+        "--client-id",
+        help="ORCID Public API Client ID (optional but recommended)"
+    )
+    parser.add_argument(
+        "--client-secret",
+        help="ORCID Public API Client Secret (optional but recommended)"
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Preview what would be created without actually creating files"
@@ -323,7 +366,9 @@ def main():
     # Initialize syncer
     syncer = ORCIDPublicationSync(
         orcid_id=args.orcid_id,
-        content_dir=args.content_dir
+        content_dir=args.content_dir,
+        client_id=args.client_id,
+        client_secret=args.client_secret
     )
     
     # Run sync
