@@ -39,6 +39,8 @@ jobs:
       run: |
         python .github/scripts/sync_orcid_publications.py \
           --orcid-id ${{ secrets.ORCID_ID }} \
+          --client-id ${{ secrets.ORCID_CLIENT_ID }} \
+          --client-secret ${{ secrets.ORCID_CLIENT_SECRET }} \
           --content-dir content/publication \
           ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
     
