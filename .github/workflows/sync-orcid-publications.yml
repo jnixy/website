@@ -1,0 +1,78 @@
+name: Sync ORCID Publications
+
+on:
+  # Run weekly on Mondays at 9 AM UTC
+  schedule:
+    - cron: '0 9 * * 1'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (preview only, no changes)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  sync-publications:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pyyaml
+    
+    - name: Run ORCID sync
+      id: sync
+      run: |
+        python .github/scripts/sync_orcid_publications.py \
+          --orcid-id ${{ secrets.ORCID_ID }} \
+          --content-dir content/publication \
+          ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
+    
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if [[ -n $(git status -s) ]]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "📝 New publications detected"
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+          echo "✅ No new publications"
+        fi
+    
+    - name: Create Pull Request
+      if: steps.check_changes.outputs.changes == 'true'
+      uses: peter-evans/create-pull-request@v6
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: 'Add new publications from ORCID'
+        title: '📚 New Publications from ORCID'
+        body: |
+          This PR adds new publications automatically detected from your ORCID profile.
+          
+          **Review needed:**
+          - [ ] Check publication metadata (title, authors, date, journal)
+          - [ ] Add PDF files (preprint, postprint, final version)
+          - [ ] Add supplementary materials (slides, code, data)
+          - [ ] Update abstract if needed
+          - [ ] Set `featured: true` for important publications
+          - [ ] Add tags and categories
+          
+          **ORCID ID:** ${{ secrets.ORCID_ID }}
+          **Sync date:** ${{ github.event.repository.updated_at }}
+        branch: orcid-sync-publications
+        delete-branch: true
+        labels: publications, automated
