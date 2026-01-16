@@ -30,7 +30,7 @@ But here's the thing: our forthcoming research suggests it's not that simple. ðŸ
 
 Previous studies on de-escalation training have given us mixed results. Some showed [reductions](https://doi.org/10.1111/1745-9133.12574) in use of force, [others](https://doi.org/10.1111/1745-9133.12506) showed [no treatment effect](https://link.springer.com/article/10.1007/s11292-023-09584-8). But here's what was missing: **almost no one was actually measuring whether officers were using the skills they learned.**
 
-It's like baking cookies blindfolded, then wondering why your cookies taste so bad.
+It's like baking cookies blindfolded, then wondering why your cookies don't taste so good.
 
 ## ðŸ”¬ What We Did Differently
 
