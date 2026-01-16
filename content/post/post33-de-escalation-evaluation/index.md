@@ -17,6 +17,11 @@ draft: false
 image:
   caption: ""
   focal_point: "smart"
+links:
+- name: Preprint
+  url: https://www.crimrxiv.com/pub/zj6iscm5/release/1
+  icon_pack: ai
+  icon: open-access
 summary: "Our new study found that de-escalation training improved how officers communicate with citizens, but didn't reduce use of force incidents. Here's what that means for police reform."
 ---
 
