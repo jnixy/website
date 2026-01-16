@@ -30,7 +30,7 @@ But here's the thing: our forthcoming research suggests it's not that simple. �
 
 Previous studies on de-escalation training have given us mixed results. Some showed [reductions](https://doi.org/10.1111/1745-9133.12574) in use of force, [others](https://doi.org/10.1111/1745-9133.12506) showed [no treatment effect](https://link.springer.com/article/10.1007/s11292-023-09584-8). But here's what was missing: **almost no one was actually measuring whether officers were using the skills they learned.**
 
-It's like evaluating a French class by only checking if students got jobs in France—without ever testing whether they could actually speak French! We were skipping the middle step.
+It's like baking cookies blindfolded, then wondering why your cookies taste so bad.
 
 ## 🔬 What We Did Differently
 
@@ -40,8 +40,6 @@ Our team (Kyle McLean, Trey Bussey, myself, Jeff Rojek, and Geoff Alpert) conduc
 ✅ **Watched hundreds of hours of body-worn camera footage** using systematic social observation  
 ✅ **Actually measured the "middle step"**: Did trained officers communicate differently?  
 ✅ **Tracked use of force incidents** from administrative records
-
-This is one of only a handful of studies that directly measured whether officers actually tried to apply their training in the field.
 
 ## 💡 What We Found
 
