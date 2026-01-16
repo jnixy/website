@@ -2,7 +2,7 @@
 title: "Does De-Escalation Training Actually Reduce Police Use of Force? New Research Reveals a Critical Gap"
 authors:
 - admin
-date: "2025-01-14"
+date: "2026-01-16"
 categories:
 - research
 tags:
@@ -56,6 +56,7 @@ This doesn't mean the training failed. It means something more nuanced is happen
 Think of it this way: better communication skills are like having a really good GPS system in your car. The GPS can provide you with accurate directions, warn you about traffic, and suggest alternate routes. But if your destination is still 300 miles away, that GPS isn't going to magically teleport you there.
 
 **De-escalation training is likely teaching officers valuable interpersonal skills.** But use of force incidents are rare events influenced by many factors beyond just communication:
+
 - The specific situation and threat level
 - Individual citizen behavior  
 - Environmental factors
@@ -71,6 +72,7 @@ Our findings align with a growing pattern in the research: **de-escalation train
 **Keep training!** Better communication between police and citizens is valuable on its own. It can reduce tension in encounters and perhaps even build trust in the long run.
 
 But **don't expect it to be a silver bullet for reducing use of force.** If that's your goal, you'll need additional strategies:
+
 - Clearer, more restrictive [use of force policies](https://doi.org/10.1080/07418825.2016.1147593)
 - Better [dispatch](https://heinonline.org/HOL/P?h=hein.journals/policqurt23&i=303) and [call diversion](https://doi.org/10.1177/10986111251383548)
 - Co-responder [models](https://link.springer.com/article/10.1007/s11292-020-09434-x)
@@ -79,6 +81,7 @@ But **don't expect it to be a silver bullet for reducing use of force.** If that
 ### For Researchers
 
 We need to **open up the "black box" of police-citizen encounters.** Body-worn cameras give us an unprecedented opportunity to study what actually happens during these interactions. We should:
+
 - Measure intermediate outcomes, not just final force statistics
 - Understand *when* and *why* de-escalation works (and doesn't work!)
 - Identify which specific skills matter most
@@ -89,6 +92,7 @@ We need to **open up the "black box" of police-citizen encounters.** Body-worn c
 De-escalation training is working as designed: it's teaching officers better interpersonal skills. But the path from "better communication" to "less use of force" is longer and more complicated.
 
 **This isn't a reason to abandon de-escalation training.** It's a reason to:
+
 1. ✅ Value it for what it accomplishes (improved officer communication)
 2. ✅ Pair it with other reforms if reducing force is the goal
 3. ✅ Set realistic expectations about what any single intervention can achieve
