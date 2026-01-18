@@ -10,6 +10,3 @@ weight = 20  # Order that this section will appear in.
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "admin"
 +++
-
-👋 Hi, there! I'm **Justin**, a criminologist doing research on policing and society.
-{style="font-size: 1.2rem; color: #000000;}
