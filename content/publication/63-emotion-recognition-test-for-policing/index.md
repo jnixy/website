@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&context=soc_pubs", icon = "unlock-alt", icon_pack = "fas"} {name = "DOI", url="https://doi.org/10.1108/PIJPSM-04-2025-0072"}]
+links = [{name = "Preprint", url="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&context=soc_pubs", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1108/PIJPSM-04-2025-0072"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
