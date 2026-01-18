@@ -6,13 +6,13 @@ title = "Developing and Validating an Emotion Recognition Test for Policing"
 authors = ["Kyle McLean", "Preston Bussey", "admin", "Jeff Rojek", "Abigail Curran", "Vivian Ta-Johnson", "Geoff Alpert"]
 
 # Publication
-publication = "*Policing: An International Journal*"
+publication = "*Policing: An International Journal*, 49(1), 52-72"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["2"]
 
 # Date the paper was published.
-date = 2025-06-12T10:00:00Z
+date = 2026-01-15T10:00:00Z
 
 # Date this page was created.
 publishdate = 2025-08-12T13:00:00Z
@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&context=soc_pubs", icon = "unlock-alt", icon_pack = "fas"}]
+links = [{name = "Preprint", url="https://open.clemson.edu/cgi/viewcontent.cgi?article=1000&context=soc_pubs", icon = "unlock-alt", icon_pack = "fas"} {name = "DOI", url="https://doi.org/10.1108/PIJPSM-04-2025-0072"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
