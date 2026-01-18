@@ -44,7 +44,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="/files/pdfs/denpo_depolicing.pdf"}, {name = "DOI", url="https://www.denverpost.com/2021/02/24/denver-crime-rate-homicide-shooting-property-crime-police/"}]
+links = [{name = "Postprint", url="/files/pdfs/denpo_depolicing.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://www.denverpost.com/2021/02/24/denver-crime-rate-homicide-shooting-property-crime-police/"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

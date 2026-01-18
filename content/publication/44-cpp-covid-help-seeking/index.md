@@ -44,7 +44,7 @@ url_project = "https://jnix.netlify.app/project/dv-covid19/"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="https://assets.pubpub.org/n9thn97r/61635772899494.pdf"}, {name = "DOI", url="https://doi.org/10.1111/1745-9133.12564"}]
+links = [{name = "Postprint", url="https://assets.pubpub.org/n9thn97r/61635772899494.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1111/1745-9133.12564"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

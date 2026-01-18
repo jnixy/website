@@ -44,7 +44,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="https://assets.pubpub.org/oibiaw6d/71636036997434.pdf"}, {name = "DOI", url="https://doi.org/10.1080/15614263.2021.1883018"}, {name = "Replication Materials", url="https://github.com/jnixy/replication-materials/tree/master/nix_richards_PPR_InPress"}]
+links = [{name = "Postprint", url="https://assets.pubpub.org/oibiaw6d/71636036997434.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1080/15614263.2021.1883018"}, {name = "Replication Materials", url="https://github.com/jnixy/replication-materials/tree/master/nix_richards_PPR_InPress", icon = "code", icon_pack = "fas"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

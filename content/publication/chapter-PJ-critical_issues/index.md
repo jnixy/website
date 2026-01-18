@@ -47,7 +47,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="/files/pdfs/critical_issues_PJ.pdf"}, {name = "DOI", url = "https://www.waveland.com/browse.php?t=292"}]
+links = [{name = "Postprint", url="/files/pdfs/critical_issues_PJ.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url = "https://www.waveland.com/browse.php?t=292"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

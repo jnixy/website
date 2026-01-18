@@ -43,7 +43,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="/files/pdfs/police_chief_response_times.pdf"}, {name = "DOI", url="https://www.policechiefmagazine.org/linking-the-workforce-crisis-crime-and-response-time/"}]
+links = [{name = "Postprint", url="/files/pdfs/police_chief_response_times.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://www.policechiefmagazine.org/linking-the-workforce-crisis-crime-and-response-time/"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

@@ -47,7 +47,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="/files/pdfs/ebp_DV_book_chapter.pdf"}, {name = "DOI", url = "https://www.routledge.com/Routledge-Handbook-of-Evidence-Based-Criminal-Justice-Practices/Verona-Fox/p/book/9781032107349"}]
+links = [{name = "Postprint", url="/files/pdfs/ebp_DV_book_chapter.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url = "https://www.routledge.com/Routledge-Handbook-of-Evidence-Based-Criminal-Justice-Practices/Verona-Fox/p/book/9781032107349"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

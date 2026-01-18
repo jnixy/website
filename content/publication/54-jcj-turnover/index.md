@@ -43,7 +43,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="https://doi.org/10.21428/cb6ab371.4a588631"}, {name = "DOI", url="https://doi.org/10.1016/j.jcrimjus.2023.102105"}, {name = "Replication Materials", url="https://github.com/ian-adams/police_turnover_public"}]
+links = [{name = "Postprint", url="https://doi.org/10.21428/cb6ab371.4a588631", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1016/j.jcrimjus.2023.102105"}, {name = "Replication Materials", url="https://github.com/ian-adams/police_turnover_public", icon = "code", icon_pack = "fas"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
