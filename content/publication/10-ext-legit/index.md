@@ -43,7 +43,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="/files/pdfs/c&d_extlegit.pdf"}, {name = "DOI", url="https://doi.org/10.1177/0011128715620627"}]
+links = [{name = "Postprint", url="/files/pdfs/c&d_extlegit.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1177/0011128715620627"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

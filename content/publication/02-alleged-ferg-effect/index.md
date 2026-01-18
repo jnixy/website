@@ -22,7 +22,7 @@ url_slides = ""
 url_video = ""
 url_code = ""
 
-links = [{name = "Postprint", url="https://jnix.netlify.app/files/pdfs/lhb_fergeffect.pdf"}, {name = "DOI", url="https://doi.org/10.1037/lhb0000164"}]
+links = [{name = "Postprint", url="https://jnix.netlify.app/files/pdfs/lhb_fergeffect.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1037/lhb0000164"}]
 
 [image]
   caption = "Photo by Randy Colas on [Unsplash](https://unsplash.com/photos/r2lq1VIyuO4)"

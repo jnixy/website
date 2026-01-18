@@ -43,7 +43,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1147&context=criminaljusticefacpub"}, {name = "DOI", url="https://doi.org/10.1177/10986111221136230"}]
+links = [{name = "Postprint", url="https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1147&context=criminaljusticefacpub", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1177/10986111221136230"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

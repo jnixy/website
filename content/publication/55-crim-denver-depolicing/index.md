@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://osf.io/download/6402aa8f28e5c500389383a7/?version=1&displayName=Nix%20et%20al%20Depolicing%20Crime_PREPRINT-2023-03-03T22%3A02%3A09.804Z.pdf"}, {name = "Replication Materials", url="https://doi.org/10.7910/DVN/HNFQSP"}, {name = "DOI", url="https://doi.org/10.1111/1745-9125.12363"}]
+links = [{name = "Preprint", url="https://osf.io/download/6402aa8f28e5c500389383a7/?version=1&displayName=Nix%20et%20al%20Depolicing%20Crime_PREPRINT-2023-03-03T22%3A02%3A09.804Z.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "Replication Materials", url="https://doi.org/10.7910/DVN/HNFQSP"}, {name = "DOI", url="https://doi.org/10.1111/1745-9125.12363"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

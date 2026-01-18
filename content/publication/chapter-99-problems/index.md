@@ -47,7 +47,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.8b17fd57"}]
+links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.8b17fd57", icon = "unlock-alt", icon_pack = "fas"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

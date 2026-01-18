@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="https://assets.pubpub.org/y8znc9pm/Richards%20et%20al%20(Postprint)%20Minnesota%20SAKI%20-%20Lessons%20learned-51748967076417.pdf"}]
+links = [{name = "Postprint", url="https://assets.pubpub.org/y8znc9pm/Richards%20et%20al%20(Postprint)%20Minnesota%20SAKI%20-%20Lessons%20learned-51748967076417.pdf", icon = "unlock-alt", icon_pack = "fas"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

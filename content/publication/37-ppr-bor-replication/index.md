@@ -44,7 +44,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="https://assets.pubpub.org/q5ubf3i9/51636042065128.pdf"}, {name = "DOI", url="https://doi.org/10.1080/15614263.2021.1878894"}, {name = "Data", url="https://doi.org/10.7910/DVN/VGYI0E"}]
+links = [{name = "Postprint", url="https://assets.pubpub.org/q5ubf3i9/51636042065128.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1080/15614263.2021.1878894"}, {name = "Data", url="https://doi.org/10.7910/DVN/VGYI0E"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 

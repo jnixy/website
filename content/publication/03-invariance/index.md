@@ -22,7 +22,7 @@ url_slides = ""
 url_video = ""
 url_code = ""
 
-links = [{name = "Postprint", url="/files/pdfs/jqc_invariancePJ.pdf"}, {name = "DOI", url="https://doi.org/10.1007/s10940-015-9263-8"}]
+links = [{name = "Postprint", url="/files/pdfs/jqc_invariancePJ.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1007/s10940-015-9263-8"}]
 
 [image]
   caption = "Photo by Randy Colas on [Unsplash](https://unsplash.com/photos/r2lq1VIyuO4)"

@@ -44,7 +44,7 @@ url_project = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Postprint", url="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3874266"}, {name = "DOI", url="https://jclc.law.northwestern.edu/issues/policing-suspicion-qualified-immunity-and-clearly-established-standards-of-proof/"}]
+links = [{name = "Postprint", url="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3874266", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://jclc.law.northwestern.edu/issues/policing-suspicion-qualified-immunity-and-clearly-established-standards-of-proof/"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder. 
