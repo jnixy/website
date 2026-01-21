@@ -55,3 +55,7 @@ links = [{name = "Postprint", url="disparity_bias_postprint.pdf", icon = "unlock
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
   # focal_point = "center"
 +++
+
+## 1.21.2025 Update
+
+Check out this [cool simulator](https://ianadamsresearch.com/dashboard/disparity-benchmarks/) that creates visualizations based on our article (and includes more recent years of data).
