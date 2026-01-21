@@ -1,0 +1,10 @@
+{
+  "name": "Justin Nix",
+  "affiliation": "University of Nebraska Omaha",
+  "h_index": null,
+  "i10_index": null,
+  "citations": null,
+  "updated": "2025-01-21T00:00:00+00:00",
+  "scholar_url": "https://scholar.google.com/citations?user=_Jr8r8UAAAAJ",
+  "note": "Run 'python scripts/fetch_scholar_metrics.py' to populate with real data"
+}
