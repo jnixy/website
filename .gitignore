@@ -4,3 +4,5 @@
 .Ruserdata
 public/
 resources/
+update-cv.sh
+.vscode/
