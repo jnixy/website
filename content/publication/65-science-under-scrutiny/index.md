@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Slides", url="https://jnix.netlify.app/slides/mcja_keynote_2025.pdf", icon = "file-powerpoint", icon_pack = "fas"}]
+links = [{name = "Slides", url="https://jnix.netlify.app/slides/mcja_keynote_2025.pdf", icon = "file-powerpoint", icon_pack = "fas"}, {name = "Preprint", url="https://doi.org/10.21428/cb6ab371.f827ad5d", icon = "unlock-alt", icon_pack = "fas"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder.
