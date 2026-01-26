@@ -5,38 +5,341 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jan 2026 06:49:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 06:51:35 +0000</lastBuildDate>
     <item>
-      <title>In Court Record, Official Describes Assault Before ICE Agent Shot Man in Minneapolis - The New York Times</title>
-      <link>https://slashdot.org/firehose.pl?op=view&amp;amp;id=180633372</link>
-      <description>In Court Record, Official Describes Assault Before ICE Agent Shot Man in MinneapolisThe New York Times Aftermath video of latest ICE shooting in Minneapolis involving an undocumented Venezuelan nationalCNN 2nd federal officer shooting in Minneapolis prompts p…</description>
-      <pubDate>Wed, 21 Jan 2026 16:33:19 +0000</pubDate>
+      <title>Vigil held in Concord for man killed by federal immigration officers</title>
+      <link>https://www.wmur.com/article/vigil-held-in-concord-for-man-killed-by-federal-immigration-officers/70125161</link>
+      <description>In a post on Facebook, New Hampshire 50501 said the vigil was to &quot;mourn and call for justice.&quot;</description>
+      <pubDate>Sun, 25 Jan 2026 06:35:30 +0000</pubDate>
+      <category>incident</category>
+      <source>WMUR Manchester</source>
+    </item>
+    <item>
+      <title>Video Appears to Show Man Shot By ICE Assault Woman, Instigate Violence, Resist Arrest</title>
+      <link>https://www.westernjournal.com/video-appears-show-man-shot-ice-assault-woman-instigate-violence-resist-arrest/</link>
+      <description>New video appears to show the man shot dead in Minneapolis Saturday ignite the confrontation that led to his death.</description>
+      <pubDate>Sun, 25 Jan 2026 06:13:42 +0000</pubDate>
+      <category>incident</category>
+      <source>Westernjournal.com</source>
+    </item>
+    <item>
+      <title>Protesters demand immigration agents leave Minneapolis after man is shot and killed during crackdown</title>
+      <link>https://abcnews.go.com/US/wireStory/protesters-demand-immigration-agents-leave-minneapolis-after-man-129535255</link>
+      <description>Democratic officials and protesters on the streets are demanding that federal immigration officers leave Minnesota after a Border Patrol agent fatally shot a man in Minneapolis</description>
+      <pubDate>Sun, 25 Jan 2026 05:10:18 +0000</pubDate>
+      <category>incident</category>
+      <source>ABC News</source>
+    </item>
+    <item>
+      <title>Fatal shooting in Minneapolis renews protests; Video raises questions about DHS account (Washington Post)</title>
+      <link>https://www.memeorandum.com/260125/p1</link>
+      <description>Washington Post:
+Fatal shooting in Minneapolis renews protests; Video raises questions about DHS account  —  MINNEAPOLIS — A U.S. Border Patrol agent fatally shot a man in Minneapolis shortly after 9 a.m. Saturday, federal officials said, in the third shootin…</description>
+      <pubDate>Sun, 25 Jan 2026 05:10:00 +0000</pubDate>
+      <category>incident</category>
+      <source>Memeorandum.com</source>
+    </item>
+    <item>
+      <title>Man is shot and killed during Minneapolis immigration crackdown, National Guard activated</title>
+      <link>https://www.pbs.org/newshour/nation/man-is-shot-and-killed-during-minneapolis-immigration-crackdown-national-guard-activated</link>
+      <description>MINNEAPOLIS (AP) — A federal immigration officer shot and killed a man Saturday in Minneapolis, drawing hundreds of protesters onto the frigid streets and ratcheting up tensions in a city already shaken by another fatal shooting weeks earlier. Family members …</description>
+      <pubDate>Sun, 25 Jan 2026 04:52:25 +0000</pubDate>
+      <category>incident</category>
+      <source>PBS</source>
+    </item>
+    <item>
+      <title>NBA Postpones Timberwolves-Warriors Game After Minneapolis Shooting, NHL Plays with No Issues</title>
+      <link>https://www.breitbart.com/sports/2026/01/24/nba-postpones-timberwolves-warriors-game-after-minneapolis-shooting-nhl-plays-with-no-issues/</link>
+      <description>The NBA postponed Saturday's game between the Minnesota Timberwolves and Golden State Warriors after a federal agent shot an armed man who was interfering with law enforcement activities in Minneapolis.
+The post NBA Postpones Timberwolves-Warriors Game After …</description>
+      <pubDate>Sun, 25 Jan 2026 04:34:07 +0000</pubDate>
+      <category>incident</category>
+      <source>Breitbart News</source>
+    </item>
+    <item>
+      <title>Alex Pretti, Man Shot By Federal Agents in Minneapolis, Wanted to ‘Make a Difference’</title>
+      <link>https://time.com/7357687/alex-pretti-ice-minneapolis/</link>
+      <description>Pretti was an intensive care unit nurse at the Veterans Affairs hospital in Minneapolis, the city where he lived.</description>
+      <pubDate>Sun, 25 Jan 2026 04:08:10 +0000</pubDate>
+      <category>incident</category>
+      <source>Time</source>
+    </item>
+    <item>
+      <title>Parents of Agitator Shot by Federal Agents in Minneapolis Had Urged Him ‘Not to Do Anything Stupid’ While Out Protesting</title>
+      <link>https://freerepublic.com/focus/f-chat/4363833/posts</link>
+      <description>The parents of Alex Jeffrey Pretti, the 37-year-old shot by federal agents in Minneapolis on Saturday, had urged him to “not do anything stupid” while protesting. Pretti, an intensive care unit (ICU) nurse at the Veterans Affairs hospital in Minneapolis, had …</description>
+      <pubDate>Sun, 25 Jan 2026 03:22:34 +0000</pubDate>
+      <category>incident</category>
+      <source>Freerepublic.com</source>
+    </item>
+    <item>
+      <title>Protest forms in Milwaukee after man with Wisconsin ties shot, killed by federal agent in Minneapolis</title>
+      <link>https://www.wisn.com/article/protest-forms-in-milwaukee-after-man-with-wisconsin-ties-shot-killed-by-federal-agent-in-minneapolis/70124485</link>
+      <description>Protest forms in Milwaukee after man with Wisconsin ties shot, killed by federal agent in Minneapoliswisn.com</description>
+      <pubDate>Sun, 25 Jan 2026 01:56:16 +0000</pubDate>
+      <category>incident</category>
+      <source>WISN Milwaukee</source>
+    </item>
+    <item>
+      <title>Alex Pretti was an ICU nurse dedicated to helping others, friends and family said | CNN</title>
+      <link>https://www.cnn.com/2026/01/24/us/alex-pretti-minneapolis-ice-shooting-invs</link>
+      <description>The man killed by federal immigration agents in Minneapolis legally owned a gun and had no criminal record.</description>
+      <pubDate>Sun, 25 Jan 2026 01:17:38 +0000</pubDate>
+      <category>incident</category>
+      <source>CNN</source>
+    </item>
+    <item>
+      <title>Senate Dems revolt against DHS funding bill amid Minneapolis chaos, hiking government shutdown risk</title>
+      <link>https://www.foxnews.com/politics/senate-dems-revolt-against-dhs-funding-bill-amid-minneapolis-chaos-dramatically-hiking-government-shutdown-ri</link>
+      <description>Government shutdown looms as Senate Democrats break truce over DHS funding after border patrol agent fatally shot Alex Pretti with Friday deadline approaching.</description>
+      <pubDate>Sun, 25 Jan 2026 01:09:11 +0000</pubDate>
+      <category>incident</category>
+      <source>Fox News</source>
+    </item>
+    <item>
+      <title>U.S. citizen shot, killed by federal agents in Minneapolis for second time this month</title>
+      <link>https://www.cbsnews.com/video/us-citizen-shot-killed-by-federal-agents-minneapolis-second-time-this-month/</link>
+      <description>Warning: Video might be disturbing. For the second time this month, a federal agent has shot and killed a U.S. citizen in Minneapolis. The moment was caught on video again, and the city's police chief is urging outraged citizens to keep the peace. Lana Zak re…</description>
+      <pubDate>Sun, 25 Jan 2026 00:20:00 +0000</pubDate>
+      <category>incident</category>
+      <source>CBS News</source>
+    </item>
+    <item>
+      <title>Trump Responds After U.S. Citizen Killed By Federal Authorities In Minneapolis (Live Updates) - Forbes</title>
+      <link>https://slashdot.org/firehose.pl?op=view&amp;amp;id=180651584</link>
+      <description>Trump Responds After U.S. Citizen Killed By Federal Authorities In Minneapolis (Live Updates)Forbes Trump cites armed suspect, lack of police support following fatal Border Patrol shooting in MinneapolisFox News Military Police Troops Put on Alert for Possibl…</description>
+      <pubDate>Sat, 24 Jan 2026 23:52:41 +0000</pubDate>
       <category>incident</category>
       <source>Slashdot.org</source>
     </item>
     <item>
-      <title>New reports say Renee Good still had a pulse after being shot by ICE — medics were delayed</title>
-      <link>https://economictimes.indiatimes.com/news/international/us/new-reports-say-renee-good-still-had-a-pulse-after-being-shot-by-ice-medics-were-delayed/articleshow/126983733.cms</link>
-      <description>The fatal shooting of 37-year-old Renee Nicole Good by an ICE officer in Minneapolis has resulted in intense scrutiny. Minnesota Public Radio (MPR) News analysis disclosed that Good had a pulse, stated as “thready and irregular”, six minutes following the inc…</description>
-      <pubDate>Wed, 21 Jan 2026 12:17:19 +0000</pubDate>
+      <title>Anti-ICE Rioter Bites Federal Officer’s Finger Off During Minneapolis Chaos</title>
+      <link>https://dailycaller.com/2026/01/24/anti-ice-rioter-bites-federal-officer-finger-off-minneapolis-chaos/</link>
+      <description>A Homeland Security Investigations officer had part of his finger bitten off by rioters in Minneapolis after a Border Patrol agent fatally shot a man Saturday.</description>
+      <pubDate>Sat, 24 Jan 2026 23:39:10 +0000</pubDate>
       <category>incident</category>
-      <source>The Times of India</source>
+      <source>The Daily Caller</source>
     </item>
     <item>
-      <title>ABC, NBC and CBS delivered 93% negative coverage on ICE after fatal Renee Good shooting, study finds</title>
-      <link>https://www.foxnews.com/media/abc-nbc-cbs-delivered-93-negative-coverage-ice-after-fatal-renee-good-shooting-study-finds</link>
-      <description>Study finds ABC, NBC, CBS were 93% negative about ICE following an officer-involved shooting, with 68 negative sound bites vs. only 5 positive clips analyzed.</description>
-      <pubDate>Tue, 20 Jan 2026 16:59:17 +0000</pubDate>
+      <title>What we know about Alex Pretti, ICU nurse killed by federal agent in Minneapolis</title>
+      <link>https://abcnews.go.com/US/alex-pretti-icu-nurse-killed-federal-agent-minneapolis/story?id=129525591</link>
+      <description>What we know about Alex Pretti, ICU nurse killed by federal agent in Minneapolisgo.com</description>
+      <pubDate>Sat, 24 Jan 2026 23:36:31 +0000</pubDate>
+      <category>incident</category>
+      <source>ABC News</source>
+    </item>
+    <item>
+      <title>Man fatally shot by federal officer in Minnesota worked as an ICU nurse, his parents say</title>
+      <link>https://freerepublic.com/focus/f-news/4363807/posts</link>
+      <description>Family members say the man killed by a federal officer in Minneapolis on Saturday, 37-year-old Alex Jeffrey Pretti, was an intensive care nurse at the Veterans Administration who cared deeply about people and was upset by President Trump's immigration crackdo…</description>
+      <pubDate>Sat, 24 Jan 2026 23:34:17 +0000</pubDate>
+      <category>incident</category>
+      <source>Freerepublic.com</source>
+    </item>
+    <item>
+      <title>Federal Agent's Finger Bitten Off by Alleged Minneapolis Rioter</title>
+      <link>https://www.breitbart.com/2nd-amendment/2026/01/24/federal-agents-finger-bitten-off-alleged-minneapolis-rioter/</link>
+      <description>A federal agent's finger was bitten off during the riots that filled the streets after a federal agent shot an armed man in Minneapolis. 
+The post Federal Agent’s Finger Bitten Off by Alleged Minneapolis Rioter appeared first on Breitbart.</description>
+      <pubDate>Sat, 24 Jan 2026 23:32:26 +0000</pubDate>
+      <category>incident</category>
+      <source>Breitbart News</source>
+    </item>
+    <item>
+      <title>Who is Alex Jeffrey Pretti, the anti-ICE protester fatally shot by federal agents in Minneapolis?</title>
+      <link>https://nypost.com/us-news/who-is-alex-jeffrey-pretti/</link>
+      <description>Alex Jeffrey Pretti was fatally shot by federal agents on Saturday while being allegedly armed at an anti-ICE protest in Minneapolis.</description>
+      <pubDate>Sat, 24 Jan 2026 23:17:59 +0000</pubDate>
+      <category>incident</category>
+      <source>New York Post</source>
+    </item>
+    <item>
+      <title>Man killed by federal officer in Minneapolis was born in Illinois</title>
+      <link>https://www.nbcchicago.com/news/local/icu-nurse-killed-by-federal-officer-in-minneapolis-was-born-in-illinois/3880952/</link>
+      <description>The man killed by a federal officer in Minneapolis on Saturday was an Illinois-born intensive care nurse, his family members said.</description>
+      <pubDate>Sat, 24 Jan 2026 22:23:44 +0000</pubDate>
+      <category>incident</category>
+      <source>NBC Chicago</source>
+    </item>
+    <item>
+      <title>The Federal Government Is Gaslighting the Public About ICE Killing Alex Pretti</title>
+      <link>https://www.mediaite.com/opinion/the-federal-government-is-gaslighting-the-public-about-ice-killing-of-alex-pretti/</link>
+      <description>Federal officials called a Minneapolis ICU nurse a terrorist after he was shot and killed by ICE. Video shows a sharply different sequence of events.
+The post The Federal Government Is Gaslighting the Public About ICE Killing Alex Pretti first appeared on Med…</description>
+      <pubDate>Sat, 24 Jan 2026 22:17:29 +0000</pubDate>
+      <category>incident</category>
+      <source>Mediaite</source>
+    </item>
+    <item>
+      <title>Former Federal Prosecutor Claims Man Shot and Killed By Federal Agents Had a ‘Death Wish’</title>
+      <link>https://www.mediaite.com/media/news/former-federal-prosecutor-claims-man-shot-and-killed-by-federal-agents-had-a-death-wish/</link>
+      <description>A former federal prosecutor suggested that Alex Jeffrey Pretti had a &quot;death wish&quot; when he exercised his First Amendment Right to protest in Minneapolis.
+The post Former Federal Prosecutor Claims Man Shot and Killed By Federal Agents Had a ‘Death Wish’ first a…</description>
+      <pubDate>Sat, 24 Jan 2026 22:06:37 +0000</pubDate>
+      <category>incident</category>
+      <source>Mediaite</source>
+    </item>
+    <item>
+      <title>Michigan elected officials respond after federal agents fatally shoot man in Minneapolis</title>
+      <link>https://www.cbsnews.com/detroit/news/michgan-elected-officials-reaction-federal-agent-shooting-minneapolis/</link>
+      <description>Elected officials who represent Michigan are reacting to the fatal shooting Saturday morning by federal agents in south Minneapolis​. The incident comes less than three weeks after a U.S. Immigration and Enforcement officer fatally shot 37-year-old Renee Good…</description>
+      <pubDate>Sat, 24 Jan 2026 21:54:00 +0000</pubDate>
+      <category>incident</category>
+      <source>CBS News</source>
+    </item>
+    <item>
+      <title>Shocking video shows moment armed man shot dead in Minneapolis while he ‘violently resisted’ federal agents</title>
+      <link>https://nypost.com/video/shocking-video-shows-moment-armed-man-shot-dead-in-minneapolis-while-he-violently-resisted-federal-agents/</link>
+      <description>A federal agent shot and killed a man who was allegedly brandishing a gun while officers in Minneapolis were attempting to arrest an illegal criminal migrant Saturday morning, the Department of Homeland Security said. The shooting, which occurred at 9:05 a.m.…</description>
+      <pubDate>Sat, 24 Jan 2026 21:37:16 +0000</pubDate>
+      <category>incident</category>
+      <source>New York Post</source>
+    </item>
+    <item>
+      <title>Stephen Miller accuses Democrats of siding with 'terrorists' after Minneapolis Border Patrol-involved shooting</title>
+      <link>https://www.foxnews.com/politics/stephen-miller-accuses-democrats-siding-terrorists-after-minneapolis-border-patrol-involved-shooting</link>
+      <description>A Border Patrol agent fatally shot an armed Minneapolis man on Saturday, prompting White House deputy chief Stephen Miller to accuse Democrats of siding with &quot;terrorists.&quot;</description>
+      <pubDate>Sat, 24 Jan 2026 21:28:21 +0000</pubDate>
       <category>incident</category>
       <source>Fox News</source>
     </item>
     <item>
-      <title>Mother of officer killed by illegal migrant criticizes Minnesota leaders' 'warped view' of police</title>
-      <link>https://www.foxnews.com/media/mother-officer-killed-illegal-migrant-criticizes-minnesota-leaders-warped-view-police</link>
-      <description>Angel mom Mary Ann Mendoza defends ICE agents facing 'hate and unrest' after her police officer son was killed by an illegal migrant in 2014 on &quot;The Faulkner Focus.&quot;</description>
-      <pubDate>Mon, 19 Jan 2026 22:35:07 +0000</pubDate>
+      <title>Man killed by federal officer in Minnesota worked as ICU nurse, his parents say</title>
+      <link>https://www.cbsnews.com/news/alex-jeffrey-pretti-shot-killed-minnesota/</link>
+      <description>The 37-year-old man killed by a federal officer in Minneapolis is identified by his family as Alex Jeffrey Pretti, an intensive care nurse who was &quot;very upset with what was happening,&quot; AP reported.</description>
+      <pubDate>Sat, 24 Jan 2026 21:26:00 +0000</pubDate>
+      <category>incident</category>
+      <source>CBS News</source>
+    </item>
+    <item>
+      <title>Suspect Who Looked Ready to ‘Massacre Law Enforcement’ Shot Dead in Minneapolis, DHS Says</title>
+      <link>https://www.dailysignal.com/2026/01/24/border-patrol-agent-fatally-shoots-armed-man-in-minneapolis/</link>
+      <description>DAILY CALLER NEWS FOUNDATION—A U.S. Border Patrol agent fatally shot an armed man in Minneapolis on Saturday who the Department of Homeland Security (DHS) said... Read More
+The post Suspect Who Looked Ready to ‘Massacre Law Enforcement’ Shot Dead in Minneapol…</description>
+      <pubDate>Sat, 24 Jan 2026 21:21:07 +0000</pubDate>
+      <category>incident</category>
+      <source>Daily Signal</source>
+    </item>
+    <item>
+      <title>Victim Killed by ICE Was an Intensive Care Nurse</title>
+      <link>https://dianeravitch.net/2026/01/24/victim-killed-by-ice-was-an-icu-nurse/</link>
+      <description>Station KARE in Minneapolis reported: MINNEAPOLIS — The man shot and killed by a federal agent in Minneapolis on Saturday has been identified as Alex Pretti. The Associated Press reported Pretti’s parents confirmed his identity, and that he worked as an ICU n…</description>
+      <pubDate>Sat, 24 Jan 2026 21:20:00 +0000</pubDate>
+      <category>incident</category>
+      <source>Dianeravitch.net</source>
+    </item>
+    <item>
+      <title>Bondi blames Minneapolis leaders after armed suspect killed, unrest erupts during ICE operation</title>
+      <link>https://www.foxnews.com/politics/bondi-blames-minneapolis-leaders-after-armed-suspect-killed-unrest-erupts-during-ice-operation</link>
+      <description>Attorney General Pam Bondi accused Minneapolis leaders of fueling unrest after Border Patrol Commander Greg Bovino reported agent fatally shot suspect.</description>
+      <pubDate>Sat, 24 Jan 2026 21:11:49 +0000</pubDate>
       <category>incident</category>
       <source>Fox News</source>
+    </item>
+    <item>
+      <title>Man fatally shot by federal officers in Minneapolis identified by his parents as an ICU nurse</title>
+      <link>https://www.nbcnews.com/news/us-news/alex-pretti-fatally-shot-federal-officers-minneapolis-identified-paren-rcna255758</link>
+      <description>The man fatally shot Saturday by federal officers in Minneapolis has been identified as 37-year-old ICU nurse Alex Jeffrey Pretti, family members confirmed to The Associated Press.</description>
+      <pubDate>Sat, 24 Jan 2026 21:03:57 +0000</pubDate>
+      <category>incident</category>
+      <source>NBC News</source>
+    </item>
+    <item>
+      <title>Protester Killed in Minneapolis Was a Nurse and a US Citizen</title>
+      <link>https://www.newser.com/story/382522/protester-killed-was-a-nurse-us-citizen-with-a-gun-permit.html</link>
+      <description>The parents of a man fatally shot by federal officers while protesting in Minneapolis on Saturday identified him as Alex Jeffrey Pretti, the Minnesota Star Tribune reports. Pretti was a US citizen and Minneapolis resident who worked as a nurse in a Veterans A…</description>
+      <pubDate>Sat, 24 Jan 2026 21:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>Newser</source>
+    </item>
+    <item>
+      <title>Ilhan Omar, Democrats Demand ICE Leave Minnesota After Man Fatally Shot By Border Patrol</title>
+      <link>https://dailycaller.com/2026/01/24/ilhan-omar-angie-craig-tim-walz-jacob-frey-minnesota-democrats-border-patrol-ice-shooting/</link>
+      <description>Democrats demanded ICE halt immigration enforcement operations in Minnesota after a Border Patrol agent fatally shot a man following a scuffle in Minneapolis.</description>
+      <pubDate>Sat, 24 Jan 2026 20:53:33 +0000</pubDate>
+      <category>incident</category>
+      <source>The Daily Caller</source>
+    </item>
+    <item>
+      <title>Man shot and killed by federal officers in Minnesota was an ICU nurse, his parents say</title>
+      <link>https://www.pbs.org/newshour/nation/man-shot-and-killed-by-federal-officers-in-minnesota-was-an-icu-nurse-his-parents-say</link>
+      <description>The man who was shot and killed by a federal officer during an immigration operation has been identified as 37-year-old Alex Pretti, an intensive care unit nurse.</description>
+      <pubDate>Sat, 24 Jan 2026 20:41:32 +0000</pubDate>
+      <category>incident</category>
+      <source>PBS</source>
+    </item>
+    <item>
+      <title>Man shot and killed by federal agents identified as Alex Pretti</title>
+      <link>https://www.kare11.com/article/news/local/ice-in-minnesota/man-shot-and-killed-by-federal-agents-identified-as-alex-pretti/89-e53a862d-56cc-4b63-bf00-238bdc7cd807</link>
+      <description>The man's parents confirmed the 37-year-old man's death to the Associated Press.</description>
+      <pubDate>Sat, 24 Jan 2026 20:38:50 +0000</pubDate>
+      <category>incident</category>
+      <source>KARE11.com</source>
+    </item>
+    <item>
+      <title>Federal immigration agents fatally shoot second person in Minneapolis</title>
+      <link>https://japantoday.com/category/world/federal-immigration-agents-fatally-shoot-second-person-in-minneapolis1</link>
+      <description>A Border Patrol agent shot and killed a man in Minneapolis on Saturday, local and federal officials said, the second such incident this month during a surge in immigration ‌enforcement in the northern U.S. city that residents and local politicians have fierce…</description>
+      <pubDate>Sat, 24 Jan 2026 20:36:31 +0000</pubDate>
+      <category>incident</category>
+      <source>Japan Today</source>
+    </item>
+    <item>
+      <title>Timberwolves vs. Warriors game postponed by NBA after man fatally shot by federal agents in Minneapolis</title>
+      <link>https://www.cbssports.com/nba/news/timberwolves-warriors-game-postponed-nba-minneapolis-shooting/</link>
+      <description>The league cited the safety and security of the Minneapolis community in announcing the decision</description>
+      <pubDate>Sat, 24 Jan 2026 20:30:18 +0000</pubDate>
+      <category>incident</category>
+      <source>CBS Sports</source>
+    </item>
+    <item>
+      <title>Pritzker urges 'unified response' from Democrat, Republican governors after Border Patrol shoots armed man</title>
+      <link>https://www.foxnews.com/politics/pritzker-urges-unified-response-democrat-republican-governors-border-patrol-shoots-armed-man</link>
+      <description>Illinois Gov. JB Pritzker and New York Gov. Kathy Hochul slammed thee Trump administration after Border Patrol shot an armed man in Minneapolis.</description>
+      <pubDate>Sat, 24 Jan 2026 19:16:41 +0000</pubDate>
+      <category>incident</category>
+      <source>Fox News</source>
+    </item>
+    <item>
+      <title>GOP senator backs Trump deploying National Guard to quash unrest in wake of shooting</title>
+      <link>https://www.rawstory.com/minneapolis-2675022036/</link>
+      <description>Sen. Shelley Moore Capito (R-WV) voiced her support Saturday for President Donald Trump deploying the National Guard to Minnesota to quash the civil unrest sparked by the latest federal immigration officer-involved shooting
+ in Minneapolis.At least seven fed…</description>
+      <pubDate>Sat, 24 Jan 2026 18:33:33 +0000</pubDate>
+      <category>incident</category>
+      <source>Raw Story</source>
+    </item>
+    <item>
+      <title>Minnesota governor says another person shot by federal officers during immigration crackdown</title>
+      <link>https://www.independent.ie/world-news/north-america/minnesota-governor-says-another-person-shot-by-federal-officers-during-immigration-crackdown/a1886120098.html</link>
+      <description>Federal officers have shot another person in Minneapolis amid the Trump administration's immigration crackdown, Governor Tim Walz said today.</description>
+      <pubDate>Sat, 24 Jan 2026 17:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>Independent.ie</source>
+    </item>
+    <item>
+      <title>Victim-Blaming in the Fatal Minnesota Shooting</title>
+      <link>https://www.psychologytoday.com/us/blog/bias-fundamentals/202601/victim-blaming-in-the-fatal-minnesota-shooting</link>
+      <description>After an ICE agent fatally shot a woman in Minnesota, responses have ranged from compassion for the victim to extreme criticism and unsubstantiated attacks. How can we address such victim-blaming?</description>
+      <pubDate>Fri, 23 Jan 2026 23:36:49 +0000</pubDate>
+      <category>incident</category>
+      <source>Psychology Today</source>
+    </item>
+    <item>
+      <title>Man injured in southern Colorado police chase, shooting</title>
+      <link>https://www.denverpost.com/2026/01/22/walsenburg-police-chase-shooting/</link>
+      <description>A Walsenburg police officer shot at a fleeing domestic violence suspect on Wednesday, according to the Colorado Bureau of Investigation.</description>
+      <pubDate>Thu, 22 Jan 2026 14:57:43 +0000</pubDate>
+      <category>incident</category>
+      <source>The Denver Post</source>
+    </item>
+    <item>
+      <title>Vance heads to Minneapolis amid tension over ICE crackdown</title>
+      <link>https://www.thestar.com.my/news/world/2026/01/22/vance-heads-to-minneapolis-amid-tension-over-ice-crackdown</link>
+      <description>MINNEAPOLIS, Jan 22 (Reuters) - Vice President ‌JD Vance is expected to visit Minneapolis on Thursday to show support for a massive federal law enforcement operation underway in a city that ‌has been on edge since an ICE officer shot dead a 37-year-old mother…</description>
+      <pubDate>Thu, 22 Jan 2026 11:25:00 +0000</pubDate>
+      <category>incident</category>
+      <source>The Star Online</source>
     </item>
     <item>
       <title>Man charged after being shot by Richmond police at GRTC headquarters</title>
@@ -47,115 +350,12 @@
       <source>Richmond.com</source>
     </item>
     <item>
-      <title>When the News Doesn’t See You</title>
-      <link>https://scienceblog.com/when-the-news-doesnt-see-you/</link>
-      <description>THE boy was twelve years old, holding a toy gun. But that's not what some news outlets called him when Cleveland police shot Tamir Rice in 2014. Instead,</description>
-      <pubDate>Sun, 18 Jan 2026 15:44:55 +0000</pubDate>
-      <category>incident</category>
-      <source>ScienceBlog.com</source>
-    </item>
-    <item>
-      <title>Slog AM: Women Don't Want to Work at SPD, Trump Has the Nobel Peace Prize Now, ICE Teargassed Six Children in Minneapolis</title>
-      <link>https://www.thestranger.com/slog-am/2026/01/16/80421664/slog-am-women-dont-want-to-work-at-spd-trump-has-the-nobel-peace-prize-now-ice-teargassed-six-children-in-minneapolis</link>
-      <description>The Stranger's morning news roundup.
- 
- by Nathalie Graham
- 
- 
- 
- 911 Calls from Good Shooting: The New York Times obtained the 911 calls and first responder reports from the day an ICE officer shot and killed Renee Good. The first ones came in at 9:38 a.m., …</description>
-      <pubDate>Fri, 16 Jan 2026 17:01:00 +0000</pubDate>
-      <category>incident</category>
-      <source>TheStranger.com</source>
-    </item>
-    <item>
       <title>Venezuelan shot in another federal agent action in U.S. Minneapolis</title>
       <link>https://www.globalsecurity.org/security/library/news/2026/01/sec-260115-pdo02.htm</link>
       <description>A U.S. federal agent shot and injured a Venezuelan man Wednesday night in Minneapolis, the largest city in the state of Minnesota, said the Department of Homeland Security (DHS).</description>
       <pubDate>Fri, 16 Jan 2026 11:39:49 +0000</pubDate>
       <category>incident</category>
       <source>Globalsecurity.org</source>
-    </item>
-    <item>
-      <title>Minneapolis Police Chief: Rioters 'Are Engaging in Unlawful Acts'</title>
-      <link>https://www.breitbart.com/politics/2026/01/15/minneapolis-police-chief-rioters-are-engaging-unlawful-acts/</link>
-      <description>Minneapolis Police Chief Brian O'Hara noted rioters gathered in response to Wednesday's officer-involved shooting were &quot;engaging in unlawful acts.&quot;
-The post Minneapolis Police Chief: Rioters ‘Are Engaging in Unlawful Acts’ appeared first on Breitbart.</description>
-      <pubDate>Thu, 15 Jan 2026 18:11:20 +0000</pubDate>
-      <category>incident</category>
-      <source>Breitbart News</source>
-    </item>
-    <item>
-      <title>Anti-ICE threat spray-painted on vehicle believed to be used by federal officers during Minneapolis unrest</title>
-      <link>https://www.foxnews.com/us/anti-ice-threat-spray-painted-vehicle-believed-used-federal-officers-during-minneapolis-unrest</link>
-      <description>Minneapolis rioters vandalized vehicles with anti-ICE messages and threats after a federal agent shot an illegal immigrant during an alleged ambush.</description>
-      <pubDate>Thu, 15 Jan 2026 17:02:42 +0000</pubDate>
-      <category>incident</category>
-      <source>Fox News</source>
-    </item>
-    <item>
-      <title>Live updates: Minneapolis ICE shooting, tensions flare after man is shot in leg after allegedly assaulting federal agent | CNN</title>
-      <link>https://www.cnn.com/us/live-news/minneapolis-ice-shooting-protests-01-15-26</link>
-      <description>Law enforcement and demonstrators clashed last night near where a federal agent shot and injured a man after he allegedly assaulted the agent. The city is reeling over last week’s fatal shooting by an ICE agent of Renee Good sparked nationwide protests. Follo…</description>
-      <pubDate>Thu, 15 Jan 2026 13:00:31 +0000</pubDate>
-      <category>incident</category>
-      <source>CNN</source>
-    </item>
-    <item>
-      <title>Overnight: 3rd DHS-Involved Shooting in a Week - Officer Shoots Suspect After Being Ambushed by Men With Pole Weapons</title>
-      <link>https://www.westernjournal.com/overnight-3rd-dhs-involved-shooting-week-officer-shoots-suspect-ambushed-men-pole-weapons/</link>
-      <description>&quot;As the officer was being ambushed and attacked by the two individuals, the original subject got loose and began striking the officer...&quot;</description>
-      <pubDate>Thu, 15 Jan 2026 12:48:16 +0000</pubDate>
-      <category>incident</category>
-      <source>Westernjournal.com</source>
-    </item>
-    <item>
-      <title>Tensions Flare in Minneapolis as Federal Agent Shoots A Venezuelan National Following Alleged Shovel and Broom Assault</title>
-      <link>https://www.ibtimes.com/tensions-flare-minneapolis-federal-agent-shoots-venezuelan-national-following-alleged-shovel-3795367</link>
-      <description>Tensions flare in Minneapolis as federal agent shoots Venezuelan national in leg after alleged assault during immigration stop. Protests clash with police amid second ICE incident in a week.</description>
-      <pubDate>Thu, 15 Jan 2026 12:13:25 +0000</pubDate>
-      <category>incident</category>
-      <source>International Business Times</source>
-    </item>
-    <item>
-      <title>Minneapolis anti-ICE protesters hurl fireworks, rocks at officers following shooting of Venezuelan migrant</title>
-      <link>https://nypost.com/2026/01/15/us-news/minneapolis-anti-ice-protesters-hurl-fireworks-rocks-at-officers-following-shooting-of-venezuela-migrant/</link>
-      <description>A group of violent anti-ICE protesters hurled fireworks and rocks at officers on a Minneapolis block where a federal immigration agent shot a Venezuelan migrant in the leg hours earlier Wednesday night.</description>
-      <pubDate>Thu, 15 Jan 2026 06:11:08 +0000</pubDate>
-      <category>incident</category>
-      <source>New York Post</source>
-    </item>
-    <item>
-      <title>US federal agent shoots Venezuelan man in Minneapolis</title>
-      <link>https://www.rte.ie/news/us/2026/0115/1553182-minneapolis-us/</link>
-      <description>A Venezuelan national ⁠pursued by US immigration agents during a &quot;targeted&quot; traffic stop in Minneapolis was shot in the leg by a federal officer, authorities said.</description>
-      <pubDate>Thu, 15 Jan 2026 05:06:35 +0000</pubDate>
-      <category>incident</category>
-      <source>RTE</source>
-    </item>
-    <item>
-      <title>Another ICE shooting in Minneapolis</title>
-      <link>https://www.lawyersgunsmoneyblog.com/2026/01/another-ice-shooting-in-minneapolis</link>
-      <description>The CNN breaking news headline is that “Fed Officer Shot Suspect in Minneapolis After Shovel Ambush.” Rumors are flying about the identity of the shooting victim but we’ll see. The neighborhood in question appears to be a residential area close to downtown. A…</description>
-      <pubDate>Thu, 15 Jan 2026 03:31:28 +0000</pubDate>
-      <category>incident</category>
-      <source>Lawyersgunsmoneyblog.com</source>
-    </item>
-    <item>
-      <title>ICE agent shoots Venezuelan national in Minneapolis after shovel attack during ambush: DHS</title>
-      <link>https://www.foxnews.com/us/ice-agent-shoots-venezuelan-national-minneapolis-shovel-attack-ambush-dhs</link>
-      <description>A shooting involving an ICE agent unfolded in Minneapolis late Wednesday after a suspect allegedly assaulted a federal officer with a shovel, authorities said.</description>
-      <pubDate>Thu, 15 Jan 2026 03:00:27 +0000</pubDate>
-      <category>incident</category>
-      <source>Fox News</source>
-    </item>
-    <item>
-      <title>BACOLOD: Negros Or police shootings draw scrutiny, demand accountability</title>
-      <link>https://rpnradio.com/bacolod-negros-or-police-shootings-draw-scrutiny-demand-accountability/</link>
-      <description>BACOLOD CITY — Police Brig. Gen. Arnold Thomas Ibay, director of the Police Regional Office–Negros Island Region, said justice will prevail for the victims of two shooting incidents involving a police officer that left a civilian and three policemen dead, inc…</description>
-      <pubDate>Tue, 13 Jan 2026 02:51:33 +0000</pubDate>
-      <category>incident</category>
-      <source>Rpnradio.com</source>
     </item>
   </channel>
 </rss>

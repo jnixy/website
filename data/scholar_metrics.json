@@ -1,9 +1,10 @@
 {
   "name": "Justin Nix",
   "affiliation": "University of Nebraska Omaha",
-  "h_index": 37,
-  "i10_index": 53,
-  "citations": 6140,
-  "updated": "2025-01-21T18:30:00+00:00",
-  "scholar_url": "https://scholar.google.com/citations?user=_Jr8r8UAAAAJ"
+  "h_index": null,
+  "i10_index": null,
+  "citations": null,
+  "updated": "2026-01-26T06:35:40.083795+00:00",
+  "scholar_url": "https://scholar.google.com/citations?user=_Jr8r8UAAAAJ",
+  "error": "Cannot Fetch from Google Scholar."
 }
