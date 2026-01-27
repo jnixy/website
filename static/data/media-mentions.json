@@ -52,7 +52,8 @@
       "NBC News",
       "The Hill",
       "The Conversation",
-      "Scientific American"
+      "Scientific American",
+      "WORLD"
     ],
     "date_range": {
       "earliest": "2015-01-01",
@@ -60,6 +61,23 @@
     }
   },
   "stories": [
+    {
+      "title": "'Outside of the norm': Experts call DOJ response to the fatal Minneapolis shooting of Renee Good highly unusual",
+      "url": "https://wng.org/roundups/outside-of-the-norm-1769034764",
+      "source": "WORLD",
+      "date": "2026-01-21",
+      "summary": "WORLD (2026)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "national",
+        "deadly force",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2026-01-21"
+    },
     {
       "title": "A 'heartthrob' cop is winning over the internet, and he has a message",
       "url": "https://www.usatoday.com/story/news/politics/2025/11/16/michael-pickett-birmingham-alabama-police-chief/87114615007/",
