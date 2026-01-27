@@ -26,11 +26,11 @@ summary: "A new historical study reveals that police became frontline mental hea
 
 *If you ask most people why police officers spend so much time responding to mental health crises, they'll probably mention "deinstitutionalization" - the mass closure of state mental hospitals starting in the 1960s. But what if that story is incomplete?*
 
-A fascinating new paper by **David Thacher** in *Policing and Society* argues that the police role in mental health crisis response actually emerged much earlier - and for entirely different reasons. Understanding this history, Thacher suggests, is crucial if we want to fix the problems we face today.
+A fascinating [new article](https://doi.org/10.1080/10439463.2025.2591658) by [David Thacher](https://fordschool.umich.edu/faculty/david-thacher) in *Policing and Society* argues that the police role in mental health crisis response actually emerged much earlier - and for entirely different reasons. Understanding this history, Thacher suggests, is crucial if we want to fix the problems we face today.
 
 ## 📞 The Invention of Urgency
 
-Here's the key insight: Before the 1930s and 1940s, if you wanted to summon a police officer, your main option was to "run into the street and yell." Police work was structured around scheduled patrols with fixed routes and regular check-ins at call boxes. Emergencies happened, but responding to them was *exceptional*, not central to the job.
+Before the 1930s and 1940s, if you wanted to summon a police officer, your main option was to "run into the street and yell." Police work was structured around scheduled patrols with fixed routes and regular check-ins at call boxes. Emergencies happened, but responding to them was *exceptional*, not central to the job.
 
 Then came the telephone and the radio-equipped patrol car.
 
@@ -38,7 +38,7 @@ Suddenly, anyone could contact the police and expect an *immediate* response to 
 
 > "Police work involves no continuances and no appointments. Its temporal structure is throughout of the 'as soon as I can get to it' norm, and its scheduling derives from the natural fall of events and not from any externally imposed order."
 
-That's Egon Bittner's famous observation from the 1970s. But Thacher shows that Bittner didn't fully appreciate how *recently* this had emerged.
+That's Egon Bittner's famous observation from the 1970s. But Thacher shows that even Bittner didn't fully appreciate how *recently* this had emerged.
 
 ## 🔄 From Paperwork to Crisis Response
 
@@ -48,11 +48,11 @@ In the early 1900s, police involvement with mental illness looked completely dif
 
 **Now:** Officers are dispatched to homes and streets to manage *urgent crises* in real-time, often making complex judgment calls about what to do with little guidance or support. Studies consistently find that roughly two-thirds of police incidents related to mental illness begin with a 911 call.
 
-The shift wasn't gradual - it was dramatic. Where early 20th century studies described police encounters with mentally ill people "wandering in the streets" during routine patrols, studies from the 1950s onward describe "frantic family members or neighbours" using the telephone to summon officers to mental health crises, often in private homes.
+The shift was dramatic. Where early 20th century studies described police encounters with mentally ill people "wandering in the streets" during routine patrols, studies from the 1950s onward describe "frantic family members or neighbours" using the telephone to summon officers to mental health crises, often in private homes.
 
 ## ⏰ This Happened *Before* Deinstitutionalization
 
-Here's the kicker: Thacher finds that police were already playing a major role in mental health crisis response by the 1950s - *before* state hospital populations began to fall and *before* the legal and policy changes associated with deinstitutionalization.
+Thacher shows that police were already playing a major role in mental health crisis response by the 1950s - *before* state hospital populations began to fall and *before* the legal and policy changes associated with deinstitutionalization.
 
 > "The large role of the police in today's mental health system did not result from deinstitutionalization: It was already in place by the 1950s, when mental hospital populations were at their peak."
 
@@ -64,7 +64,7 @@ As police struggled with their new responsibilities, they naturally turned to me
 
 Psychiatry was (and largely still is) focused on diagnosis, treatment, and long-term care - work conducted in clinics and offices on scheduled appointments. Managing an agitated person in their living room at 2 AM? That was outside their wheelhouse.
 
-Officers found the training "interesting but detached from the realities of the situations they were expected to handle." One psychologist who developed police training admitted the content was "too intellectualized and devoid of significant relevance for patrolmen."
+Officers found trainings "interesting but detached from the realities of the situations they were expected to handle." One psychologist who developed police training admitted the content was "too intellectualized and devoid of significant relevance for patrolmen."
 
 The influential 1954 handbook *How to Recognize and Handle Abnormal People* - used for decades in police academies - even cited techniques from *mental hospital attendants* rather than psychiatrists. And some of that advice (leather cuffs, straight-jackets, hot and cold baths) was obviously unsuited to fieldwork.
 
@@ -74,7 +74,7 @@ Meanwhile, psychiatrists themselves largely avoided emergency work. As one healt
 
 ## 🎯 What Actually Works
 
-So what *did* work? Thacher highlights Bittner's fieldwork with the San Francisco Police Department in the 1960s, which focused on officers who had become skilled at "psychiatric first aid."
+So what *did* work? Thacher highlights Bittner's fieldwork with the San Francisco Police Department in the 1960s, which focused on individual officers who had become skilled at "psychiatric first aid."
 
 These officers rarely took people to the hospital. Instead, they:
 
@@ -82,11 +82,11 @@ These officers rarely took people to the hospital. Instead, they:
 - **Relocated people** from contexts where they were disruptive to contexts where they wouldn't be
 - **Restored calm in the moment** through patient, matter-of-fact conversation
 
-The goal wasn't treatment. It was resolving the *immediate crisis* - "imposing provisional solutions upon problems" in the here-and-now.
+The goal wasn't treatment of the underlying condition(s), but resolving the *immediate crisis* - "imposing provisional solutions upon problems" in the here-and-now.
 
 > "There is no sustained concern for these persons. Whenever certain known persons come to the attention of officers, it is said that they are 'acting up again'. The avoidance of a sustained concern and attention is part of the official posture of the police."
 
-One officer, Raymond Hansen, became so skilled at this work that Bittner remarked: "I have often thought that it would not be a bad idea to have psychiatrists travel with him to learn how he does it."
+One SFPD officer, Raymond Hansen, became so skilled at this work that Bittner remarked: "I have often thought that it would not be a bad idea to have psychiatrists travel with him to learn how he does it."
 
 ## 💡 What This Means Today
 
