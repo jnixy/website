@@ -63,6 +63,23 @@
   },
   "stories": [
     {
+      "title": "Editorial | Who shot Alex Pretti? Federal officials won’t say.",
+      "url": "https://www.startribune.com/alex-pretti-doj-investigation-renee-good-ice-minneapolis/601571781",
+      "source": "Minneapolis Star Tribune",
+      "date": "2026-01-29",
+      "summary": "Minneapolis Star Tribune (2026)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "deadly force",
+        "national",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2026-01-29"
+    },
+    {
       "title": "A shooting, a promised probe, and a public image problem",
       "url": "https://wng.org/roundups/a-shooting-a-promised-probe-and-a-public-image-problem-1769627686",
       "source": "WORLD",
