@@ -53,14 +53,48 @@
       "The Hill",
       "The Conversation",
       "Scientific American",
-      "WORLD"
+      "WORLD",
+      "Courier Journal"
     ],
     "date_range": {
       "earliest": "2015-01-01",
-      "latest": "2025-01-01"
+      "latest": "2026-01-29"
     }
   },
   "stories": [
+    {
+      "title": "A shooting, a promised probe, and a public image problem",
+      "url": "https://wng.org/roundups/a-shooting-a-promised-probe-and-a-public-image-problem-1769627686",
+      "source": "WORLD",
+      "date": "2026-01-28",
+      "summary": "WORLD (2026)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "deadly force",
+        "national",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2026-01-21"
+    },
+    {
+      "title": "Is LMPD shooting more people? Here’s what the data shows",
+      "url": "https://www.courier-journal.com/story/news/crime/2026/01/29/lmpd-louisville-police-shootings-by-year-up-in-2025/87834201007/",
+      "source": "Courier Journal",
+      "date": "2026-01-29",
+      "summary": "Courier Journal (2026)",
+      "mention_type": "quoted",
+      "topics": [
+        "police",
+        "deadly force",
+        "accountability"
+      ],
+      "featured": false,
+      "relevance_confidence": "high",
+      "date_discovered": "2026-01-21"
+    },
     {
       "title": "'Outside of the norm': Experts call DOJ response to the fatal Minneapolis shooting of Renee Good highly unusual",
       "url": "https://wng.org/roundups/outside-of-the-norm-1769034764",
