@@ -5,22 +5,70 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 06:49:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 07:00:53 +0000</lastBuildDate>
     <item>
-      <title>Greg Bovino Isn’t Losing Job Despite Report Suggesting Otherwise, DHS Says</title>
-      <link>https://www.forbes.com/sites/antoniopequenoiv/2026/01/26/greg-bovino-isnt-losing-job-despite-report-suggesting-otherwise-dhs-says/</link>
-      <description>Bovino participated in federal operations in Minnesota after an ICE agent fatally shot Renee Good earlier this month.</description>
-      <pubDate>Tue, 27 Jan 2026 00:59:23 +0000</pubDate>
+      <title>Republicans criticise immigration force but steer clear of Trump attacks</title>
+      <link>https://www.bbc.com/news/articles/cj3vp84j1l3o</link>
+      <description>Lawmakers are questioning the crackdown while anger grows over two citizens killed by federal agents.</description>
+      <pubDate>Wed, 28 Jan 2026 02:29:26 +0000</pubDate>
       <category>incident</category>
-      <source>Forbes</source>
+      <source>BBC News</source>
     </item>
     <item>
-      <title>Trump touts ‘progress’ in Minneapolis after ‘very good’ call with Mayor Jacob Frey</title>
-      <link>https://nypost.com/2026/01/26/us-news/trump-touts-very-good-call-with-minneapolis-mayor-jacob-frey/</link>
-      <description>The call came after a second US citizen was fatally shot by federal agents in Minneapolis this month.</description>
-      <pubDate>Tue, 27 Jan 2026 00:17:34 +0000</pubDate>
+      <title>2 federal agents fired shots when Alex Pretti was killed in Minneapolis: U.S. official</title>
+      <link>https://www.cbc.ca/news/world/alex-pretti-shooting-two-federal-agents-shot-9.7064190</link>
+      <description>Two federal officers fired shots during the encounter that killed ICU nurse Alex Pretti in Minneapolis, a U.S. Customs and Border Protection official told Congress in a notice sent Tuesday.</description>
+      <pubDate>Wed, 28 Jan 2026 01:32:14 +0000</pubDate>
       <category>incident</category>
-      <source>New York Post</source>
+      <source>CBC News</source>
+    </item>
+    <item>
+      <title>2 feds fired guns in deadly Alex Pretti encounter</title>
+      <link>https://www.bostonherald.com/2026/01/27/2-feds-fired-guns-in-deadly-alex-pretti-encounter/</link>
+      <description>Two federal officers fired shots during the encounter that killed ICU nurse Alex Pretti in Minneapolis, a Customs and Border Protection official told Congress in a notice sent Tuesday.</description>
+      <pubDate>Wed, 28 Jan 2026 00:54:33 +0000</pubDate>
+      <category>incident</category>
+      <source>Boston Herald</source>
+    </item>
+    <item>
+      <title>2 federal officers fired shots during encounter that killed Alex Pretti, DHS tells Congress</title>
+      <link>https://www.wpxi.com/news/local/2-federal-officers-fired-shots-during-encounter-that-killed-alex-pretti-dhs-tells-congress/L3RZPVPXOBFELGMDHKJ35YXUPE/</link>
+      <description>Two federal officers fired shots during an encounter that killed ICU nurse Alex Pretti in Minneapolis, a Customs and Border Protection official told Congress in a notice sent Tuesday.</description>
+      <pubDate>Tue, 27 Jan 2026 23:24:11 +0000</pubDate>
+      <category>incident</category>
+      <source>WPXI Pittsburgh</source>
+    </item>
+    <item>
+      <title>DHS: 2 Federal Officers Fired Shots During Encounter That Killed Alex Pretti</title>
+      <link>https://www.huffpost.com/entry/alex-pretti-shooting-minneapolis_n_6979447ce4b0627b210f4ab9</link>
+      <description>One Border Patrol officer fired his Glock and a CBP officer fired his, according to a notification to Congress obtained by The Associated Press.</description>
+      <pubDate>Tue, 27 Jan 2026 23:10:00 +0000</pubDate>
+      <category>incident</category>
+      <source>HuffPost</source>
+    </item>
+    <item>
+      <title>Trump laments shooting deaths of Good and Pretti, insists Minnesota personnel shuffle is not a 'pullback'</title>
+      <link>https://www.foxnews.com/media/trump-laments-shooting-deaths-good-pretti-insists-minnesota-personnel-shuffle-not-pullback</link>
+      <description>Trump laments deaths of Renee Good and Alex Pretti, both fatally shot by federal agents in Minnesota, calling incidents &quot;terrible&quot; while defending enforcement operations.</description>
+      <pubDate>Tue, 27 Jan 2026 23:01:47 +0000</pubDate>
+      <category>incident</category>
+      <source>Fox News</source>
+    </item>
+    <item>
+      <title>Exclusive: Two officers fired their guns during Pretti encounter, Homeland Security says in initial report | CNN Politics</title>
+      <link>https://www.cnn.com/2026/01/27/politics/pretti-shooting-two-officers-homeland-security-report</link>
+      <description>Two officers fired their guns during the fatal encounter with Alex Pretti in Minneapolis over the weekend, according to an initial report to Congress from the Department of Homeland Security reviewed by CNN.</description>
+      <pubDate>Tue, 27 Jan 2026 22:38:49 +0000</pubDate>
+      <category>incident</category>
+      <source>CNN</source>
+    </item>
+    <item>
+      <title>The Truly Scary Part of Minneapolis Protests</title>
+      <link>https://freerepublic.com/focus/f-news/4364185/posts</link>
+      <description>The protesting in Minneapolis is not a great thing for anyone, contrary to what some might think. Alex Pretti's death was just the latest incident where someone who was involved ended up being killed by federal agents, though it's the less clear-cut case of a…</description>
+      <pubDate>Tue, 27 Jan 2026 16:34:12 +0000</pubDate>
+      <category>incident</category>
+      <source>Freerepublic.com</source>
     </item>
     <item>
       <title>Knife-wielding nut allegedly asked Christian his religion – then stabbed him and dog before police shot him</title>
@@ -31,68 +79,12 @@
       <source>Fox News</source>
     </item>
     <item>
-      <title>Border Patrol Commander Gregory Bovino Will Leave Minnesota Amid Persistent Protests</title>
-      <link>https://www.forbes.com/sites/antoniopequenoiv/2026/01/26/border-patrol-commander-gregory-bovino-will-leave-minnesota-amid-persistent-protests/</link>
-      <description>Protests are continuing in the state after an ICE agent fatally shot 37-year-old Alex Pretti on Saturday.</description>
-      <pubDate>Mon, 26 Jan 2026 22:20:54 +0000</pubDate>
-      <category>incident</category>
-      <source>Forbes</source>
-    </item>
-    <item>
-      <title>Fury as Border Patrol boss flees Minneapolis after nurse's killing: 'So it's about PR'</title>
-      <link>https://www.rawstory.com/greg-bovino-2675035460/</link>
-      <description>News that Customs and Border Patrol commander Greg Bovino will depart Minneapolis after an immigration agent shot and killed an ICU nurse over the weekend sparked outrage online. CNN's Kaitlan Collins, Priscilla Alvarez, and Kristen Holmes reported on Monday …</description>
-      <pubDate>Mon, 26 Jan 2026 21:56:48 +0000</pubDate>
-      <category>incident</category>
-      <source>Raw Story</source>
-    </item>
-    <item>
-      <title>Border Patrol chief Greg Bovino, some agents pull out of Minneapolis in wake of Alex Pretti shooting</title>
-      <link>https://nypost.com/2026/01/26/us-news/border-patrol-chief-greg-bovino-some-agents-pull-out-of-minneapolis-in-wake-of-alex-pretti-shooting/</link>
-      <description>The US Border Patrol's chief Greg Bovino and some agents have been ordered out of Minneapolis in a stunning turnaround after a second US citizen was killed by federal agents in the city this month, according to reports.</description>
-      <pubDate>Mon, 26 Jan 2026 21:27:52 +0000</pubDate>
-      <category>incident</category>
-      <source>New York Post</source>
-    </item>
-    <item>
       <title>A second U.S. citizen was killed by federal forces in Minneapolis. Here's what we know</title>
       <link>https://www.pbs.org/newshour/nation/a-second-u-s-citizen-was-killed-by-federal-forces-in-minneapolis-heres-what-we-know</link>
       <description>The fatal shooting of Alex Pretti, the second U.S. citizen to be killed by federal forces in Minnesota this month, has intensified the public outrage over tactics used by immigration agents in the state and united unlikely bedfellows in calling for a full inv…</description>
       <pubDate>Mon, 26 Jan 2026 21:13:21 +0000</pubDate>
       <category>incident</category>
       <source>PBS</source>
-    </item>
-    <item>
-      <title>Trump could rein in ICE operation as shooting outrage intensifies</title>
-      <link>https://www.abc.net.au/news/2026-01-27/trump-may-rein-in-ice-crackdown-minneapolis-st-paul/106272218</link>
-      <description>The Trump administration indicates it could rein in its Minnesota immigration crackdown as public outrage intensifies after a federal agent killed a protester.</description>
-      <pubDate>Mon, 26 Jan 2026 21:11:27 +0000</pubDate>
-      <category>incident</category>
-      <source>ABC News (AU)</source>
-    </item>
-    <item>
-      <title>Immigration officers fear Trump just doomed their jobs: 'We lost all trust'</title>
-      <link>https://www.rawstory.com/immigration-crackdown-minneapolis/</link>
-      <description>Current and former immigration officers spoke out against President Donald Trump's crackdown in Minnesota Monday.A Customs and Border Patrol agent shot and killed 37-year-old Alex Pretti over the weekend, less than three weeks after a veteran Immigration and …</description>
-      <pubDate>Mon, 26 Jan 2026 18:47:04 +0000</pubDate>
-      <category>incident</category>
-      <source>Raw Story</source>
-    </item>
-    <item>
-      <title>Republicans You’d Never Expect Are Criticizing Minneapolis Shooting</title>
-      <link>https://newrepublic.com/post/205659/republicans-criticize-minneapolis-shooting-alex-pretti</link>
-      <description>After a Border Patrol agent shot and killed nurse Alex Pretti, 37, in Minneapolis over the weekend, some Republicans are beginning to speak out against the Trump administration’s actions.“ICE agents do not have carte blanche in carrying out their duties,” Ala…</description>
-      <pubDate>Mon, 26 Jan 2026 13:43:42 +0000</pubDate>
-      <category>incident</category>
-      <source>The New Republic</source>
-    </item>
-    <item>
-      <title>Minneapolis shooting: NRA stress right to carry guns after fatal shooting of Alex Pretti by federal agents</title>
-      <link>https://indianexpress.com/article/world/minneapolis-shooting-nra-stress-right-to-carry-guns-after-fatal-shooting-of-alex-pretti-by-federal-agents-10494787/</link>
-      <description>The NRA criticised comments made by a senior federal prosecutor, saying it was “dangerous and wrong” to suggest that people who legally carry guns risk being shot by police.</description>
-      <pubDate>Mon, 26 Jan 2026 00:33:20 +0000</pubDate>
-      <category>incident</category>
-      <source>The Indian Express</source>
     </item>
     <item>
       <title>‘Sickening lies’: Parents of man killed by federal agent in Minneapolis go nuclear on Trump’s ‘murdering thugs’</title>
@@ -117,14 +109,6 @@
       <pubDate>Sat, 24 Jan 2026 19:16:41 +0000</pubDate>
       <category>incident</category>
       <source>Fox News</source>
-    </item>
-    <item>
-      <title>Man injured in southern Colorado police chase, shooting</title>
-      <link>https://www.denverpost.com/2026/01/22/walsenburg-police-chase-shooting/</link>
-      <description>A Walsenburg police officer shot at a fleeing domestic violence suspect on Wednesday, according to the Colorado Bureau of Investigation.</description>
-      <pubDate>Thu, 22 Jan 2026 14:57:43 +0000</pubDate>
-      <category>incident</category>
-      <source>The Denver Post</source>
     </item>
   </channel>
 </rss>
