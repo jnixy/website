@@ -14,7 +14,7 @@ import time
 
 # Configuration
 OUTPUT_FILE = 'static/data/police-shooting-research.xml'
-DAYS_BACK = 90  # Check last 3 months (academic publishing is slower)
+DAYS_BACK = 180  # Check last 6 months (whitelisted journals publish less frequently on this topic)
 
 # EXPANDED: Added more search query variations
 SEARCH_QUERIES = [
@@ -32,8 +32,10 @@ SEARCH_QUERIES = [
     'officer shootings',              # NEW
 ]
 
-# Priority journals - exact match only (case-insensitive)
-PRIORITY_SOURCES = [
+# Journal whitelist - only articles from these journals are included in the feed.
+# Entries are matched case-insensitively with normalization (see is_whitelisted_journal).
+WHITELISTED_JOURNALS = [
+    # === CRIMINOLOGY / CRIMINAL JUSTICE ===
     'criminology',
     'criminology & public policy',
     'criminology and public policy',
@@ -49,20 +51,90 @@ PRIORITY_SOURCES = [
     'policing and society',
     'police practice & research',
     'police practice and research',
+    'law and society review',
+    'law & society review',
+    'policing: an international journal',
+    'policing: a journal of policy and practice',
+    'journal of experimental criminology',
+    'british journal of criminology',
+    'the british journal of criminology',
+    'journal of criminal law and criminology',
+    'journal of criminal law & criminology',
+    'journal of police and criminal psychology',
+    'journal of police & criminal psychology',
+    'criminal justice policy review',
+    'international journal of police science and management',
+    'international journal of police science & management',
+    'law and human behavior',
+    'law & human behavior',
+    'theoretical criminology',
+    'journal of crime and justice',
+    'journal of crime & justice',
+    'british journal of sociology',
+    'the british journal of sociology',
+    'criminology and criminal justice',
+    'criminology & criminal justice',
+    'journal of criminal justice education',
+    'race and justice',
+    'race & justice',
+
+    # === PUBLIC POLICY ===
+    'journal of policy analysis and management',
+    'journal of policy analysis & management',
+    'public administration review',
+    'journal of public administration research and theory',
+    'journal of public administration research & theory',
+    'journal of politics',
+    'the journal of politics',
+    'political research quarterly',
+    'policy studies journal',
+    'perspectives on politics',
+    'annual review of criminology',
+
+    # === SOCIOLOGY / POLITICAL SCIENCE ===
     'american journal of sociology',
     'american sociological review',
     'american political science review',
     'american journal of political science',
+    'social science & medicine',
+    'social science and medicine',
+    'social science research',
+    'social science quarterly',
+    'social forces',
+    'social problems',
+
+    # === PUBLIC HEALTH / MEDICAL ===
     'american journal of public health',
     'injury prevention',
     'jama',
+    'the journal of the american medical association',
     'new england journal of medicine',
+    'the new england journal of medicine',
+    'the lancet',
+    'lancet',
+    'bmj',
+    'the bmj',
+    'british medical journal',
+    'preventive medicine',
+    'epidemiology',
+    'journal of urban health',
+    'annals of internal medicine',
+    'american journal of epidemiology',
+    'journal of trauma and acute care surgery',
+    'journal of trauma & acute care surgery',
+    'the lancet public health',
+    'lancet public health',
+    'bmj open',
+    'annals of epidemiology',
+    'journal of interpersonal violence',
+
+    # === INTERDISCIPLINARY / GENERAL SCIENCE ===
     'plos one',
-    'social science & medicine',
-    'social science research',
-    'social science quarterly',
-    'law and society review',
-    'law & society review',
+    'proceedings of the national academy of sciences',
+    'proceedings of the national academy of sciences of the united states of america',
+    'pnas',
+    'nature human behaviour',
+    'science advances',
 ]
 
 def fetch_crossref(query, days_back=DAYS_BACK):
@@ -289,13 +361,29 @@ def is_relevant_article(title, abstract):
     
     return True
 
-def is_priority_source(source_name):
-    """Check if article is from a priority journal (exact match, case-insensitive)"""
+def normalize_journal_name(name):
+    """Normalize a journal name for matching: lowercase, strip 'the', normalize ampersands."""
+    if not name:
+        return ''
+    name = name.lower().strip()
+    # Normalize HTML entities
+    name = name.replace('&amp;', '&')
+    # Collapse multiple spaces
+    name = ' '.join(name.split())
+    return name
+
+def is_whitelisted_journal(source_name):
+    """Check if article is from a whitelisted journal (normalized matching)."""
     if not source_name:
         return False
-    
-    source_lower = source_name.lower().strip()
-    return source_lower in PRIORITY_SOURCES
+    normalized = normalize_journal_name(source_name)
+    # Try exact match first
+    if normalized in WHITELISTED_JOURNALS:
+        return True
+    # Try stripping leading "the "
+    if normalized.startswith('the ') and normalized[4:] in WHITELISTED_JOURNALS:
+        return True
+    return False
 
 def format_authors(authors):
     """Format author list for display"""
@@ -350,7 +438,6 @@ def parse_crossref_article(item):
         'abstract': abstract,
         'type': article_type,
         'doi': doi,
-        'is_priority': is_priority_source(journal)
     }
 
 def parse_pubmed_article(item):
@@ -371,9 +458,16 @@ def parse_pubmed_article(item):
     # Get journal name
     journal = item.get('source', 'Unknown Journal')
     
-    # Get authors
-    authors = ', '.join(item.get('authors', [])[:3])
-    if len(item.get('authors', [])) > 3:
+    # Get authors (PubMed returns authors as dicts with 'name' key or as strings)
+    raw_authors = item.get('authors', [])
+    author_names = []
+    for a in raw_authors[:3]:
+        if isinstance(a, dict):
+            author_names.append(a.get('name', 'Unknown'))
+        else:
+            author_names.append(str(a))
+    authors = ', '.join(author_names)
+    if len(raw_authors) > 3:
         authors += ' et al.'
     
     return {
@@ -385,7 +479,6 @@ def parse_pubmed_article(item):
         'abstract': '',  # PubMed basic API doesn't include abstracts
         'type': 'journal-article',
         'doi': '',
-        'is_priority': is_priority_source(journal)
     }
 
 def create_rss_feed(articles):
@@ -445,11 +538,6 @@ def create_rss_feed(articles):
         item_source = ET.SubElement(item, 'source')
         item_source.text = article['journal']
         
-        # Add priority flag
-        if article.get('is_priority'):
-            item_priority = ET.SubElement(item, 'priority')
-            item_priority.text = 'true'
-    
     return rss
 
 def prettify_xml(elem):
@@ -467,7 +555,7 @@ def main():
     
     all_articles = []
     raw_count = 0
-    
+
     # Fetch from Crossref
     print("\n=== Searching Crossref ===")
     for i, query in enumerate(SEARCH_QUERIES, 1):
@@ -475,16 +563,35 @@ def main():
         items = fetch_crossref(query)
         raw_count += len(items)
         print(f"         Found {len(items)} raw results")
-        
+
         for item in items:
             article = parse_crossref_article(item)
             all_articles.append(article)
-        
+
         time.sleep(1)  # Be nice to API
-    
+
+    crossref_count = raw_count
+
+    # Fetch from PubMed (good for public health and medical journals)
+    print("\n=== Searching PubMed ===")
+    for i, query in enumerate(SEARCH_QUERIES, 1):
+        print(f"[{i}/{len(SEARCH_QUERIES)}] Query: {query}")
+        items = fetch_pubmed(query)
+        raw_count += len(items)
+        print(f"         Found {len(items)} raw results")
+
+        for item in items:
+            article = parse_pubmed_article(item)
+            all_articles.append(article)
+
+        time.sleep(1)  # Be nice to API
+
+    pubmed_count = raw_count - crossref_count
+
     print(f"\n{'=' * 70}")
     print(f"=== Filtering Results ===")
-    print(f"Total raw articles from Crossref: {raw_count}")
+    print(f"Total raw articles from Crossref: {crossref_count}")
+    print(f"Total raw articles from PubMed: {pubmed_count}")
     print(f"Total articles before filtering: {len(all_articles)}")
     
     # Apply relevance filtering
@@ -492,54 +599,59 @@ def main():
     for article in all_articles:
         if is_relevant_article(article['title'], article.get('abstract', '')):
             filtered_articles.append(article)
-    
+
     print(f"Articles after relevance filtering: {len(filtered_articles)}")
-    
-    # Show some examples of what was filtered out (for debugging)
-    filtered_out = [a for a in all_articles if a not in filtered_articles]
-    if filtered_out and len(filtered_out) > 0:
-        print(f"\nExample of filtered OUT articles (first 3):")
-        for article in filtered_out[:3]:
-            print(f"  ✗ {article['title'][:75]}...")
-    
+
+    # Apply journal whitelist filter
+    whitelisted_articles = [a for a in filtered_articles if is_whitelisted_journal(a['journal'])]
+    excluded_by_whitelist = [a for a in filtered_articles if not is_whitelisted_journal(a['journal'])]
+
+    print(f"Articles from whitelisted journals: {len(whitelisted_articles)}")
+    print(f"Articles excluded by journal whitelist: {len(excluded_by_whitelist)}")
+
+    # Show journals that were excluded (useful for identifying journals to add)
+    if excluded_by_whitelist:
+        excluded_journals = sorted(set(a['journal'] for a in excluded_by_whitelist))
+        print(f"\nExcluded journals ({len(excluded_journals)} unique):")
+        for j in excluded_journals[:10]:
+            count = sum(1 for a in excluded_by_whitelist if a['journal'] == j)
+            print(f"  - {j} ({count} article{'s' if count > 1 else ''})")
+        if len(excluded_journals) > 10:
+            print(f"  ... and {len(excluded_journals) - 10} more")
+
     # Show some examples of what passed
-    if filtered_articles and len(filtered_articles) > 0:
-        print(f"\nExample of articles that PASSED filter (first 3):")
-        for article in filtered_articles[:3]:
-            priority = "⭐" if article.get('is_priority') else "  "
-            print(f"  {priority} ✓ {article['title'][:75]}...")
-    
+    if whitelisted_articles:
+        print(f"\nExample of articles that PASSED filters (first 3):")
+        for article in whitelisted_articles[:3]:
+            print(f"  + {article['title'][:75]}...")
+            print(f"    [{article['journal']}]")
+
     # Deduplicate by title
     seen_titles = set()
     unique_articles = []
-    
-    for article in filtered_articles:
+
+    for article in whitelisted_articles:
         title_lower = article['title'].lower()
         if title_lower not in seen_titles:
             seen_titles.add(title_lower)
             unique_articles.append(article)
-    
+
     print(f"Articles after deduplication: {len(unique_articles)}")
-    
-    # Sort by date (newest first), with priority sources first
-    unique_articles.sort(
-        key=lambda x: (not x.get('is_priority', False), x['pub_date']),
-        reverse=True
-    )
-    
+
+    # Sort by date (newest first)
+    unique_articles.sort(key=lambda x: x['pub_date'], reverse=True)
+
     # Take top 30 most recent
     final_articles = unique_articles[:30]
-    
+
     print(f"\n{'=' * 70}")
     print(f"Final article count: {len(final_articles)}")
-    print(f"  - From priority journals: {sum(1 for a in final_articles if a.get('is_priority'))}")
-    print(f"  - From other journals: {sum(1 for a in final_articles if not a.get('is_priority'))}")
-    
+
     if len(final_articles) == 0:
-        print("\n⚠️  WARNING: No articles found. Feed will not be generated.")
+        print("\nWARNING: No articles found. Feed will not be generated.")
         print("Consider:")
         print("  - Increasing DAYS_BACK (currently {})".format(DAYS_BACK))
-        print("  - Relaxing filters in is_relevant_article()")
+        print("  - Adding more journals to WHITELISTED_JOURNALS")
         print("  - Adding more search queries")
         return
     
@@ -553,17 +665,16 @@ def main():
         f.write(prettify_xml(rss))
     
     print(f"\n{'=' * 70}")
-    print(f"✓ RSS feed saved to: {OUTPUT_FILE}")
-    print(f"✓ Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"RSS feed saved to: {OUTPUT_FILE}")
+    print(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     # Print sample titles
     print(f"\n{'=' * 70}")
     print("=== Sample Articles in Feed ===")
     for i, article in enumerate(final_articles[:8], 1):
-        priority = "⭐" if article.get('is_priority') else "  "
-        print(f"\n{i}. {priority} {article['authors']}")
-        print(f"    {article['title']}")
-        print(f"    {article['journal']} ({article['pub_date'].year})")
+        print(f"\n{i}. {article['authors']}")
+        print(f"   {article['title']}")
+        print(f"   {article['journal']} ({article['pub_date'].year})")
     
     print(f"\n{'=' * 70}")
 
