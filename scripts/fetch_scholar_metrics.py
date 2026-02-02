@@ -6,6 +6,7 @@ Uses proxy rotation to avoid Google Scholar blocking
 """
 
 import json
+import random
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -20,7 +21,7 @@ except ImportError:
 SCHOLAR_ID = "_Jr8r8UAAAAJ"
 SCRIPT_DIR = Path(__file__).parent
 OUTPUT_PATH = SCRIPT_DIR.parent / "data" / "scholar_metrics.json"
-MAX_RETRIES = 3
+MAX_RETRIES = 5
 
 
 def setup_proxy():
@@ -75,13 +76,13 @@ def save_metrics(metrics):
 def main():
     print(f"Fetching Google Scholar data for ID: {SCHOLAR_ID}")
 
-    # Try with proxy first
-    setup_proxy()
-
     last_error = None
     for attempt in range(1, MAX_RETRIES + 1):
+        # Set up (or refresh) proxy before each attempt
+        print(f"\nAttempt {attempt}/{MAX_RETRIES}...")
+        setup_proxy()
+
         try:
-            print(f"Attempt {attempt}/{MAX_RETRIES}...")
             metrics = fetch_metrics()
 
             # Validate we got actual data
@@ -98,21 +99,20 @@ def main():
         except Exception as e:
             last_error = e
             print(f"Attempt {attempt} failed: {e}")
-            if attempt < MAX_RETRIES:
-                wait_time = attempt * 5
-                print(f"Waiting {wait_time}s before retry...")
-                time.sleep(wait_time)
 
-    # All retries failed - keep existing data if valid
-    print(f"All {MAX_RETRIES} attempts failed")
+        if attempt < MAX_RETRIES:
+            # Exponential backoff with jitter: ~15s, ~30s, ~60s, ~120s
+            wait_time = (2 ** attempt) * 7 + random.randint(1, 10)
+            print(f"Waiting {wait_time}s before retry...")
+            time.sleep(wait_time)
+
+    # All retries failed - keep existing data without modifying the file
+    print(f"\nAll {MAX_RETRIES} attempts failed")
     existing = load_existing_metrics()
 
     if existing and existing.get("citations") is not None and "error" not in existing:
-        print("Keeping existing valid metrics (fetch failed but existing data is good)")
-        # Update timestamp to show we tried
-        existing["last_fetch_attempt"] = datetime.now(timezone.utc).isoformat()
-        existing["last_fetch_error"] = str(last_error)
-        save_metrics(existing)
+        # Existing data is valid — don't touch the file so there's nothing to commit
+        print("Keeping existing valid metrics unchanged (fetch failed but existing data is good)")
     else:
         # No valid existing data, write error state
         fallback = {
