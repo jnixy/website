@@ -1,3 +1,4 @@
 scholarly
 requests
 free-proxy
+httpx<0.28
