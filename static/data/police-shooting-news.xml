@@ -5,7 +5,31 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Feb 2026 07:14:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 07:02:41 +0000</lastBuildDate>
+    <item>
+      <title>Police officer killed, another critically wounded in shooting at Georgia hotel - ABC News</title>
+      <link>https://slashdot.org/firehose.pl?op=view&amp;amp;id=180718578</link>
+      <description>Police officer killed, another critically wounded in shooting at Georgia hotelABC News Gwinnett County officer dead, another officer injured in ‘unprovoked attack’ at hotelWSB-TV Gwinnett Police: Suspect who killed one officer, injured another had long crimin…</description>
+      <pubDate>Mon, 02 Feb 2026 03:52:48 +0000</pubDate>
+      <category>incident</category>
+      <source>Slashdot.org</source>
+    </item>
+    <item>
+      <title>Police officer killed, another critically wounded in shooting at Georgia hotel</title>
+      <link>https://abcnews.go.com/US/wireStory/police-officer-killed-critically-wounded-shooting-georgia-hotel-129755947</link>
+      <description>Gunfire broke out after two officers were dispatched on a call reporting fraud.</description>
+      <pubDate>Sun, 01 Feb 2026 20:25:23 +0000</pubDate>
+      <category>incident</category>
+      <source>ABC News</source>
+    </item>
+    <item>
+      <title>Antifa Member Declares 'Guerrilla War' Against ICE After Minnesota Shooting of Armed Suspect</title>
+      <link>https://freerepublic.com/focus/f-news/4365027/posts</link>
+      <description>A Minneapolis man who calls himself “Antifa” urged his nearly 36,000 Instagram followers to “get your f***ing guns” and “stop” federal law enforcement, after a Border Patrol agent fatally shot an armed man in his city. Kyle Wagner, a self-described “entrepren…</description>
+      <pubDate>Sun, 01 Feb 2026 19:21:44 +0000</pubDate>
+      <category>incident</category>
+      <source>Freerepublic.com</source>
+    </item>
     <item>
       <title>ICE shooting suspect had prior violent encounter with agents, records show</title>
       <link>https://www.naturalnews.com/2026-02-01-ice-shooting-suspect-prior-violent-encounter-with-agents.html</link>
@@ -77,14 +101,6 @@
       <pubDate>Sun, 25 Jan 2026 14:44:23 +0000</pubDate>
       <category>incident</category>
       <source>Wnd.com</source>
-    </item>
-    <item>
-      <title>GOP Sen. Cassidy breaks with Trump over deadly shooting by Border Patrol agent in Minneapolis</title>
-      <link>https://www.foxnews.com/politics/gop-sen-cassidy-breaks-trump-over-deadly-shooting-border-patrol-agent-minneapolis</link>
-      <description>Republican Sen. Bill Cassidy calls for full investigation after a Border Patrol agent shot and killed a man in Minneapolis during a DHS operation on Saturday.</description>
-      <pubDate>Sun, 25 Jan 2026 08:25:18 +0000</pubDate>
-      <category>incident</category>
-      <source>Fox News</source>
     </item>
   </channel>
 </rss>
