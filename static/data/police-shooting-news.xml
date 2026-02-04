@@ -5,7 +5,39 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Feb 2026 07:02:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 07:04:00 +0000</lastBuildDate>
+    <item>
+      <title>Alex Pretti’s death ruled homicide after Minneapolis shooting by federal agents</title>
+      <link>https://freerepublic.com/focus/f-news/4365188/posts</link>
+      <description>The death of Alex Pretti, the Minneapolis man killed by federal agents, has been ruled a homicide, the Hennepin County medical examiner’s office said. Pretti was shot Jan. 24 during a chaotic encounter with federal immigration officers in Minneapolis. Citing …</description>
+      <pubDate>Mon, 02 Feb 2026 23:39:21 +0000</pubDate>
+      <category>incident</category>
+      <source>Freerepublic.com</source>
+    </item>
+    <item>
+      <title>Inquest into police shooting of 16-year-old Eishia Hudson begins</title>
+      <link>https://www.cbc.ca/news/canada/manitoba/eishia-hudson-fatality-inquest-winnipeg-police-9.7070897</link>
+      <description>A fatality inquest into the police shooting of a 16-year-old girl following a car chase in Winnipeg has started.</description>
+      <pubDate>Mon, 02 Feb 2026 17:59:53 +0000</pubDate>
+      <category>incident</category>
+      <source>CBC News</source>
+    </item>
+    <item>
+      <title>Arizona man accused of human smuggling is a repeat offender who once 'threw rocks' at Army helicopter: docs</title>
+      <link>https://www.foxnews.com/us/arizona-man-accused-human-smuggling-repeat-offender-who-once-threw-rocks-army-helicopter-docs</link>
+      <description>Suspected human smuggler shot by federal agents near Arizona border is repeat offender, officials say. Patrick Schlegel allegedly fired at agents.</description>
+      <pubDate>Mon, 02 Feb 2026 13:00:08 +0000</pubDate>
+      <category>incident</category>
+      <source>Fox News</source>
+    </item>
+    <item>
+      <title>Shooting in Georgia hotel room leaves 1 officer killed, another seriously wounded: 'Unprovoked attack'</title>
+      <link>https://www.foxnews.com/us/shooting-georgia-hotel-room-leaves-1-officer-killed-another-seriously-wounded-unprovoked-attack</link>
+      <description>A Georgia police officer was killed and another was wounded after a suspect allegedly opened fire in a hotel room as he was being questioned.</description>
+      <pubDate>Mon, 02 Feb 2026 08:17:57 +0000</pubDate>
+      <category>incident</category>
+      <source>Fox News</source>
+    </item>
     <item>
       <title>Police officer killed, another critically wounded in shooting at Georgia hotel - ABC News</title>
       <link>https://slashdot.org/firehose.pl?op=view&amp;amp;id=180718578</link>
@@ -71,14 +103,6 @@
       <source>WSB Atlanta</source>
     </item>
     <item>
-      <title>Officer-involved shooting reported in Allegheny County</title>
-      <link>https://www.wpxi.com/news/local/officer-involved-shooting-reported-allegheny-county/KSJH2H347FCYZFGCDUCOJTRXGU/</link>
-      <description>The Allegheny County Police Department says the shooting happened in the 1100 block of Penn Center Boulevard in Wilkins Township.</description>
-      <pubDate>Wed, 28 Jan 2026 19:07:39 +0000</pubDate>
-      <category>incident</category>
-      <source>WPXI Pittsburgh</source>
-    </item>
-    <item>
       <title>Knife-wielding nut allegedly asked Christian his religion – then stabbed him and dog before police shot him</title>
       <link>https://www.foxnews.com/us/knife-wielding-nut-allegedly-asked-christian-his-religion-then-stabbed-him-dog-before-police-shot-him</link>
       <description>Armed Washington suspect died after police shooting following alleged stabbing attack on man and dog that occurred after asking victim about Christian faith in Parkland on Sunday.</description>
@@ -93,14 +117,6 @@
       <pubDate>Mon, 26 Jan 2026 21:13:21 +0000</pubDate>
       <category>incident</category>
       <source>PBS</source>
-    </item>
-    <item>
-      <title>‘Sickening lies’: Parents of man killed by federal agent in Minneapolis go nuclear on Trump’s ‘murdering thugs’</title>
-      <link>https://www.wnd.com/2026/01/sickening-lies-parents-man-killed-federal-agent-minneapolis/</link>
-      <description>'I do not throw around the hero term lightly. However his last thought and act was to protect a woman'</description>
-      <pubDate>Sun, 25 Jan 2026 14:44:23 +0000</pubDate>
-      <category>incident</category>
-      <source>Wnd.com</source>
     </item>
   </channel>
 </rss>
