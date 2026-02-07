@@ -1,5 +1,5 @@
 ---
-title: "What I Wish I'd Known Before Grad School"
+title: "What I Wish I Had Known Before Grad School"
 authors:
 - admin
 date: "2026-02-07"
