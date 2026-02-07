@@ -2,7 +2,7 @@
 title: "What I Wish I'd Known Before Grad School"
 authors:
 - admin
-date: "2026-01-27"
+date: "2026-02-07"
 categories:
 - research
 - teaching
@@ -13,7 +13,7 @@ tags:
 featured: true
 draft: false
 image:
-  caption: ""
+  caption: "Made with ChatGPT 5.2"
   focal_point: "smart"
 links: ""
 summary: "Things I wish I knew 15 years ago"
