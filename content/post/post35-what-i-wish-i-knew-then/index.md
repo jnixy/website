@@ -83,7 +83,7 @@ Think about whether that sounds appealing to you. If the only part of academic l
 
 ## A Final Word
 
-None of this is meant to scare you away from grad school. I'm very happy I got my PhD. I worked hard, but I also realize how lucky I am that things came together the way they did for me. I've learned a ton, worked on problems I care about, and built a career I find meaningful. But I do think prospective students deserve a realistic picture of what they're signing up for.
+None of this is meant to scare you away from grad school. I'm very happy I got my PhD. I worked hard, but I also realize how lucky I am that things came together the way they did for me. I was mentored by a mix of great people at the early, middle, and later stages of their respective careers. In the 15 years since, I've learned a ton, worked on problems I care about, and built a career I find meaningful. All that said, I think prospective students deserve a realistic picture of what they're signing up for.
 
 If you're considering grad school, ask yourself: Do you actually want to do research, or do you just like the idea of being a professor? Are you prepared for 5-7 years of modest pay and deferred gratification? Can you handle regular rejection and criticism? Are you willing to invest serious time in learning technical skills that aren't glamorous but are essential?
 
