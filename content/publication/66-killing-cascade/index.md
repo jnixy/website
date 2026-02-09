@@ -52,7 +52,7 @@ links = [{name = "Preprint", url="https://www.crimrxiv.com/pub/7mj8aj3g", icon =
 # To use, add an image named `featured.jpg/png` to your project's folder.
 [image]
   # Caption (optional)
-  caption = "Created with ChatGPT 5.2"
+  caption = ""
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
