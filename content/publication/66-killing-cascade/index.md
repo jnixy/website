@@ -63,7 +63,7 @@ links = [{name = "Preprint", url="https://www.crimrxiv.com/pub/7mj8aj3g", icon =
 
 Roughly 1,000 people are killed by police gunfire every year in the United States. Another 800 survive. What determines who lives and who dies? One straightforward hypothesis is that when more than one officer fires, civilians are more likely to die. Our new research shows why—and what could potentially be done about it.
 
-Surprisingly, that question has gotten little attention. Most research on police shootings focuses on *who gets (fatally) shot*—the racial disparities, the encounter characteristics, the neighborhood context. But the question of *who survives* conditional on being shot is different, and it requires more comprehensive data. You need records of nonfatal shootings too, and those have been notoriously hard to come by.
+Surprisingly, that question has gotten little attention. Most research on police shootings focuses on *who gets (fatally) shot* — the racial disparities, the encounter characteristics, the neighborhood context. But the question of *who survives* conditional on being shot is different, and it requires more comprehensive data. You need records of nonfatal shootings too, and those have been notoriously hard to come by.
 
 In a new paper with Ian Adams, we analyzed 3,715 officer-involved shootings across Texas and California over nearly a decade. We used mandatory state reporting data that captures both fatal and nonfatal incidents—the kind of data that crowdsourced databases like the *Washington Post*'s Fatal Force simply don't track.
 
