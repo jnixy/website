@@ -63,9 +63,9 @@ links = [{name = "Preprint", url="https://www.crimrxiv.com/pub/7mj8aj3g", icon =
 
 Roughly 1,000 people are killed by police gunfire every year in the United States. Another 800 survive. What determines who lives and who dies? One straightforward hypothesis is that when more than one officer fires, civilians are more likely to die. Our new research shows why—and what could potentially be done about it.
 
-Surprisingly, that question has gotten little attention. Most research on police shootings focuses on *who gets (fatally) shot* — the racial disparities, the encounter characteristics, the neighborhood context. But the question of *who survives* conditional on being shot is different, and it requires more comprehensive data. You need records of nonfatal shootings too, and those have been notoriously hard to come by.
+Surprisingly, that question has gotten little attention. Most research on police shootings focuses on *who gets (fatally) shot* — the racial disparities, the encounter characteristics, the neighborhood context. But the question of *who survives* conditional on being shot is different, and it [requires more comprehensive data](https://doi.org/10.21428/cb6ab371.8b17fd57). You need records of nonfatal shootings too, and those have been notoriously hard to come by.
 
-In a new paper with Ian Adams, we analyzed 3,715 officer-involved shootings across Texas and California over nearly a decade. We used mandatory state reporting data that captures both fatal and nonfatal incidents—the kind of data that crowdsourced databases like the *Washington Post*'s Fatal Force simply don't track.
+In a new paper with Ian Adams, we analyzed 3,715 officer-involved shootings across Texas and California over nearly a decade. We used mandatory state reporting data that captures both fatal and nonfatal incidents—the kind of data that crowdsourced databases like the *Washington Post*'s [Fatal Force](https://github.com/washingtonpost/data-police-shootings/blob/master/README.md) simply don't track.
 
 Our central finding: each additional officer who discharges their firearm is associated with about a 3 percentage point increase in the probability that the civilian dies. That held up across dozens of alternative specifications in both states. It's not a binary effect, either—it's a continuous dose-response relationship. Two officers firing is deadlier than one. Three is deadlier than two. And so on.
 
@@ -93,9 +93,9 @@ Those aren't small numbers.
 
 ## What Can Be Done?
 
-The cascade structure of the finding is actually good news from a policy standpoint, because it means intervention at any link in the chain can reduce fatality. Contagious fire training—scenario-based exercises that teach officers to independently assess threats before firing—could prevent reflexive discharges. Tactical approaches that reduce, whenever possible, the number of officers converging on a single point of contact could help too.
+The cascade structure of the finding is actually good news from a policy standpoint, because it means intervention at any link in the chain can reduce fatalities. Contagious fire training—scenario-based exercises that teach officers to independently assess threats before firing—could prevent reflexive discharges. Tactical approaches that reduce, whenever possible, the number of officers converging on a single point of contact could help too.
 
-Our results also highlight a data problem. Among the two states we studied, only California records where bullets strike. Texas doesn't. That means the mediation analysis—arguably the most policy-relevant part of our study—was only possible in one state. Mandating wound location reporting nationwide would give researchers and departments far better tools for understanding and reducing police lethality.
+Our results also highlight a data problem. Among the two states we studied, only California records where bullets strike. Texas doesn't. That means the mediation analysis—arguably the most policy-relevant part of our study—was only possible in one state. Mandating wound location reporting nationwide would give researchers and departments far better tools for understanding and reducing police killings.
 
 ---
 
