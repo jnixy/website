@@ -59,3 +59,6 @@ links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.586cacff", i
   focal_point = "Center"
 +++
 
+You can download and read the full-text [here](https://t.co/YsCl6atswQ). Or if you prefer a shorter read, Kyle wrote a [nice summary](https://www.linkedin.com/posts/kyle-mclean-361a1b37b_a-new-pre-print-httpslnkdine5mef9sz-activity-7427391426122129408-ML2p) over on Linkedin. 
+
+And if reading's just not your thing...the CrimRxiv Consortium posted a [short video summary](https://x.com/CrimConsortium/status/2021595153115587065) on Twitter. 
