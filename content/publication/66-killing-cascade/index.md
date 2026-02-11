@@ -99,5 +99,6 @@ Our results also highlight a data problem. Among the two states we studied, only
 
 ---
 
+*Check out this [short video summary](https://x.com/CrimConsortium/status/2021267772689260893) that CrimRxiv Consortium posted on Twitter!*
 *The preprint version of this manuscript is available at [CrimRxiv](https://www.crimrxiv.com/pub/7mj8aj3g). We welcome feedback as we move through the peer review process.*
 
