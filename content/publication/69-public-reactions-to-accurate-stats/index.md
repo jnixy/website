@@ -3,7 +3,7 @@
 title = "Concerning, but do we need policy reform? An experimental analysis of public reactions to accurate statistics on deaths caused by police officers and medical professionals"
 
 # Authors
-authors = ["Hunter Boehme", "Brandon Tregle"," "admin"]
+authors = ["Hunter Boehme", "Brandon Tregle", "admin"]
 
 # Publication
 publication = "*Journal of Experimental Criminology*"
