@@ -5,7 +5,39 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Feb 2026 07:01:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 07:16:50 +0000</lastBuildDate>
+    <item>
+      <title>SWAT units shoot man barricaded in Lower Burrell home, accused of shooting at officers</title>
+      <link>https://www.wpxi.com/news/local/swat-units-shoot-man-barricaded-lower-burrell-home-accused-shooting-officers/DUFVUKMRZBGCLGEJ3N7NQ3TTHI/</link>
+      <description>Westmoreland County detectives are investigating an officer-involved shooting in Lower Burrell on Saturday.</description>
+      <pubDate>Sun, 15 Feb 2026 04:55:39 +0000</pubDate>
+      <category>incident</category>
+      <source>WPXI Pittsburgh</source>
+    </item>
+    <item>
+      <title>Cops Fatally Shoot Man With Knife at Arc de Triomphe</title>
+      <link>https://www.newser.com/story/383738/cops-fatally-shoot-man-with-knife-at-arc-de-triomphe.html</link>
+      <description>A man wielding a knife and scissors was fatally shot by police in Paris on Friday when he tried to attack an officer during a ceremony at the city's Arc de Triomphe monument, officials said. The suspect, a French national born in 1978 who'd previously been co…</description>
+      <pubDate>Sat, 14 Feb 2026 15:10:00 +0000</pubDate>
+      <category>incident</category>
+      <source>Newser</source>
+    </item>
+    <item>
+      <title>Feds Open Perjury Probe After ICE Officer Shot Venezuelan</title>
+      <link>https://www.newser.com/story/383719/feds-open-perjury-probe-after-ice-officer-shot-venezuelan.html</link>
+      <description>Federal authorities have opened a criminal probe into whether two immigration officers lied under oath about a shooting in Minneapolis last month, as all charges were dropped against two Venezuelan men. Immigration and Customs Enforcement Director Todd Lyons …</description>
+      <pubDate>Sat, 14 Feb 2026 12:10:00 +0000</pubDate>
+      <category>incident</category>
+      <source>Newser</source>
+    </item>
+    <item>
+      <title>Minneapolis left to decide future of streetside memorials to 2 people killed by federal officers</title>
+      <link>https://abcnews.com/US/wireStory/minneapolis-left-decide-future-streetside-memorials-2-people-130163902</link>
+      <description>The Trump administration announced this week that its immigration crackdown in Minnesota is ending</description>
+      <pubDate>Sat, 14 Feb 2026 07:57:31 +0000</pubDate>
+      <category>incident</category>
+      <source>Abcnews.com</source>
+    </item>
     <item>
       <title>Terror convict, recently released, shot dead by Paris police after alleged knife attack near Arc de Triomphe</title>
       <link>https://www.foxnews.com/world/terror-convict-recently-released-shot-dead-paris-police-alleged-knife-attack-near-arc-de-triomphe</link>
@@ -128,14 +160,6 @@
       <source>WSB Atlanta</source>
     </item>
     <item>
-      <title>The Mamdani-Tisch Relationship Isn’t Built to Last</title>
-      <link>http://nymag.com/intelligencer/article/mamdani-tisch-police-shooting-nyc.html</link>
-      <description>A police shooting was the first test of the uneasy equilibrium between Mayor Zohran Mamdani and NYPD Commissioner Jessica Tisch. It certainly won’t be the last.</description>
-      <pubDate>Fri, 06 Feb 2026 10:30:35 +0000</pubDate>
-      <category>incident</category>
-      <source>New York Magazine</source>
-    </item>
-    <item>
       <title>Senior Russian officer shot in Moscow in apparent assassination attempt</title>
       <link>https://www.aljazeera.com/news/2026/2/6/senior-russian-officer-shot-in-moscow-in-apparent-assassination-attempt</link>
       <description>An unidentified individual has shot Lieutenant General Alekseyev before fleeing the scene, authorities say.</description>
@@ -151,30 +175,6 @@ The post Pulse-Pounding Body Cam Footage Shows the Moment NYPD Officer Sho…</d
       <pubDate>Thu, 05 Feb 2026 16:30:11 +0000</pubDate>
       <category>incident</category>
       <source>Thegatewaypundit.com</source>
-    </item>
-    <item>
-      <title>Arizona man accused of human smuggling is a repeat offender who once 'threw rocks' at Army helicopter: docs</title>
-      <link>https://www.foxnews.com/us/arizona-man-accused-human-smuggling-repeat-offender-who-once-threw-rocks-army-helicopter-docs</link>
-      <description>Suspected human smuggler shot by federal agents near Arizona border is repeat offender, officials say. Patrick Schlegel allegedly fired at agents.</description>
-      <pubDate>Mon, 02 Feb 2026 13:00:08 +0000</pubDate>
-      <category>incident</category>
-      <source>Fox News</source>
-    </item>
-    <item>
-      <title>Shooting in Georgia hotel room leaves 1 officer killed, another seriously wounded: 'Unprovoked attack'</title>
-      <link>https://www.foxnews.com/us/shooting-georgia-hotel-room-leaves-1-officer-killed-another-seriously-wounded-unprovoked-attack</link>
-      <description>A Georgia police officer was killed and another was wounded after a suspect allegedly opened fire in a hotel room as he was being questioned.</description>
-      <pubDate>Mon, 02 Feb 2026 08:17:57 +0000</pubDate>
-      <category>incident</category>
-      <source>Fox News</source>
-    </item>
-    <item>
-      <title>Police officer killed, another critically wounded in shooting at Georgia hotel - ABC News</title>
-      <link>https://slashdot.org/firehose.pl?op=view&amp;amp;id=180718578</link>
-      <description>Police officer killed, another critically wounded in shooting at Georgia hotelABC News Gwinnett County officer dead, another officer injured in ‘unprovoked attack’ at hotelWSB-TV Gwinnett Police: Suspect who killed one officer, injured another had long crimin…</description>
-      <pubDate>Mon, 02 Feb 2026 03:52:48 +0000</pubDate>
-      <category>incident</category>
-      <source>Slashdot.org</source>
     </item>
   </channel>
 </rss>
