@@ -6,7 +6,7 @@ title = "Officer-involved shootings"
 authors = ["admin"]
 
 # Publication
-publication = "*Critical Issues in Policing: Contemporary Readings, 10th Ed.* (pp. TBD)"
+publication = "*Critical Issues in Policing: Contemporary Readings, 9th Ed.* (pp. TBD)"
 
 # Publication types (2 = Journal article; 3 = preprint; 4 = report; 6 = book chapter)
 publication_types = ["6"]
