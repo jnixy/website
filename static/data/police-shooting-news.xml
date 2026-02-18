@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 07:09:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 07:12:34 +0000</lastBuildDate>
+    <item>
+      <title>After police shootings, Mamdani faces new pressure to overhaul NYC’s mental health crisis response</title>
+      <link>https://gothamist.com/news/after-police-shootings-mamdani-faces-new-pressure-to-overhaul-nycs-mental-health-crisis-response</link>
+      <description>Two 911 calls for help ended with police at the door. Experts say dispatch rules and limited B-HEARD coverage leave few non-police options.</description>
+      <pubDate>Mon, 16 Feb 2026 11:34:40 +0000</pubDate>
+      <category>incident</category>
+      <source>Gothamist</source>
+    </item>
     <item>
       <title>SWAT units shoot man barricaded in Lower Burrell home, accused of shooting at officers</title>
       <link>https://www.wpxi.com/news/local/swat-units-shoot-man-barricaded-lower-burrell-home-accused-shooting-officers/DUFVUKMRZBGCLGEJ3N7NQ3TTHI/</link>
@@ -29,14 +37,6 @@
       <pubDate>Sat, 14 Feb 2026 12:10:00 +0000</pubDate>
       <category>incident</category>
       <source>Newser</source>
-    </item>
-    <item>
-      <title>Minneapolis left to decide future of streetside memorials to 2 people killed by federal officers</title>
-      <link>https://abcnews.com/US/wireStory/minneapolis-left-decide-future-streetside-memorials-2-people-130163902</link>
-      <description>The Trump administration announced this week that its immigration crackdown in Minnesota is ending</description>
-      <pubDate>Sat, 14 Feb 2026 07:57:31 +0000</pubDate>
-      <category>incident</category>
-      <source>Abcnews.com</source>
     </item>
     <item>
       <title>Terror convict, recently released, shot dead by Paris police after alleged knife attack near Arc de Triomphe</title>
@@ -77,14 +77,6 @@
       <pubDate>Fri, 13 Feb 2026 19:58:00 +0000</pubDate>
       <category>incident</category>
       <source>DW (English)</source>
-    </item>
-    <item>
-      <title>Knife-wielding attacker shot by police in Paris</title>
-      <link>https://www.israelnationalnews.com/news/422392</link>
-      <description>Man wielding a knife attacks police during a ceremony at Paris’ Arc de Triomphe before being shot by officers and hospitalized. No injuries reported among bystanders or police.</description>
-      <pubDate>Fri, 13 Feb 2026 19:31:05 +0000</pubDate>
-      <category>incident</category>
-      <source>Israelnationalnews.com</source>
     </item>
     <item>
       <title>DOJ Drops Charges Against Two Minneapolis Men It Accused of Attacking ICE Agents</title>
