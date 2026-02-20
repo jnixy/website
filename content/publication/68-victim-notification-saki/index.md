@@ -1,6 +1,6 @@
 +++
 # Paper title
-title = "The process of victim notification in the Minnesota Sexual Assault Kit Initiative and predictors of successful notification and victim re-engagement"
+title = "Victim Notification and Re-Engagement in the Minnesota Sexual Assault Kit Initiative"
 
 # Authors
 authors = ["Tara Richards", "Michaela Benson-Goldsmith", "admin", "Bradley Campbell", "Emily Wright"]
@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-# links = [{name = "Preprint", url="", icon = "unlock-alt", icon_pack = "fas"}]
+links = [{name = "Postprint", url="https://www.crimrxiv.com/pub/3ls9kzeb", icon = "unlock-alt", icon_pack = "fas"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder.
