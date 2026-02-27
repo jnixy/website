@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Feb 2026 07:11:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 07:05:25 +0000</lastBuildDate>
+    <item>
+      <title>Alice Springs police fire shots after man allegedly drives car at officers</title>
+      <link>https://www.abc.net.au/news/2026-02-26/alice-springs-shooting-nt-police-investigation-ute-crash-todd-st/106390398</link>
+      <description>Authorities allege a 38-year-old man drove his ute towards police officers in Alice Springs overnight, ramming a parked police car.</description>
+      <pubDate>Wed, 25 Feb 2026 23:59:01 +0000</pubDate>
+      <category>incident</category>
+      <source>ABC News (AU)</source>
+    </item>
+    <item>
+      <title>Inquests called into 3 fatal 2023 police shootings, including death of U of Manitoba student</title>
+      <link>https://www.cbc.ca/news/canada/manitoba/inquests-medical-examiner-police-shootings-9.7105914</link>
+      <description>Manitoba's chief medical examiner has called inquests into the deaths of six people in 2023, including three who were shot and killed by Winnipeg police late that year.</description>
+      <pubDate>Wed, 25 Feb 2026 21:44:37 +0000</pubDate>
+      <category>incident</category>
+      <source>CBC News</source>
+    </item>
     <item>
       <title>Two Missouri deputies killed hours apart by fleeing suspect who was released days earlier from jail</title>
       <link>https://nypost.com/2026/02/24/us-news/two-missouri-deputies-killed-hours-apart-by-fleeing-suspect-who-was-released-days-earlier-from-jail/</link>
@@ -29,14 +45,6 @@
       <pubDate>Tue, 24 Feb 2026 20:51:00 +0000</pubDate>
       <category>incident</category>
       <source>CBS News</source>
-    </item>
-    <item>
-      <title>50+ Groups Condemn Trump Admin for Trying to Sabotage Independent Probe of Alex Pretti Killing</title>
-      <link>https://www.commondreams.org/news/alex-pretty-investigation-coverup</link>
-      <description>A broad coalition of organizations on Tuesday accused the Trump administration of trying to sabotage a genuine investigation into the killing of Alex Pretti, the intensive care nurse who was fatally shot by federal immigration enforcement agents last month.In…</description>
-      <pubDate>Tue, 24 Feb 2026 17:53:15 +0000</pubDate>
-      <category>incident</category>
-      <source>Common Dreams</source>
     </item>
     <item>
       <title>Missouri suspect taken into custody after deputy fatally shot, ending manhunt</title>
@@ -198,14 +206,6 @@ The post Man Fatally Shot La…</description>
       <pubDate>Fri, 13 Feb 2026 19:58:00 +0000</pubDate>
       <category>incident</category>
       <source>DW (English)</source>
-    </item>
-    <item>
-      <title>Lawyers of Chicago woman shot by federal agents say documents show how DHS lies about investigations</title>
-      <link>https://www.pbs.org/newshour/politics/lawyers-of-chicago-woman-shot-by-federal-agents-say-documents-show-how-dhs-lies-about-investigations</link>
-      <description>Marimar Martinez, a teaching assistant and U.S. citizen, was shot five times by a Border Patrol agent in October while in her vehicle. She was charged with a felony after Homeland Security officials accused her of trying to ram agents with her vehicle. But th…</description>
-      <pubDate>Thu, 12 Feb 2026 18:13:34 +0000</pubDate>
-      <category>incident</category>
-      <source>PBS</source>
     </item>
     <item>
       <title>ICE accuses Honduran alien of ramming law enforcement vehicle before agent shoots out tires</title>
