@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 07:05:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 06:52:12 +0000</lastBuildDate>
+    <item>
+      <title>‘Suspect nabbed under 24 hours after officer shot’</title>
+      <link>https://www.thestar.com.my/news/nation/2026/02/27/suspect-nabbed-under-24-hours-after-officer-shot</link>
+      <description>KUALA LUMPUR: A man has been arrested less than 24 hours after a Border Control and Protection Agency (AKPS) commander was shot at. Read full story</description>
+      <pubDate>Thu, 26 Feb 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>The Star Online</source>
+    </item>
+    <item>
+      <title>Grand jury rejects indictment over federal officer’s shooting of US citizen - The Guardian</title>
+      <link>https://slashdot.org/firehose.pl?op=view&amp;amp;id=180862188</link>
+      <description>Grand jury rejects indictment over federal officer’s shooting of US citizenThe Guardian Texas grand jury rejects indictments in fatal shooting of US citizen by federal immigration agentCNN Close friend of U.S. citizen killed by ICE agent in Texas disputed off…</description>
+      <pubDate>Thu, 26 Feb 2026 08:13:18 +0000</pubDate>
+      <category>incident</category>
+      <source>Slashdot.org</source>
+    </item>
     <item>
       <title>Alice Springs police fire shots after man allegedly drives car at officers</title>
       <link>https://www.abc.net.au/news/2026-02-26/alice-springs-shooting-nt-police-investigation-ute-crash-todd-st/106390398</link>
@@ -214,15 +230,6 @@ The post Man Fatally Shot La…</description>
       <pubDate>Thu, 12 Feb 2026 12:58:21 +0000</pubDate>
       <category>incident</category>
       <source>Fox News</source>
-    </item>
-    <item>
-      <title>A sword in the van driven by the 17-year-old Jaffna student who was shot dead after driving ignoring orders.</title>
-      <link>https://english.gossiplankanews.com/2026/02/a-sword-in-van-driven-by-17-year-old.html</link>
-      <description>A 17-year-old youth has died after police opened fire on a suspicious van that failed to stop when ordered by police in the Allapiddy area of the Kayts Police Division in Jaffna yesterday (10) morning.
-&lt;!--gossip-below-article-Rs--&gt; (adsbygoogle = window.ads…</description>
-      <pubDate>Wed, 11 Feb 2026 03:30:17 +0000</pubDate>
-      <category>incident</category>
-      <source>Gossiplankanews.com</source>
     </item>
   </channel>
 </rss>
