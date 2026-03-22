@@ -11,7 +11,6 @@ from xml.dom import minidom
 import os
 
 # Configuration
-NEWS_API_KEY = os.environ.get('NEWS_API_KEY', 'YOUR_API_KEY_HERE')
 OUTPUT_FILE = 'static/data/police-shooting-news.xml'
 DAYS_BACK = 30
 
@@ -36,31 +35,46 @@ CATEGORIES = {
     'research': ['study', 'research', 'data', 'analysis', 'report', 'findings']
 }
 
-def fetch_news_api(query, days_back=DAYS_BACK):
-    """
-    Fetch news from NewsAPI.org
-    Get a free API key at: https://newsapi.org/
-    """
-    url = 'https://newsapi.org/v2/everything'
-    
-    from_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
-    
-    params = {
-        'q': query,
-        'from': from_date,
-        'to': datetime.now().strftime('%Y-%m-%d'),
-        'sortBy': 'publishedAt',
-        'language': 'en',
-        'apiKey': NEWS_API_KEY,
-        'pageSize': 100
-    }
-    
+def parse_gdelt_date(gdelt_date):
+    """Convert GDELT date format (YYYYMMDDTHHMMSSZ) to ISO format (YYYY-MM-DDTHH:MM:SSZ)"""
     try:
-        response = requests.get(url, params=params)
+        dt = datetime.strptime(gdelt_date, '%Y%m%dT%H%M%SZ')
+        return dt.strftime('%Y-%m-%dT%H:%M:%SZ')
+    except Exception:
+        return datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
+
+def fetch_gdelt(query, days_back=DAYS_BACK):
+    """
+    Fetch news from GDELT DOC 2.0 API — free, no API key, no server restrictions.
+    Returns articles normalized to the same field names used by the rest of this script.
+    """
+    url = 'https://api.gdeltproject.org/api/v2/doc/doc'
+
+    params = {
+        'query': f'{query} sourcecountry:US',
+        'mode': 'artlist',
+        'maxrecords': 250,
+        'format': 'json',
+        'timespan': f'{days_back}d',
+    }
+
+    try:
+        response = requests.get(url, params=params, timeout=30)
         response.raise_for_status()
-        return response.json().get('articles', [])
+        raw_articles = response.json().get('articles', [])
+        # Normalize to match the field names used by the rest of this script
+        return [
+            {
+                'title': a.get('title', ''),
+                'url': a.get('url', ''),
+                'description': '',
+                'publishedAt': parse_gdelt_date(a.get('seendate', '')),
+                'source': {'name': a.get('domain', 'News Source')},
+            }
+            for a in raw_articles
+        ]
     except Exception as e:
-        print(f"Error fetching from NewsAPI: {e}")
+        print(f"Error fetching from GDELT: {e}")
         return []
 
 def is_relevant_story(title, description):
@@ -350,7 +364,7 @@ def main():
     # Fetch from each query
     for query in SEARCH_QUERIES:
         print(f"\nSearching for: {query}")
-        articles = fetch_news_api(query)
+        articles = fetch_gdelt(query)
         print(f"  Raw results: {len(articles)} articles")
         all_articles.extend(articles)
     
@@ -394,7 +408,7 @@ def main():
         print("This could mean:")
         print("  - No relevant stories in the past 30 days")
         print("  - Filtering is too strict")
-        print("  - NewsAPI returned no results")
+        print("  - GDELT returned no results")
         return
     
     # Create RSS feed
