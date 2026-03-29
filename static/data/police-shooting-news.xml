@@ -5,7 +5,55 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Mar 2026 07:09:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 07:17:05 +0000</lastBuildDate>
+    <item>
+      <title>Man shot by officer in Miami after becoming aggressive during argument , police say</title>
+      <link>https://www.nbcmiami.com/news/local/man-shot-by-officer-in-miami-after-becoming-aggressive-during-argument-police-say/3787639/</link>
+      <description/>
+      <pubDate>Sat, 28 Mar 2026 18:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcmiami.com</source>
+    </item>
+    <item>
+      <title>Billings officer shoots armed suspect who reached for gun during suspicious person call</title>
+      <link>https://www.kulr8.com/news/billings-officer-shoots-armed-suspect-who-reached-for-gun-during-suspicious-person-call/article_dafde15b-d628-441d-b7dd-8b0e13304c1c.html</link>
+      <description/>
+      <pubDate>Sat, 28 Mar 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kulr8.com</source>
+    </item>
+    <item>
+      <title>Man charged in Brookfield police shooting , Waukesha shots - fired incidents</title>
+      <link>https://www.fox6now.com/news/man-charged-brookfield-police-shooting-waukesha-shots-fired-incidents</link>
+      <description/>
+      <pubDate>Fri, 27 Mar 2026 04:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox6now.com</source>
+    </item>
+    <item>
+      <title>Rochester officer shot in the line of duty released from hospital</title>
+      <link>https://cnycentral.com/news/local/rochester-police-officer-shot-in-the-line-of-duty-released-from-hospital-lake-avenue-driving-park-hague-street-shatique-cato-rochesrter-police-department</link>
+      <description/>
+      <pubDate>Thu, 26 Mar 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>cnycentral.com</source>
+    </item>
+    <item>
+      <title>Park Police officer shot in DC was following man just released from custody</title>
+      <link>https://wtop.com/dc/2026/03/park-police-officer-shot-in-dc-was-following-man-just-released-from-custody/</link>
+      <description/>
+      <pubDate>Thu, 26 Mar 2026 04:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wtop.com</source>
+    </item>
+    <item>
+      <title>Dayton police shooting is fourth in past year</title>
+      <link>https://www.daytondailynews.com/crime/dayton-police-shooting-is-fourth-in-past-year/RMO56LJR75H6LBAEYP6KN2ZFVQ/</link>
+      <description/>
+      <pubDate>Wed, 25 Mar 2026 14:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>daytondailynews.com</source>
+    </item>
     <item>
       <title>Montgomery County Police officer shoots person , severity of injuries unknown</title>
       <link>https://www.wusa9.com/article/news/crime/montgomery-county-police-officer-shoots-person/65-99b9d0f6-68de-4c01-a6cb-8af3edd54da5</link>
@@ -15,12 +63,60 @@
       <source>wusa9.com</source>
     </item>
     <item>
-      <title>Congressmen call for independent investigation into death of San Antonio man killed by ICE</title>
-      <link>https://www.ksat.com/news/local/2026/03/24/congressmen-call-for-independent-investigation-into-death-of-san-antonio-man-killed-by-ice/</link>
+      <title>7 Sources : Person shot by police in Westminster - Boston News , Weather , Sports</title>
+      <link>https://whdh.com/news/7-sources-person-shot-by-police-in-westminster/</link>
       <description/>
-      <pubDate>Tue, 24 Mar 2026 19:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Mar 2026 02:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>ksat.com</source>
+      <source>whdh.com</source>
+    </item>
+    <item>
+      <title>1 officer shot , 2 officers injured in hours - long standoff that left suspect dead in Gainesville , police say</title>
+      <link>https://www.11alive.com/article/news/local/3-officers-hurt-after-shooting-hours-long-standoff-that-left-suspect-dead-in-gainesville/85-cf48ebb5-fbcb-4f91-8ed2-9993ef53fc3a</link>
+      <description/>
+      <pubDate>Fri, 20 Mar 2026 15:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>11alive.com</source>
+    </item>
+    <item>
+      <title>Officer shot , suspect dead after SWAT standoff in Gainesville</title>
+      <link>https://www.wsbtv.com/news/local/officer-shot-suspect-dead-after-6-hour-standoff-gainesville/R25KBDMFLRHUDMDBXUULU2BB2M/</link>
+      <description/>
+      <pubDate>Fri, 20 Mar 2026 13:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsbtv.com</source>
+    </item>
+    <item>
+      <title>RPD officer shot at Driving Park / Lake Ave ; suspect at large</title>
+      <link>https://cnycentral.com/news/new-york-news/rpd-officer-shot-at-driving-parklake-ave-suspect-at-large</link>
+      <description/>
+      <pubDate>Fri, 20 Mar 2026 10:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>cnycentral.com</source>
+    </item>
+    <item>
+      <title>RPD officer shot on Lake and Driving Park avenues ; Search for suspect underway</title>
+      <link>https://www.whec.com/top-news/multiple-streets-shut-down-around-fulton-avenue-and-locust-street-for-massive-rpd-investigation/</link>
+      <description/>
+      <pubDate>Fri, 20 Mar 2026 09:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>whec.com</source>
+    </item>
+    <item>
+      <title>Florida police officer shot in chase on I - 95 released from hospital</title>
+      <link>https://www.wesh.com/article/officer-shot-in-chase-on-i-95-released-from-hospital/70785553</link>
+      <description/>
+      <pubDate>Thu, 19 Mar 2026 01:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wesh.com</source>
+    </item>
+    <item>
+      <title>I - 95 shooting : Officer shot twice , suspect with severe burns after trying to escape in police car</title>
+      <link>https://www.wogx.com/news/i-95-shooting-officer-shot-twice-suspect-severe-burns-after-trying-escape-police-car</link>
+      <description/>
+      <pubDate>Tue, 17 Mar 2026 04:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wogx.com</source>
     </item>
     <item>
       <title>Former Border Patrol Commander Gregory Bovino to Retire Weeks After Two U . S . Citizens Killed By ICE</title>
@@ -39,20 +135,52 @@
       <source>mynews13.com</source>
     </item>
     <item>
-      <title>Family seeks justice for Ruben Ray Martinez , killed by federal agent on South Padre Island</title>
-      <link>https://news4sanantonio.com/news/local/family-seeks-justice-for-ruben-ray-martinez-killed-by-federal-agent-on-south-padre-island</link>
+      <title>Verona officer shoots , kills person in Springdale after pursuit</title>
+      <link>https://www.channel3000.com/news/verona-officer-shoots-kills-person-in-springdale-after-pursuit/article_cd3a615c-f7cb-43b7-8518-4d273865916a.html</link>
       <description/>
-      <pubDate>Sun, 15 Mar 2026 08:15:00 +0000</pubDate>
+      <pubDate>Mon, 16 Mar 2026 12:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>news4sanantonio.com</source>
+      <source>channel3000.com</source>
     </item>
     <item>
-      <title>Details still limited on fatal police shooting after I - 17 traffic stop</title>
-      <link>https://www.yahoo.com/news/articles/details-still-limited-fatal-police-152013836.html</link>
+      <title>Milwaukee police shooting , girlfriend shares her version of events</title>
+      <link>https://www.fox6now.com/news/milwaukee-police-shooting-girlfriend-union-president</link>
       <description/>
-      <pubDate>Fri, 13 Mar 2026 03:00:00 +0000</pubDate>
+      <pubDate>Sun, 15 Mar 2026 06:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>yahoo.com</source>
+      <source>fox6now.com</source>
+    </item>
+    <item>
+      <title>Santa Rosa police shooting under investigation</title>
+      <link>https://www.nbcbayarea.com/news/local/santa-rosa-police-shooting-investigation/4050914/</link>
+      <description/>
+      <pubDate>Thu, 12 Mar 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcbayarea.com</source>
+    </item>
+    <item>
+      <title>Suspect shot by officer after road - rage incident in Smyrna , police say</title>
+      <link>https://www.wsmv.com/2026/03/12/suspect-shot-by-officer-after-road-rage-incident-smyrna-police-say/</link>
+      <description/>
+      <pubDate>Thu, 12 Mar 2026 21:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsmv.com</source>
+    </item>
+    <item>
+      <title>Clark County agrees to $7 . 5 million settlement after deputy shot , killed Vancouver officer</title>
+      <link>https://www.kptv.com/2026/03/12/clark-county-agrees-75-million-settlement-after-deputy-shot-killed-vancouver-officer/</link>
+      <description/>
+      <pubDate>Thu, 12 Mar 2026 01:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kptv.com</source>
+    </item>
+    <item>
+      <title>Clark County to pay $7 . 5M to widow of Vancouver police officer killed in mistaken identity shooting</title>
+      <link>https://www.kgw.com/article/news/local/washington/clark-county-payment-millions-widow-vancouver-police-officer-killed-mistaken-identity-shooting/283-a14bd73d-4bfd-4c15-9daf-b72452e6c594</link>
+      <description/>
+      <pubDate>Thu, 12 Mar 2026 00:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kgw.com</source>
     </item>
     <item>
       <title>Person shot by police during warrant attempt , barricade near Greenwood</title>
@@ -63,36 +191,60 @@
       <source>aol.com</source>
     </item>
     <item>
-      <title>Remembering another US citizen killed by ICE on Noem watch - Las Vegas Sun News</title>
-      <link>https://lasvegassun.com/news/2026/mar/10/remembering-another-us-citizen-killed-by-ice-on-no/</link>
+      <title>Officer Shot During Active Shooter Situation Near Baltimore Synagogue</title>
+      <link>https://1061fmtalk.iheart.com/content/2026-03-10-officer-shot-during-active-shooter-situation-near-baltimore-synagogue/</link>
       <description/>
-      <pubDate>Tue, 10 Mar 2026 11:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Mar 2026 21:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>lasvegassun.com</source>
+      <source>1061fmtalk.iheart.com</source>
     </item>
     <item>
-      <title>Mom of 23 - Year - Old Killed by ICE Agent Voted for Donald Trump</title>
-      <link>https://drudge.com/news/290518/mom-23-year-old-killed-ice-agent-voted</link>
+      <title>Officer Shot During Active Shooter Situation Near Baltimore Synagogue | NewsRadio 1370 AM &amp; 92 . 9 FM WSPD</title>
+      <link>https://wspd.iheart.com/content/2026-03-10-officer-shot-during-active-shooter-situation-near-baltimore-synagogue/</link>
       <description/>
-      <pubDate>Sun, 08 Mar 2026 03:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Mar 2026 21:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>drudge.com</source>
+      <source>wspd.iheart.com</source>
     </item>
     <item>
-      <title>RIGHT SPEAK : DHS Agent Fatally Shot and Killed US Citizen Who Hit Officer with Car in March 2025 : Records ; Grand Jury Declines to Indict Federal Agent in Ruben Ray Martinez Shooting</title>
-      <link>http://www.rightspeak.net/2026/03/dhs-agent-fatally-shot-and-killed-us.html</link>
+      <title>Officer shot in  active shooter incident  in Baltimore , suspect also shot : Police</title>
+      <link>https://www.wjnt.com/syndicated-article/?id=1660928</link>
       <description/>
-      <pubDate>Sat, 07 Mar 2026 06:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Mar 2026 21:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>rightspeak.net</source>
+      <source>wjnt.com</source>
     </item>
     <item>
-      <title>Trump - voting mom accuses DHS of lying after son killed by ICE agent</title>
-      <link>https://www.rawstory.com/trump-ice-2675701146/</link>
+      <title>Baltimore police officer shot during response to a home barricade situation , says mayor</title>
+      <link>https://www.wsbradio.com/news/baltimore-police-say/ZPSRQHQDLAYIPPFW3RHWNFDFQE/</link>
       <description/>
-      <pubDate>Sat, 07 Mar 2026 04:00:00 +0000</pubDate>
+      <pubDate>Tue, 10 Mar 2026 19:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>rawstory.com</source>
+      <source>wsbradio.com</source>
+    </item>
+    <item>
+      <title>Officer shot transported to Shock Trauma during active shooter incident in Baltimore</title>
+      <link>https://foxbaltimore.com/news/local/police-shooting-shock-trauma-baltimore-maryland</link>
+      <description/>
+      <pubDate>Tue, 10 Mar 2026 18:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>foxbaltimore.com</source>
+    </item>
+    <item>
+      <title>Officer Shot During Active Shooter Situation Near Baltimore Synagogue | News Radio 1410 AM &amp; 100 . 9 FM</title>
+      <link>https://newsradio1410.iheart.com/content/2026-03-10-officer-shot-during-active-shooter-situation-near-baltimore-synagogue/</link>
+      <description/>
+      <pubDate>Tue, 10 Mar 2026 18:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>newsradio1410.iheart.com</source>
+    </item>
+    <item>
+      <title>Houston SWAT officer shoots , kills suspect on Belarbor Street</title>
+      <link>https://www.fox26houston.com/news/bellfort-avenue-police-shooting-march-2026</link>
+      <description/>
+      <pubDate>Mon, 09 Mar 2026 21:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox26houston.com</source>
     </item>
     <item>
       <title>Family of Isaac Goodlow , unarmed man killed in Carol Stream police shooting , to receive $9 . 4M settlement</title>
@@ -103,20 +255,12 @@
       <source>abc7chicago.com</source>
     </item>
     <item>
-      <title>Community gathers in Ontario to honor Minneapolis woman killed by ICE</title>
-      <link>https://www.dailynews.com/2026/01/09/community-gathers-in-ontario-to-honor-minneapolis-woman-killed-by-ice/</link>
+      <title>Officer shoots suspect at Englewood hospital</title>
+      <link>https://www.9news.com/article/news/local/officer-shoots-suspect-englewood-hospital/73-e35d9d48-d150-4688-9675-0e2da2be6cba</link>
       <description/>
-      <pubDate>Sat, 07 Mar 2026 00:30:00 +0000</pubDate>
+      <pubDate>Fri, 06 Mar 2026 07:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>dailynews.com</source>
-    </item>
-    <item>
-      <title>Mom whose son was killed by ICE doesnt blame Trump , but calls for change</title>
-      <link>https://www.wsgw.com/mom-whose-son-was-killed-by-ice-doesnt-blame-trump-but-calls-for-change/</link>
-      <description/>
-      <pubDate>Fri, 06 Mar 2026 16:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsgw.com</source>
+      <source>9news.com</source>
     </item>
     <item>
       <title>Suspect injured in police shooting inside HCA HealthONE Swedish</title>
@@ -135,6 +279,14 @@
       <source>pjmedia.com</source>
     </item>
     <item>
+      <title>Cathedral City Stabbing Suspect Shot by Police Dies</title>
+      <link>https://mynewsla.com/crime/2026/03/03/cathedral-city-stabbing-suspect-shot-by-police-dies/</link>
+      <description/>
+      <pubDate>Wed, 04 Mar 2026 03:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>mynewsla.com</source>
+    </item>
+    <item>
       <title>Suspect killed , officer injured in police shooting in Pasadena</title>
       <link>https://www.presstelegram.com/2026/03/02/person-killed-officer-injured-in-police-shooting-in-pasadena/</link>
       <description/>
@@ -143,12 +295,12 @@
       <source>presstelegram.com</source>
     </item>
     <item>
-      <title>Suspect Charged with Attempted Murder after Border Patrol Agent Shot at in NH</title>
-      <link>https://www.themainewire.com/2026/02/suspect-charged-with-attempted-murder-after-border-patrol-agent-shot-at-in-nh/</link>
+      <title>MPD identifies officer shot during traffic stop ; suspect still at large</title>
+      <link>https://www.wsmv.com/2026/02/27/mpd-identifies-officer-shot-during-traffic-stop-suspect-still-large/</link>
       <description/>
-      <pubDate>Thu, 26 Feb 2026 17:00:00 +0000</pubDate>
+      <pubDate>Mon, 02 Mar 2026 18:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>themainewire.com</source>
+      <source>wsmv.com</source>
     </item>
   </channel>
 </rss>
