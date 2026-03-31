@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2026 07:58:34 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 07:44:02 +0000</lastBuildDate>
     <item>
       <title>Memorial held for Adam Toledo five years after police shooting</title>
       <link>https://www.fox32chicago.com/news/memorial-held-adam-toledo-five-years-after-police-shooting</link>
@@ -375,14 +375,6 @@
       <source>rawstory.com</source>
     </item>
     <item>
-      <title>Family of Isaac Goodlow , unarmed man killed in Carol Stream police shooting , to receive $9 . 4M settlement</title>
-      <link>https://abc7chicago.com/post/family-isaac-goodlow-unarmed-man-killed-carol-stream-police-shooting-receive-94m-settlement/18686603/</link>
-      <description/>
-      <pubDate>Sat, 07 Mar 2026 02:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>abc7chicago.com</source>
-    </item>
-    <item>
       <title>Community gathers in Ontario to honor Minneapolis woman killed by ICE</title>
       <link>https://www.dailynews.com/2026/01/09/community-gathers-in-ontario-to-honor-minneapolis-woman-killed-by-ice/</link>
       <description/>
@@ -405,6 +397,14 @@
       <pubDate>Fri, 06 Mar 2026 16:45:00 +0000</pubDate>
       <category>incident</category>
       <source>wsgw.com</source>
+    </item>
+    <item>
+      <title>Officer shoots suspect at Englewood hospital</title>
+      <link>https://www.9news.com/article/news/local/officer-shoots-suspect-englewood-hospital/73-e35d9d48-d150-4688-9675-0e2da2be6cba</link>
+      <description/>
+      <pubDate>Fri, 06 Mar 2026 07:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>9news.com</source>
     </item>
   </channel>
 </rss>
