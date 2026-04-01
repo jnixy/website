@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Mar 2026 07:44:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 07:47:44 +0000</lastBuildDate>
     <item>
       <title>Memorial held for Adam Toledo five years after police shooting</title>
       <link>https://www.fox32chicago.com/news/memorial-held-adam-toledo-five-years-after-police-shooting</link>
@@ -55,6 +55,14 @@
       <source>wtop.com</source>
     </item>
     <item>
+      <title>US Park Police shooting was caught on camera , charging documents show</title>
+      <link>https://www.wusa9.com/article/news/crime/us-park-police-shooting-charging-documents/65-7902df0f-f7fd-4886-a13d-fc8cd31746e6</link>
+      <description/>
+      <pubDate>Wed, 25 Mar 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wusa9.com</source>
+    </item>
+    <item>
       <title>Dayton police shooting is fourth in past year</title>
       <link>https://www.daytondailynews.com/crime/dayton-police-shooting-is-fourth-in-past-year/RMO56LJR75H6LBAEYP6KN2ZFVQ/</link>
       <description/>
@@ -69,6 +77,14 @@
       <pubDate>Wed, 25 Mar 2026 04:15:00 +0000</pubDate>
       <category>incident</category>
       <source>kcci.com</source>
+    </item>
+    <item>
+      <title>Montgomery County Police officer shoots person , severity of injuries unknown</title>
+      <link>https://www.wusa9.com/article/news/crime/montgomery-county-police-officer-shoots-person/65-99b9d0f6-68de-4c01-a6cb-8af3edd54da5</link>
+      <description/>
+      <pubDate>Tue, 24 Mar 2026 22:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wusa9.com</source>
     </item>
     <item>
       <title>Woman who Longmont police fatally shot is identified</title>
@@ -133,6 +149,14 @@
       <pubDate>Thu, 19 Mar 2026 01:45:00 +0000</pubDate>
       <category>incident</category>
       <source>wesh.com</source>
+    </item>
+    <item>
+      <title>Boston city councilors want to see bodycam footage of police shooting</title>
+      <link>https://www.bostonglobe.com/2026/03/18/metro/police-shooting-bodycam-footage-councilors/</link>
+      <description/>
+      <pubDate>Wed, 18 Mar 2026 20:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>bostonglobe.com</source>
     </item>
     <item>
       <title>I - 95 shooting : Officer shot twice , suspect with severe burns after trying to escape in police car</title>
@@ -223,6 +247,14 @@
       <source>kgw.com</source>
     </item>
     <item>
+      <title>Person shot by police during warrant attempt , barricade near Greenwood</title>
+      <link>https://www.aol.com/articles/person-shot-police-during-warrant-191927036.html</link>
+      <description/>
+      <pubDate>Wed, 11 Mar 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>aol.com</source>
+    </item>
+    <item>
       <title>Funeral arrangements set for trooper killed in Chester County – NBC10 Philadelphia</title>
       <link>https://www.nbcphiladelphia.com/news/local/funeral-arrangements-set-pa-state-trooper-chester-county/4366503/</link>
       <description/>
@@ -285,6 +317,14 @@
       <pubDate>Tue, 10 Mar 2026 11:00:00 +0000</pubDate>
       <category>incident</category>
       <source>lasvegassun.com</source>
+    </item>
+    <item>
+      <title>Humboldt Park shooting today : 1 seriously injured after Chicago police shooting in 800 - block of North Homan Avenue , officials say</title>
+      <link>https://abc7chicago.com/post/humboldt-park-shooting-today-1-injured-chicago-police-800-block-north-homan-avenue-officials-say/18697470/</link>
+      <description/>
+      <pubDate>Tue, 10 Mar 2026 01:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc7chicago.com</source>
     </item>
     <item>
       <title>Houston SWAT officer shoots , kills suspect on Belarbor Street</title>
@@ -365,46 +405,6 @@
       <pubDate>Sat, 07 Mar 2026 06:00:00 +0000</pubDate>
       <category>incident</category>
       <source>rightspeak.net</source>
-    </item>
-    <item>
-      <title>Trump - voting mom accuses DHS of lying after son killed by ICE agent</title>
-      <link>https://www.rawstory.com/trump-ice-2675701146/</link>
-      <description/>
-      <pubDate>Sat, 07 Mar 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>rawstory.com</source>
-    </item>
-    <item>
-      <title>Community gathers in Ontario to honor Minneapolis woman killed by ICE</title>
-      <link>https://www.dailynews.com/2026/01/09/community-gathers-in-ontario-to-honor-minneapolis-woman-killed-by-ice/</link>
-      <description/>
-      <pubDate>Sat, 07 Mar 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>dailynews.com</source>
-    </item>
-    <item>
-      <title>Teen , woman wounded before responding Pacific officer shoots man</title>
-      <link>https://www.seattletimes.com/seattle-news/law-justice/pacific-officer-killed-man-after-police-found-teen-woman-wounded/</link>
-      <description/>
-      <pubDate>Fri, 06 Mar 2026 21:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>seattletimes.com</source>
-    </item>
-    <item>
-      <title>Mom whose son was killed by ICE doesnt blame Trump , but calls for change</title>
-      <link>https://www.wsgw.com/mom-whose-son-was-killed-by-ice-doesnt-blame-trump-but-calls-for-change/</link>
-      <description/>
-      <pubDate>Fri, 06 Mar 2026 16:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsgw.com</source>
-    </item>
-    <item>
-      <title>Officer shoots suspect at Englewood hospital</title>
-      <link>https://www.9news.com/article/news/local/officer-shoots-suspect-englewood-hospital/73-e35d9d48-d150-4688-9675-0e2da2be6cba</link>
-      <description/>
-      <pubDate>Fri, 06 Mar 2026 07:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>9news.com</source>
     </item>
   </channel>
 </rss>
