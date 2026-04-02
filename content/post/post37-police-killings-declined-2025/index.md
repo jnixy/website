@@ -77,6 +77,6 @@ We can't say: the problem is getting better. One year below a record high is not
 
 The MPV team does genuinely important work, and their data represent the best available evidence on a problem the federal government still won't systematically track. The 2025 figure warrants attention. But the way to honor their work is to read it carefully—which means reading past the headline, into the variation, and into the uncertainty.
 
----
+***
 
 *Analysis draws on the Mapping Police Violence victim-level dataset downloaded April 2026. Off-duty killings excluded (n = 369). For incidents with multiple agencies listed, the first-listed agency is used. An additional 267 partial-year 2026 records are excluded from trend analysis. Code and data available at the top of the page.*
