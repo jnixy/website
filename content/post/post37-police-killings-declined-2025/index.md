@@ -24,6 +24,8 @@ links:
 summary: "Mapping Police Violence reports a 5% decline in police killings for 2025."
 ---
 
+## Did You Know...
+
 > In 2025, fatal police violence declined for the first time in six years—clear evidence that sustained, long-term activism works. 
 
 So begins a [recent statement](https://campaignzero.org/research/mapping-police-violence-for-the-first-time-in-six-years-police-violence-declined-in-2025/) by Campaign Zero, following its 2025 Year End Report. I came across it this morning after seeing a story in [Stateline](https://stateline.org/2026/04/01/fatal-police-violence-may-have-declined-for-the-first-time-in-years/). The [Mapping Police Violence](https://mappingpoliceviolence.us) data are among the most comprehensive we have—compiled from news reports and official records, updated continuously, and including deaths that federal reporting systems routinely miss. But a single year of modestly lower numbers does not establish a trend, and I wouldn't be so quick to chalk up the decline to "sustained, long-term activism." It could very well be statistical noise.
