@@ -80,7 +80,7 @@ We can say: national counts appear to have declined modestly in 2025 compared to
 
 We can't say: the problem is getting better. One year below a record high is not a trend. The post-2019 elevation in killings—roughly 130 more people killed per year compared to the 2013–2018 average—hasn't reversed. We can't confidently attribute the agency-level declines to any specific policy without a more rigorous research design.
 
-The MPV team does genuinely important work, and their data represent the best available evidence on a problem the federal government still won't systematically track. The 2025 figure warrants attention. But the way to honor their work is to read it carefully—which means reading past the headline, into the variation, and into the uncertainty.
+The MPV team does genuinely important work, and their data represent the best available evidence on an outcome the federal government still won't systematically track. The 2025 figure warrants attention. But the way to honor their work is to read it carefully—which means reading past the headline, into the variation, and into the uncertainty.
 
 ***
 
