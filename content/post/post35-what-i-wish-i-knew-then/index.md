@@ -15,7 +15,7 @@ draft: false
 image:
   caption: "Made with ChatGPT 5.2"
   focal_point: "smart"
-links: ""
+links: []
 summary: "Things I wish I knew 15 years ago"
 ---
 

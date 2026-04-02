@@ -17,7 +17,7 @@ draft: false
 image:
   caption: "Made with ChatGPT 5.2"
   focal_point: "smart"
-links: ""
+links: []
 summary: "I try to make sense of a handful of studies seemingly at odds with each other"
 ---
 ## Background

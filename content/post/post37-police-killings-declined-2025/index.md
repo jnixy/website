@@ -16,8 +16,11 @@ draft: false
 image:
   caption: ""
   focal_point: "smart"
-links: []
-url_code: "01_mpv_trends.R"
+links:
+- name: R Code
+  url: "01_mpv_trends.R"
+  icon_pack: fas
+  icon: code
 summary: "Mapping Police Violence reports a 5% decline in police killings for 2025."
 ---
 
