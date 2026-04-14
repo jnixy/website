@@ -5,30 +5,38 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2026 08:17:30 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 07:59:28 +0000</lastBuildDate>
     <item>
-      <title>1 taken to hospital after Denver police shooting</title>
-      <link>https://www.denverpost.com/2026/04/07/denver-police-shooting-quitman/</link>
+      <title>California man shot by ICE says officials falsely labeled him a gang member</title>
+      <link>https://www.yahoo.com/news/articles/california-man-shot-ice-says-205438764.html</link>
       <description/>
-      <pubDate>Wed, 08 Apr 2026 01:15:00 +0000</pubDate>
+      <pubDate>Thu, 09 Apr 2026 21:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>denverpost.com</source>
+      <source>yahoo.com</source>
     </item>
     <item>
-      <title>Montgomery County Police officer shoots person , severity of injuries unknown</title>
-      <link>https://www.wusa9.com/article/news/crime/montgomery-county-police-officer-shoots-person/65-99b9d0f6-68de-4c01-a6cb-8af3edd54da5</link>
+      <title>Illegal immigrant shot by ICE after allegedly trying to ram officer</title>
+      <link>https://www.foxnews.com/us/ice-involved-shooting-after-agency-says-illegal-immigrant-gang-member-tried-ram-officer</link>
       <description/>
-      <pubDate>Tue, 24 Mar 2026 22:15:00 +0000</pubDate>
+      <pubDate>Tue, 07 Apr 2026 21:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>wusa9.com</source>
+      <source>foxnews.com</source>
     </item>
     <item>
-      <title>South Daytona officer shot during pursuit of suspect</title>
-      <link>https://mynews13.com/fl/orlando/news/2026/03/15/south-daytona-officer-shot-during-pursuit-of-suspect</link>
+      <title>Former Border Patrol Commander Gregory Bovino to Retire Weeks After Two U . S . Citizens Killed By ICE</title>
+      <link>https://www.ibtimes.com/former-border-patrol-commander-gregory-bovino-retire-weeks-after-two-us-citizens-killed-ice-3799380</link>
       <description/>
-      <pubDate>Mon, 16 Mar 2026 15:00:00 +0000</pubDate>
+      <pubDate>Mon, 16 Mar 2026 22:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>mynews13.com</source>
+      <source>ibtimes.com</source>
+    </item>
+    <item>
+      <title>Family seeks justice for Ruben Ray Martinez , killed by federal agent on South Padre Island</title>
+      <link>https://news4sanantonio.com/news/local/family-seeks-justice-for-ruben-ray-martinez-killed-by-federal-agent-on-south-padre-island</link>
+      <description/>
+      <pubDate>Sun, 15 Mar 2026 08:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>news4sanantonio.com</source>
     </item>
   </channel>
 </rss>
