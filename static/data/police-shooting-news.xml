@@ -5,46 +5,30 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Apr 2026 08:02:29 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 07:21:53 +0000</lastBuildDate>
     <item>
-      <title>Man shot by ICE in California moved  suddenly  to new jail : attorney</title>
-      <link>https://www.ktvu.com/news/man-shot-ice-california-moved-suddenly-new-jail-attorney</link>
+      <title>1 taken to hospital after Denver police shooting</title>
+      <link>https://www.denverpost.com/2026/04/07/denver-police-shooting-quitman/</link>
       <description/>
-      <pubDate>Thu, 16 Apr 2026 23:30:00 +0000</pubDate>
+      <pubDate>Wed, 08 Apr 2026 01:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>ktvu.com</source>
+      <source>denverpost.com</source>
     </item>
     <item>
-      <title>Man shot by ICE agents in Patterson charged with assault with deadly weapon</title>
-      <link>https://abc7news.com/post/man-shot-ice-agents-patterson-charged-assault-deadly-weapon/18887173/</link>
+      <title>US Park Police shooting was caught on camera , charging documents show</title>
+      <link>https://www.wusa9.com/article/news/crime/us-park-police-shooting-charging-documents/65-7902df0f-f7fd-4886-a13d-fc8cd31746e6</link>
       <description/>
-      <pubDate>Wed, 15 Apr 2026 05:30:00 +0000</pubDate>
+      <pubDate>Wed, 25 Mar 2026 23:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>abc7news.com</source>
+      <source>wusa9.com</source>
     </item>
     <item>
-      <title>Man shot by ICE in California charged with assault on federal officer</title>
-      <link>https://www.fox2detroit.com/news/man-shot-ice-california-charged-assault-federal-officer</link>
+      <title>Montgomery County Police officer shoots person , severity of injuries unknown</title>
+      <link>https://www.wusa9.com/article/news/crime/montgomery-county-police-officer-shoots-person/65-99b9d0f6-68de-4c01-a6cb-8af3edd54da5</link>
       <description/>
-      <pubDate>Wed, 15 Apr 2026 02:30:00 +0000</pubDate>
+      <pubDate>Tue, 24 Mar 2026 22:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>fox2detroit.com</source>
-    </item>
-    <item>
-      <title>California man shot by ICE says officials falsely labeled him a gang member</title>
-      <link>https://www.yahoo.com/news/articles/california-man-shot-ice-says-205438764.html</link>
-      <description/>
-      <pubDate>Thu, 09 Apr 2026 21:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>yahoo.com</source>
-    </item>
-    <item>
-      <title>Illegal immigrant shot by ICE after allegedly trying to ram officer</title>
-      <link>https://www.foxnews.com/us/ice-involved-shooting-after-agency-says-illegal-immigrant-gang-member-tried-ram-officer</link>
-      <description/>
-      <pubDate>Tue, 07 Apr 2026 21:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>foxnews.com</source>
+      <source>wusa9.com</source>
     </item>
   </channel>
 </rss>
