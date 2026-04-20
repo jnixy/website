@@ -5,14 +5,142 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2026 07:41:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2026 08:23:09 +0000</lastBuildDate>
+    <item>
+      <title>Deputy shot and one suspect in custody after Le Flore County standoff</title>
+      <link>https://www.newson6.com/crime/deputy-shot-and-one-suspect-in-custody-after-le-flore-county-standoff</link>
+      <description/>
+      <pubDate>Mon, 20 Apr 2026 03:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>newson6.com</source>
+    </item>
+    <item>
+      <title>Officer shot and suspect in custody after Le Flore County standoff</title>
+      <link>https://www.news9.com/crime/officer-shot-and-suspect-in-custody-after-le-flore-county-standoff</link>
+      <description/>
+      <pubDate>Mon, 20 Apr 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>news9.com</source>
+    </item>
+    <item>
+      <title>Law firm identifies attorney as victim in stabbing that led to deadly East Lansing police shooting</title>
+      <link>https://www.wnem.com/2026/04/16/law-firm-identifies-attorney-victim-stabbing-that-led-deadly-east-lansing-police-shooting/</link>
+      <description/>
+      <pubDate>Fri, 17 Apr 2026 05:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wnem.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in California moved  suddenly  to new jail : attorney</title>
+      <link>https://www.ktvu.com/news/man-shot-ice-california-moved-suddenly-new-jail-attorney</link>
+      <description/>
+      <pubDate>Thu, 16 Apr 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ktvu.com</source>
+    </item>
+    <item>
+      <title>California man shot by ICE arrested by FBI and charged with  assault  </title>
+      <link>https://www.yahoo.com/news/articles/fbi-arrests-california-man-shot-215208115.html</link>
+      <description/>
+      <pubDate>Wed, 15 Apr 2026 19:00:00 +0000</pubDate>
+      <category>legal</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE agents in Patterson charged with assault with deadly weapon</title>
+      <link>https://abc7news.com/post/man-shot-ice-agents-patterson-charged-assault-deadly-weapon/18887173/</link>
+      <description/>
+      <pubDate>Wed, 15 Apr 2026 05:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc7news.com</source>
+    </item>
     <item>
       <title>Man shot by ICE in California charged with assault on federal officer</title>
-      <link>https://www.fox10phoenix.com/news/man-shot-ice-california-charged-assault-federal-officer</link>
+      <link>https://www.fox2detroit.com/news/man-shot-ice-california-charged-assault-federal-officer</link>
       <description/>
-      <pubDate>Tue, 14 Apr 2026 22:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Apr 2026 02:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>fox10phoenix.com</source>
+      <source>fox2detroit.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in California faces charges of assaulting a federal officer with his car</title>
+      <link>https://www.abc10.com/article/syndication/associatedpress/man-shot-by-ice-in-california-faces-charges-of-assaulting-a-federal-officer-with-his-car/616-a21ee4e4-cf12-4e72-a95a-211284504306</link>
+      <description/>
+      <pubDate>Wed, 15 Apr 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc10.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in California charged with assaulting a federal officer with his car</title>
+      <link>https://mynorthwest.com/national/man-shot-by-ice-in-california-charged-with-assaulting-a-federal-officer-with-his-car/4228224</link>
+      <description/>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>mynorthwest.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in Central Valley faces charges – NBC Bay Area</title>
+      <link>https://www.nbcbayarea.com/news/california/man-shot-ice-central-valley-charges/4068884/</link>
+      <description/>
+      <pubDate>Tue, 14 Apr 2026 23:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcbayarea.com</source>
+    </item>
+    <item>
+      <title>Greenville officer shot , another injured , police say</title>
+      <link>https://www.wltx.com/article/news/local/officer-shot-injured-greenville-sc/101-ad7880e9-1ecc-4086-b34c-9ba66611c58d</link>
+      <description/>
+      <pubDate>Tue, 14 Apr 2026 00:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wltx.com</source>
+    </item>
+    <item>
+      <title>Police : Greenville , SC officer shot , suspect in custody</title>
+      <link>https://www.postandcourier.com/greenville/news/greenville-police-officer-shot-noma-square/article_6541c5e6-f452-4e2e-b2e5-6f67bd107f7f.html</link>
+      <description/>
+      <pubDate>Mon, 13 Apr 2026 22:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>postandcourier.com</source>
+    </item>
+    <item>
+      <title>Officer shot , suspect in custody after assault in downtown Greenville</title>
+      <link>https://www.wistv.com/2026/04/13/officer-shot-another-injured-while-responding-assault-downtown-greenville/</link>
+      <description/>
+      <pubDate>Mon, 13 Apr 2026 20:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wistv.com</source>
+    </item>
+    <item>
+      <title>Driver asleep at wheel leads to Cobb police shooting , chase</title>
+      <link>https://www.fox5atlanta.com/news/driver-asleep-wheel-leads-cobb-police-shooting-chase</link>
+      <description/>
+      <pubDate>Sun, 12 Apr 2026 21:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>Suspect Fatally Shot by Police Following Pursuit in East LA Identified</title>
+      <link>https://mynewsla.com/crime/2026/04/09/suspect-fatally-shot-by-police-following-pursuit-in-east-la-identified/</link>
+      <description/>
+      <pubDate>Fri, 10 Apr 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>mynewsla.com</source>
+    </item>
+    <item>
+      <title>Police officer shot in DeKalb County , barricaded suspect situation underway</title>
+      <link>https://www.11alive.com/article/news/local/police-officer-shot-dekalb-county-barricaded-suspect-situation-underway/85-82cb1249-a2cd-4762-9b03-4d930d2f70aa</link>
+      <description/>
+      <pubDate>Thu, 09 Apr 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>11alive.com</source>
+    </item>
+    <item>
+      <title>ICE officers fired on California man first before he drove away : attorney</title>
+      <link>https://www.fox2detroit.com/news/ice-shooting-update-california-carlos-hernandez-attorney</link>
+      <description/>
+      <pubDate>Thu, 09 Apr 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox2detroit.com</source>
     </item>
     <item>
       <title>California man shot by ICE says officials falsely labeled him a gang member</title>
@@ -21,6 +149,158 @@
       <pubDate>Thu, 09 Apr 2026 21:30:00 +0000</pubDate>
       <category>incident</category>
       <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>29 Years Later : Florence Co . deputies remember officer killed in line of duty</title>
+      <link>https://wpde.com/news/local/29-years-later-florence-co-deputies-remember-officer-killed-in-line-of-duty-deputy-joseph-joey-rodgers-killed-murder-suspect-highway-52-lake-city-bridge</link>
+      <description/>
+      <pubDate>Thu, 09 Apr 2026 21:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wpde.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE during operation in California feds say he a gang member who tried to run over officers</title>
+      <link>https://www.theblaze.com/news/man-shot-by-ice-during-operation-in-california-feds-say-hes-a-gang-member-who-tried-to-run-over-officers</link>
+      <description/>
+      <pubDate>Tue, 07 Apr 2026 22:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>theblaze.com</source>
+    </item>
+    <item>
+      <title>Illegal immigrant shot by ICE after allegedly trying to ram officer</title>
+      <link>https://www.foxnews.com/us/ice-involved-shooting-after-agency-says-illegal-immigrant-gang-member-tried-ram-officer</link>
+      <description/>
+      <pubDate>Tue, 07 Apr 2026 21:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>foxnews.com</source>
+    </item>
+    <item>
+      <title>Suspect at large in Henry Co . fatally shot by officer tracking him in the woods : Sheriff</title>
+      <link>https://wset.com/news/local/law-enforcement-responding-to-wooded-area-in-henry-county-sheriffs-office-berry-hill-court-extension-april-2026</link>
+      <description/>
+      <pubDate>Tue, 07 Apr 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wset.com</source>
+    </item>
+    <item>
+      <title>Report : Man Threatening  Suicide By Cop  Shot By Police</title>
+      <link>https://wtam.iheart.com/content/2026-04-06-report-man-threatening-suicide-by-cop-shot-by-police/</link>
+      <description/>
+      <pubDate>Mon, 06 Apr 2026 13:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wtam.iheart.com</source>
+    </item>
+    <item>
+      <title>Man shot by police in Boston after attacking officer , EMS clinician with sword</title>
+      <link>https://www.wmtw.com/article/boston-incident-officers-suspect-injured/70935033</link>
+      <description/>
+      <pubDate>Sun, 05 Apr 2026 01:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wmtw.com</source>
+    </item>
+    <item>
+      <title>Flint officer shot while stopping ex from assaulting former girlfriend</title>
+      <link>https://www.yahoo.com/news/articles/flint-officer-shot-while-stopping-233021691.html</link>
+      <description/>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Man believed to have killed 2 people in Chester , Pa . before being shot by police : DA</title>
+      <link>https://6abc.com/post/person-shot-another-stabbed-large-crowd-gathered-high-school-chester-pa/18820751/</link>
+      <description/>
+      <pubDate>Wed, 01 Apr 2026 15:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>6abc.com</source>
+    </item>
+    <item>
+      <title>Flint police officer shot several times at domestic disturbance</title>
+      <link>https://www.abc12.com/news/crime/flint-police-officer-shot-several-times-at-domestic-disturbance/article_9d79e63e-b4bd-420e-bf27-67608e69e1e6.html</link>
+      <description/>
+      <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc12.com</source>
+    </item>
+    <item>
+      <title>Flint police officer shot multiple times , now in stable condition</title>
+      <link>https://www.wnem.com/2026/04/01/flint-police-officer-shot-multiple-times-injured/</link>
+      <description/>
+      <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wnem.com</source>
+    </item>
+    <item>
+      <title>Man shot by officer in Miami after becoming aggressive during argument , police say</title>
+      <link>https://www.nbcmiami.com/news/local/man-shot-by-officer-in-miami-after-becoming-aggressive-during-argument-police-say/3787639/</link>
+      <description/>
+      <pubDate>Sat, 28 Mar 2026 18:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcmiami.com</source>
+    </item>
+    <item>
+      <title>Billings officer shoots armed suspect who reached for gun during suspicious person call</title>
+      <link>https://www.kulr8.com/news/billings-officer-shoots-armed-suspect-who-reached-for-gun-during-suspicious-person-call/article_dafde15b-d628-441d-b7dd-8b0e13304c1c.html</link>
+      <description/>
+      <pubDate>Sat, 28 Mar 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kulr8.com</source>
+    </item>
+    <item>
+      <title>Md . OAG investigating traffic stop that led to deadly police shooting in Hyattsville</title>
+      <link>https://wjla.com/news/local/maryland-office-of-attorney-general-investigation-traffic-stop-turned-deadly-police-officer-involved-shooting-hyattsville-crime-injuries-ager-east-west-highway</link>
+      <description/>
+      <pubDate>Fri, 27 Mar 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wjla.com</source>
+    </item>
+    <item>
+      <title>Man charged in Brookfield police shooting , Waukesha shots - fired incidents</title>
+      <link>https://www.fox6now.com/news/man-charged-brookfield-police-shooting-waukesha-shots-fired-incidents</link>
+      <description/>
+      <pubDate>Fri, 27 Mar 2026 04:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox6now.com</source>
+    </item>
+    <item>
+      <title>Rochester officer shot in the line of duty released from hospital</title>
+      <link>https://cnycentral.com/news/local/rochester-police-officer-shot-in-the-line-of-duty-released-from-hospital-lake-avenue-driving-park-hague-street-shatique-cato-rochesrter-police-department</link>
+      <description/>
+      <pubDate>Thu, 26 Mar 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>cnycentral.com</source>
+    </item>
+    <item>
+      <title>Park Police officer shot in DC was following man just released from custody</title>
+      <link>https://wtop.com/dc/2026/03/park-police-officer-shot-in-dc-was-following-man-just-released-from-custody/</link>
+      <description/>
+      <pubDate>Thu, 26 Mar 2026 04:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wtop.com</source>
+    </item>
+    <item>
+      <title>Dayton police shooting is fourth in past year</title>
+      <link>https://www.daytondailynews.com/crime/dayton-police-shooting-is-fourth-in-past-year/RMO56LJR75H6LBAEYP6KN2ZFVQ/</link>
+      <description/>
+      <pubDate>Wed, 25 Mar 2026 14:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>daytondailynews.com</source>
+    </item>
+    <item>
+      <title>Congressmen call for independent investigation into death of San Antonio man killed by ICE</title>
+      <link>https://www.ksat.com/news/local/2026/03/24/congressmen-call-for-independent-investigation-into-death-of-san-antonio-man-killed-by-ice/</link>
+      <description/>
+      <pubDate>Tue, 24 Mar 2026 19:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ksat.com</source>
+    </item>
+    <item>
+      <title>7 Sources : Person shot by police in Westminster - Boston News , Weather , Sports</title>
+      <link>https://whdh.com/news/7-sources-person-shot-by-police-in-westminster/</link>
+      <description/>
+      <pubDate>Tue, 24 Mar 2026 02:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>whdh.com</source>
     </item>
   </channel>
 </rss>
