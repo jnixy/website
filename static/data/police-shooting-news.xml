@@ -5,7 +5,31 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Apr 2026 08:09:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 08:18:35 +0000</lastBuildDate>
+    <item>
+      <title>Georgia officer shot  in the center of his chest  saved by ballistic vest , police chief says – WSB - TV Channel 2</title>
+      <link>https://www.wsbtv.com/news/local/georgia-officer-shot-center-his-chest-saved-by-ballistic-vest-police-chief-says/PNIM27C575FSBKOF6HNKB4KXOQ/</link>
+      <description/>
+      <pubDate>Fri, 24 Apr 2026 02:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsbtv.com</source>
+    </item>
+    <item>
+      <title>Officer shot in chest survives , kills suspect in exchange of gunfire</title>
+      <link>https://www.wsbradio.com/news/local/officer-shot-chest-survives-kills-suspect-exchange-gunfire/UQEOPAIJERHVBJ2WICR63O3DM4/</link>
+      <description/>
+      <pubDate>Thu, 23 Apr 2026 19:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsbradio.com</source>
+    </item>
+    <item>
+      <title>Adairsville police officer shot in chest , saved by his vest , police chief says - WSB - TV Channel 2</title>
+      <link>https://www.wsbtv.com/news/local/georgia-officer-shot-chest-saved-by-his-vest-chief-says/Z5GVC7EWQ5DYJF6M6ZBNEJISYQ/</link>
+      <description/>
+      <pubDate>Thu, 23 Apr 2026 16:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsbtv.com</source>
+    </item>
     <item>
       <title>Suspect shot by police near 9th and Walnut streets in Chester , Pennsylvania</title>
       <link>https://6abc.com/post/suspect-shot-police-9th-walnut-streets-chester-pennsylvania/18946281/</link>
@@ -15,12 +39,28 @@
       <source>6abc.com</source>
     </item>
     <item>
+      <title>Man shot by police in Ashland identified as Laconia man</title>
+      <link>https://www.wmur.com/article/police-shooting-ashland-demitri-zimmer-42226/71099020</link>
+      <description/>
+      <pubDate>Thu, 23 Apr 2026 00:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wmur.com</source>
+    </item>
+    <item>
       <title>Deputy shot at near Highways 55 and 131 in Manzano</title>
       <link>https://www.koat.com/article/new-mexico-police-law-hwys-55-131-torrance-county/71089596</link>
       <description/>
       <pubDate>Wed, 22 Apr 2026 01:15:00 +0000</pubDate>
       <category>incident</category>
       <source>koat.com</source>
+    </item>
+    <item>
+      <title>Man killed , officer shot during traffic stop in New Hampshire</title>
+      <link>https://www.boston.com/news/local-news/2026/04/21/man-killed-officer-shot-during-traffic-stop-in-new-hampshire/</link>
+      <description/>
+      <pubDate>Tue, 21 Apr 2026 16:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>boston.com</source>
     </item>
     <item>
       <title>Deputy shot and one suspect in custody after Le Flore County standoff</title>
@@ -61,6 +101,14 @@
       <pubDate>Thu, 16 Apr 2026 23:30:00 +0000</pubDate>
       <category>incident</category>
       <source>ktvu.com</source>
+    </item>
+    <item>
+      <title>Teen allegedly mimicked holding a weapon before Oregon State police shot , killed him</title>
+      <link>https://www.kgw.com/article/news/crime/teen-allegedly-mimicked-holding-weapon-oregon-state-police-shot-killed-him/283-cd61b98d-e7dd-4f94-b886-269de889a31d</link>
+      <description/>
+      <pubDate>Thu, 16 Apr 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kgw.com</source>
     </item>
     <item>
       <title>Man shot by ICE agents in Patterson charged with assault with deadly weapon</title>
@@ -133,6 +181,14 @@
       <pubDate>Thu, 09 Apr 2026 23:00:00 +0000</pubDate>
       <category>incident</category>
       <source>fox2detroit.com</source>
+    </item>
+    <item>
+      <title>California man shot by ICE says officials falsely labeled him a gang member</title>
+      <link>https://www.yahoo.com/news/articles/california-man-shot-ice-says-205438764.html</link>
+      <description/>
+      <pubDate>Thu, 09 Apr 2026 21:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
     </item>
     <item>
       <title>29 Years Later : Florence Co . deputies remember officer killed in line of duty</title>
@@ -215,6 +271,14 @@
       <source>wnem.com</source>
     </item>
     <item>
+      <title>Memorial held for Adam Toledo five years after police shooting</title>
+      <link>https://www.fox32chicago.com/news/memorial-held-adam-toledo-five-years-after-police-shooting</link>
+      <description/>
+      <pubDate>Mon, 30 Mar 2026 07:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox32chicago.com</source>
+    </item>
+    <item>
       <title>Man shot by officer in Miami after becoming aggressive during argument , police say</title>
       <link>https://www.nbcmiami.com/news/local/man-shot-by-officer-in-miami-after-becoming-aggressive-during-argument-police-say/3787639/</link>
       <description/>
@@ -269,14 +333,6 @@
       <pubDate>Wed, 25 Mar 2026 14:45:00 +0000</pubDate>
       <category>incident</category>
       <source>daytondailynews.com</source>
-    </item>
-    <item>
-      <title>Montgomery County Police officer shoots person , severity of injuries unknown</title>
-      <link>https://www.wusa9.com/article/news/crime/montgomery-county-police-officer-shoots-person/65-99b9d0f6-68de-4c01-a6cb-8af3edd54da5</link>
-      <description/>
-      <pubDate>Tue, 24 Mar 2026 22:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wusa9.com</source>
     </item>
   </channel>
 </rss>
