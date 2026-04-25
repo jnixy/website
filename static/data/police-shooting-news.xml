@@ -5,7 +5,31 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2026 08:18:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 07:43:25 +0000</lastBuildDate>
+    <item>
+      <title>Suspect dead after police shooting in Los Lunas</title>
+      <link>https://www.koat.com/article/new-mexico-state-police-shooting-los-lunas/71125262</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 05:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
+    </item>
+    <item>
+      <title>Jury selection begins for three men accused of 2023 home invasion that left Tallahassee officer shot</title>
+      <link>https://www.wctv.tv/2026/04/24/jury-selection-begins-trial-three-men-accused-2023-home-invasion-that-left-tallahassee-officer-shot/</link>
+      <description/>
+      <pubDate>Fri, 24 Apr 2026 17:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wctv.tv</source>
+    </item>
+    <item>
+      <title>Officer shot suspect in Wildwood domestic disturbance , police say</title>
+      <link>https://www.ksdk.com/article/news/crime/officer-shot-suspect-in-wildwood-domestic-disturbance-police-say/63-bfb79554-33e2-4ad0-90f1-27411f5cb5f4</link>
+      <description/>
+      <pubDate>Fri, 24 Apr 2026 10:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ksdk.com</source>
+    </item>
     <item>
       <title>Georgia officer shot  in the center of his chest  saved by ballistic vest , police chief says – WSB - TV Channel 2</title>
       <link>https://www.wsbtv.com/news/local/georgia-officer-shot-center-his-chest-saved-by-ballistic-vest-police-chief-says/PNIM27C575FSBKOF6HNKB4KXOQ/</link>
@@ -309,30 +333,6 @@
       <pubDate>Thu, 26 Mar 2026 23:30:00 +0000</pubDate>
       <category>incident</category>
       <source>cnycentral.com</source>
-    </item>
-    <item>
-      <title>Park Police officer shot in DC was following man just released from custody</title>
-      <link>https://wtop.com/dc/2026/03/park-police-officer-shot-in-dc-was-following-man-just-released-from-custody/</link>
-      <description/>
-      <pubDate>Thu, 26 Mar 2026 04:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wtop.com</source>
-    </item>
-    <item>
-      <title>US Park Police shooting was caught on camera , charging documents show</title>
-      <link>https://www.wusa9.com/article/news/crime/us-park-police-shooting-charging-documents/65-7902df0f-f7fd-4886-a13d-fc8cd31746e6</link>
-      <description/>
-      <pubDate>Wed, 25 Mar 2026 23:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wusa9.com</source>
-    </item>
-    <item>
-      <title>Dayton police shooting is fourth in past year</title>
-      <link>https://www.daytondailynews.com/crime/dayton-police-shooting-is-fourth-in-past-year/RMO56LJR75H6LBAEYP6KN2ZFVQ/</link>
-      <description/>
-      <pubDate>Wed, 25 Mar 2026 14:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>daytondailynews.com</source>
     </item>
   </channel>
 </rss>
