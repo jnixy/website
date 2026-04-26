@@ -5,7 +5,47 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Apr 2026 07:43:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 07:51:36 +0000</lastBuildDate>
+    <item>
+      <title>Officer killed , another critically injured in Chicago hospital shooting , police say</title>
+      <link>https://www.thegazette.com/news/national/officer-killed-another-critically-injured-in-chicago-hospital-shooting-police-say/article_c1ab57f0-72bb-59b7-8863-3fcdb52e1de9.html</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegazette.com</source>
+    </item>
+    <item>
+      <title>1 police officer killed , another wounded , in shooting at Chicago Endeavor Health Swedish Hospital , officials say</title>
+      <link>https://abc11.com/post/1-police-officer-killed-another-wounded-in-shooting-at-chicago-hospital/18966308/</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc11.com</source>
+    </item>
+    <item>
+      <title>VIDEO : Officer shoots suspect after becoming trapped in getaway car</title>
+      <link>https://local12.com/news/nation-world/getaway-car-shooting-officer-trapped-kidnapped-shot-driver-robbery-burglary-vehicle-crash-into-window-door-doors-passenger-seat-police-legs-leg-gunshot-break-in-gas-accelerate-driving-jump-out</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 22:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>local12.com</source>
+    </item>
+    <item>
+      <title>Officer Killed in Chicago Hospital Shooting , Suspect in Custody</title>
+      <link>https://www.newsweek.com/two-police-officers-shot-in-chicago-hospital-report-11878060</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 21:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>newsweek.com</source>
+    </item>
+    <item>
+      <title>Las Vegas police : officer shot armed suspect during foot pursuit near Strip | Shootings</title>
+      <link>https://www.reviewjournal.com/crime/shootings/metro-investigating-officer-involved-shooting-in-spring-valley-3792653/</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 18:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>reviewjournal.com</source>
+    </item>
     <item>
       <title>Suspect dead after police shooting in Los Lunas</title>
       <link>https://www.koat.com/article/new-mexico-state-police-shooting-los-lunas/71125262</link>
@@ -103,14 +143,6 @@
       <source>news9.com</source>
     </item>
     <item>
-      <title>Dallas officer shoots suspect overnight during violent traffic stop near Highland Park Village</title>
-      <link>https://www.wbap.com/2026/04/19/crime-dallas-officer-shoots-suspect-overnight-during-violent-traffic-stop-near-highland-park-village/</link>
-      <description/>
-      <pubDate>Sun, 19 Apr 2026 15:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wbap.com</source>
-    </item>
-    <item>
       <title>Law firm identifies attorney as victim in stabbing that led to deadly East Lansing police shooting</title>
       <link>https://www.wnem.com/2026/04/16/law-firm-identifies-attorney-victim-stabbing-that-led-deadly-east-lansing-police-shooting/</link>
       <description/>
@@ -205,14 +237,6 @@
       <pubDate>Thu, 09 Apr 2026 23:00:00 +0000</pubDate>
       <category>incident</category>
       <source>fox2detroit.com</source>
-    </item>
-    <item>
-      <title>California man shot by ICE says officials falsely labeled him a gang member</title>
-      <link>https://www.yahoo.com/news/articles/california-man-shot-ice-says-205438764.html</link>
-      <description/>
-      <pubDate>Thu, 09 Apr 2026 21:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>yahoo.com</source>
     </item>
     <item>
       <title>29 Years Later : Florence Co . deputies remember officer killed in line of duty</title>
@@ -317,22 +341,6 @@
       <pubDate>Sat, 28 Mar 2026 03:00:00 +0000</pubDate>
       <category>incident</category>
       <source>kulr8.com</source>
-    </item>
-    <item>
-      <title>Man charged in Brookfield police shooting , Waukesha shots - fired incidents</title>
-      <link>https://www.fox6now.com/news/man-charged-brookfield-police-shooting-waukesha-shots-fired-incidents</link>
-      <description/>
-      <pubDate>Fri, 27 Mar 2026 04:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>Rochester officer shot in the line of duty released from hospital</title>
-      <link>https://cnycentral.com/news/local/rochester-police-officer-shot-in-the-line-of-duty-released-from-hospital-lake-avenue-driving-park-hague-street-shatique-cato-rochesrter-police-department</link>
-      <description/>
-      <pubDate>Thu, 26 Mar 2026 23:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>cnycentral.com</source>
     </item>
   </channel>
 </rss>
