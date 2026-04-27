@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2026 07:51:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 08:41:10 +0000</lastBuildDate>
+    <item>
+      <title>Secret Service officer shot at White House dinner released from hospital</title>
+      <link>https://wcti12.com/news/nation-world/secret-service-officer-released-shot-white-house-correspondents-dinner-shooter-cole-thomas-allen-agent-shot-in-vest-president-trump-evacuted-rushed-out-jd-vance-marco-rubio-melania-fbi-charges-investigation</link>
+      <description/>
+      <pubDate>Sun, 26 Apr 2026 14:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wcti12.com</source>
+    </item>
     <item>
       <title>Officer killed , another critically injured in Chicago hospital shooting , police say</title>
       <link>https://www.thegazette.com/news/national/officer-killed-another-critically-injured-in-chicago-hospital-shooting-police-say/article_c1ab57f0-72bb-59b7-8863-3fcdb52e1de9.html</link>
@@ -239,6 +247,14 @@
       <source>fox2detroit.com</source>
     </item>
     <item>
+      <title>California man shot by ICE says officials falsely labeled him a gang member</title>
+      <link>https://www.yahoo.com/news/articles/california-man-shot-ice-says-205438764.html</link>
+      <description/>
+      <pubDate>Thu, 09 Apr 2026 21:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
       <title>29 Years Later : Florence Co . deputies remember officer killed in line of duty</title>
       <link>https://wpde.com/news/local/29-years-later-florence-co-deputies-remember-officer-killed-in-line-of-duty-deputy-joseph-joey-rodgers-killed-murder-suspect-highway-52-lake-city-bridge</link>
       <description/>
@@ -333,14 +349,6 @@
       <pubDate>Sat, 28 Mar 2026 18:30:00 +0000</pubDate>
       <category>incident</category>
       <source>nbcmiami.com</source>
-    </item>
-    <item>
-      <title>Billings officer shoots armed suspect who reached for gun during suspicious person call</title>
-      <link>https://www.kulr8.com/news/billings-officer-shoots-armed-suspect-who-reached-for-gun-during-suspicious-person-call/article_dafde15b-d628-441d-b7dd-8b0e13304c1c.html</link>
-      <description/>
-      <pubDate>Sat, 28 Mar 2026 03:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kulr8.com</source>
     </item>
   </channel>
 </rss>
