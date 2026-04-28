@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Post-print", url="Warrior_Guardian_Postprint.pdf", icon = "unlock-alt", icon_pack = "fas"}]
+links = [{name = "Post-print", url="Warrior_Guardian_Postprint.pdf", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1080/10439463.2026.2662950"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder.
