@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Apr 2026 08:41:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 08:39:06 +0000</lastBuildDate>
+    <item>
+      <title>Baltimore man shot by ICE pleads guilty to damaging vans</title>
+      <link>https://www.baltimoresun.com/2026/04/27/baltimore-man-shot-ice-pleads-guilty/</link>
+      <description/>
+      <pubDate>Tue, 28 Apr 2026 01:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>baltimoresun.com</source>
+    </item>
+    <item>
+      <title>Chicago police officer killed in hospital shooting identified , second officer in critical condition</title>
+      <link>https://www.10tv.com/article/news/nation-world/chicago-police-officer-killed-in-hospital-shooting-identified/507-be58f474-4142-4a99-b7ce-6ab79bc802df</link>
+      <description/>
+      <pubDate>Sun, 26 Apr 2026 22:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>10tv.com</source>
+    </item>
     <item>
       <title>Secret Service officer shot at White House dinner released from hospital</title>
       <link>https://wcti12.com/news/nation-world/secret-service-officer-released-shot-white-house-correspondents-dinner-shooter-cole-thomas-allen-agent-shot-in-vest-president-trump-evacuted-rushed-out-jd-vance-marco-rubio-melania-fbi-charges-investigation</link>
@@ -37,14 +53,6 @@
       <pubDate>Sat, 25 Apr 2026 22:00:00 +0000</pubDate>
       <category>incident</category>
       <source>local12.com</source>
-    </item>
-    <item>
-      <title>Officer Killed in Chicago Hospital Shooting , Suspect in Custody</title>
-      <link>https://www.newsweek.com/two-police-officers-shot-in-chicago-hospital-report-11878060</link>
-      <description/>
-      <pubDate>Sat, 25 Apr 2026 21:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>newsweek.com</source>
     </item>
     <item>
       <title>Las Vegas police : officer shot armed suspect during foot pursuit near Strip | Shootings</title>
@@ -87,6 +95,22 @@
       <source>wsbtv.com</source>
     </item>
     <item>
+      <title>US citizens shot by ICE beg Congress to rein in federal immigration agents</title>
+      <link>https://www.idahostatejournal.com/freeaccess/us-citizens-shot-by-ice-beg-congress-to-rein-in-federal-immigration-agents/article_ce95f5f9-92e2-4a35-ab4c-0922cd041ca5.html</link>
+      <description/>
+      <pubDate>Thu, 23 Apr 2026 23:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>idahostatejournal.com</source>
+    </item>
+    <item>
+      <title>U . S . citizens shot by ICE beg Congress to rein in federal immigration agents</title>
+      <link>https://www.kotatv.com/2026/04/23/us-citizens-shot-by-ice-beg-congress-rein-federal-immigration-agents/</link>
+      <description/>
+      <pubDate>Thu, 23 Apr 2026 19:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kotatv.com</source>
+    </item>
+    <item>
       <title>Officer shot in chest survives , kills suspect in exchange of gunfire</title>
       <link>https://www.wsbradio.com/news/local/officer-shot-chest-survives-kills-suspect-exchange-gunfire/UQEOPAIJERHVBJ2WICR63O3DM4/</link>
       <description/>
@@ -111,12 +135,12 @@
       <source>6abc.com</source>
     </item>
     <item>
-      <title>Man shot by police in Ashland identified as Laconia man</title>
-      <link>https://www.wmur.com/article/police-shooting-ashland-demitri-zimmer-42226/71099020</link>
+      <title>U . S . citizens shot by ICE urge Congress to rein in federal immigration agents</title>
+      <link>https://www.govexec.com/management/2026/04/citizens-shot-ice-congress-rein-immigration-agents/413053/</link>
       <description/>
-      <pubDate>Thu, 23 Apr 2026 00:45:00 +0000</pubDate>
+      <pubDate>Thu, 23 Apr 2026 02:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>wmur.com</source>
+      <source>govexec.com</source>
     </item>
     <item>
       <title>Deputy shot at near Highways 55 and 131 in Manzano</title>
@@ -127,12 +151,28 @@
       <source>koat.com</source>
     </item>
     <item>
-      <title>Man killed , officer shot during traffic stop in New Hampshire</title>
-      <link>https://www.boston.com/news/local-news/2026/04/21/man-killed-officer-shot-during-traffic-stop-in-new-hampshire/</link>
+      <title>Man shot by ICE in California to remain in custody over concerns he a flight risk , lawyer says</title>
+      <link>https://www.cbsnews.com/sacramento/news/man-shot-by-ice-california-denied-bail/</link>
       <description/>
-      <pubDate>Tue, 21 Apr 2026 16:45:00 +0000</pubDate>
+      <pubDate>Tue, 21 Apr 2026 06:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>boston.com</source>
+      <source>cbsnews.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in California will remain in custody over concerns he a flight risk , lawyer says</title>
+      <link>https://www.seattletimes.com/nation-world/nation/man-shot-by-ice-in-california-will-remain-in-custody-over-concerns-hes-a-flight-risk-lawyer-says/</link>
+      <description/>
+      <pubDate>Tue, 21 Apr 2026 02:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>seattletimes.com</source>
+    </item>
+    <item>
+      <title>Judge rules man shot by ICE in California must stay in federal custody</title>
+      <link>https://www.ktvu.com/news/judge-rules-man-shot-ice-california-must-stay-federal-custody</link>
+      <description/>
+      <pubDate>Mon, 20 Apr 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ktvu.com</source>
     </item>
     <item>
       <title>Deputy shot and one suspect in custody after Le Flore County standoff</title>
@@ -151,14 +191,6 @@
       <source>news9.com</source>
     </item>
     <item>
-      <title>Law firm identifies attorney as victim in stabbing that led to deadly East Lansing police shooting</title>
-      <link>https://www.wnem.com/2026/04/16/law-firm-identifies-attorney-victim-stabbing-that-led-deadly-east-lansing-police-shooting/</link>
-      <description/>
-      <pubDate>Fri, 17 Apr 2026 05:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wnem.com</source>
-    </item>
-    <item>
       <title>Man shot by ICE in California moved  suddenly  to new jail : attorney</title>
       <link>https://www.ktvu.com/news/man-shot-ice-california-moved-suddenly-new-jail-attorney</link>
       <description/>
@@ -167,12 +199,12 @@
       <source>ktvu.com</source>
     </item>
     <item>
-      <title>Teen allegedly mimicked holding a weapon before Oregon State police shot , killed him</title>
-      <link>https://www.kgw.com/article/news/crime/teen-allegedly-mimicked-holding-weapon-oregon-state-police-shot-killed-him/283-cd61b98d-e7dd-4f94-b886-269de889a31d</link>
+      <title>California man shot by ICE arrested by FBI and charged with  assault  </title>
+      <link>https://www.yahoo.com/news/articles/fbi-arrests-california-man-shot-215208115.html</link>
       <description/>
-      <pubDate>Thu, 16 Apr 2026 02:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kgw.com</source>
+      <pubDate>Wed, 15 Apr 2026 19:00:00 +0000</pubDate>
+      <category>legal</category>
+      <source>yahoo.com</source>
     </item>
     <item>
       <title>Man shot by ICE agents in Patterson charged with assault with deadly weapon</title>
@@ -189,6 +221,30 @@
       <pubDate>Wed, 15 Apr 2026 02:30:00 +0000</pubDate>
       <category>incident</category>
       <source>fox2detroit.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in California faces charges of assaulting a federal officer with his car</title>
+      <link>https://www.abc10.com/article/syndication/associatedpress/man-shot-by-ice-in-california-faces-charges-of-assaulting-a-federal-officer-with-his-car/616-a21ee4e4-cf12-4e72-a95a-211284504306</link>
+      <description/>
+      <pubDate>Wed, 15 Apr 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc10.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in California charged with assaulting a federal officer with his car</title>
+      <link>https://mynorthwest.com/national/man-shot-by-ice-in-california-charged-with-assaulting-a-federal-officer-with-his-car/4228224</link>
+      <description/>
+      <pubDate>Wed, 15 Apr 2026 02:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>mynorthwest.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in Central Valley faces charges – NBC Bay Area</title>
+      <link>https://www.nbcbayarea.com/news/california/man-shot-ice-central-valley-charges/4068884/</link>
+      <description/>
+      <pubDate>Tue, 14 Apr 2026 23:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcbayarea.com</source>
     </item>
     <item>
       <title>Greenville officer shot , another injured , police say</title>
@@ -271,20 +327,20 @@
       <source>denverpost.com</source>
     </item>
     <item>
+      <title>Man shot by ICE during operation in California feds say he a gang member who tried to run over officers</title>
+      <link>https://www.theblaze.com/news/man-shot-by-ice-during-operation-in-california-feds-say-hes-a-gang-member-who-tried-to-run-over-officers</link>
+      <description/>
+      <pubDate>Tue, 07 Apr 2026 22:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>theblaze.com</source>
+    </item>
+    <item>
       <title>Illegal immigrant shot by ICE after allegedly trying to ram officer</title>
       <link>https://www.foxnews.com/us/ice-involved-shooting-after-agency-says-illegal-immigrant-gang-member-tried-ram-officer</link>
       <description/>
       <pubDate>Tue, 07 Apr 2026 21:15:00 +0000</pubDate>
       <category>incident</category>
       <source>foxnews.com</source>
-    </item>
-    <item>
-      <title>Suspect at large in Henry Co . fatally shot by officer tracking him in the woods : Sheriff</title>
-      <link>https://wset.com/news/local/law-enforcement-responding-to-wooded-area-in-henry-county-sheriffs-office-berry-hill-court-extension-april-2026</link>
-      <description/>
-      <pubDate>Tue, 07 Apr 2026 20:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wset.com</source>
     </item>
     <item>
       <title>Report : Man Threatening  Suicide By Cop  Shot By Police</title>
@@ -333,22 +389,6 @@
       <pubDate>Wed, 01 Apr 2026 13:30:00 +0000</pubDate>
       <category>incident</category>
       <source>wnem.com</source>
-    </item>
-    <item>
-      <title>Memorial held for Adam Toledo five years after police shooting</title>
-      <link>https://www.fox32chicago.com/news/memorial-held-adam-toledo-five-years-after-police-shooting</link>
-      <description/>
-      <pubDate>Mon, 30 Mar 2026 07:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox32chicago.com</source>
-    </item>
-    <item>
-      <title>Man shot by officer in Miami after becoming aggressive during argument , police say</title>
-      <link>https://www.nbcmiami.com/news/local/man-shot-by-officer-in-miami-after-becoming-aggressive-during-argument-police-say/3787639/</link>
-      <description/>
-      <pubDate>Sat, 28 Mar 2026 18:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcmiami.com</source>
     </item>
   </channel>
 </rss>
