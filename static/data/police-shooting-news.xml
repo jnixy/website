@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 09:51:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 09:58:29 +0000</lastBuildDate>
+    <item>
+      <title>Fresno police searching for armed suspect after officer shot , woman and child rescued</title>
+      <link>https://www.yahoo.com/news/articles/heavy-police-activity-southwest-fresno-062732866.html</link>
+      <description/>
+      <pubDate>Sun, 17 May 2026 10:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Metro Police Officer Shoots Suspect Armed with Knife | NewsRadio 740 KTRH | KTRH Local Houston and Texas News</title>
+      <link>https://ktrh.iheart.com/featured/houston-texas-news/content/2026-05-16-metro-police-officer-shoots-suspect-armed-with-knife/</link>
+      <description/>
+      <pubDate>Sat, 16 May 2026 20:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ktrh.iheart.com</source>
+    </item>
     <item>
       <title>Kansas City mom was inches away when KCKPD officer killed her son</title>
       <link>https://www.kshb.com/news/local-news/kansas/wyandotte-county/my-son-laid-down-here-like-a-dog-kansas-city-mom-was-inches-away-when-kckpd-officer-killed-her-son</link>
@@ -19,6 +35,22 @@
       <link>https://www.fox2detroit.com/news/waterford-community-shaken-deadly-police-shooting-after-car-chase</link>
       <description/>
       <pubDate>Sat, 16 May 2026 00:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox2detroit.com</source>
+    </item>
+    <item>
+      <title>Man dies after police shooting in Oakland County</title>
+      <link>https://www.clickondetroit.com/news/local/2026/05/15/man-dies-after-police-shooting-in-oakland-county/</link>
+      <description/>
+      <pubDate>Fri, 15 May 2026 12:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>clickondetroit.com</source>
+    </item>
+    <item>
+      <title>Suspect shot in Ecorse police shooting after domestic violence call</title>
+      <link>https://www.fox2detroit.com/news/suspect-shot-ecorse-police-shooting-after-domestic-violence-call</link>
+      <description/>
+      <pubDate>Fri, 15 May 2026 04:30:00 +0000</pubDate>
       <category>incident</category>
       <source>fox2detroit.com</source>
     </item>
@@ -39,12 +71,36 @@
       <source>fox13memphis.com</source>
     </item>
     <item>
+      <title>Gary , Indiana police shooting : 1 injured in police - involved shooting at Methodist Northlake Hospital , Lake County Sheriff says</title>
+      <link>https://abc7chicago.com/post/gary-indiana-police-shooting-1-injured-involved-methodist-northlake-hospital-lake-county-sheriff-says/19095173/</link>
+      <description/>
+      <pubDate>Wed, 13 May 2026 22:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc7chicago.com</source>
+    </item>
+    <item>
       <title>From 1893 to 2024 , Syracuse ceremony remembers every officer killed in the line of duty</title>
       <link>https://cnycentral.com/news/local/from-1893-to-2024-syracuse-ceremony-remembers-every-officer-killed-in-the-line-of-duty</link>
       <description/>
       <pubDate>Mon, 11 May 2026 15:45:00 +0000</pubDate>
       <category>incident</category>
       <source>cnycentral.com</source>
+    </item>
+    <item>
+      <title>LPD : Officer shoots suspect who pointed gun at citizen on 38th near Indiana</title>
+      <link>https://www.kcbd.com/2026/05/10/1-seriously-injured-shot-by-lpd-officer-3400-block-indiana-ave/</link>
+      <description/>
+      <pubDate>Mon, 11 May 2026 00:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kcbd.com</source>
+    </item>
+    <item>
+      <title>Suspect trying to break into Muncie home fatally shot by police</title>
+      <link>https://www.wishtv.com/news/indiana-news/muncie-burglary-suspect-shot-by-police/</link>
+      <description/>
+      <pubDate>Sat, 09 May 2026 14:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wishtv.com</source>
     </item>
     <item>
       <title>Charge of assault on federal officer against California man shot by ICE headed toward dismissal</title>
@@ -55,12 +111,100 @@
       <source>eastbaytimes.com</source>
     </item>
     <item>
+      <title>Berwick police officer shoots dog after suspect releases animals on police , officials say</title>
+      <link>https://www.wbrz.com/news/berwick-police-officer-shoots-dog-after-suspect-releases-animals-on-police-officials-say</link>
+      <description/>
+      <pubDate>Wed, 06 May 2026 04:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wbrz.com</source>
+    </item>
+    <item>
+      <title>Shapiro honors Chester County Trooper killed in line of duty – NBC10 Philadelphia</title>
+      <link>https://www.nbcphiladelphia.com/news/local/shapiro-honors-chester-county-trooper-killed-in-line-of-duty-during-ceremony/4396694/</link>
+      <description/>
+      <pubDate>Mon, 04 May 2026 23:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcphiladelphia.com</source>
+    </item>
+    <item>
+      <title>Ottawa police officer shot while assisting in homicide arrest</title>
+      <link>https://www.kwch.com/2026/05/02/ottawa-police-officer-shot-while-assisting-multiple-agencies-homicide-arrest/</link>
+      <description/>
+      <pubDate>Sat, 02 May 2026 19:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kwch.com</source>
+    </item>
+    <item>
       <title>Albuquerque pays $6 . 5M to family after police shot man holding nail clippers</title>
       <link>https://www.kob.com/new-mexico/albuquerque-metro/albuquerque-pays-6-5m-to-family-after-police-shot-man-holding-nail-clippers/</link>
       <description/>
       <pubDate>Sat, 02 May 2026 04:45:00 +0000</pubDate>
       <category>incident</category>
       <source>kob.com</source>
+    </item>
+    <item>
+      <title>Richfield police officer shot in line of duty released from hospital</title>
+      <link>https://www.fox9.com/news/richfield-police-officer-shot-line-duty-released-from-hospital</link>
+      <description/>
+      <pubDate>Fri, 01 May 2026 07:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox9.com</source>
+    </item>
+    <item>
+      <title>Funeral services announced for Chicago police officer killed at Swedish Hospital</title>
+      <link>https://chicago.suntimes.com/crime/2026/04/30/funeral-services-announced-for-chicago-police-officer-killed-at-swedish-hospital</link>
+      <description/>
+      <pubDate>Thu, 30 Apr 2026 22:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>chicago.suntimes.com</source>
+    </item>
+    <item>
+      <title>Columbus police officer shot in Linden area , suspect killed</title>
+      <link>https://abc6onyourside.com/news/local/large-police-presence-in-north-columbus-16th-hamilton-ave</link>
+      <description/>
+      <pubDate>Thu, 30 Apr 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc6onyourside.com</source>
+    </item>
+    <item>
+      <title>Richfield police shooting : Suspect killed , officer hurt in gunfire exchange</title>
+      <link>https://www.fox9.com/news/richfield-officer-involved-shooting-april-29-2026</link>
+      <description/>
+      <pubDate>Wed, 29 Apr 2026 12:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox9.com</source>
+    </item>
+    <item>
+      <title>Secret Service Agent Shot At WHCD Was Only One To Return Fire</title>
+      <link>https://hotair.com/headlines/2026/04/28/secret-service-agent-shot-at-whcd-was-only-one-to-return-fire-n3814353</link>
+      <description/>
+      <pubDate>Tue, 28 Apr 2026 14:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>hotair.com</source>
+    </item>
+    <item>
+      <title>Man Florence police shot held knife to woman neck during hostage situation , SLED said</title>
+      <link>https://www.wmbfnews.com/2026/04/27/man-florence-police-shot-held-knife-womans-neck-during-hostage-situation-sled-said/</link>
+      <description/>
+      <pubDate>Mon, 27 Apr 2026 20:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wmbfnews.com</source>
+    </item>
+    <item>
+      <title>Chicago police officer killed in hospital shooting identified ; second officer critical</title>
+      <link>https://www.latimes.com/world-nation/story/2026-04-26/chicago-police-officer-killed-in-hospital-shooting-identified-second-officer-critical</link>
+      <description/>
+      <pubDate>Mon, 27 Apr 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>latimes.com</source>
+    </item>
+    <item>
+      <title>Chicago police officer killed in hospital shooting identified , second officer in critical condition</title>
+      <link>https://www.10tv.com/article/news/nation-world/chicago-police-officer-killed-in-hospital-shooting-identified/507-be58f474-4142-4a99-b7ce-6ab79bc802df</link>
+      <description/>
+      <pubDate>Sun, 26 Apr 2026 22:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>10tv.com</source>
     </item>
     <item>
       <title>Chicago police officer killed at Swedish Hospital identified – NBC Chicago</title>
@@ -79,6 +223,62 @@
       <source>chicagotribune.com</source>
     </item>
     <item>
+      <title>Secret Service officer shot at White House dinner released from hospital</title>
+      <link>https://wcti12.com/news/nation-world/secret-service-officer-released-shot-white-house-correspondents-dinner-shooter-cole-thomas-allen-agent-shot-in-vest-president-trump-evacuted-rushed-out-jd-vance-marco-rubio-melania-fbi-charges-investigation</link>
+      <description/>
+      <pubDate>Sun, 26 Apr 2026 14:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wcti12.com</source>
+    </item>
+    <item>
+      <title>Secret Service Officer Shot Amid White House Correspondents Dinner Shooting , Trump Says</title>
+      <link>https://dailycaller.com/2026/04/25/secret-service-officer-shot-white-house-correspondents-dinner-shooting-trump/</link>
+      <description/>
+      <pubDate>Sun, 26 Apr 2026 06:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>dailycaller.com</source>
+    </item>
+    <item>
+      <title>1 police officer killed , another wounded , in shooting at Chicago Endeavor Health Swedish Hospital , officials say</title>
+      <link>https://abc11.com/post/1-police-officer-killed-another-wounded-in-shooting-at-chicago-hospital/18966308/</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc11.com</source>
+    </item>
+    <item>
+      <title>VIDEO : Officer shoots suspect after becoming trapped in getaway car</title>
+      <link>https://local12.com/news/nation-world/getaway-car-shooting-officer-trapped-kidnapped-shot-driver-robbery-burglary-vehicle-crash-into-window-door-doors-passenger-seat-police-legs-leg-gunshot-break-in-gas-accelerate-driving-jump-out</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 22:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>local12.com</source>
+    </item>
+    <item>
+      <title>Las Vegas police : officer shot armed suspect during foot pursuit near Strip | Shootings</title>
+      <link>https://www.reviewjournal.com/crime/shootings/metro-investigating-officer-involved-shooting-in-spring-valley-3792653/</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 18:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>reviewjournal.com</source>
+    </item>
+    <item>
+      <title>Suspect dead after police shooting in Los Lunas</title>
+      <link>https://www.koat.com/article/new-mexico-state-police-shooting-los-lunas/71125262</link>
+      <description/>
+      <pubDate>Sat, 25 Apr 2026 05:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
+    </item>
+    <item>
+      <title>Jury selection begins for three men accused of 2023 home invasion that left Tallahassee officer shot</title>
+      <link>https://www.wctv.tv/2026/04/24/jury-selection-begins-trial-three-men-accused-2023-home-invasion-that-left-tallahassee-officer-shot/</link>
+      <description/>
+      <pubDate>Fri, 24 Apr 2026 17:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wctv.tv</source>
+    </item>
+    <item>
       <title>Officer shot suspect in Wildwood domestic disturbance , police say</title>
       <link>https://www.ksdk.com/article/news/crime/officer-shot-suspect-in-wildwood-domestic-disturbance-police-say/63-bfb79554-33e2-4ad0-90f1-27411f5cb5f4</link>
       <description/>
@@ -95,12 +295,44 @@
       <source>wsbtv.com</source>
     </item>
     <item>
+      <title>Officer shot in chest survives , kills suspect in exchange of gunfire</title>
+      <link>https://www.wsbradio.com/news/local/officer-shot-chest-survives-kills-suspect-exchange-gunfire/UQEOPAIJERHVBJ2WICR63O3DM4/</link>
+      <description/>
+      <pubDate>Thu, 23 Apr 2026 19:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsbradio.com</source>
+    </item>
+    <item>
+      <title>Adairsville police officer shot in chest , saved by his vest , police chief says - WSB - TV Channel 2</title>
+      <link>https://www.wsbtv.com/news/local/georgia-officer-shot-chest-saved-by-his-vest-chief-says/Z5GVC7EWQ5DYJF6M6ZBNEJISYQ/</link>
+      <description/>
+      <pubDate>Thu, 23 Apr 2026 16:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsbtv.com</source>
+    </item>
+    <item>
+      <title>Suspect shot by police near 9th and Walnut streets in Chester , Pennsylvania</title>
+      <link>https://6abc.com/post/suspect-shot-police-9th-walnut-streets-chester-pennsylvania/18946281/</link>
+      <description/>
+      <pubDate>Thu, 23 Apr 2026 03:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>6abc.com</source>
+    </item>
+    <item>
       <title>Man shot by police in Ashland identified as Laconia man</title>
       <link>https://www.wmur.com/article/police-shooting-ashland-demitri-zimmer-42226/71099020</link>
       <description/>
       <pubDate>Thu, 23 Apr 2026 00:45:00 +0000</pubDate>
       <category>incident</category>
       <source>wmur.com</source>
+    </item>
+    <item>
+      <title>Deputy shot at near Highways 55 and 131 in Manzano</title>
+      <link>https://www.koat.com/article/new-mexico-police-law-hwys-55-131-torrance-county/71089596</link>
+      <description/>
+      <pubDate>Wed, 22 Apr 2026 01:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
     </item>
     <item>
       <title>Man killed , officer shot during traffic stop in New Hampshire</title>
