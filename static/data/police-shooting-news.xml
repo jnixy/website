@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 May 2026 08:28:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 08:43:36 +0000</lastBuildDate>
     <item>
       <title>LaPorte County sheriff deputy shot in Michigan City hospital</title>
       <link>https://www.chicagotribune.com/2026/05/22/sheriff-deputy-shot-michigan-city-emergency-room/</link>
@@ -63,12 +63,44 @@
       <source>fox2detroit.com</source>
     </item>
     <item>
+      <title>Man dies after police shooting in Oakland County</title>
+      <link>https://www.clickondetroit.com/news/local/2026/05/15/man-dies-after-police-shooting-in-oakland-county/</link>
+      <description/>
+      <pubDate>Fri, 15 May 2026 12:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>clickondetroit.com</source>
+    </item>
+    <item>
       <title>Suspect shot in Ecorse police shooting after domestic violence call</title>
       <link>https://www.fox2detroit.com/news/suspect-shot-ecorse-police-shooting-after-domestic-violence-call</link>
       <description/>
       <pubDate>Fri, 15 May 2026 04:30:00 +0000</pubDate>
       <category>incident</category>
       <source>fox2detroit.com</source>
+    </item>
+    <item>
+      <title>AG : Police shooting of man who opened fire in Planet Fitness was justified</title>
+      <link>https://www.wmur.com/article/police-shooting-planet-fitness-justified-51426/71307132</link>
+      <description/>
+      <pubDate>Thu, 14 May 2026 17:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wmur.com</source>
+    </item>
+    <item>
+      <title>Man shot , killed by federal law enforcement at Burger King in Frayser , TBI says</title>
+      <link>https://www.fox13memphis.com/news/man-shot-killed-by-federal-law-enforcement-at-burger-king-in-frayser-tbi-says/article_9826c891-82af-44f5-81ac-98d09b124b2f.html</link>
+      <description/>
+      <pubDate>Thu, 14 May 2026 11:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox13memphis.com</source>
+    </item>
+    <item>
+      <title>Gary , Indiana police shooting : 1 injured in police - involved shooting at Methodist Northlake Hospital , Lake County Sheriff says</title>
+      <link>https://abc7chicago.com/post/gary-indiana-police-shooting-1-injured-involved-methodist-northlake-hospital-lake-county-sheriff-says/19095173/</link>
+      <description/>
+      <pubDate>Wed, 13 May 2026 22:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc7chicago.com</source>
     </item>
     <item>
       <title>From 1893 to 2024 , Syracuse ceremony remembers every officer killed in the line of duty</title>
@@ -93,6 +125,14 @@
       <pubDate>Sat, 09 May 2026 14:30:00 +0000</pubDate>
       <category>incident</category>
       <source>wishtv.com</source>
+    </item>
+    <item>
+      <title>Charge of assault on federal officer against California man shot by ICE headed toward dismissal</title>
+      <link>https://www.eastbaytimes.com/2026/05/08/charge-of-assault-on-federal-officer-against-ontario-man-shot-by-ice-headed-toward-dismissal/</link>
+      <description/>
+      <pubDate>Fri, 08 May 2026 15:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>eastbaytimes.com</source>
     </item>
     <item>
       <title>Berwick police officer shoots dog after suspect releases animals on police , officials say</title>
@@ -237,30 +277,6 @@
       <pubDate>Fri, 24 Apr 2026 10:00:00 +0000</pubDate>
       <category>incident</category>
       <source>ksdk.com</source>
-    </item>
-    <item>
-      <title>Georgia officer shot  in the center of his chest  saved by ballistic vest , police chief says – WSB - TV Channel 2</title>
-      <link>https://www.wsbtv.com/news/local/georgia-officer-shot-center-his-chest-saved-by-ballistic-vest-police-chief-says/PNIM27C575FSBKOF6HNKB4KXOQ/</link>
-      <description/>
-      <pubDate>Fri, 24 Apr 2026 02:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsbtv.com</source>
-    </item>
-    <item>
-      <title>Officer shot in chest survives , kills suspect in exchange of gunfire</title>
-      <link>https://www.wsbradio.com/news/local/officer-shot-chest-survives-kills-suspect-exchange-gunfire/UQEOPAIJERHVBJ2WICR63O3DM4/</link>
-      <description/>
-      <pubDate>Thu, 23 Apr 2026 19:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsbradio.com</source>
-    </item>
-    <item>
-      <title>Adairsville police officer shot in chest , saved by his vest , police chief says - WSB - TV Channel 2</title>
-      <link>https://www.wsbtv.com/news/local/georgia-officer-shot-chest-saved-by-his-vest-chief-says/Z5GVC7EWQ5DYJF6M6ZBNEJISYQ/</link>
-      <description/>
-      <pubDate>Thu, 23 Apr 2026 16:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsbtv.com</source>
     </item>
   </channel>
 </rss>
