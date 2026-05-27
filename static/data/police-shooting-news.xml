@@ -5,22 +5,22 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 10:15:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 10:12:38 +0000</lastBuildDate>
     <item>
-      <title>Kansas City mom was inches away when KCKPD officer killed her son</title>
-      <link>https://www.kshb.com/news/local-news/kansas/wyandotte-county/my-son-laid-down-here-like-a-dog-kansas-city-mom-was-inches-away-when-kckpd-officer-killed-her-son</link>
+      <title>Michigan City police officer shot in ER at Franciscan Hospital ; suspect in custody</title>
+      <link>https://www.fox5dc.com/news/michigan-city-hospital-shooting-indiana</link>
       <description/>
-      <pubDate>Sat, 16 May 2026 03:15:00 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 14:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>kshb.com</source>
+      <source>fox5dc.com</source>
     </item>
     <item>
-      <title>Waterford community shaken by deadly police shooting after car chase</title>
-      <link>https://www.fox2detroit.com/news/waterford-community-shaken-deadly-police-shooting-after-car-chase</link>
+      <title>Man dies after police shooting in Oakland County</title>
+      <link>https://www.clickondetroit.com/news/local/2026/05/15/man-dies-after-police-shooting-in-oakland-county/</link>
       <description/>
-      <pubDate>Sat, 16 May 2026 00:15:00 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 12:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>fox2detroit.com</source>
+      <source>clickondetroit.com</source>
     </item>
     <item>
       <title>AG : Police shooting of man who opened fire in Planet Fitness was justified</title>
@@ -31,60 +31,12 @@
       <source>wmur.com</source>
     </item>
     <item>
-      <title>Man shot , killed by federal law enforcement at Burger King in Frayser , TBI says</title>
-      <link>https://www.fox13memphis.com/news/man-shot-killed-by-federal-law-enforcement-at-burger-king-in-frayser-tbi-says/article_9826c891-82af-44f5-81ac-98d09b124b2f.html</link>
+      <title>Gary , Indiana police shooting : 1 injured in police - involved shooting at Methodist Northlake Hospital , Lake County Sheriff says</title>
+      <link>https://abc7chicago.com/post/gary-indiana-police-shooting-1-injured-involved-methodist-northlake-hospital-lake-county-sheriff-says/19095173/</link>
       <description/>
-      <pubDate>Thu, 14 May 2026 11:30:00 +0000</pubDate>
+      <pubDate>Wed, 13 May 2026 22:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>fox13memphis.com</source>
-    </item>
-    <item>
-      <title>From 1893 to 2024 , Syracuse ceremony remembers every officer killed in the line of duty</title>
-      <link>https://cnycentral.com/news/local/from-1893-to-2024-syracuse-ceremony-remembers-every-officer-killed-in-the-line-of-duty</link>
-      <description/>
-      <pubDate>Mon, 11 May 2026 15:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>cnycentral.com</source>
-    </item>
-    <item>
-      <title>Charge of assault on federal officer against California man shot by ICE headed toward dismissal</title>
-      <link>https://www.eastbaytimes.com/2026/05/08/charge-of-assault-on-federal-officer-against-ontario-man-shot-by-ice-headed-toward-dismissal/</link>
-      <description/>
-      <pubDate>Fri, 08 May 2026 15:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>eastbaytimes.com</source>
-    </item>
-    <item>
-      <title>Shapiro honors Chester County Trooper killed in line of duty – NBC10 Philadelphia</title>
-      <link>https://www.nbcphiladelphia.com/news/local/shapiro-honors-chester-county-trooper-killed-in-line-of-duty-during-ceremony/4396694/</link>
-      <description/>
-      <pubDate>Mon, 04 May 2026 23:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcphiladelphia.com</source>
-    </item>
-    <item>
-      <title>Albuquerque pays $6 . 5M to family after police shot man holding nail clippers</title>
-      <link>https://www.kob.com/new-mexico/albuquerque-metro/albuquerque-pays-6-5m-to-family-after-police-shot-man-holding-nail-clippers/</link>
-      <description/>
-      <pubDate>Sat, 02 May 2026 04:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kob.com</source>
-    </item>
-    <item>
-      <title>Chicago police officer killed at Swedish Hospital identified – NBC Chicago</title>
-      <link>https://www.nbcchicago.com/news/local/chicago-police-officer-killed-at-swedish-hospital-identified-by-authorities/3928082/</link>
-      <description/>
-      <pubDate>Sun, 26 Apr 2026 17:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcchicago.com</source>
-    </item>
-    <item>
-      <title>CPD officer fatally shot at Swedish Hospital identified</title>
-      <link>https://www.chicagotribune.com/2026/04/26/chicago-police-officer-fatally-shot-at-swedish-hospital-identified-as-john-bartholomew/</link>
-      <description/>
-      <pubDate>Sun, 26 Apr 2026 16:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>chicagotribune.com</source>
+      <source>abc7chicago.com</source>
     </item>
   </channel>
 </rss>
