@@ -5,78 +5,46 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jun 2026 10:51:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 08:44:13 +0000</lastBuildDate>
     <item>
-      <title>27 - year - old man identified 2 days after Louisville police say officer shot and killed him</title>
-      <link>https://www.wdrb.com/news/27-year-old-man-identified-2-days-after-louisville-police-say-officer-shot-and-killed/article_eec4be77-db84-4e07-93ab-baa852de9d4d.html</link>
+      <title>Police shooting leaves one hurt in northeast Albuquerque</title>
+      <link>https://www.koat.com/article/albuquerque-police-shooting-osuna-jefferson/71476819</link>
       <description/>
-      <pubDate>Mon, 01 Jun 2026 22:45:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jun 2026 07:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>wdrb.com</source>
+      <source>koat.com</source>
     </item>
     <item>
-      <title>Oak Park police shooting kills driver after struggle over gun during traffic stop near Harrison St ., Austin Blvd .: officials</title>
-      <link>https://abc7chicago.com/post/oak-park-police-shooting-kills-driver-struggle-gun-during-traffic-stop-harrison-st-austin-blvd-officials/19213554/</link>
+      <title>APD : 1 injured after police shooting in NE Albuquerque</title>
+      <link>https://www.kob.com/new-mexico/apd-1-injured-after-police-shooting-in-ne-albuquerque/</link>
       <description/>
-      <pubDate>Mon, 01 Jun 2026 20:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>abc7chicago.com</source>
-    </item>
-    <item>
-      <title>Questions remain about what led up to deadly police shooting</title>
-      <link>https://www.kob.com/new-mexico/questions-remain-about-what-led-up-to-deadly-police-shooting/</link>
-      <description/>
-      <pubDate>Thu, 28 May 2026 01:45:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jun 2026 05:00:00 +0000</pubDate>
       <category>incident</category>
       <source>kob.com</source>
     </item>
     <item>
-      <title>1 killed after police shooting in NW Albuquerque</title>
-      <link>https://www.kob.com/new-mexico/1-person-in-custody-after-police-shooting-in-nw-albuquerque/</link>
+      <title>LaPorte County sheriff deputy shot in Michigan City hospital</title>
+      <link>https://www.chicagotribune.com/2026/05/22/sheriff-deputy-shot-michigan-city-emergency-room/</link>
       <description/>
-      <pubDate>Wed, 27 May 2026 06:15:00 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 20:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>kob.com</source>
+      <source>chicagotribune.com</source>
     </item>
     <item>
-      <title>AG : No charges in Northwest Baltimore police shooting</title>
-      <link>https://www.wbaltv.com/article/ag-no-charges-filed-from-march-baltimore-police-shooting/71411936</link>
+      <title>Michigan City police officer shot in ER at Franciscan Hospital ; suspect in custody</title>
+      <link>https://www.fox5dc.com/news/michigan-city-hospital-shooting-indiana</link>
       <description/>
-      <pubDate>Wed, 27 May 2026 02:15:00 +0000</pubDate>
+      <pubDate>Fri, 22 May 2026 14:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>wbaltv.com</source>
+      <source>fox5dc.com</source>
     </item>
     <item>
-      <title>Indiana State Police trooper shot , driver killed in traffic stop shootout in northwest Indiana</title>
-      <link>https://www.wndu.com/2026/05/26/indiana-state-police-trooper-shot-driver-killed-traffic-stop-shootout-northwest-indiana/</link>
+      <title>Man dies after police shooting in Oakland County</title>
+      <link>https://www.clickondetroit.com/news/local/2026/05/15/man-dies-after-police-shooting-in-oakland-county/</link>
       <description/>
-      <pubDate>Tue, 26 May 2026 19:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 12:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>wndu.com</source>
-    </item>
-    <item>
-      <title>Indiana trooper shot , suspect killed in gunfight during I - 80 / 94 traffic stop</title>
-      <link>https://www.fox32chicago.com/news/shooting-i-80-94-indiana-state-police</link>
-      <description/>
-      <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox32chicago.com</source>
-    </item>
-    <item>
-      <title>Kansas City mom was inches away when KCKPD officer killed her son</title>
-      <link>https://www.kshb.com/news/local-news/kansas/wyandotte-county/my-son-laid-down-here-like-a-dog-kansas-city-mom-was-inches-away-when-kckpd-officer-killed-her-son</link>
-      <description/>
-      <pubDate>Sat, 16 May 2026 03:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kshb.com</source>
-    </item>
-    <item>
-      <title>Waterford community shaken by deadly police shooting after car chase</title>
-      <link>https://www.fox2detroit.com/news/waterford-community-shaken-deadly-police-shooting-after-car-chase</link>
-      <description/>
-      <pubDate>Sat, 16 May 2026 00:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox2detroit.com</source>
+      <source>clickondetroit.com</source>
     </item>
     <item>
       <title>AG : Police shooting of man who opened fire in Planet Fitness was justified</title>
@@ -87,20 +55,12 @@
       <source>wmur.com</source>
     </item>
     <item>
-      <title>From 1893 to 2024 , Syracuse ceremony remembers every officer killed in the line of duty</title>
-      <link>https://cnycentral.com/news/local/from-1893-to-2024-syracuse-ceremony-remembers-every-officer-killed-in-the-line-of-duty</link>
+      <title>Gary , Indiana police shooting : 1 injured in police - involved shooting at Methodist Northlake Hospital , Lake County Sheriff says</title>
+      <link>https://abc7chicago.com/post/gary-indiana-police-shooting-1-injured-involved-methodist-northlake-hospital-lake-county-sheriff-says/19095173/</link>
       <description/>
-      <pubDate>Mon, 11 May 2026 15:45:00 +0000</pubDate>
+      <pubDate>Wed, 13 May 2026 22:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>cnycentral.com</source>
-    </item>
-    <item>
-      <title>Shapiro honors Chester County Trooper killed in line of duty – NBC10 Philadelphia</title>
-      <link>https://www.nbcphiladelphia.com/news/local/shapiro-honors-chester-county-trooper-killed-in-line-of-duty-during-ceremony/4396694/</link>
-      <description/>
-      <pubDate>Mon, 04 May 2026 23:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcphiladelphia.com</source>
+      <source>abc7chicago.com</source>
     </item>
   </channel>
 </rss>
