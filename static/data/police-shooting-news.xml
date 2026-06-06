@@ -5,7 +5,31 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 May 2026 10:12:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 08:44:13 +0000</lastBuildDate>
+    <item>
+      <title>Police shooting leaves one hurt in northeast Albuquerque</title>
+      <link>https://www.koat.com/article/albuquerque-police-shooting-osuna-jefferson/71476819</link>
+      <description/>
+      <pubDate>Wed, 03 Jun 2026 07:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
+    </item>
+    <item>
+      <title>APD : 1 injured after police shooting in NE Albuquerque</title>
+      <link>https://www.kob.com/new-mexico/apd-1-injured-after-police-shooting-in-ne-albuquerque/</link>
+      <description/>
+      <pubDate>Wed, 03 Jun 2026 05:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kob.com</source>
+    </item>
+    <item>
+      <title>LaPorte County sheriff deputy shot in Michigan City hospital</title>
+      <link>https://www.chicagotribune.com/2026/05/22/sheriff-deputy-shot-michigan-city-emergency-room/</link>
+      <description/>
+      <pubDate>Fri, 22 May 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>chicagotribune.com</source>
+    </item>
     <item>
       <title>Michigan City police officer shot in ER at Franciscan Hospital ; suspect in custody</title>
       <link>https://www.fox5dc.com/news/michigan-city-hospital-shooting-indiana</link>
