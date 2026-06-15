@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jun 2026 09:51:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 12:37:09 +0000</lastBuildDate>
     <item>
       <title>Milwaukee police shooting : Armed suspect killed after standoff</title>
       <link>https://www.fox6now.com/news/milwaukee-police-shooting-armed-suspect-killed-after-standoff</link>
@@ -53,22 +53,6 @@
       <pubDate>Thu, 04 Jun 2026 01:45:00 +0000</pubDate>
       <category>incident</category>
       <source>krdo.com</source>
-    </item>
-    <item>
-      <title>Police shooting leaves one hurt in northeast Albuquerque</title>
-      <link>https://www.koat.com/article/albuquerque-police-shooting-osuna-jefferson/71476819</link>
-      <description/>
-      <pubDate>Wed, 03 Jun 2026 07:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>koat.com</source>
-    </item>
-    <item>
-      <title>APD : 1 injured after police shooting in NE Albuquerque</title>
-      <link>https://www.kob.com/new-mexico/apd-1-injured-after-police-shooting-in-ne-albuquerque/</link>
-      <description/>
-      <pubDate>Wed, 03 Jun 2026 05:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kob.com</source>
     </item>
     <item>
       <title>Trooper shot in chest on I - 94 identified , is on paid leave</title>
@@ -255,14 +239,6 @@
       <source>fox5dc.com</source>
     </item>
     <item>
-      <title>Bullets hit cars , elementary students take cover after deadly downtown St . Louis police shooting</title>
-      <link>https://www.ksdk.com/article/news/crime/bullets-hit-cars-elementary-students-take-cover-after-deadly-downtown-st-louis-police-shooting/63-01fc3f6f-898f-44da-afa1-f39015d5b6f5</link>
-      <description/>
-      <pubDate>Thu, 21 May 2026 03:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>ksdk.com</source>
-    </item>
-    <item>
       <title>Fresno police searching for armed suspect after officer shot , woman and child rescued</title>
       <link>https://www.yahoo.com/news/articles/heavy-police-activity-southwest-fresno-062732866.html</link>
       <description/>
@@ -277,22 +253,6 @@
       <pubDate>Sat, 16 May 2026 20:45:00 +0000</pubDate>
       <category>incident</category>
       <source>ktrh.iheart.com</source>
-    </item>
-    <item>
-      <title>Waterford community shaken by deadly police shooting after car chase</title>
-      <link>https://www.fox2detroit.com/news/waterford-community-shaken-deadly-police-shooting-after-car-chase</link>
-      <description/>
-      <pubDate>Sat, 16 May 2026 00:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox2detroit.com</source>
-    </item>
-    <item>
-      <title>Man dies after police shooting in Oakland County</title>
-      <link>https://www.clickondetroit.com/news/local/2026/05/15/man-dies-after-police-shooting-in-oakland-county/</link>
-      <description/>
-      <pubDate>Fri, 15 May 2026 12:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>clickondetroit.com</source>
     </item>
   </channel>
 </rss>
