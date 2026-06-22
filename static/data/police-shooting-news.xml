@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jun 2026 10:02:31 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 12:22:04 +0000</lastBuildDate>
+    <item>
+      <title>Police : Officer shoots man after  disturbance  at car dealership in Miami Shores</title>
+      <link>https://www.local10.com/news/local/2026/06/21/police-miami-shores-officer-shoots-man-after-disturbance-at-car-dealership/</link>
+      <description/>
+      <pubDate>Mon, 22 Jun 2026 05:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>local10.com</source>
+    </item>
     <item>
       <title>NYPD officer shot in Brooklyn during confrontation with barricaded gunman</title>
       <link>https://nypost.com/2026/06/19/us-news/nypd-officer-shot-in-brooklyn-during-confrontation-with-suspect/</link>
@@ -15,12 +23,28 @@
       <source>nypost.com</source>
     </item>
     <item>
-      <title>Dog Killed , Owner Injured in York Police Shooting</title>
-      <link>https://whp580.iheart.com/content/2026-06-18-dog-killed-owner-injured-in-york-police-shooting/</link>
+      <title>Family demands accountability in Mundelein police shooting</title>
+      <link>https://www.fox32chicago.com/news/family-demands-accountability-mundelein-police-shooting</link>
       <description/>
-      <pubDate>Thu, 18 Jun 2026 14:00:00 +0000</pubDate>
+      <pubDate>Fri, 19 Jun 2026 02:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>whp580.iheart.com</source>
+      <source>fox32chicago.com</source>
+    </item>
+    <item>
+      <title>Jonathan Wilson charged in Uptown , Chicago police shooting on Argyle after condo board president shot , killed : CPD</title>
+      <link>https://abc7chicago.com/post/jonathan-wilson-charged-uptown-chicago-police-shooting-argyle-condo-board-president-shot-killed-cpd/19318565/</link>
+      <description/>
+      <pubDate>Thu, 18 Jun 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc7chicago.com</source>
+    </item>
+    <item>
+      <title>Several officers placed on administrative leave as new probe opened into alleged  horseplay  that left Pasadena officer shot – The Oakland Press</title>
+      <link>https://www.theoaklandpress.com/2026/06/17/new-investigation-opened-into-alleged-horseplay-that-left-pasadena-officer-shot-in-police-garage/</link>
+      <description/>
+      <pubDate>Wed, 17 Jun 2026 20:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>theoaklandpress.com</source>
     </item>
     <item>
       <title>Teen Fatally Shot by Police After Santa Ana Family Dispute</title>
@@ -31,100 +55,20 @@
       <source>kfiam640.iheart.com</source>
     </item>
     <item>
-      <title>Loveland agrees to pay couple $675k after officer fatally shot their dog</title>
-      <link>https://www.dailycamera.com/2026/06/09/loveland-police-dog-shot-settlement/</link>
+      <title>Police shooting leaves one hurt in northeast Albuquerque</title>
+      <link>https://www.koat.com/article/albuquerque-police-shooting-osuna-jefferson/71476819</link>
       <description/>
-      <pubDate>Tue, 09 Jun 2026 16:15:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jun 2026 07:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>dailycamera.com</source>
+      <source>koat.com</source>
     </item>
     <item>
-      <title>Man armed with knife fatally shot by police in Glendale</title>
-      <link>https://www.latimes.com/california/story/2026-06-09/man-armed-with-knife-fatally-shot-by-police-in-glendale</link>
+      <title>APD : 1 injured after police shooting in NE Albuquerque</title>
+      <link>https://www.kob.com/new-mexico/apd-1-injured-after-police-shooting-in-ne-albuquerque/</link>
       <description/>
-      <pubDate>Tue, 09 Jun 2026 15:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>latimes.com</source>
-    </item>
-    <item>
-      <title>Jenry Guadalupe Custodio Casimiro killed in Carpentersville police shooting on Kings Road : Kane County coroner</title>
-      <link>https://abc7chicago.com/post/jenry-guadalupe-custodio-casimiro-killed-carpentersville-police-shooting-kings-road-kane-county-coroner/19259604/</link>
-      <description/>
-      <pubDate>Tue, 09 Jun 2026 00:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>abc7chicago.com</source>
-    </item>
-    <item>
-      <title>27 - year - old man identified 2 days after Louisville police say officer shot and killed him</title>
-      <link>https://www.wdrb.com/news/27-year-old-man-identified-2-days-after-louisville-police-say-officer-shot-and-killed/article_eec4be77-db84-4e07-93ab-baa852de9d4d.html</link>
-      <description/>
-      <pubDate>Mon, 01 Jun 2026 22:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wdrb.com</source>
-    </item>
-    <item>
-      <title>Oak Park police say officer fatally shot man during fight in a traffic stop</title>
-      <link>https://chicago.suntimes.com/crime/2026/06/01/oak-park-police-say-officer-fatally-shot-man-after-fight-during-traffic-stop</link>
-      <description/>
-      <pubDate>Mon, 01 Jun 2026 22:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>chicago.suntimes.com</source>
-    </item>
-    <item>
-      <title>Oak Park police shooting kills driver after struggle over gun during traffic stop near Harrison St ., Austin Blvd .: officials</title>
-      <link>https://abc7chicago.com/post/oak-park-police-shooting-kills-driver-struggle-gun-during-traffic-stop-harrison-st-austin-blvd-officials/19213554/</link>
-      <description/>
-      <pubDate>Mon, 01 Jun 2026 20:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>abc7chicago.com</source>
-    </item>
-    <item>
-      <title>Deputy fatally shot , another injured ; suspect remains at large : Carroll County officials</title>
-      <link>https://wjla.com/news/local/deputy-fatally-shot-another-injured-suspect-remains-at-large-carroll-county-officials-sheriffs-office-michael-puckett-13658-fancy-gap-highway-may-2026</link>
-      <description/>
-      <pubDate>Sat, 30 May 2026 19:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wjla.com</source>
-    </item>
-    <item>
-      <title>Questions remain about what led up to deadly police shooting</title>
-      <link>https://www.kob.com/new-mexico/questions-remain-about-what-led-up-to-deadly-police-shooting/</link>
-      <description/>
-      <pubDate>Thu, 28 May 2026 01:45:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jun 2026 05:00:00 +0000</pubDate>
       <category>incident</category>
       <source>kob.com</source>
-    </item>
-    <item>
-      <title>1 killed after police shooting in NW Albuquerque</title>
-      <link>https://www.kob.com/new-mexico/1-person-in-custody-after-police-shooting-in-nw-albuquerque/</link>
-      <description/>
-      <pubDate>Wed, 27 May 2026 06:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kob.com</source>
-    </item>
-    <item>
-      <title>AG : No charges in Northwest Baltimore police shooting</title>
-      <link>https://www.wbaltv.com/article/ag-no-charges-filed-from-march-baltimore-police-shooting/71411936</link>
-      <description/>
-      <pubDate>Wed, 27 May 2026 02:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wbaltv.com</source>
-    </item>
-    <item>
-      <title>Indiana State Police trooper shot , driver killed in traffic stop shootout in northwest Indiana</title>
-      <link>https://www.wndu.com/2026/05/26/indiana-state-police-trooper-shot-driver-killed-traffic-stop-shootout-northwest-indiana/</link>
-      <description/>
-      <pubDate>Tue, 26 May 2026 19:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wndu.com</source>
-    </item>
-    <item>
-      <title>Indiana trooper shot , suspect killed in gunfight during I - 80 / 94 traffic stop</title>
-      <link>https://www.fox32chicago.com/news/shooting-i-80-94-indiana-state-police</link>
-      <description/>
-      <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox32chicago.com</source>
     </item>
   </channel>
 </rss>
