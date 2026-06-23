@@ -5,7 +5,31 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2026 12:22:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 09:59:02 +0000</lastBuildDate>
+    <item>
+      <title>Detroit police shooting leaves suspect in the hospital , investigation ongoing</title>
+      <link>https://www.fox2detroit.com/news/detroit-police-shooting-leaves-suspect-hospital-investigation-ongoing</link>
+      <description/>
+      <pubDate>Tue, 23 Jun 2026 03:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox2detroit.com</source>
+    </item>
+    <item>
+      <title>Metro provides detail on police shooting that left suspect dead after chase</title>
+      <link>https://www.reviewjournal.com/crime/shootings/metro-to-detail-police-shooting-that-left-suspect-dead-after-chase-3841551/</link>
+      <description/>
+      <pubDate>Mon, 22 Jun 2026 22:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>reviewjournal.com</source>
+    </item>
+    <item>
+      <title>An off - duty ICE officer killed an armed man on New Year Eve . Were still waiting on LAPD findings</title>
+      <link>https://laist.com/news/criminal-justice/ice-new-year-eve-shooting-keith-porter-brian-palacios</link>
+      <description/>
+      <pubDate>Mon, 22 Jun 2026 21:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>laist.com</source>
+    </item>
     <item>
       <title>Police : Officer shoots man after  disturbance  at car dealership in Miami Shores</title>
       <link>https://www.local10.com/news/local/2026/06/21/police-miami-shores-officer-shoots-man-after-disturbance-at-car-dealership/</link>
@@ -53,6 +77,14 @@
       <pubDate>Mon, 15 Jun 2026 19:00:00 +0000</pubDate>
       <category>incident</category>
       <source>kfiam640.iheart.com</source>
+    </item>
+    <item>
+      <title>Man shot and killed by federal agent outside Henrico motel</title>
+      <link>https://www.henricocitizen.com/man-shot-and-killed-by-federal-agent-outside-henrico-motel/</link>
+      <description/>
+      <pubDate>Thu, 11 Jun 2026 21:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>henricocitizen.com</source>
     </item>
     <item>
       <title>Police shooting leaves one hurt in northeast Albuquerque</title>
