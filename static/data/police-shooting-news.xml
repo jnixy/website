@@ -5,23 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jun 2026 09:59:02 +0000</lastBuildDate>
-    <item>
-      <title>Detroit police shooting leaves suspect in the hospital , investigation ongoing</title>
-      <link>https://www.fox2detroit.com/news/detroit-police-shooting-leaves-suspect-hospital-investigation-ongoing</link>
-      <description/>
-      <pubDate>Tue, 23 Jun 2026 03:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox2detroit.com</source>
-    </item>
-    <item>
-      <title>Metro provides detail on police shooting that left suspect dead after chase</title>
-      <link>https://www.reviewjournal.com/crime/shootings/metro-to-detail-police-shooting-that-left-suspect-dead-after-chase-3841551/</link>
-      <description/>
-      <pubDate>Mon, 22 Jun 2026 22:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>reviewjournal.com</source>
-    </item>
+    <lastBuildDate>Wed, 24 Jun 2026 09:47:17 +0000</lastBuildDate>
     <item>
       <title>An off - duty ICE officer killed an armed man on New Year Eve . Were still waiting on LAPD findings</title>
       <link>https://laist.com/news/criminal-justice/ice-new-year-eve-shooting-keith-porter-brian-palacios</link>
@@ -31,76 +15,20 @@
       <source>laist.com</source>
     </item>
     <item>
-      <title>Police : Officer shoots man after  disturbance  at car dealership in Miami Shores</title>
-      <link>https://www.local10.com/news/local/2026/06/21/police-miami-shores-officer-shoots-man-after-disturbance-at-car-dealership/</link>
+      <title>ICE agent shoots at fleeing vehicle in New Jersey after being hit by suspect , police say - LocalNews8 . com</title>
+      <link>https://localnews8.com/news/national-world/cnn-national/2026/06/15/ice-agent-shoots-at-fleeing-vehicle-in-new-jersey-after-being-hit-by-suspect-police-say/</link>
       <description/>
-      <pubDate>Mon, 22 Jun 2026 05:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jun 2026 21:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>local10.com</source>
+      <source>localnews8.com</source>
     </item>
     <item>
-      <title>NYPD officer shot in Brooklyn during confrontation with barricaded gunman</title>
-      <link>https://nypost.com/2026/06/19/us-news/nypd-officer-shot-in-brooklyn-during-confrontation-with-suspect/</link>
+      <title>ICE agent shoots at fleeing vehicle in New Jersey after being hit by suspect , police say</title>
+      <link>https://www.cnn.com/2026/06/15/us/ice-agent-shooting-new-jersey</link>
       <description/>
-      <pubDate>Fri, 19 Jun 2026 16:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jun 2026 18:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>nypost.com</source>
-    </item>
-    <item>
-      <title>Family demands accountability in Mundelein police shooting</title>
-      <link>https://www.fox32chicago.com/news/family-demands-accountability-mundelein-police-shooting</link>
-      <description/>
-      <pubDate>Fri, 19 Jun 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox32chicago.com</source>
-    </item>
-    <item>
-      <title>Jonathan Wilson charged in Uptown , Chicago police shooting on Argyle after condo board president shot , killed : CPD</title>
-      <link>https://abc7chicago.com/post/jonathan-wilson-charged-uptown-chicago-police-shooting-argyle-condo-board-president-shot-killed-cpd/19318565/</link>
-      <description/>
-      <pubDate>Thu, 18 Jun 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>abc7chicago.com</source>
-    </item>
-    <item>
-      <title>Several officers placed on administrative leave as new probe opened into alleged  horseplay  that left Pasadena officer shot – The Oakland Press</title>
-      <link>https://www.theoaklandpress.com/2026/06/17/new-investigation-opened-into-alleged-horseplay-that-left-pasadena-officer-shot-in-police-garage/</link>
-      <description/>
-      <pubDate>Wed, 17 Jun 2026 20:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>theoaklandpress.com</source>
-    </item>
-    <item>
-      <title>Teen Fatally Shot by Police After Santa Ana Family Dispute</title>
-      <link>https://kfiam640.iheart.com/content/2026-06-15-teen-fatally-shot-by-police-after-santa-ana-family-dispute/</link>
-      <description/>
-      <pubDate>Mon, 15 Jun 2026 19:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kfiam640.iheart.com</source>
-    </item>
-    <item>
-      <title>Man shot and killed by federal agent outside Henrico motel</title>
-      <link>https://www.henricocitizen.com/man-shot-and-killed-by-federal-agent-outside-henrico-motel/</link>
-      <description/>
-      <pubDate>Thu, 11 Jun 2026 21:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>henricocitizen.com</source>
-    </item>
-    <item>
-      <title>Police shooting leaves one hurt in northeast Albuquerque</title>
-      <link>https://www.koat.com/article/albuquerque-police-shooting-osuna-jefferson/71476819</link>
-      <description/>
-      <pubDate>Wed, 03 Jun 2026 07:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>koat.com</source>
-    </item>
-    <item>
-      <title>APD : 1 injured after police shooting in NE Albuquerque</title>
-      <link>https://www.kob.com/new-mexico/apd-1-injured-after-police-shooting-in-ne-albuquerque/</link>
-      <description/>
-      <pubDate>Wed, 03 Jun 2026 05:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kob.com</source>
+      <source>cnn.com</source>
     </item>
   </channel>
 </rss>
