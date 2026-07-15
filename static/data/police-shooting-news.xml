@@ -5,7 +5,47 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 08:23:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 08:29:30 +0000</lastBuildDate>
+    <item>
+      <title>Federal lawsuit alleges Border Patrol agent shot , killed dog in El Paso home</title>
+      <link>https://kvia.com/news/border/2026/07/13/federal-lawsuit-alleges-border-patrol-agent-shot-killed-dog-in-el-paso-home/</link>
+      <description/>
+      <pubDate>Tue, 14 Jul 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kvia.com</source>
+    </item>
+    <item>
+      <title>ICE agent kills motorist in Maine , investigation underway | AFRO American Newspapers</title>
+      <link>https://afro.com/ninth-death-trump-deportations/</link>
+      <description/>
+      <pubDate>Tue, 14 Jul 2026 02:00:00 +0000</pubDate>
+      <category>investigation</category>
+      <source>afro.com</source>
+    </item>
+    <item>
+      <title>El Paso man sues U . S . after Border Patrol agent kills dog during 2025 home search</title>
+      <link>https://kfoxtv.com/news/local/el-paso-man-sues-us-after-border-patrol-agent-kills-dog-during-2025-home-search</link>
+      <description/>
+      <pubDate>Tue, 14 Jul 2026 00:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kfoxtv.com</source>
+    </item>
+    <item>
+      <title>Protesters storm Susan Collin Biddeford office after federal agent shot man</title>
+      <link>https://www.centralmaine.com/2026/07/13/protestors-storm-susan-collins-biddeford-office-after-federal-agent-shot-man/</link>
+      <description/>
+      <pubDate>Mon, 13 Jul 2026 23:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>centralmaine.com</source>
+    </item>
+    <item>
+      <title>Vigil held in Charlotte for man who was shot , killed by federal agents in Houston</title>
+      <link>https://www.wsoctv.com/news/local/vigil-held-charlotte-man-who-was-shot-killed-by-federal-agents-houston/5GMIKIEQKZC63JGEBIJCCMNU2A/</link>
+      <description/>
+      <pubDate>Mon, 13 Jul 2026 05:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsoctv.com</source>
+    </item>
     <item>
       <title>Detainees tell their lawyer an ICE officer shot a Houston driver through a passenger window</title>
       <link>https://www.durangoherald.com/articles/associated-press/fatal-shooting-during-houston-traffic-stop-renews-public-scrutiny-of-ice/</link>
@@ -47,36 +87,28 @@
       <source>democracynow.org</source>
     </item>
     <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | NewsRadio WHAM 1180</title>
-      <link>https://wham1180.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
+      <title>Sons of Mexican man killed by ICE officer in Houston demand independent investigation</title>
+      <link>https://www.wwaytv3.com/sons-of-mexican-man-killed-by-ice-officer-in-houston-demand-independent-investigation/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 07:15:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 00:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>wham1180.iheart.com</source>
+      <source>wwaytv3.com</source>
     </item>
     <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | NewsTalk WMEQ</title>
-      <link>https://wmeq.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
+      <title>Family demands investigation after US man killed by ICE agent in Texas - Dominican Republic Post – Caribbean News , Business , Travel &amp; Culture</title>
+      <link>https://dominicanrepublicpost.com/family-demands-investigation-after-us-man-killed-by-ice-agent-in-texas/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 07:15:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 00:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>wmeq.iheart.com</source>
+      <source>dominicanrepublicpost.com</source>
     </item>
     <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | News Talk 550 KFYI</title>
-      <link>https://kfyi.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
+      <title>Family demands investigation after US man killed by ICE agent in Texas - Grenada Chronicle – Daily Grenada And Caribbean News</title>
+      <link>https://grenadachronicle.com/family-demands-investigation-after-us-man-killed-by-ice-agent-in-texas/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 07:15:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>kfyi.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | WJBO Newsradio 1150 AM &amp; 98 . 7 FM</title>
-      <link>https://wjbo.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 07:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wjbo.iheart.com</source>
+      <source>grenadachronicle.com</source>
     </item>
     <item>
       <title>ICE Agent Shoots , Kills Man In Houston | News Radio 920 AM &amp; 104 . 7 FM</title>
@@ -127,14 +159,6 @@
       <source>talkradio1080.iheart.com</source>
     </item>
     <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | NewsRadio 1110 KFAB</title>
-      <link>https://kfab.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 06:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kfab.iheart.com</source>
-    </item>
-    <item>
       <title>ICE Agent Shoots , Kills Man In Houston | PowerTalk 1360 KFIV</title>
       <link>https://powertalk1360.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
       <description/>
@@ -159,38 +183,6 @@
       <source>newsradiowkcy.iheart.com</source>
     </item>
     <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | Twin Cities News Talk</title>
-      <link>https://twincitiesnewstalk.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 06:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>twincitiesnewstalk.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | News Radio 96 . 7</title>
-      <link>https://newsradio967.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 06:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>newsradio967.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | News Radio 94 . 3 WSC</title>
-      <link>https://943wsc.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 06:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>943wsc.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | NewsRadio 800 WVHU</title>
-      <link>https://800wvhu.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 06:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>800wvhu.iheart.com</source>
-    </item>
-    <item>
       <title>ICE Agent Shoots , Kills Man In Houston | News Radio 690 KTSM</title>
       <link>https://ktsmradio.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
       <description/>
@@ -213,22 +205,6 @@
       <pubDate>Wed, 08 Jul 2026 05:15:00 +0000</pubDate>
       <category>incident</category>
       <source>bostonglobe.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | NewsRadio 1170 WWVA</title>
-      <link>https://newsradio1170.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 05:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>newsradio1170.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots , Kills Man In Houston | Newsradio WTAM 1100</title>
-      <link>https://wtam.iheart.com/content/2026-07-08-ice-agent-shoots-kills-man-in-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 05:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wtam.iheart.com</source>
     </item>
     <item>
       <title>ICE Agent Shoots , Kills Man In Houston | News Talk 99 . 5 WRNO</title>
@@ -405,6 +381,30 @@
       <pubDate>Wed, 08 Jul 2026 00:15:00 +0000</pubDate>
       <category>research</category>
       <source>wpde.com</source>
+    </item>
+    <item>
+      <title>Immigration agent fatally shot a man in Houston during an enforcement operation , authorities say</title>
+      <link>https://www.baltimoresun.com/2026/07/07/immigration-enforcement-houston/</link>
+      <description/>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>baltimoresun.com</source>
+    </item>
+    <item>
+      <title>ICE officer shoots , kills illegal immigrant who tried to ram him with car in Texas : report</title>
+      <link>https://komonews.com/news/nation-world/ice-officer-shoots-kills-illegal-immigrant-who-tried-to-ram-him-with-car-in-texas-report-houston-immigration-and-customs-enforcement-migrants-vehicke-rammings-president-donald-trump</link>
+      <description/>
+      <pubDate>Tue, 07 Jul 2026 22:30:00 +0000</pubDate>
+      <category>research</category>
+      <source>komonews.com</source>
+    </item>
+    <item>
+      <title>New details after man fatally shot by police near St . Christopher Hospital in Philadelphia</title>
+      <link>https://www.fox29.com/news/new-details-after-officer-involved-shooting-outside-st-c</link>
+      <description/>
+      <pubDate>Tue, 07 Jul 2026 04:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox29.com</source>
     </item>
   </channel>
 </rss>
