@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Jul 2026 09:31:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 08:42:05 +0000</lastBuildDate>
     <item>
       <title>Wife of man shot , killed by ICE agent in Maine speaks publicly</title>
       <link>https://www.koat.com/article/maine-ice-shooting-wife-of-man-killed-speaks/72903965</link>
@@ -39,36 +39,20 @@
       <source>kcci.com</source>
     </item>
     <item>
+      <title>Man killed by ICE agents in Maine identified by family friend</title>
+      <link>https://www.kcci.com/article/ice-shooting-biddeford-maine-july-13/71927546</link>
+      <description/>
+      <pubDate>Tue, 14 Jul 2026 11:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kcci.com</source>
+    </item>
+    <item>
       <title>Hundreds gather for vigil in Biddeford after man killed by ICE agent</title>
       <link>https://www.pressherald.com/2026/07/13/hundreds-gather-for-vigil-in-biddeford-after-man-killed-by-ice-agent/</link>
       <description/>
       <pubDate>Tue, 14 Jul 2026 04:15:00 +0000</pubDate>
       <category>incident</category>
       <source>pressherald.com</source>
-    </item>
-    <item>
-      <title>Federal lawsuit alleges Border Patrol agent shot , killed dog in El Paso home</title>
-      <link>https://kvia.com/news/border/2026/07/13/federal-lawsuit-alleges-border-patrol-agent-shot-killed-dog-in-el-paso-home/</link>
-      <description/>
-      <pubDate>Tue, 14 Jul 2026 02:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kvia.com</source>
-    </item>
-    <item>
-      <title>El Paso man sues U . S . after Border Patrol agent kills dog during 2025 home search</title>
-      <link>https://kfoxtv.com/news/local/el-paso-man-sues-us-after-border-patrol-agent-kills-dog-during-2025-home-search</link>
-      <description/>
-      <pubDate>Tue, 14 Jul 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kfoxtv.com</source>
-    </item>
-    <item>
-      <title>Protesters storm Susan Collin Biddeford office after federal agent shot man</title>
-      <link>https://www.centralmaine.com/2026/07/13/protestors-storm-susan-collins-biddeford-office-after-federal-agent-shot-man/</link>
-      <description/>
-      <pubDate>Mon, 13 Jul 2026 23:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>centralmaine.com</source>
     </item>
     <item>
       <title>Man killed by ICE in Maine was not target of warrant : Sen . Angus King</title>
@@ -85,14 +69,6 @@
       <pubDate>Mon, 13 Jul 2026 05:15:00 +0000</pubDate>
       <category>incident</category>
       <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>Vigil held in Charlotte for man who was shot , killed by federal agents in Houston</title>
-      <link>https://www.wsoctv.com/news/local/vigil-held-charlotte-man-who-was-shot-killed-by-federal-agents-houston/5GMIKIEQKZC63JGEBIJCCMNU2A/</link>
-      <description/>
-      <pubDate>Mon, 13 Jul 2026 05:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsoctv.com</source>
     </item>
     <item>
       <title>Scrutiny grows after ICE officer fatally shoots Houston man</title>
@@ -135,6 +111,14 @@
       <source>houstonpublicmedia.org</source>
     </item>
     <item>
+      <title>Man Shot in Memphis Is Fourth to Be Killed by Federal Task Force Agents</title>
+      <link>https://www.democracynow.org/2026/7/9/headlines/man_shot_in_memphis_is_fourth_to_be_killed_by_federal_task_force_agents</link>
+      <description/>
+      <pubDate>Thu, 09 Jul 2026 19:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>democracynow.org</source>
+    </item>
+    <item>
       <title>Bill Kristol Has Hot Take on Unarmed Family Man Shot by ICE While Driving to Work</title>
       <link>https://twitchy.com/brettt/2026/07/08/bill-kristol-has-hot-take-on-unarmed-family-man-shot-by-ice-while-driving-to-work-n2430047</link>
       <description/>
@@ -151,20 +135,20 @@
       <source>texastribune.org</source>
     </item>
     <item>
-      <title>Sons of Mexican man killed by ICE officer in Houston demand independent investigation</title>
-      <link>https://www.wwaytv3.com/sons-of-mexican-man-killed-by-ice-officer-in-houston-demand-independent-investigation/</link>
-      <description/>
-      <pubDate>Thu, 09 Jul 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wwaytv3.com</source>
-    </item>
-    <item>
       <title>ICE officer fatally shoots man while conducting traffic stop in Houston , agency says</title>
       <link>https://www.yahoo.com/news/politics/articles/immigration-agent-fatally-shoots-mexican-001231195.html</link>
       <description/>
       <pubDate>Wed, 08 Jul 2026 19:00:00 +0000</pubDate>
       <category>incident</category>
       <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Thousands of officers attend Montreal memorial for officer killed in line of duty</title>
+      <link>https://www.wcax.com/2026/07/08/thousands-officers-attend-montreal-memorial-officer-killed-line-duty/</link>
+      <description/>
+      <pubDate>Wed, 08 Jul 2026 06:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wcax.com</source>
     </item>
     <item>
       <title>US immigration officer shoots and kills man in Texas</title>
@@ -213,6 +197,46 @@
       <pubDate>Tue, 07 Jul 2026 22:30:00 +0000</pubDate>
       <category>research</category>
       <source>komonews.com</source>
+    </item>
+    <item>
+      <title>  Never seen that side of him : Friend remembers NKY officer shot , killed in standoff</title>
+      <link>https://local12.com/news/local/friend-remembers-nky-officer-shot-killed-standoff-police-northern-kentucky-florence-boone-county-dustin-zink-domestic-violence-call-investigation-shooting-shots-fired-gun-weapons-danger-protocol-information</link>
+      <description/>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>local12.com</source>
+    </item>
+    <item>
+      <title>Portsmouth officer shoots and kills man who took hostage , police say</title>
+      <link>https://www.yahoo.com/news/us/articles/portsmouth-officer-shoots-kills-man-021300826.html</link>
+      <description/>
+      <pubDate>Mon, 06 Jul 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Wilmington police officer shoots , kills man allegedly armed in Delaware : officials | EXCLUSIVE</title>
+      <link>https://6abc.com/post/wilmington-police-officer-shoots-kills-man-allegedly-armed-delaware-officials-exclusive/19378385/</link>
+      <description/>
+      <pubDate>Thu, 25 Jun 2026 12:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>6abc.com</source>
+    </item>
+    <item>
+      <title>Family demands answers after man killed in Wilmington police shooting</title>
+      <link>https://www.yahoo.com/news/us/articles/family-demands-answers-man-killed-100232553.html</link>
+      <description/>
+      <pubDate>Thu, 25 Jun 2026 10:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>June 24 : Vivian Strong shot by police officer in Omaha</title>
+      <link>https://www.wowt.com/2026/06/24/today-history-june-24-vivian-strong-shot-by-police-officer-omaha/</link>
+      <description/>
+      <pubDate>Wed, 24 Jun 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wowt.com</source>
     </item>
   </channel>
 </rss>
