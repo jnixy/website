@@ -16,7 +16,7 @@ image:
   preview_only: false
   placement: 1
 links:
-location: 
+location: Chicago, IL
 math: true
 projects: ""
 publishDate: "2025-11-02T09:00:00Z"
