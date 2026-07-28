@@ -15,7 +15,7 @@ image:
   preview_only: false
   placement: 1
 links:
-location: 
+location: Cambridge, UK
 math: true
 projects: ""
 publishDate: "2026-07-28T09:00:00Z"
@@ -30,7 +30,6 @@ tags:
 - Applied Research
 title: "Fast and Spurious: A Causal Evaluation of NYPD's Pursuit Policy, 2022-2025"
 url_code: ""
-url_pdf: ""
 url_slides: "https://jnix.netlify.app/talk/cambridge_ebp_2026/cambridge_ebp_2026.pdf"
 url_video: ""
 ---
