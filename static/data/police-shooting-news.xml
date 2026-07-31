@@ -5,134 +5,406 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2026 08:43:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 09:17:32 +0000</lastBuildDate>
     <item>
-      <title>Substance found in work van of Mexican man killed by ICE tested negative for drugs , prosecutor says</title>
-      <link>https://www.cbsnews.com/news/substance-work-van-ice-shooting-houston-tested-negative-for-drugs-prosecutor/</link>
+      <title>DART Police officer shot in South Dallas</title>
+      <link>https://www.fox4news.com/news/dart-police-officer-shot-south-dallas</link>
       <description/>
-      <pubDate>Sat, 25 Jul 2026 01:00:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2026 05:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>cbsnews.com</source>
+      <source>fox4news.com</source>
     </item>
     <item>
-      <title>Family of man shot by ICE agent in Biddeford hopes for charges , attorney says</title>
-      <link>https://www.pressherald.com/2026/07/21/family-of-man-shot-by-ice-agent-in-biddeford-hopes-for-charges-attorney-says/</link>
+      <title>Waukesha police shooting following hostage situation at Meijer</title>
+      <link>https://www.fox6now.com/news/waukesha-police-shooting-following-hostage-situation-meijer</link>
       <description/>
-      <pubDate>Tue, 21 Jul 2026 21:45:00 +0000</pubDate>
+      <pubDate>Fri, 31 Jul 2026 04:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>pressherald.com</source>
+      <source>fox6now.com</source>
     </item>
     <item>
-      <title>Substance FBI agent saw in van of man fatally shot by ICE in Houston was salt , family attorney says</title>
-      <link>https://www.nbcnews.com/news/us-news/houston-ice-fatal-ice-shooting-fbi-search-warrant-drugs-salt-rcna587821</link>
+      <title>AG investigating deadly Fremont police shooting of 62 - year - old man</title>
+      <link>https://www.ktvu.com/news/ag-investigating-deadly-fremont-shooting-stemmed-from-family-dispute</link>
       <description/>
-      <pubDate>Thu, 16 Jul 2026 19:00:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2026 17:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>nbcnews.com</source>
+      <source>ktvu.com</source>
     </item>
     <item>
-      <title>Detainees tell their lawyer an ICE officer shot a Houston driver through a passenger window</title>
-      <link>https://www.durangoherald.com/articles/associated-press/fatal-shooting-during-houston-traffic-stop-renews-public-scrutiny-of-ice/</link>
+      <title>Madison police shooting : Community members call for reform</title>
+      <link>https://www.fox6now.com/news/madison-police-shooting-community-trust</link>
       <description/>
-      <pubDate>Fri, 10 Jul 2026 22:15:00 +0000</pubDate>
+      <pubDate>Wed, 29 Jul 2026 01:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox6now.com</source>
+    </item>
+    <item>
+      <title>Break - in suspect dead days after being shot by police</title>
+      <link>https://www.yahoo.com/news/us/articles/break-suspect-dead-days-being-203335035.html</link>
+      <description/>
+      <pubDate>Tue, 28 Jul 2026 21:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Officer shoots man after domestic call involving knife – NBC4 Washington</title>
+      <link>https://www.nbcwashington.com/news/local/fairfax-county-officer-shoots-at-man-running-away/4135140/</link>
+      <description/>
+      <pubDate>Tue, 28 Jul 2026 18:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcwashington.com</source>
+    </item>
+    <item>
+      <title>Madison police shooting : Civilian oversight board to conduct review</title>
+      <link>https://www.fox6now.com/news/madison-police-shooting-civilian-oversight-board</link>
+      <description/>
+      <pubDate>Tue, 28 Jul 2026 01:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox6now.com</source>
+    </item>
+    <item>
+      <title>Madison police shooting : Corey Ruiz vigil in Milwaukee</title>
+      <link>https://www.fox6now.com/news/madison-police-shooting-corey-ruiz-milwaukee-vigil</link>
+      <description/>
+      <pubDate>Mon, 27 Jul 2026 07:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox6now.com</source>
+    </item>
+    <item>
+      <title>12 - Year - Old Son of Police Officer Shot , Killed in Gun - Controlled NYC</title>
+      <link>https://www.breitbart.com/2nd-amendment/2026/07/26/12-year-old-son-of-officer-shot-killed-in-gun-controlled-nyc/</link>
+      <description/>
+      <pubDate>Sun, 26 Jul 2026 18:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>breitbart.com</source>
+    </item>
+    <item>
+      <title>Louisville officer shoots armed burglary suspect after foot chase</title>
+      <link>https://www.yahoo.com/news/us/articles/louisville-officer-shoots-armed-burglary-115059572.html</link>
+      <description/>
+      <pubDate>Sun, 26 Jul 2026 12:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Wisconsin capital city cancels signature events , grapples with fallout from police shooting</title>
+      <link>https://www.durangoherald.com/articles/associated-press/wisconsins-capital-city-cancels-signature-events-grapples-with-fallout-from-police-shooting/</link>
+      <description/>
+      <pubDate>Sat, 25 Jul 2026 15:00:00 +0000</pubDate>
       <category>incident</category>
       <source>durangoherald.com</source>
     </item>
     <item>
-      <title>Scrutiny grows after ICE officer fatally shoots Houston man</title>
-      <link>https://www.baltimoresun.com/2026/07/10/ice-shooting-houston-man-contested-claims/</link>
+      <title>Chicago SWAT officer shot : Court docs reveal new details in Albany Park standoff</title>
+      <link>https://www.fox32chicago.com/news/chicago-swat-officer-shot-court-docs-reveal-new-details-albany-park-standoff</link>
       <description/>
-      <pubDate>Fri, 10 Jul 2026 18:00:00 +0000</pubDate>
+      <pubDate>Fri, 24 Jul 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox32chicago.com</source>
+    </item>
+    <item>
+      <title>Madison , Wisconsin police shooting</title>
+      <link>https://madison.com/news/local/crime-courts/collection_e0688c9f-8b38-4870-8bba-3e47d9f3170b.html</link>
+      <description/>
+      <pubDate>Fri, 24 Jul 2026 17:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>madison.com</source>
+    </item>
+    <item>
+      <title>As Protests Continue in Madison Following Police Shooting , It Turns Out Suspect Had Long Rap Sheet</title>
+      <link>https://townhall.com/tipsheet/amy-curtis/2026/07/24/anti-cop-protesters-wi-kill-cops-sign-n2680047</link>
+      <description/>
+      <pubDate>Fri, 24 Jul 2026 13:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>townhall.com</source>
+    </item>
+    <item>
+      <title>Madison mayor , police chief to give update on deadly police shooting</title>
+      <link>https://www.channel3000.com/news/madison-mayor-police-chief-to-give-update-on-deadly-police-shooting/article_1c73538b-951f-4e1c-b458-1b71f276cf93.html</link>
+      <description/>
+      <pubDate>Thu, 23 Jul 2026 18:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>channel3000.com</source>
+    </item>
+    <item>
+      <title>Police Shooting in Madison , Wisconsin Generates Protests</title>
+      <link>https://hotair.com/john-s-2/2026/07/23/police-shooting-in-madison-wisconsin-generates-protests-n3817255</link>
+      <description/>
+      <pubDate>Thu, 23 Jul 2026 18:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>hotair.com</source>
+    </item>
+    <item>
+      <title>Protests erupt in Madison , Wisconsin , after fatal police shooting</title>
+      <link>https://www.yahoo.com/news/us/articles/protests-erupt-madison-wisconsin-fatal-152729322.html</link>
+      <description/>
+      <pubDate>Thu, 23 Jul 2026 16:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Wisconsin governor calls for transparency after fatal police shooting of man with knife</title>
+      <link>https://wcti12.com/news/nation-world/wisconsin-governor-tony-evers-calls-for-transparency-after-fatal-madison-police-shooting-of-man-with-fixed-blade-knife-marquette-neighborhood-south-baldwin-williamson-streets-protests-vigils-investigation</link>
+      <description/>
+      <pubDate>Thu, 23 Jul 2026 16:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wcti12.com</source>
+    </item>
+    <item>
+      <title>Williamson Street remains closed near site of deadly shooting by police</title>
+      <link>https://www.channel3000.com/news/williamson-street-remains-closed-near-site-of-deadly-shooting-by-police/article_09c3b5fe-eec8-46f3-a5ea-7ca78119e02d.html</link>
+      <description/>
+      <pubDate>Thu, 23 Jul 2026 16:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>channel3000.com</source>
+    </item>
+    <item>
+      <title>WI police officer shoots , kills man on city street near state Capitol</title>
+      <link>https://www.baltimoresun.com/2026/07/23/wisconsin-police-officer-kills-man/</link>
+      <description/>
+      <pubDate>Thu, 23 Jul 2026 12:30:00 +0000</pubDate>
       <category>incident</category>
       <source>baltimoresun.com</source>
     </item>
     <item>
-      <title>Texas congresswoman says man killed by ICE wasnt intended target of agents , who werent wearing body cams</title>
-      <link>https://www.tpr.org/2026-07-10/texas-congresswoman-says-man-killed-by-ice-wasnt-intended-target-of-agents-who-werent-wearing-body-cams</link>
+      <title>Deadly Police Shooting Sparks Protests In Madison , Wisconsin | PowerTalk 1460 AM &amp; 101 . 1 FM</title>
+      <link>https://powertalk1460.iheart.com/content/2026-07-23-deadly-police-shooting-sparks-protests-in-madison-wisconsin/</link>
       <description/>
-      <pubDate>Fri, 10 Jul 2026 08:45:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 12:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>tpr.org</source>
+      <source>powertalk1460.iheart.com</source>
     </item>
     <item>
-      <title>Houston congresswoman says man killed by ICE wasnt intended target of agents , who werent wearing body cams – Houston Public Media</title>
-      <link>https://www.houstonpublicmedia.org/articles/news/politics/immigration/2026/07/09/556712/houston-ice-shooting-body-camera-target-congresswoman-sylvia-garcia/</link>
+      <title>Madison , Wisconsin : Officer fatally shot man with knife during struggle</title>
+      <link>https://us.cnn.com/2026/07/22/us/madison-wisconsin-officer-shooting-kills-man</link>
       <description/>
-      <pubDate>Fri, 10 Jul 2026 07:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>houstonpublicmedia.org</source>
+      <source>us.cnn.com</source>
     </item>
     <item>
-      <title>Man Shot in Memphis Is Fourth to Be Killed by Federal Task Force Agents</title>
-      <link>https://www.democracynow.org/2026/7/9/headlines/man_shot_in_memphis_is_fourth_to_be_killed_by_federal_task_force_agents</link>
+      <title>Deadly Police Shooting Sparks Protests In Madison , Wisconsin</title>
+      <link>https://kfyr.iheart.com/content/2026-07-23-deadly-police-shooting-sparks-protests-in-madison-wisconsin/</link>
       <description/>
-      <pubDate>Thu, 09 Jul 2026 19:45:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>democracynow.org</source>
+      <source>kfyr.iheart.com</source>
     </item>
     <item>
-      <title>ICE agent fatally shot a man in Houston , authorities say</title>
-      <link>https://www.bostonglobe.com/2026/07/07/nation/ice-fatal-shooting-houston/</link>
+      <title>Deadly Police Shooting Sparks Protests In Madison , Wisconsin | Talk Radio 105 . 9</title>
+      <link>https://knrs.iheart.com/content/2026-07-23-deadly-police-shooting-sparks-protests-in-madison-wisconsin/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 05:15:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>bostonglobe.com</source>
+      <source>knrs.iheart.com</source>
     </item>
     <item>
-      <title>Immigration agent fatally shot a man in Houston during an enforcement operation</title>
-      <link>https://www.wfmz.com/news/ap/ap-national/immigration-agent-fatally-shot-a-man-in-houston-during-an-enforcement-operation/article_d966dcd3-d4f6-5408-a204-4a94c6395aba.html</link>
+      <title>Deadly Police Shooting Sparks Protests In Madison , Wisconsin | News Radio 103 . 1 and 810 WGY</title>
+      <link>https://wgy.iheart.com/content/2026-07-23-deadly-police-shooting-sparks-protests-in-madison-wisconsin/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 03:45:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 11:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>wfmz.com</source>
+      <source>wgy.iheart.com</source>
     </item>
     <item>
-      <title>US immigration officer shoots and kills man in Texas</title>
-      <link>https://www.aljazeera.com/news/2026/7/8/us-immigration-officer-shoots-and-kills-man-in-texas</link>
+      <title>Deadly Police Shooting Sparks Protests In Madison , Wisconsin | Newsradio WOOD 1300 and 106 . 9 FM</title>
+      <link>https://woodradio.iheart.com/content/2026-07-23-deadly-police-shooting-sparks-protests-in-madison-wisconsin/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 03:45:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 11:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>aljazeera.com</source>
+      <source>woodradio.iheart.com</source>
     </item>
     <item>
-      <title>ICE Officer Fatally Shoots Illegal Immigrant During Houston Arrest Operation</title>
-      <link>https://www.theepochtimes.com/us/ice-officer-fatally-shoots-illegal-immigrant-during-houston-arrest-operation-6058784</link>
+      <title>Deadly Police Shooting Sparks Protests In Madison , Wisconsin | News Radio 920 AM &amp; 104 . 7 FM</title>
+      <link>https://newsradiori.iheart.com/content/2026-07-23-deadly-police-shooting-sparks-protests-in-madison-wisconsin/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 02:45:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 11:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>theepochtimes.com</source>
+      <source>newsradiori.iheart.com</source>
     </item>
     <item>
-      <title>Immigration agent killed a man in Houston during an operation</title>
-      <link>https://www.wsbradio.com/news/national/immigration-agent/QL3MA62BCI5TVGQX56ZBQ2XQP4/</link>
+      <title>2 IMPD officers shot and male suspect killed during police shooting</title>
+      <link>https://www.wishtv.com/news/crime-watch-8/2-impd-officers-shot-and-male-suspect-killed-during-police-shooting/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 02:30:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 10:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>wsbradio.com</source>
+      <source>wishtv.com</source>
     </item>
     <item>
-      <title>ICE agent shoots , kills illegal immigrant who tried to ram him with car in Houston : report</title>
-      <link>https://wpde.com/news/nation-world/ice-officer-shoots-kills-illegal-immigrant-who-tried-to-ram-him-with-car-in-texas-report-houston-immigration-and-customs-enforcement-migrants-vehicke-rammings-president-donald-trump</link>
+      <title>Madison police : Officer shoots , killed man armed with knife</title>
+      <link>https://www.fox6now.com/news/madison-police-shooting-baldwin-williamson</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 00:15:00 +0000</pubDate>
-      <category>research</category>
-      <source>wpde.com</source>
-    </item>
-    <item>
-      <title>Immigration agent fatally shot a man in Houston during an enforcement operation , authorities say</title>
-      <link>https://www.baltimoresun.com/2026/07/07/immigration-enforcement-houston/</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 03:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>baltimoresun.com</source>
+      <source>fox6now.com</source>
     </item>
     <item>
-      <title>ICE officer shoots , kills illegal immigrant who tried to ram him with car in Texas : report</title>
-      <link>https://komonews.com/news/nation-world/ice-officer-shoots-kills-illegal-immigrant-who-tried-to-ram-him-with-car-in-texas-report-houston-immigration-and-customs-enforcement-migrants-vehicke-rammings-president-donald-trump</link>
+      <title>Wisconsin police officer shoots , kills man on city street near state Capitol in Madison</title>
+      <link>https://www.clickondetroit.com/news/national/2026/07/22/wisconsin-police-officer-shoots-kills-man-on-city-street-near-state-capitol-in-madison/</link>
       <description/>
-      <pubDate>Tue, 07 Jul 2026 22:30:00 +0000</pubDate>
-      <category>research</category>
-      <source>komonews.com</source>
+      <pubDate>Thu, 23 Jul 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>clickondetroit.com</source>
+    </item>
+    <item>
+      <title>Wisconsin police officer fatally shoots man near state Capitol in Madison</title>
+      <link>https://nypost.com/2026/07/22/us-news/wisconsin-police-officer-fatally-shoots-man-near-state-capitol-in-madison/</link>
+      <description/>
+      <pubDate>Thu, 23 Jul 2026 00:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nypost.com</source>
+    </item>
+    <item>
+      <title>Walmart reopens after deadly police shooting at Las Vegas store | East Valley</title>
+      <link>https://www.reviewjournal.com/local/east-valley/las-vegas-walmart-reopens-after-shootings-inside-outside-store-3853668/</link>
+      <description/>
+      <pubDate>Thu, 23 Jul 2026 00:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>reviewjournal.com</source>
+    </item>
+    <item>
+      <title>Wisconsin police officer shoots , kills man on city street near state Capitol</title>
+      <link>https://abcnews.com/US/wireStory/wisconsin-police-officer-shoots-kills-man-city-street-135001300</link>
+      <description/>
+      <pubDate>Wed, 22 Jul 2026 23:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abcnews.com</source>
+    </item>
+    <item>
+      <title>Machete - wielding suspect shot by police outside UCI Health in Los Alamitos</title>
+      <link>https://www.foxla.com/news/police-activity-uci-medical-center-los-alamitos-long-beach</link>
+      <description/>
+      <pubDate>Wed, 22 Jul 2026 22:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>foxla.com</source>
+    </item>
+    <item>
+      <title>Pursuit ends in dramatic crash , deadly police shooting in Simi Valley</title>
+      <link>https://www.latimes.com/california/story/2026-07-22/pursuit-ends-in-dramatic-crash-deadly-police-shooting-in-simi-valley</link>
+      <description/>
+      <pubDate>Wed, 22 Jul 2026 17:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>latimes.com</source>
+    </item>
+    <item>
+      <title>Her son was killed by ICE at a traffic stop . She says she still waiting for justice</title>
+      <link>https://wnyc.org/npr/nx-s1-5900933</link>
+      <description/>
+      <pubDate>Wed, 22 Jul 2026 16:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wnyc.org</source>
+    </item>
+    <item>
+      <title>Alleged Vallejo carjacking suspect identified after fatal police shooting</title>
+      <link>https://www.ktvu.com/news/vallejo-police-shooting-suspect-identified</link>
+      <description/>
+      <pubDate>Wed, 22 Jul 2026 03:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ktvu.com</source>
+    </item>
+    <item>
+      <title>From jaywalking stop to gunfire : APD releases new details in police shooting</title>
+      <link>https://www.kob.com/new-mexico/albuquerque-metro/from-jaywalking-stop-to-gunfire-apd-releases-new-details-in-officer-involved-shooting/</link>
+      <description/>
+      <pubDate>Wed, 22 Jul 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kob.com</source>
+    </item>
+    <item>
+      <title>Suspect dead in Vallejo police shooting after alleged carjacking</title>
+      <link>https://www.mercurynews.com/2026/07/21/one-suspect-dead-in-vallejo-police-shooting-after-alleged-carjacking/</link>
+      <description/>
+      <pubDate>Tue, 21 Jul 2026 13:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>mercurynews.com</source>
+    </item>
+    <item>
+      <title>One suspect dead in Vallejo police shooting after alleged carjacking</title>
+      <link>https://www.thereporter.com/2026/07/20/one-suspect-dead-in-vallejo-police-shooting-after-alleged-carjacking/</link>
+      <description/>
+      <pubDate>Tue, 21 Jul 2026 06:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thereporter.com</source>
+    </item>
+    <item>
+      <title>Chicago SWAT officer shot by hostage - taker in Albany Park : Police – NBC Chicago</title>
+      <link>https://www.nbcchicago.com/news/local/chicago-swat-officer-was-shot-by-hostage-taker-in-albany-park-police-say/3963950/</link>
+      <description/>
+      <pubDate>Tue, 21 Jul 2026 01:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcchicago.com</source>
+    </item>
+    <item>
+      <title>4 shot outside Detroit church during funeral ; officer shoots armed suspect , Chief Bettison says</title>
+      <link>https://www.clickondetroit.com/news/local/2026/07/18/5-shot-outside-detroit-church-during-funeral-officer-stops-armed-suspect-chief-bettison-says/</link>
+      <description/>
+      <pubDate>Sat, 18 Jul 2026 03:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>clickondetroit.com</source>
+    </item>
+    <item>
+      <title>Kadir Skinner : Wilmington community demands answers after deadly police shooting</title>
+      <link>https://www.fox29.com/news/wilmington-residents-demand-answers-after-police-shooting-death-kadir-skinner</link>
+      <description/>
+      <pubDate>Fri, 17 Jul 2026 05:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox29.com</source>
+    </item>
+    <item>
+      <title>Body cam footage released in Lacey woman police shooting</title>
+      <link>https://nj1015.com/lacey-police-body-camera-footage-released/</link>
+      <description/>
+      <pubDate>Fri, 17 Jul 2026 02:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nj1015.com</source>
+    </item>
+    <item>
+      <title>Wife of man shot , killed by ICE agent in Maine speaks publicly</title>
+      <link>https://www.koat.com/article/maine-ice-shooting-wife-of-man-killed-speaks/72903965</link>
+      <description/>
+      <pubDate>Fri, 17 Jul 2026 00:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
+    </item>
+    <item>
+      <title>Phoenix officer shot in head makes opening statements in suspect trial</title>
+      <link>https://www.azfamily.com/2026/07/15/phoenix-officer-shot-head-makes-opening-statements-suspects-trial/</link>
+      <description/>
+      <pubDate>Thu, 16 Jul 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>azfamily.com</source>
+    </item>
+    <item>
+      <title>Colorado Springs police shooting in February near East Bijou ruled justified</title>
+      <link>https://krdo.com/news/crime/2026/07/15/colorado-springs-police-shooting-in-february-near-east-bijou-ruled-justified/</link>
+      <description/>
+      <pubDate>Wed, 15 Jul 2026 22:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>krdo.com</source>
+    </item>
+    <item>
+      <title>Lorenzo Salgado Araujo shot and killed by ICE agent in Houston , authorities confirm : Live updates</title>
+      <link>https://abc13.com/live-updates/lorenzo-salgado-araujo-shot-killed-ice-agent-houston-authorities-confirm-live-updates/19477523/</link>
+      <description/>
+      <pubDate>Wed, 15 Jul 2026 22:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc13.com</source>
+    </item>
+    <item>
+      <title>Protesters gather after man shot , killed by ICE agent in Maine</title>
+      <link>https://www.kcci.com/article/biddeford-ice-shooting/71927383</link>
+      <description/>
+      <pubDate>Tue, 14 Jul 2026 11:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kcci.com</source>
+    </item>
+    <item>
+      <title>Deputy US Marshal Shot and Killed Serving Arrest Warrant in Louisiana</title>
+      <link>https://www.newsweek.com/deputy-us-marshal-shot-and-killed-serving-arrest-warrant-in-louisiana-12192326</link>
+      <description/>
+      <pubDate>Tue, 14 Jul 2026 09:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>newsweek.com</source>
     </item>
   </channel>
 </rss>
