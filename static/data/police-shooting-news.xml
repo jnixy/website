@@ -5,86 +5,14 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Aug 2026 08:51:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 08:50:23 +0000</lastBuildDate>
     <item>
-      <title>DART Police officer shot in South Dallas</title>
-      <link>https://www.fox4news.com/news/dart-police-officer-shot-south-dallas</link>
+      <title>Substance found in work van of Mexican man killed by ICE tested negative for drugs , prosecutor says</title>
+      <link>https://www.cbsnews.com/news/substance-work-van-ice-shooting-houston-tested-negative-for-drugs-prosecutor/</link>
       <description/>
-      <pubDate>Fri, 31 Jul 2026 05:45:00 +0000</pubDate>
+      <pubDate>Sat, 25 Jul 2026 01:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>fox4news.com</source>
-    </item>
-    <item>
-      <title>Waukesha police shooting following hostage situation at Meijer</title>
-      <link>https://www.fox6now.com/news/waukesha-police-shooting-following-hostage-situation-meijer</link>
-      <description/>
-      <pubDate>Fri, 31 Jul 2026 04:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>AG investigating deadly Fremont police shooting of 62 - year - old man</title>
-      <link>https://www.ktvu.com/news/ag-investigating-deadly-fremont-shooting-stemmed-from-family-dispute</link>
-      <description/>
-      <pubDate>Wed, 29 Jul 2026 17:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>ktvu.com</source>
-    </item>
-    <item>
-      <title>Madison police shooting : Community members call for reform</title>
-      <link>https://www.fox6now.com/news/madison-police-shooting-community-trust</link>
-      <description/>
-      <pubDate>Wed, 29 Jul 2026 01:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>Madison police shooting : Civilian oversight board to conduct review</title>
-      <link>https://www.fox6now.com/news/madison-police-shooting-civilian-oversight-board</link>
-      <description/>
-      <pubDate>Tue, 28 Jul 2026 01:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>Protests erupt in Madison , Wisconsin , after fatal police shooting</title>
-      <link>https://www.yahoo.com/news/us/articles/protests-erupt-madison-wisconsin-fatal-152729322.html</link>
-      <description/>
-      <pubDate>Thu, 23 Jul 2026 16:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>yahoo.com</source>
-    </item>
-    <item>
-      <title>Madison police : Officer shoots , killed man armed with knife</title>
-      <link>https://www.fox6now.com/news/madison-police-shooting-baldwin-williamson</link>
-      <description/>
-      <pubDate>Thu, 23 Jul 2026 03:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>Wisconsin police officer fatally shoots man near state Capitol in Madison</title>
-      <link>https://nypost.com/2026/07/22/us-news/wisconsin-police-officer-fatally-shoots-man-near-state-capitol-in-madison/</link>
-      <description/>
-      <pubDate>Thu, 23 Jul 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nypost.com</source>
-    </item>
-    <item>
-      <title>Walmart reopens after deadly police shooting at Las Vegas store | East Valley</title>
-      <link>https://www.reviewjournal.com/local/east-valley/las-vegas-walmart-reopens-after-shootings-inside-outside-store-3853668/</link>
-      <description/>
-      <pubDate>Thu, 23 Jul 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>reviewjournal.com</source>
-    </item>
-    <item>
-      <title>Machete - wielding suspect shot by police outside UCI Health in Los Alamitos</title>
-      <link>https://www.foxla.com/news/police-activity-uci-medical-center-los-alamitos-long-beach</link>
-      <description/>
-      <pubDate>Wed, 22 Jul 2026 22:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>foxla.com</source>
+      <source>cbsnews.com</source>
     </item>
     <item>
       <title>Her son was killed by ICE at a traffic stop . She says she still waiting for justice</title>
@@ -95,12 +23,12 @@
       <source>wnyc.org</source>
     </item>
     <item>
-      <title>Kadir Skinner : Wilmington community demands answers after deadly police shooting</title>
-      <link>https://www.fox29.com/news/wilmington-residents-demand-answers-after-police-shooting-death-kadir-skinner</link>
+      <title>Family of man shot by ICE agent in Biddeford hopes for charges , attorney says</title>
+      <link>https://www.pressherald.com/2026/07/21/family-of-man-shot-by-ice-agent-in-biddeford-hopes-for-charges-attorney-says/</link>
       <description/>
-      <pubDate>Fri, 17 Jul 2026 05:45:00 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 21:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>fox29.com</source>
+      <source>pressherald.com</source>
     </item>
     <item>
       <title>Wife of man shot , killed by ICE agent in Maine speaks publicly</title>
@@ -109,6 +37,14 @@
       <pubDate>Fri, 17 Jul 2026 00:45:00 +0000</pubDate>
       <category>incident</category>
       <source>koat.com</source>
+    </item>
+    <item>
+      <title>Substance FBI agent saw in van of man fatally shot by ICE in Houston was salt , family attorney says</title>
+      <link>https://www.nbcnews.com/news/us-news/houston-ice-fatal-ice-shooting-fbi-search-warrant-drugs-salt-rcna587821</link>
+      <description/>
+      <pubDate>Thu, 16 Jul 2026 19:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcnews.com</source>
     </item>
     <item>
       <title>Lorenzo Salgado Araujo shot and killed by ICE agent in Houston , authorities confirm : Live updates</title>
@@ -151,6 +87,14 @@
       <source>fox6now.com</source>
     </item>
     <item>
+      <title>Detainees tell their lawyer an ICE officer shot a Houston driver through a passenger window</title>
+      <link>https://www.durangoherald.com/articles/associated-press/fatal-shooting-during-houston-traffic-stop-renews-public-scrutiny-of-ice/</link>
+      <description/>
+      <pubDate>Fri, 10 Jul 2026 22:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>durangoherald.com</source>
+    </item>
+    <item>
       <title>Scrutiny grows after ICE officer fatally shoots Houston man</title>
       <link>https://www.baltimoresun.com/2026/07/10/ice-shooting-houston-man-contested-claims/</link>
       <description/>
@@ -191,6 +135,14 @@
       <source>houstonpublicmedia.org</source>
     </item>
     <item>
+      <title>Man Shot in Memphis Is Fourth to Be Killed by Federal Task Force Agents</title>
+      <link>https://www.democracynow.org/2026/7/9/headlines/man_shot_in_memphis_is_fourth_to_be_killed_by_federal_task_force_agents</link>
+      <description/>
+      <pubDate>Thu, 09 Jul 2026 19:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>democracynow.org</source>
+    </item>
+    <item>
       <title>Bill Kristol Has Hot Take on Unarmed Family Man Shot by ICE While Driving to Work</title>
       <link>https://twitchy.com/brettt/2026/07/08/bill-kristol-has-hot-take-on-unarmed-family-man-shot-by-ice-while-driving-to-work-n2430047</link>
       <description/>
@@ -215,12 +167,12 @@
       <source>yahoo.com</source>
     </item>
     <item>
-      <title>US immigration officer shoots and kills man in Texas</title>
-      <link>https://www.aljazeera.com/news/2026/7/8/us-immigration-officer-shoots-and-kills-man-in-texas</link>
+      <title>ICE agent fatally shot a man in Houston , authorities say</title>
+      <link>https://www.bostonglobe.com/2026/07/07/nation/ice-fatal-shooting-houston/</link>
       <description/>
-      <pubDate>Wed, 08 Jul 2026 03:45:00 +0000</pubDate>
+      <pubDate>Wed, 08 Jul 2026 05:15:00 +0000</pubDate>
       <category>incident</category>
-      <source>aljazeera.com</source>
+      <source>bostonglobe.com</source>
     </item>
     <item>
       <title>Immigration agent fatally shot a man in Houston during an enforcement operation</title>
@@ -231,20 +183,28 @@
       <source>wfmz.com</source>
     </item>
     <item>
+      <title>US immigration officer shoots and kills man in Texas</title>
+      <link>https://www.aljazeera.com/news/2026/7/8/us-immigration-officer-shoots-and-kills-man-in-texas</link>
+      <description/>
+      <pubDate>Wed, 08 Jul 2026 03:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>aljazeera.com</source>
+    </item>
+    <item>
+      <title>ICE Officer Fatally Shoots Illegal Immigrant During Houston Arrest Operation</title>
+      <link>https://www.theepochtimes.com/us/ice-officer-fatally-shoots-illegal-immigrant-during-houston-arrest-operation-6058784</link>
+      <description/>
+      <pubDate>Wed, 08 Jul 2026 02:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>theepochtimes.com</source>
+    </item>
+    <item>
       <title>Immigration agent killed a man in Houston during an operation</title>
       <link>https://www.wsbradio.com/news/national/immigration-agent/QL3MA62BCI5TVGQX56ZBQ2XQP4/</link>
       <description/>
       <pubDate>Wed, 08 Jul 2026 02:30:00 +0000</pubDate>
       <category>incident</category>
       <source>wsbradio.com</source>
-    </item>
-    <item>
-      <title>Immigration agent fatally shot a man in Houston during an enforcement operation , authorities say</title>
-      <link>https://mynorthwest.com/national/immigration-agent-fatally-shot-a-man-in-houston-during-an-enforcement-operation-authorities-say/4254900</link>
-      <description/>
-      <pubDate>Wed, 08 Jul 2026 01:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>mynorthwest.com</source>
     </item>
     <item>
       <title>ICE agent shoots , kills illegal immigrant who tried to ram him with car in Houston : report</title>
@@ -255,20 +215,20 @@
       <source>wpde.com</source>
     </item>
     <item>
+      <title>Immigration agent fatally shot a man in Houston during an enforcement operation , authorities say</title>
+      <link>https://www.baltimoresun.com/2026/07/07/immigration-enforcement-houston/</link>
+      <description/>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>baltimoresun.com</source>
+    </item>
+    <item>
       <title>ICE officer shoots , kills illegal immigrant who tried to ram him with car in Texas : report</title>
       <link>https://komonews.com/news/nation-world/ice-officer-shoots-kills-illegal-immigrant-who-tried-to-ram-him-with-car-in-texas-report-houston-immigration-and-customs-enforcement-migrants-vehicke-rammings-president-donald-trump</link>
       <description/>
       <pubDate>Tue, 07 Jul 2026 22:30:00 +0000</pubDate>
       <category>research</category>
       <source>komonews.com</source>
-    </item>
-    <item>
-      <title>New details after man fatally shot by police near St . Christopher Hospital in Philadelphia</title>
-      <link>https://www.fox29.com/news/new-details-after-officer-involved-shooting-outside-st-c</link>
-      <description/>
-      <pubDate>Tue, 07 Jul 2026 04:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox29.com</source>
     </item>
   </channel>
 </rss>
