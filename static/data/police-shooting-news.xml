@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Aug 2026 07:10:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 06:57:55 +0000</lastBuildDate>
+    <item>
+      <title>Off - duty Philadelphia officer killed in double shooting laid to rest</title>
+      <link>https://www.fox29.com/news/funeral-arrangements-announced-off-duty-philly-officer-killed-double-shooting</link>
+      <description/>
+      <pubDate>Mon, 17 Aug 2026 17:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox29.com</source>
+    </item>
     <item>
       <title>Arlington police officer shot during Dallas incident | FOX 4 Dallas - Fort Worth</title>
       <link>https://www.fox4news.com/news/arlington-police-officer-injured-dallas-shooting</link>
@@ -13,6 +21,38 @@
       <pubDate>Mon, 17 Aug 2026 03:15:00 +0000</pubDate>
       <category>incident</category>
       <source>fox4news.com</source>
+    </item>
+    <item>
+      <title>Oakland police shooting near a homeless encampment triggers probe</title>
+      <link>https://www.foxnews.com/us/watch-terrifying-moment-spear-wielding-man-lunges-california-cops-before-shots-ring-out</link>
+      <description/>
+      <pubDate>Thu, 13 Aug 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>foxnews.com</source>
+    </item>
+    <item>
+      <title>A Border Patrol agent killed a migrant in Texas last December . Officials are still withholding details . </title>
+      <link>https://www.sacurrent.com/news/texas-news/a-border-patrol-agent-killed-a-migrant-in-texas-last-december-officials-are-still-withholding-details/</link>
+      <description/>
+      <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>sacurrent.com</source>
+    </item>
+    <item>
+      <title>A border agent killed a migrant who crossed into Starr County . Eight months later , it still under investigation . </title>
+      <link>https://www.click2houston.com/news/texas/2026/08/06/a-border-agent-killed-a-migrant-who-crossed-into-starr-county-eight-months-later-its-still-under-investigation/</link>
+      <description/>
+      <pubDate>Thu, 06 Aug 2026 14:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>click2houston.com</source>
+    </item>
+    <item>
+      <title>A border agent killed a migrant who crossed into Starr County . Eight months later , it still under investigation . – The Gilmer Mirror</title>
+      <link>https://www.gilmermirror.com/2026/08/06/a-border-agent-killed-a-migrant-who-crossed-into-starr-county-eight-months-later-its-still-under-investigation/</link>
+      <description/>
+      <pubDate>Thu, 06 Aug 2026 13:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>gilmermirror.com</source>
     </item>
     <item>
       <title>Madison police shooting ; mayor says protest site  not sustainable or safe  </title>
