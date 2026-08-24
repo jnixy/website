@@ -339,9 +339,35 @@
   color: #7b1fa2; 
 }
 
-.mention-type-byline { 
-  background: #fff3e0; 
-  color: #ef6c00; 
+.mention-type-byline {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+/* Police-shooting tracker category badges */
+.mention-type-incident {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.mention-type-investigation {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+.mention-type-accountability {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.mention-type-legal {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.mention-type-research {
+  background: #e8f5e9;
+  color: #2e7d32;
 }
 
 /* Pagination */

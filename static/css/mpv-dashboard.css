@@ -1,0 +1,120 @@
+/* MPV Dashboard Stylesheet
+   For jnix.netlify.app personal website
+   Reuses the site's existing theme variables (--article-bg-color,
+   --text-muted, --heading-color, --border-color) so it follows the same
+   light/dark behavior as the rest of the site. */
+
+.mpv-dashboard-container {
+  margin-top: 2rem;
+}
+
+.mpv-loading,
+.mpv-error {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted, #666);
+}
+
+.mpv-error {
+  color: #c62828;
+}
+
+.mpv-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted, #666);
+  margin-bottom: 1.5rem;
+}
+
+.mpv-meta a {
+  color: #4caf50;
+}
+
+/* Stat tiles */
+.mpv-stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.mpv-stat-tile {
+  background: var(--article-bg-color, #f8f9fa);
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.mpv-stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--heading-color, #1a1a1a);
+  line-height: 1.2;
+}
+
+.mpv-stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted, #666);
+  margin-top: 0.25rem;
+}
+
+.mpv-stat-delta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.35rem;
+}
+
+.mpv-stat-delta.up {
+  color: #c62828;
+}
+
+.mpv-stat-delta.down {
+  color: #2e7d32;
+}
+
+/* Chart grid */
+.mpv-chart-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 900px) {
+  .mpv-chart-grid.mpv-two-col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mpv-chart-card {
+  background: var(--article-bg-color, #fff);
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.mpv-chart-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--heading-color, #1a1a1a);
+  margin: 0 0 0.75rem 0;
+}
+
+.mpv-chart {
+  width: 100%;
+  min-height: 320px;
+}
+
+.mpv-download-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 480px) {
+  .mpv-stat-value {
+    font-size: 1.5rem;
+  }
+}

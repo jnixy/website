@@ -1,0 +1,490 @@
+{
+  "generated_at": "2026-08-24T17:02:55Z",
+  "source": "Mapping Police Violence (mappingpoliceviolence.us)",
+  "source_last_incident_date": "2026-08-18",
+  "stats": {
+    "total_incidents": 15550,
+    "current_year": 2026,
+    "current_year_to_date": 712,
+    "prior_year_same_point": 827
+  },
+  "yearly_counts": [
+    {
+      "year": 2013,
+      "count": 1075
+    },
+    {
+      "year": 2014,
+      "count": 1039
+    },
+    {
+      "year": 2015,
+      "count": 1099
+    },
+    {
+      "year": 2016,
+      "count": 1065
+    },
+    {
+      "year": 2017,
+      "count": 1091
+    },
+    {
+      "year": 2018,
+      "count": 1138
+    },
+    {
+      "year": 2019,
+      "count": 1099
+    },
+    {
+      "year": 2020,
+      "count": 1161
+    },
+    {
+      "year": 2021,
+      "count": 1148
+    },
+    {
+      "year": 2022,
+      "count": 1204
+    },
+    {
+      "year": 2023,
+      "count": 1248
+    },
+    {
+      "year": 2024,
+      "count": 1270
+    },
+    {
+      "year": 2025,
+      "count": 1201
+    },
+    {
+      "year": 2026,
+      "count": 712
+    }
+  ],
+  "cumulative_trajectory": {
+    "months": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "series": [
+      {
+        "year": 2021,
+        "cumulative_by_month": [
+          85,
+          188,
+          281,
+          375,
+          469,
+          588,
+          667,
+          769,
+          860,
+          970,
+          1050,
+          1148
+        ]
+      },
+      {
+        "year": 2022,
+        "cumulative_by_month": [
+          91,
+          188,
+          299,
+          400,
+          500,
+          603,
+          711,
+          801,
+          908,
+          1002,
+          1102,
+          1204
+        ]
+      },
+      {
+        "year": 2023,
+        "cumulative_by_month": [
+          112,
+          200,
+          294,
+          394,
+          497,
+          590,
+          696,
+          818,
+          918,
+          1025,
+          1121,
+          1248
+        ]
+      },
+      {
+        "year": 2024,
+        "cumulative_by_month": [
+          96,
+          177,
+          298,
+          411,
+          546,
+          660,
+          765,
+          875,
+          965,
+          1073,
+          1164,
+          1270
+        ]
+      },
+      {
+        "year": 2025,
+        "cumulative_by_month": [
+          114,
+          209,
+          305,
+          404,
+          514,
+          629,
+          744,
+          847,
+          945,
+          1028,
+          1110,
+          1201
+        ]
+      },
+      {
+        "year": 2026,
+        "cumulative_by_month": [
+          85,
+          179,
+          279,
+          385,
+          497,
+          586,
+          661,
+          712,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    ]
+  },
+  "heatmap": {
+    "day_labels": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
+    "month_labels": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "counts": [
+      [
+        194,
+        164,
+        174,
+        177,
+        188,
+        182,
+        185,
+        189,
+        158,
+        178,
+        154,
+        158
+      ],
+      [
+        218,
+        191,
+        220,
+        178,
+        183,
+        185,
+        216,
+        205,
+        154,
+        186,
+        165,
+        195
+      ],
+      [
+        226,
+        167,
+        197,
+        232,
+        216,
+        201,
+        204,
+        189,
+        153,
+        186,
+        160,
+        191
+      ],
+      [
+        184,
+        177,
+        212,
+        197,
+        214,
+        215,
+        212,
+        190,
+        164,
+        163,
+        157,
+        187
+      ],
+      [
+        175,
+        182,
+        220,
+        165,
+        219,
+        201,
+        173,
+        221,
+        186,
+        184,
+        178,
+        174
+      ],
+      [
+        157,
+        186,
+        186,
+        218,
+        187,
+        203,
+        177,
+        199,
+        162,
+        149,
+        150,
+        157
+      ],
+      [
+        186,
+        150,
+        207,
+        163,
+        194,
+        178,
+        186,
+        180,
+        143,
+        191,
+        176,
+        196
+      ]
+    ]
+  },
+  "race_breakdown": [
+    {
+      "label": "White",
+      "count": 6749
+    },
+    {
+      "label": "Black",
+      "count": 3905
+    },
+    {
+      "label": "Hispanic",
+      "count": 2835
+    },
+    {
+      "label": "Unknown",
+      "count": 1449
+    },
+    {
+      "label": "Asian",
+      "count": 288
+    },
+    {
+      "label": "Native American",
+      "count": 217
+    },
+    {
+      "label": "Pacific Islander",
+      "count": 61
+    },
+    {
+      "label": "Multiracial",
+      "count": 46
+    }
+  ],
+  "armed_status_breakdown": [
+    {
+      "label": "Allegedly Armed",
+      "count": 11590
+    },
+    {
+      "label": "Unarmed",
+      "count": 2019
+    },
+    {
+      "label": "Unclear/Unknown",
+      "count": 1027
+    },
+    {
+      "label": "Vehicle",
+      "count": 914
+    }
+  ],
+  "top_states": [
+    {
+      "label": "CA",
+      "count": 2118
+    },
+    {
+      "label": "TX",
+      "count": 1530
+    },
+    {
+      "label": "FL",
+      "count": 1093
+    },
+    {
+      "label": "AZ",
+      "count": 678
+    },
+    {
+      "label": "GA",
+      "count": 605
+    },
+    {
+      "label": "CO",
+      "count": 486
+    },
+    {
+      "label": "NC",
+      "count": 448
+    },
+    {
+      "label": "OH",
+      "count": 442
+    },
+    {
+      "label": "TN",
+      "count": 408
+    },
+    {
+      "label": "WA",
+      "count": 399
+    },
+    {
+      "label": "MO",
+      "count": 393
+    },
+    {
+      "label": "OK",
+      "count": 391
+    },
+    {
+      "label": "PA",
+      "count": 357
+    },
+    {
+      "label": "IL",
+      "count": 349
+    },
+    {
+      "label": "NY",
+      "count": 326
+    }
+  ],
+  "top_agencies": [
+    {
+      "label": "Los Angeles Police Department",
+      "count": 220
+    },
+    {
+      "label": "Phoenix Police Department",
+      "count": 185
+    },
+    {
+      "label": "Los Angeles County Sheriff's Office",
+      "count": 172
+    },
+    {
+      "label": "New York Police Department",
+      "count": 141
+    },
+    {
+      "label": "Houston Police Department",
+      "count": 140
+    },
+    {
+      "label": "U.S. Marshals Service",
+      "count": 128
+    },
+    {
+      "label": "San Antonio Police Department",
+      "count": 111
+    },
+    {
+      "label": "Chicago Police Department",
+      "count": 111
+    },
+    {
+      "label": "Las Vegas Metropolitan Police Department",
+      "count": 110
+    },
+    {
+      "label": "Jacksonville Sheriff's Office",
+      "count": 86
+    },
+    {
+      "label": "Albuquerque Police Department",
+      "count": 84
+    },
+    {
+      "label": "Pennsylvania State Police",
+      "count": 76
+    },
+    {
+      "label": "California Highway Patrol",
+      "count": 71
+    },
+    {
+      "label": "Oklahoma City Police Department",
+      "count": 70
+    },
+    {
+      "label": "Miami-Dade Police Department",
+      "count": 68
+    }
+  ]
+}

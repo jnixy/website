@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 07:14:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 16:43:08 +0000</lastBuildDate>
     <item>
       <title>Family of L . A . man killed by ICE agent seeks grand jury investigation</title>
       <link>https://www.latimes.com/california/story/2026-08-17/keith-porter-jr-family-ice-agent-shooting-grand-jury-investigation</link>
@@ -15,20 +15,20 @@
       <source>latimes.com</source>
     </item>
     <item>
-      <title>Partner of man shot by ICE agent in Biddeford posts tribute a month after his death</title>
-      <link>https://www.pressherald.com/2026/08/13/partner-of-man-shot-by-ice-agent-in-biddeford-posts-tribute-a-month-after-his-death/</link>
+      <title>Oakland police shooting near a homeless encampment triggers probe</title>
+      <link>https://www.foxnews.com/us/watch-terrifying-moment-spear-wielding-man-lunges-california-cops-before-shots-ring-out</link>
       <description/>
-      <pubDate>Thu, 13 Aug 2026 23:45:00 +0000</pubDate>
+      <pubDate>Thu, 13 Aug 2026 23:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>pressherald.com</source>
+      <source>foxnews.com</source>
     </item>
     <item>
-      <title>A month after a man was shot by ICE in Biddeford , his family is waiting for answers</title>
-      <link>https://www.pressherald.com/2026/08/11/a-month-after-a-man-was-shot-by-ice-in-biddeford-his-family-is-waiting-for-answers/</link>
+      <title>Mural honors life of man killed by ICE in Biddeford</title>
+      <link>https://fox23maine.com/news/local/mural-painted-in-biddeford-to-honor-life-of-man-killed-by-ice-immigration-customs-enforcement-johan-sebastian-duran-guerrero-colombia-alfred-street</link>
       <description/>
-      <pubDate>Tue, 11 Aug 2026 20:15:00 +0000</pubDate>
+      <pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>pressherald.com</source>
+      <source>fox23maine.com</source>
     </item>
     <item>
       <title>A Border Patrol agent killed a migrant in Texas last December . Officials are still withholding details . </title>
@@ -53,6 +53,14 @@
       <pubDate>Thu, 06 Aug 2026 13:00:00 +0000</pubDate>
       <category>incident</category>
       <source>gilmermirror.com</source>
+    </item>
+    <item>
+      <title>Texas worker shot by ICE didnt have drugs despite FBI claim</title>
+      <link>https://www.washingtonexaminer.com/policy/immigration/4663558/texas-construction-worker-fatally-shot-ice-didnt-have-drugs-despite-fbi-claims/</link>
+      <description/>
+      <pubDate>Sat, 25 Jul 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>washingtonexaminer.com</source>
     </item>
   </channel>
 </rss>
