@@ -49,6 +49,7 @@
       : 0;
     var deltaClass = delta > 0 ? 'up' : (delta < 0 ? 'down' : '');
     var deltaSign = delta > 0 ? '+' : '';
+    var asOfShort = formatDateTime(stats.as_of_date, { omitYear: true });
 
     var html = '' +
       '<div class="mpv-stat-tile">' +
@@ -57,8 +58,8 @@
       '</div>' +
       '<div class="mpv-stat-tile">' +
         '<div class="mpv-stat-value">' + stats.current_year_to_date.toLocaleString() + '</div>' +
-        '<div class="mpv-stat-label">' + stats.current_year + ' Year-to-Date</div>' +
-        '<div class="mpv-stat-delta ' + deltaClass + '">' + deltaSign + deltaPct + '% vs. same point ' + (stats.current_year - 1) + '</div>' +
+        '<div class="mpv-stat-label">' + stats.current_year + ' YTD (as of ' + asOfShort + ')</div>' +
+        '<div class="mpv-stat-delta ' + deltaClass + '">' + deltaSign + deltaPct + '% vs. ' + stats.prior_year + ' same point</div>' +
       '</div>' +
       '<div class="mpv-stat-tile">' +
         '<div class="mpv-stat-value">' + data.source_last_incident_date + '</div>' +
@@ -67,15 +68,34 @@
 
     document.getElementById('mpv-stats').innerHTML = html;
     document.getElementById('mpv-meta').innerHTML =
+      escapeHtml(data.scope) + ' &middot; year-to-date figures use a ' + stats.lag_days +
+      '-day reporting-lag adjustment, so both years are compared as of ' + asOfShort + '.<br>' +
       'Data: <a href="https://mappingpoliceviolence.us" target="_blank" rel="noopener">Mapping Police Violence</a> ' +
       '&middot; Dashboard generated ' + formatDateTime(data.generated_at) +
       ' &middot; <a class="mpv-download-link" href="https://mappingpoliceviolence.us" target="_blank" rel="noopener">Download the full incident-level dataset</a>';
   }
 
-  function formatDateTime(iso) {
-    var d = new Date(iso);
+  function escapeHtml(text) {
+    if (!text) return '';
+    var div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  function formatDateTime(iso, opts) {
+    // Bare "YYYY-MM-DD" strings are parsed by `new Date()` as UTC midnight;
+    // toLocaleDateString then renders in the browser's local timezone,
+    // which rolls the displayed date back a day for any timezone west of
+    // UTC. Force local-time parsing for date-only strings so the date
+    // shown always matches the date the server meant.
+    var parseTarget = (typeof iso === 'string' && iso.indexOf('T') === -1)
+      ? iso + 'T00:00:00'
+      : iso;
+    var d = new Date(parseTarget);
     if (isNaN(d.getTime())) return iso;
-    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+    var fmt = { month: 'short', day: 'numeric' };
+    if (!(opts && opts.omitYear)) fmt.year = 'numeric';
+    return d.toLocaleDateString('en-US', fmt);
   }
 
   function renderYearlyTrend(data) {
@@ -128,14 +148,30 @@
 
   function renderHeatmap(data) {
     var hm = data.heatmap;
+    var nWeeks = hm.counts[0].length;
+    var weekIndices = [];
+    for (var i = 0; i < nWeeks; i++) weekIndices.push(i);
+
+    var titleEl = document.getElementById('heatmap-title');
+    if (titleEl) titleEl.textContent = 'Daily Incidents — ' + hm.year + ' Calendar';
+
     Plotly.newPlot('chart-heatmap', [{
       z: hm.counts,
-      x: hm.month_labels,
+      x: weekIndices,
       y: hm.day_labels,
       type: 'heatmap',
       colorscale: [[0, 'rgba(76,175,80,0.08)'], [1, '#2e7d32']],
-      showscale: false
-    }], baseLayout({ margin: { t: 10, r: 20, l: 50, b: 40 } }), PLOTLY_CONFIG);
+      showscale: false,
+      hovertemplate: '%{y}, week of %{x}<br>%{z} incidents<extra></extra>'
+    }], baseLayout({
+      margin: { t: 10, r: 20, l: 50, b: 30 },
+      xaxis: {
+        tickvals: hm.month_starts.map(function (m) { return m.week_index; }),
+        ticktext: hm.month_starts.map(function (m) { return m.month; }),
+        gridcolor: themeColors().grid
+      },
+      yaxis: { autorange: 'reversed', gridcolor: themeColors().grid }
+    }), PLOTLY_CONFIG);
   }
 
   function renderTopN(elementId, breakdown) {

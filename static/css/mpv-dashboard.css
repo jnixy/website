@@ -107,6 +107,12 @@
   min-height: 320px;
 }
 
+.mpv-chart-note {
+  font-size: 0.75rem;
+  color: var(--text-muted, #666);
+  margin: 0.5rem 0 0 0;
+}
+
 .mpv-download-link {
   display: inline-block;
   margin-top: 0.5rem;

@@ -1,14 +1,14 @@
 ---
-title: "Police Shooting Dashboard"
+title: "Fatal Officer-Involved Shooting Dashboard"
 summary: "Interactive dashboard of national police-involved shooting trends, built on the Mapping Police Violence dataset"
 type: page
 reading_time: false
-share: false
+share: true
 profile: false
 comments: false
 ---
 
-An interactive look at national trends in fatal police shootings, built on the [Mapping Police Violence](https://mappingpoliceviolence.us) dataset (updated weekly). Modeled after Ian Adams's ["MPV Analysis" dashboard](https://ianadamsresearch.com/dashboard/).
+An interactive look at national trends in fatal police shootings, built with the [Mapping Police Violence](https://mappingpoliceviolence.us) dataset (updated weekly).
 
 {{% alert note %}}
 Looking for recent news or academic research on police shootings instead? See the [news tracker](/police-shooting-news/) and [research tracker](/police-shooting-research/).
@@ -38,8 +38,9 @@ Looking for recent news or academic research on police shootings instead? See th
     </div>
     <div class="mpv-chart-grid">
       <div class="mpv-chart-card">
-        <h3 class="mpv-chart-title">Day of Week &times; Month Heatmap</h3>
+        <h3 class="mpv-chart-title" id="heatmap-title">Daily Incidents Calendar</h3>
         <div id="chart-heatmap" class="mpv-chart"></div>
+        <p class="mpv-chart-note">Most recent ~2 weeks may be undercounted due to MPV's reporting lag.</p>
       </div>
     </div>
     <div class="mpv-chart-grid mpv-two-col">

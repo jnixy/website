@@ -17,7 +17,7 @@ Source: https://mappingpoliceviolence.us (methodology: /aboutthedata)
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import pandas as pd
 import requests
@@ -35,8 +35,15 @@ COL_STATE = 'State'
 COL_RACE = "Victim's race"
 COL_ARMED = 'Armed/Unarmed Status'
 COL_AGENCY = 'Agency responsible for death'
+COL_CAUSE = 'Cause of death'
 
-REQUIRED_COLUMNS = [COL_DATE, COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY]
+REQUIRED_COLUMNS = [COL_DATE, COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY, COL_CAUSE]
+
+# This dashboard lives next to the site's shooting-specific news/research
+# trackers, but MPV's own dataset covers every cause of death in police
+# custody (Taser, vehicle, restraint, etc.), not just gunshots — so every
+# chart here is scoped to incidents where a firearm was involved.
+SCOPE_DESCRIPTION = "Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)"
 
 MONTH_LABELS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -46,6 +53,12 @@ DOW_LABELS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 # cumulative trajectory comparison.
 TRAJECTORY_YEARS = 6
 TOP_N = 15
+
+# MPV incidents get added/verified over time, so the most recent stretch of
+# "current year" data is undercounted relative to a fully-caught-up prior
+# year. Shift year-to-date comparisons back this many days so they compare
+# like-for-like rather than making the current year look artificially low.
+YTD_LAG_DAYS = 14
 
 
 def download_mpv_workbook(url=MPV_URL):
@@ -81,8 +94,16 @@ def load_incidents(xlsx_bytes):
     # Administrative/category text fields: normalize case before any
     # grouping so casing inconsistencies in the source data (e.g. "Allegedly
     # Armed" vs "Allegedly armed") don't silently split a single category.
-    for col in [COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY]:
+    for col in [COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY, COL_CAUSE]:
         df[col] = df[col].astype(str).str.strip()
+
+    # MPV's dataset covers every cause of death in police custody, not just
+    # shootings (Taser-only, vehicle, restraint, etc. are all included).
+    # This dashboard is scoped to shootings, matching the site's other
+    # police-shooting pages — case-insensitive match so "Gunshot, Taser"
+    # combo rows are kept (a firearm was involved) while Taser-only/
+    # Vehicle/Physical-Restraint-only rows are dropped.
+    df = df[df[COL_CAUSE].str.upper().str.contains('GUNSHOT', na=False)].copy()
 
     return df
 
@@ -126,13 +147,15 @@ def build_yearly_counts(df):
     return [{'year': int(y), 'count': int(c)} for y, c in counts.items()]
 
 
-def build_cumulative_trajectory(df):
+def build_cumulative_trajectory(df, as_of):
     """Year-over-year cumulative incident count by month, for the most
     recent TRAJECTORY_YEARS years — lets the front end plot each year's
     running total on the same axis (Adams's dashboard's 'cumulative
-    trajectory' comparison)."""
+    trajectory' comparison). The current year's line stops at `as_of`
+    (lag-adjusted) rather than the true current month, so its tail isn't
+    an under-count artifact of MPV's reporting lag."""
     current_year = datetime.now().year
-    current_month = datetime.now().month
+    current_month = as_of.month
     years = list(range(current_year - TRAJECTORY_YEARS + 1, current_year + 1))
 
     series = []
@@ -153,14 +176,43 @@ def build_cumulative_trajectory(df):
     return {'months': MONTH_LABELS, 'series': series}
 
 
-def build_heatmap(df):
-    """Day-of-week x month incident-count matrix for a temporal heatmap."""
-    dow = df['_date'].dt.dayofweek  # Monday=0
-    month = df['_date'].dt.month
-    matrix = [[0] * 12 for _ in range(7)]
-    for d, m in zip(dow, month):
-        matrix[int(d)][int(m) - 1] += 1
-    return {'day_labels': DOW_LABELS, 'month_labels': MONTH_LABELS, 'counts': matrix}
+def build_calendar_heatmap(df, year=None):
+    """GitHub-style single-year calendar heatmap: rows = weekday (Mon-Sun),
+    columns = week-of-year index computed from days-since-Jan-1 (so weeks
+    roll over on Mondays, matching DOW_LABELS' Mon-first order). Defaults
+    to the current calendar year; future/not-yet-happened days are simply
+    zero, the same way a GitHub contribution graph reads. Also returns
+    month_starts (which week-index each month begins at) so the front end
+    can label months along the top axis instead of raw week numbers."""
+    if year is None:
+        year = datetime.now().year
+
+    year_df = df[df['_date'].dt.year == year]
+
+    jan1 = datetime(year, 1, 1)
+    jan1_weekday = jan1.weekday()  # Monday=0
+    dec31_index = (datetime(year, 12, 31) - jan1).days
+    n_weeks = (dec31_index + jan1_weekday) // 7 + 1
+
+    matrix = [[0] * n_weeks for _ in range(7)]
+    for d in year_df['_date']:
+        day_index = (d - jan1).days
+        week_index = (day_index + jan1_weekday) // 7
+        matrix[d.weekday()][week_index] += 1
+
+    month_starts = []
+    for month in range(1, 13):
+        first_of_month = datetime(year, month, 1)
+        day_index = (first_of_month - jan1).days
+        week_index = (day_index + jan1_weekday) // 7
+        month_starts.append({'month': MONTH_LABELS[month - 1], 'week_index': week_index})
+
+    return {
+        'year': year,
+        'day_labels': DOW_LABELS,
+        'counts': matrix,
+        'month_starts': month_starts,
+    }
 
 
 def build_breakdown(df, col, bucket_fn=None):
@@ -177,25 +229,40 @@ def build_top_n(df, col, n=TOP_N):
 def build_dashboard_json(df):
     most_recent = df['_date'].max()
     current_year = datetime.now().year
-    ytd_count = int((df['_date'].dt.year == current_year).sum())
-    prior_year_same_point = df[
+
+    # Lag-adjusted year-to-date comparison: MPV incidents get added/verified
+    # over time, so comparing "as of today" would make the current year
+    # look artificially low against a fully-caught-up prior year. Compare
+    # both years as of the same lag-adjusted date instead.
+    as_of = datetime.now() - timedelta(days=YTD_LAG_DAYS)
+    as_of_day_of_year = as_of.timetuple().tm_yday
+
+    ytd_count = int((
+        (df['_date'].dt.year == current_year) &
+        (df['_date'].dt.dayofyear <= as_of_day_of_year)
+    ).sum())
+    prior_year_same_point = int((
         (df['_date'].dt.year == current_year - 1) &
-        (df['_date'].dt.dayofyear <= datetime.now().timetuple().tm_yday)
-    ].shape[0]
+        (df['_date'].dt.dayofyear <= as_of_day_of_year)
+    ).sum())
 
     return {
         'generated_at': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
         'source': 'Mapping Police Violence (mappingpoliceviolence.us)',
         'source_last_incident_date': most_recent.strftime('%Y-%m-%d'),
+        'scope': SCOPE_DESCRIPTION,
         'stats': {
             'total_incidents': int(len(df)),
             'current_year': current_year,
+            'prior_year': current_year - 1,
+            'as_of_date': as_of.strftime('%Y-%m-%d'),
+            'lag_days': YTD_LAG_DAYS,
             'current_year_to_date': ytd_count,
-            'prior_year_same_point': int(prior_year_same_point),
+            'prior_year_same_point': prior_year_same_point,
         },
         'yearly_counts': build_yearly_counts(df),
-        'cumulative_trajectory': build_cumulative_trajectory(df),
-        'heatmap': build_heatmap(df),
+        'cumulative_trajectory': build_cumulative_trajectory(df, as_of),
+        'heatmap': build_calendar_heatmap(df),
         'race_breakdown': build_breakdown(df, COL_RACE, bucket_race),
         'armed_status_breakdown': build_breakdown(df, COL_ARMED, bucket_armed_status),
         'top_states': build_top_n(df, COL_STATE),
