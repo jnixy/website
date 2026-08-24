@@ -43,7 +43,7 @@ REQUIRED_COLUMNS = [COL_DATE, COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY, COL_CA
 # trackers, but MPV's own dataset covers every cause of death in police
 # custody (Taser, vehicle, restraint, etc.), not just gunshots — so every
 # chart here is scoped to incidents where a firearm was involved.
-SCOPE_DESCRIPTION = "Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)"
+SCOPE_DESCRIPTION = "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)"
 
 MONTH_LABELS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
                 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
