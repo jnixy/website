@@ -23,49 +23,40 @@ Looking for recent news or academic research on police shootings instead? See th
     <p>Loading dashboard data...</p>
   </div>
   <div id="mpv-error" class="mpv-error" style="display:none;"></div>
-
   <div id="mpv-dashboard-content" style="display:none;">
     <div id="mpv-meta" class="mpv-meta"></div>
-
     <div id="mpv-stats" class="mpv-stats-row"></div>
-
     <div class="mpv-chart-grid">
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Incidents by Year</h3>
         <div id="chart-yearly" class="mpv-chart"></div>
       </div>
-
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Cumulative Incidents by Year (Year-over-Year Trajectory)</h3>
         <div id="chart-trajectory" class="mpv-chart"></div>
       </div>
     </div>
-
     <div class="mpv-chart-grid">
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Day of Week &times; Month Heatmap</h3>
         <div id="chart-heatmap" class="mpv-chart"></div>
       </div>
     </div>
-
     <div class="mpv-chart-grid mpv-two-col">
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Victim Race/Ethnicity</h3>
         <div id="chart-race" class="mpv-chart"></div>
       </div>
-
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Armed Status</h3>
         <div id="chart-armed" class="mpv-chart"></div>
       </div>
     </div>
-
     <div class="mpv-chart-grid mpv-two-col">
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Top 10 States</h3>
         <div id="chart-states" class="mpv-chart"></div>
       </div>
-
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Top 10 Agencies</h3>
         <div id="chart-agencies" class="mpv-chart"></div>
@@ -73,6 +64,5 @@ Looking for recent news or academic research on police shootings instead? See th
     </div>
   </div>
 </div>
-
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
 <script src="/js/mpv-dashboard.js"></script>
