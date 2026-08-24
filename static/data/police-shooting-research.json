@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-08-24T16:46:53Z",
+  "stories": [
+    {
+      "title": "Racial and ethnic disparities in fatal police shootings: Variation across U.S. states and the role of firearm ownership.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41811807/",
+      "date": "2026-08-24T16:46:25Z",
+      "journal": "PLoS One",
+      "authors": "Neil R, Bushway S, Schell TL et al.",
+      "abstract": "",
+      "type": "journal-article",
+      "doi": "",
+      "priority": false
+    },
+    {
+      "title": "The relationship between officer misconduct and convictionless arrests",
+      "url": "https://doi.org/10.1073/pnas.2603437123",
+      "date": "2026-08-12T00:00:00Z",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "authors": "Ba et al.",
+      "abstract": "This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department’s rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations involving high officer discretion, compared to their no-misconduct peers. Our findings also suggest that downstream legal actors, such as prosecutors and judges, may be partially “correcting” these arrests.",
+      "type": "journal-article",
+      "doi": "10.1073/pnas.2603437123",
+      "priority": false
+    },
+    {
+      "title": "A national examination of firearm injuries described as “suicide by cop” among injurious shootings by police",
+      "url": "https://doi.org/10.1111/1745-9133.70031",
+      "date": "2026-07-29T00:00:00Z",
+      "journal": "Criminology & Public Policy",
+      "authors": "Fix et al.",
+      "abstract": "Abstract Research Summary “Suicide by cop” (SbC) incidents—police‐involved shootings wherein an individual experiencing a mental health crisis engages in life‐threatening behavior with an aim of eliciting a lethal response from police—represent a critical intersection of policy and practice, mental health, and public safety in the United States. This study analyzes police‐involved shootings described as “SbC” compared with other police shootings involving people with mental and behavioral health conditions. Data were from the Augmented Gun Violence Archive. Over 6 years (2015–2020), 382 cases of “SbC” shootings accounted for 3.6% of all police shootings ( N = 10,615) and 15.5% of shootings involving mental and behavioral health conditions ( n = 2,458). Most cases involved individuals with suicidal or self‐harming behaviors, but a subset ( n = 46) were labeled “SbC” without other suicidal indicators and some followed standoff situations. Among all mental and behavioral health‐involved injurious shootings by police, those described as “SbC” were significantly more likely to occur in public or commercial locations (vs. residential). “SbC” shootings were also more likely to be associated with police responses to domestic disturbances, trespassing, threats, weapons complaints, investigation activities, or arrest attempts compared with encounters that began as crises. Policy Implications The basis for a “SbC” designation remains unclear, and reliance on criminal legal data systems may inhibit accurate understanding of and responses to this issue, impacting resource allocation. Observed patterns challenge current “SbC” diagnostic practices and highlight the risks inherent in relying on police as first responders to mental health crises. Findings underscore systemic failures in mental health care and contribute to ongoing policy debates on crisis response, police training, and the need to shift crisis intervention response to public health professionals. Funding should prioritize shifting resources to community mental health infrastructure.",
+      "type": "journal-article",
+      "doi": "10.1111/1745-9133.70031",
+      "priority": true
+    },
+    {
+      "title": "Victim-blaming, tunnel vision, and the “hero woman officer”: the portrayal of police in American Nightmare (2024) and Unbelievable (2019)",
+      "url": "https://doi.org/10.1108/pijpsm-09-2025-0188",
+      "date": "2026-07-15T00:00:00Z",
+      "journal": "Policing: An International Journal",
+      "authors": "Slakoff & Montano Ayon",
+      "abstract": "Purpose This study examines how policing is framed within true crime television, with particular attention to narratives involving violence against women and victims whose credibility is questioned by law enforcement. Design/methodology/approach Using thematic analysis, the authors analyzed two Netflix true crime installments – American Nightmare (2024) and Unbelievable (2019) – to identify how policing is portrayed. Findings Several themes surrounding policing emerged, including victim-blaming, investigative tunnel vision and that of the “hero woman officer” who eventually corrects the investigation's original errors. Originality/value While scholarship on the media portrayal of policing has grown considerably, how police are portrayed within true crime television series remains largely unexamined. In the two installments analyzed, police emerge both as part of the problem (through tunnel vision and victim-blaming) and as part of the solution (through “hero” women officers who empathize with victims and resolve cases). These findings suggest that portrayals of police in true crime are more nuanced than critics sometimes argue.",
+      "type": "journal-article",
+      "doi": "10.1108/pijpsm-09-2025-0188",
+      "priority": false
+    }
+  ]
+}

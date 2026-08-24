@@ -42,7 +42,12 @@
   name = "OIS Research"
   url = "/police-shooting-research/"
   weight = 70
-  
+
+[[main]]
+  name = "OIS Dashboard"
+  url = "/police-shooting-dashboard/"
+  weight = 75
+
 [[main]]
   name = "Lab"
   url = "https://viprlab.org/"

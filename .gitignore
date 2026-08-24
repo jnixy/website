@@ -2,7 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
+__pycache__/
+*.pyc
 public/
 resources/
 update-cv.sh
 .vscode/
+content/publication/**/make_figure.R
+content/publication/**/parsed_pdfs/

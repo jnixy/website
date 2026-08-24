@@ -1,18 +1,31 @@
 #!/usr/bin/env python3
 """
-Police Shooting News RSS Feed Generator
-Fetches recent news about police shootings and generates an RSS feed
+Police Shooting News Feed Generator
+Fetches recent news about police shootings and writes both an RSS feed
+(static/data/police-shooting-news.xml) and a JSON sidecar
+(static/data/police-shooting-news.json) consumed by the shared NewsFeed
+front-end component (static/js/news-feed.js).
 """
 
+import json
+import os
+import time
+from datetime import datetime
+
 import requests
-from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
-import os
 
 # Configuration
-OUTPUT_FILE = 'static/data/police-shooting-news.xml'
+RSS_OUTPUT_FILE = 'static/data/police-shooting-news.xml'
+JSON_OUTPUT_FILE = 'static/data/police-shooting-news.json'
 DAYS_BACK = 30
+
+# The RSS feed is a short "what's new" subscription; the JSON file backs the
+# on-page feed and keeps a longer rolling history so a single quiet/failed
+# fetch never blanks the page (see MAX_JSON_ITEMS below).
+MAX_RSS_ITEMS = 50
+MAX_JSON_ITEMS = 200
 
 # Simplified search queries - NewsAPI has query length limits
 # Includes both local/state and federal law enforcement
@@ -21,9 +34,9 @@ SEARCH_QUERIES = [
     'officer-involved shooting',
     'police shot killed',
     'officer shot suspect',
-    'federal agent shooting',      # NEW - federal law enforcement
-    'ICE agent shot',               # NEW - Immigration and Customs Enforcement
-    'Border Patrol shooting',       # NEW - Customs and Border Protection
+    'federal agent shooting',      # federal law enforcement
+    'ICE agent shot',               # Immigration and Customs Enforcement
+    'Border Patrol shooting',       # Customs and Border Protection
 ]
 
 # Categories for classification
@@ -35,6 +48,21 @@ CATEGORIES = {
     'research': ['study', 'research', 'data', 'analysis', 'report', 'findings']
 }
 
+
+def fix_mojibake(text):
+    """
+    Repair text that was UTF-8 but got mis-decoded as Latin-1 upstream
+    (shows up as sequences like 'â€™' for a right single quote). Falls back
+    to the original text if it isn't actually mojibake.
+    """
+    if not text:
+        return text
+    try:
+        return text.encode('latin1').decode('utf-8')
+    except (UnicodeDecodeError, UnicodeEncodeError):
+        return text
+
+
 def parse_gdelt_date(gdelt_date):
     """Convert GDELT date format (YYYYMMDDTHHMMSSZ) to ISO format (YYYY-MM-DDTHH:MM:SSZ)"""
     try:
@@ -43,10 +71,12 @@ def parse_gdelt_date(gdelt_date):
     except Exception:
         return datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ')
 
+
 def fetch_gdelt(query, days_back=DAYS_BACK):
     """
     Fetch news from GDELT DOC 2.0 API — free, no API key, no server restrictions.
-    Returns articles normalized to the same field names used by the rest of this script.
+    Returns articles normalized to this script's canonical story shape:
+    title, url, description, date, source (flat string).
     """
     url = 'https://api.gdeltproject.org/api/v2/doc/doc'
 
@@ -62,14 +92,14 @@ def fetch_gdelt(query, days_back=DAYS_BACK):
         response = requests.get(url, params=params, timeout=30)
         response.raise_for_status()
         raw_articles = response.json().get('articles', [])
-        # Normalize to match the field names used by the rest of this script
         return [
             {
-                'title': a.get('title', ''),
+                'title': fix_mojibake(a.get('title', '')),
                 'url': a.get('url', ''),
+                # GDELT's artlist mode doesn't return a description/summary field.
                 'description': '',
-                'publishedAt': parse_gdelt_date(a.get('seendate', '')),
-                'source': {'name': a.get('domain', 'News Source')},
+                'date': parse_gdelt_date(a.get('seendate', '')),
+                'source': a.get('domain', 'News Source'),
             }
             for a in raw_articles
         ]
@@ -77,19 +107,18 @@ def fetch_gdelt(query, days_back=DAYS_BACK):
         print(f"Error fetching from GDELT: {e}")
         return []
 
+
 def is_relevant_story(title, description):
     """
     Filter to identify stories about police shooting civilians (not investigating shootings)
     Returns True if story appears to be about police shooting someone
-    
-    IMPROVED VERSION with more lenient filters
     """
     if not title:
         return False
-        
+
     text = (title + ' ' + (description or '')).lower()
-    
-    # EXPANDED: More comprehensive positive indicators
+
+    # Comprehensive positive indicators
     # Includes local/state AND federal law enforcement
     # Includes both passive ("shot by") and active ("shoots") voice
     positive_indicators = [
@@ -131,11 +160,11 @@ def is_relevant_story(title, description):
         'ice agent killed',
         'ice agent shoots',            # Active voice
         'ice agent fatally shot',
-        'ice officer shot',            # NEW - ICE uses "officer" too
-        'ice officer killed',          # NEW
-        'ice officer shoots',          # NEW - Active voice
-        'ice officer fatally shot',    # NEW
-        'ice officer fatally shoots',  # NEW - Active voice
+        'ice officer shot',            # ICE uses "officer" too
+        'ice officer killed',
+        'ice officer shoots',          # Active voice
+        'ice officer fatally shot',
+        'ice officer fatally shoots',  # Active voice
         'fbi agent shot',
         'fbi agent shoots',
         'dea agent shot',
@@ -149,20 +178,20 @@ def is_relevant_story(title, description):
         'marshal shoots',
         'shot by agent',
         'shot by federal',
-        'shot by ice',                 # NEW - "shot by ICE"
-        'killed by ice',               # NEW
-        'killed by agent',             # NEW
-        'killed by federal',           # NEW
-        'agent shoots',                # NEW - Active voice
-        'agent kills',                 # NEW - Active voice
-        'federal agent shoots',        # NEW
-        'federal agent kills',         # NEW
+        'shot by ice',
+        'killed by ice',
+        'killed by agent',
+        'killed by federal',
+        'agent shoots',                # Active voice
+        'agent kills',                 # Active voice
+        'federal agent shoots',
+        'federal agent kills',
     ]
-    
+
     has_positive = any(phrase in text for phrase in positive_indicators)
     if not has_positive:
         return False
-    
+
     # Exclude if officer is the victim
     # Includes local/state AND federal law enforcement as victims
     # IMPORTANT: These must be specific enough to not catch cases where officer/agent is the SHOOTER
@@ -197,8 +226,8 @@ def is_relevant_story(title, description):
         'agent killed in ambush',
         'agent killed in attack',
         'shot and killed agent',         # agent is object (victim)
-        'ice agent was shot',            # More specific
-        'ice agent was killed',          # More specific
+        'ice agent was shot',
+        'ice agent was killed',
         'fbi agent was shot',
         'fbi agent was killed',
         'dea agent was shot',
@@ -215,27 +244,24 @@ def is_relevant_story(title, description):
         'gunman killed agent',
         'shooter killed agent',
     ]
-    
+
     if any(phrase in text for phrase in officer_victim_phrases):
         return False
-    
-    # RELAXED: More precise investigation-only exclusions
+
     # Only exclude if it's CLEARLY just about investigating, not the incident itself
     investigation_only = [
-        'police are investigating a shooting that',  # More specific
-        'investigating a shooting at',  # More specific
+        'police are investigating a shooting that',
+        'investigating a shooting at',
         'arrived at scene of shooting',
-        'officers responded to reports of a shooting',  # Clarified
+        'officers responded to reports of a shooting',
     ]
-    
-    # Only exclude if investigation phrase is present AND no incident details
+
     has_investigation_phrase = any(phrase in text for phrase in investigation_only)
     if has_investigation_phrase:
-        # But allow it if it also contains incident indicators
         incident_details = ['killed', 'fatal', 'death', 'died', 'wounded', 'injured', 'opened fire']
         if not any(detail in text for detail in incident_details):
             return False
-    
+
     # Exclude international stories (check for specific location mentions)
     international_locations = [
         'london police', 'met police', 'uk police',
@@ -245,108 +271,41 @@ def is_relevant_story(title, description):
         'in london', 'in toronto', 'in sydney', 'in melbourne',
         'in canada', 'in australia', 'in uk',
     ]
-    
+
     if any(location in text for location in international_locations):
         return False
-    
+
     # Additional quality filters
-    # RELAXED: Reduced minimum title length from 30 to 20 characters
     if len(title) < 20:
         return False
-    
+
     # Exclude if title is mostly capitalized (often wire service duplicates)
     if title.isupper():
         return False
-    
+
     return True
+
 
 def categorize_article(title, description):
     """Categorize article based on content"""
     text = (title + ' ' + (description or '')).lower()
-    
+
     scores = {}
     for category, keywords in CATEGORIES.items():
         scores[category] = sum(1 for keyword in keywords if keyword in text)
-    
+
     # Return category with highest score, or 'incident' if no matches
     max_category = max(scores, key=scores.get)
     return max_category if scores[max_category] > 0 else 'incident'
 
-def create_rss_feed(articles):
-    """Create RSS 2.0 feed from articles"""
-    
-    # Create root RSS element
-    rss = ET.Element('rss', version='2.0')
-    rss.set('xmlns:atom', 'http://www.w3.org/2005/Atom')
-    
-    channel = ET.SubElement(rss, 'channel')
-    
-    # Channel metadata
-    title = ET.SubElement(channel, 'title')
-    title.text = 'U.S. Police Shooting News Tracker'
-    
-    link = ET.SubElement(channel, 'link')
-    link.text = 'https://jnix.netlify.app/police-shooting-news/'
-    
-    description = ET.SubElement(channel, 'description')
-    description.text = 'Automated news aggregation tracking police-involved shootings in the United States'
-    
-    language = ET.SubElement(channel, 'language')
-    language.text = 'en-us'
-    
-    last_build = ET.SubElement(channel, 'lastBuildDate')
-    last_build.text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
-    
-    # Add items
-    for article in articles:
-        item = ET.SubElement(channel, 'item')
-        
-        item_title = ET.SubElement(item, 'title')
-        item_title.text = article['title']
-        
-        item_link = ET.SubElement(item, 'link')
-        item_link.text = article['url']
-        
-        item_desc = ET.SubElement(item, 'description')
-        item_desc.text = article.get('description', '')
-        
-        pub_date = ET.SubElement(item, 'pubDate')
-        # Parse and format the date
-        try:
-            dt = datetime.strptime(article['publishedAt'], '%Y-%m-%dT%H:%M:%SZ')
-            pub_date.text = dt.strftime('%a, %d %b %Y %H:%M:%S +0000')
-        except:
-            pub_date.text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
-        
-        # Add category
-        category = categorize_article(
-            article['title'], 
-            article.get('description', '')
-        )
-        item_category = ET.SubElement(item, 'category')
-        item_category.text = category
-        
-        # Add source
-        source_name = article.get('source', {}).get('name', 'News Source')
-        item_source = ET.SubElement(item, 'source')
-        item_source.text = source_name
-    
-    return rss
-
-def prettify_xml(elem):
-    """Return a pretty-printed XML string"""
-    rough_string = ET.tostring(elem, encoding='unicode')
-    reparsed = minidom.parseString(rough_string)
-    return reparsed.toprettyxml(indent='  ')
 
 def normalize_title(title):
     """Normalize titles for deduplication across outlets"""
     if not title:
         return ''
     return (
-        title.lower()
-        .replace('â€"', '-')
-        .replace('â€"', '-')
+        fix_mojibake(title)
+        .lower()
         .replace(':', '')
         .replace(';', '')
         .replace('"', '')
@@ -354,83 +313,189 @@ def normalize_title(title):
         .strip()
     )
 
+
+def load_previous_stories(json_path):
+    """
+    Load stories written by a previous run so a quiet/failed fetch never
+    wipes the page — new results are merged on top of this history rather
+    than replacing it outright.
+    """
+    if not os.path.exists(json_path):
+        return []
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data.get('stories', [])
+    except Exception as e:
+        print(f"Warning: could not read previous {json_path} ({e}); starting fresh")
+        return []
+
+
+def merge_stories(previous, new_stories):
+    """Combine previous and newly-fetched stories, deduplicated by URL
+    (falling back to normalized title), newest first."""
+    seen_urls = set()
+    seen_titles = set()
+    merged = []
+
+    for story in list(new_stories) + list(previous):
+        url = story.get('url', '')
+        norm_title = normalize_title(story.get('title', ''))
+        if url and url in seen_urls:
+            continue
+        if norm_title and norm_title in seen_titles:
+            continue
+        if url:
+            seen_urls.add(url)
+        if norm_title:
+            seen_titles.add(norm_title)
+        merged.append(story)
+
+    merged.sort(key=lambda s: s.get('date', ''), reverse=True)
+    return merged
+
+
+def create_rss_feed(stories):
+    """Create RSS 2.0 feed from a list of story dicts"""
+
+    rss = ET.Element('rss', version='2.0')
+    rss.set('xmlns:atom', 'http://www.w3.org/2005/Atom')
+
+    channel = ET.SubElement(rss, 'channel')
+
+    title = ET.SubElement(channel, 'title')
+    title.text = 'U.S. Police Shooting News Tracker'
+
+    link = ET.SubElement(channel, 'link')
+    link.text = 'https://jnix.netlify.app/police-shooting-news/'
+
+    description = ET.SubElement(channel, 'description')
+    description.text = 'Automated news aggregation tracking police-involved shootings in the United States'
+
+    language = ET.SubElement(channel, 'language')
+    language.text = 'en-us'
+
+    last_build = ET.SubElement(channel, 'lastBuildDate')
+    last_build.text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
+
+    for story in stories:
+        item = ET.SubElement(channel, 'item')
+
+        item_title = ET.SubElement(item, 'title')
+        item_title.text = story['title']
+
+        item_link = ET.SubElement(item, 'link')
+        item_link.text = story['url']
+
+        item_desc = ET.SubElement(item, 'description')
+        item_desc.text = story.get('description', '')
+
+        pub_date = ET.SubElement(item, 'pubDate')
+        try:
+            dt = datetime.strptime(story['date'], '%Y-%m-%dT%H:%M:%SZ')
+            pub_date.text = dt.strftime('%a, %d %b %Y %H:%M:%S +0000')
+        except Exception:
+            pub_date.text = datetime.now().strftime('%a, %d %b %Y %H:%M:%S +0000')
+
+        item_category = ET.SubElement(item, 'category')
+        item_category.text = story.get('category', 'incident')
+
+        item_source = ET.SubElement(item, 'source')
+        item_source.text = story.get('source', 'News Source')
+
+    return rss
+
+
+def prettify_xml(elem):
+    """Return a pretty-printed XML string"""
+    rough_string = ET.tostring(elem, encoding='unicode')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent='  ')
+
+
 def main():
     """Main execution function"""
     print("Fetching police shooting news...")
     print("=" * 60)
-    
+
     all_articles = []
-    
-    # Fetch from each query
+
     for query in SEARCH_QUERIES:
         print(f"\nSearching for: {query}")
         articles = fetch_gdelt(query)
         print(f"  Raw results: {len(articles)} articles")
         all_articles.extend(articles)
-    
+
     print(f"\n{'=' * 60}")
     print(f"Total articles before filtering: {len(all_articles)}")
-    
+
     # Apply relevance filtering
     filtered_articles = [
         article for article in all_articles
         if is_relevant_story(article.get('title', ''), article.get('description', ''))
     ]
-    
+
     print(f"Articles after relevance filtering: {len(filtered_articles)}")
-    
-    # Deduplicate by normalized title
+
+    # Categorize and dedupe within this run
+    new_stories = []
     seen_titles = set()
-    unique_articles = []
-    
     for article in filtered_articles:
         norm_title = normalize_title(article.get('title'))
-        if norm_title and norm_title not in seen_titles:
-            seen_titles.add(norm_title)
-            unique_articles.append(article)
-    
-    print(f"Articles after deduplication: {len(unique_articles)}")
-    
-    # Sort by date (newest first)
-    unique_articles.sort(
-        key=lambda x: x.get('publishedAt', ''),
-        reverse=True
-    )
-    
-    # Take top 50 most recent
-    final_articles = unique_articles[:50]
-    
-    print(f"\n{'=' * 60}")
-    print(f"Final article count: {len(final_articles)}")
-    
-    if len(final_articles) == 0:
-        print("\n⚠️  WARNING: No articles found. Feed will not be generated.")
-        print("This could mean:")
+        if not norm_title or norm_title in seen_titles:
+            continue
+        seen_titles.add(norm_title)
+        article['category'] = categorize_article(article['title'], article.get('description', ''))
+        new_stories.append(article)
+
+    print(f"New stories this run: {len(new_stories)}")
+
+    if len(new_stories) == 0:
+        print("\nWARNING: No new articles found this run. This could mean:")
         print("  - No relevant stories in the past 30 days")
         print("  - Filtering is too strict")
         print("  - GDELT returned no results")
+        print("Falling back to previously published stories so the page isn't wiped.")
+
+    # Merge with history so a quiet/failed run never blanks the page
+    previous_stories = load_previous_stories(JSON_OUTPUT_FILE)
+    merged_stories = merge_stories(previous_stories, new_stories)
+
+    print(f"\n{'=' * 60}")
+    print(f"Total stories after merge with history: {len(merged_stories)}")
+
+    if len(merged_stories) == 0:
+        print("\nERROR: No stories available (first run with no fetch results). Nothing to write.")
         return
-    
-    # Create RSS feed
-    rss = create_rss_feed(final_articles)
-    
-    # Save to file
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+
+    json_stories = merged_stories[:MAX_JSON_ITEMS]
+    rss_stories = merged_stories[:MAX_RSS_ITEMS]
+
+    # Save JSON (backs the on-page NewsFeed component)
+    os.makedirs(os.path.dirname(JSON_OUTPUT_FILE), exist_ok=True)
+    with open(JSON_OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump({
+            'generated_at': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
+            'stories': json_stories,
+        }, f, indent=2, ensure_ascii=False)
+    print(f"JSON feed saved to: {JSON_OUTPUT_FILE} ({len(json_stories)} stories)")
+
+    # Save RSS (subscription feed)
+    rss = create_rss_feed(rss_stories)
+    os.makedirs(os.path.dirname(RSS_OUTPUT_FILE), exist_ok=True)
+    with open(RSS_OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(prettify_xml(rss))
-    
-    print(f"\nRSS feed saved to: {OUTPUT_FILE}")
+    print(f"RSS feed saved to: {RSS_OUTPUT_FILE} ({len(rss_stories)} items)")
+
     print(f"Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    
-    # Print sample titles for verification
+
     print(f"\n{'=' * 60}")
     print("Sample titles from feed (most recent):")
-    for i, article in enumerate(final_articles[:10], 1):
-        published = article.get('publishedAt', 'Unknown date')
-        print(f"  {i}. [{published[:10]}] {article['title']}")
-    
+    for i, story in enumerate(json_stories[:10], 1):
+        print(f"  {i}. [{story.get('date', 'Unknown date')[:10]}] {story['title']}")
+
     print(f"\n{'=' * 60}")
+
 
 if __name__ == '__main__':
     main()
