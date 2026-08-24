@@ -55,12 +55,36 @@ Looking for recent news or academic research on police shootings instead? See th
     </div>
     <div class="mpv-chart-grid mpv-two-col">
       <div class="mpv-chart-card">
+        <h3 class="mpv-chart-title">Circumstances of Encounter</h3>
+        <div id="chart-encounter" class="mpv-chart"></div>
+      </div>
+      <div class="mpv-chart-card">
+        <h3 class="mpv-chart-title">Alleged Weapon</h3>
+        <div id="chart-weapon" class="mpv-chart"></div>
+      </div>
+    </div>
+    <div class="mpv-chart-grid">
+      <div class="mpv-chart-card">
+        <h3 class="mpv-chart-title">Fatal Shootings per 100,000 Population, by Race</h3>
+        <div id="chart-disparity" class="mpv-chart"></div>
+        <p class="mpv-chart-note" id="disparity-caption"></p>
+      </div>
+    </div>
+    <div class="mpv-chart-grid mpv-two-col">
+      <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Top 10 States</h3>
         <div id="chart-states" class="mpv-chart"></div>
       </div>
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Top 10 Agencies</h3>
         <div id="chart-agencies" class="mpv-chart"></div>
+      </div>
+    </div>
+    <div class="mpv-chart-grid">
+      <div class="mpv-chart-card">
+        <h3 class="mpv-chart-title">Agencies by Shootings per 10,000 Arrests</h3>
+        <div id="chart-agency-rate" class="mpv-chart"></div>
+        <p class="mpv-chart-note" id="agency-rate-caption"></p>
       </div>
     </div>
   </div>

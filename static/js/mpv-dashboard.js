@@ -189,19 +189,80 @@
     }), PLOTLY_CONFIG);
   }
 
+  function renderDisparity(data) {
+    var rates = data.disparity_rates;
+    var labels = rates.map(function (d) { return d.race; });
+    var values = rates.map(function (d) { return d.rate_per_100k; });
+    var colors = rates.map(function (d) { return d.race === 'White' ? '#757575' : PALETTE[2]; });
+
+    Plotly.newPlot('chart-disparity', [{
+      x: values,
+      y: labels,
+      type: 'bar',
+      orientation: 'h',
+      marker: { color: colors },
+      hovertemplate: '%{y}: %{x} per 100,000<extra></extra>'
+    }], baseLayout({
+      margin: { t: 10, r: 20, l: 140, b: 40 },
+      yaxis: { autorange: 'reversed', gridcolor: themeColors().grid },
+      xaxis: { title: 'Rate per 100,000 population', gridcolor: themeColors().grid }
+    }), PLOTLY_CONFIG);
+
+    var highest = null;
+    rates.forEach(function (r) {
+      if (r.race !== 'White' && (!highest || r.disparity_vs_white > highest.disparity_vs_white)) highest = r;
+    });
+    var captionEl = document.getElementById('disparity-caption');
+    if (captionEl && highest) {
+      captionEl.textContent = highest.race + ' people are killed by police gunfire at ' +
+        highest.disparity_vs_white.toFixed(1) + '× the per-capita rate of white people ' +
+        '(2020 Census population; national figures, all years combined).';
+    }
+  }
+
+  function renderAgencyRates(data) {
+    var top = data.agency_rates.slice(0, 10).reverse();
+    var labels = top.map(function (d) { return d.agency + ' (' + d.state + ')'; });
+    var values = top.map(function (d) { return d.rate_per_10k_arrests; });
+    Plotly.newPlot('chart-agency-rate', [{
+      x: values,
+      y: labels,
+      type: 'bar',
+      orientation: 'h',
+      marker: { color: PALETTE[1] },
+      hovertemplate: '%{y}: %{x} per 10k arrests<extra></extra>'
+    }], baseLayout({
+      margin: { t: 10, r: 20, l: 220, b: 40 },
+      xaxis: { title: 'Shootings per 10,000 arrests', gridcolor: themeColors().grid }
+    }), PLOTLY_CONFIG);
+
+    var years = data.agency_rate_years || [];
+    var captionEl = document.getElementById('agency-rate-caption');
+    if (captionEl && years.length === 2) {
+      captionEl.textContent = 'Limited to the ~106 municipal police departments MPV tracks arrest data for ' +
+        '(excludes county sheriffs, state police, and federal agencies) with at least 5 shooting deaths in ' +
+        years[0] + '–' + years[1] + ', the window covered by the arrest-volume data.';
+    }
+  }
+
   function renderAll(data) {
     renderStats(data);
     renderYearlyTrend(data);
     renderTrajectory(data);
     renderBreakdown('chart-race', data.race_breakdown);
     renderBreakdown('chart-armed', data.armed_status_breakdown);
+    renderBreakdown('chart-encounter', data.encounter_breakdown);
+    renderBreakdown('chart-weapon', data.weapon_breakdown);
     renderHeatmap(data);
+    renderDisparity(data);
     renderTopN('chart-states', data.top_states);
     renderTopN('chart-agencies', data.top_agencies);
+    renderAgencyRates(data);
   }
 
   function relayoutAllForTheme() {
-    var ids = ['chart-yearly', 'chart-trajectory', 'chart-race', 'chart-armed', 'chart-heatmap', 'chart-states', 'chart-agencies'];
+    var ids = ['chart-yearly', 'chart-trajectory', 'chart-race', 'chart-armed', 'chart-encounter',
+      'chart-weapon', 'chart-heatmap', 'chart-disparity', 'chart-states', 'chart-agencies', 'chart-agency-rate'];
     var colors = themeColors();
     ids.forEach(function (id) {
       var el = document.getElementById(id);
