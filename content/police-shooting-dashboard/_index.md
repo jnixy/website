@@ -70,6 +70,13 @@ Looking for recent news or academic research on police shootings instead? See th
         <p class="mpv-chart-note" id="disparity-caption"></p>
       </div>
     </div>
+    <div class="mpv-chart-grid">
+      <div class="mpv-chart-card">
+        <h3 class="mpv-chart-title">Fatal Shootings per 100,000 Arrests, by Race</h3>
+        <div id="chart-arrest-rate" class="mpv-chart"></div>
+        <p class="mpv-chart-note" id="arrest-rate-caption"></p>
+      </div>
+    </div>
     <div class="mpv-chart-grid mpv-two-col">
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Top 10 States</h3>
@@ -78,13 +85,6 @@ Looking for recent news or academic research on police shootings instead? See th
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Top 10 Agencies</h3>
         <div id="chart-agencies" class="mpv-chart"></div>
-      </div>
-    </div>
-    <div class="mpv-chart-grid">
-      <div class="mpv-chart-card">
-        <h3 class="mpv-chart-title">Agencies by Shootings per 10,000 Arrests</h3>
-        <div id="chart-agency-rate" class="mpv-chart"></div>
-        <p class="mpv-chart-note" id="agency-rate-caption"></p>
       </div>
     </div>
   </div>

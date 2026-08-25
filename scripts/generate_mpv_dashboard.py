@@ -25,7 +25,6 @@ import requests
 MPV_URL = 'https://mappingpoliceviolence.us/s/MPVDatasetDownload.xlsx'
 MPV_SHEET = '2013-2026 Police Killings'
 MPV_STATE_SHEET = '2013-2026 Killings by State'
-MPV_PD_SHEET = '2013-2026 Killings by PD'
 REQUEST_TIMEOUT = 60
 
 DASHBOARD_OUTPUT_FILE = 'static/data/mpv-dashboard.json'
@@ -40,11 +39,10 @@ COL_AGENCY = 'Agency responsible for death'
 COL_CAUSE = 'Cause of death'
 COL_ENCOUNTER = 'Encounter Type'
 COL_WEAPON = 'Alleged Weapon (Source: WaPo and Review of Cases Not Included in WaPo Database)'
-COL_ORI = 'ORI Agency Identifier (if available)'
 
 REQUIRED_COLUMNS = [
     COL_DATE, COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY, COL_CAUSE,
-    COL_ENCOUNTER, COL_WEAPON, COL_ORI,
+    COL_ENCOUNTER, COL_WEAPON,
 ]
 
 # Population-by-race columns on the "Killings by State" sheet. We only use
@@ -61,17 +59,28 @@ STATE_RACE_POPULATION_COLS = {
 }
 STATE_SHEET_REQUIRED_COLUMNS = ['State', 'Total Population'] + list(STATE_RACE_POPULATION_COLS.values())
 
-# "Killings by PD" sheet: only the context columns (arrest volume), never
-# that sheet's own "Killings by Police per 10k Arrests" column, which is
-# also computed over all-cause killings.
-COL_PD_ORI = 'ORI'
-COL_PD_ARRESTS = 'Estimated Average Arrests per Year 2013-2022'
-PD_SHEET_REQUIRED_COLUMNS = [COL_PD_ORI, 'State', 'PD', COL_PD_ARRESTS]
-# The arrest figure above is a 2013-2022 annual average, so the agency-rate
-# calculation restricts our own incident counts to the same window to keep
-# numerator and denominator on the same footing.
-AGENCY_RATE_YEARS = (2013, 2022)
-AGENCY_RATE_MIN_INCIDENTS = 5
+# National arrest totals by race, for the "shootings per 100k arrests"
+# chart. Hand-maintained (no live API access -- see build_arrest_rates()
+# docstring for why) -- refresh annually when FBI publishes new figures.
+# Source: FBI, Crime in the United States 2024, Table 43.
+# https://cde.ucr.cjis.gov (Crime Data Explorer)
+#
+# FBI arrest reporting treats race and Hispanic ethnicity as separate,
+# non-overlapping dimensions -- race totals already sum to 100%, so
+# Hispanic arrestees are already counted inside a race category (mostly
+# "White") and can't be cleanly split back out. Hispanic and Pacific
+# Islander are intentionally omitted from this dict rather than guessed;
+# the Council on Criminal Justice's own arrest-trends methodology handles
+# this the same way. See build_arrest_rates()'s docstring for the
+# consequence this has on the "White" comparison specifically.
+FBI_ARREST_DATA_YEAR = 2024
+FBI_ARREST_SOURCE = "FBI's Crime in the United States 2024 (Table 43)"
+NATIONAL_ARRESTS_BY_RACE = {
+    'White': 4_230_000,
+    'Black': 1_970_000,
+    'Native American': 134_690,
+    # 'Asian': <pending -- add once confirmed>,
+}
 
 # This dashboard lives next to the site's shooting-specific news/research
 # trackers, but MPV's own dataset covers every cause of death in police
@@ -133,7 +142,7 @@ def load_incidents(xlsx_bytes):
     # live run: Encounter Type is 27% blank in the source and every blank
     # cell survived as an actual float, not the string 'nan', which broke
     # downstream .lower() calls expecting a string).
-    for col in [COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY, COL_CAUSE, COL_ENCOUNTER, COL_WEAPON, COL_ORI]:
+    for col in [COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY, COL_CAUSE, COL_ENCOUNTER, COL_WEAPON]:
         df[col] = df[col].fillna('').astype(str).str.strip()
 
     # MPV's dataset covers every cause of death in police custody, not just
@@ -181,15 +190,18 @@ def bucket_armed_status(raw_status):
     return 'Unclear/Unknown'
 
 
-def build_capped_breakdown(df, col, top_n=8, empty_label='Not Reported'):
+def build_capped_breakdown(df, col, top_n=8, empty_label='Not Reported', aliases=None):
     """Generic free-text-column breakdown: title-cases each value (which
     also merges casing duplicates in the source data, e.g. "Traffic Stop"
     vs "Traffic stop" -- confirmed via a live run that Encounter Type has
-    exactly this problem), maps missing values to `empty_label`, then
+    exactly this problem), maps missing values to `empty_label`, applies
+    `aliases` (e.g. folding "Machete" into "Knife") before counting, then
     keeps the top `top_n` categories distinct and consolidates everything
     else (a long tail of rare/combo values) into 'Other' so the chart
     stays legible. Used for both Alleged Weapon and Encounter Type."""
     titled = df[col].apply(lambda v: v.strip().title() if v and v.strip() else empty_label)
+    if aliases:
+        titled = titled.map(lambda v: aliases.get(v, v))
     counts = titled.value_counts()
     top_labels = set(counts.head(top_n).index) - {empty_label}
     bucketed = titled.map(lambda v: v if (v in top_labels or v == empty_label) else 'Other')
@@ -327,64 +339,36 @@ def build_disparity_rates(df, state_pop_df):
     return results
 
 
-def load_pd_context(xlsx_bytes):
-    """Read arrest-volume context from the 'Killings by PD' sheet. Only
-    ORI/State/PD/arrest-count columns are used -- never that sheet's own
-    'Killings by Police per 10k Arrests' column (also all-cause, not
-    shootings-only)."""
-    import io
-    df = pd.read_excel(io.BytesIO(xlsx_bytes), sheet_name=MPV_PD_SHEET)
-    missing = [c for c in PD_SHEET_REQUIRED_COLUMNS if c not in df.columns]
-    if missing:
-        raise ValueError(
-            f"MPV '{MPV_PD_SHEET}' sheet is missing expected column(s): {missing}. "
-            "The upstream schema may have changed."
-        )
-    df = df.dropna(subset=[COL_PD_ORI, COL_PD_ARRESTS]).copy()
-    df[COL_PD_ORI] = df[COL_PD_ORI].astype(str).str.strip()
-    return df
-
-
-def build_agency_rates(df, pd_context_df, top_n=TOP_N):
-    """Agency-normalized rate: shootings per 10k arrests, restricted to
-    AGENCY_RATE_YEARS (the window the PD sheet's arrest average covers) so
-    numerator and denominator match. Joined via ORI -- a reliable federal
-    agency identifier, unlike free-text agency names, which are prone to
-    the case/naming-variant mismatches this project's conventions warn
-    about. Limited to the ~106 municipal police departments MPV's PD sheet
-    covers (excludes sheriffs, state police, and federal agencies -- those
-    simply aren't in that sheet)."""
-    start_year, end_year = AGENCY_RATE_YEARS
-    window_df = df[(df['_date'].dt.year >= start_year) & (df['_date'].dt.year <= end_year)]
-    counts = window_df[COL_ORI].value_counts()
-    n_years = end_year - start_year + 1
+def build_arrest_rates(df):
+    """National per-100k-arrests rate by race, computed from our own
+    shooting-only incident counts divided by hand-maintained FBI arrest
+    totals (NATIONAL_ARRESTS_BY_RACE -- see that constant's comment for
+    why Hispanic/Pacific Islander aren't included). Note this chart's
+    "White" comparison carries a real, unavoidable limitation: FBI's
+    White arrest count includes Hispanic-White individuals (race and
+    ethnicity aren't cleanly separable in FBI reporting), while our own
+    "White" shooting-victim count does not (MPV/bucket_race() treats
+    Hispanic as its own exclusive category). This makes the computed
+    White arrest-rate a slight underestimate relative to a true
+    non-Hispanic-White rate -- flagged in the UI caption, not hidden."""
+    race_counts = df[COL_RACE].map(bucket_race).value_counts()
 
     results = []
-    matched = 0
-    for _, row in pd_context_df.iterrows():
-        count = int(counts.get(row[COL_PD_ORI], 0))
-        if count < AGENCY_RATE_MIN_INCIDENTS:
-            continue
-        avg_arrests = row[COL_PD_ARRESTS]
-        if not avg_arrests or avg_arrests <= 0:
-            continue
-        matched += 1
-        rate = count / (avg_arrests * n_years) * 10_000
+    for race, arrests in NATIONAL_ARRESTS_BY_RACE.items():
+        count = int(race_counts.get(race, 0))
+        rate = (count / arrests * 100_000) if arrests else 0.0
         results.append({
-            'agency': row['PD'],
-            'state': row['State'],
-            'shooting_count': count,
-            'rate_per_10k_arrests': round(rate, 2),
+            'race': race,
+            'count': count,
+            'arrests': arrests,
+            'rate_per_100k_arrests': round(rate, 2),
         })
 
-    print(f"  Agency-rate join: {matched} of {len(pd_context_df)} PD-sheet agencies had "
-          f">= {AGENCY_RATE_MIN_INCIDENTS} shooting deaths in {start_year}-{end_year}")
-
-    results.sort(key=lambda r: r['rate_per_10k_arrests'], reverse=True)
-    return results[:top_n]
+    results.sort(key=lambda r: r['rate_per_100k_arrests'], reverse=True)
+    return results
 
 
-def build_dashboard_json(df, state_pop_df, pd_context_df):
+def build_dashboard_json(df, state_pop_df):
     most_recent = df['_date'].max()
     current_year = datetime.now().year
 
@@ -409,6 +393,8 @@ def build_dashboard_json(df, state_pop_df, pd_context_df):
         'source': 'Mapping Police Violence (mappingpoliceviolence.us)',
         'source_last_incident_date': most_recent.strftime('%Y-%m-%d'),
         'scope': SCOPE_DESCRIPTION,
+        'fbi_arrest_data_year': FBI_ARREST_DATA_YEAR,
+        'fbi_arrest_source': FBI_ARREST_SOURCE,
         'stats': {
             'total_incidents': int(len(df)),
             'current_year': current_year,
@@ -424,12 +410,11 @@ def build_dashboard_json(df, state_pop_df, pd_context_df):
         'race_breakdown': build_breakdown(df, COL_RACE, bucket_race),
         'armed_status_breakdown': build_breakdown(df, COL_ARMED, bucket_armed_status),
         'encounter_breakdown': build_capped_breakdown(df, COL_ENCOUNTER, empty_label='Not Reported'),
-        'weapon_breakdown': build_capped_breakdown(df, COL_WEAPON, empty_label='Unknown'),
+        'weapon_breakdown': build_capped_breakdown(df, COL_WEAPON, empty_label='Unknown', aliases={'Machete': 'Knife'}),
         'disparity_rates': build_disparity_rates(df, state_pop_df),
+        'arrest_rates': build_arrest_rates(df),
         'top_states': build_top_n(df, COL_STATE),
         'top_agencies': build_top_n(df, COL_AGENCY),
-        'agency_rates': build_agency_rates(df, pd_context_df),
-        'agency_rate_years': list(AGENCY_RATE_YEARS),
     }
 
 
@@ -445,7 +430,6 @@ def main():
     try:
         df = load_incidents(xlsx_bytes)
         state_pop_df = load_state_population(xlsx_bytes)
-        pd_context_df = load_pd_context(xlsx_bytes)
     except Exception as e:
         print(f"ERROR: failed to parse MPV dataset: {e}", file=sys.stderr)
         sys.exit(1)
@@ -453,9 +437,8 @@ def main():
     print(f"Loaded {len(df):,} incidents "
           f"({df['_date'].min().date()} to {df['_date'].max().date()})")
     print(f"Loaded population context for {state_pop_df['State'].notna().sum()} states/DC")
-    print(f"Loaded arrest context for {len(pd_context_df)} police departments")
 
-    dashboard = build_dashboard_json(df, state_pop_df, pd_context_df)
+    dashboard = build_dashboard_json(df, state_pop_df)
 
     os.makedirs(os.path.dirname(DASHBOARD_OUTPUT_FILE), exist_ok=True)
     with open(DASHBOARD_OUTPUT_FILE, 'w', encoding='utf-8') as f:

@@ -142,7 +142,7 @@
       marker: { color: labels.map(function (_, i) { return PALETTE[i % PALETTE.length]; }) }
     }], baseLayout({
       margin: { t: 10, r: 20, l: 140, b: 40 },
-      yaxis: { autorange: 'reversed', gridcolor: themeColors().grid }
+      yaxis: { autorange: 'reversed', automargin: true, gridcolor: themeColors().grid }
     }), PLOTLY_CONFIG);
   }
 
@@ -185,7 +185,8 @@
       orientation: 'h',
       marker: { color: PALETTE[0] }
     }], baseLayout({
-      margin: { t: 10, r: 20, l: 190, b: 40 }
+      margin: { t: 10, r: 20, l: 190, b: 40 },
+      yaxis: { automargin: true, gridcolor: themeColors().grid }
     }), PLOTLY_CONFIG);
   }
 
@@ -204,7 +205,7 @@
       hovertemplate: '%{y}: %{x} per 100,000<extra></extra>'
     }], baseLayout({
       margin: { t: 10, r: 20, l: 140, b: 40 },
-      yaxis: { autorange: 'reversed', gridcolor: themeColors().grid },
+      yaxis: { autorange: 'reversed', automargin: true, gridcolor: themeColors().grid },
       xaxis: { title: 'Rate per 100,000 population', gridcolor: themeColors().grid }
     }), PLOTLY_CONFIG);
 
@@ -220,28 +221,31 @@
     }
   }
 
-  function renderAgencyRates(data) {
-    var top = data.agency_rates.slice(0, 10).reverse();
-    var labels = top.map(function (d) { return d.agency + ' (' + d.state + ')'; });
-    var values = top.map(function (d) { return d.rate_per_10k_arrests; });
-    Plotly.newPlot('chart-agency-rate', [{
+  function renderArrestRate(data) {
+    var rates = data.arrest_rates;
+    var labels = rates.map(function (d) { return d.race; });
+    var values = rates.map(function (d) { return d.rate_per_100k_arrests; });
+    var colors = rates.map(function (d) { return d.race === 'White' ? '#757575' : PALETTE[1]; });
+
+    Plotly.newPlot('chart-arrest-rate', [{
       x: values,
       y: labels,
       type: 'bar',
       orientation: 'h',
-      marker: { color: PALETTE[1] },
-      hovertemplate: '%{y}: %{x} per 10k arrests<extra></extra>'
+      marker: { color: colors },
+      hovertemplate: '%{y}: %{x} per 100,000 arrests<extra></extra>'
     }], baseLayout({
-      margin: { t: 10, r: 20, l: 220, b: 40 },
-      xaxis: { title: 'Shootings per 10,000 arrests', gridcolor: themeColors().grid }
+      margin: { t: 10, r: 20, l: 140, b: 40 },
+      yaxis: { autorange: 'reversed', automargin: true, gridcolor: themeColors().grid },
+      xaxis: { title: 'Rate per 100,000 arrests', gridcolor: themeColors().grid }
     }), PLOTLY_CONFIG);
 
-    var years = data.agency_rate_years || [];
-    var captionEl = document.getElementById('agency-rate-caption');
-    if (captionEl && years.length === 2) {
-      captionEl.textContent = 'Limited to the ~106 municipal police departments MPV tracks arrest data for ' +
-        '(excludes county sheriffs, state police, and federal agencies) with at least 5 shooting deaths in ' +
-        years[0] + '–' + years[1] + ', the window covered by the arrest-volume data.';
+    var captionEl = document.getElementById('arrest-rate-caption');
+    if (captionEl) {
+      captionEl.textContent = data.fbi_arrest_source + ' reports race and Hispanic ethnicity separately, not cross-tabulated, so Hispanic and Pacific ' +
+        'Islander are not included here (unlike the population-based chart above). FBI\'s White arrest ' +
+        'count also includes Hispanic-White individuals, while the shooting count above does not — a ' +
+        'known limitation of the available public data, not something we can cleanly correct.';
     }
   }
 
@@ -255,14 +259,14 @@
     renderBreakdown('chart-weapon', data.weapon_breakdown);
     renderHeatmap(data);
     renderDisparity(data);
+    renderArrestRate(data);
     renderTopN('chart-states', data.top_states);
     renderTopN('chart-agencies', data.top_agencies);
-    renderAgencyRates(data);
   }
 
   function relayoutAllForTheme() {
     var ids = ['chart-yearly', 'chart-trajectory', 'chart-race', 'chart-armed', 'chart-encounter',
-      'chart-weapon', 'chart-heatmap', 'chart-disparity', 'chart-states', 'chart-agencies', 'chart-agency-rate'];
+      'chart-weapon', 'chart-heatmap', 'chart-disparity', 'chart-arrest-rate', 'chart-states', 'chart-agencies'];
     var colors = themeColors();
     ids.forEach(function (id) {
       var el = document.getElementById(id);

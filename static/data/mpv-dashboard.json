@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-08-24T18:49:47Z",
+  "generated_at": "2026-08-24T19:28:55Z",
   "source": "Mapping Police Violence (mappingpoliceviolence.us)",
   "source_last_incident_date": "2026-08-18",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
+  "fbi_arrest_data_year": 2024,
+  "fbi_arrest_source": "FBI's Crime in the United States 2024 (Table 43)",
   "stats": {
     "total_incidents": 14832,
     "current_year": 2026,
@@ -736,7 +738,7 @@
     },
     {
       "label": "Knife",
-      "count": 2134
+      "count": 2247
     },
     {
       "label": "No Object",
@@ -744,7 +746,7 @@
     },
     {
       "label": "Other",
-      "count": 937
+      "count": 869
     },
     {
       "label": "Vehicle",
@@ -763,8 +765,8 @@
       "count": 161
     },
     {
-      "label": "Machete",
-      "count": 113
+      "label": "Gun, Vehicle",
+      "count": 68
     }
   ],
   "disparity_rates": [
@@ -809,6 +811,26 @@
       "population": 19618719,
       "rate_per_100k": 1.42,
       "disparity_vs_white": 0.42
+    }
+  ],
+  "arrest_rates": [
+    {
+      "race": "Black",
+      "count": 3656,
+      "arrests": 1970000,
+      "rate_per_100k_arrests": 185.58
+    },
+    {
+      "race": "Native American",
+      "count": 213,
+      "arrests": 134690,
+      "rate_per_100k_arrests": 158.14
+    },
+    {
+      "race": "White",
+      "count": 6510,
+      "arrests": 4230000,
+      "rate_per_100k_arrests": 153.9
     }
   ],
   "top_states": [
@@ -934,101 +956,5 @@
       "label": "Columbus Division of Police",
       "count": 65
     }
-  ],
-  "agency_rates": [
-    {
-      "agency": "Columbus Division of Police",
-      "state": "OH",
-      "shooting_count": 46,
-      "rate_per_10k_arrests": 4.86
-    },
-    {
-      "agency": "Fremont Police Department",
-      "state": "CA",
-      "shooting_count": 10,
-      "rate_per_10k_arrests": 4.38
-    },
-    {
-      "agency": "Glendale Police Department",
-      "state": "AZ",
-      "shooting_count": 17,
-      "rate_per_10k_arrests": 3.65
-    },
-    {
-      "agency": "Kansas City Police Department",
-      "state": "MO",
-      "shooting_count": 37,
-      "rate_per_10k_arrests": 3.35
-    },
-    {
-      "agency": "Oklahoma City Police Department",
-      "state": "OK",
-      "shooting_count": 54,
-      "rate_per_10k_arrests": 3.18
-    },
-    {
-      "agency": "Santa Ana Police Department",
-      "state": "CA",
-      "shooting_count": 19,
-      "rate_per_10k_arrests": 2.84
-    },
-    {
-      "agency": "St. Louis Metropolitan Police Department",
-      "state": "MO",
-      "shooting_count": 45,
-      "rate_per_10k_arrests": 2.72
-    },
-    {
-      "agency": "Stockton Police Department",
-      "state": "CA",
-      "shooting_count": 18,
-      "rate_per_10k_arrests": 2.66
-    },
-    {
-      "agency": "Phoenix Police Department",
-      "state": "AZ",
-      "shooting_count": 132,
-      "rate_per_10k_arrests": 2.6
-    },
-    {
-      "agency": "Tulsa Police Department",
-      "state": "OK",
-      "shooting_count": 34,
-      "rate_per_10k_arrests": 2.56
-    },
-    {
-      "agency": "Detroit Police Department",
-      "state": "MI",
-      "shooting_count": 29,
-      "rate_per_10k_arrests": 2.41
-    },
-    {
-      "agency": "Seattle Police Department",
-      "state": "WA",
-      "shooting_count": 29,
-      "rate_per_10k_arrests": 2.39
-    },
-    {
-      "agency": "Cleveland Division of Police",
-      "state": "OH",
-      "shooting_count": 12,
-      "rate_per_10k_arrests": 2.38
-    },
-    {
-      "agency": "Albuquerque Police Department",
-      "state": "NM",
-      "shooting_count": 49,
-      "rate_per_10k_arrests": 2.35
-    },
-    {
-      "agency": "Los Angeles Police Department",
-      "state": "CA",
-      "shooting_count": 163,
-      "rate_per_10k_arrests": 2.26
-    }
-  ],
-  "agency_rate_years": [
-    2013,
-    2022
   ]
 }
