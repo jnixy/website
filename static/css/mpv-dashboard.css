@@ -107,6 +107,12 @@
   min-height: 320px;
 }
 
+/* US choropleth needs more vertical room than the default min-height, or
+   Plotly's geo subplot renders visibly squashed. */
+#chart-states {
+  min-height: 480px;
+}
+
 .mpv-chart-note {
   font-size: 0.75rem;
   color: var(--text-muted, #666);

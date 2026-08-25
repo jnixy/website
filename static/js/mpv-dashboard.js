@@ -221,6 +221,43 @@
     }
   }
 
+  function renderStateMap(data) {
+    var rates = data.state_rates;
+    var colors = themeColors();
+
+    Plotly.newPlot('chart-states', [{
+      type: 'choropleth',
+      locationmode: 'USA-states',
+      locations: rates.map(function (r) { return r.state; }),
+      z: rates.map(function (r) { return r.rate_per_million; }),
+      customdata: rates.map(function (r) { return [r.name, r.count, r.population]; }),
+      colorscale: [[0, 'rgba(198,40,40,0.08)'], [1, PALETTE[2]]],
+      marker: { line: { color: colors.grid, width: 0.5 } },
+      colorbar: { title: { text: 'Per 1M', font: { color: colors.font } }, tickfont: { color: colors.font } },
+      hovertemplate: '%{customdata[0]}: %{z} per 1,000,000<br>' +
+        '%{customdata[1]} incidents / %{customdata[2]:,} population<extra></extra>'
+    }], baseLayout({
+      margin: { t: 10, r: 10, l: 10, b: 10 },
+      geo: {
+        scope: 'usa',
+        bgcolor: 'rgba(0,0,0,0)',
+        lakecolor: 'rgba(0,0,0,0)',
+        landcolor: 'rgba(0,0,0,0)',
+        subunitcolor: colors.grid
+      }
+    }), PLOTLY_CONFIG);
+
+    var highest = rates[0];
+    var captionEl = document.getElementById('state-map-caption');
+    if (captionEl && highest) {
+      captionEl.textContent = highest.name + ' has the highest rate in this period, ' +
+        highest.rate_per_million.toFixed(1) + ' per 1,000,000 (2020 Census population; national ' +
+        'figures, all years combined). Low-population states (and DC) can swing to extreme ' +
+        'per-capita rates on a relatively small number of incidents, so treat rankings among ' +
+        'them with caution.';
+    }
+  }
+
   function renderArrestRate(data) {
     var trend = data.arrest_rate_trend;
     var years = trend.years;
@@ -283,13 +320,13 @@
     renderHeatmap(data);
     renderDisparity(data);
     renderArrestRate(data);
-    renderTopN('chart-states', data.top_states);
+    renderStateMap(data);
     renderTopN('chart-agencies', data.top_agencies);
   }
 
   function relayoutAllForTheme() {
     var ids = ['chart-yearly', 'chart-trajectory', 'chart-race', 'chart-armed', 'chart-encounter',
-      'chart-weapon', 'chart-heatmap', 'chart-disparity', 'chart-arrest-rate', 'chart-states', 'chart-agencies'];
+      'chart-weapon', 'chart-heatmap', 'chart-disparity', 'chart-arrest-rate', 'chart-agencies'];
     var colors = themeColors();
     ids.forEach(function (id) {
       var el = document.getElementById(id);
@@ -301,6 +338,21 @@
         });
       }
     });
+
+    // Choropleth map: separate relayout, since it uses a geo subplot
+    // instead of xaxis/yaxis; its colorbar font lives on the trace, so
+    // that part needs restyle rather than relayout.
+    var mapEl = document.getElementById('chart-states');
+    if (mapEl && mapEl.data) {
+      Plotly.relayout('chart-states', {
+        'font.color': colors.font,
+        'geo.subunitcolor': colors.grid
+      });
+      Plotly.restyle('chart-states', {
+        'colorbar.tickfont.color': colors.font,
+        'colorbar.title.font.color': colors.font
+      });
+    }
   }
 
   function init() {

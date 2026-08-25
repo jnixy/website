@@ -59,6 +59,28 @@ STATE_RACE_POPULATION_COLS = {
 }
 STATE_SHEET_REQUIRED_COLUMNS = ['State', 'Total Population'] + list(STATE_RACE_POPULATION_COLS.values())
 
+# Full state names for hover-text readability on the per-state choropleth
+# map -- the map itself keys entirely off the 2-letter codes both MPV
+# sheets already use (COL_STATE and the "Killings by State" sheet's own
+# 'State' column agree exactly, confirmed against a live pull), which is
+# also exactly what Plotly's built-in `locationmode: 'USA-states'` wants,
+# so no geojson/FIPS lookup is needed anywhere in this pipeline.
+STATE_NAME_BY_ABBR = {
+    'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas',
+    'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware',
+    'DC': 'District of Columbia', 'FL': 'Florida', 'GA': 'Georgia', 'HI': 'Hawaii',
+    'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa',
+    'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine',
+    'MD': 'Maryland', 'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota',
+    'MS': 'Mississippi', 'MO': 'Missouri', 'MT': 'Montana', 'NE': 'Nebraska',
+    'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico',
+    'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio',
+    'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island',
+    'SC': 'South Carolina', 'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas',
+    'UT': 'Utah', 'VT': 'Vermont', 'VA': 'Virginia', 'WA': 'Washington',
+    'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming',
+}
+
 # National arrest totals by race, by year, for the "shootings per 100k
 # arrests" trend chart. Hand-maintained (no live API access -- see
 # build_arrest_rate_trend()'s docstring for why) -- refresh when FBI
@@ -387,6 +409,40 @@ def build_disparity_rates(df, state_pop_df):
     return results
 
 
+def build_state_rates(df, state_pop_df):
+    """Per-state rate per 1,000,000 population, cumulative 2013-present, for
+    the state choropleth map. Mirrors build_disparity_rates()'s approach
+    (our own shooting-only incident counts divided by Census population,
+    never MPV's own all-cause rate columns) but sliced by state instead of
+    race. Both sheets already use the same 2-letter USPS codes (confirmed
+    against a live pull), so this is a direct case-insensitive match with
+    no name-mapping step."""
+    incident_counts = df[COL_STATE].str.upper().str.strip().value_counts()
+
+    results = []
+    for _, row in state_pop_df.iterrows():
+        code = row['State']
+        if pd.isna(code):
+            continue
+        code = str(code).upper().strip()
+        population = row['Total Population']
+        if pd.isna(population) or population <= 0:
+            continue
+        population = int(population)
+        count = int(incident_counts.get(code, 0))
+        rate = count / population * 1_000_000
+        results.append({
+            'state': code,
+            'name': STATE_NAME_BY_ABBR.get(code, code),
+            'count': count,
+            'population': population,
+            'rate_per_million': round(rate, 2),
+        })
+
+    results.sort(key=lambda r: r['rate_per_million'], reverse=True)
+    return results
+
+
 def build_arrest_rate_trend(df):
     """Year-by-year per-100k-arrests rate by race (White/Black/Other),
     2013-2025, for the arrest-rate trend line chart. Each year divides
@@ -476,7 +532,7 @@ def build_dashboard_json(df, state_pop_df):
         'weapon_breakdown': build_capped_breakdown(df, COL_WEAPON, empty_label='Unknown', aliases={'Machete': 'Knife'}),
         'disparity_rates': build_disparity_rates(df, state_pop_df),
         'arrest_rate_trend': build_arrest_rate_trend(df),
-        'top_states': build_top_n(df, COL_STATE),
+        'state_rates': build_state_rates(df, state_pop_df),
         'top_agencies': build_top_n(df, COL_AGENCY),
     }
 

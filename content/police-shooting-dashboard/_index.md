@@ -77,11 +77,14 @@ Looking for recent news or academic research on police shootings instead? See th
         <p class="mpv-chart-note" id="arrest-rate-caption"></p>
       </div>
     </div>
-    <div class="mpv-chart-grid mpv-two-col">
+    <div class="mpv-chart-grid">
       <div class="mpv-chart-card">
-        <h3 class="mpv-chart-title">Top 10 States</h3>
+        <h3 class="mpv-chart-title">Fatal Shootings per 1,000,000 Population, by State (2013–Present)</h3>
         <div id="chart-states" class="mpv-chart"></div>
+        <p class="mpv-chart-note" id="state-map-caption"></p>
       </div>
+    </div>
+    <div class="mpv-chart-grid">
       <div class="mpv-chart-card">
         <h3 class="mpv-chart-title">Top 10 Agencies</h3>
         <div id="chart-agencies" class="mpv-chart"></div>
