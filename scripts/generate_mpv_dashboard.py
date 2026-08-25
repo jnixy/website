@@ -62,81 +62,63 @@ STATE_SHEET_REQUIRED_COLUMNS = ['State', 'Total Population'] + list(STATE_RACE_P
 # National arrest totals by race, by year, for the "shootings per 100k
 # arrests" trend chart. Hand-maintained (no live API access -- see
 # build_arrest_rate_trend()'s docstring for why) -- refresh when FBI
-# publishes a new year's figures. "Other" is always AIAN + Asian +
-# Native Hawaiian/Pacific Islander combined (FBI's own grouping in every
-# source below), since FBI arrest reporting treats race and Hispanic
-# ethnicity as separate, non-overlapping dimensions -- race totals
-# already sum to 100%, so Hispanic arrestees are already counted inside
-# a race category (mostly "White") and can't be cleanly split back out.
-# Hispanic is intentionally excluded rather than guessed; the Council on
-# Criminal Justice's own arrest-trends methodology handles this the same
-# way. See build_arrest_rate_trend()'s docstring for the consequence
-# this has on the "White" comparison specifically.
+# publishes a new year's figures.
 #
-# 2013-2019: FBI, "Crime in the United States, {year}" (Table 43A),
-# ucr.fbi.gov -- downloaded and parsed directly from the government's
-# own published table; White/Black/AIAN/Asian/NHPI counts summed to
-# White/Black/Other here. No Table 43 was published for 2016 (a
-# well-documented FBI gap year -- the Council on Criminal Justice's own
-# arrest-trends series excludes it for the same reason) and 2020's
-# report page is inaccessible; those two years use a different source
-# (below) or are supplied directly.
+# Source (all years, single consistent methodology): FBI Crime Data
+# Explorer, Arrestee Race tool (cde.ucr.cjis.gov/LATEST/webapp/#/pages/
+# explorer/crime/arrest), user-exported CSV covering 2013-2025, pulled
+# 2026-08-25. This replaces an earlier version of this dict that blended
+# three different FBI source products across the span (Crime in the
+# United States Table 43A, an earlier round of hand-copied CDE numbers,
+# and the Reported Crimes in the Nation Quick Stats) -- that patchwork
+# is why 2021 was missing and why 2020's "Other" figure was off by
+# roughly 3x (782,587 vs. the correct 265,347 below); a single source
+# for the whole series avoids both problems.
 #
-# 2016, 2020, 2022, 2023: user-supplied from the FBI Crime Data Explorer
-# (cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/arrest),
-# arrests filtered by race -- White/Black counts given directly. Other is
-# the remainder against the tool's own reported total *after* subtracting
-# an explicit "Unknown race" count the tool also reports (an initial pass
-# left Unknown folded into Other, inflating that denominator -- e.g.
-# 2020's Other briefly looked like 11.75% of arrests, roughly double
-# every other year in this series -- caught and corrected once the
-# Unknown counts were supplied separately). 'unknown' is kept per year
-# for transparency even though it isn't used in the rate calculation;
-# 'total' is still the tool's true grand total (White + Black + Other +
-# Unknown), unchanged by this correction.
-#
-# 2021 has no entry: FBI/BJS did not produce comparable national arrest
-# estimates for 2021 (the roughest year of the SRS-to-NIBRS transition,
-# with agency participation cut roughly in half) -- excluded rather than
-# estimated, and called out as a gap in the chart itself.
-#
-# 2024: FBI, "Reported Crimes in the Nation Quick Stats" (data year
-# 2024), cde.ucr.cjis.gov -- "65.5% of all persons arrested were White,
-# 30.5% were Black or African American, and the remaining 4.1% were of
-# other races" of 7,522,824 total arrests (verified against the PDF
-# directly). White/Black/Other-before-correction each computed as
-# percentage x total independently (percentages sum to 100.1% due to
-# FBI's own rounding, same artifact as 2025 below), then the user-
-# supplied Unknown count (178,875, presumably from the CDE arrest
-# explorer tool rather than the Quick Stats PDF, which doesn't break out
-# Unknown) was subtracted from Other the same way as 2016/2020/2022/2023
-# -- flagged as the one year where the Unknown correction crosses
-# between two different source documents, not independently re-verified.
-#
-# 2025: FBI, "Reported Crimes in the Nation, 2025" (Quick Stats), p.6:
-# "In 2025, 64.5% of all persons arrested were White, 31.4% were Black
-# or African American, and the remaining 4.2% were of other races
-# ... (See Table 43.)" -- total arrests 7,570,249 (p.5). No separate
-# Unknown correction supplied for this year.
+# The CDE export breaks arrestees into: White; Black or African
+# American; Unknown; American Indian or Alaska Native (AIAN); Asian;
+# Native Hawaiian or Other Pacific Islander (NHOPI); Multiple; Not
+# Specified; plus a grand total. Fields here:
+#   'white'   -- White row, as-is
+#   'black'   -- Black or African American row, as-is
+#   'other'   -- AIAN + Asian + NHOPI (matches ARREST_RATE_RACE_GROUPS's
+#                'Other' below and the shooting-count numerator it's
+#                divided into a rate against), since FBI arrest reporting
+#                treats race and Hispanic ethnicity as separate,
+#                non-overlapping dimensions -- race totals already sum to
+#                100%, so Hispanic arrestees are already counted inside a
+#                race category (mostly "White") and can't be cleanly
+#                split back out. Hispanic is intentionally excluded
+#                rather than guessed; the Council on Criminal Justice's
+#                own arrest-trends methodology handles this the same way.
+#                See build_arrest_rate_trend()'s docstring for the
+#                consequence this has on the "White" comparison.
+#   'unknown' -- Unknown + Not Specified + Multiple combined, kept only
+#                for transparency/bookkeeping (white+black+other+unknown
+#                == total for every year) -- not used in the rate calc.
+#   'total'   -- the CDE tool's own reported grand total for that year.
 ARRESTS_BY_RACE_BY_YEAR = {
-    2013: {'white': 6_214_197, 'black': 2_549_655, 'other': 250_783, 'total': 9_014_635},
-    2014: {'white': 6_056_687, 'black': 2_427_683, 'other': 246_295, 'total': 8_730_665},
-    2015: {'white': 5_753_212, 'black': 2_197_140, 'other': 298_357, 'total': 8_248_709},
-    2016: {'white': 6_138_384, 'black': 2_376_576, 'other': 346_541, 'unknown': 0, 'total': 8_861_501},
-    2017: {'white': 5_626_140, 'black': 2_221_697, 'other': 315_012, 'total': 8_162_849},
-    2018: {'white': 5_319_654, 'black': 2_115_381, 'other': 275_865, 'total': 7_710_900},
-    2019: {'white': 4_729_290, 'black': 1_815_144, 'other': 272_541, 'total': 6_816_975},
-    2020: {'white': 4_278_932, 'black': 1_665_912, 'other': 782_587, 'unknown': 8_866, 'total': 6_736_297},
-    # 2021 intentionally omitted -- see comment above.
+    2013: {'white': 4_063_963, 'black': 1_986_782, 'other': 253_194, 'unknown': 142_006, 'total': 6_445_945},
+    2014: {'white': 6_336_228, 'black': 2_531_146, 'other': 266_991, 'unknown': 0, 'total': 9_134_365},
+    2015: {'white': 6_168_945, 'black': 2_411_425, 'other': 354_102, 'unknown': 0, 'total': 8_934_472},
+    2016: {'white': 6_138_384, 'black': 2_376_576, 'other': 346_549, 'unknown': 0, 'total': 8_861_509},
+    2017: {'white': 6_115_879, 'black': 2_413_087, 'other': 349_174, 'unknown': 644_387, 'total': 9_522_527},
+    2018: {'white': 5_914_026, 'black': 2_372_409, 'other': 334_531, 'unknown': 119_753, 'total': 8_740_719},
+    2019: {'white': 5_545_854, 'black': 2_214_545, 'other': 322_252, 'unknown': 671_916, 'total': 8_754_567},
+    2020: {'white': 4_278_932, 'black': 1_665_912, 'other': 265_347, 'unknown': 526_106, 'total': 6_736_297},
+    2021: {'white': 3_459_300, 'black': 1_434_174, 'other': 211_246, 'unknown': 109_160, 'total': 5_213_880},
     2022: {'white': 4_338_280, 'black': 1_805_123, 'other': 261_617, 'unknown': 129_654, 'total': 6_534_674},
     2023: {'white': 4_541_256, 'black': 2_039_648, 'other': 281_814, 'unknown': 212_635, 'total': 7_075_353},
-    2024: {'white': 4_927_450, 'black': 2_294_461, 'other': 129_561, 'unknown': 178_875, 'total': 7_522_824},
-    2025: {'white': 4_882_811, 'black': 2_377_058, 'other': 317_950, 'total': 7_570_249},
+    2024: {'white': 4_474_451, 'black': 2_085_721, 'other': 291_950, 'unknown': 178_875, 'total': 7_030_997},
+    2025: {'white': 4_491_706, 'black': 2_176_004, 'other': 300_709, 'unknown': 157_956, 'total': 7_126_375},
 }
 
-# Called out in the chart itself so a gap in the line isn't mistaken for
-# a data error.
-ARREST_DATA_EXCLUDED_YEARS = [2021]
+# No years currently excluded -- the single-source CDE export above
+# covers every year 2013-2025, including 2021 (previously omitted; see
+# git history). Kept as a mechanism/empty list rather than removed
+# outright, in case a future year's data is unavailable when this dict
+# is next refreshed.
+ARREST_DATA_EXCLUDED_YEARS = []
 
 # "Other" in the FBI figures above is a single combined category (AIAN +
 # Asian + Native Hawaiian/Pacific Islander), so the shooting-count
@@ -413,8 +395,9 @@ def build_arrest_rate_trend(df):
     (ARRESTS_BY_RACE_BY_YEAR -- see that constant's comment for sourcing
     and why Hispanic isn't included). "Other" sums three of
     bucket_race()'s categories (ARREST_RATE_RACE_GROUPS) to match FBI's
-    own combined grouping. Years with no FBI arrest total (2021) are
-    skipped rather than estimated -- see ARREST_DATA_EXCLUDED_YEARS.
+    own combined grouping. Any year with no FBI arrest total would be
+    skipped rather than estimated -- see ARREST_DATA_EXCLUDED_YEARS
+    (currently empty; every year 2013-2025 has data).
 
     Note this chart's "White" comparison carries a real, unavoidable
     limitation: FBI's White arrest count includes Hispanic-White
