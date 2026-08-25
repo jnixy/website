@@ -222,32 +222,59 @@
   }
 
   function renderArrestRate(data) {
-    var rates = data.arrest_rates;
-    var labels = rates.map(function (d) { return d.race; });
-    var values = rates.map(function (d) { return d.rate_per_100k_arrests; });
-    var colors = rates.map(function (d) { return d.race === 'White' ? '#757575' : PALETTE[1]; });
+    var trend = data.arrest_rate_trend;
+    var years = trend.years;
+    var excluded = trend.excluded_years || [];
+    // Full year range including excluded years, so a skipped year (2021)
+    // shows as a visible break in the line rather than a smoothed-over gap.
+    var minYear = years[0], maxYear = years[years.length - 1];
+    var allYears = [];
+    for (var y = minYear; y <= maxYear; y++) allYears.push(y);
 
-    Plotly.newPlot('chart-arrest-rate', [{
-      x: values,
-      y: labels,
-      type: 'bar',
-      orientation: 'h',
-      marker: { color: colors },
-      hovertemplate: '%{y}: %{x} per 100,000 arrests<extra></extra>'
-    }], baseLayout({
-      margin: { t: 10, r: 20, l: 140, b: 40 },
-      yaxis: { autorange: 'reversed', automargin: true, gridcolor: themeColors().grid },
-      xaxis: { title: 'Rate per 100,000 arrests', gridcolor: themeColors().grid }
+    var raceColors = { White: '#757575', Black: PALETTE[1], Other: PALETTE[4] };
+    var raceOrder = ['White', 'Black', 'Other'];
+    var traces = raceOrder.map(function (race) {
+      var byYear = {};
+      trend.series[race].forEach(function (p) { byYear[p.year] = p.rate_per_100k_arrests; });
+      return {
+        x: allYears,
+        y: allYears.map(function (y) { return excluded.indexOf(y) >= 0 ? null : byYear[y]; }),
+        type: 'scatter',
+        mode: 'lines+markers',
+        name: race,
+        connectgaps: false,
+        line: { color: raceColors[race], width: 3 },
+        hovertemplate: race + ', %{x}: %{y} per 100,000 arrests<extra></extra>'
+      };
+    });
+
+    Plotly.newPlot('chart-arrest-rate', traces, baseLayout({
+      showlegend: true,
+      legend: { orientation: 'h', y: -0.2 },
+      margin: { t: 10, r: 20, l: 60, b: 40 },
+      xaxis: { title: 'Year', dtick: 1, gridcolor: themeColors().grid },
+      yaxis: { title: 'Rate per 100,000 arrests', gridcolor: themeColors().grid }
     }), PLOTLY_CONFIG);
 
     var captionEl = document.getElementById('arrest-rate-caption');
     if (captionEl) {
-      captionEl.textContent = data.fbi_arrest_source + ' reports race and Hispanic ethnicity separately, ' +
-        'not cross-tabulated, so Hispanic isn\'t broken out here (unlike the population-based chart above) ' +
-        '— FBI\'s "White" and "Black" arrest figures include Hispanic individuals of those races, while the ' +
-        'shooting counts above do not (a known limitation of the available public data, not something we ' +
-        'can cleanly correct). "Other" combines FBI\'s American Indian/Alaska Native, Asian, and Native ' +
-        'Hawaiian/Pacific Islander arrest categories, matching how the source reports them.';
+      var excludedText = excluded.length
+        ? ' ' + excluded.join(', ') + ' ' + (excluded.length === 1 ? 'is' : 'are') +
+          ' omitted (no comparable national arrest estimate was produced that year during ' +
+          'FBI\'s transition to NIBRS-based reporting) rather than guessed at — the break in ' +
+          'the line marks it.'
+        : '';
+      captionEl.textContent = 'FBI arrest data reports race and Hispanic ethnicity separately, not ' +
+        'cross-tabulated, so Hispanic isn\'t broken out here (unlike the population-based chart above) ' +
+        '— FBI\'s "White" and "Black" arrest figures include Hispanic individuals of those races, while ' +
+        'the shooting counts above do not (a known limitation of the available public data, not ' +
+        'something we can cleanly correct). "Other" combines FBI\'s American Indian/Alaska Native, ' +
+        'Asian, and Native Hawaiian/Pacific Islander arrest categories, matching how the source reports ' +
+        'them. Source tables changed over this span (FBI\'s Crime in the United States through 2019, ' +
+        'Crime Data Explorer/Reported Crimes in the Nation from 2020 on), so year-to-year shifts can ' +
+        'partly reflect reporting-method changes rather than real trends — 2020\'s unusually high ' +
+        '"Other" arrest share is a known artifact of that year\'s disrupted reporting, not a ' +
+        'transcription error.' + excludedText;
     }
   }
 

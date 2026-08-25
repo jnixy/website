@@ -1,10 +1,8 @@
 {
-  "generated_at": "2026-08-24T19:39:06Z",
+  "generated_at": "2026-08-24T20:18:58Z",
   "source": "Mapping Police Violence (mappingpoliceviolence.us)",
   "source_last_incident_date": "2026-08-18",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
-  "fbi_arrest_data_year": 2025,
-  "fbi_arrest_source": "FBI, \"Reported Crimes in the Nation, 2025\" (Table 43)",
   "stats": {
     "total_incidents": 14832,
     "current_year": 2026,
@@ -813,26 +811,249 @@
       "disparity_vs_white": 0.42
     }
   ],
-  "arrest_rates": [
-    {
-      "race": "Other",
-      "count": 550,
-      "arrests": 317950,
-      "rate_per_100k_arrests": 172.98
-    },
-    {
-      "race": "Black",
-      "count": 3656,
-      "arrests": 2377058,
-      "rate_per_100k_arrests": 153.8
-    },
-    {
-      "race": "White",
-      "count": 6510,
-      "arrests": 4882811,
-      "rate_per_100k_arrests": 133.32
+  "arrest_rate_trend": {
+    "years": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "excluded_years": [
+      2021
+    ],
+    "series": {
+      "White": [
+        {
+          "year": 2013,
+          "count": 415,
+          "arrests": 6214197,
+          "rate_per_100k_arrests": 6.68
+        },
+        {
+          "year": 2014,
+          "count": 455,
+          "arrests": 6056687,
+          "rate_per_100k_arrests": 7.51
+        },
+        {
+          "year": 2015,
+          "count": 523,
+          "arrests": 5753212,
+          "rate_per_100k_arrests": 9.09
+        },
+        {
+          "year": 2016,
+          "count": 512,
+          "arrests": 6138384,
+          "rate_per_100k_arrests": 8.34
+        },
+        {
+          "year": 2017,
+          "count": 498,
+          "arrests": 5626140,
+          "rate_per_100k_arrests": 8.85
+        },
+        {
+          "year": 2018,
+          "count": 501,
+          "arrests": 5319654,
+          "rate_per_100k_arrests": 9.42
+        },
+        {
+          "year": 2019,
+          "count": 476,
+          "arrests": 4729290,
+          "rate_per_100k_arrests": 10.06
+        },
+        {
+          "year": 2020,
+          "count": 502,
+          "arrests": 4278932,
+          "rate_per_100k_arrests": 11.73
+        },
+        {
+          "year": 2022,
+          "count": 492,
+          "arrests": 4338280,
+          "rate_per_100k_arrests": 11.34
+        },
+        {
+          "year": 2023,
+          "count": 526,
+          "arrests": 4541256,
+          "rate_per_100k_arrests": 11.58
+        },
+        {
+          "year": 2024,
+          "count": 496,
+          "arrests": 4927450,
+          "rate_per_100k_arrests": 10.07
+        },
+        {
+          "year": 2025,
+          "count": 426,
+          "arrests": 4882811,
+          "rate_per_100k_arrests": 8.72
+        }
+      ],
+      "Black": [
+        {
+          "year": 2013,
+          "count": 275,
+          "arrests": 2549655,
+          "rate_per_100k_arrests": 10.79
+        },
+        {
+          "year": 2014,
+          "count": 253,
+          "arrests": 2427683,
+          "rate_per_100k_arrests": 10.42
+        },
+        {
+          "year": 2015,
+          "count": 270,
+          "arrests": 2197140,
+          "rate_per_100k_arrests": 12.29
+        },
+        {
+          "year": 2016,
+          "count": 254,
+          "arrests": 2376576,
+          "rate_per_100k_arrests": 10.69
+        },
+        {
+          "year": 2017,
+          "count": 254,
+          "arrests": 2221697,
+          "rate_per_100k_arrests": 11.43
+        },
+        {
+          "year": 2018,
+          "count": 253,
+          "arrests": 2115381,
+          "rate_per_100k_arrests": 11.96
+        },
+        {
+          "year": 2019,
+          "count": 279,
+          "arrests": 1815144,
+          "rate_per_100k_arrests": 15.37
+        },
+        {
+          "year": 2020,
+          "count": 270,
+          "arrests": 1665912,
+          "rate_per_100k_arrests": 16.21
+        },
+        {
+          "year": 2022,
+          "count": 297,
+          "arrests": 1805123,
+          "rate_per_100k_arrests": 16.45
+        },
+        {
+          "year": 2023,
+          "count": 276,
+          "arrests": 2039648,
+          "rate_per_100k_arrests": 13.53
+        },
+        {
+          "year": 2024,
+          "count": 301,
+          "arrests": 2294461,
+          "rate_per_100k_arrests": 13.12
+        },
+        {
+          "year": 2025,
+          "count": 265,
+          "arrests": 2377058,
+          "rate_per_100k_arrests": 11.15
+        }
+      ],
+      "Other": [
+        {
+          "year": 2013,
+          "count": 25,
+          "arrests": 250783,
+          "rate_per_100k_arrests": 9.97
+        },
+        {
+          "year": 2014,
+          "count": 29,
+          "arrests": 246295,
+          "rate_per_100k_arrests": 11.77
+        },
+        {
+          "year": 2015,
+          "count": 43,
+          "arrests": 298357,
+          "rate_per_100k_arrests": 14.41
+        },
+        {
+          "year": 2016,
+          "count": 48,
+          "arrests": 346541,
+          "rate_per_100k_arrests": 13.85
+        },
+        {
+          "year": 2017,
+          "count": 46,
+          "arrests": 315012,
+          "rate_per_100k_arrests": 14.6
+        },
+        {
+          "year": 2018,
+          "count": 45,
+          "arrests": 275865,
+          "rate_per_100k_arrests": 16.31
+        },
+        {
+          "year": 2019,
+          "count": 44,
+          "arrests": 272541,
+          "rate_per_100k_arrests": 16.14
+        },
+        {
+          "year": 2020,
+          "count": 32,
+          "arrests": 791453,
+          "rate_per_100k_arrests": 4.04
+        },
+        {
+          "year": 2022,
+          "count": 46,
+          "arrests": 391271,
+          "rate_per_100k_arrests": 11.76
+        },
+        {
+          "year": 2023,
+          "count": 45,
+          "arrests": 494449,
+          "rate_per_100k_arrests": 9.1
+        },
+        {
+          "year": 2024,
+          "count": 43,
+          "arrests": 308436,
+          "rate_per_100k_arrests": 13.94
+        },
+        {
+          "year": 2025,
+          "count": 47,
+          "arrests": 317950,
+          "rate_per_100k_arrests": 14.78
+        }
+      ]
     }
-  ],
+  },
   "top_states": [
     {
       "label": "CA",

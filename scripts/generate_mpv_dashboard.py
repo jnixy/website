@@ -59,34 +59,76 @@ STATE_RACE_POPULATION_COLS = {
 }
 STATE_SHEET_REQUIRED_COLUMNS = ['State', 'Total Population'] + list(STATE_RACE_POPULATION_COLS.values())
 
-# National arrest totals by race, for the "shootings per 100k arrests"
-# chart. Hand-maintained (no live API access -- see build_arrest_rates()
-# docstring for why) -- refresh annually when FBI publishes new figures.
+# National arrest totals by race, by year, for the "shootings per 100k
+# arrests" trend chart. Hand-maintained (no live API access -- see
+# build_arrest_rate_trend()'s docstring for why) -- refresh when FBI
+# publishes a new year's figures. "Other" is always AIAN + Asian +
+# Native Hawaiian/Pacific Islander combined (FBI's own grouping in every
+# source below), since FBI arrest reporting treats race and Hispanic
+# ethnicity as separate, non-overlapping dimensions -- race totals
+# already sum to 100%, so Hispanic arrestees are already counted inside
+# a race category (mostly "White") and can't be cleanly split back out.
+# Hispanic is intentionally excluded rather than guessed; the Council on
+# Criminal Justice's own arrest-trends methodology handles this the same
+# way. See build_arrest_rate_trend()'s docstring for the consequence
+# this has on the "White" comparison specifically.
 #
-# Source: FBI, "Reported Crimes in the Nation, 2025" (Quick Stats,
-# released August 2026), p.6: "In 2025, 64.5% of all persons arrested
-# were White, 31.4% were Black or African American, and the remaining
-# 4.2% were of other races (American Indian or Alaska Native, Asian, or
-# Native Hawaiian or Other Pacific Islander). (See Table 43.)" -- total
-# arrests 7,570,249 (p.5). Counts below are each percentage x the total,
-# rounded independently (the published percentages sum to 100.1% due to
-# their own rounding, a standard FBI-noted artifact, not an error here).
+# 2013-2019: FBI, "Crime in the United States, {year}" (Table 43A),
+# ucr.fbi.gov -- downloaded and parsed directly from the government's
+# own published table; White/Black/AIAN/Asian/NHPI counts summed to
+# White/Black/Other here. No Table 43 was published for 2016 (a
+# well-documented FBI gap year -- the Council on Criminal Justice's own
+# arrest-trends series excludes it for the same reason) and 2020's
+# report page is inaccessible; those two years use a different source
+# (below) or are supplied directly.
 #
-# FBI arrest reporting treats race and Hispanic ethnicity as separate,
-# non-overlapping dimensions -- race totals already sum to 100%, so
-# Hispanic arrestees are already counted inside a race category (mostly
-# "White") and can't be cleanly split back out. Hispanic is intentionally
-# excluded from this dict rather than guessed; the Council on Criminal
-# Justice's own arrest-trends methodology handles this the same way. See
-# build_arrest_rates()'s docstring for the consequence this has on the
-# "White" comparison specifically.
-FBI_ARREST_DATA_YEAR = 2025
-FBI_ARREST_SOURCE = 'FBI, "Reported Crimes in the Nation, 2025" (Table 43)'
-NATIONAL_ARRESTS_BY_RACE = {
-    'White': 4_882_811,   # 7,570,249 x 64.5%
-    'Black': 2_377_058,   # 7,570,249 x 31.4%
-    'Other': 317_950,     # 7,570,249 x 4.2% -- AIAN + Asian + NH/PI combined (FBI's own grouping)
+# 2016, 2020, 2022, 2023: user-supplied from the FBI Crime Data Explorer
+# (cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/arrest),
+# arrests filtered by race -- White/Black counts given directly, Other
+# computed as the remainder against the tool's own reported total.
+# NOTE: 2020's Other share (11.75% of arrests) is roughly double every
+# other year in this series (2.8-7.0%) -- flagged, not silently
+# smoothed over. 2020 was FBI's most disrupted reporting year (COVID-19
+# plus the start of the mandatory NIBRS transition), so this may be a
+# real reporting-composition shift rather than a transcription error,
+# but it hasn't been independently re-verified against a second source.
+#
+# 2021 has no entry: FBI/BJS did not produce comparable national arrest
+# estimates for 2021 (the roughest year of the SRS-to-NIBRS transition,
+# with agency participation cut roughly in half) -- excluded rather than
+# estimated, and called out as a gap in the chart itself.
+#
+# 2024: FBI, "Reported Crimes in the Nation Quick Stats" (data year
+# 2024), cde.ucr.cjis.gov -- "65.5% of all persons arrested were White,
+# 30.5% were Black or African American, and the remaining 4.1% were of
+# other races" of 7,522,824 total arrests (verified against the PDF
+# directly). Percentages sum to 100.1% due to FBI's own rounding, same
+# artifact as 2025 below -- White/Black/Other each computed as
+# percentage x total, independently, not forced to reconcile.
+#
+# 2025: FBI, "Reported Crimes in the Nation, 2025" (Quick Stats), p.6:
+# "In 2025, 64.5% of all persons arrested were White, 31.4% were Black
+# or African American, and the remaining 4.2% were of other races
+# ... (See Table 43.)" -- total arrests 7,570,249 (p.5).
+ARRESTS_BY_RACE_BY_YEAR = {
+    2013: {'white': 6_214_197, 'black': 2_549_655, 'other': 250_783, 'total': 9_014_635},
+    2014: {'white': 6_056_687, 'black': 2_427_683, 'other': 246_295, 'total': 8_730_665},
+    2015: {'white': 5_753_212, 'black': 2_197_140, 'other': 298_357, 'total': 8_248_709},
+    2016: {'white': 6_138_384, 'black': 2_376_576, 'other': 346_541, 'total': 8_861_501},
+    2017: {'white': 5_626_140, 'black': 2_221_697, 'other': 315_012, 'total': 8_162_849},
+    2018: {'white': 5_319_654, 'black': 2_115_381, 'other': 275_865, 'total': 7_710_900},
+    2019: {'white': 4_729_290, 'black': 1_815_144, 'other': 272_541, 'total': 6_816_975},
+    2020: {'white': 4_278_932, 'black': 1_665_912, 'other': 791_453, 'total': 6_736_297},
+    # 2021 intentionally omitted -- see comment above.
+    2022: {'white': 4_338_280, 'black': 1_805_123, 'other': 391_271, 'total': 6_534_674},
+    2023: {'white': 4_541_256, 'black': 2_039_648, 'other': 494_449, 'total': 7_075_353},
+    2024: {'white': 4_927_450, 'black': 2_294_461, 'other': 308_436, 'total': 7_522_824},
+    2025: {'white': 4_882_811, 'black': 2_377_058, 'other': 317_950, 'total': 7_570_249},
 }
+
+# Called out in the chart itself so a gap in the line isn't mistaken for
+# a data error.
+ARREST_DATA_EXCLUDED_YEARS = [2021]
 
 # "Other" in the FBI figures above is a single combined category (AIAN +
 # Asian + Native Hawaiian/Pacific Islander), so the shooting-count
@@ -355,35 +397,49 @@ def build_disparity_rates(df, state_pop_df):
     return results
 
 
-def build_arrest_rates(df):
-    """National per-100k-arrests rate by race, computed from our own
-    shooting-only incident counts divided by hand-maintained FBI arrest
-    totals (NATIONAL_ARRESTS_BY_RACE -- see that constant's comment for
-    why Hispanic isn't included). "Other" sums three of bucket_race()'s
-    categories (ARREST_RATE_RACE_GROUPS) to match FBI's own combined
-    grouping. Note this chart's "White" comparison carries a real,
-    unavoidable limitation: FBI's White arrest count includes
-    Hispanic-White individuals (race and ethnicity aren't cleanly
-    separable in FBI reporting), while our own "White" shooting-victim
-    count does not (MPV/bucket_race() treats Hispanic as its own
-    exclusive category). This makes the computed White arrest-rate a
-    slight underestimate relative to a true non-Hispanic-White rate --
-    flagged in the UI caption, not hidden."""
-    race_counts = df[COL_RACE].map(bucket_race).value_counts()
+def build_arrest_rate_trend(df):
+    """Year-by-year per-100k-arrests rate by race (White/Black/Other),
+    2013-2025, for the arrest-rate trend line chart. Each year divides
+    our own shooting-only incident counts *for that year* by
+    hand-maintained FBI arrest totals for that year
+    (ARRESTS_BY_RACE_BY_YEAR -- see that constant's comment for sourcing
+    and why Hispanic isn't included). "Other" sums three of
+    bucket_race()'s categories (ARREST_RATE_RACE_GROUPS) to match FBI's
+    own combined grouping. Years with no FBI arrest total (2021) are
+    skipped rather than estimated -- see ARREST_DATA_EXCLUDED_YEARS.
 
-    results = []
-    for race, arrests in NATIONAL_ARRESTS_BY_RACE.items():
-        count = sum(int(race_counts.get(r, 0)) for r in ARREST_RATE_RACE_GROUPS[race])
-        rate = (count / arrests * 100_000) if arrests else 0.0
-        results.append({
-            'race': race,
-            'count': count,
-            'arrests': arrests,
-            'rate_per_100k_arrests': round(rate, 2),
-        })
+    Note this chart's "White" comparison carries a real, unavoidable
+    limitation: FBI's White arrest count includes Hispanic-White
+    individuals (race and ethnicity aren't cleanly separable in FBI
+    reporting), while our own "White" shooting-victim count does not
+    (MPV/bucket_race() treats Hispanic as its own exclusive category).
+    This makes the computed White arrest-rate a slight underestimate
+    relative to a true non-Hispanic-White rate -- flagged in the UI
+    caption, not hidden."""
+    years = sorted(ARRESTS_BY_RACE_BY_YEAR.keys())
+    race_counts_by_year = {
+        year: df[df['_date'].dt.year == year][COL_RACE].map(bucket_race).value_counts()
+        for year in years
+    }
 
-    results.sort(key=lambda r: r['rate_per_100k_arrests'], reverse=True)
-    return results
+    series = {race: [] for race in ARREST_RATE_RACE_GROUPS}
+    for race, mpv_categories in ARREST_RATE_RACE_GROUPS.items():
+        for year in years:
+            arrests = ARRESTS_BY_RACE_BY_YEAR[year][race.lower()]
+            count = sum(int(race_counts_by_year[year].get(r, 0)) for r in mpv_categories)
+            rate = (count / arrests * 100_000) if arrests else 0.0
+            series[race].append({
+                'year': year,
+                'count': count,
+                'arrests': arrests,
+                'rate_per_100k_arrests': round(rate, 2),
+            })
+
+    return {
+        'years': years,
+        'excluded_years': ARREST_DATA_EXCLUDED_YEARS,
+        'series': series,
+    }
 
 
 def build_dashboard_json(df, state_pop_df):
@@ -411,8 +467,6 @@ def build_dashboard_json(df, state_pop_df):
         'source': 'Mapping Police Violence (mappingpoliceviolence.us)',
         'source_last_incident_date': most_recent.strftime('%Y-%m-%d'),
         'scope': SCOPE_DESCRIPTION,
-        'fbi_arrest_data_year': FBI_ARREST_DATA_YEAR,
-        'fbi_arrest_source': FBI_ARREST_SOURCE,
         'stats': {
             'total_incidents': int(len(df)),
             'current_year': current_year,
@@ -430,7 +484,7 @@ def build_dashboard_json(df, state_pop_df):
         'encounter_breakdown': build_capped_breakdown(df, COL_ENCOUNTER, empty_label='Not Reported'),
         'weapon_breakdown': build_capped_breakdown(df, COL_WEAPON, empty_label='Unknown', aliases={'Machete': 'Knife'}),
         'disparity_rates': build_disparity_rates(df, state_pop_df),
-        'arrest_rates': build_arrest_rates(df),
+        'arrest_rate_trend': build_arrest_rate_trend(df),
         'top_states': build_top_n(df, COL_STATE),
         'top_agencies': build_top_n(df, COL_AGENCY),
     }

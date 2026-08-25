@@ -72,7 +72,7 @@ Looking for recent news or academic research on police shootings instead? See th
     </div>
     <div class="mpv-chart-grid">
       <div class="mpv-chart-card">
-        <h3 class="mpv-chart-title">Fatal Shootings per 100,000 Arrests, by Race</h3>
+        <h3 class="mpv-chart-title">Fatal Shootings per 100,000 Arrests, by Race (2013–2025)</h3>
         <div id="chart-arrest-rate" class="mpv-chart"></div>
         <p class="mpv-chart-note" id="arrest-rate-caption"></p>
       </div>
