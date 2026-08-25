@@ -194,7 +194,7 @@
     var rates = data.disparity_rates;
     var labels = rates.map(function (d) { return d.race; });
     var values = rates.map(function (d) { return d.rate_per_100k; });
-    var colors = rates.map(function (d) { return d.race === 'White' ? '#757575' : PALETTE[2]; });
+    var colors = rates.map(function () { return PALETTE[2]; });
 
     Plotly.newPlot('chart-disparity', [{
       x: values,
@@ -225,8 +225,9 @@
     var trend = data.arrest_rate_trend;
     var years = trend.years;
     var excluded = trend.excluded_years || [];
-    // Full year range including excluded years, so a skipped year (2021)
+    // Full year range including any excluded years, so a skipped year
     // shows as a visible break in the line rather than a smoothed-over gap.
+    // (No years are currently excluded — every year 2013-2025 has data.)
     var minYear = years[0], maxYear = years[years.length - 1];
     var allYears = [];
     for (var y = minYear; y <= maxYear; y++) allYears.push(y);
@@ -258,23 +259,16 @@
 
     var captionEl = document.getElementById('arrest-rate-caption');
     if (captionEl) {
-      var excludedText = excluded.length
-        ? ' ' + excluded.join(', ') + ' ' + (excluded.length === 1 ? 'is' : 'are') +
-          ' omitted (no comparable national arrest estimate was produced that year during ' +
-          'FBI\'s transition to NIBRS-based reporting) rather than guessed at — the break in ' +
-          'the line marks it.'
-        : '';
       captionEl.textContent = 'FBI arrest data reports race and Hispanic ethnicity separately, not ' +
         'cross-tabulated, so Hispanic isn\'t broken out here (unlike the population-based chart above) ' +
         '— FBI\'s "White" and "Black" arrest figures include Hispanic individuals of those races, while ' +
         'the shooting counts above do not (a known limitation of the available public data, not ' +
         'something we can cleanly correct). "Other" combines FBI\'s American Indian/Alaska Native, ' +
         'Asian, and Native Hawaiian/Pacific Islander arrest categories, matching how the source reports ' +
-        'them. Source tables changed over this span (FBI\'s Crime in the United States through 2019, ' +
-        'Crime Data Explorer/Reported Crimes in the Nation from 2020 on), so year-to-year shifts can ' +
-        'partly reflect reporting-method changes rather than real trends — 2020\'s unusually high ' +
-        '"Other" arrest share is a known artifact of that year\'s disrupted reporting, not a ' +
-        'transcription error.' + excludedText;
+        'them. 2021 arrest figures should be read with some caution: that year fell during the ' +
+        'roughest stretch of FBI\'s transition from the old Summary Reporting System to NIBRS, when ' +
+        'participating-agency coverage dropped sharply, making that year\'s national estimate less ' +
+        'reliable than surrounding years.';
     }
   }
 
