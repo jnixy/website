@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:18:58Z",
+  "generated_at": "2026-08-24T20:33:13Z",
   "source": "Mapping Police Violence (mappingpoliceviolence.us)",
   "source_last_incident_date": "2026-08-18",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
@@ -1024,26 +1024,26 @@
         {
           "year": 2020,
           "count": 32,
-          "arrests": 791453,
-          "rate_per_100k_arrests": 4.04
+          "arrests": 782587,
+          "rate_per_100k_arrests": 4.09
         },
         {
           "year": 2022,
           "count": 46,
-          "arrests": 391271,
-          "rate_per_100k_arrests": 11.76
+          "arrests": 261617,
+          "rate_per_100k_arrests": 17.58
         },
         {
           "year": 2023,
           "count": 45,
-          "arrests": 494449,
-          "rate_per_100k_arrests": 9.1
+          "arrests": 281814,
+          "rate_per_100k_arrests": 15.97
         },
         {
           "year": 2024,
           "count": 43,
-          "arrests": 308436,
-          "rate_per_100k_arrests": 13.94
+          "arrests": 129561,
+          "rate_per_100k_arrests": 33.19
         },
         {
           "year": 2025,

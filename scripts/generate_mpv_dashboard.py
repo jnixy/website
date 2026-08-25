@@ -84,14 +84,16 @@ STATE_SHEET_REQUIRED_COLUMNS = ['State', 'Total Population'] + list(STATE_RACE_P
 #
 # 2016, 2020, 2022, 2023: user-supplied from the FBI Crime Data Explorer
 # (cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/arrest),
-# arrests filtered by race -- White/Black counts given directly, Other
-# computed as the remainder against the tool's own reported total.
-# NOTE: 2020's Other share (11.75% of arrests) is roughly double every
-# other year in this series (2.8-7.0%) -- flagged, not silently
-# smoothed over. 2020 was FBI's most disrupted reporting year (COVID-19
-# plus the start of the mandatory NIBRS transition), so this may be a
-# real reporting-composition shift rather than a transcription error,
-# but it hasn't been independently re-verified against a second source.
+# arrests filtered by race -- White/Black counts given directly. Other is
+# the remainder against the tool's own reported total *after* subtracting
+# an explicit "Unknown race" count the tool also reports (an initial pass
+# left Unknown folded into Other, inflating that denominator -- e.g.
+# 2020's Other briefly looked like 11.75% of arrests, roughly double
+# every other year in this series -- caught and corrected once the
+# Unknown counts were supplied separately). 'unknown' is kept per year
+# for transparency even though it isn't used in the rate calculation;
+# 'total' is still the tool's true grand total (White + Black + Other +
+# Unknown), unchanged by this correction.
 #
 # 2021 has no entry: FBI/BJS did not produce comparable national arrest
 # estimates for 2021 (the roughest year of the SRS-to-NIBRS transition,
@@ -102,27 +104,33 @@ STATE_SHEET_REQUIRED_COLUMNS = ['State', 'Total Population'] + list(STATE_RACE_P
 # 2024), cde.ucr.cjis.gov -- "65.5% of all persons arrested were White,
 # 30.5% were Black or African American, and the remaining 4.1% were of
 # other races" of 7,522,824 total arrests (verified against the PDF
-# directly). Percentages sum to 100.1% due to FBI's own rounding, same
-# artifact as 2025 below -- White/Black/Other each computed as
-# percentage x total, independently, not forced to reconcile.
+# directly). White/Black/Other-before-correction each computed as
+# percentage x total independently (percentages sum to 100.1% due to
+# FBI's own rounding, same artifact as 2025 below), then the user-
+# supplied Unknown count (178,875, presumably from the CDE arrest
+# explorer tool rather than the Quick Stats PDF, which doesn't break out
+# Unknown) was subtracted from Other the same way as 2016/2020/2022/2023
+# -- flagged as the one year where the Unknown correction crosses
+# between two different source documents, not independently re-verified.
 #
 # 2025: FBI, "Reported Crimes in the Nation, 2025" (Quick Stats), p.6:
 # "In 2025, 64.5% of all persons arrested were White, 31.4% were Black
 # or African American, and the remaining 4.2% were of other races
-# ... (See Table 43.)" -- total arrests 7,570,249 (p.5).
+# ... (See Table 43.)" -- total arrests 7,570,249 (p.5). No separate
+# Unknown correction supplied for this year.
 ARRESTS_BY_RACE_BY_YEAR = {
     2013: {'white': 6_214_197, 'black': 2_549_655, 'other': 250_783, 'total': 9_014_635},
     2014: {'white': 6_056_687, 'black': 2_427_683, 'other': 246_295, 'total': 8_730_665},
     2015: {'white': 5_753_212, 'black': 2_197_140, 'other': 298_357, 'total': 8_248_709},
-    2016: {'white': 6_138_384, 'black': 2_376_576, 'other': 346_541, 'total': 8_861_501},
+    2016: {'white': 6_138_384, 'black': 2_376_576, 'other': 346_541, 'unknown': 0, 'total': 8_861_501},
     2017: {'white': 5_626_140, 'black': 2_221_697, 'other': 315_012, 'total': 8_162_849},
     2018: {'white': 5_319_654, 'black': 2_115_381, 'other': 275_865, 'total': 7_710_900},
     2019: {'white': 4_729_290, 'black': 1_815_144, 'other': 272_541, 'total': 6_816_975},
-    2020: {'white': 4_278_932, 'black': 1_665_912, 'other': 791_453, 'total': 6_736_297},
+    2020: {'white': 4_278_932, 'black': 1_665_912, 'other': 782_587, 'unknown': 8_866, 'total': 6_736_297},
     # 2021 intentionally omitted -- see comment above.
-    2022: {'white': 4_338_280, 'black': 1_805_123, 'other': 391_271, 'total': 6_534_674},
-    2023: {'white': 4_541_256, 'black': 2_039_648, 'other': 494_449, 'total': 7_075_353},
-    2024: {'white': 4_927_450, 'black': 2_294_461, 'other': 308_436, 'total': 7_522_824},
+    2022: {'white': 4_338_280, 'black': 1_805_123, 'other': 261_617, 'unknown': 129_654, 'total': 6_534_674},
+    2023: {'white': 4_541_256, 'black': 2_039_648, 'other': 281_814, 'unknown': 212_635, 'total': 7_075_353},
+    2024: {'white': 4_927_450, 'black': 2_294_461, 'other': 129_561, 'unknown': 178_875, 'total': 7_522_824},
     2025: {'white': 4_882_811, 'black': 2_377_058, 'other': 317_950, 'total': 7_570_249},
 }
 
