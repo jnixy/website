@@ -62,24 +62,40 @@ STATE_SHEET_REQUIRED_COLUMNS = ['State', 'Total Population'] + list(STATE_RACE_P
 # National arrest totals by race, for the "shootings per 100k arrests"
 # chart. Hand-maintained (no live API access -- see build_arrest_rates()
 # docstring for why) -- refresh annually when FBI publishes new figures.
-# Source: FBI, Crime in the United States 2024, Table 43.
-# https://cde.ucr.cjis.gov (Crime Data Explorer)
+#
+# Source: FBI, "Reported Crimes in the Nation, 2025" (Quick Stats,
+# released August 2026), p.6: "In 2025, 64.5% of all persons arrested
+# were White, 31.4% were Black or African American, and the remaining
+# 4.2% were of other races (American Indian or Alaska Native, Asian, or
+# Native Hawaiian or Other Pacific Islander). (See Table 43.)" -- total
+# arrests 7,570,249 (p.5). Counts below are each percentage x the total,
+# rounded independently (the published percentages sum to 100.1% due to
+# their own rounding, a standard FBI-noted artifact, not an error here).
 #
 # FBI arrest reporting treats race and Hispanic ethnicity as separate,
 # non-overlapping dimensions -- race totals already sum to 100%, so
 # Hispanic arrestees are already counted inside a race category (mostly
-# "White") and can't be cleanly split back out. Hispanic and Pacific
-# Islander are intentionally omitted from this dict rather than guessed;
-# the Council on Criminal Justice's own arrest-trends methodology handles
-# this the same way. See build_arrest_rates()'s docstring for the
-# consequence this has on the "White" comparison specifically.
-FBI_ARREST_DATA_YEAR = 2024
-FBI_ARREST_SOURCE = "FBI's Crime in the United States 2024 (Table 43)"
+# "White") and can't be cleanly split back out. Hispanic is intentionally
+# excluded from this dict rather than guessed; the Council on Criminal
+# Justice's own arrest-trends methodology handles this the same way. See
+# build_arrest_rates()'s docstring for the consequence this has on the
+# "White" comparison specifically.
+FBI_ARREST_DATA_YEAR = 2025
+FBI_ARREST_SOURCE = 'FBI, "Reported Crimes in the Nation, 2025" (Table 43)'
 NATIONAL_ARRESTS_BY_RACE = {
-    'White': 4_230_000,
-    'Black': 1_970_000,
-    'Native American': 134_690,
-    # 'Asian': <pending -- add once confirmed>,
+    'White': 4_882_811,   # 7,570,249 x 64.5%
+    'Black': 2_377_058,   # 7,570,249 x 31.4%
+    'Other': 317_950,     # 7,570,249 x 4.2% -- AIAN + Asian + NH/PI combined (FBI's own grouping)
+}
+
+# "Other" in the FBI figures above is a single combined category (AIAN +
+# Asian + Native Hawaiian/Pacific Islander), so the shooting-count
+# numerator for it has to sum three of bucket_race()'s categories rather
+# than match one-to-one like White/Black do.
+ARREST_RATE_RACE_GROUPS = {
+    'White': ['White'],
+    'Black': ['Black'],
+    'Other': ['Asian', 'Native American', 'Pacific Islander'],
 }
 
 # This dashboard lives next to the site's shooting-specific news/research
@@ -343,19 +359,21 @@ def build_arrest_rates(df):
     """National per-100k-arrests rate by race, computed from our own
     shooting-only incident counts divided by hand-maintained FBI arrest
     totals (NATIONAL_ARRESTS_BY_RACE -- see that constant's comment for
-    why Hispanic/Pacific Islander aren't included). Note this chart's
-    "White" comparison carries a real, unavoidable limitation: FBI's
-    White arrest count includes Hispanic-White individuals (race and
-    ethnicity aren't cleanly separable in FBI reporting), while our own
-    "White" shooting-victim count does not (MPV/bucket_race() treats
-    Hispanic as its own exclusive category). This makes the computed
-    White arrest-rate a slight underestimate relative to a true
-    non-Hispanic-White rate -- flagged in the UI caption, not hidden."""
+    why Hispanic isn't included). "Other" sums three of bucket_race()'s
+    categories (ARREST_RATE_RACE_GROUPS) to match FBI's own combined
+    grouping. Note this chart's "White" comparison carries a real,
+    unavoidable limitation: FBI's White arrest count includes
+    Hispanic-White individuals (race and ethnicity aren't cleanly
+    separable in FBI reporting), while our own "White" shooting-victim
+    count does not (MPV/bucket_race() treats Hispanic as its own
+    exclusive category). This makes the computed White arrest-rate a
+    slight underestimate relative to a true non-Hispanic-White rate --
+    flagged in the UI caption, not hidden."""
     race_counts = df[COL_RACE].map(bucket_race).value_counts()
 
     results = []
     for race, arrests in NATIONAL_ARRESTS_BY_RACE.items():
-        count = int(race_counts.get(race, 0))
+        count = sum(int(race_counts.get(r, 0)) for r in ARREST_RATE_RACE_GROUPS[race])
         rate = (count / arrests * 100_000) if arrests else 0.0
         results.append({
             'race': race,

@@ -242,10 +242,12 @@
 
     var captionEl = document.getElementById('arrest-rate-caption');
     if (captionEl) {
-      captionEl.textContent = data.fbi_arrest_source + ' reports race and Hispanic ethnicity separately, not cross-tabulated, so Hispanic and Pacific ' +
-        'Islander are not included here (unlike the population-based chart above). FBI\'s White arrest ' +
-        'count also includes Hispanic-White individuals, while the shooting count above does not — a ' +
-        'known limitation of the available public data, not something we can cleanly correct.';
+      captionEl.textContent = data.fbi_arrest_source + ' reports race and Hispanic ethnicity separately, ' +
+        'not cross-tabulated, so Hispanic isn\'t broken out here (unlike the population-based chart above) ' +
+        '— FBI\'s "White" and "Black" arrest figures include Hispanic individuals of those races, while the ' +
+        'shooting counts above do not (a known limitation of the available public data, not something we ' +
+        'can cleanly correct). "Other" combines FBI\'s American Indian/Alaska Native, Asian, and Native ' +
+        'Hawaiian/Pacific Islander arrest categories, matching how the source reports them.';
     }
   }
 

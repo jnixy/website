@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T19:28:55Z",
+  "generated_at": "2026-08-24T19:39:06Z",
   "source": "Mapping Police Violence (mappingpoliceviolence.us)",
   "source_last_incident_date": "2026-08-18",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
-  "fbi_arrest_data_year": 2024,
-  "fbi_arrest_source": "FBI's Crime in the United States 2024 (Table 43)",
+  "fbi_arrest_data_year": 2025,
+  "fbi_arrest_source": "FBI, \"Reported Crimes in the Nation, 2025\" (Table 43)",
   "stats": {
     "total_incidents": 14832,
     "current_year": 2026,
@@ -815,22 +815,22 @@
   ],
   "arrest_rates": [
     {
-      "race": "Black",
-      "count": 3656,
-      "arrests": 1970000,
-      "rate_per_100k_arrests": 185.58
+      "race": "Other",
+      "count": 550,
+      "arrests": 317950,
+      "rate_per_100k_arrests": 172.98
     },
     {
-      "race": "Native American",
-      "count": 213,
-      "arrests": 134690,
-      "rate_per_100k_arrests": 158.14
+      "race": "Black",
+      "count": 3656,
+      "arrests": 2377058,
+      "rate_per_100k_arrests": 153.8
     },
     {
       "race": "White",
       "count": 6510,
-      "arrests": 4230000,
-      "rate_per_100k_arrests": 153.9
+      "arrests": 4882811,
+      "rate_per_100k_arrests": 133.32
     }
   ],
   "top_states": [
