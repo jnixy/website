@@ -5,7 +5,39 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2026 17:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 18:45:37 +0000</lastBuildDate>
+    <item>
+      <title>Pa . coroner rules death of man shot by police as homicide – NBC10 Philadelphia</title>
+      <link>https://www.nbcphiladelphia.com/news/local/glennwood-pysher-death-ruled-homicide-shot-by-police-upper-pottsgrove/4454948/</link>
+      <description/>
+      <pubDate>Fri, 28 Aug 2026 05:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcphiladelphia.com</source>
+    </item>
+    <item>
+      <title>Chandler officer shoots , kills man police say waved gun</title>
+      <link>https://www.azfamily.com/2026/08/28/chandler-officer-shoots-kills-man-police-say-waved-gun/</link>
+      <description/>
+      <pubDate>Fri, 28 Aug 2026 05:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>azfamily.com</source>
+    </item>
+    <item>
+      <title>Cause , manner of death released for man killed in Upper Pottsgrove Township police shooting</title>
+      <link>https://www.wfmz.com/news/area/southeastern-pa/upper-montgomery-county/cause-manner-of-death-released-for-man-killed-in-upper-pottsgrove-township-police-shooting/article_dba5f354-6056-4525-865a-5ff4fccde493.html</link>
+      <description/>
+      <pubDate>Fri, 28 Aug 2026 04:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wfmz.com</source>
+    </item>
+    <item>
+      <title>College student fatally shot by police after realizing he was at wrong home , father says</title>
+      <link>https://wset.com/news/nation-world/college-student-glenwood-pysher-iv-bubba-fatally-shot-by-pennsylvania-upper-pottsgrove-township-police-after-realizing-he-was-at-wrong-home-father-says-montgomery-county-district-attorney</link>
+      <description/>
+      <pubDate>Thu, 27 Aug 2026 19:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wset.com</source>
+    </item>
     <item>
       <title>Officer shot , suspect killed after pursuit ends at Sam Club near Fort Worth , Texas</title>
       <link>https://bnonews.com/index.php/2026/08/officer-shot-suspect-killed-after-pursuit-ends-at-sams-club-near-fort-worth-texas/</link>
@@ -223,6 +255,14 @@
       <source>foxnews.com</source>
     </item>
     <item>
+      <title>Neighbors concerned with crime in NW Albuquerque following deadly police shooting at apartment</title>
+      <link>https://www.kob.com/new-mexico/neighbors-concerned-with-crime-in-nw-albuquerque-following-deadly-police-shooting-at-apartment/</link>
+      <description/>
+      <pubDate>Thu, 13 Aug 2026 03:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kob.com</source>
+    </item>
+    <item>
       <title>Calgary officer shot , suspect dead after chase and gunfire in city park - Medicine Hat NewsMedicine Hat News</title>
       <link>https://medicinehatnews.com/news/local-news/2026/08/11/calgary-officer-shot-suspect-dead-after-chase-and-gunfire-in-city-park/</link>
       <description/>
@@ -335,6 +375,14 @@
       <source>reviewjournal.com</source>
     </item>
     <item>
+      <title>Gilbert PD identifies victims , suspect killed in stabbing , police shooting</title>
+      <link>https://www.azfamily.com/2026/08/05/police-id-victims-suspect-killed-gilbert-stabbing-police-shooting/</link>
+      <description/>
+      <pubDate>Wed, 05 Aug 2026 01:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>azfamily.com</source>
+    </item>
+    <item>
       <title>Suspect shot by officers in Linn County after crash near River Bend County Park</title>
       <link>https://www.kptv.com/2026/08/04/suspect-shot-by-officers-linn-county-after-crash-near-river-bend-county-park/</link>
       <description/>
@@ -357,54 +405,6 @@
       <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
       <category>incident</category>
       <source>abc15.com</source>
-    </item>
-    <item>
-      <title>Kansas City , Kansas Police honors officer killed in the line of duty 83 years ago</title>
-      <link>https://www.kctv5.com/2026/08/02/kansas-city-kansas-police-honors-officer-killed-line-duty-83-years-ago/</link>
-      <description/>
-      <pubDate>Mon, 03 Aug 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kctv5.com</source>
-    </item>
-    <item>
-      <title>Madison police shooting ; mayor says protest site  not sustainable or safe  </title>
-      <link>https://www.fox6now.com/news/madison-mayor</link>
-      <description/>
-      <pubDate>Fri, 31 Jul 2026 14:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>DART Police officer shot in South Dallas</title>
-      <link>https://www.fox4news.com/news/dart-police-officer-shot-south-dallas</link>
-      <description/>
-      <pubDate>Fri, 31 Jul 2026 05:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox4news.com</source>
-    </item>
-    <item>
-      <title>Waukesha police shooting following hostage situation at Meijer</title>
-      <link>https://www.fox6now.com/news/waukesha-police-shooting-following-hostage-situation-meijer</link>
-      <description/>
-      <pubDate>Fri, 31 Jul 2026 04:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>AG investigating deadly Fremont police shooting of 62 - year - old man</title>
-      <link>https://www.ktvu.com/news/ag-investigating-deadly-fremont-shooting-stemmed-from-family-dispute</link>
-      <description/>
-      <pubDate>Wed, 29 Jul 2026 17:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>ktvu.com</source>
-    </item>
-    <item>
-      <title>Madison police shooting : Community members call for reform</title>
-      <link>https://www.fox6now.com/news/madison-police-shooting-community-trust</link>
-      <description/>
-      <pubDate>Wed, 29 Jul 2026 01:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
     </item>
   </channel>
 </rss>
