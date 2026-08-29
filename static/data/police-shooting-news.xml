@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Aug 2026 18:45:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 12:40:12 +0000</lastBuildDate>
+    <item>
+      <title>At least one Lathrop officer shoots gun on Pamela Court</title>
+      <link>https://www.kcra.com/article/lathrop-shooting-pamela-court-chandra-way/73553343</link>
+      <description/>
+      <pubDate>Fri, 28 Aug 2026 17:15:00 +0000</pubDate>
+      <category>legal</category>
+      <source>kcra.com</source>
+    </item>
+    <item>
+      <title>Lathrop domestic violence incident leads to police shooting</title>
+      <link>https://www.cbsnews.com/sanfrancisco/news/lathrop-police-shooting-domestic-violence-incident-pamela-court/</link>
+      <description/>
+      <pubDate>Fri, 28 Aug 2026 16:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>cbsnews.com</source>
+    </item>
     <item>
       <title>Pa . coroner rules death of man shot by police as homicide – NBC10 Philadelphia</title>
       <link>https://www.nbcphiladelphia.com/news/local/glennwood-pysher-death-ruled-homicide-shot-by-police-upper-pottsgrove/4454948/</link>
@@ -39,6 +55,14 @@
       <source>wset.com</source>
     </item>
     <item>
+      <title>NMSP investigating police shooting involving Alamogordo Police</title>
+      <link>https://www.koat.com/article/nmsp-investigating-police-shooting-involving-alamogordo-police/73536499</link>
+      <description/>
+      <pubDate>Wed, 26 Aug 2026 23:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
+    </item>
+    <item>
       <title>Officer shot , suspect killed after pursuit ends at Sam Club near Fort Worth , Texas</title>
       <link>https://bnonews.com/index.php/2026/08/officer-shot-suspect-killed-after-pursuit-ends-at-sams-club-near-fort-worth-texas/</link>
       <description/>
@@ -53,6 +77,14 @@
       <pubDate>Tue, 25 Aug 2026 04:30:00 +0000</pubDate>
       <category>incident</category>
       <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Neighbor recalls fatal Prince George County Police shooting in his front yard</title>
+      <link>https://www.fox5dc.com/news/neighbor-recalls-fatal-prince-georges-county-police-shooting-his-front-yard</link>
+      <description/>
+      <pubDate>Mon, 24 Aug 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5dc.com</source>
     </item>
     <item>
       <title>Sayreville police shooting : Suspect with knife injured after confrontation with NJ officer</title>
@@ -373,38 +405,6 @@
       <pubDate>Thu, 06 Aug 2026 00:45:00 +0000</pubDate>
       <category>incident</category>
       <source>reviewjournal.com</source>
-    </item>
-    <item>
-      <title>Gilbert PD identifies victims , suspect killed in stabbing , police shooting</title>
-      <link>https://www.azfamily.com/2026/08/05/police-id-victims-suspect-killed-gilbert-stabbing-police-shooting/</link>
-      <description/>
-      <pubDate>Wed, 05 Aug 2026 01:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>azfamily.com</source>
-    </item>
-    <item>
-      <title>Suspect shot by officers in Linn County after crash near River Bend County Park</title>
-      <link>https://www.kptv.com/2026/08/04/suspect-shot-by-officers-linn-county-after-crash-near-river-bend-county-park/</link>
-      <description/>
-      <pubDate>Tue, 04 Aug 2026 10:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kptv.com</source>
-    </item>
-    <item>
-      <title>UPDATE : Livingston Parish deputy shoots pursuit suspect on I - 55 after being tased with own weapon</title>
-      <link>https://www.wafb.com/2026/08/03/lsp-detectives-investigating-officer-involved-shooting/</link>
-      <description/>
-      <pubDate>Mon, 03 Aug 2026 17:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wafb.com</source>
-    </item>
-    <item>
-      <title>AM Roundup : Deadly Gilbert stabbing and police shooting , Merc welcomes Plum</title>
-      <link>https://www.abc15.com/news/am-roundup/am-roundup-deadly-gilbert-stabbing-and-police-shooting-kelsey-plum-traded-to-merc</link>
-      <description/>
-      <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>abc15.com</source>
     </item>
   </channel>
 </rss>
