@@ -55,3 +55,9 @@ The "OIS Research" feed (`content/police-shooting-research/`) has been stuck at 
 - Optional: run `python scripts/generate_police_shooting_research.py --backfill` once for a deeper initial history (~100 stories vs 56).
 - Decide on the pre-existing `_index.md` bullet-list deletion.
 - `--backfill`'s `get_with_retry` path is now exercised; the normal weekly path is unchanged and low-volume.
+
+## Committed & pushed 2026-08-30
+
+- `525ac39` "Rebuild research tracker on OpenAlex; drop broken Crossref source" — 6 files (script, both data files, both tracker `_index.md`, this log).
+- Rebase onto origin/master (4 new `Update police shooting news feed [automated]` commits) failed mid-pick on OneDrive I/O; aborted cleanly and used `git merge` instead → merge commit `57a9934`. No file conflicts (incoming commits only touched `static/data/police-shooting-news.*`).
+- Pushed to `origin/master`; local and remote in sync.
