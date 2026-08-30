@@ -1,37 +1,181 @@
 <?xml version="1.0" ?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>U.S. Police Shooting Research Tracker</title>
+    <title>Police Shooting Research Tracker</title>
     <link>https://jnix.netlify.app/police-shooting-research/</link>
     <description>Recent academic research on police shootings and use of deadly force</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2026 16:46:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 08:28:52 +0000</lastBuildDate>
     <item>
-      <title>Racial and ethnic disparities in fatal police shootings: Variation across U.S. states and the role of firearm ownership.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/41811807/</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Neil R, Bushway S, Schell TL et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; PLoS One</description>
-      <pubDate>Mon, 24 Aug 2026 16:46:25 +0000</pubDate>
+      <title>‘We’re recording you too, bud:’ body-worn cameras, citizen journalism, and the changing landscape of police visibility</title>
+      <link>https://doi.org/10.1080/10439463.2026.2724367</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ajay Sandhu &amp; Sara K. Thompson&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;The widespread adoption of body-worn cameras (BWCs) has transformed the landscape of police visibility. While BWCs are commonly understood as technologies for evidence collection and police accountability, less attention has been paid to how police officers themselves understand the technology as a means of responding to citizen journalism. Drawing on interviews with frontline officers from one of Canada's largest municipal police services, this paper examines how officers understand and mobilis...&lt;/p&gt;</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <category>research</category>
-      <source>PLoS One</source>
+      <source>Policing &amp; Society</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Non-fatal assaults on police officers in the USA, 1993–2021</title>
+      <link>https://doi.org/10.1136/ip-2026-046244</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; David McDowall et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Injury Prevention&lt;br&gt;&lt;p&gt;BACKGROUND: Injury-provoking violence is an important concern among police officers, and it influences their decisions about using force in their encounters with civilians. We sought to estimate the occurrence and trends in non-fatal assaults on police officers in the USA. METHODS: We estimated rates and frequencies of assaults directed against working police officers during four periods: 1993-1999, 2000-2005, 2007-2015 and 2016-2021. The data were from the US National Crime Victimization Survey...&lt;/p&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Injury Prevention</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>How to make police visible. Revisiting policing’s new visibility: the case of the French Yellow Vests movement</title>
+      <link>https://doi.org/10.1080/10439463.2026.2716784</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Félicien Faury et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;Research has identified several trends converging towards greater visibility of policing behaviour, and in particular the proliferation of smartphones with built-in cameras. However, this process of visibilisation is not an automatic one. This article posits that an understanding of the phenomenon of policing's new visibility should integrate the role of intermediaries between ordinary people filming the police and the large-scale publicisation of images of police brutality. We develop the conce...&lt;/p&gt;</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing &amp; Society</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Analyzing Police-Civilian Interaction Through a Spatial Lens</title>
+      <link>https://doi.org/10.1007/s10612-026-09911-1</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Julia Rodríguez Pantel&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Critical Criminology&lt;br&gt;&lt;p&gt;Abstract This article examines police violence through a spatial lens. It performs a micro-sociological qualitative analysis of body-worn camera (BWC) video data of 17 cases of police operations. Methodologically, the study combines grounded theory and systematic video data analysis (VDA). The hypothesis-generating study examines interactions between officers and civilians, along with their situational outcomes, within the context of spatial contestations of the public and the private. Drawing o...&lt;/p&gt;</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Critical Criminology</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>What’s in a name? A policy review of the many approaches to police early intervention systems</title>
+      <link>https://doi.org/10.1108/pijpsm-03-2026-0081</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Benjamin Carleton &amp; Thomas Christoff&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Early intervention (EI) systems have been implemented in law enforcement agencies across the country as a tool for improving accountability, officer wellness, and overall data management. While the term “early intervention system” is commonly used within law enforcement, approaches and processes vary widely across agencies. This study categorizes the features of EI systems based on a sample of agency policies to demonstrate the range of characteristics. These results will enable future r...&lt;/p&gt;</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing An International Journal</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Place-Based Structural Disadvantage, Lethal Police Violence, and Adverse Birth Outcomes Among Black Birthing People</title>
+      <link>https://doi.org/10.1007/s11524-026-01131-w</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Emma A Blackson et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Urban Health&lt;br&gt;&lt;p&gt;Structural racism and lethal police violence shape community environments, particularly in urban and urban-adjacent contexts, and may influence reproductive health. While disparities in birth outcomes among Black populations are well documented, fewer studies have examined how these structural and state-linked exposures jointly pattern risk for adverse birth outcomes. Using 2020 National Center for Health Statistics natality data and Mapping Police Violence data (2015-2019), we analyzed associat...&lt;/p&gt;</description>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Journal of Urban Health</source>
       <priority>false</priority>
     </item>
     <item>
       <title>The relationship between officer misconduct and convictionless arrests</title>
       <link>https://doi.org/10.1073/pnas.2603437123</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ba et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Proceedings of the National Academy of Sciences&lt;br&gt;&lt;p&gt;This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department’s rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations in...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Bocar A. Ba et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Proceedings of the National Academy of Sciences&lt;br&gt;&lt;p&gt;This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department's rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations in...&lt;/p&gt;</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Proceedings of the National Academy of Sciences</source>
       <priority>false</priority>
     </item>
     <item>
+      <title>Fatal Police Pursuits and Neighborhood Opportunity-Interpreting and Acting on a Concentrated Harm.</title>
+      <link>https://doi.org/10.1001/jamanetworkopen.2026.30589</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Hannah S Laqueur&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; JAMA network open</description>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>JAMA network open</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Did the Police Killing of George Floyd Affect Adolescents’ Daily Well-being?</title>
+      <link>https://doi.org/10.1007/s10940-026-09686-2</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Nicolo P. Pinchak et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Quantitative Criminology&lt;br&gt;&lt;p&gt;Abstract Objectives The police killing of George Floyd on May 25, 2020, had widespread effects on American adults, and especially Black adults. Here, we investigate to what extent daily well-being of adolescents shifted systematically following the killing and assess heterogeneity at the intersection of gender and race. Methods We use a comparative interrupted time series design comparing within-person trends in daily fear, anger, emotional distress, and unsafety reported by a national sample of...&lt;/p&gt;</description>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Journal of Quantitative Criminology</source>
+      <priority>false</priority>
+    </item>
+    <item>
       <title>A national examination of firearm injuries described as “suicide by cop” among injurious shootings by police</title>
       <link>https://doi.org/10.1111/1745-9133.70031</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Fix et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminology &amp; Public Policy&lt;br&gt;&lt;p&gt;Abstract Research Summary “Suicide by cop” (SbC) incidents—police‐involved shootings wherein an individual experiencing a mental health crisis engages in life‐threatening behavior with an aim of eliciting a lethal response from police—represent a critical intersection of policy and practice, mental health, and public safety in the United States. This study analyzes police‐involved shootings described as “SbC” compared with other police shootings involving people with mental and behavioral health...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Rebecca L. Fix et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminology &amp; Public Policy&lt;br&gt;&lt;p&gt;Abstract Research Summary “Suicide by cop” (SbC) incidents—police‐involved shootings wherein an individual experiencing a mental health crisis engages in life‐threatening behavior with an aim of eliciting a lethal response from police—represent a critical intersection of policy and practice, mental health, and public safety in the United States. This study analyzes police‐involved shootings described as “SbC” compared with other police shootings involving people with mental and behavioral health...&lt;/p&gt;</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Criminology &amp; Public Policy</source>
       <priority>true</priority>
+    </item>
+    <item>
+      <title>Non-fatal firearm violence across 17 US cities using police dashboard data, 2020–2025</title>
+      <link>https://doi.org/10.1016/j.pmedr.2026.103587</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Maureen R. Benjamins et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Preventive Medicine Reports&lt;br&gt;&lt;p&gt;Objective: Non-fatal firearm violence is a substantial, but often overlooked, public health burden in the United States (US); however, local data infrastructure remains limited. We identified and summarized city-level public dashboards reporting non-fatal firearm violence. Methods: In this descriptive epidemiologic study, we searched for US cities with publicly available dashboards reporting local police-reported non-fatal firearm violence. We then compared violence counts, population-based rate...&lt;/p&gt;</description>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Preventive Medicine Reports</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Violence prevention and support interventions for sex workers</title>
+      <link>https://doi.org/10.1016/s2468-2667(25)00323-8</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Claire Broad et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; The Lancet Public Health&lt;br&gt;&lt;p&gt;Violence against sex workers can be substantial, with severe physical and mental health consequences. In this Series paper, we review the global evidence on violence prevention and support interventions by and for sex workers, and focus on violence reduction, mental health, and access to services. We found that peer-reviewed evidence focused on client-perpetrated violence, whereas non-peer-reviewed evidence focused on broader human rights abuses and police violence. The central involvement of se...&lt;/p&gt;</description>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>The Lancet Public Health</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Examining the relationship between bystander actions and police use of force during public arrests</title>
+      <link>https://doi.org/10.1108/pijpsm-12-2025-0274</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Marly van Bruchem et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Previous studies on policing have included the presence of bystanders as one of the factors that could explain police use of force, yet the findings of these studies are inconsistent. The actions of bystanders beyond their presence are, however, largely overlooked in this literature. The aim of the current study is to address this gap in the literature and investigate what bystanders of police arrests do and how their actions relate to police use of force. Design/methodology/approach We ...&lt;/p&gt;</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing An International Journal</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Implementing statewide use of force reform: perspectives from police executives</title>
+      <link>https://doi.org/10.1080/15614263.2026.2706595</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Gabrielle T. Isaza et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Police Practice and Research&lt;br&gt;&lt;p&gt;In December 2020, the New Jersey Office of the Attorney General (NJOAG) mandated sweeping reforms to statewide police use of force policy, training, and reporting. Although prior research suggests that police leaders play a crucial role in determining the success of efforts like the NJOAG’s Use of Force Reduction Initiative (the Initiative), few evaluations have examined executives’ perspectives. Addressing this gap, this study examines law enforcement executives’ perceptions of the development,...&lt;/p&gt;</description>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Police Practice and Research</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Reconceptualizing Polyvictimization: Integrating Self-Reported Victimization and Police Use of Force</title>
+      <link>https://doi.org/10.1177/08862605261455579</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ashley N. Jackson &amp; Lee Ann Slocum&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Interpersonal Violence&lt;br&gt;&lt;p&gt;Research on police violence (PV) narrowly defines it as physical force, disregarding its other forms, like psychological violence and neglect, and its co-occurrence with non-police victimization (NPV). This omission is important because of overlapping risk factors and potential compounding harm. Using the National Crime Victimization Survey and Police-Public Contact Survey, this study employs a more expansive definition that includes psychological and neglectful PV and assesses the overlap of th...&lt;/p&gt;</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Journal of Interpersonal Violence</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Contesting repression in divided democracies: Can counternarratives reduce support for police violence?</title>
+      <link>https://doi.org/10.1111/ajps.70073</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Yanilda María González &amp; Natán Skigin&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; American Journal of Political Science&lt;br&gt;&lt;p&gt;Abstract Democracies often struggle to contain police violence, which undermines the rule of law and reproduces inequality by targeting marginalized citizens. Yet, scholars have shown that repressive policing enjoys considerable public support. Focusing on Brazil, we demonstrate that attitudes toward police violence mirror polarization between left‐ and right‐wing voters, and investigate how competing narratives change attitudes toward police violence through multiple mechanisms. We argue that m...&lt;/p&gt;</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>American Journal of Political Science</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Racism and parent stress in the context of police violence</title>
+      <link>https://doi.org/10.1093/sf/soag101</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ann Meier et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Social Forces&lt;br&gt;&lt;p&gt;Abstract This project assessed parental stress in 2020 and 2021 during a period of racial trauma marked by high-profile, race-motivated murders of people of color. We leveraged the Contextual Model of Family Stress Re-Imaged to understand parents’ stress about children’s interactions with police in the context of racism. Findings indicate higher policing stress among Black parents. To measure racism, we assessed county-level racial segregation and socioeconomic privilege, respondents’ perception...&lt;/p&gt;</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Social Forces</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Restoring public trust in fragile-state policing: the roles of police professionalism, accountability, and citizen satisfaction in Mogadishu, Somalia</title>
+      <link>https://doi.org/10.1080/10439463.2026.2701955</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ahmed-Nor Mohamed Abdi et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;Public trust in the police is a vital element of law enforcement legitimacy, effective policing, and social stability, particularly in fragile and post-conflict contexts such as Mogadishu, Somalia. In Somalia, despite the police’s significant role in maintaining public order, there is low trust in the police. This study examined the joint influence of perceived police professionalism and perceived police accountability on public trust in police services through the underlying mechanism of citize...&lt;/p&gt;</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing &amp; Society</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Who Should Police the Police? Partisanship, Racial Attitudes, and Public Support for Civilian Oversight</title>
+      <link>https://doi.org/10.1177/08874034261458676</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Rachel Novick &amp; Mariah Robles&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminal Justice Policy Review&lt;br&gt;&lt;p&gt;There are more than 200 independent review boards tasked with investigating police misconduct in cities across the United States. As more cities consider the creation of these boards to address police misconduct, it is critical to understand public appetite for specific board components (e.g., subpoena power). This study examines support for individual components and tests the hypothesis that there are specific segments of the public who prefer civilian review boards with constrained powers, lim...&lt;/p&gt;</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Criminal Justice Policy Review</source>
+      <priority>false</priority>
     </item>
     <item>
       <title>Victim-blaming, tunnel vision, and the “hero woman officer”: the portrayal of police in American Nightmare (2024) and Unbelievable (2019)</title>
@@ -40,6 +184,96 @@
       <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Policing: An International Journal</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Does it still measure up? A gap analysis of the Police Integrity Scale in police whistleblowing research</title>
+      <link>https://doi.org/10.1080/10439463.2026.2699902</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Olivia Elizabeth Vere Taylor et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;The crisis of legitimacy in policing, driven by cases of police misconduct, has led to increased interest in the efficacy of police whistleblowing mechanisms. However, the evidence base for understanding officer whistleblowing rests predominantly on the Police Integrity Scale (PIS). This study presents a systematic interrogation of how this measure operationalises whistleblowing, and what conceptual constraints this imposes on the field. Through a structured gap analysis of 95 studies employing ...&lt;/p&gt;</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing &amp; Society</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Recognizing and reporting police misconduct across formal and informal pathways</title>
+      <link>https://doi.org/10.1108/pijpsm-01-2026-0020</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Zachary A. Powell &amp; Sishi Wu&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Law enforcement agencies rely on civilians to co-produce police accountability by acting as an external monitor for law enforcement conduct. Civilians participate in police accountability by submitting complaints to agencies, but may circumvent formal pathways and report the behavior to informal peers. This paper considers how civilian complaint behavior may contribute to a “dark figure” of police misconduct. Design/methodology/approach A survey was administered to a Census-matched group...&lt;/p&gt;</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing An International Journal</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Firearm ownership, Stand Your Ground laws, and the killing of police officers</title>
+      <link>https://doi.org/10.1080/0735648x.2026.2696849</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Jonathan Dirlam&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Crime and Justice&lt;br&gt;&lt;p&gt;This article examines structural factors, including firearm ownership rates and state gun laws, and their association with the killing of police officers (police homicides) in 170 large US cities from 1980 to 2010. The panel research design allows for both random-effects and fixed-effects estimation. In addition, the first difference-in-difference analysis of this homicide outcome is performed, which isolates treatment effects to illustrate how changes in state gun laws influence the killing of ...&lt;/p&gt;</description>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Journal of Crime and Justice</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Policing Black Youth</title>
+      <link>https://doi.org/10.1017/s1742058x26100174</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Kaneesha Johnson &amp; Tyler Whittenberg&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Du Bois Review Social Science Research on Race&lt;br&gt;&lt;p&gt;Abstract Policing has become a popular topic of inquiry in social science literature, but much of this attention has been confined to traditional forms of policing, focusing on state and municipal police departments or, in the case of schools, have focused on disciplinary policies. In seeking to expand the contours of what the scholarly community defines as police, we focus our attention on the origins of K-12 school policing. Specifically, using a multi-modal historical approach, we provide a h...&lt;/p&gt;</description>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Du Bois Review Social Science Research on Race</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Viewing police body-worn camera video of use-of-force incidents: Does repeated or slow-motion viewing matter?</title>
+      <link>https://doi.org/10.1037/lhb0000672</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; G. Dunn et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Law and Human Behavior&lt;br&gt;&lt;p&gt;OBJECTIVE: Determine if repeated or slow-motion viewing of body-worn camera videos of police use-of-force incidents influences viewers' assessments. HYPOTHESES: Participants are more likely to agree that officers' beliefs about danger in a situation were reasonable after repeated viewings and when a viewing is in slow motion. METHOD: = 304 and 299), participants, recruited using the online survey recruitment platform Prolific, viewed body-worn camera video footage of four actual police use-of-fo...&lt;/p&gt;</description>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Law and Human Behavior</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Assessing “Reasonable” Police Uses of Force After Barnes v. Felix : How Time Framing Affects Public Perceptions</title>
+      <link>https://doi.org/10.1177/10986111261462411</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Scott M. Mourtgos et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Police Quarterly&lt;br&gt;&lt;p&gt;Recent Supreme Court doctrine rejects a narrow “moment of threat” lens in favor of evaluating police use-of-force under the totality of the circumstances. Whether expanding the temporal frame changes how reasonableness and culpability are assigned remains unclear. We test this question using a nationally stratified experiment fielded the day Barnes v. Felix was decided (N = 2,401). Participants were randomly assigned to view one of three temporally distinct dashcam clips from the Barnes incident...&lt;/p&gt;</description>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Police Quarterly</source>
+      <priority>true</priority>
+    </item>
+    <item>
+      <title>Changes in social media coverage of police during the 2017 phoenix Trump rally</title>
+      <link>https://doi.org/10.1108/pijpsm-02-2026-0052</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; David Tyler &amp; Edward R. Maguire&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Social media provides a valuable framework for understanding public sentiment on social issues and institutions, including the police. This paper investigates changes in the salience of (i.e. the proportion of tweets referencing police) and sentiment toward the police during the 2017 Phoenix Trump rally, an event where police deployed less-lethal weapons against protesters, journalists and onlookers without warning. Design/methodology/approach Drawing on tweets posted during the rally, w...&lt;/p&gt;</description>
+      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing An International Journal</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Rethinking Public Support for Body-Worn Cameras: Race, Ethnicity, and Context</title>
+      <link>https://doi.org/10.1177/21533687261460876</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Jangwon Kim &amp; Bitna Kim&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Race and Justice&lt;br&gt;&lt;p&gt;This study revisits public support for the use of body-worn cameras (BWCs) in policing, with a specific focus on examining the multifaceted role of race and ethnicity. We test two models in which race and ethnicity shape attitudes toward BWCs by contextualizing two prominent factors: instrumental concern and procedural justice. Using a nationally representative sample of 3,306 U.S. adults, we examine the indirect effect of race and ethnicity through path analysis (generalized structural equation...&lt;/p&gt;</description>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Race and Justice</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Police Violence during Protests: Ideology and Public Beliefs about Misconduct</title>
+      <link>https://doi.org/10.1086/742746</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Christoph Steinert Valentin Steinert &amp; Kristine Eck&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; The Journal of Politics</description>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>The Journal of Politics</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Mapping the temporal evolution of causal effects in public administration and policy research</title>
+      <link>https://doi.org/10.1093/jopart/muag015</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; L Jason Anastasopoulos &amp; Inkyu Kang&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Public Administration Research and Theory&lt;br&gt;&lt;p&gt;Abstract Recent growth in the use of randomized and quasi-experiments in public administration and policy research has advanced the ability to establish cause-and-effect relationships. However, many studies adopt static conceptions of causality, focusing on snapshots or time-averaged effects while overlooking how the effects change over time. This oversight is problematic, as interventions of scholarly interest, such as leadership training or the adoption of new technologies, are likely to produ...&lt;/p&gt;</description>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Journal of Public Administration Research and Theory</source>
       <priority>false</priority>
     </item>
   </channel>

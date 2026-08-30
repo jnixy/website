@@ -14,15 +14,6 @@ This page automatically tracks news, research, and developments related to polic
 
 The news aggregator monitors multiple sources including law enforcement agencies, news outlets, civil rights organizations, investigative journalism, and academic research. Stories are automatically filtered for relevance to police use of deadly force.
 
-## Feed includes:
-
-* **Incidents**: Reports of police-involved shootings
-* **Investigations**: Department reviews, external investigations, and federal inquiries
-* **Accountability**: Disciplinary actions, policy changes, and reforms
-* **Legal proceedings**: Criminal charges, civil lawsuits, and court rulings
-* **Research & analysis**: Academic studies and data-driven reporting
-* **Community impact**: Public response and advocacy efforts
-
 **Subscribe**: [RSS Feed](/data/police-shooting-news.xml)
 
 {{% alert note %}}

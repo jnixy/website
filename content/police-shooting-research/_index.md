@@ -10,16 +10,7 @@ comments: false
 
 **Updated weekly** | [RSS Feed](/data/police-shooting-research.xml)
 
-This page tracks recent academic publications on police-involved shootings and use of deadly force. Articles are automatically gathered from academic databases including Crossref and PubMed, and restricted to a whitelist of criminology, public policy, sociology, and public-health journals.
-
-## Research areas covered:
-
-* **Incident patterns**: Frequency, circumstances, and trends in police shootings
-* **Racial disparities**: Demographic patterns in police use of deadly force
-* **Policy interventions**: Training, de-escalation, and reform effectiveness
-* **Legal outcomes**: Criminal prosecutions and civil litigation
-* **Public health**: Community impacts and trauma
-* **Officer behavior**: Decision-making and use-of-force determinants
+This page tracks recent academic publications on police-involved shootings and use of deadly force. Articles are automatically gathered each week from OpenAlex and PubMed, and restricted to a whitelist of criminology, public policy, sociology, and public-health journals.
 
 **Subscribe**: [RSS Feed](/data/police-shooting-research.xml)
 

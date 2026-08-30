@@ -5,12 +5,30 @@ Fetches recent academic publications about police shootings and writes both
 an RSS feed (static/data/police-shooting-research.xml) and a JSON sidecar
 (static/data/police-shooting-research.json) consumed by the shared NewsFeed
 front-end component (static/js/news-feed.js).
+
+Discovery sources:
+  - OpenAlex (primary) -- title/abstract search, reconstructable abstracts,
+    reliable publication dates. Free, no key; polite pool via mailto.
+  - PubMed E-utilities (backup) -- esearch + efetch for medical/public-health
+    coverage. efetch (not esummary) so abstracts come back populated.
+
+Crossref was removed: its `sort=published` query floated fake-future-dated
+books/chapters (e.g. [2050,4,21]) to the top of every result page, so real
+journal articles never survived to the filter stage. OpenAlex ingests the
+same Crossref metadata anyway.
+
+Usage:
+  python scripts/generate_police_shooting_research.py               # 180-day window
+  python scripts/generate_police_shooting_research.py --days-back 365
+  python scripts/generate_police_shooting_research.py --backfill     # ~3-year window (one-off)
 """
 
+import argparse
 import html
 import json
 import os
 import re
+import sys
 import time
 from datetime import datetime, timedelta
 
@@ -22,7 +40,10 @@ from xml.dom import minidom
 RSS_OUTPUT_FILE = 'static/data/police-shooting-research.xml'
 JSON_OUTPUT_FILE = 'static/data/police-shooting-research.json'
 DAYS_BACK = 180  # Check last 6 months (whitelisted journals publish less frequently on this topic)
+BACKFILL_DAYS = 1095  # ~3 years, used only for the one-off --backfill history seed
 REQUEST_TIMEOUT = 30
+OPENALEX_MAX_PAGES = 3  # per-query safety cap on cursor pagination (200 records/page)
+CONTACT_EMAIL = 'jnix@unomaha.edu'  # OpenAlex/Crossref polite-pool identity
 
 # The RSS feed is a short "what's new" subscription; the JSON file backs the
 # on-page feed and keeps a longer rolling history so a single quiet/failed
@@ -46,12 +67,13 @@ SEARCH_QUERIES = [
 ]
 
 # Journal whitelist - only articles from these journals are included in the feed.
-# Entries are matched case-insensitively with normalization (see is_whitelisted_journal).
-WHITELISTED_JOURNALS = [
+# One canonical spelling per journal: no leading "the", write "and" or "&"
+# however you like, punctuation optional -- normalize_journal_name() folds all
+# of those so incoming names from any source match regardless of house style.
+_WHITELISTED_JOURNALS_BASE = [
     # === CRIMINOLOGY / CRIMINAL JUSTICE ===
     'criminology',
     'criminology & public policy',
-    'criminology and public policy',
     'justice quarterly',
     'journal of criminal justice',
     'police quarterly',
@@ -59,50 +81,42 @@ WHITELISTED_JOURNALS = [
     'journal of quantitative criminology',
     'criminal justice and behavior',
     'crime & delinquency',
-    'crime and delinquency',
     'justice evaluation journal',
     'policing and society',
     'police practice & research',
-    'police practice and research',
     'law and society review',
-    'law & society review',
     'policing: an international journal',
     'policing: a journal of policy and practice',
     'journal of experimental criminology',
     'british journal of criminology',
-    'the british journal of criminology',
     'journal of criminal law and criminology',
-    'journal of criminal law & criminology',
     'journal of police and criminal psychology',
-    'journal of police & criminal psychology',
     'criminal justice policy review',
     'international journal of police science and management',
-    'international journal of police science & management',
     'law and human behavior',
-    'law & human behavior',
     'theoretical criminology',
     'journal of crime and justice',
-    'journal of crime & justice',
     'british journal of sociology',
-    'the british journal of sociology',
     'criminology and criminal justice',
-    'criminology & criminal justice',
     'journal of criminal justice education',
     'race and justice',
-    'race & justice',
+    'critical criminology',
+    'homicide studies',
+    'journal of criminology',
+    'deviant behavior',
+    'aggression and violent behavior',
+    'journal of ethnicity in criminal justice',
 
     # === PUBLIC POLICY ===
     'journal of policy analysis and management',
-    'journal of policy analysis & management',
     'public administration review',
     'journal of public administration research and theory',
-    'journal of public administration research & theory',
     'journal of politics',
-    'the journal of politics',
     'political research quarterly',
     'policy studies journal',
     'perspectives on politics',
     'annual review of criminology',
+    'health affairs',
 
     # === SOCIOLOGY / POLITICAL SCIENCE ===
     'american journal of sociology',
@@ -110,52 +124,57 @@ WHITELISTED_JOURNALS = [
     'american political science review',
     'american journal of political science',
     'social science & medicine',
-    'social science and medicine',
     'social science research',
     'social science quarterly',
     'social forces',
     'social problems',
+    'social currents',
+    'du bois review: social science research on race',
+    'city & community',
 
     # === PUBLIC HEALTH / MEDICAL ===
     'american journal of public health',
+    'american journal of preventive medicine',
     'injury prevention',
+    'injury epidemiology',
     'jama',
-    'the journal of the american medical association',
+    'jama network open',
+    'jama internal medicine',
+    'jama pediatrics',
+    'jama surgery',
     'new england journal of medicine',
-    'the new england journal of medicine',
     'the lancet',
-    'lancet',
+    'the lancet public health',
+    'the lancet regional health - americas',
     'bmj',
-    'the bmj',
-    'british medical journal',
+    'bmj open',
     'preventive medicine',
+    'preventive medicine reports',
     'epidemiology',
     'journal of urban health',
     'annals of internal medicine',
     'american journal of epidemiology',
-    'journal of trauma and acute care surgery',
-    'journal of trauma & acute care surgery',
-    'the lancet public health',
-    'lancet public health',
-    'bmj open',
     'annals of epidemiology',
+    'journal of trauma and acute care surgery',
     'journal of interpersonal violence',
+    'journal of racial and ethnic health disparities',
+    'ssm - population health',
+    'plos global public health',
+    'journal of public health',
 
     # === INTERDISCIPLINARY / GENERAL SCIENCE ===
     'plos one',
     'proceedings of the national academy of sciences',
-    'proceedings of the national academy of sciences of the united states of america',
-    'pnas',
+    'nature',
     'nature human behaviour',
     'science advances',
 ]
 
-# Flagship subset of the whitelist — articles from these get a "KEY JOURNAL"
+# Flagship subset of the whitelist -- articles from these get a "KEY JOURNAL"
 # priority badge on the front end (matches this project's own target journals).
-PRIORITY_JOURNALS = [
+_PRIORITY_JOURNALS_BASE = [
     'criminology',
     'criminology & public policy',
-    'criminology and public policy',
     'justice quarterly',
     'journal of criminal justice',
     'police quarterly',
@@ -164,12 +183,45 @@ PRIORITY_JOURNALS = [
 
 JATS_TAG_RE = re.compile(r'<[^>]+>')
 
+# PubMed publication types that mark an item as non-research (reviews included,
+# per the topical-tightening decision) -- any hit drops the record.
+PUBMED_EXCLUDE_TYPES = {
+    'Review', 'Systematic Review', 'Meta-Analysis', 'Editorial', 'Comment',
+    'News', 'Letter', 'Published Erratum', 'Retraction of Publication',
+    'Biography', 'Historical Article', 'Newspaper Article', 'Interview',
+}
+
+
+def normalize_journal_name(name):
+    """
+    Normalize a journal name for whitelist matching. Folds the cosmetic
+    differences between how OpenAlex, PubMed and Crossref render the same
+    title: case, a leading "The", "and" vs "&", punctuation, dash style,
+    and whitespace.
+    """
+    if not name:
+        return ''
+    name = name.lower().strip()
+    name = name.replace('&amp;', '&')
+    name = name.replace('–', '-').replace('—', '-')  # en/em dash -> hyphen
+    name = re.sub(r'\s*-\s*', ' - ', name)           # consistent spacing around hyphens
+    name = re.sub(r'\band\b', '&', name)             # "and" -> "&"
+    name = re.sub(r'[:.,]', '', name)                # drop separating punctuation
+    name = ' '.join(name.split())
+    if name.startswith('the '):
+        name = name[4:]
+    return name
+
+
+WHITELISTED_JOURNALS = {normalize_journal_name(j) for j in _WHITELISTED_JOURNALS_BASE}
+PRIORITY_JOURNALS = {normalize_journal_name(j) for j in _PRIORITY_JOURNALS_BASE}
+
 
 def strip_jats_markup(text):
     """
-    Crossref abstracts are often wrapped in JATS XML (<jats:p>, <jats:title>,
-    etc). Strip tags so raw markup doesn't leak into the RSS description /
-    get injected via innerHTML on the front end.
+    Crossref/OpenAlex abstracts are often wrapped in JATS XML (<jats:p>,
+    <jats:title>, etc). Strip tags so raw markup doesn't leak into the RSS
+    description / get injected via innerHTML on the front end.
     """
     if not text:
         return ''
@@ -177,42 +229,109 @@ def strip_jats_markup(text):
     return ' '.join(stripped.split())
 
 
-def fetch_crossref(query, days_back=DAYS_BACK):
+def reconstruct_abstract(inv_index):
     """
-    Fetch articles from Crossref API (free, no key required)
-    Docs: https://api.crossref.org
+    OpenAlex returns abstracts as an inverted index ({word: [positions...]})
+    rather than plain text. Rebuild the running text from it. Returns '' when
+    the index is missing -- some publishers (e.g. Elsevier) forbid abstract
+    redistribution, so a minority of records legitimately have none.
     """
-    url = 'https://api.crossref.org/works'
+    if not inv_index:
+        return ''
+    positions = []
+    for word, idxs in inv_index.items():
+        for i in idxs:
+            positions.append((i, word))
+    text = ' '.join(word for _, word in sorted(positions))
+    return strip_jats_markup(html.unescape(text))
+
+
+RETRY_MAX_WAIT = 60  # seconds -- a longer Retry-After means a real quota/outage; fail loud instead
+
+
+def get_with_retry(url, params=None, headers=None, max_attempts=4):
+    """
+    GET with exponential backoff on transient failures (429 rate-limit, 5xx,
+    connection errors). Honors a Retry-After header up to RETRY_MAX_WAIT; a
+    request to wait longer than that is a genuine quota exhaustion / outage, so
+    we re-raise immediately rather than sleep for hours. Re-raises the last
+    error after max_attempts so the caller can still fail loud.
+    """
+    for attempt in range(1, max_attempts + 1):
+        try:
+            response = requests.get(url, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
+            response.raise_for_status()
+            return response
+        except requests.RequestException as e:
+            retry_after = 0
+            resp = getattr(e, 'response', None)
+            if resp is not None:
+                try:
+                    retry_after = int(resp.headers.get('Retry-After', 0))
+                except (TypeError, ValueError):
+                    retry_after = 0
+            if attempt == max_attempts or retry_after > RETRY_MAX_WAIT:
+                raise
+            wait = min(max(retry_after, 2 ** attempt), RETRY_MAX_WAIT)
+            print(f"         transient fetch error ({e}); retry {attempt}/{max_attempts - 1} in {wait}s")
+            time.sleep(wait)
+
+
+def fetch_openalex(query, days_back=DAYS_BACK):
+    """
+    Fetch articles from OpenAlex (free, no key required; polite pool via mailto).
+    Docs: https://docs.openalex.org
+
+    Uses the title_and_abstract.search filter (topical match) plus a bounded
+    publication-date window. to_publication_date pins the upper bound so
+    fake-future-dated records can't slip in.
+    """
+    url = 'https://api.openalex.org/works'
 
     from_date = (datetime.now() - timedelta(days=days_back)).strftime('%Y-%m-%d')
+    to_date = datetime.now().strftime('%Y-%m-%d')
+
+    filters = ','.join([
+        f'from_publication_date:{from_date}',
+        f'to_publication_date:{to_date}',
+        'type:article',        # research articles only -- no reviews/editorials/paratext
+        'is_paratext:false',
+        f'title_and_abstract.search:{query}',
+    ])
 
     params = {
-        'query': query,
-        'filter': f'from-pub-date:{from_date}',
-        'select': 'title,DOI,URL,published,author,container-title,abstract,type',
-        'rows': 100,
-        'sort': 'published',
-        'order': 'desc'
+        'filter': filters,
+        'select': 'id,doi,title,display_name,publication_date,authorships,primary_location,abstract_inverted_index,type',
+        'per_page': 200,
+        'mailto': CONTACT_EMAIL,
+        'cursor': '*',
     }
 
-    headers = {
-        'User-Agent': 'PoliceShootingTracker/1.0 (https://jnix.netlify.app; mailto:jnix@unomaha.edu)'
-    }
-
-    try:
-        response = requests.get(url, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
-        response.raise_for_status()
+    results = []
+    for _ in range(OPENALEX_MAX_PAGES):
+        response = get_with_retry(url, params=params)
         data = response.json()
-        return data.get('message', {}).get('items', [])
-    except Exception as e:
-        print(f"Error fetching from Crossref: {e}")
-        return []
+
+        results.extend(data.get('results', []))
+
+        next_cursor = data.get('meta', {}).get('next_cursor')
+        if not next_cursor or not data.get('results'):
+            break
+        params['cursor'] = next_cursor
+        time.sleep(1)  # Be nice to the API between pages
+
+    return results
 
 
 def fetch_pubmed(query, days_back=DAYS_BACK):
     """
-    Fetch articles from PubMed (free, no key required for basic searches)
-    Good for public health and medical journals
+    Fetch articles from PubMed (free, no key required for basic searches).
+    Good for public health and medical journals.
+
+    esearch returns the PMID list; efetch (rettype=abstract, retmode=xml)
+    returns the full records *including abstracts* -- esummary does not, which
+    used to leave every PubMed article with a blank abstract and get it
+    silently dropped by is_relevant_article.
     """
     search_url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
 
@@ -229,38 +348,88 @@ def fetch_pubmed(query, days_back=DAYS_BACK):
         'sort': 'pub_date'
     }
 
-    try:
-        search_response = requests.get(search_url, params=search_params, timeout=REQUEST_TIMEOUT)
-        search_response.raise_for_status()
-        search_data = search_response.json()
+    search_response = get_with_retry(search_url, params=search_params)
+    id_list = search_response.json().get('esearchresult', {}).get('idlist', [])
 
-        id_list = search_data.get('esearchresult', {}).get('idlist', [])
-
-        if not id_list:
-            return []
-
-        fetch_url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi'
-        fetch_params = {
-            'db': 'pubmed',
-            'id': ','.join(id_list),
-            'retmode': 'json'
-        }
-
-        time.sleep(0.5)  # Be nice to NCBI servers
-
-        fetch_response = requests.get(fetch_url, params=fetch_params, timeout=REQUEST_TIMEOUT)
-        fetch_response.raise_for_status()
-        fetch_data = fetch_response.json()
-
-        articles = []
-        for uid in id_list:
-            if uid in fetch_data.get('result', {}):
-                articles.append(fetch_data['result'][uid])
-
-        return articles
-    except Exception as e:
-        print(f"Error fetching from PubMed: {e}")
+    if not id_list:
         return []
+
+    fetch_url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi'
+    fetch_params = {
+        'db': 'pubmed',
+        'id': ','.join(id_list),
+        'rettype': 'abstract',
+        'retmode': 'xml',
+    }
+
+    time.sleep(0.5)  # Be nice to NCBI servers
+
+    fetch_response = get_with_retry(fetch_url, params=fetch_params)
+
+    root = ET.fromstring(fetch_response.content)
+    articles = []
+    for art in root.findall('.//PubmedArticle'):
+        parsed = _parse_pubmed_xml(art)
+        if PUBMED_EXCLUDE_TYPES.intersection(parsed.pop('pub_types', ())):
+            continue
+        articles.append(parsed)
+    return articles
+
+
+def _parse_pubmed_xml(art):
+    """Flatten one <PubmedArticle> element into a plain dict for parse_pubmed_article()."""
+    def text_of(el):
+        return ''.join(el.itertext()).strip() if el is not None else ''
+
+    pmid = text_of(art.find('.//MedlineCitation/PMID'))
+    title = text_of(art.find('.//Article/ArticleTitle'))
+
+    abstract_parts = [text_of(node) for node in art.findall('.//Abstract/AbstractText')]
+    abstract = ' '.join(part for part in abstract_parts if part)
+
+    journal = text_of(art.find('.//Article/Journal/Title'))
+
+    pub_date_el = art.find('.//Article/Journal/JournalIssue/PubDate')
+    pubdate = ''
+    if pub_date_el is not None:
+        year = text_of(pub_date_el.find('Year'))
+        month = text_of(pub_date_el.find('Month'))
+        day = text_of(pub_date_el.find('Day'))
+        if year:
+            pubdate = ' '.join(p for p in (year, month, day) if p)
+        else:
+            pubdate = text_of(pub_date_el.find('MedlineDate'))
+
+    authors = []
+    for author in art.findall('.//Article/AuthorList/Author'):
+        collective = text_of(author.find('CollectiveName'))
+        if collective:
+            authors.append(collective)
+            continue
+        last = text_of(author.find('LastName'))
+        fore = text_of(author.find('ForeName'))
+        name = ' '.join(p for p in (fore, last) if p)
+        if name:
+            authors.append(name)
+
+    doi = ''
+    for el in art.findall('.//ELocationID[@EIdType="doi"]') + art.findall('.//ArticleId[@IdType="doi"]'):
+        if el.text:
+            doi = el.text.strip().lower()
+            break
+
+    pub_types = [text_of(pt) for pt in art.findall('.//PublicationTypeList/PublicationType')]
+
+    return {
+        'pmid': pmid,
+        'title': title,
+        'abstract': abstract,
+        'journal': journal,
+        'pubdate': pubdate,
+        'authors': authors,
+        'doi': doi,
+        'pub_types': pub_types,
+    }
 
 
 def is_relevant_article(title, abstract):
@@ -329,6 +498,66 @@ def is_relevant_article(title, abstract):
     if not has_force_terms:
         return False
 
+    # Topical gate: the article must be *about* police force/violence/oversight,
+    # not merely mention police and violence in separate breaths. Drops
+    # burden-of-disease reviews, victimization studies that only use police
+    # records as a data source, media-portrayal essays, etc.
+    core_topic_terms = [
+        'police shooting', 'police-involved shooting', 'police involved shooting',
+        'officer-involved shooting', 'officer involved shooting',
+        'shooting by police', 'shootings by police', 'shot by police',
+        'shot by an officer', 'shot by officers', 'police shot', 'police opened fire',
+        'police use of force', 'police uses of force', 'use of force by police',
+        'police use-of-force', 'use-of-force by police', 'officer use of force',
+        'police violence', 'police brutality', 'police aggression',
+        'police misconduct', 'officer misconduct', 'police wrongdoing',
+        'police accountability', 'police oversight', 'police discipline',
+        'disciplinary', 'civilian complaint', 'citizen complaint',
+        'early intervention system', 'early warning system',
+        'police killing', 'killed by police', 'killing by police', 'killings by police',
+        'police-caused', 'police caused', 'police homicide', 'police-related death',
+        'police related death', 'police-related fatalit', 'police-involved death',
+        'police involved death', 'died after police', 'death after police contact',
+        'fatal police', 'fatal encounter', 'fatal force', 'fatal shooting',
+        'fatal officer', 'fatally shot',
+        'deadly force', 'lethal force', 'terminal force', 'excessive force',
+        'unreasonable force', 'unjustified force', 'use of deadly force',
+        'use of lethal force',
+        'police pursuit', 'police chase', 'vehicular pursuit', 'vehicle pursuit',
+        'high-speed pursuit', 'high speed pursuit',
+        'police custody', 'in-custody death', 'in custody death',
+        'arrest-related death', 'arrest related death', 'deaths in custody',
+        'legal intervention',  # ICD / NVDRS cause-of-death term
+        'law enforcement homicide', 'law enforcement-related death',
+        'law enforcement related death', 'officer-involved',
+        'body-worn camera', 'body worn camera', 'body-cam', 'bodycam',
+        'less-lethal', 'less lethal', 'conducted energy', 'taser',
+        'chemical agent', 'police dog bite', 'canine bite',
+        'police firearm', 'firearm discharge by', 'discharge of a firearm by',
+        'shots fired by', 'weapon discharge by',
+        'assault on police', 'assaults on police', 'assaulted officer',
+        'attacks on police', 'attack on police', 'officers assaulted',
+        'officers feloniously', 'feloniously killed', 'line-of-duty death',
+        'line of duty death', 'officer fatalit', 'killing of police officer',
+        'killing of law enforcement', 'ambush of police',
+        'suicide by cop', 'suicide-by-cop',
+        'stop and frisk', 'stop-and-frisk', 'investigative stop', 'pedestrian stop',
+        'traffic stop',
+    ]
+
+    if not any(term in text for term in core_topic_terms):
+        return False
+
+    non_research_prefixes = (
+        'correction to', 'corrigendum', 'erratum', 'retraction',
+        'editorial:', 'editorial ', 'commentary on', 'comment on',
+        'reply to', 'response to', 'author response', 'in this issue',
+        'book review', 'review of the book', 'in memoriam', 'obituary',
+        'introduction to the special issue', 'guest editorial',
+    )
+    if title.lower().strip().startswith(non_research_prefixes):
+        return False
+
     exclude_terms = [
         # Physical science
         'atomic force microscopy', 'electrostatic force', 'magnetic force',
@@ -386,138 +615,106 @@ def is_relevant_article(title, abstract):
     return True
 
 
-def normalize_journal_name(name):
-    """Normalize a journal name for matching: lowercase, strip 'the', normalize ampersands."""
-    if not name:
-        return ''
-    name = name.lower().strip()
-    name = name.replace('&amp;', '&')
-    name = ' '.join(name.split())
-    return name
-
-
 def is_whitelisted_journal(source_name):
     """Check if article is from a whitelisted journal (normalized matching)."""
-    normalized = normalize_journal_name(source_name)
-    if not normalized:
-        return False
-    if normalized in WHITELISTED_JOURNALS:
-        return True
-    if normalized.startswith('the ') and normalized[4:] in WHITELISTED_JOURNALS:
-        return True
-    return False
+    return normalize_journal_name(source_name) in WHITELISTED_JOURNALS
 
 
 def is_priority_journal(source_name):
     """Check if article is from a flagship journal (gets the KEY JOURNAL badge)."""
-    normalized = normalize_journal_name(source_name)
-    if not normalized:
-        return False
-    if normalized in PRIORITY_JOURNALS:
-        return True
-    if normalized.startswith('the ') and normalized[4:] in PRIORITY_JOURNALS:
-        return True
-    return False
+    return normalize_journal_name(source_name) in PRIORITY_JOURNALS
 
 
-def format_authors(authors):
-    """Format author list for display"""
-    if not authors or len(authors) == 0:
+def format_name_list(names):
+    """Format a list of already-rendered author name strings (OpenAlex/PubMed)."""
+    names = [n for n in names if n]
+    if not names:
         return "Unknown Authors"
-
-    if len(authors) == 1:
-        author = authors[0]
-        return f"{author.get('family', 'Unknown')}, {author.get('given', '')}"
-
-    elif len(authors) == 2:
-        return f"{authors[0].get('family', 'Unknown')} & {authors[1].get('family', 'Unknown')}"
-
-    else:
-        return f"{authors[0].get('family', 'Unknown')} et al."
+    if len(names) == 1:
+        return names[0]
+    if len(names) == 2:
+        return f"{names[0]} & {names[1]}"
+    return f"{names[0]} et al."
 
 
-def parse_crossref_article(item):
-    """Parse Crossref article into this script's canonical story shape"""
-    # Crossref titles occasionally carry inline markup (e.g. <i> around a
-    # media title) plus stray whitespace/newlines — strip_jats_markup both
-    # strips tags and collapses whitespace, so it doubles as a title cleaner.
-    title = item.get('title', ['Untitled'])[0] if item.get('title') else 'Untitled'
-    title = strip_jats_markup(title) or 'Untitled'
+def format_openalex_authors(authorships):
+    """Pull display names out of an OpenAlex authorships list and format them."""
+    names = []
+    for a in authorships:
+        author = a.get('author') or {}
+        name = author.get('display_name')
+        if name:
+            names.append(name)
+    return format_name_list(names)
 
-    doi = item.get('DOI', '')
-    url = f"https://doi.org/{doi}" if doi else item.get('URL', '')
 
-    pub_date_parts = item.get('published', {}).get('date-parts', [[]])[0]
-    if pub_date_parts:
-        pub_date = datetime(pub_date_parts[0],
-                             pub_date_parts[1] if len(pub_date_parts) > 1 else 1,
-                             pub_date_parts[2] if len(pub_date_parts) > 2 else 1)
-    else:
+def parse_openalex_article(work):
+    """Parse an OpenAlex work into this script's canonical story shape."""
+    title = work.get('title') or work.get('display_name') or 'Untitled'
+    title = html.unescape(strip_jats_markup(title)) or 'Untitled'
+
+    doi = (work.get('doi') or '').replace('https://doi.org/', '').lower()
+    url = f"https://doi.org/{doi}" if doi else work.get('id', '')
+
+    try:
+        pub_date = datetime.strptime(work.get('publication_date', ''), '%Y-%m-%d')
+    except (ValueError, TypeError):
         pub_date = datetime.now()
 
-    journal = item.get('container-title', ['Unknown Journal'])[0] if item.get('container-title') else 'Unknown Journal'
-    authors = format_authors(item.get('author', []))
-    abstract = strip_jats_markup(item.get('abstract', ''))
-    article_type = item.get('type', 'journal-article')
-
-    # Crossref sometimes returns literal HTML entities (e.g. "&amp;") baked
-    # into title/journal text rather than the actual character. Unescape
-    # once here so the front end's HTML-escaping doesn't double-escape it.
-    title = html.unescape(title)
-    journal = html.unescape(journal)
-    authors = html.unescape(authors)
-    abstract = html.unescape(abstract)
+    source = ((work.get('primary_location') or {}).get('source')) or {}
+    journal = html.unescape(source.get('display_name') or 'Unknown Journal')
 
     return {
         'title': title,
         'url': url,
         'date': pub_date.strftime('%Y-%m-%dT%H:%M:%SZ'),
         'journal': journal,
-        'authors': authors,
-        'abstract': abstract,
-        'type': article_type,
+        'authors': format_openalex_authors(work.get('authorships', [])),
+        'abstract': reconstruct_abstract(work.get('abstract_inverted_index')),
+        'type': work.get('type', 'journal-article'),
         'doi': doi,
         'priority': is_priority_journal(journal),
     }
 
 
 def parse_pubmed_article(item):
-    """Parse PubMed article into this script's canonical story shape"""
-    title = html.unescape(item.get('title', 'Untitled'))
+    """Parse the flattened PubMed dict from _parse_pubmed_xml into the canonical shape."""
+    title = html.unescape(strip_jats_markup(item.get('title', ''))) or 'Untitled'
 
-    pmid = item.get('uid', '')
-    url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/" if pmid else ''
+    doi = item.get('doi', '')
+    pmid = item.get('pmid', '')
+    if doi:
+        url = f"https://doi.org/{doi}"
+    elif pmid:
+        url = f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+    else:
+        url = ''
 
-    pub_date_str = item.get('pubdate', '')
-    try:
-        pub_date = datetime.strptime(pub_date_str, '%Y %b %d')
-    except Exception:
-        pub_date = datetime.now()
+    raw_pubdate = (item.get('pubdate') or '').strip()
+    # PubMed PubDate comes in many shapes: "2026 Aug 15", "2026 Aug", "2026",
+    # "2026 08 15", or a MedlineDate like "2026 Jul-Aug". Take the year at least.
+    pub_date = None
+    for fmt in ('%Y %b %d', '%Y %b', '%Y %m %d', '%Y %m', '%Y'):
+        try:
+            pub_date = datetime.strptime(raw_pubdate, fmt)
+            break
+        except ValueError:
+            continue
+    if pub_date is None:
+        year_match = re.match(r'\s*(\d{4})', raw_pubdate)
+        pub_date = datetime(int(year_match.group(1)), 1, 1) if year_match else datetime.now()
 
-    journal = html.unescape(item.get('source', 'Unknown Journal'))
-
-    raw_authors = item.get('authors', [])
-    author_names = []
-    for a in raw_authors[:3]:
-        if isinstance(a, dict):
-            author_names.append(a.get('name', 'Unknown'))
-        else:
-            author_names.append(str(a))
-    authors = ', '.join(author_names)
-    if len(raw_authors) > 3:
-        authors += ' et al.'
+    journal = html.unescape(item.get('journal') or 'Unknown Journal')
 
     return {
         'title': title,
         'url': url,
         'date': pub_date.strftime('%Y-%m-%dT%H:%M:%SZ'),
         'journal': journal,
-        'authors': authors,
-        # PubMed's esummary endpoint doesn't return abstracts (would need
-        # efetch for that) — left blank, a known source limitation.
-        'abstract': '',
+        'authors': format_name_list(item.get('authors', [])),
+        'abstract': html.unescape(strip_jats_markup(item.get('abstract', ''))),
         'type': 'journal-article',
-        'doi': '',
+        'doi': doi,
         'priority': is_priority_journal(journal),
     }
 
@@ -536,16 +733,26 @@ def load_previous_stories(json_path):
         return []
 
 
+def _title_key(title):
+    """Loose title key for dedup: lowercase, strip accents of punctuation and
+    trailing periods so the same paper matches across OpenAlex/PubMed even when
+    one source keeps a trailing '.' or renders a subtitle colon differently."""
+    return re.sub(r'[^a-z0-9]+', ' ', (title or '').lower()).strip()
+
+
 def merge_stories(previous, new_stories):
     """Combine previous and newly-fetched stories, deduplicated by DOI/URL
-    (falling back to lowercase title), newest first."""
+    (falling back to a normalized title key), newest first. New stories are
+    considered first, so a fresher source (OpenAlex) wins over a stale
+    duplicate (e.g. a PubMed record with an entry-date masquerading as the
+    publication date)."""
     seen_keys = set()
     seen_titles = set()
     merged = []
 
     for story in list(new_stories) + list(previous):
         key = story.get('doi') or story.get('url', '')
-        title_key = (story.get('title') or '').lower()
+        title_key = _title_key(story.get('title'))
         if key and key in seen_keys:
             continue
         if title_key and title_key in seen_titles:
@@ -569,7 +776,7 @@ def create_rss_feed(stories):
     channel = ET.SubElement(rss, 'channel')
 
     title = ET.SubElement(channel, 'title')
-    title.text = 'U.S. Police Shooting Research Tracker'
+    title.text = 'Police Shooting Research Tracker'
 
     link = ET.SubElement(channel, 'link')
     link.text = 'https://jnix.netlify.app/police-shooting-research/'
@@ -629,55 +836,73 @@ def prettify_xml(elem):
     return reparsed.toprettyxml(indent='  ')
 
 
-def main():
-    """Main execution function"""
-    print("=" * 70)
-    print("Fetching police shooting research...")
-    print(f"Searching back {DAYS_BACK} days")
-    print("=" * 70)
-
+def collect_articles(days_back):
+    """Run every source against every query and return parsed (uncanonicalized-
+    filter) story dicts. Raises on any HTTP/parse failure so main() can fail loud."""
     all_articles = []
-    raw_count = 0
+    source_counts = {}
 
-    print("\n=== Searching Crossref ===")
+    print("\n=== Searching OpenAlex ===")
+    openalex_raw = 0
     for i, query in enumerate(SEARCH_QUERIES, 1):
         print(f"[{i}/{len(SEARCH_QUERIES)}] Query: {query}")
-        items = fetch_crossref(query)
-        raw_count += len(items)
+        items = fetch_openalex(query, days_back)
+        openalex_raw += len(items)
         print(f"         Found {len(items)} raw results")
-
         for item in items:
-            all_articles.append(parse_crossref_article(item))
-
-        time.sleep(1)  # Be nice to API
-
-    crossref_count = raw_count
+            all_articles.append(parse_openalex_article(item))
+        time.sleep(1)  # Be nice to the API
+    source_counts['OpenAlex'] = openalex_raw
 
     print("\n=== Searching PubMed ===")
+    pubmed_raw = 0
     for i, query in enumerate(SEARCH_QUERIES, 1):
         print(f"[{i}/{len(SEARCH_QUERIES)}] Query: {query}")
-        items = fetch_pubmed(query)
-        raw_count += len(items)
+        items = fetch_pubmed(query, days_back)
+        pubmed_raw += len(items)
         print(f"         Found {len(items)} raw results")
-
         for item in items:
             all_articles.append(parse_pubmed_article(item))
+        time.sleep(1)  # Be nice to the API
+    source_counts['PubMed'] = pubmed_raw
 
-        time.sleep(1)  # Be nice to API
+    return all_articles, source_counts
 
-    pubmed_count = raw_count - crossref_count
+
+def main():
+    """Main execution function"""
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--days-back', type=int, default=DAYS_BACK,
+                        help=f'Publication-date window in days (default: {DAYS_BACK})')
+    parser.add_argument('--backfill', action='store_true',
+                        help=f'One-off wide window ({BACKFILL_DAYS} days) to seed history')
+    args = parser.parse_args()
+
+    days_back = BACKFILL_DAYS if args.backfill else args.days_back
+
+    print("=" * 70)
+    print("Fetching police shooting research...")
+    print(f"Searching back {days_back} days" + (" [BACKFILL]" if args.backfill else ""))
+    print("=" * 70)
+
+    # Fail loud: a network/parse error must stop the run *before* any file
+    # write, so a transient outage can't overwrite the last good feed.
+    try:
+        all_articles, source_counts = collect_articles(days_back)
+    except (requests.RequestException, ET.ParseError) as e:
+        print(f"\nERROR: source fetch failed ({e}). Aborting without touching the feed files.")
+        sys.exit(1)
 
     print(f"\n{'=' * 70}")
     print("=== Filtering Results ===")
-    print(f"Total raw articles from Crossref: {crossref_count}")
-    print(f"Total raw articles from PubMed: {pubmed_count}")
+    for source, count in source_counts.items():
+        print(f"Total raw articles from {source}: {count}")
     print(f"Total articles before filtering: {len(all_articles)}")
 
     filtered_articles = [
         a for a in all_articles
         if is_relevant_article(a['title'], a.get('abstract', ''))
     ]
-
     print(f"Articles after relevance filtering: {len(filtered_articles)}")
 
     whitelisted_articles = [a for a in filtered_articles if is_whitelisted_journal(a['journal'])]
@@ -701,20 +926,28 @@ def main():
             print(f"  + {article['title'][:75]}...")
             print(f"    [{article['journal']}]")
 
-    # Dedupe within this run by title
+    # Dedupe within this run by DOI then normalized title (a paper can arrive
+    # from both OpenAlex and PubMed in the same run).
+    seen_dois = set()
     seen_titles = set()
     new_stories = []
     for article in whitelisted_articles:
-        title_lower = article['title'].lower()
-        if title_lower not in seen_titles:
-            seen_titles.add(title_lower)
-            new_stories.append(article)
+        doi = article.get('doi', '')
+        title_key = _title_key(article['title'])
+        if doi and doi in seen_dois:
+            continue
+        if title_key and title_key in seen_titles:
+            continue
+        if doi:
+            seen_dois.add(doi)
+        seen_titles.add(title_key)
+        new_stories.append(article)
 
     print(f"New stories this run (deduped): {len(new_stories)}")
 
     if len(new_stories) == 0:
         print("\nWARNING: No new articles found this run. Consider:")
-        print(f"  - Increasing DAYS_BACK (currently {DAYS_BACK})")
+        print(f"  - Increasing the search window (currently {days_back} days)")
         print("  - Adding more journals to WHITELISTED_JOURNALS")
         print("  - Adding more search queries")
         print("Falling back to previously published stories so the page isn't wiped.")
