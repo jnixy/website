@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2026 11:49:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:32:14 +0000</lastBuildDate>
+    <item>
+      <title>Brother of man fatally shot by ICE agent in Houston released after more than 50 days in custody</title>
+      <link>https://www.click2houston.com/news/local/2026/08/31/brother-of-man-fatally-shot-by-ice-agent-in-houston-released-after-more-than-50-days-in-custody/</link>
+      <description/>
+      <pubDate>Mon, 31 Aug 2026 04:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>click2houston.com</source>
+    </item>
     <item>
       <title>At least one Lathrop officer shoots gun on Pamela Court</title>
       <link>https://www.kcra.com/article/lathrop-shooting-pamela-court-chandra-way/73553343</link>
@@ -397,14 +405,6 @@
       <pubDate>Thu, 06 Aug 2026 13:00:00 +0000</pubDate>
       <category>incident</category>
       <source>gilmermirror.com</source>
-    </item>
-    <item>
-      <title>Witness describes calling police masked man with gun before officer shot | Shootings</title>
-      <link>https://www.reviewjournal.com/crime/shootings/he-had-the-gun-witness-who-called-police-before-officer-fatally-shot-gives-account-3859775/</link>
-      <description/>
-      <pubDate>Thu, 06 Aug 2026 00:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>reviewjournal.com</source>
     </item>
   </channel>
 </rss>
