@@ -10,3 +10,6 @@ update-cv.sh
 .vscode/
 content/publication/**/make_figure.R
 content/publication/**/parsed_pdfs/
+
+# Local-only working notes
+quality_reports/
