@@ -13,3 +13,11 @@ content/publication/**/parsed_pdfs/
 
 # Local-only working notes
 quality_reports/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Python virtualenv / secrets (dog shooting tracker dev)
+.venv/
+venv/
+.env

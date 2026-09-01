@@ -1,0 +1,40 @@
+name: "Dog shooting tracker — submit a missing incident"
+description: Tell us about a police shooting of a dog that isn't in the tracker.
+labels: ["dog-shooting-tracker", "missing-incident"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        In scope: a sworn law enforcement officer (police, sheriff/deputy, state, federal,
+        tribal, or campus) fired a gun at or toward a dog. Out of scope: animal-control
+        officers, civilians, non-firearm force, an officer's own K-9, and mercy killings of
+        wildlife or livestock.
+  - type: input
+    id: date
+    attributes:
+      label: Date of the incident
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: City and state
+    validations:
+      required: true
+  - type: input
+    id: agency
+    attributes:
+      label: Agency involved
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source links
+      description: One per line. News coverage, a lawsuit, body-camera release, or an official statement.
+    validations:
+      required: true

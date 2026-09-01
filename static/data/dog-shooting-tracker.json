@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-01T18:09:01Z",
+  "total_incidents": 0,
+  "total_sources": 0,
+  "date_range": {
+    "earliest": null,
+    "latest": null
+  },
+  "stats": {
+    "current_year": 2026,
+    "prior_year": 2025,
+    "current_year_to_date": 0,
+    "prior_year_same_point": 0,
+    "as_of_day_of_year": 244
+  },
+  "yearly_counts": [],
+  "outcome_breakdown": [],
+  "circumstance_breakdown": [],
+  "agency_type_breakdown": [],
+  "state_counts": [],
+  "human_injured_count": 0,
+  "recent_incidents": []
+}

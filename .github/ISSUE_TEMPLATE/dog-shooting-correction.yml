@@ -1,0 +1,34 @@
+name: "Dog shooting tracker — flag an error"
+description: Report an incorrect or out-of-scope record in the Police Shootings of Dogs tracker.
+labels: ["dog-shooting-tracker", "correction"]
+body:
+  - type: input
+    id: incident_id
+    attributes:
+      label: Incident ID
+      description: The `id` from the CSV, or the location/date if you're not sure.
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - Wrong facts (date, location, agency, outcome)
+        - Out of scope (not a sworn officer, not a firearm, not a dog, K-9/service dog, mercy killing)
+        - Duplicate of another record
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What should it say instead, and how do you know?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source link
+      description: A news article, court filing, or official record that supports the correction.

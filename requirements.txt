@@ -4,3 +4,9 @@ free-proxy
 httpx<0.28
 pandas
 openpyxl
+
+# Dog shooting tracker (scripts/generate_dog_shooting_tracker.py)
+anthropic>=0.40,<1
+trafilatura>=1.8
+feedparser>=6.0
+googlenewsdecoder>=0.1.7

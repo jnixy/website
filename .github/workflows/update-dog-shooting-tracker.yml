@@ -1,0 +1,74 @@
+name: Update Dog Shooting Tracker
+
+on:
+  # The daily cron stays OFF until the discovery queries are tuned and the
+  # classifier has been spot-checked against hand-labelled articles. Until then
+  # an unattended run would auto-commit unvetted rows to data/dog-shootings.csv.
+  # Re-enable by uncommenting the two lines below.
+  #
+  # schedule:
+  #   # Daily at 06:41 UTC -- an odd minute to dodge the top-of-hour scheduler
+  #   # backlog, and after the police-news job at 06:00.
+  #   - cron: '41 6 * * *'
+
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Discovery window in days'
+        required: false
+        default: '3'
+      limit:
+        description: 'Max new articles classified (cost guard)'
+        required: false
+        default: '25'
+      discover_only:
+        description: 'List candidate URLs and stop -- no LLM calls, writes nothing'
+        type: boolean
+        required: false
+        default: false
+      dry_run:
+        description: 'Classify but write no files (costs API credit, commits nothing)'
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  update-tracker:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Generate dog shooting tracker
+      env:
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        DAYS: ${{ github.event.inputs.days || '3' }}
+        LIMIT: ${{ github.event.inputs.limit || '25' }}
+        DISCOVER_ONLY: ${{ github.event.inputs.discover_only }}
+        DRY_RUN: ${{ github.event.inputs.dry_run }}
+      run: |
+        ARGS="--days $DAYS --limit $LIMIT"
+        if [ "$DISCOVER_ONLY" = "true" ]; then ARGS="$ARGS --discover-only"; fi
+        if [ "$DRY_RUN" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+        echo "Running: python scripts/generate_dog_shooting_tracker.py $ARGS"
+        python -u scripts/generate_dog_shooting_tracker.py $ARGS
+
+    - name: Commit and push if changes
+      # A discover-only or dry-run invocation writes nothing, so there is
+      # deliberately nothing to commit on those paths.
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add data/dog-shootings.csv data/dog-shootings-seen-urls.json static/data/dog-shooting-tracker.json static/data/dog-shootings.csv
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update dog shooting tracker [automated]" && git pull --rebase && git push)

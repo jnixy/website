@@ -49,6 +49,11 @@
   weight = 75
 
 [[main]]
+  name = "Dog Shootings"
+  url = "/dog-shooting-tracker/"
+  weight = 76
+
+[[main]]
   name = "Lab"
   url = "https://viprlab.org/"
   weight = 80
