@@ -91,6 +91,13 @@ Note that GDELT is unreachable from some university networks, so `--discover-onl
 run locally may return Google News results only; the CI run is the reliable test
 of the GDELT leg.
 
+GDELT is also unreliable *from GitHub Actions* — CI runs on 2026-09-01 saw ~half
+of all requests connect-timeout even on trivial single-phrase queries. The GDELT
+leg is therefore deliberately small (7 non-overlapping queries), short-timeout
+`(10, 30)`s, and only 2 retries, so a mostly-failing leg still finishes in a few
+minutes. Google News (fast, ~68% on-topic after the quoted-phrasing tuning) is
+the more dependable half; GDELT is additive recall, not the backbone.
+
 **Exit codes.** The script exits non-zero if any GDELT query failed all its
 retries (discovery was incomplete — re-run), or if validation fails. On a failed
 GDELT query the script still writes whatever it found; the CI commit step runs

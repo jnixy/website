@@ -71,10 +71,22 @@ DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
 DEDUPE_DATE_WINDOW_DAYS = 21
 MAX_DEDUPE_CANDIDATES = 20
-# Simple queries come back fast, so the long inter-query pause that was there to
-# be polite is no longer buying anything; the read timeout is what needs room.
-GDELT_PAUSE_SEC = 2
-GDELT_TIMEOUT_SEC = 45
+# GDELT is unreliable from the GitHub Actions IP range: CI runs on 2026-09-01
+# saw ~half of all requests connect-timeout even on trivial single-term queries
+# at a 45s timeout. Query *shape* is no longer the problem (that was the OR
+# groups); the endpoint itself is just slow/flaky from Actions. So the GDELT leg
+# is built to finish fast even when it is mostly failing: a short list of
+# non-overlapping queries, a smaller record cap (the server responds quicker for
+# 100 than 250), and a longer pause so a burst of failures backs off instead of
+# retrying into the same congestion.
+GDELT_PAUSE_SEC = 5
+# (connect, read). A *connect* timeout beyond ~10s is pointless — if GDELT has
+# not accepted the socket by then it is down for this request, not slow. Read
+# gets 30s for the JSON body. Successful CI queries returned in 2–25s, so this
+# only clips genuine failures.
+GDELT_TIMEOUT = (10, 30)
+GDELT_RETRIES = 2
+GDELT_MAX_RECORDS = 100
 GNEWS_PAUSE_SEC = 1
 
 # The CSV schema. Order matters — this is the on-disk column order.
@@ -119,30 +131,28 @@ CIRCUMSTANCES = [
     "noise complaint", "other", "unknown",
 ]
 
-# Discovery — GDELT DOC 2.0 API queries (ANDs terms; OR inside parens; quotes
-# for phrases). The LLM is the real relevance gate, so these are moderately
-# broad. `sourcecountry:US` is appended per query.
-# CI run #1 (2026-09-01) showed the shape of these matters more than the terms:
-# queries with a large parenthesised OR group time out server-side at 30s and
-# burn all three retries, while a quoted phrase plus one bare term returns fast
-# even when it finds nothing. `"shot a dog" (police OR deputy OR officer OR
-# trooper)` failed every attempt; `"shot the family dog"` returned instantly.
-# generate_police_shooting_news.py hits the same API daily without retries and
-# never fails -- all seven of its queries are bare terms. So: no OR groups.
+# Discovery — GDELT DOC 2.0 API queries (ANDs terms; quotes for phrases).
+# `sourcecountry:US` is appended per query. The LLM is the real relevance gate.
+#
+# CI run #1 (2026-09-01): a large parenthesised OR group times out server-side
+# and burns every retry — split into single phrases. CI run #2, same day, on the
+# split queries: GDELT still connect-timed-out on ~half of all requests, so the
+# list is also kept SHORT and non-overlapping to bound the leg's wall-clock when
+# it is mostly failing. Measured yields that run (14d window):
+#   "shot the dog" police  39   |  "officer shot" dog  38   <- the two producers
+#   "police shot" dog       5   |  "deputy shot" dog     5
+#   "shot the dog" deputy   1   |  "shot a dog" police   3   |  everything else 0
+# GDELT matches article *body* text, which is past tense, so the present-tense
+# "shoots" phrasings (0 hits here) live only in GOOGLE_NEWS_PHRASINGS, where the
+# match is against headlines.
 GDELT_QUERIES = [
-    '"shot the dog" police',
-    '"shot the dog" deputy',
-    '"shot a dog" police',
-    '"shot a dog" deputy',
-    '"shot my dog" police',
-    '"shot the family dog"',
-    '"police shot" dog',
-    '"deputy shot" dog',
-    '"officer shot" dog',
-    '"deputy shoots dog"',
-    '"officer shoots dog"',
-    '"opened fire" dog police',
-    'puppycide',
+    '"shot the dog" police',      # 39 — top producer
+    '"officer shot" dog',         # 38 — top producer
+    '"police shot" dog',          # 5  — distinct "police shot <X>" framing
+    '"deputy shot" dog',          # 5  — sheriff/deputy coverage
+    '"shot the family dog"',      # pet/home context, low volume but high precision
+    '"opened fire" dog police',   # 13 in run #1 — a different verb entirely
+    'puppycide',                  # term of art; GDELT corpus larger than GNews
 ]
 
 # Google News RSS — one narrow feed per phrasing; `when:Nd` limits recency.
@@ -256,7 +266,7 @@ def fetch_gdelt(query, days_back):
     """One GDELT DOC 2.0 query -> list of {title, url, source, date}.
 
     Returns None -- NOT an empty list -- when every attempt fails. A query that
-    genuinely matches nothing and a query that timed out three times are very
+    genuinely matches nothing and a query that timed out every retry are very
     different facts for a tracker whose whole claim is completeness, and the
     caller has to be able to tell them apart to report honestly.
     """
@@ -264,15 +274,15 @@ def fetch_gdelt(query, days_back):
     params = {
         "query": f"{query} sourcecountry:US",
         "mode": "artlist",
-        "maxrecords": 250,
+        "maxrecords": GDELT_MAX_RECORDS,
         "format": "json",
         "timespan": f"{days_back}d",
     }
-    for attempt in range(3):
+    for attempt in range(GDELT_RETRIES):
         try:
             resp = requests.get(
                 url, params=params, headers={"User-Agent": USER_AGENT},
-                timeout=GDELT_TIMEOUT_SEC,
+                timeout=GDELT_TIMEOUT,
             )
             if resp.status_code == 429:
                 time.sleep(10 * (attempt + 1))
