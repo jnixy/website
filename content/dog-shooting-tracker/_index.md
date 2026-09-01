@@ -11,7 +11,7 @@ comments: false
 A running record of incidents in which a sworn U.S. law enforcement officer discharged a firearm at or toward a dog — killed, wounded, or missed. It is built automatically from news coverage and updated daily.
 
 {{% alert note %}}
-No government agency tracks how often police shoot dogs. This tracker is assembled from news reports we monitor automatically, so every number here is a **floor, not a full count** — incidents in news deserts, or that were never reported, are missing. Earlier volunteer efforts — the [Puppycide Database Project](https://github.com/puppycidedatabaseproject/pdb-database) and a citizen-compiled [1998–2014 spreadsheet](https://archive.org/details/1998THRU2014DOGSSHOTBYPOLICE) — stopped years ago and used broader, less consistent definitions (all pets, and in some cases animals that were not dogs). See the notes below the charts for scope and limitations.
+No government agency tracks how often police shoot dogs. This tracker is assembled from news reports we monitor automatically, so these numbers represent a **floor, not a full count** — incidents in news deserts, or that were never reported, are missing. Earlier volunteer efforts — the [Puppycide Database Project](https://github.com/puppycidedatabaseproject/pdb-database) and a citizen-compiled [1998–2014 spreadsheet](https://archive.org/details/1998THRU2014DOGSSHOTBYPOLICE) — stopped years ago and used broader, less consistent definitions (all pets, and in some cases animals that were not dogs). See the notes below the charts for scope and limitations.
 {{% /alert %}}
 
 ---
