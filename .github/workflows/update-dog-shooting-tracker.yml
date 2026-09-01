@@ -66,11 +66,10 @@ jobs:
 
     - name: Commit and push if changes
       # A discover-only or dry-run invocation writes nothing, so there is
-      # deliberately nothing to commit on those paths.
-      # `always()`: the generate step exits non-zero when a GDELT query failed
-      # (incomplete discovery), but it still writes any incidents it did find —
-      # so commit them, then let the run stay red as the re-run signal.
-      if: always()
+      # deliberately nothing to commit on those paths. The generate step exits
+      # non-zero only on real failures (missing key, >50% classify errors,
+      # validation) — in which case nothing new was written and this is a no-op.
+      # GDELT failing does not fail the step (it is best-effort).
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"

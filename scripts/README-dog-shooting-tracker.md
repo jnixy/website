@@ -12,7 +12,7 @@ result and Netlify redeploys).
 
 | Stage | What happens |
 |---|---|
-| discover | GDELT DOC 2.0 API + Google News RSS, a fixed query list (`GDELT_QUERIES`, `GOOGLE_NEWS_PHRASINGS`). Blocked domains and already-seen URLs are dropped. Queries are single-phrase (no large `OR` groups — those time out server-side at GDELT and burn every retry). A query whose retries all fail is reported as `FAIL`, kept distinct from a genuine zero, and makes the run exit non-zero. |
+| discover | Google News RSS (`GOOGLE_NEWS_PHRASINGS`, the primary source) + GDELT DOC 2.0 API (`GDELT_QUERIES`, best-effort). Blocked domains, non-US TLDs, and already-seen URLs are dropped. Queries are single quoted phrases. A GDELT query whose retries all fail is logged `FAIL` and kept distinct from a genuine zero, but does **not** fail the run — GDELT is unreliable from GitHub Actions and Google News carries discovery. |
 | extract | Article body text via `trafilatura`. |
 | classify | One `claude-haiku-4-5` call per article (forced tool call). Returns `qualifies` plus structured fields. The system prompt (`CLASSIFY_SYSTEM`) encodes the scope below; `PROMPT_VERSION` is stamped on every row. `incident_date` is taken only from the article — never guessed — and dropped to empty if it is not a real `YYYY-MM-DD` (a wrong date silently breaks dedupe). Enum fields the model drifts on (e.g. `circumstance` "domestic call response") are coerced onto the allowed vocab, not rejected. |
 | dedupe | For a qualifying article, block existing rows by `state`, applying the 21-day `incident_date` window only when both rows have a firm day-precision date (so a video-page incident with no date in the body still gets compared). One `claude-haiku-4-5` call decides same-incident. A match appends the URL to the existing row's `additional_sources`; no new row. |
@@ -87,21 +87,20 @@ tab instead — `workflow_dispatch` takes `days`, `limit`, `discover_only`, and
 no-write classifier check (`dry_run`) without touching the dataset. Re-enable
 the `schedule:` block once precision is acceptable.
 
-Note that GDELT is unreachable from some university networks, so `--discover-only`
-run locally may return Google News results only; the CI run is the reliable test
-of the GDELT leg.
+**GDELT is unreliable from GitHub Actions** — runners share an IP pool that
+GDELT rate-limits, so CI runs on 2026-09-01 saw it 429 and connect-timeout on
+nearly every request (`generate_police_shooting_news.py` hits the same wall).
+The GDELT leg is deliberately small (7 non-overlapping queries, `(10, 30)`s
+timeout, 2 retries) so a mostly-failing leg still finishes in a few minutes, and
+its failure is logged but **does not fail the run**. Google News is the primary
+source. If Google-News-only breadth proves too thin after a few real runs, the
+fix is a GDELT proxy on a non-Actions IP (Val.town / Cloudflare Worker), not
+more retries. GDELT is also unreachable from some university networks, so a local
+`--discover-only` may return Google News only.
 
-GDELT is also unreliable *from GitHub Actions* — CI runs on 2026-09-01 saw ~half
-of all requests connect-timeout even on trivial single-phrase queries. The GDELT
-leg is therefore deliberately small (7 non-overlapping queries), short-timeout
-`(10, 30)`s, and only 2 retries, so a mostly-failing leg still finishes in a few
-minutes. Google News (fast, ~68% on-topic after the quoted-phrasing tuning) is
-the more dependable half; GDELT is additive recall, not the backbone.
-
-**Exit codes.** The script exits non-zero if any GDELT query failed all its
-retries (discovery was incomplete — re-run), or if validation fails. On a failed
-GDELT query the script still writes whatever it found; the CI commit step runs
-`if: always()` so those rows land, and the run stays red as the re-run signal.
+**Exit codes.** The script exits non-zero only on real failures: `ANTHROPIC_API_KEY`
+missing, >50% of classified articles erroring, or a validation problem. A GDELT
+outage is not one of these.
 
 ## Limitations
 

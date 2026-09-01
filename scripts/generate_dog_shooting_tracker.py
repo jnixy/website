@@ -6,13 +6,14 @@ There is no national, systematic tracking of police shootings of dogs. This
 script builds one from news coverage, using the same approach as Charles Fain
 Lehman's flock-crime-tracker (flockstopscrime.com):
 
-  1. discover  - GDELT DOC 2.0 API + Google News RSS, a fixed query list
+  1. discover  - Google News RSS (primary) + GDELT DOC 2.0 API (best-effort;
+                 unreliable from GitHub Actions, never fails the run)
   2. extract   - pull article body text with trafilatura
   3. classify  - one Claude (Haiku) call per article: does it describe a
                  sworn officer firing a gun at a dog? plus structured fields
   4. dedupe    - one Claude call to fold a new article into an existing
-                 incident (blocked by state + incident date) rather than
-                 creating a duplicate row
+                 incident (blocked by state, with a date window only when both
+                 rows have a firm date) rather than creating a duplicate row
   5. store     - append qualifying incidents to datasets/dog-shootings.csv
                  (the durable dataset; git history is the audit log)
   6. emit      - aggregates JSON for the dashboard page + a published CSV copy
@@ -194,17 +195,21 @@ def clean_incident_date(fields):
 # Discovery — GDELT DOC 2.0 API queries (ANDs terms; quotes for phrases).
 # `sourcecountry:US` is appended per query. The LLM is the real relevance gate.
 #
-# CI run #1 (2026-09-01): a large parenthesised OR group times out server-side
-# and burns every retry — split into single phrases. CI run #2, same day, on the
-# split queries: GDELT still connect-timed-out on ~half of all requests, so the
-# list is also kept SHORT and non-overlapping to bound the leg's wall-clock when
-# it is mostly failing. Measured yields that run (14d window):
+# BEST-EFFORT ONLY. GDELT is unreliable from GitHub Actions runners: three CI
+# runs on 2026-09-01 saw it connect-time-out and 429 on nearly every request
+# (shared runner IP pool -> GDELT's per-IP rate limiter). generate_police_
+# shooting_news.py hits the same wall. A GDELT failure does NOT fail the run;
+# Google News carries discovery. If Google-News-only breadth proves too thin,
+# the fix is a GDELT proxy on a non-Actions IP (Val.town / Cloudflare Worker),
+# not more retries here.
+#
+# The list is kept SHORT and non-overlapping so the leg's wall-clock stays
+# bounded when it is mostly failing. Measured yields, 2026-09-01, 14d window:
 #   "shot the dog" police  39   |  "officer shot" dog  38   <- the two producers
 #   "police shot" dog       5   |  "deputy shot" dog     5
 #   "shot the dog" deputy   1   |  "shot a dog" police   3   |  everything else 0
 # GDELT matches article *body* text, which is past tense, so the present-tense
-# "shoots" phrasings (0 hits here) live only in GOOGLE_NEWS_PHRASINGS, where the
-# match is against headlines.
+# "shoots" phrasings (0 hits here) live only in GOOGLE_NEWS_PHRASINGS.
 GDELT_QUERIES = [
     '"shot the dog" police',      # 39 — top producer
     '"officer shot" dog',         # 38 — top producer
@@ -229,7 +234,15 @@ GDELT_QUERIES = [
 # and killed" dog (returned an outlet's general feed), "shot by a police
 # officer" dog (0 relevant), and "puppycide" (0 hits on Google News — it is
 # kept in GDELT_QUERIES, where the corpus is larger).
+# GDELT is unreliable from GitHub Actions (see GDELT_QUERIES note), so Google
+# News is effectively the sole discovery source and this list has to carry the
+# breadth GDELT used to add. The first block is the 2026-09-01 probe set (hit /
+# on-topic counts from a 21-day window). The second block is unverified — added
+# to widen agency coverage (state police, generic "police"), verbs ("opened fire
+# on"), and the "family dog" pet-context signal — and should be pruned after the
+# next real run against its own yield.
 GOOGLE_NEWS_PHRASINGS = [
+    # -- verified 2026-09-01 --
     '"deputy shoots dog"',       # 9 hits, nearly all on-topic
     '"officer shoots dog"',      # 5 hits, 4 on-topic
     '"deputies shoot dog"',      # 1 hit, on-topic
@@ -240,6 +253,19 @@ GOOGLE_NEWS_PHRASINGS = [
     '"police shot a dog"',       # 2 hits, 1 on-topic
     '"deputy shot the dog"',     # 1 hit, on-topic
     '"dog shot by police"',      # 5 hits, ~3 on-topic
+    # -- unverified, added 2026-09-01 to replace GDELT breadth --
+    '"police shoot dog"',        # plural-verb headline form, "police" as agency
+    '"police shoot a dog"',
+    '"officer shoots a dog"',
+    '"trooper shoots dog"',      # state police — no coverage in the verified set
+    '"state trooper shoots dog"',
+    '"cop shoots dog"',          # common tabloid headline verb
+    '"shoots family dog"',       # "family dog" = strong pet/home-context signal
+    '"shot the family dog"',
+    '"dog shot by deputy"',      # mirrors the working "dog shot by police"
+    '"dog shot by officer"',
+    '"opened fire on the dog"',  # migrated from GDELT_QUERIES
+    '"shoots dog while"',        # parallel to the working "shoots dog during"
 ]
 
 # Country-code TLDs for the English-language markets whose police-and-dog
@@ -996,8 +1022,6 @@ def main():
             label = a.get("source") or _domain(a["url"])
             print(f"{a['date'][:10]}  {label[:28]:28s}  {a['title'][:90]}")
         print(f"\n{len(candidates)} candidates. (--discover-only: no classification, nothing written.)")
-        if failed_queries:
-            sys.exit(1)
         return
 
     candidates = candidates[: args.limit]
@@ -1006,13 +1030,6 @@ def main():
         if not args.dry_run:
             write_dashboard_json(incidents)
             publish_csv_copy()
-        if failed_queries:
-            print(
-                f"\nEXIT 1: {len(failed_queries)} GDELT query(ies) failed "
-                f"({failed_queries}) — 'no new candidates' is unreliable this run.",
-                file=sys.stderr,
-            )
-            sys.exit(1)
         return
 
     client = get_client()
@@ -1096,16 +1113,16 @@ def main():
     print(f"Dashboard: {data['total_incidents']} incidents, "
           f"{data['stats']['current_year_to_date']} YTD.")
 
-    # Files are already written above, so anything found this run is committed by
-    # the workflow's `if: always()` commit step — but exit non-zero so the run
-    # shows red and the maintainer knows to re-run: this pass under-collected.
+    # GDELT failing is NOT a run failure. It is unreliable from GitHub Actions
+    # runners (shared IP pool -> GDELT's per-IP rate limiter; confirmed failing
+    # for generate_police_shooting_news.py too, with 429s). It is best-effort
+    # additive recall on top of Google News, which is the dependable source.
+    # The `!! N/M GDELT queries FAILED` line from discover() is the record.
     if failed_queries:
         print(
-            f"\nEXIT 1: {len(failed_queries)} GDELT query(ies) failed this run "
-            f"({failed_queries}). Data written, but discovery was incomplete.",
-            file=sys.stderr,
+            f"\nnote: {len(failed_queries)}/{len(GDELT_QUERIES)} GDELT queries failed "
+            f"this run (best-effort source; Google News carried discovery)."
         )
-        sys.exit(1)
 
 
 if __name__ == "__main__":
