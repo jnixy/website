@@ -65,7 +65,7 @@ PUBLISHED_CSV = "static/data/dog-shootings.csv"
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-01"
+PROMPT_VERSION = "2026-09-01.2"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
@@ -130,6 +130,66 @@ CIRCUMSTANCES = [
     "loose/roaming dog", "unrelated call response", "pursuit", "domestic call",
     "noise complaint", "other", "unknown",
 ]
+DATE_PRECISIONS = ["day", "month", "approximate", "unknown"]
+
+# Every enum field, mapped to (allowed values, fallback). The classify tool
+# schema already carries these enums, but `strict` mode is off (SDK-version
+# compatibility — see requirements.txt), so the model can and does drift, e.g.
+# circumstance "domestic call response" (a blend of "domestic call" and
+# "unrelated call response"). Coerce rather than reject: a bad secondary field
+# should not sink an otherwise-good incident row.
+ENUM_FIELDS = {
+    "date_precision": (DATE_PRECISIONS, "unknown"),
+    "agency_type": (AGENCY_TYPES, "unknown"),
+    "on_duty": (["yes", "no", "unknown"], "unknown"),
+    "dog_outcome": (DOG_OUTCOMES, "unknown"),
+    "dog_restrained": (["yes", "no", "unknown"], "unknown"),
+    "circumstance": (CIRCUMSTANCES, "other"),
+    "warrant_type": (["search warrant", "arrest warrant", "no-knock", "none", "unknown"], "unknown"),
+    "human_injured_by_fire": (["yes", "no", "unknown"], "unknown"),
+    "litigation": (["none", "claim/suit filed", "settled", "verdict", "unknown"], "unknown"),
+    "confidence": (["high", "medium", "low"], "low"),
+}
+
+
+def coerce_enum(value, allowed, default):
+    """Map a model-supplied enum value onto the allowed set. Exact match wins;
+    then case-insensitive; then a single allowed value contained in a blended
+    response ("domestic call response" -> "domestic call"); else the default."""
+    v = (value or "").strip()
+    if v in allowed:
+        return v
+    lv = v.lower()
+    ci = [a for a in allowed if a.lower() == lv]
+    if ci:
+        return ci[0]
+    contained = [a for a in allowed if a not in ("unknown", "other", "none") and a.lower() in lv]
+    if len(contained) == 1:
+        print(f"  ! coerced enum {value!r} -> {contained[0]!r}")
+        return contained[0]
+    if v and lv not in ("unknown", ""):
+        print(f"  ! coerced unrecognised enum {value!r} -> {default!r}")
+    return default
+
+
+def clean_incident_date(fields):
+    """(incident_date, date_precision), taking a date ONLY if it is a real
+    YYYY-MM-DD. The model used to emit hallucinated dates and the literal string
+    'unknown'; a wrong date silently breaks dedupe, so anything non-parseable is
+    dropped to empty + precision 'unknown'."""
+    prec = coerce_enum(fields.get("date_precision"), DATE_PRECISIONS, "unknown")
+    raw = (fields.get("incident_date") or "").strip()
+    m = re.match(r"^\d{4}-\d{2}-\d{2}", raw)
+    if not m:
+        return "", "unknown"
+    iso = m.group(0)
+    try:
+        datetime.strptime(iso, "%Y-%m-%d")
+    except ValueError:
+        return "", "unknown"
+    if prec == "unknown":
+        prec = "day"
+    return iso, prec
 
 # Discovery — GDELT DOC 2.0 API queries (ANDs terms; quotes for phrases).
 # `sourcecountry:US` is appended per query. The LLM is the real relevance gate.
@@ -462,11 +522,11 @@ EXCLUDE (set qualifies=false) if ANY of these apply:
   - it is about policy, training, legislation, procurement, a lawsuit ruling with no described incident, an opinion/column, or aggregate statistics with no specific incident
   - it is a first-report of an unconfirmed claim with no identifiable agency or location
 
-Report fields ONLY from what the article states. If the article does not state a field, use "unknown" (or "" for officer_named / dog_breed_reported). Never infer from general knowledge or from the outlet's location.
+Report fields ONLY from what the article states. If the article does not state a field, use "unknown" for the enum fields and "" for the free-text fields (city, county, incident_date, officer_named, dog_breed_reported). Never infer from general knowledge or from the outlet's location.
 
 officer_named: give an individual officer's name ONLY if the article attributes it to an official record (a charging document, a lawsuit, a department statement/press release, or a disciplinary record). Otherwise leave it "".
 
-incident_date: the date the shooting happened (not the publication date), ISO YYYY-MM-DD. If only a month is known use the first of the month and set date_precision=month; if only approximate, estimate and set date_precision=approximate.
+incident_date: the date the shooting happened (NOT the publication date), as ISO YYYY-MM-DD, taken ONLY from the article. You MAY resolve a weekday given relative to publication ("on Tuesday", "last Friday"). If only the month is stated, use the first of that month with date_precision=month. If the article does NOT say when the shooting happened, leave incident_date EMPTY ("") and set date_precision=unknown. NEVER guess or estimate a day, month, or year the article does not give — a wrong date is worse than a blank one because it silently breaks incident de-duplication. Do not output the literal word "unknown" in incident_date; use "".
 
 summary: 1-2 neutral sentences. Attribute claims about the dog's behavior to their source ("officers said the dog charged").
 
@@ -483,8 +543,8 @@ CLASSIFY_TOOL = {
         "properties": {
             "qualifies": {"type": "boolean"},
             "reason": {"type": "string", "description": "one sentence: why it does or doesn't qualify"},
-            "incident_date": {"type": "string", "description": "YYYY-MM-DD or empty"},
-            "date_precision": {"type": "string", "enum": ["day", "month", "approximate", "unknown"]},
+            "incident_date": {"type": "string", "description": "YYYY-MM-DD from the article only; empty string if the article gives no incident date. Never guess."},
+            "date_precision": {"type": "string", "enum": DATE_PRECISIONS},
             "city": {"type": "string"},
             "county": {"type": "string"},
             "state": {"type": "string", "description": "2-letter USPS code or empty"},
@@ -571,16 +631,27 @@ def _within_window(d1, d2, days):
 
 
 def find_duplicate(client, new_row, existing_rows):
-    """Block by state + incident-date window, then ask the model. Returns the
-    matching id (int) or None."""
-    if not new_row.get("state") or not new_row.get("incident_date"):
+    """Block candidates, then ask the model. Returns the matching id or None.
+
+    Blocking is by state. The 21-day date window is applied ONLY when BOTH the
+    new row and the candidate have a firm day-precision date -- otherwise a
+    missing or fuzzy date (common: the most-covered incidents are video pages
+    with no date in the body) would wrongly exclude a true duplicate. The model
+    is the real adjudicator either way."""
+    if not new_row.get("state"):
         return None
-    candidates = [
-        r
-        for r in existing_rows
-        if r.get("state") == new_row["state"]
-        and _within_window(r.get("incident_date", ""), new_row["incident_date"], DEDUPE_DATE_WINDOW_DAYS)
-    ]
+    new_date = new_row.get("incident_date", "")
+    new_firm = bool(new_date) and new_row.get("date_precision") == "day"
+    candidates = []
+    for r in existing_rows:
+        if r.get("state") != new_row["state"]:
+            continue
+        r_firm = bool(r.get("incident_date")) and r.get("date_precision") == "day"
+        if new_firm and r_firm and not _within_window(
+            r["incident_date"], new_date, DEDUPE_DATE_WINDOW_DAYS
+        ):
+            continue
+        candidates.append(r)
     if not candidates:
         return None
     candidates.sort(key=lambda r: r.get("incident_date", ""), reverse=True)
@@ -589,8 +660,10 @@ def find_duplicate(client, new_row, existing_rows):
     def brief(r):
         return {
             "id": int(r["id"]),
-            "incident_date": r.get("incident_date", ""),
+            "incident_date": r.get("incident_date", "") or "(not stated)",
             "city": r.get("city", ""),
+            "county": r.get("county", ""),
+            "state": r.get("state", ""),
             "agency_name": r.get("agency_name", ""),
             "dog_outcome": r.get("dog_outcome", ""),
             "summary": r.get("summary", ""),
@@ -598,8 +671,10 @@ def find_duplicate(client, new_row, existing_rows):
 
     payload = {
         "new_incident": {
-            "incident_date": new_row["incident_date"],
+            "incident_date": new_row.get("incident_date", "") or "(not stated)",
             "city": new_row.get("city", ""),
+            "county": new_row.get("county", ""),
+            "state": new_row.get("state", ""),
             "agency_name": new_row.get("agency_name", ""),
             "dog_outcome": new_row.get("dog_outcome", ""),
             "summary": new_row.get("summary", ""),
@@ -608,9 +683,12 @@ def find_duplicate(client, new_row, existing_rows):
     }
     system = (
         "You decide whether a new dog-shooting incident is the SAME real-world event as one "
-        "already recorded. Same event = same shooting (same agency, same date within a few days, "
-        "same location, same dog). Merely similar incidents in the same area are NOT duplicates. "
-        "If unsure, it is NOT a duplicate."
+        "already recorded. Same event = the same shooting: same agency, same place, same dog, "
+        "and dates that agree (or one/both dates '(not stated)' -- a missing date is NOT evidence "
+        "the events differ; judge on agency, location, and the summary). Many outlets cover one "
+        "incident, so near-identical summaries from the same agency and city are the SAME event. "
+        "Merely similar incidents -- different city, or clearly different dates -- are NOT "
+        "duplicates. If genuinely unsure, it is NOT a duplicate."
     )
     try:
         resp = client.messages.create(
@@ -685,34 +763,39 @@ def next_id(rows):
 
 def make_row(fields, article, row_id):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    incident_date, date_precision = clean_incident_date(fields)
+    enums = {
+        f: coerce_enum(fields.get(f), allowed, default)
+        for f, (allowed, default) in ENUM_FIELDS.items()
+    }
     row = {k: "" for k in CSV_FIELDS}
     row.update(
         {
             "id": row_id,
             "date_added": today,
-            "incident_date": (fields.get("incident_date") or "").strip(),
-            "date_precision": fields.get("date_precision", "unknown"),
+            "incident_date": incident_date,
+            "date_precision": date_precision,
             "city": fields.get("city", "").strip(),
             "county": fields.get("county", "").strip(),
             "state": (fields.get("state") or "").strip().upper(),
             "agency_name": fields.get("agency_name", "").strip(),
-            "agency_type": fields.get("agency_type", "unknown"),
-            "on_duty": fields.get("on_duty", "unknown"),
+            "agency_type": enums["agency_type"],
+            "on_duty": enums["on_duty"],
             "officer_named": fields.get("officer_named", "").strip(),
             "dogs_fired_at": fields.get("dogs_fired_at", "") or "",
-            "dog_outcome": fields.get("dog_outcome", "unknown"),
+            "dog_outcome": enums["dog_outcome"],
             "dog_breed_reported": fields.get("dog_breed_reported", "").strip(),
-            "dog_restrained": fields.get("dog_restrained", "unknown"),
-            "circumstance": fields.get("circumstance", "unknown"),
-            "warrant_type": fields.get("warrant_type", "unknown"),
-            "human_injured_by_fire": fields.get("human_injured_by_fire", "unknown"),
+            "dog_restrained": enums["dog_restrained"],
+            "circumstance": enums["circumstance"],
+            "warrant_type": enums["warrant_type"],
+            "human_injured_by_fire": enums["human_injured_by_fire"],
             "dept_response": fields.get("dept_response", "").strip(),
-            "litigation": fields.get("litigation", "unknown"),
+            "litigation": enums["litigation"],
             "summary": fields.get("summary", "").strip(),
             "source_name": article.get("source", "") or _domain(article.get("url", "")),
             "source_url": article.get("url", ""),
             "additional_sources": "",
-            "confidence": fields.get("confidence", "low"),
+            "confidence": enums["confidence"],
             "prompt_version": PROMPT_VERSION,
         }
     )
