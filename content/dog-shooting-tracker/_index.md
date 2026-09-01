@@ -1,5 +1,5 @@
 ---
-title: "Police Shootings of Dogs Tracker"
+title: "Police Shootings of Dogs"
 summary: "A running, news-derived count of incidents in which U.S. law enforcement officers fired a gun at a dog"
 type: page
 reading_time: false
@@ -12,10 +12,6 @@ A running record of incidents in which a sworn U.S. law enforcement officer disc
 
 {{% alert note %}}
 No government agency tracks how often police shoot dogs. This tracker is assembled from news reports we monitor automatically, so every number here is a **floor, not a full count** — incidents in news deserts, or that were never reported, are missing. Earlier volunteer efforts — the [Puppycide Database Project](https://github.com/puppycidedatabaseproject/pdb-database) and a citizen-compiled [1998–2014 spreadsheet](https://archive.org/details/1998THRU2014DOGSSHOTBYPOLICE) — stopped years ago and used broader, less consistent definitions (all pets, and in some cases animals that were not dogs). See the notes below the charts for scope and limitations.
-{{% /alert %}}
-
-{{% alert note %}}
-Related pages: the [police shooting news tracker](/police-shooting-news/), the [research tracker](/police-shooting-research/), and the [fatal officer-involved shooting dashboard](/police-shooting-dashboard/).
 {{% /alert %}}
 
 ---
