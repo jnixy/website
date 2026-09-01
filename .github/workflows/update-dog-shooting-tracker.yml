@@ -3,7 +3,7 @@ name: Update Dog Shooting Tracker
 on:
   # The daily cron stays OFF until the discovery queries are tuned and the
   # classifier has been spot-checked against hand-labelled articles. Until then
-  # an unattended run would auto-commit unvetted rows to data/dog-shootings.csv.
+  # an unattended run would auto-commit unvetted rows to datasets/dog-shootings.csv.
   # Re-enable by uncommenting the two lines below.
   #
   # schedule:
@@ -67,8 +67,12 @@ jobs:
     - name: Commit and push if changes
       # A discover-only or dry-run invocation writes nothing, so there is
       # deliberately nothing to commit on those paths.
+      # `always()`: the generate step exits non-zero when a GDELT query failed
+      # (incomplete discovery), but it still writes any incidents it did find —
+      # so commit them, then let the run stay red as the re-run signal.
+      if: always()
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add data/dog-shootings.csv data/dog-shootings-seen-urls.json static/data/dog-shooting-tracker.json static/data/dog-shootings.csv
+        git add datasets/dog-shootings.csv datasets/dog-shootings-seen-urls.json static/data/dog-shooting-tracker.json static/data/dog-shootings.csv
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update dog shooting tracker [automated]" && git pull --rebase && git push)

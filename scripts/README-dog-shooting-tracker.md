@@ -12,11 +12,11 @@ result and Netlify redeploys).
 
 | Stage | What happens |
 |---|---|
-| discover | GDELT DOC 2.0 API + Google News RSS, a fixed query list (`GDELT_QUERIES`, `GOOGLE_NEWS_PHRASINGS`). Blocked domains and already-seen URLs are dropped. |
+| discover | GDELT DOC 2.0 API + Google News RSS, a fixed query list (`GDELT_QUERIES`, `GOOGLE_NEWS_PHRASINGS`). Blocked domains and already-seen URLs are dropped. Queries are single-phrase (no large `OR` groups — those time out server-side at GDELT and burn every retry). A query whose retries all fail is reported as `FAIL`, kept distinct from a genuine zero, and makes the run exit non-zero. |
 | extract | Article body text via `trafilatura`. |
 | classify | One `claude-haiku-4-5` call per article (forced tool call). Returns `qualifies` plus structured fields. The system prompt (`CLASSIFY_SYSTEM`) encodes the scope below; `PROMPT_VERSION` is stamped on every row. |
 | dedupe | For a qualifying article, block existing rows by `state` + `incident_date` within 21 days, then one `claude-haiku-4-5` call decides same-incident. A match appends the URL to the existing row's `additional_sources`; no new row. |
-| store | Append to `data/dog-shootings.csv`. Update `data/dog-shootings-seen-urls.json`. |
+| store | Append to `datasets/dog-shootings.csv`. Update `datasets/dog-shootings-seen-urls.json`. |
 | validate | Parse check, no future dates, enum vocab, no duplicate ids, no blocklisted source domains. Aborts the write if >50% of processed articles errored. |
 | emit | `static/data/dog-shooting-tracker.json` (aggregates + recent incidents) and `static/data/dog-shootings.csv` (published copy). |
 
@@ -33,7 +33,7 @@ service dog; mercy killings of injured wildlife or livestock; animals that were 
 dogs; and stories about policy, training, procurement, or litigation with no
 specific incident described.
 
-## Data schema (`data/dog-shootings.csv`)
+## Data schema (`datasets/dog-shootings.csv`)
 
 `id, date_added, incident_date, date_precision, city, county, state, agency_name,
 agency_type, on_duty, officer_named, dogs_fired_at, dog_outcome, dog_breed_reported,
@@ -53,7 +53,7 @@ prompt_version`
 
 ## Corrections
 
-Edit `data/dog-shootings.csv` directly and commit, or open a
+Edit `datasets/dog-shootings.csv` directly and commit, or open a
 [GitHub issue](https://github.com/jnixy/website/issues). Git history is the audit
 log. After editing the CSV, run `--rebuild-json` to refresh the dashboard.
 
@@ -90,6 +90,11 @@ the `schedule:` block once precision is acceptable.
 Note that GDELT is unreachable from some university networks, so `--discover-only`
 run locally may return Google News results only; the CI run is the reliable test
 of the GDELT leg.
+
+**Exit codes.** The script exits non-zero if any GDELT query failed all its
+retries (discovery was incomplete — re-run), or if validation fails. On a failed
+GDELT query the script still writes whatever it found; the CI commit step runs
+`if: always()` so those rows land, and the run stays red as the re-run signal.
 
 ## Limitations
 

@@ -13,13 +13,13 @@ Lehman's flock-crime-tracker (flockstopscrime.com):
   4. dedupe    - one Claude call to fold a new article into an existing
                  incident (blocked by state + incident date) rather than
                  creating a duplicate row
-  5. store     - append qualifying incidents to data/dog-shootings.csv
+  5. store     - append qualifying incidents to datasets/dog-shootings.csv
                  (the durable dataset; git history is the audit log)
   6. emit      - aggregates JSON for the dashboard page + a published CSV copy
 
 Outputs:
-  - data/dog-shootings.csv               -- incident dataset (source of truth)
-  - data/dog-shootings-seen-urls.json    -- URL-level dedup cache
+  - datasets/dog-shootings.csv           -- incident dataset (source of truth)
+  - datasets/dog-shootings-seen-urls.json -- URL-level dedup cache
   - static/data/dog-shooting-tracker.json -- aggregates for the dashboard
   - static/data/dog-shootings.csv        -- published copy (download)
 
@@ -54,8 +54,11 @@ import requests
 # 0. Configuration
 # --------------------------------------------------------------------------- #
 
-INCIDENTS_CSV = "data/dog-shootings.csv"
-SEEN_URLS_FILE = "data/dog-shootings-seen-urls.json"
+# NOT under data/ -- that is Hugo's reserved data directory, and Hugo tries to
+# parse every file in it as site data. A CSV there fails the build outright:
+# "unexpected data type [][]string in file dog-shootings.csv".
+INCIDENTS_CSV = "datasets/dog-shootings.csv"
+SEEN_URLS_FILE = "datasets/dog-shootings-seen-urls.json"
 DASHBOARD_JSON = "static/data/dog-shooting-tracker.json"
 PUBLISHED_CSV = "static/data/dog-shootings.csv"
 
@@ -68,7 +71,10 @@ DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
 DEDUPE_DATE_WINDOW_DAYS = 21
 MAX_DEDUPE_CANDIDATES = 20
-GDELT_PAUSE_SEC = 6
+# Simple queries come back fast, so the long inter-query pause that was there to
+# be polite is no longer buying anything; the read timeout is what needs room.
+GDELT_PAUSE_SEC = 2
+GDELT_TIMEOUT_SEC = 45
 GNEWS_PAUSE_SEC = 1
 
 # The CSV schema. Order matters — this is the on-disk column order.
@@ -116,16 +122,26 @@ CIRCUMSTANCES = [
 # Discovery — GDELT DOC 2.0 API queries (ANDs terms; OR inside parens; quotes
 # for phrases). The LLM is the real relevance gate, so these are moderately
 # broad. `sourcecountry:US` is appended per query.
+# CI run #1 (2026-09-01) showed the shape of these matters more than the terms:
+# queries with a large parenthesised OR group time out server-side at 30s and
+# burn all three retries, while a quoted phrase plus one bare term returns fast
+# even when it finds nothing. `"shot a dog" (police OR deputy OR officer OR
+# trooper)` failed every attempt; `"shot the family dog"` returned instantly.
+# generate_police_shooting_news.py hits the same API daily without retries and
+# never fails -- all seven of its queries are bare terms. So: no OR groups.
 GDELT_QUERIES = [
-    '"shot the dog" (police OR deputy OR officer OR trooper)',
-    '"shot a dog" (police OR deputy OR officer OR trooper)',
-    '"shot my dog" (police OR deputy OR officer)',
+    '"shot the dog" police',
+    '"shot the dog" deputy',
+    '"shot a dog" police',
+    '"shot a dog" deputy',
+    '"shot my dog" police',
     '"shot the family dog"',
-    '"police shot" (dog OR puppy OR "pit bull")',
-    '"deputy shot" (dog OR puppy OR "pit bull")',
-    '"officer shot" (dog OR puppy OR "pit bull")',
-    '"shot and killed" (dog OR puppy) (police OR deputy OR officer)',
-    '"opened fire" dog (police OR deputy OR officer)',
+    '"police shot" dog',
+    '"deputy shot" dog',
+    '"officer shot" dog',
+    '"deputy shoots dog"',
+    '"officer shoots dog"',
+    '"opened fire" dog police',
     'puppycide',
 ]
 
@@ -237,7 +253,13 @@ def parse_gdelt_date(gdelt_date):
 
 
 def fetch_gdelt(query, days_back):
-    """One GDELT DOC 2.0 query -> list of {title, url, source, date}."""
+    """One GDELT DOC 2.0 query -> list of {title, url, source, date}.
+
+    Returns None -- NOT an empty list -- when every attempt fails. A query that
+    genuinely matches nothing and a query that timed out three times are very
+    different facts for a tracker whose whole claim is completeness, and the
+    caller has to be able to tell them apart to report honestly.
+    """
     url = "https://api.gdeltproject.org/api/v2/doc/doc"
     params = {
         "query": f"{query} sourcecountry:US",
@@ -249,7 +271,8 @@ def fetch_gdelt(query, days_back):
     for attempt in range(3):
         try:
             resp = requests.get(
-                url, params=params, headers={"User-Agent": USER_AGENT}, timeout=30
+                url, params=params, headers={"User-Agent": USER_AGENT},
+                timeout=GDELT_TIMEOUT_SEC,
             )
             if resp.status_code == 429:
                 time.sleep(10 * (attempt + 1))
@@ -269,7 +292,7 @@ def fetch_gdelt(query, days_back):
         except Exception as e:  # noqa: BLE001 - a single bad query shouldn't kill the run
             print(f"  ! GDELT error for {query!r}: {e}")
             time.sleep(3)
-    return []
+    return None
 
 
 def fetch_google_news(phrasing, days_back):
@@ -341,12 +364,20 @@ def resolve_url(article):
 
 def discover(days_back, seen_urls):
     """Run every query, dedupe by URL, drop blocked domains and already-seen
-    URLs. Returns a list of candidate article dicts."""
+    URLs. Returns (candidates, failed_queries) — failed_queries lists the GDELT
+    queries whose every retry failed, which the caller must surface: a silent
+    under-collection is the one failure mode this tracker cannot tolerate."""
     candidates = {}
+    failed_queries = []
 
     print(f"GDELT ({len(GDELT_QUERIES)} queries, {days_back}d window)")
     for query in GDELT_QUERIES:
         articles = fetch_gdelt(query, days_back)
+        if articles is None:
+            failed_queries.append(query)
+            print(f"  FAIL  {query}   (all retries failed -- NOT a real zero)")
+            time.sleep(GDELT_PAUSE_SEC)
+            continue
         print(f"  {len(articles):4d}  {query}")
         for a in articles:
             candidates.setdefault(a["url"], a)
@@ -371,7 +402,12 @@ def discover(days_back, seen_urls):
     ]
     fresh.sort(key=lambda a: a["date"], reverse=True)
     print(f"\n{len(candidates)} unique URLs -> {len(fresh)} new, unblocked candidates")
-    return fresh
+    if failed_queries:
+        print(
+            f"\n!! {len(failed_queries)}/{len(GDELT_QUERIES)} GDELT queries FAILED "
+            f"(not empty results): {failed_queries}"
+        )
+    return fresh, failed_queries
 
 
 # --------------------------------------------------------------------------- #
@@ -857,7 +893,7 @@ def main():
     seen_urls = load_seen_urls()
     print(f"Loaded {len(incidents)} existing incidents, {len(seen_urls)} seen URLs.\n")
 
-    candidates = discover(args.days, seen_urls)
+    candidates, failed_queries = discover(args.days, seen_urls)
 
     if args.discover_only:
         print("\n--- candidates ---")
@@ -867,6 +903,8 @@ def main():
             label = a.get("source") or _domain(a["url"])
             print(f"{a['date'][:10]}  {label[:28]:28s}  {a['title'][:90]}")
         print(f"\n{len(candidates)} candidates. (--discover-only: no classification, nothing written.)")
+        if failed_queries:
+            sys.exit(1)
         return
 
     candidates = candidates[: args.limit]
@@ -875,6 +913,13 @@ def main():
         if not args.dry_run:
             write_dashboard_json(incidents)
             publish_csv_copy()
+        if failed_queries:
+            print(
+                f"\nEXIT 1: {len(failed_queries)} GDELT query(ies) failed "
+                f"({failed_queries}) — 'no new candidates' is unreliable this run.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
         return
 
     client = get_client()
@@ -957,6 +1002,17 @@ def main():
     print(f"\nWrote {INCIDENTS_CSV} ({len(incidents)} incidents), {DASHBOARD_JSON}, {PUBLISHED_CSV}.")
     print(f"Dashboard: {data['total_incidents']} incidents, "
           f"{data['stats']['current_year_to_date']} YTD.")
+
+    # Files are already written above, so anything found this run is committed by
+    # the workflow's `if: always()` commit step — but exit non-zero so the run
+    # shows red and the maintainer knows to re-run: this pass under-collected.
+    if failed_queries:
+        print(
+            f"\nEXIT 1: {len(failed_queries)} GDELT query(ies) failed this run "
+            f"({failed_queries}). Data written, but discovery was incomplete.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
 
 if __name__ == "__main__":
