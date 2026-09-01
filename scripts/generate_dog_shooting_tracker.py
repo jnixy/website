@@ -825,6 +825,16 @@ def next_id(rows):
     return max((int(r["id"]) for r in rows), default=0) + 1
 
 
+def _freetext(value):
+    """Free-text field, with the model's placeholder strings scrubbed to "".
+    The model sometimes writes 'unknown', 'n/a', '<UNKNOWN>' etc. into city /
+    county / agency_name where the schema wants a blank."""
+    v = (value or "").strip()
+    if v.lower().strip("<>[]() ") in ("", "unknown", "n/a", "na", "none", "not stated", "not specified", "not available"):
+        return ""
+    return v
+
+
 def make_row(fields, article, row_id):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     incident_date, date_precision = clean_incident_date(fields, article.get("date", ""))
@@ -839,16 +849,16 @@ def make_row(fields, article, row_id):
             "date_added": today,
             "incident_date": incident_date,
             "date_precision": date_precision,
-            "city": fields.get("city", "").strip(),
-            "county": fields.get("county", "").strip(),
+            "city": _freetext(fields.get("city")),
+            "county": _freetext(fields.get("county")),
             "state": (fields.get("state") or "").strip().upper(),
-            "agency_name": fields.get("agency_name", "").strip(),
+            "agency_name": _freetext(fields.get("agency_name")),
             "agency_type": enums["agency_type"],
             "on_duty": enums["on_duty"],
-            "officer_named": fields.get("officer_named", "").strip(),
-            "dogs_fired_at": fields.get("dogs_fired_at", "") or "",
+            "officer_named": _freetext(fields.get("officer_named")),
+            "dogs_fired_at": str(fields["dogs_fired_at"]) if str(fields.get("dogs_fired_at", "")).strip().isdigit() else "",
             "dog_outcome": enums["dog_outcome"],
-            "dog_breed_reported": fields.get("dog_breed_reported", "").strip(),
+            "dog_breed_reported": _freetext(fields.get("dog_breed_reported")),
             "dog_restrained": enums["dog_restrained"],
             "circumstance": enums["circumstance"],
             "warrant_type": enums["warrant_type"],
