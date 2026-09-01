@@ -621,9 +621,12 @@ HEADLINE_ONLY_NOTE = (
     "qualifies=true ONLY if the headline itself unambiguously states that a "
     "sworn law-enforcement officer fired a gun at a dog (e.g. \"Sheriff's "
     "deputy shoots dog during arrest\"). If the headline is ambiguous about the "
-    "shooter, the weapon, or the animal, set qualifies=false. Set confidence=low "
-    "and leave every field you cannot determine from the headline as "
-    "unknown/empty, including incident_date."
+    "shooter, the weapon, or the animal, set qualifies=false. Set confidence=low. "
+    "Leave every field you cannot determine as unknown/empty, including "
+    "incident_date. EXCEPTION: if the headline or URL names a city, neighbourhood, "
+    "or region, set `state` to that place's USPS state code (this is geography, "
+    "not a claim about the incident) -- e.g. \"Charlotte\" -> NC, \"Sunland Park\" "
+    "/ \"Green Meadows\" (Los Angeles) -> CA."
 )
 
 
@@ -675,14 +678,20 @@ def find_duplicate(client, new_row, existing_rows):
     """Block candidates by state, then ask the model. Returns the matching id or
     None.
 
-    Blocking is by state ONLY -- no date window. Model-supplied dates are not
-    trustworthy enough to gate on: a fabricated date on one copy of an incident
-    would put it outside the window from the real-dated copy and split one event
-    into several rows (observed exactly that with the Sunland Park incident).
-    The LLM adjudicates every same-state pair; MAX_DEDUPE_CANDIDATES caps cost."""
-    if not new_row.get("state"):
+    Blocking is by state (falling back to city when the row has no state -- a
+    headline-only row often does not) -- no date window. Model-supplied dates
+    are not trustworthy enough to gate on: a fabricated date on one copy of an
+    incident would put it outside the window from the real-dated copy and split
+    one event into several rows (observed with the Sunland Park incident). The
+    LLM adjudicates every blocked pair; MAX_DEDUPE_CANDIDATES caps cost."""
+    st = (new_row.get("state") or "").strip()
+    city = (new_row.get("city") or "").strip().lower()
+    if st:
+        candidates = [r for r in existing_rows if r.get("state") == st]
+    elif city:
+        candidates = [r for r in existing_rows if (r.get("city") or "").strip().lower() == city]
+    else:
         return None
-    candidates = [r for r in existing_rows if r.get("state") == new_row["state"]]
     if not candidates:
         return None
     candidates.sort(key=lambda r: r.get("incident_date", ""), reverse=True)
@@ -714,12 +723,14 @@ def find_duplicate(client, new_row, existing_rows):
     }
     system = (
         "You decide whether a new dog-shooting incident is the SAME real-world event as one "
-        "already recorded. Same event = the same shooting: same agency, same place, same dog, "
-        "and dates that agree (or one/both dates '(not stated)' -- a missing date is NOT evidence "
-        "the events differ; judge on agency, location, and the summary). Many outlets cover one "
-        "incident, so near-identical summaries from the same agency and city are the SAME event. "
-        "Merely similar incidents -- different city, or clearly different dates -- are NOT "
-        "duplicates. If genuinely unsure, it is NOT a duplicate."
+        "already recorded. Judge ONLY on: same agency (or one unstated), same city/area, same "
+        "rough time, and the same basic event (an officer shot a dog in comparable circumstances). "
+        "Detail fields routinely DISAGREE between outlets covering one incident -- dog_outcome "
+        "(killed vs injured vs unknown), breed, exact date, officer count -- and such disagreement "
+        "is NOT evidence of different events. A missing date or agency is NOT evidence either. "
+        "Many outlets cover one incident, so near-identical summaries from the same agency and "
+        "area are the SAME event even when the wording and details differ. Only a clearly "
+        "DIFFERENT city or a clearly different date makes it a separate incident."
     )
     try:
         resp = client.messages.create(
@@ -1077,8 +1088,8 @@ def main():
         if not fields.get("qualifies"):
             print(f"  no  — {fields.get('reason', '')[:80]}")
             continue
-        if not any((fields.get(k) or "").strip() for k in ("state", "city", "agency_name")):
-            print(f"  skip (too thin: no state/city/agency)  {a['title'][:60]}")
+        if not (fields.get("state") or "").strip():
+            print(f"  skip (no state -- unplaceable)  {a['title'][:60]}")
             continue
 
         row = make_row(fields, a, next_id(incidents))
