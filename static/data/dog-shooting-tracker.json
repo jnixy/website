@@ -1,200 +1,23 @@
 {
-  "generated_at": "2026-09-01T23:56:38Z",
-  "total_incidents": 8,
-  "total_sources": 23,
+  "generated_at": "2026-09-01T23:57:17Z",
+  "total_incidents": 0,
+  "total_sources": 0,
   "date_range": {
-    "earliest": "2026-08-13",
-    "latest": "2026-08-28"
+    "earliest": null,
+    "latest": null
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 5,
+    "current_year_to_date": 0,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 244
   },
-  "yearly_counts": [
-    {
-      "year": 2026,
-      "count": 5
-    }
-  ],
-  "outcome_breakdown": [
-    {
-      "label": "unknown",
-      "count": 3
-    },
-    {
-      "label": "killed",
-      "count": 3
-    },
-    {
-      "label": "injured-survived",
-      "count": 2
-    }
-  ],
-  "circumstance_breakdown": [
-    {
-      "label": "domestic call",
-      "count": 2
-    },
-    {
-      "label": "loose/roaming dog",
-      "count": 2
-    },
-    {
-      "label": "other",
-      "count": 2
-    },
-    {
-      "label": "warrant service",
-      "count": 1
-    },
-    {
-      "label": "unrelated call response",
-      "count": 1
-    }
-  ],
-  "agency_type_breakdown": [
-    {
-      "label": "municipal PD",
-      "count": 3
-    },
-    {
-      "label": "county SO",
-      "count": 3
-    },
-    {
-      "label": "unknown",
-      "count": 2
-    }
-  ],
-  "state_counts": [
-    {
-      "state": "CA",
-      "name": "California",
-      "count": 3
-    },
-    {
-      "state": "NC",
-      "name": "North Carolina",
-      "count": 1
-    },
-    {
-      "state": "FL",
-      "name": "Florida",
-      "count": 1
-    },
-    {
-      "state": "TX",
-      "name": "Texas",
-      "count": 1
-    },
-    {
-      "state": "PA",
-      "name": "Pennsylvania",
-      "count": 1
-    },
-    {
-      "state": "ID",
-      "name": "Idaho",
-      "count": 1
-    }
-  ],
+  "yearly_counts": [],
+  "outcome_breakdown": [],
+  "circumstance_breakdown": [],
+  "agency_type_breakdown": [],
+  "state_counts": [],
   "human_injured_count": 0,
-  "recent_incidents": [
-    {
-      "incident_date": "2026-08-28",
-      "date_precision": "day",
-      "city": "Los Angeles",
-      "state": "CA",
-      "agency_name": "Los Angeles Police Department",
-      "circumstance": "domestic call",
-      "dog_outcome": "unknown",
-      "human_injured_by_fire": "unknown",
-      "summary": "Officers responded to a domestic incident call in Los Angeles on Thursday morning. As they returned to their vehicle, three unrestrained dogs charged at them from a nearby property; one dog attacked and bit an officer on the leg, prompting an officer-involved animal shooting. The dog was transported to a facility for treatment by animal control.",
-      "source_url": "https://patch.com/california/los-angeles/police-shoot-dog-who-attacked-officer-los-angeles",
-      "source_name": "Patch",
-      "additional_sources": [
-        "https://www.yahoo.com/news/articles/officer-shoots-dog-being-attacked-193217024.html",
-        "https://mynewsla.com/crime/2026/08/29/lapd-shoots-dog-who-attacked-officer-in-green-meadows/",
-        "https://www.yahoo.com/news/videos/lapd-officer-shoots-dog-being-232600059.html"
-      ],
-      "confidence": "high"
-    },
-    {
-      "incident_date": "2026-08-21",
-      "date_precision": "day",
-      "city": "Los Angeles",
-      "state": "CA",
-      "agency_name": "Los Angeles Police Department",
-      "circumstance": "domestic call",
-      "dog_outcome": "unknown",
-      "human_injured_by_fire": "unknown",
-      "summary": "LAPD officers responded to a domestic incident call on East 111th Place and Towne Avenue on Thursday morning. An unidentified dog attacked and bit one of the officers; the officer then shot the dog, but the animal's condition was not disclosed.",
-      "source_url": "https://mynewsla.com/crime/2026/08/27/lapd-shoots-dog-that-attacked-officer-in-green-meadows/",
-      "source_name": "MyNewsLA.com",
-      "additional_sources": [],
-      "confidence": "medium"
-    },
-    {
-      "incident_date": "2026-08-21",
-      "date_precision": "day",
-      "city": "Sunland Park",
-      "state": "CA",
-      "agency_name": "Los Angeles County Sheriff's Department",
-      "circumstance": "other",
-      "dog_outcome": "injured-survived",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Los Angeles County Sheriff's deputy shot a pit bull during the arrest of a grand theft suspect near Sunland Park Recreation Center on Thursday afternoon after the dog attacked deputies and a Taser failed to stop it. The dog survived and was transported to a veterinary hospital for treatment.",
-      "source_url": "https://hoodline.com/2026/08/sunland-park-foot-chase-ends-with-deputy-shooting-suspect-s-pit-bull/",
-      "source_name": "Hoodline",
-      "additional_sources": [
-        "https://abc7.com/post/la-county-sheriffs-deputies-shoot-dog-during-foot-pursuit-theft-suspect-sunland/19715244/",
-        "https://www.dailynews.com/2026/08/20/at-least-1-deputy-shoots-pit-bull-during-arrest-near-sunland-park/",
-        "https://www.cbsnews.com/losangeles/video/la-county-deputy-shoots-dog-while-arresting-grand-theft-suspect-in-sunland-park/",
-        "https://www.nbclosangeles.com/news/local/sunland-deputy-dog-shooting-investigation/3931913/",
-        "https://www.cbsnews.com/losangeles/news/la-county-deputy-shoots-dog-while-arresting-grand-theft-suspect-at-park/",
-        "https://www.nbclosangeles.com/video/news/local/deputy-shoots-dog-sunland/3931932/",
-        "https://www.yahoo.com/news/videos/la-county-deputy-shoots-dog-232500958.html",
-        "https://ktla.com/news/local-news/deputy-shoots-pit-bull-sunland-recreation-center/"
-      ],
-      "confidence": "high"
-    },
-    {
-      "incident_date": "2026-08-13",
-      "date_precision": "day",
-      "city": "<UNKNOWN>",
-      "state": "TX",
-      "agency_name": "Hopkins County Sheriff's Office",
-      "circumstance": "warrant service",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Hopkins County Sheriff's deputy shot and killed a dog while serving a high-risk felony warrant on Wednesday. According to the sheriff's office, the dog pushed past a resident and lunged at the deputy, who fired his weapon, striking the dog, which later died from its injuries.",
-      "source_url": "https://www.yahoo.com/news/us/articles/hopkins-county-deputy-shoots-dog-155912994.html",
-      "source_name": "Yahoo",
-      "additional_sources": [
-        "https://www.greenvillechronicle.com/s/5082/Hopkins-County-Deputy-Fatally-Shoots-Dog-While-Attempting-to-Serve-High-Risk-Felony-Warrant.php"
-      ],
-      "confidence": "high"
-    },
-    {
-      "incident_date": "2026-08-13",
-      "date_precision": "day",
-      "city": "Twin Falls",
-      "state": "ID",
-      "agency_name": "Twin Falls Police Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "injured-survived",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Twin Falls police officer discharged a firearm at a large Rottweiler that ran toward the officer from the side of a house while two officers were visiting a residence as part of an active investigation. The dog was transported to a veterinary office, treated, and released to its owner.",
-      "source_url": "https://www.kmvt.com/2026/08/13/twin-falls-officer-shoots-dog-during-investigation-visit/",
-      "source_name": "KMVT",
-      "additional_sources": [
-        "https://www.yahoo.com/news/us/articles/tfpd-officer-shoots-dog-twin-234429901.html",
-        "https://www.kmvt.com/video/2026/08/13/dog-released-after-being-shot-by-twin-falls-police-officer/"
-      ],
-      "confidence": "high"
-    }
-  ]
+  "recent_incidents": []
 }
