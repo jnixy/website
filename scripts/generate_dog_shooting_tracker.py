@@ -129,18 +129,39 @@ GDELT_QUERIES = [
     'puppycide',
 ]
 
-# Google News RSS — one narrow feed per phrasing (headline language varies a
-# lot). Terms are AND-joined; `when:Nd` limits recency.
+# Google News RSS — one narrow feed per phrasing; `when:Nd` limits recency.
+#
+# Unquoted terms are AND-joined, which is far too loose: "police shot dog"
+# matched a dog killed in a car crash, a man shot while walking a dog, and a
+# story about apple picking. Quoting forces adjacency. Present tense matters
+# too — headlines say "shoots", not "shot". Hit counts below are from a 21-day
+# probe on 2026-09-01, with on-topic counts eyeballed from the titles.
+#
+# Deliberately dropped, all of them near-zero precision: bare "police shot dog"
+# / "officer shot dog" / "deputy shot dog" (AND-joined, ~10%), "police killed
+# dog" (69 hits, almost none relevant), "officer kills dog" and "police shot
+# and killed" dog (returned an outlet's general feed), "shot by a police
+# officer" dog (0 relevant), and "puppycide" (0 hits on Google News — it is
+# kept in GDELT_QUERIES, where the corpus is larger).
 GOOGLE_NEWS_PHRASINGS = [
-    "police shot dog",
-    "officer shot dog",
-    "deputy shot dog",
-    "police shot family dog",
-    '"shot my dog" police',
-    "police killed dog",
-    "officer kills dog lawsuit",
-    "puppycide",
+    '"deputy shoots dog"',       # 9 hits, nearly all on-topic
+    '"officer shoots dog"',      # 5 hits, 4 on-topic
+    '"deputies shoot dog"',      # 1 hit, on-topic
+    '"deputy shoots pit bull"',  # 2 hits, both on-topic
+    '"shoots dog during"',       # 4 hits, 3 on-topic
+    '"deputy shot a dog"',       # 4 hits, all on-topic
+    '"officer shot a dog"',      # 4 hits, all on-topic
+    '"police shot a dog"',       # 2 hits, 1 on-topic
+    '"deputy shot the dog"',     # 1 hit, on-topic
+    '"dog shot by police"',      # 5 hits, ~3 on-topic
 ]
+
+# Country-code TLDs for the English-language markets whose police-and-dog
+# coverage otherwise surfaces alongside US stories. See _non_us().
+NON_US_TLDS = {
+    "uk", "co.uk", "ca", "au", "com.au", "nz", "co.nz", "ie", "in", "za",
+    "ph", "sg", "pk", "ng", "ke",
+}
 
 # Wire services, aggregators, and vendor/advocacy domains we don't want as a
 # primary source (kept out of discovery entirely).
@@ -192,6 +213,20 @@ def _domain(url):
 def _blocked(url):
     host = _domain(url)
     return any(host == d or host.endswith("." + d) for d in DOMAIN_BLOCKLIST)
+
+
+def _non_us(url):
+    """True for obvious non-US publishers, by country-code TLD.
+
+    GDELT gets `sourcecountry:US`; Google News has no working equivalent and
+    leaked ctvnews.ca, aptnnews.ca and dailystar.co.uk into a 21-day probe.
+    The classifier already scopes to sworn *U.S.* officers and would reject
+    these, so this is purely to avoid paying for the call. It is deliberately
+    TLD-only -- non-US outlets on .com (ndtv.com, say) still reach the LLM,
+    which is the right place to catch them.
+    """
+    host = _domain(url)
+    return any(host == t or host.endswith("." + t) for t in NON_US_TLDS)
 
 
 def parse_gdelt_date(gdelt_date):
@@ -331,7 +366,7 @@ def discover(days_back, seen_urls):
         a
         for url, a in candidates.items()
         if url not in seen_urls
-        and (a.get("needs_decode") or not _blocked(url))
+        and (a.get("needs_decode") or (not _blocked(url) and not _non_us(url)))
         and len(a["title"]) >= 15
     ]
     fresh.sort(key=lambda a: a["date"], reverse=True)
@@ -859,6 +894,9 @@ def main():
         # Checks deferred out of discover() until the real publisher URL exists.
         if _blocked(a["url"]):
             print(f"  skip (blocked domain)  {_domain(a['url'])}")
+            continue
+        if _non_us(a["url"]):
+            print(f"  skip (non-US)  {_domain(a['url'])}")
             continue
         if a["url"] != discovered_url:
             if a["url"] in seen_urls:
