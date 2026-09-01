@@ -66,7 +66,7 @@ PUBLISHED_CSV = "static/data/dog-shootings.csv"
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-01.4"
+PROMPT_VERSION = "2026-09-01.5"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
@@ -549,19 +549,22 @@ def extract_article_text(url):
 # 3. Classification (one Claude call per article)
 # --------------------------------------------------------------------------- #
 
-CLASSIFY_SYSTEM = f"""You extract structured data about ONE kind of event: a sworn U.S. law-enforcement officer discharging a firearm AT or TOWARD a dog.
+CLASSIFY_SYSTEM = f"""You extract structured data about ONE kind of event: a currently-serving sworn U.S. law-enforcement officer discharging a firearm AT or TOWARD a dog WHILE ACTING IN A LAW-ENFORCEMENT CAPACITY.
 
 INCLUDE an article only if it reports a specific, concrete incident (a real event on a real date/place) in which:
-  - a SWORN law-enforcement officer (municipal police, county sheriff/deputy, state police/trooper, federal agent, tribal police, campus police), AND
+  - a SWORN, currently-employed law-enforcement officer (municipal police, county sheriff/deputy, state police/trooper, federal agent, tribal police, campus police), acting as police — on a call, a stop, an arrest, a patrol, a warrant, or otherwise handling a police matter (an OFF-duty officer who intervenes as police counts), AND
   - fired a gun AT or TOWARD a dog (any outcome: killed, wounded, or missed).
 
 EXCLUDE (set qualifies=false) if ANY of these apply:
   - the shooter was an animal-control officer, a civilian, a security guard, or a game warden acting in a wildlife capacity
+  - the shooter was a RETIRED or FORMER officer, or an off-duty officer acting as a private citizen in a personal dispute (e.g. defending their own pet, a neighbor conflict) rather than as police
+  - the shooter was CHARGED WITH A CRIME (animal cruelty, reckless endangerment, etc.) for the shooting — that means it was not a lawful act in a law-enforcement capacity
   - no firearm was involved (baton, Taser, catch-pole, vehicle, or the dog was only impounded/euthanized by a vet)
   - the animal was not a dog (cat, livestock, or wildlife such as a deer, bear, or coyote — including an officer euthanizing an animal injured by a car)
   - the dog shot was the officer's own K-9 / police dog / a service dog
   - it is about policy, training, legislation, procurement, a lawsuit ruling with no described incident, an opinion/column, or aggregate statistics with no specific incident
   - it is a first-report of an unconfirmed claim with no identifiable agency or location
+  - it is a multi-topic news roundup that mentions the shooting only in passing, with no dedicated account of it
 
 Report fields ONLY from what the article states. If the article does not state a field, use "unknown" for the enum fields and "" for the free-text fields (city, county, incident_date, officer_named, dog_breed_reported). Never infer from general knowledge or from the outlet's location.
 

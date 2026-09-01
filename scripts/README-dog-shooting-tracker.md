@@ -22,16 +22,21 @@ result and Netlify redeploys).
 
 ## Scope
 
-**Included:** a sworn law enforcement officer — municipal police, county
-sheriff/deputy, state police, federal, tribal, or campus — discharged a firearm at
-or toward a dog. Any outcome counts (killed, wounded, missed). On- vs. off-duty is
-a recorded field, not an exclusion.
+**Included:** a currently-serving sworn law enforcement officer — municipal
+police, county sheriff/deputy, state police, federal, tribal, or campus — who,
+**while acting as police** (a call, stop, arrest, patrol, warrant, or otherwise
+handling a police matter), discharged a firearm at or toward a dog. Any outcome
+counts (killed, wounded, missed). On- vs. off-duty is a recorded field, not an
+exclusion — an off-duty officer who intervenes *as police* still counts.
 
 **Excluded:** animal-control officers, civilians, security guards, game wardens
-acting in a wildlife capacity; non-firearm force; an officer's own police K-9 or a
-service dog; mercy killings of injured wildlife or livestock; animals that were not
-dogs; and stories about policy, training, procurement, or litigation with no
-specific incident described.
+acting in a wildlife capacity; **retired/former officers, and off-duty officers
+acting as private citizens in a personal dispute**; **any officer charged with a
+crime for the shooting** (it was not a lawful act in a law-enforcement capacity);
+non-firearm force; an officer's own police K-9 or a service dog; mercy killings of
+injured wildlife or livestock; animals that were not dogs; multi-topic news
+roundups that only mention a shooting in passing; and stories about policy,
+training, procurement, or litigation with no specific incident described.
 
 ## Data schema (`datasets/dog-shootings.csv`)
 

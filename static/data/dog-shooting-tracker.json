@@ -1,225 +1,23 @@
 {
-  "generated_at": "2026-09-01T23:36:11Z",
-  "total_incidents": 9,
-  "total_sources": 25,
+  "generated_at": "2026-09-01T23:39:39Z",
+  "total_incidents": 0,
+  "total_sources": 0,
   "date_range": {
-    "earliest": "2026-08-05",
-    "latest": "2026-08-28"
+    "earliest": null,
+    "latest": null
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 6,
+    "current_year_to_date": 0,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 244
   },
-  "yearly_counts": [
-    {
-      "year": 2026,
-      "count": 6
-    }
-  ],
-  "outcome_breakdown": [
-    {
-      "label": "unknown",
-      "count": 4
-    },
-    {
-      "label": "killed",
-      "count": 3
-    },
-    {
-      "label": "injured-survived",
-      "count": 2
-    }
-  ],
-  "circumstance_breakdown": [
-    {
-      "label": "other",
-      "count": 2
-    },
-    {
-      "label": "loose/roaming dog",
-      "count": 2
-    },
-    {
-      "label": "unrelated call response",
-      "count": 2
-    },
-    {
-      "label": "domestic call",
-      "count": 1
-    },
-    {
-      "label": "unknown",
-      "count": 1
-    },
-    {
-      "label": "warrant service",
-      "count": 1
-    }
-  ],
-  "agency_type_breakdown": [
-    {
-      "label": "county SO",
-      "count": 4
-    },
-    {
-      "label": "municipal PD",
-      "count": 4
-    },
-    {
-      "label": "unknown",
-      "count": 1
-    }
-  ],
-  "state_counts": [
-    {
-      "state": "CA",
-      "name": "California",
-      "count": 3
-    },
-    {
-      "state": "NC",
-      "name": "North Carolina",
-      "count": 1
-    },
-    {
-      "state": "FL",
-      "name": "Florida",
-      "count": 1
-    },
-    {
-      "state": "TX",
-      "name": "Texas",
-      "count": 1
-    },
-    {
-      "state": "PA",
-      "name": "Pennsylvania",
-      "count": 1
-    },
-    {
-      "state": "ID",
-      "name": "Idaho",
-      "count": 1
-    },
-    {
-      "state": "NY",
-      "name": "New York",
-      "count": 1
-    }
-  ],
+  "yearly_counts": [],
+  "outcome_breakdown": [],
+  "circumstance_breakdown": [],
+  "agency_type_breakdown": [],
+  "state_counts": [],
   "human_injured_count": 0,
-  "recent_incidents": [
-    {
-      "incident_date": "2026-08-28",
-      "date_precision": "day",
-      "city": "Los Angeles",
-      "state": "CA",
-      "agency_name": "Los Angeles Police Department",
-      "circumstance": "domestic call",
-      "dog_outcome": "unknown",
-      "human_injured_by_fire": "unknown",
-      "summary": "Officers responding to a domestic incident call in Los Angeles's Green Meadows neighborhood determined no crime had occurred. As they walked back to their vehicle, three unrestrained dogs charged at them; one attacked an officer, biting his leg, prompting an officer-involved animal shooting. The dog was transported by animal control for treatment.",
-      "source_url": "https://patch.com/california/los-angeles/police-shoot-dog-who-attacked-officer-los-angeles",
-      "source_name": "Patch",
-      "additional_sources": [
-        "https://www.yahoo.com/news/articles/officer-shoots-dog-being-attacked-193217024.html",
-        "https://mynewsla.com/crime/2026/08/29/lapd-shoots-dog-who-attacked-officer-in-green-meadows/",
-        "https://mynewsla.com/crime/2026/08/27/lapd-shoots-dog-that-attacked-officer-in-green-meadows/",
-        "https://www.yahoo.com/news/videos/lapd-officer-shoots-dog-being-232600059.html"
-      ],
-      "confidence": "high"
-    },
-    {
-      "incident_date": "2026-08-27",
-      "date_precision": "day",
-      "city": "San Marcos",
-      "state": "CA",
-      "agency_name": "San Diego Sheriff's Office",
-      "circumstance": "other",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "no",
-      "summary": "Police shot a dog that attacked an officer during a sheriff's operation in San Marcos. The officer suffered a bite to his leg.",
-      "source_url": "https://patch.com/california/san-diego/police-shoot-dog-coaster-linked-brain-injuries-trapped-mama-bear-cubs-rescued",
-      "source_name": "Patch",
-      "additional_sources": [],
-      "confidence": "low"
-    },
-    {
-      "incident_date": "2026-08-21",
-      "date_precision": "day",
-      "city": "Sunland Park",
-      "state": "CA",
-      "agency_name": "Los Angeles County Sheriff's Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "injured-survived",
-      "human_injured_by_fire": "no",
-      "summary": "A Los Angeles County Sheriff's deputy shot a pit bull near the Sunland Park Recreation Center during the arrest of a grand theft suspect on Thursday afternoon. The dog attacked deputies as they took the suspect into custody; a Taser failed to stop it, prompting the deputy to fire, and the dog survived and was transported to a veterinary hospital.",
-      "source_url": "https://hoodline.com/2026/08/sunland-park-foot-chase-ends-with-deputy-shooting-suspect-s-pit-bull/",
-      "source_name": "Hoodline",
-      "additional_sources": [
-        "https://abc7.com/post/la-county-sheriffs-deputies-shoot-dog-during-foot-pursuit-theft-suspect-sunland/19715244/",
-        "https://www.dailynews.com/2026/08/20/at-least-1-deputy-shoots-pit-bull-during-arrest-near-sunland-park/",
-        "https://www.cbsnews.com/losangeles/video/la-county-deputy-shoots-dog-while-arresting-grand-theft-suspect-in-sunland-park/",
-        "https://www.nbclosangeles.com/news/local/sunland-deputy-dog-shooting-investigation/3931913/",
-        "https://www.cbsnews.com/losangeles/news/la-county-deputy-shoots-dog-while-arresting-grand-theft-suspect-at-park/",
-        "https://www.nbclosangeles.com/video/news/local/deputy-shoots-dog-sunland/3931932/",
-        "https://www.yahoo.com/news/videos/la-county-deputy-shoots-dog-232500958.html",
-        "https://www.yahoo.com/news/articles/l-deputies-shoot-pit-bull-011821653.html"
-      ],
-      "confidence": "high"
-    },
-    {
-      "incident_date": "2026-08-13",
-      "date_precision": "day",
-      "city": "unknown",
-      "state": "TX",
-      "agency_name": "Hopkins County Sheriff's Office",
-      "circumstance": "warrant service",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Hopkins County Sheriff's deputy shot and killed a dog while serving a high-risk felony warrant on Wednesday. According to the sheriff's office, the dog pushed past a resident and lunged at the deputy, who fired his weapon and struck the dog, which later died from its injuries.",
-      "source_url": "https://www.yahoo.com/news/us/articles/hopkins-county-deputy-shoots-dog-155912994.html",
-      "source_name": "Yahoo",
-      "additional_sources": [
-        "https://www.greenvillechronicle.com/s/5082/Hopkins-County-Deputy-Fatally-Shoots-Dog-While-Attempting-to-Serve-High-Risk-Felony-Warrant.php"
-      ],
-      "confidence": "high"
-    },
-    {
-      "incident_date": "2026-08-12",
-      "date_precision": "day",
-      "city": "Twin Falls",
-      "state": "ID",
-      "agency_name": "Twin Falls Police Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "injured-survived",
-      "human_injured_by_fire": "no",
-      "summary": "A Twin Falls police officer shot a large Rottweiler on Wednesday afternoon while visiting a home on Diamond Avenue as part of an active investigation. The dog was struck by the officer's duty weapon as it approached the officer in the front yard; it was treated at a veterinary clinic and released to its owner.",
-      "source_url": "https://www.kmvt.com/2026/08/13/twin-falls-officer-shoots-dog-during-investigation-visit/",
-      "source_name": "KMVT",
-      "additional_sources": [
-        "https://www.yahoo.com/news/us/articles/tfpd-officer-shoots-dog-twin-234429901.html",
-        "https://www.kmvt.com/video/2026/08/13/dog-released-after-being-shot-by-twin-falls-police-officer/"
-      ],
-      "confidence": "high"
-    },
-    {
-      "incident_date": "2026-08-05",
-      "date_precision": "day",
-      "city": "Yorktown Heights",
-      "state": "NY",
-      "agency_name": "Yorktown Police",
-      "circumstance": "other",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "unknown",
-      "summary": "A retired NYPD officer, James J. Molloy, fatally shot a 12-year-old shepherd-husky mix named Luke along Route 118 in Yorktown Heights after the dog broke off its leash and approached Molloy's dog. Molloy was charged with aggravated cruelty to animals and reckless endangerment.",
-      "source_url": "https://www.cbsnews.com/newyork/news/retired-nypd-officer-shoots-dog-yorktown-heights/",
-      "source_name": "CBS News",
-      "additional_sources": [],
-      "confidence": "high"
-    }
-  ]
+  "recent_incidents": []
 }
