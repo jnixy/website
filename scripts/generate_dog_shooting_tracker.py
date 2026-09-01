@@ -66,7 +66,7 @@ PUBLISHED_CSV = "static/data/dog-shootings.csv"
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-01.3"
+PROMPT_VERSION = "2026-09-01.4"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
@@ -172,15 +172,17 @@ def coerce_enum(value, allowed, default):
     return default
 
 
-def clean_incident_date(fields):
+def clean_incident_date(fields, published=""):
     """(incident_date, date_precision). A date is kept ONLY if it is a real
-    YYYY-MM-DD *and* the model quoted its evidence in incident_date_source.
+    YYYY-MM-DD, the model quoted its evidence in incident_date_source, AND (when
+    a publication date is known and litigation is 'none') the year is within a
+    year of publication.
 
-    The classifier fabricates plausible dates when the article gives none
-    (observed: 2024-01-11 assigned to two unrelated incidents across two runs,
-    plus a cluster of 2026-01-01 / 2026-01-09). A fabricated firm date is worse
-    than a blank one -- it splits one real incident into several rows. Requiring
-    a quote forces the model to show its work; no quote -> no date."""
+    The classifier fabricates plausible dates when the article gives none, and
+    even mis-resolves relative references badly (observed: "on Thursday" in an
+    Aug 2026 story -> 2024-11-14). News tracks recent events, so a date well
+    before the article's own publication -- with no litigation hook that would
+    explain covering an old case -- is almost always that kind of error."""
     prec = coerce_enum(fields.get("date_precision"), DATE_PRECISIONS, "unknown")
     evidence = (fields.get("incident_date_source") or "").strip()
     raw = (fields.get("incident_date") or "").strip()
@@ -191,8 +193,15 @@ def clean_incident_date(fields):
         return "", "unknown"
     iso = m.group(0)
     try:
-        datetime.strptime(iso, "%Y-%m-%d")
+        d = datetime.strptime(iso, "%Y-%m-%d")
     except ValueError:
+        return "", "unknown"
+    pub_year = None
+    if len(published) >= 4 and published[:4].isdigit():
+        pub_year = int(published[:4])
+    litigating = coerce_enum(fields.get("litigation"), ENUM_FIELDS["litigation"][0], "unknown") not in ("none", "unknown")
+    if pub_year is not None and not litigating and d.year < pub_year - 1:
+        print(f"  ! incident_date {iso!r} dropped -- {d.year} predates publication {pub_year} with no litigation")
         return "", "unknown"
     if prec == "unknown":
         prec = "day"
@@ -558,7 +567,12 @@ Report fields ONLY from what the article states. If the article does not state a
 
 officer_named: give an individual officer's name ONLY if the article attributes it to an official record (a charging document, a lawsuit, a department statement/press release, or a disciplinary record). Otherwise leave it "".
 
-incident_date + incident_date_source: FIRST, copy into incident_date_source the exact words from the article that establish when the shooting happened — e.g. "Wednesday afternoon", "on Aug. 20", "earlier this month", "last summer". If the article contains no such words, incident_date_source MUST be "" AND incident_date MUST be "". Only if you quoted something do you fill incident_date: the date the shooting happened (NOT the publication date), ISO YYYY-MM-DD. You MAY resolve a weekday relative to the publication date ("on Tuesday"). If only the month is known, use the first of that month with date_precision=month; if only a season/year, estimate and set date_precision=approximate. NEVER invent a day, month, or year — a fabricated date is worse than a blank one because it silently splits one incident into several rows. Never output the literal word "unknown"; use "".
+incident_date + incident_date_source: FIRST, copy into incident_date_source the exact words from the article that establish when the shooting happened — e.g. "Wednesday afternoon", "on Aug. 20", "earlier this month", "last summer". If the article contains no such words, incident_date_source MUST be "" AND incident_date MUST be "". Then fill incident_date (ISO YYYY-MM-DD, the shooting date, NOT the publication date):
+  - A relative reference ("Thursday", "yesterday", "earlier this week") is resolved ONLY against the "Article published:" date given above — the most recent such day on or before publication — with date_precision=day. If no publication date was given, leave incident_date empty.
+  - An explicit "Month Day" with no year takes the year from the publication date; date_precision=day.
+  - Only the month named → first of that month, date_precision=month.
+  - Only a season or year → estimate, date_precision=approximate.
+NEVER invent a day, month, or year, and NEVER output a year that isn't either stated in the article or taken from the publication date — a fabricated date is worse than a blank one because it silently splits one incident into several rows. Never output the literal word "unknown"; use "".
 
 summary: 1-2 neutral sentences. Attribute claims about the dog's behavior to their source ("officers said the dog charged").
 
@@ -630,13 +644,16 @@ HEADLINE_ONLY_NOTE = (
 )
 
 
-def classify_article(client, title, text, url):
+def classify_article(client, title, text, url, published=""):
     """Return the tool input dict, or None on a hard API error. text=None means
-    body extraction failed -> classify from the headline under strict rules."""
+    body extraction failed -> classify from the headline under strict rules.
+    `published` is the article's publication date (ISO) -- the anchor for
+    resolving relative references like "Thursday" or "earlier this week"."""
+    pub = f"Article published: {published[:10]}\n" if published else ""
     if text:
-        user = f"Article URL: {url}\nHeadline: {title}\n\nArticle text:\n{text}"
+        user = f"{pub}Article URL: {url}\nHeadline: {title}\n\nArticle text:\n{text}"
     else:
-        user = f"Article URL: {url}\nHeadline: {title}{HEADLINE_ONLY_NOTE}"
+        user = f"{pub}Article URL: {url}\nHeadline: {title}{HEADLINE_ONLY_NOTE}"
     try:
         resp = client.messages.create(
             model=MODEL,
@@ -723,14 +740,16 @@ def find_duplicate(client, new_row, existing_rows):
     }
     system = (
         "You decide whether a new dog-shooting incident is the SAME real-world event as one "
-        "already recorded. Judge ONLY on: same agency (or one unstated), same city/area, same "
-        "rough time, and the same basic event (an officer shot a dog in comparable circumstances). "
-        "Detail fields routinely DISAGREE between outlets covering one incident -- dog_outcome "
-        "(killed vs injured vs unknown), breed, exact date, officer count -- and such disagreement "
-        "is NOT evidence of different events. A missing date or agency is NOT evidence either. "
-        "Many outlets cover one incident, so near-identical summaries from the same agency and "
-        "area are the SAME event even when the wording and details differ. Only a clearly "
-        "DIFFERENT city or a clearly different date makes it a separate incident."
+        "already recorded. The incident_date in these records is frequently WRONG, so ignore "
+        "date differences entirely -- never treat a date gap as evidence of separate events. "
+        "Decide from the SUMMARY: is it the same agency (or one unstated), in the same place or "
+        "a nearby area of the same metro, describing the same specific event -- the same "
+        "officer/deputy action, the same dog, the same sequence of events (e.g. 'Tased the dog "
+        "first, then fired'), the same named officials or quotes? A shared specific detail -- a "
+        "named commander quoted, an unusual fact, a specific named location -- means SAME "
+        "incident even when dates, outcomes, breeds, or city labels differ between outlets. "
+        "It is a DIFFERENT event only if it is a different metro area, or clearly different "
+        "circumstances (different call type, different dog, different officers)."
     )
     try:
         resp = client.messages.create(
@@ -805,7 +824,7 @@ def next_id(rows):
 
 def make_row(fields, article, row_id):
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    incident_date, date_precision = clean_incident_date(fields)
+    incident_date, date_precision = clean_incident_date(fields, article.get("date", ""))
     enums = {
         f: coerce_enum(fields.get(f), allowed, default)
         for f, (allowed, default) in ENUM_FIELDS.items()
@@ -1081,7 +1100,7 @@ def main():
             # is video pages is lost.
             print(f"  (no body text; classifying from headline)  {a['title'][:60]}")
         processed += 1
-        fields = classify_article(client, a["title"], text, a["url"])
+        fields = classify_article(client, a["title"], text, a["url"], a.get("date", ""))
         if fields is None:
             errors += 1
             continue
