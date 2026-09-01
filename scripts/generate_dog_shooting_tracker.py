@@ -12,8 +12,8 @@ Lehman's flock-crime-tracker (flockstopscrime.com):
   3. classify  - one Claude (Haiku) call per article: does it describe a
                  sworn officer firing a gun at a dog? plus structured fields
   4. dedupe    - one Claude call to fold a new article into an existing
-                 incident (blocked by state, with a date window only when both
-                 rows have a firm date) rather than creating a duplicate row
+                 incident (candidates blocked by state; the model adjudicates)
+                 rather than creating a duplicate row
   5. store     - append qualifying incidents to datasets/dog-shootings.csv
                  (the durable dataset; git history is the audit log)
   6. emit      - aggregates JSON for the dashboard page + a published CSV copy
@@ -66,12 +66,11 @@ PUBLISHED_CSV = "static/data/dog-shootings.csv"
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-01.2"
+PROMPT_VERSION = "2026-09-01.3"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
-DEDUPE_DATE_WINDOW_DAYS = 21
-MAX_DEDUPE_CANDIDATES = 20
+MAX_DEDUPE_CANDIDATES = 20   # cap on same-state rows sent to the dedupe model
 # GDELT is unreliable from the GitHub Actions IP range: CI runs on 2026-09-01
 # saw ~half of all requests connect-timeout even on trivial single-term queries
 # at a 45s timeout. Query *shape* is no longer the problem (that was the OR
@@ -174,14 +173,21 @@ def coerce_enum(value, allowed, default):
 
 
 def clean_incident_date(fields):
-    """(incident_date, date_precision), taking a date ONLY if it is a real
-    YYYY-MM-DD. The model used to emit hallucinated dates and the literal string
-    'unknown'; a wrong date silently breaks dedupe, so anything non-parseable is
-    dropped to empty + precision 'unknown'."""
+    """(incident_date, date_precision). A date is kept ONLY if it is a real
+    YYYY-MM-DD *and* the model quoted its evidence in incident_date_source.
+
+    The classifier fabricates plausible dates when the article gives none
+    (observed: 2024-01-11 assigned to two unrelated incidents across two runs,
+    plus a cluster of 2026-01-01 / 2026-01-09). A fabricated firm date is worse
+    than a blank one -- it splits one real incident into several rows. Requiring
+    a quote forces the model to show its work; no quote -> no date."""
     prec = coerce_enum(fields.get("date_precision"), DATE_PRECISIONS, "unknown")
+    evidence = (fields.get("incident_date_source") or "").strip()
     raw = (fields.get("incident_date") or "").strip()
     m = re.match(r"^\d{4}-\d{2}-\d{2}", raw)
-    if not m:
+    if not m or not evidence:
+        if raw and not evidence:
+            print(f"  ! incident_date {raw!r} dropped -- no incident_date_source quote")
         return "", "unknown"
     iso = m.group(0)
     try:
@@ -552,7 +558,7 @@ Report fields ONLY from what the article states. If the article does not state a
 
 officer_named: give an individual officer's name ONLY if the article attributes it to an official record (a charging document, a lawsuit, a department statement/press release, or a disciplinary record). Otherwise leave it "".
 
-incident_date: the date the shooting happened (NOT the publication date), as ISO YYYY-MM-DD, taken ONLY from the article. You MAY resolve a weekday given relative to publication ("on Tuesday", "last Friday"). If only the month is stated, use the first of that month with date_precision=month. If the article does NOT say when the shooting happened, leave incident_date EMPTY ("") and set date_precision=unknown. NEVER guess or estimate a day, month, or year the article does not give — a wrong date is worse than a blank one because it silently breaks incident de-duplication. Do not output the literal word "unknown" in incident_date; use "".
+incident_date + incident_date_source: FIRST, copy into incident_date_source the exact words from the article that establish when the shooting happened — e.g. "Wednesday afternoon", "on Aug. 20", "earlier this month", "last summer". If the article contains no such words, incident_date_source MUST be "" AND incident_date MUST be "". Only if you quoted something do you fill incident_date: the date the shooting happened (NOT the publication date), ISO YYYY-MM-DD. You MAY resolve a weekday relative to the publication date ("on Tuesday"). If only the month is known, use the first of that month with date_precision=month; if only a season/year, estimate and set date_precision=approximate. NEVER invent a day, month, or year — a fabricated date is worse than a blank one because it silently splits one incident into several rows. Never output the literal word "unknown"; use "".
 
 summary: 1-2 neutral sentences. Attribute claims about the dog's behavior to their source ("officers said the dog charged").
 
@@ -569,7 +575,8 @@ CLASSIFY_TOOL = {
         "properties": {
             "qualifies": {"type": "boolean"},
             "reason": {"type": "string", "description": "one sentence: why it does or doesn't qualify"},
-            "incident_date": {"type": "string", "description": "YYYY-MM-DD from the article only; empty string if the article gives no incident date. Never guess."},
+            "incident_date_source": {"type": "string", "description": "exact words from the article that state when the shooting happened; empty string if the article says nothing about timing"},
+            "incident_date": {"type": "string", "description": "YYYY-MM-DD, filled ONLY when incident_date_source is non-empty; never guessed"},
             "date_precision": {"type": "string", "enum": DATE_PRECISIONS},
             "city": {"type": "string"},
             "county": {"type": "string"},
@@ -597,7 +604,8 @@ CLASSIFY_TOOL = {
             "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
         },
         "required": [
-            "qualifies", "reason", "incident_date", "date_precision", "city", "county",
+            "qualifies", "reason", "incident_date_source", "incident_date",
+            "date_precision", "city", "county",
             "state", "agency_name", "agency_type", "on_duty", "officer_named",
             "dogs_fired_at", "dog_outcome", "dog_breed_reported", "dog_restrained",
             "circumstance", "warrant_type", "human_injured_by_fire", "dept_response",
@@ -607,9 +615,25 @@ CLASSIFY_TOOL = {
 }
 
 
+HEADLINE_ONLY_NOTE = (
+    "\n\nNOTE: the article body could not be retrieved (it is a video or "
+    "script-only page). Classify from the HEADLINE and URL alone. Set "
+    "qualifies=true ONLY if the headline itself unambiguously states that a "
+    "sworn law-enforcement officer fired a gun at a dog (e.g. \"Sheriff's "
+    "deputy shoots dog during arrest\"). If the headline is ambiguous about the "
+    "shooter, the weapon, or the animal, set qualifies=false. Set confidence=low "
+    "and leave every field you cannot determine from the headline as "
+    "unknown/empty, including incident_date."
+)
+
+
 def classify_article(client, title, text, url):
-    """Return the tool input dict, or None on a hard API error."""
-    user = f"Article URL: {url}\nHeadline: {title}\n\nArticle text:\n{text}"
+    """Return the tool input dict, or None on a hard API error. text=None means
+    body extraction failed -> classify from the headline under strict rules."""
+    if text:
+        user = f"Article URL: {url}\nHeadline: {title}\n\nArticle text:\n{text}"
+    else:
+        user = f"Article URL: {url}\nHeadline: {title}{HEADLINE_ONLY_NOTE}"
     try:
         resp = client.messages.create(
             model=MODEL,
@@ -647,37 +671,18 @@ DEDUPE_TOOL = {
 }
 
 
-def _within_window(d1, d2, days):
-    try:
-        a = datetime.strptime(d1[:10], "%Y-%m-%d")
-        b = datetime.strptime(d2[:10], "%Y-%m-%d")
-        return abs((a - b).days) <= days
-    except Exception:
-        return False
-
-
 def find_duplicate(client, new_row, existing_rows):
-    """Block candidates, then ask the model. Returns the matching id or None.
+    """Block candidates by state, then ask the model. Returns the matching id or
+    None.
 
-    Blocking is by state. The 21-day date window is applied ONLY when BOTH the
-    new row and the candidate have a firm day-precision date -- otherwise a
-    missing or fuzzy date (common: the most-covered incidents are video pages
-    with no date in the body) would wrongly exclude a true duplicate. The model
-    is the real adjudicator either way."""
+    Blocking is by state ONLY -- no date window. Model-supplied dates are not
+    trustworthy enough to gate on: a fabricated date on one copy of an incident
+    would put it outside the window from the real-dated copy and split one event
+    into several rows (observed exactly that with the Sunland Park incident).
+    The LLM adjudicates every same-state pair; MAX_DEDUPE_CANDIDATES caps cost."""
     if not new_row.get("state"):
         return None
-    new_date = new_row.get("incident_date", "")
-    new_firm = bool(new_date) and new_row.get("date_precision") == "day"
-    candidates = []
-    for r in existing_rows:
-        if r.get("state") != new_row["state"]:
-            continue
-        r_firm = bool(r.get("incident_date")) and r.get("date_precision") == "day"
-        if new_firm and r_firm and not _within_window(
-            r["incident_date"], new_date, DEDUPE_DATE_WINDOW_DAYS
-        ):
-            continue
-        candidates.append(r)
+    candidates = [r for r in existing_rows if r.get("state") == new_row["state"]]
     if not candidates:
         return None
     candidates.sort(key=lambda r: r.get("incident_date", ""), reverse=True)
@@ -1059,8 +1064,11 @@ def main():
             seen_urls.add(a["url"])
         text = extract_article_text(a["url"])
         if not text:
-            print(f"  skip (no text)  {a['url']}")
-            continue
+            # Video / script-only pages (common for the most-covered incidents).
+            # Fall back to a strict headline-only classification rather than
+            # dropping the article -- otherwise an incident whose entire coverage
+            # is video pages is lost.
+            print(f"  (no body text; classifying from headline)  {a['title'][:60]}")
         processed += 1
         fields = classify_article(client, a["title"], text, a["url"])
         if fields is None:
@@ -1068,6 +1076,9 @@ def main():
             continue
         if not fields.get("qualifies"):
             print(f"  no  — {fields.get('reason', '')[:80]}")
+            continue
+        if not any((fields.get(k) or "").strip() for k in ("state", "city", "agency_name")):
+            print(f"  skip (too thin: no state/city/agency)  {a['title'][:60]}")
             continue
 
         row = make_row(fields, a, next_id(incidents))
