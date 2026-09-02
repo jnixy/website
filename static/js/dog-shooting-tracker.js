@@ -172,6 +172,7 @@
   function renderRecent(data) {
     var rows = data.recent_incidents || [];
     var host = document.getElementById('dst-recent');
+    if (!host) return;
     if (!rows.length) { host.innerHTML = '<p class="dst-chart-note">No incidents recorded yet.</p>'; return; }
     var html = '<ul class="dst-incident-list">';
     rows.forEach(function (r) {
@@ -203,11 +204,14 @@
     host.innerHTML = html;
   }
 
+  function hide(id) { var el = document.getElementById(id); if (el) el.style.display = 'none'; }
+  function show(id) { var el = document.getElementById(id); if (el) el.style.display = ''; }
+
   function renderAll(data) {
     renderStats(data);
     if (!data.total_incidents) {
-      document.getElementById('dst-charts').style.display = 'none';
-      document.getElementById('dst-empty').style.display = '';
+      hide('dst-charts');
+      show('dst-empty');
       return;
     }
     renderYearly(data);
@@ -244,8 +248,8 @@
     fetch(DATA_URL)
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (data) {
-        document.getElementById('dst-loading').style.display = 'none';
-        document.getElementById('dst-content').style.display = '';
+        hide('dst-loading');
+        show('dst-content');
         renderAll(data);
         var observer = new MutationObserver(relayoutForTheme);
         observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
@@ -255,10 +259,12 @@
       })
       .catch(function (err) {
         console.error('dog-shooting-tracker: could not load data', err);
-        document.getElementById('dst-loading').style.display = 'none';
+        hide('dst-loading');
         var e = document.getElementById('dst-error');
-        e.style.display = '';
-        e.textContent = 'Could not load tracker data (' + err.message + '). Please try again later.';
+        if (e) {
+          e.style.display = '';
+          e.textContent = 'Could not load tracker data (' + err.message + '). Please try again later.';
+        }
       });
   }
 

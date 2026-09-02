@@ -24,11 +24,9 @@ No government agency tracks how often police shoot dogs. This tracker is assembl
   <div id="dst-content" style="display:none;">
     <div id="dst-meta" class="dst-meta"></div>
     <div id="dst-stats" class="dst-stats-row"></div>
-
     <div id="dst-empty" class="dst-empty" style="display:none;">
       <p>No incidents have been recorded yet. The tracker is live; this page will fill in as qualifying news coverage is found and reviewed.</p>
     </div>
-
     <div id="dst-charts">
       <div class="dst-chart-grid">
         <div class="dst-chart-card">
@@ -37,7 +35,6 @@ No government agency tracks how often police shoot dogs. This tracker is assembl
           <p class="dst-chart-note">Earlier years are undercounted: automated news discovery reaches back only so far, and older local coverage is harder to find.</p>
         </div>
       </div>
-
       <div class="dst-chart-grid dst-two-col">
         <div class="dst-chart-card">
           <h3 class="dst-chart-title">Outcome for the Dog</h3>
@@ -48,7 +45,6 @@ No government agency tracks how often police shoot dogs. This tracker is assembl
           <div id="dst-chart-circumstance" class="dst-chart"></div>
         </div>
       </div>
-
       <div class="dst-chart-grid dst-two-col">
         <div class="dst-chart-card">
           <h3 class="dst-chart-title">Type of Agency</h3>
@@ -60,7 +56,6 @@ No government agency tracks how often police shoot dogs. This tracker is assembl
           <p class="dst-chart-note" id="dst-state-caption"></p>
         </div>
       </div>
-
       <div class="dst-chart-grid">
         <div class="dst-chart-card">
           <h3 class="dst-chart-title">Most Recent Incidents</h3>
@@ -68,7 +63,6 @@ No government agency tracks how often police shoot dogs. This tracker is assembl
         </div>
       </div>
     </div>
-
     <div class="dst-notes">
       <h3>How this is built</h3>
       <p>
