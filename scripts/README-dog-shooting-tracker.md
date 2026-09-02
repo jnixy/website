@@ -13,7 +13,7 @@ result and Netlify redeploys).
 | Stage | What happens |
 |---|---|
 | discover | Google News RSS (`GOOGLE_NEWS_PHRASINGS`, the primary source) + GDELT DOC 2.0 API (`GDELT_QUERIES`, best-effort). Blocked domains, non-US TLDs, already-seen URLs, and human-excluded URLs (`datasets/dog-shootings-excluded.json`) are dropped. Queries are single quoted phrases. A GDELT query whose retries all fail is logged `FAIL` and kept distinct from a genuine zero, but does **not** fail the run — GDELT is unreliable from GitHub Actions and Google News carries discovery. |
-| extract | Article body text via `trafilatura`. If the page is video- or script-only (no body text), the article is **not** dropped — it goes to classify with a headline-only flag and stricter rules. |
+| extract | Article body text via `trafilatura`. If the page is video- or script-only (no body text), the article is **not** dropped — it goes to classify with a headline-only flag and stricter rules (a passive headline — "dog shot by officers", "…her dog, who was shot by police" — still qualifies; a headline silent on who shot, or naming a civilian shooter, does not). |
 | classify | One `claude-haiku-4-5` call per article (forced tool call), given the article's **publication date** as the anchor for resolving "Thursday" / "this week". Returns `qualifies` plus structured fields. `PROMPT_VERSION` is stamped on every row. Date guards: the model must quote its evidence in `incident_date_source` (no quote → date blanked); a resolved year more than one year before publication with `litigation = none` is dropped (mis-resolved relative date). Enum drift is coerced onto the vocab. A row with no `state` is dropped as unplaceable. |
 | dedupe | Candidates are blocked by `state` (or `city` when the row has no state) — no date window. One `claude-haiku-4-5` call decides same-incident **from the summary alone, ignoring dates** (they are often wrong): same agency, same metro, same described sequence of events / named officials. A match appends the URL to the existing row's `additional_sources`; no new row. |
 | store | Append new incidents to `datasets/dog-shootings.csv` (`reviewed = no`). Update `datasets/dog-shootings-seen-urls.json`. Existing rows' fields are never overwritten — only `additional_sources` grows on a dedupe match. |
@@ -145,6 +145,15 @@ A media-derived undercount. Litigated and body-camera cases are over-covered;
 rural and non-English incidents are under-covered; claims about a dog's behavior
 usually originate with the officer or department. Counts and the state map reflect
 where incidents are reported and found, not necessarily where they occur.
+
+A 2026-09-02 comparison against a parallel OIAS tracker (raw Bing + Google News,
+no LLM, no dedup, no scope filter) found three in-scope incidents our discovery
+had missed entirely — headlines using an adjective inside the verb phrase
+("deputies shoot **aggressive** dog"), a "kills" verb, or a passive
+construction. `GOOGLE_NEWS_PHRASINGS` and `HEADLINE_ONLY_NOTE` were widened to
+cover those forms. The other direction held up: our set caught a pack-attack
+incident the parallel tracker missed. Recall is still bounded by GDELT being
+unusable from Actions (see below).
 
 ## Historical data (deliberately not ingested)
 

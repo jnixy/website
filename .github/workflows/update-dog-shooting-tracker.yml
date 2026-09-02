@@ -1,10 +1,15 @@
 name: Update Dog Shooting Tracker
 
 on:
-  # The daily cron stays OFF until the discovery queries are tuned and the
-  # classifier has been spot-checked against hand-labelled articles. Until then
-  # an unattended run would auto-commit unvetted rows to datasets/dog-shootings.csv.
-  # Re-enable by uncommenting the two lines below.
+  # The daily cron stays OFF until the classifier has been spot-checked against
+  # hand-labelled articles and the committed rows have had a row-by-row audit.
+  # Until then an unattended run would auto-commit unvetted rows to
+  # datasets/dog-shootings.csv. Re-enable by uncommenting the two lines below.
+  #
+  # Cost is NOT a blocker: a daily run classifies only genuinely-new URLs
+  # (seen-URL filtering happens before --limit and before any LLM call), so
+  # claude-haiku-4-5 spend is ~$1-4/month at a daily cadence -- see
+  # scripts/README-dog-shooting-tracker.md. --limit is the circuit breaker.
   #
   # schedule:
   #   # Daily at 06:41 UTC -- an odd minute to dodge the top-of-hour scheduler
@@ -20,7 +25,7 @@ on:
       limit:
         description: 'Max new articles classified (cost guard)'
         required: false
-        default: '25'
+        default: '40'
       discover_only:
         description: 'List candidate URLs and stop -- no LLM calls, writes nothing'
         type: boolean
@@ -54,7 +59,7 @@ jobs:
       env:
         ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         DAYS: ${{ github.event.inputs.days || '3' }}
-        LIMIT: ${{ github.event.inputs.limit || '25' }}
+        LIMIT: ${{ github.event.inputs.limit || '40' }}
         DISCOVER_ONLY: ${{ github.event.inputs.discover_only }}
         DRY_RUN: ${{ github.event.inputs.dry_run }}
       run: |

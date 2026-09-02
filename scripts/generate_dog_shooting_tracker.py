@@ -76,7 +76,7 @@ PUBLISHED_CSV = "static/data/dog-shootings.csv"
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-01.5"
+PROMPT_VERSION = "2026-09-02"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
@@ -292,6 +292,32 @@ GOOGLE_NEWS_PHRASINGS = [
     '"dog shot by officer"',
     '"opened fire on the dog"',  # migrated from GDELT_QUERIES
     '"shoots dog while"',        # parallel to the working "shoots dog during"
+    # -- added 2026-09-02, recall gaps found against a parallel OIAS tracker --
+    # Three confirmed in-scope incidents in the Aug 2026 window were absent from
+    # our candidates entirely (not rejected by the classifier -- never discovered):
+    #   * Graham, WA   -- headlines read "deputies shoot/kill AGGRESSIVE dog";
+    #                     the adjective breaks every quoted "<verb> dog" bigram above.
+    #   * Waterloo, IA -- "officer KILLS dog", "shoots, kills attacking pit bull".
+    #                     "kills" verbs were pruned earlier for returning outlet
+    #                     general-feeds; re-added -- the classifier is the real gate.
+    #   * Palm Beach, FL (Mar-a-Lago) -- discovered every run but only via an
+    #                     unextractable headline; that path is fixed in HEADLINE_ONLY_NOTE.
+    # Prune against yield after the next real run, like the block above.
+    '"shoot aggressive dog"',
+    '"shot aggressive dog"',
+    '"shoots aggressive dog"',
+    '"kill aggressive dog"',
+    '"officer shoots pit bull"',
+    '"officers shoot pit bull"',
+    '"deputies shoot pit bull"',
+    '"officer kills dog"',       # re-added (was dropped 2026-09-01 for feed noise)
+    '"deputy kills dog"',
+    '"deputies kill dog"',
+    '"police kill dog"',
+    '"shot and killed the dog"',
+    '"shot and killed a dog"',
+    '"shoots and kills dog"',
+    '"shoots dog after"',        # parallel to "shoots dog during" / "...while"
 ]
 
 # Country-code TLDs for the English-language markets whose police-and-dog
@@ -648,16 +674,29 @@ CLASSIFY_TOOL = {
 
 HEADLINE_ONLY_NOTE = (
     "\n\nNOTE: the article body could not be retrieved (it is a video or "
-    "script-only page). Classify from the HEADLINE and URL alone. Set "
-    "qualifies=true ONLY if the headline itself unambiguously states that a "
-    "sworn law-enforcement officer fired a gun at a dog (e.g. \"Sheriff's "
-    "deputy shoots dog during arrest\"). If the headline is ambiguous about the "
-    "shooter, the weapon, or the animal, set qualifies=false. Set confidence=low. "
-    "Leave every field you cannot determine as unknown/empty, including "
-    "incident_date. EXCEPTION: if the headline or URL names a city, neighbourhood, "
-    "or region, set `state` to that place's USPS state code (this is geography, "
-    "not a claim about the incident) -- e.g. \"Charlotte\" -> NC, \"Sunland Park\" "
-    "/ \"Green Meadows\" (Los Angeles) -> CA."
+    "script-only page). Classify from the HEADLINE and URL alone.\n"
+    "Set qualifies=true when the headline states -- ACTIVELY or PASSIVELY -- "
+    "that law enforcement fired a gun at a dog. All of these count: \"Deputy "
+    "shoots dog during arrest\", \"Police kill dog after attack\", \"Dog shot by "
+    "officers near Mar-a-Lago\", \"...fleeing with her dog, who was shot by "
+    "police\", \"<named agency> shoots dog\". The shooter must be law enforcement "
+    "(police, deputy, sheriff, trooper, officer, agent, or a named LE agency) and "
+    "the weapon a firearm (\"shot\", \"opened fire\", \"gunfire\").\n"
+    "Set qualifies=false only if the headline: names or implies a NON-police "
+    "shooter (\"man\", \"gunman\", \"resident\", \"neighbor\", \"owner\", a "
+    "security guard, an animal-control officer); is about an animal that is not a "
+    "dog (a coyote, deer, bear, livestock -- even if a dog is also mentioned); "
+    "indicates no firearm (Tasered, caught, hit by a car); or is genuinely silent "
+    "on who shot (\"dog found shot\", \"dog shot dead\" with no agent named or "
+    "implied). If in doubt about a detail OTHER than the shooter/weapon/animal, "
+    "still qualify it.\n"
+    "When it qualifies, set confidence=low and leave every field you cannot "
+    "determine as unknown/empty, including incident_date. EXCEPTION: if the "
+    "headline or URL names a city, neighbourhood, or region, set `state` to that "
+    "place's USPS state code (this is geography, not a claim about the incident) "
+    "-- e.g. \"Charlotte\" -> NC, \"Sunland Park\" / \"Green Meadows\" (Los "
+    "Angeles) -> CA, \"Mar-a-Lago\" / \"Palm Beach\" -> FL, \"Graham\" "
+    "(Pierce County) -> WA."
 )
 
 
