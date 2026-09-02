@@ -19,14 +19,22 @@ Lehman's flock-crime-tracker (flockstopscrime.com):
   6. emit      - aggregates JSON for the dashboard page + a published CSV copy
 
 Outputs:
-  - datasets/dog-shootings.csv           -- incident dataset (source of truth)
+  - datasets/dog-shootings.csv            -- incident dataset (source of truth)
   - datasets/dog-shootings-seen-urls.json -- URL-level dedup cache
+  - datasets/dog-shootings-excluded.json  -- URLs a human judged NOT a qualifying incident
   - static/data/dog-shooting-tracker.json -- aggregates for the dashboard
-  - static/data/dog-shootings.csv        -- published copy (download)
+  - static/data/dog-shootings.csv         -- published copy (download)
 
 Consumed by:
   - content/dog-shooting-tracker/_index.md
   - static/js/dog-shooting-tracker.js
+
+Human review: edit datasets/dog-shootings.csv directly (fix a field, set
+`reviewed` to yes, or delete a false-positive row), then run --rebuild-json.
+An automated run never overwrites an existing row's fields -- it only appends
+new rows and appends URLs to `additional_sources` on a dedupe match -- so hand
+edits are safe. For a deleted false positive, also run --exclude <url ...> with
+its source URLs so the article (and the incident) cannot come back.
 
 Requires ANTHROPIC_API_KEY in the environment (a GitHub Actions secret in CI),
 except in --discover-only mode which only tests the news queries.
@@ -38,6 +46,7 @@ Usage:
   python scripts/generate_dog_shooting_tracker.py --limit 25      # cap articles classified this run
   python scripts/generate_dog_shooting_tracker.py --dry-run       # classify but don't write files
   python scripts/generate_dog_shooting_tracker.py --rebuild-json  # rebuild dashboard JSON from the CSV only
+  python scripts/generate_dog_shooting_tracker.py --exclude URL   # blocklist a false-positive article, then exit
 """
 
 import argparse
@@ -60,6 +69,7 @@ import requests
 # "unexpected data type [][]string in file dog-shootings.csv".
 INCIDENTS_CSV = "datasets/dog-shootings.csv"
 SEEN_URLS_FILE = "datasets/dog-shootings-seen-urls.json"
+EXCLUDED_FILE = "datasets/dog-shootings-excluded.json"  # URLs a human has judged NOT a qualifying incident
 DASHBOARD_JSON = "static/data/dog-shooting-tracker.json"
 PUBLISHED_CSV = "static/data/dog-shootings.csv"
 
@@ -117,6 +127,7 @@ CSV_FIELDS = [
     "additional_sources",     # space-separated additional URLs for the same incident
     "confidence",             # high | medium | low (model's self-rating)
     "prompt_version",         # PROMPT_VERSION that produced/updated the row
+    "reviewed",               # yes | no -- has a person checked this row against the sources?
 ]
 
 AGENCY_TYPES = [
@@ -473,11 +484,13 @@ def resolve_url(article):
     return True
 
 
-def discover(days_back, seen_urls):
-    """Run every query, dedupe by URL, drop blocked domains and already-seen
-    URLs. Returns (candidates, failed_queries) — failed_queries lists the GDELT
-    queries whose every retry failed, which the caller must surface: a silent
-    under-collection is the one failure mode this tracker cannot tolerate."""
+def discover(days_back, seen_urls, excluded=None):
+    """Run every query, dedupe by URL, drop blocked domains, already-seen URLs,
+    and human-excluded URLs. Returns (candidates, failed_queries) — failed_queries
+    lists the GDELT queries whose every retry failed, which the caller must
+    surface: a silent under-collection is the one failure mode this tracker
+    cannot tolerate."""
+    excluded = excluded or set()
     candidates = {}
     failed_queries = []
 
@@ -508,6 +521,7 @@ def discover(days_back, seen_urls):
         a
         for url, a in candidates.items()
         if url not in seen_urls
+        and url not in excluded
         and (a.get("needs_decode") or (not _blocked(url) and not _non_us(url)))
         and len(a["title"]) >= 15
     ]
@@ -783,7 +797,14 @@ def load_incidents():
     if not os.path.exists(INCIDENTS_CSV):
         return []
     with open(INCIDENTS_CSV, "r", encoding="utf-8", newline="") as f:
-        return list(csv.DictReader(f))
+        rows = list(csv.DictReader(f))
+    for r in rows:
+        for k in CSV_FIELDS:
+            r.setdefault(k, "")
+        # `reviewed` was added later; a blank (or anything not "yes") means
+        # "not yet reviewed". Normalise case so the on-disk value is stable.
+        r["reviewed"] = "yes" if (r.get("reviewed") or "").strip().lower() == "yes" else "no"
+    return rows
 
 
 def save_incidents(rows):
@@ -819,6 +840,51 @@ def save_seen_urls(seen):
     os.makedirs(os.path.dirname(SEEN_URLS_FILE), exist_ok=True)
     with open(SEEN_URLS_FILE, "w", encoding="utf-8") as f:
         json.dump(sorted(seen), f, indent=0)
+
+
+def load_excluded():
+    """URLs a person has judged NOT a qualifying incident (a deleted false
+    positive, a wrong-species story, a civilian shooter, ...). Treated like
+    seen_urls in discovery, so the article -- and, via dedupe, the incident --
+    never comes back. Accepts a bare JSON array of URL strings, or an array of
+    {"url": ..., "note": ...} objects."""
+    if not os.path.exists(EXCLUDED_FILE):
+        return set()
+    try:
+        with open(EXCLUDED_FILE, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+    except Exception:
+        return set()
+    out = set()
+    for item in raw:
+        if isinstance(item, str):
+            out.add(item)
+        elif isinstance(item, dict) and item.get("url"):
+            out.add(item["url"])
+    return out
+
+
+def add_excluded(urls):
+    """Append URLs to the exclusion file, preserving any existing notes."""
+    existing = []
+    if os.path.exists(EXCLUDED_FILE):
+        try:
+            with open(EXCLUDED_FILE, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+        except Exception:
+            existing = []
+    have = {i if isinstance(i, str) else i.get("url") for i in existing}
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    added = 0
+    for u in urls:
+        if u and u not in have:
+            existing.append({"url": u, "note": f"excluded by hand {today}"})
+            have.add(u)
+            added += 1
+    os.makedirs(os.path.dirname(EXCLUDED_FILE), exist_ok=True)
+    with open(EXCLUDED_FILE, "w", encoding="utf-8") as f:
+        json.dump(existing, f, indent=2)
+    return added
 
 
 def next_id(rows):
@@ -871,6 +937,7 @@ def make_row(fields, article, row_id):
             "additional_sources": "",
             "confidence": enums["confidence"],
             "prompt_version": PROMPT_VERSION,
+            "reviewed": "no",  # a person sets this to "yes" after checking the row
         }
     )
     return row
@@ -939,6 +1006,7 @@ def build_dashboard_json(rows):
     return {
         "generated_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total_incidents": len(rows),
+        "reviewed_count": sum(1 for r in rows if (r.get("reviewed") or "").strip().lower() == "yes"),
         "total_sources": total_sources,
         "date_range": {
             "earliest": min(incident_dates) if incident_dates else None,
@@ -977,6 +1045,7 @@ def build_dashboard_json(rows):
                     u for u in (r.get("additional_sources") or "").split() if u
                 ],
                 "confidence": r.get("confidence", ""),
+                "reviewed": (r.get("reviewed") or "no").strip().lower() == "yes",
             }
             for r in recent
         ],
@@ -1047,20 +1116,30 @@ def main():
     ap.add_argument("--discover-only", action="store_true", help="list candidate URLs and exit (no LLM)")
     ap.add_argument("--dry-run", action="store_true", help="classify but do not write any files")
     ap.add_argument("--rebuild-json", action="store_true", help="rebuild dashboard JSON from the CSV and exit")
+    ap.add_argument("--exclude", nargs="+", metavar="URL",
+                    help="add URL(s) to the exclusion list (a deleted false positive) and exit")
     args = ap.parse_args()
+
+    if args.exclude:
+        n = add_excluded(args.exclude)
+        print(f"Added {n} URL(s) to {EXCLUDED_FILE} ({len(load_excluded())} total).")
+        return
 
     if args.rebuild_json:
         rows = load_incidents()
         data = write_dashboard_json(rows)
         publish_csv_copy()
-        print(f"Rebuilt {DASHBOARD_JSON} from {len(rows)} incidents.")
+        print(f"Rebuilt {DASHBOARD_JSON} from {len(rows)} incidents "
+              f"({data['reviewed_count']} human-reviewed).")
         return
 
     incidents = load_incidents()
     seen_urls = load_seen_urls()
-    print(f"Loaded {len(incidents)} existing incidents, {len(seen_urls)} seen URLs.\n")
+    excluded = load_excluded()
+    print(f"Loaded {len(incidents)} existing incidents, {len(seen_urls)} seen URLs, "
+          f"{len(excluded)} excluded URLs.\n")
 
-    candidates, failed_queries = discover(args.days, seen_urls)
+    candidates, failed_queries = discover(args.days, seen_urls, excluded)
 
     if args.discover_only:
         print("\n--- candidates ---")
@@ -1095,6 +1174,9 @@ def main():
             print(f"  skip (unresolved)  {a['title'][:60]}")
             continue
         # Checks deferred out of discover() until the real publisher URL exists.
+        if a["url"] in excluded:
+            print(f"  skip (excluded by review)  {_domain(a['url'])}")
+            continue
         if _blocked(a["url"]):
             print(f"  skip (blocked domain)  {_domain(a['url'])}")
             continue

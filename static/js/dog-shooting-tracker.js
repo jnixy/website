@@ -83,7 +83,8 @@
       ? '<div class="dst-stat-delta ' + deltaClass + '">' + deltaSign + deltaPct + '% vs. ' + s.prior_year + ' same point</div>'
       : '';
 
-    document.getElementById('dst-stats').innerHTML = '' +
+    var statsHost = document.getElementById('dst-stats');
+    if (statsHost) statsHost.innerHTML = '' +
       '<div class="dst-stat-tile">' +
         '<div class="dst-stat-value">' + (data.total_incidents || 0).toLocaleString() + '</div>' +
         '<div class="dst-stat-label">Incidents recorded</div>' +
@@ -97,14 +98,23 @@
         '<div class="dst-stat-label">Most recent incident</div>' +
       '</div>';
 
+    var meta = document.getElementById('dst-meta');
+    if (!meta) return;
     var range = '';
     if (data.date_range && data.date_range.earliest) {
       range = 'Incidents from ' + formatDateTime(data.date_range.earliest) + ' to ' +
         formatDateTime(data.date_range.latest) + '. ';
     }
-    document.getElementById('dst-meta').innerHTML =
+    var reviewed = '';
+    if (data.total_incidents) {
+      var rc = data.reviewed_count || 0;
+      reviewed = rc + ' of ' + data.total_incidents + ' incident' +
+        (data.total_incidents === 1 ? '' : 's') + ' human-verified. ';
+    }
+    meta.innerHTML =
       range +
       'Compiled from ' + (data.total_sources || 0).toLocaleString() + ' news reports. ' +
+      reviewed +
       'Every count is a floor — see the notes below the charts. ' +
       'Updated ' + formatDateTime(data.generated_at) +
       ' &middot; <a href="' + CSV_URL + '" download>Download the data (CSV)</a>.';
@@ -217,8 +227,10 @@
       if (r.dog_outcome && r.dog_outcome !== 'unknown') tags.push(OUTCOME_LABELS[r.dog_outcome] || r.dog_outcome);
       if (r.circumstance && r.circumstance !== 'unknown') tags.push(titleCase(r.circumstance));
       if (r.human_injured_by_fire === 'yes') tags.push('Person injured by gunfire');
+      var pending = r.reviewed ? '' :
+        ' <span class="dst-tag dst-tag-pending" title="Auto-extracted; not yet checked against the sources by a person">Unverified</span>';
       html += '<li class="dst-incident">' +
-        '<div class="dst-incident-head"><span class="dst-incident-loc">' + escapeHtml(loc || 'Location unknown') +
+        '<div class="dst-incident-head"><span class="dst-incident-loc">' + escapeHtml(loc || 'Location unknown') + pending +
         '</span><span class="dst-incident-date">' + escapeHtml(when) + '</span></div>' +
         (r.agency_name ? '<div class="dst-incident-agency">' + escapeHtml(r.agency_name) + '</div>' : '') +
         (r.summary ? '<p class="dst-incident-summary">' + escapeHtml(r.summary) + '</p>' : '') +

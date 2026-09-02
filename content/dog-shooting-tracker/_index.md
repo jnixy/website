@@ -70,8 +70,9 @@ No government agency tracks how often police shoot dogs. This tracker is assembl
         article text, and uses a language model to decide whether the story describes a specific incident
         that fits the scope below and to pull out structured details (date, location, agency, circumstance,
         outcome). A second model pass merges multiple articles about the same event into one record.
-        New and low-confidence records are reviewed by a person before they are trusted. The full dataset
-        is downloadable as CSV, and corrections are welcome via
+        Every record starts machine-extracted and is marked <strong>Unverified</strong> until a person
+        checks it against the sources; the line above shows how many have been verified so far. The full
+        dataset is downloadable as CSV, and corrections are welcome via
         <a href="https://github.com/jnixy/website/issues">GitHub issues</a>.
       </p>
       <h3>What counts</h3>

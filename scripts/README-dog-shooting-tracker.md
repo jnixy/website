@@ -12,11 +12,11 @@ result and Netlify redeploys).
 
 | Stage | What happens |
 |---|---|
-| discover | Google News RSS (`GOOGLE_NEWS_PHRASINGS`, the primary source) + GDELT DOC 2.0 API (`GDELT_QUERIES`, best-effort). Blocked domains, non-US TLDs, and already-seen URLs are dropped. Queries are single quoted phrases. A GDELT query whose retries all fail is logged `FAIL` and kept distinct from a genuine zero, but does **not** fail the run — GDELT is unreliable from GitHub Actions and Google News carries discovery. |
+| discover | Google News RSS (`GOOGLE_NEWS_PHRASINGS`, the primary source) + GDELT DOC 2.0 API (`GDELT_QUERIES`, best-effort). Blocked domains, non-US TLDs, already-seen URLs, and human-excluded URLs (`datasets/dog-shootings-excluded.json`) are dropped. Queries are single quoted phrases. A GDELT query whose retries all fail is logged `FAIL` and kept distinct from a genuine zero, but does **not** fail the run — GDELT is unreliable from GitHub Actions and Google News carries discovery. |
 | extract | Article body text via `trafilatura`. If the page is video- or script-only (no body text), the article is **not** dropped — it goes to classify with a headline-only flag and stricter rules. |
 | classify | One `claude-haiku-4-5` call per article (forced tool call), given the article's **publication date** as the anchor for resolving "Thursday" / "this week". Returns `qualifies` plus structured fields. `PROMPT_VERSION` is stamped on every row. Date guards: the model must quote its evidence in `incident_date_source` (no quote → date blanked); a resolved year more than one year before publication with `litigation = none` is dropped (mis-resolved relative date). Enum drift is coerced onto the vocab. A row with no `state` is dropped as unplaceable. |
 | dedupe | Candidates are blocked by `state` (or `city` when the row has no state) — no date window. One `claude-haiku-4-5` call decides same-incident **from the summary alone, ignoring dates** (they are often wrong): same agency, same metro, same described sequence of events / named officials. A match appends the URL to the existing row's `additional_sources`; no new row. |
-| store | Append to `datasets/dog-shootings.csv`. Update `datasets/dog-shootings-seen-urls.json`. |
+| store | Append new incidents to `datasets/dog-shootings.csv` (`reviewed = no`). Update `datasets/dog-shootings-seen-urls.json`. Existing rows' fields are never overwritten — only `additional_sources` grows on a dedupe match. |
 | validate | Parse check, no future dates, enum vocab, no duplicate ids, no blocklisted source domains. Aborts the write if >50% of processed articles errored. |
 | emit | `static/data/dog-shooting-tracker.json` (aggregates + recent incidents) and `static/data/dog-shootings.csv` (published copy). |
 
@@ -44,8 +44,11 @@ training, procurement, or litigation with no specific incident described.
 agency_type, on_duty, officer_named, dogs_fired_at, dog_outcome, dog_breed_reported,
 dog_restrained, circumstance, warrant_type, human_injured_by_fire, dept_response,
 litigation, summary, source_name, source_url, additional_sources, confidence,
-prompt_version`
+prompt_version, reviewed`
 
+- `reviewed` ∈ {yes, no} — `no` on every automated row; a person sets it to `yes`
+  after checking the row against its sources. The dashboard shows "N of M
+  human-verified" and tags unverified incidents.
 - `agency_type` ∈ {municipal PD, county SO, state, federal, tribal, campus, other, unknown}
 - `dog_outcome` ∈ {killed, injured-survived, injured-euthanized, unharmed, unknown}
 - `circumstance` ∈ {welfare check, warrant service, wrong address, traffic stop,
@@ -56,11 +59,37 @@ prompt_version`
   statement, disciplinary record). Otherwise blank. The agency is always named.
 - `dog_breed_reported` — verbatim from the source (breed IDs in news are unreliable).
 
-## Corrections
+## Human review & corrections
 
-Edit `datasets/dog-shootings.csv` directly and commit, or open a
-[GitHub issue](https://github.com/jnixy/website/issues). Git history is the audit
-log. After editing the CSV, run `--rebuild-json` to refresh the dashboard.
+Git history is the audit log. An automated run **never overwrites an existing
+row's fields** — it only appends new rows and grows `additional_sources` — so
+hand edits are safe against the daily job. `validate` runs on the combined set
+before every automated write, so a broken manual edit (bad enum, future date,
+duplicate `id`) aborts that run rather than corrupting the data.
+
+**To fix a field or vet a row:** edit `datasets/dog-shootings.csv` directly, set
+`reviewed` to `yes` once you've checked the row against its sources, then
+`python scripts/generate_dog_shooting_tracker.py --rebuild-json` and commit.
+
+**To remove a false positive:** delete the row (leave the other `id`s alone —
+gaps are fine), then blocklist its article(s) so nothing re-creates it:
+
+```bash
+python scripts/generate_dog_shooting_tracker.py --exclude <source_url> [<additional_source_url> ...]
+python scripts/generate_dog_shooting_tracker.py --rebuild-json
+```
+
+`--exclude` appends the URLs (with a dated note) to
+`datasets/dog-shootings-excluded.json`; `discover()` and the classify loop skip
+excluded URLs the same way they skip already-seen ones. You can also edit that
+JSON by hand — it accepts a bare list of URL strings or `{"url": ..., "note": ...}`
+objects.
+
+Do **not** add a CSV column without also adding it to `CSV_FIELDS` in the script
+— `save_incidents()` drops unknown columns on the next automated run.
+
+Corrections from outside can also come in via a
+[GitHub issue](https://github.com/jnixy/website/issues).
 
 ## Running
 
@@ -79,6 +108,9 @@ python scripts/generate_dog_shooting_tracker.py --dry-run
 
 # Rebuild static/data/dog-shooting-tracker.json from the CSV (after manual edits)
 python scripts/generate_dog_shooting_tracker.py --rebuild-json
+
+# Blocklist a false-positive article (after deleting its row), then exit
+python scripts/generate_dog_shooting_tracker.py --exclude https://example.com/story
 ```
 
 CI: `.github/workflows/update-dog-shooting-tracker.yml`. Requires the

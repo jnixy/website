@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-09-02T00:36:26Z",
+  "generated_at": "2026-09-02T00:50:44Z",
   "total_incidents": 6,
+  "reviewed_count": 0,
   "total_sources": 22,
   "date_range": {
     "earliest": "2026-08-12",
@@ -112,7 +113,8 @@
         "https://mynewsla.com/crime/2026/08/27/lapd-shoots-dog-that-attacked-officer-in-green-meadows/",
         "https://www.yahoo.com/news/videos/lapd-officer-shoots-dog-being-232600059.html"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "reviewed": false
     },
     {
       "incident_date": "2026-08-26",
@@ -129,7 +131,8 @@
       "additional_sources": [
         "https://www.wcnc.com/article/news/local/4-people-hurt-in-northwest-charlotte-dog-attack/275-caa2df40-7bc1-4bdb-b28f-26985dd577c7"
       ],
-      "confidence": "low"
+      "confidence": "low",
+      "reviewed": false
     },
     {
       "incident_date": "2026-08-21",
@@ -153,7 +156,8 @@
         "https://www.yahoo.com/news/videos/la-county-deputy-shoots-dog-232500958.html",
         "https://ktla.com/news/local-news/deputy-shoots-pit-bull-sunland-recreation-center/"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "reviewed": false
     },
     {
       "incident_date": "2026-08-13",
@@ -170,7 +174,8 @@
       "additional_sources": [
         "https://www.greenvillechronicle.com/s/5082/Hopkins-County-Deputy-Fatally-Shoots-Dog-While-Attempting-to-Serve-High-Risk-Felony-Warrant.php"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "reviewed": false
     },
     {
       "incident_date": "2026-08-12",
@@ -185,7 +190,8 @@
       "source_url": "https://www.lehighvalleylive.com/allentown/2026/08/loose-dog-shot-by-officer-after-attacking-3-in-allentown-police-say.html",
       "source_name": "lehighvalleylive",
       "additional_sources": [],
-      "confidence": "low"
+      "confidence": "low",
+      "reviewed": false
     },
     {
       "incident_date": "2026-08-12",
@@ -203,7 +209,8 @@
         "https://www.yahoo.com/news/us/articles/tfpd-officer-shoots-dog-twin-234429901.html",
         "https://www.kmvt.com/video/2026/08/13/dog-released-after-being-shot-by-twin-falls-police-officer/"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "reviewed": false
     }
   ]
 }
