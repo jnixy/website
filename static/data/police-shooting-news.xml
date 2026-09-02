@@ -5,7 +5,31 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2026 11:35:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 11:10:57 +0000</lastBuildDate>
+    <item>
+      <title>Deputy shoots suspect after pursuit in Abingdon , sheriff says</title>
+      <link>https://www.wbaltv.com/article/abingdon-pursuit-cotswold-court-harford-county-sheriff/73582840</link>
+      <description/>
+      <pubDate>Tue, 01 Sep 2026 21:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wbaltv.com</source>
+    </item>
+    <item>
+      <title>Maryland carjacking suspect hits officer , shot by police , body cam video shows</title>
+      <link>https://www.foxnews.com/us/watch-maryland-carjacking-suspect-plows-toward-cops-open-fire</link>
+      <description/>
+      <pubDate>Tue, 01 Sep 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>foxnews.com</source>
+    </item>
+    <item>
+      <title>Woman shot by officer last week charged , had previous run - ins with Las Vegas police - Las Vegas Sun News</title>
+      <link>https://lasvegassun.com/news/2026/aug/31/woman-shot-by-officer-last-week-charged-had-previo/</link>
+      <description/>
+      <pubDate>Tue, 01 Sep 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>lasvegassun.com</source>
+    </item>
     <item>
       <title>Brother of man fatally shot by ICE agent in Houston released after more than 50 days in custody</title>
       <link>https://www.click2houston.com/news/local/2026/08/31/brother-of-man-fatally-shot-by-ice-agent-in-houston-released-after-more-than-50-days-in-custody/</link>
@@ -13,6 +37,22 @@
       <pubDate>Mon, 31 Aug 2026 04:15:00 +0000</pubDate>
       <category>incident</category>
       <source>click2houston.com</source>
+    </item>
+    <item>
+      <title>South Carolina Police Officer Killed in Shootout With Career Criminal ; One Other Officer Injured</title>
+      <link>https://townhall.com/news/josephchalfant/2026/08/30/police-officer-killed-in-shootout-with-career-criminal-one-other-officer-injured-n2682130</link>
+      <description/>
+      <pubDate>Sun, 30 Aug 2026 18:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>townhall.com</source>
+    </item>
+    <item>
+      <title>Columbia officer killed , another recovering after responding to domestic violence call</title>
+      <link>https://wpde.com/newsletter-daily/columbia-officer-killed-another-recovering-after-responding-to-domestic-violence-call</link>
+      <description/>
+      <pubDate>Sun, 30 Aug 2026 16:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wpde.com</source>
     </item>
     <item>
       <title>At least one Lathrop officer shoots gun on Pamela Court</title>
@@ -365,46 +405,6 @@
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
       <category>incident</category>
       <source>kwtx.com</source>
-    </item>
-    <item>
-      <title>Dallas ISD Officer Shot , Critically Wounded While Helping Person Near Sam Club | News Talk WBAP 820 AM and 93 . 3 FM</title>
-      <link>https://www.wbap.com/2026/08/06/dallas-isd-officer-shot-critically-wounded-while-helping-person-near-sams-club/</link>
-      <description/>
-      <pubDate>Thu, 06 Aug 2026 23:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wbap.com</source>
-    </item>
-    <item>
-      <title>Dallas ISD police officer shot by person he was helping in North Dallas , officials says</title>
-      <link>https://www.keranews.org/news/2026-08-06/two-police-shootings-north-dallas-crime</link>
-      <description/>
-      <pubDate>Thu, 06 Aug 2026 22:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>keranews.org</source>
-    </item>
-    <item>
-      <title>Dallas ISD officer shot in Sam Club parking lot , injuries are serious</title>
-      <link>https://www.kwtx.com/2026/08/06/dallas-isd-officer-shot-sams-club-parking-lot-injuries-are-critical/</link>
-      <description/>
-      <pubDate>Thu, 06 Aug 2026 19:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kwtx.com</source>
-    </item>
-    <item>
-      <title>A border agent killed a migrant who crossed into Starr County . Eight months later , it still under investigation . </title>
-      <link>https://www.click2houston.com/news/texas/2026/08/06/a-border-agent-killed-a-migrant-who-crossed-into-starr-county-eight-months-later-its-still-under-investigation/</link>
-      <description/>
-      <pubDate>Thu, 06 Aug 2026 14:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>click2houston.com</source>
-    </item>
-    <item>
-      <title>A border agent killed a migrant who crossed into Starr County . Eight months later , it still under investigation . – The Gilmer Mirror</title>
-      <link>https://www.gilmermirror.com/2026/08/06/a-border-agent-killed-a-migrant-who-crossed-into-starr-county-eight-months-later-its-still-under-investigation/</link>
-      <description/>
-      <pubDate>Thu, 06 Aug 2026 13:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>gilmermirror.com</source>
     </item>
   </channel>
 </rss>
