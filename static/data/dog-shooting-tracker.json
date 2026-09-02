@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T19:20:21Z",
-  "total_incidents": 10,
+  "generated_at": "2026-09-02T19:26:59Z",
+  "total_incidents": 8,
   "reviewed_count": 0,
-  "total_sources": 36,
+  "total_sources": 34,
   "date_range": {
     "earliest": "2026-08-12",
     "latest": "2026-08-27"
@@ -23,7 +23,7 @@
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 6
+      "count": 4
     },
     {
       "label": "unknown",
@@ -35,10 +35,6 @@
     }
   ],
   "circumstance_breakdown": [
-    {
-      "label": "unknown",
-      "count": 3
-    },
     {
       "label": "loose/roaming dog",
       "count": 2
@@ -58,6 +54,10 @@
     {
       "label": "pursuit",
       "count": 1
+    },
+    {
+      "label": "unknown",
+      "count": 1
     }
   ],
   "agency_type_breakdown": [
@@ -67,11 +67,11 @@
     },
     {
       "label": "municipal PD",
-      "count": 3
+      "count": 2
     },
     {
       "label": "unknown",
-      "count": 3
+      "count": 2
     }
   ],
   "state_counts": [
@@ -83,7 +83,7 @@
     {
       "state": "NC",
       "name": "North Carolina",
-      "count": 2
+      "count": 1
     },
     {
       "state": "TX",
@@ -108,11 +108,6 @@
     {
       "state": "WA",
       "name": "Washington",
-      "count": 1
-    },
-    {
-      "state": "NY",
-      "name": "New York",
       "count": 1
     }
   ],
