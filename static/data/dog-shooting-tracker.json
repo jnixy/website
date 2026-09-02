@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T19:26:59Z",
-  "total_incidents": 8,
-  "reviewed_count": 0,
-  "total_sources": 34,
+  "generated_at": "2026-09-02T19:58:36Z",
+  "total_incidents": 9,
+  "reviewed_count": 9,
+  "total_sources": 37,
   "date_range": {
     "earliest": "2026-08-12",
     "latest": "2026-08-27"
@@ -10,20 +10,20 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 6,
+    "current_year_to_date": 9,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 245
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 6
+      "count": 9
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 4
+      "count": 5
     },
     {
       "label": "unknown",
@@ -44,11 +44,11 @@
       "count": 2
     },
     {
-      "label": "domestic call",
-      "count": 1
+      "label": "unrelated call response",
+      "count": 2
     },
     {
-      "label": "unrelated call response",
+      "label": "domestic call",
       "count": 1
     },
     {
@@ -56,22 +56,22 @@
       "count": 1
     },
     {
-      "label": "unknown",
+      "label": "other",
       "count": 1
     }
   ],
   "agency_type_breakdown": [
     {
+      "label": "municipal PD",
+      "count": 4
+    },
+    {
       "label": "county SO",
       "count": 4
     },
     {
-      "label": "municipal PD",
-      "count": 2
-    },
-    {
       "label": "unknown",
-      "count": 2
+      "count": 1
     }
   ],
   "state_counts": [
@@ -109,6 +109,11 @@
       "state": "WA",
       "name": "Washington",
       "count": 1
+    },
+    {
+      "state": "IA",
+      "name": "Iowa",
+      "count": 1
     }
   ],
   "human_injured_count": 0,
@@ -132,7 +137,7 @@
         "https://www.yahoo.com/news/videos/lapd-officer-shoots-dog-being-232600059.html"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-08-26",
@@ -150,7 +155,23 @@
         "https://www.wcnc.com/article/news/local/4-people-hurt-in-northwest-charlotte-dog-attack/275-caa2df40-7bc1-4bdb-b28f-26985dd577c7"
       ],
       "confidence": "low",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-08-25",
+      "date_precision": "day",
+      "city": "Palm Beach",
+      "state": "FL",
+      "agency_name": "Palm Beach Police Department",
+      "circumstance": "pursuit",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "Police killed a dog described as having lunged or bitten an officer during or after a car chase near Mar-a-Lago in Palm Beach, Florida.",
+      "source_url": "https://www.palmbeachpost.com/story/news/crime/2026/08/26/police-shoot-kill-dog-they-say-lunged-after-car-chase-near-trumps-mar-a-lago-palm-beach-florida/91472147007/",
+      "source_name": "The Palm Beach Post",
+      "additional_sources": [],
+      "confidence": "low",
+      "reviewed": true
     },
     {
       "incident_date": "2026-08-21",
@@ -176,7 +197,26 @@
         "https://www.yahoo.com/news/articles/l-deputies-shoot-pit-bull-011821653.html"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-08-19",
+      "date_precision": "day",
+      "city": "Waterloo",
+      "state": "IA",
+      "agency_name": "Waterloo Police Department",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "Waterloo police responded to a report of two dogs fighting in a backyard near 4th and Locust streets on Aug. 19, 2026. As the owners tried to separate them the larger dog became aggressive and an officer shot and killed it; both owners were bitten and no person was struck by gunfire.",
+      "source_url": "https://www.kwwl.com/news/waterloo-officer-kills-dog-after-it-attacks-owner-smaller-dog/article_189a35ba-0c1d-4365-9496-7d15c5cefc18.html",
+      "source_name": "KWWL",
+      "additional_sources": [
+        "https://wcfcourier.com/news/local/police-officer-shoots-kills-attacking-pit-bull/article_71841479-483b-5b62-a6d3-5dea79f49f95.html",
+        "https://kwayradio.com/police-shot-and-killed-dog-involved-in-fight/"
+      ],
+      "confidence": "high",
+      "reviewed": true
     },
     {
       "incident_date": "2026-08-13",
@@ -196,7 +236,30 @@
         "https://www.cbs19.tv/article/news/local/hopkins-county-deputy-shoots-dog-while-serving-high-risk-felony-warrant/501-50b767ed-ee3f-4d16-bfaf-57d885d47a29"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-08-13",
+      "date_precision": "approximate",
+      "city": "Graham",
+      "state": "WA",
+      "agency_name": "Pierce County Sheriff's Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "Deputies in Graham, Washington killed an aggressive dog near the scene where a 5-year-old girl was found dead after disappearing.",
+      "source_url": "https://abc45.com/news/nation-world/gallery/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby?photo=2",
+      "source_name": "WXLV",
+      "additional_sources": [
+        "https://mynorthwest.com/local/large-animal-attack-graham/4266289?show=comments",
+        "https://www.king5.com/article/news/community/5-year-old-girl-found-dead-pierce-county-yard-deputies-shoot-aggressive-dog/281-a939178d-2810-4bd7-8ae6-062af6d975b5",
+        "https://fox17.com/news/nation-world/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby",
+        "https://abcnews4.com/news/nation-world/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby",
+        "https://thenationaldesk.com/news/americas-news-now/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby?photo=2",
+        "https://mynorthwest.com/local/graham-aggressive-dog-dead/4266000"
+      ],
+      "confidence": "low",
+      "reviewed": true
     },
     {
       "incident_date": "2026-08-12",
@@ -214,7 +277,7 @@
         "https://www.mcall.com/2026/08/13/allentown-police-officer-fatally-shoots-loose-dog-biting-people/"
       ],
       "confidence": "low",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-08-12",
@@ -233,7 +296,7 @@
         "https://www.kmvt.com/video/2026/08/13/dog-released-after-being-shot-by-twin-falls-police-officer/"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }
