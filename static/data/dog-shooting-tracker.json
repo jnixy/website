@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T00:08:09Z",
+  "generated_at": "2026-09-02T00:36:26Z",
   "total_incidents": 6,
   "total_sources": 22,
   "date_range": {
@@ -9,14 +9,14 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 4,
+    "current_year_to_date": 6,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 245
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 4
+      "count": 6
     }
   ],
   "outcome_breakdown": [
@@ -115,6 +115,23 @@
       "confidence": "high"
     },
     {
+      "incident_date": "2026-08-26",
+      "date_precision": "day",
+      "city": "Charlotte",
+      "state": "NC",
+      "agency_name": "Sheriff's Office",
+      "circumstance": "loose/roaming dog",
+      "dog_outcome": "unknown",
+      "human_injured_by_fire": "unknown",
+      "summary": "A sheriff's deputy fired a gun at a dog during a pack attack in northwest Charlotte that injured four people.",
+      "source_url": "https://www.wcnc.com/video/news/seven-loose-dogs-attack-couple-in-northwest-charlotte/275-141cb8f5-2bb3-4e08-a914-979400cd889d",
+      "source_name": "WCNC",
+      "additional_sources": [
+        "https://www.wcnc.com/article/news/local/4-people-hurt-in-northwest-charlotte-dog-attack/275-caa2df40-7bc1-4bdb-b28f-26985dd577c7"
+      ],
+      "confidence": "low"
+    },
+    {
       "incident_date": "2026-08-21",
       "date_precision": "day",
       "city": "Sunland Park",
@@ -154,6 +171,21 @@
         "https://www.greenvillechronicle.com/s/5082/Hopkins-County-Deputy-Fatally-Shoots-Dog-While-Attempting-to-Serve-High-Risk-Felony-Warrant.php"
       ],
       "confidence": "high"
+    },
+    {
+      "incident_date": "2026-08-12",
+      "date_precision": "day",
+      "city": "Allentown",
+      "state": "PA",
+      "agency_name": "",
+      "circumstance": "loose/roaming dog",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "An officer in Allentown shot a loose dog after it attacked three people.",
+      "source_url": "https://www.lehighvalleylive.com/allentown/2026/08/loose-dog-shot-by-officer-after-attacking-3-in-allentown-police-say.html",
+      "source_name": "lehighvalleylive",
+      "additional_sources": [],
+      "confidence": "low"
     },
     {
       "incident_date": "2026-08-12",
