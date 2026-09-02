@@ -110,15 +110,33 @@
       ' &middot; <a href="' + CSV_URL + '" download>Download the data (CSV)</a>.';
   }
 
+  // Counts are integers — force whole-number ticks and no thousands separator,
+  // and keep the tick count sane as the max grows.
+  function countAxis(values, extra) {
+    var max = Math.max.apply(null, [1].concat(values || []));
+    var ax = {
+      rangemode: 'tozero',
+      tick0: 0,
+      dtick: Math.max(1, Math.ceil(max / 8)),
+      tickformat: 'd',
+      gridcolor: themeColors().grid
+    };
+    return Object.assign(ax, extra || {});
+  }
+
   function renderYearly(data) {
     var yc = data.yearly_counts || [];
     Plotly.newPlot('dst-chart-yearly', [{
-      x: yc.map(function (d) { return d.year; }),
+      x: yc.map(function (d) { return String(d.year); }),
       y: yc.map(function (d) { return d.count; }),
       type: 'bar',
       marker: { color: PALETTE[0] },
       hovertemplate: '%{x}: %{y} incidents<extra></extra>'
-    }], baseLayout({ yaxis: { title: 'Incidents', gridcolor: themeColors().grid } }), PLOTLY_CONFIG);
+    }], baseLayout({
+      // Category axis: shows exactly the year(s) present, no fractional years.
+      xaxis: { type: 'category', gridcolor: themeColors().grid },
+      yaxis: countAxis(yc.map(function (d) { return d.count; }), { title: 'Incidents' })
+    }), PLOTLY_CONFIG);
   }
 
   function renderHBar(elementId, breakdown, labelMap) {
@@ -134,6 +152,7 @@
       hovertemplate: '%{y}: %{x}<extra></extra>'
     }], baseLayout({
       margin: { t: 10, r: 20, l: 150, b: 40 },
+      xaxis: countAxis(counts),
       yaxis: { automargin: true, gridcolor: themeColors().grid }
     }), PLOTLY_CONFIG);
   }
@@ -141,6 +160,7 @@
   function renderStateMap(data) {
     var counts = data.state_counts || [];
     var colors = themeColors();
+    var zmax = Math.max.apply(null, [1].concat(counts.map(function (r) { return r.count; })));
     Plotly.newPlot('dst-chart-states', [{
       type: 'choropleth',
       locationmode: 'USA-states',
@@ -148,8 +168,16 @@
       z: counts.map(function (r) { return r.count; }),
       customdata: counts.map(function (r) { return [r.name]; }),
       colorscale: [[0, 'rgba(21,101,192,0.10)'], [1, PALETTE[0]]],
+      zmin: 0,
+      zmax: zmax,
       marker: { line: { color: colors.grid, width: 0.5 } },
-      colorbar: { title: { text: 'Incidents', font: { color: colors.font } }, tickfont: { color: colors.font } },
+      colorbar: {
+        title: { text: 'Incidents', font: { color: colors.font } },
+        tickfont: { color: colors.font },
+        tick0: 0,
+        dtick: Math.max(1, Math.ceil(zmax / 6)),
+        tickformat: 'd'
+      },
       hovertemplate: '%{customdata[0]}: %{z} incidents<extra></extra>'
     }], baseLayout({
       margin: { t: 10, r: 10, l: 10, b: 10 },
