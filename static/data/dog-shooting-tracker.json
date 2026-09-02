@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-02T00:50:44Z",
-  "total_incidents": 6,
+  "generated_at": "2026-09-02T19:20:21Z",
+  "total_incidents": 10,
   "reviewed_count": 0,
-  "total_sources": 22,
+  "total_sources": 36,
   "date_range": {
     "earliest": "2026-08-12",
     "latest": "2026-08-27"
@@ -22,19 +22,23 @@
   ],
   "outcome_breakdown": [
     {
+      "label": "killed",
+      "count": 6
+    },
+    {
       "label": "unknown",
       "count": 2
     },
     {
       "label": "injured-survived",
       "count": 2
-    },
-    {
-      "label": "killed",
-      "count": 2
     }
   ],
   "circumstance_breakdown": [
+    {
+      "label": "unknown",
+      "count": 3
+    },
     {
       "label": "loose/roaming dog",
       "count": 2
@@ -50,20 +54,24 @@
     {
       "label": "unrelated call response",
       "count": 1
+    },
+    {
+      "label": "pursuit",
+      "count": 1
     }
   ],
   "agency_type_breakdown": [
     {
       "label": "county SO",
-      "count": 3
+      "count": 4
     },
     {
       "label": "municipal PD",
-      "count": 2
+      "count": 3
     },
     {
       "label": "unknown",
-      "count": 1
+      "count": 3
     }
   ],
   "state_counts": [
@@ -75,7 +83,7 @@
     {
       "state": "NC",
       "name": "North Carolina",
-      "count": 1
+      "count": 2
     },
     {
       "state": "TX",
@@ -90,6 +98,21 @@
     {
       "state": "ID",
       "name": "Idaho",
+      "count": 1
+    },
+    {
+      "state": "FL",
+      "name": "Florida",
+      "count": 1
+    },
+    {
+      "state": "WA",
+      "name": "Washington",
+      "count": 1
+    },
+    {
+      "state": "NY",
+      "name": "New York",
       "count": 1
     }
   ],
@@ -154,7 +177,8 @@
         "https://www.cbsnews.com/losangeles/news/la-county-deputy-shoots-dog-while-arresting-grand-theft-suspect-at-park/",
         "https://www.nbclosangeles.com/video/news/local/deputy-shoots-dog-sunland/3931932/",
         "https://www.yahoo.com/news/videos/la-county-deputy-shoots-dog-232500958.html",
-        "https://ktla.com/news/local-news/deputy-shoots-pit-bull-sunland-recreation-center/"
+        "https://ktla.com/news/local-news/deputy-shoots-pit-bull-sunland-recreation-center/",
+        "https://www.yahoo.com/news/articles/l-deputies-shoot-pit-bull-011821653.html"
       ],
       "confidence": "high",
       "reviewed": false
@@ -172,7 +196,9 @@
       "source_url": "https://www.yahoo.com/news/us/articles/hopkins-county-deputy-shoots-dog-155912994.html",
       "source_name": "Yahoo",
       "additional_sources": [
-        "https://www.greenvillechronicle.com/s/5082/Hopkins-County-Deputy-Fatally-Shoots-Dog-While-Attempting-to-Serve-High-Risk-Felony-Warrant.php"
+        "https://www.greenvillechronicle.com/s/5082/Hopkins-County-Deputy-Fatally-Shoots-Dog-While-Attempting-to-Serve-High-Risk-Felony-Warrant.php",
+        "https://www.kltv.com/2026/08/14/hopkins-county-deputy-kills-dog-while-serving-warrant-wrong-residence/",
+        "https://www.cbs19.tv/article/news/local/hopkins-county-deputy-shoots-dog-while-serving-high-risk-felony-warrant/501-50b767ed-ee3f-4d16-bfaf-57d885d47a29"
       ],
       "confidence": "high",
       "reviewed": false
@@ -189,7 +215,9 @@
       "summary": "An officer in Allentown shot a loose dog after it attacked three people.",
       "source_url": "https://www.lehighvalleylive.com/allentown/2026/08/loose-dog-shot-by-officer-after-attacking-3-in-allentown-police-say.html",
       "source_name": "lehighvalleylive",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://www.mcall.com/2026/08/13/allentown-police-officer-fatally-shoots-loose-dog-biting-people/"
+      ],
       "confidence": "low",
       "reviewed": false
     },
