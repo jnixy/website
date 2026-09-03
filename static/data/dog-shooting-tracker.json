@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-09-03T17:25:45Z",
-  "total_incidents": 22,
+  "generated_at": "2026-09-03T17:58:07Z",
+  "total_incidents": 39,
   "reviewed_count": 9,
-  "total_sources": 56,
+  "total_sources": 94,
   "date_range": {
-    "earliest": "2025-09-05",
+    "earliest": "2025-08-01",
     "latest": "2026-08-27"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 17,
-    "prior_year_same_point": 0,
+    "current_year_to_date": 28,
+    "prior_year_same_point": 2,
     "as_of_day_of_year": 246
   },
   "yearly_counts": [
     {
       "year": 2025,
-      "count": 1
+      "count": 4
     },
     {
       "year": 2026,
-      "count": 17
+      "count": 28
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 14
+      "count": 28
+    },
+    {
+      "label": "injured-survived",
+      "count": 6
     },
     {
       "label": "unknown",
       "count": 4
-    },
-    {
-      "label": "injured-survived",
-      "count": 3
     },
     {
       "label": "unharmed",
@@ -45,31 +45,35 @@
   "circumstance_breakdown": [
     {
       "label": "unrelated call response",
-      "count": 8
-    },
-    {
-      "label": "warrant service",
-      "count": 3
+      "count": 11
     },
     {
       "label": "other",
-      "count": 3
-    },
-    {
-      "label": "loose/roaming dog",
-      "count": 2
+      "count": 6
     },
     {
       "label": "unknown",
-      "count": 2
+      "count": 5
     },
     {
       "label": "welfare check",
-      "count": 2
+      "count": 5
+    },
+    {
+      "label": "warrant service",
+      "count": 4
+    },
+    {
+      "label": "loose/roaming dog",
+      "count": 3
     },
     {
       "label": "domestic call",
-      "count": 1
+      "count": 2
+    },
+    {
+      "label": "traffic stop",
+      "count": 2
     },
     {
       "label": "pursuit",
@@ -79,41 +83,69 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 12
+      "count": 21
     },
     {
       "label": "county SO",
-      "count": 8
+      "count": 13
     },
     {
       "label": "unknown",
-      "count": 2
+      "count": 3
+    },
+    {
+      "label": "federal",
+      "count": 1
+    },
+    {
+      "label": "state",
+      "count": 1
     }
   ],
   "state_counts": [
     {
       "state": "CA",
       "name": "California",
-      "count": 4
+      "count": 8
     },
     {
       "state": "TX",
       "name": "Texas",
-      "count": 2
+      "count": 3
     },
     {
       "state": "FL",
       "name": "Florida",
+      "count": 3
+    },
+    {
+      "state": "NY",
+      "name": "New York",
+      "count": 3
+    },
+    {
+      "state": "WI",
+      "name": "Wisconsin",
+      "count": 3
+    },
+    {
+      "state": "PA",
+      "name": "Pennsylvania",
+      "count": 2
+    },
+    {
+      "state": "AR",
+      "name": "Arkansas",
+      "count": 2
+    },
+    {
+      "state": "MD",
+      "name": "Maryland",
       "count": 2
     },
     {
       "state": "NC",
       "name": "North Carolina",
-      "count": 1
-    },
-    {
-      "state": "PA",
-      "name": "Pennsylvania",
       "count": 1
     },
     {
@@ -132,11 +164,6 @@
       "count": 1
     },
     {
-      "state": "AR",
-      "name": "Arkansas",
-      "count": 1
-    },
-    {
       "state": "GA",
       "name": "Georgia",
       "count": 1
@@ -147,18 +174,8 @@
       "count": 1
     },
     {
-      "state": "MD",
-      "name": "Maryland",
-      "count": 1
-    },
-    {
       "state": "AZ",
       "name": "Arizona",
-      "count": 1
-    },
-    {
-      "state": "NY",
-      "name": "New York",
       "count": 1
     },
     {
@@ -167,17 +184,32 @@
       "count": 1
     },
     {
-      "state": "WI",
-      "name": "Wisconsin",
-      "count": 1
-    },
-    {
       "state": "NJ",
       "name": "New Jersey",
       "count": 1
+    },
+    {
+      "state": "KS",
+      "name": "Kansas",
+      "count": 1
+    },
+    {
+      "state": "VA",
+      "name": "Virginia",
+      "count": 1
+    },
+    {
+      "state": "LA",
+      "name": "Louisiana",
+      "count": 1
+    },
+    {
+      "state": "MI",
+      "name": "Michigan",
+      "count": 1
     }
   ],
-  "human_injured_count": 0,
+  "human_injured_count": 1,
   "recent_incidents": [
     {
       "incident_date": "2026-08-27",
@@ -360,6 +392,60 @@
       "reviewed": true
     },
     {
+      "incident_date": "2026-07-29",
+      "date_precision": "day",
+      "city": "Oroville",
+      "state": "CA",
+      "agency_name": "Oroville Police Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "An Oroville police officer shot and killed a pit bull that escaped from a nearby fenced yard and charged at officers while they were wrapping up a hit-and-run investigation on July 29, 2026. Police said the dog attacked officers after one officer attempted to stop it with a Taser, and no officers or bystanders were injured.",
+      "source_url": "https://krcrtv.com/news/local/oroville-police-shoot-dog-during-hit-and-run-probe-after-it-charged-and-attacked-officers",
+      "source_name": "KRCR",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-07-20",
+      "date_precision": "day",
+      "city": "Little Rock",
+      "state": "AR",
+      "agency_name": "Little Rock Police Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "Little Rock Police Officer Brandon Foster-Todd shot and killed a dog on Country Club Boulevard while responding to a reported battery call. Witnesses described the police response escalating quickly in the residential Heights neighborhood.",
+      "source_url": "https://katv.com/news/local/7-on-7-the-biggest-stories-from-last-week-you-mightve-missed-07-26-2026-dog-shot-heights-little-rock-police-department-bodycam-snap-benefits-federal-dollars-little-rock-zoo-excessive-heat-closure-matthew-mcconaughey-mom-murders-adult-man-spiderman",
+      "source_name": "KATV",
+      "additional_sources": [
+        "https://katv.com/news/local/little-rock-police-release-events-that-led-up-to-heights-dog-shooting",
+        "https://www.arkansasonline.com/news/2026/jul/19/little-rock-police-officer-fatally-shoots-dog/"
+      ],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-07-20",
+      "date_precision": "day",
+      "city": "Lancaster",
+      "state": "CA",
+      "agency_name": "Los Angeles County Sheriff's Department",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "An LA County Sheriff's Deputy shot and killed a pit bull that was attacking an unresponsive man in a locked front yard in Lancaster. The deputy attempted commands before firing; the victim was taken to a hospital in stable condition.",
+      "source_url": "https://www.cbsnews.com/losangeles/news/la-county-deputy-kills-dog-attacking-a-man-in-a-lancaster-yard/",
+      "source_name": "CBS News",
+      "additional_sources": [
+        "https://www.nbclosangeles.com/news/local/deputy-shoots-kills-dog-lancaster-attack/3919706/",
+        "https://patch.com/california/los-angeles/deputy-kills-dog-during-attack-la-county-sheriff"
+      ],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
       "incident_date": "2026-07-08",
       "date_precision": "day",
       "city": "Marietta",
@@ -371,7 +457,10 @@
       "summary": "A Cobb County sheriff's deputy fatally shot a dog while serving an arrest warrant on Wednesday. Authorities said the dog was behaving aggressively at the time.",
       "source_url": "https://patch.com/georgia/marietta/cobb-deputy-fatally-shoots-dog-while-serving-arrest-warrant-sheriff",
       "source_name": "Patch",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://www.wsbradio.com/news/local/cobb-deputy-under-investigation-after-fatal-dog-shooting/33W3WSEKOJBPTBBCABXAT67NQE/",
+        "https://www.fox5atlanta.com/news/dog-killed-cobb-county-deputy-serves-warrant"
+      ],
       "confidence": "high",
       "reviewed": false
     },
@@ -408,6 +497,43 @@
       "reviewed": false
     },
     {
+      "incident_date": "2026-06-21",
+      "date_precision": "day",
+      "city": "Norfolk",
+      "state": "VA",
+      "agency_name": "Norfolk Police",
+      "circumstance": "unknown",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Norfolk officer shot and killed a dog while responding to a call on a Sunday afternoon.",
+      "source_url": "https://www.13newsnow.com/video/news/local/mycity/norfolk/norfolk-officer-shoots-kills-dog-while-responding-to-sunday-afternoon-call/291-a744d51a-b148-44e8-8f8b-8d593f0d1439",
+      "source_name": "13newsnow.com",
+      "additional_sources": [
+        "https://www.13newsnow.com/article/news/local/mycity/norfolk/norfolk-police-officer-shoots-kills-dog-during-investigation-into-separate-incident/291-60d81c28-5ced-4b33-93b0-b6c44374be77",
+        "https://www.13newsnow.com/video/news/local/mycity/norfolk/norfolk-police-officer-shoots-kills-dog-while-responding-to-separate-incident/291-9a810d66-62af-4b82-b242-68c84335bed5"
+      ],
+      "confidence": "low",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-06-16",
+      "date_precision": "day",
+      "city": "York",
+      "state": "PA",
+      "agency_name": "York City Police Department",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "yes",
+      "summary": "A York City Police officer responding to a disorderly conduct call at 300 West Philadelphia Street encountered a pit bull mix that escaped from an apartment and pursued him. The officer retreated and fired three times, killing the dog, but also accidentally striking the dog's owner in the leg; the District Attorney found the officer's use of force justified based on video evidence showing the dog was snarling, showing teeth, and closing within 4-5 feet of the officer.",
+      "source_url": "https://www.ydr.com/story/news/crime/2026/06/24/york-city-pd-officer-justified-in-using-weapon-to-kill-dog-da-says/90677389007/",
+      "source_name": "York Daily Record",
+      "additional_sources": [
+        "https://www.abc27.com/local-news/dog-killed-one-person-injured-in-york-county-officer-involved-shooting/"
+      ],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
       "incident_date": "2026-06-13",
       "date_precision": "day",
       "city": "Los Angeles",
@@ -420,8 +546,33 @@
       "source_url": "https://www.dexerto.com/entertainment/internet-raises-over-100k-for-family-after-dog-shot-by-police-during-knicks-celebration-3376305/",
       "source_name": "Dexerto",
       "additional_sources": [
-        "https://kfiam640.iheart.com/featured/la-local-news/content/2026-06-15-lapd-officer-shoots-dog-in-canoga-park/"
+        "https://kfiam640.iheart.com/featured/la-local-news/content/2026-06-15-lapd-officer-shoots-dog-in-canoga-park/",
+        "https://abc7.com/post/neighbor-called-911-apologizes-lapd-fatally-shoots-dog-during-knicks-celebration-canoga-park-abc7-exclusive/19327925/",
+        "https://www.tmz.com/2026/06/19/lapd-officer-jameson-dog-bodycam/",
+        "https://www.tmz.com/2026/06/19/neighbor-apologizes-calling-cops-before-lapd-dog-shooting/",
+        "https://www.tmz.com/2026/06/18/los-angeles-mayor-karen-bass-orders-investigation-into-fatal-dog-shooting-by-lapd/",
+        "https://www.tmz.com/2026/06/18/lapd-chief-responds-to-dog-shooting-incident/",
+        "https://atlantablackstar.com/2026/06/17/oh-my-god-oh-my-god-lapd-kills-black-womans-dog-after-neighbor-calls-911-as-research-reveals-a-disturbing-pattern-thats-hard-to-ignore/",
+        "https://www.yahoo.com/news/us/articles/dog-killed-york-knicks-fan-175828508.html",
+        "https://www.tmz.com/2026/06/16/gofundme-for-dog-shot-by-lapd-officer-raises-huge-sum/",
+        "https://www.tmz.com/2026/06/15/lapd-shoots-kills-dog/"
       ],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-05-05",
+      "date_precision": "day",
+      "city": "Frenchtown",
+      "state": "MI",
+      "agency_name": "Monroe County Sheriff's Office",
+      "circumstance": "domestic call",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Monroe County Sheriff's deputy shot a German Shepard mix during a family trouble call in Frenchtown Township on May 5, 2026. According to the sheriff's office, the dog charged aggressively at deputy Garret Kaatz; after unsuccessful attempts to stop it, Kaatz fired his gun, fatally wounding the dog.",
+      "source_url": "https://www.monroenews.com/story/news/2026/05/05/monroe-county-deputy-shoots-dog-in-frenchtown/89949200007/",
+      "source_name": "Monroe Evening News",
+      "additional_sources": [],
       "confidence": "high",
       "reviewed": false
     },
@@ -437,7 +588,9 @@
       "summary": "A San Bernardino County sheriff's deputy fatally shot a homeowner's dog while investigating reports of a stolen vehicle. The homeowner contends the deputy should not have been on the property, particularly since the vehicle was located elsewhere.",
       "source_url": "https://www.cbsnews.com/losangeles/video/san-bernardino-county-deputy-fatally-shoots-dog-while-responding-to-report-of-stolen-vehicle/",
       "source_name": "CBS News",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://www.latimes.com/california/story/2026-05-06/deputy-fatally-shoots-dog-during-investigation-in-san-bernardino"
+      ],
       "confidence": "medium",
       "reviewed": false
     },
@@ -453,6 +606,88 @@
       "summary": "A Richland County Sheriff's Deputy responded to an active dog mauling on April 27, 2026, where a woman was under attack by a Pitbull mix named \"Clyde\" that had already killed a smaller dog. After pepper spray and a Taser proved ineffective and the dog advanced toward a deputy, the officer fired a single shot, killing the dog and allowing emergency medical care to begin.",
       "source_url": "https://ashlandcountypictures.com/woman-seriously-injured-in-dog-attack-in-richland-county-deputies-forced-to-use-deadly-force-to-stop-mauling/",
       "source_name": "ashlandcountypictures.com",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-04-26",
+      "date_precision": "day",
+      "city": "Bowie",
+      "state": "MD",
+      "agency_name": "Bowie Police Department",
+      "circumstance": "welfare check",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A 52-year-old man was attacked by his own dog at his Bowie home on Sunday morning around 7:30 a.m. Bowie police officers arrived and opened fire on the dog after it continued attacking the man despite attempts to restrain it; the man was taken to a hospital in serious condition.",
+      "source_url": "https://foxbaltimore.com/news/local/bowie-maryland-dog-attack-serious-injuries-man-prince-geroges-county?teaserSource=trending",
+      "source_name": "WBFF",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-04-23",
+      "date_precision": "day",
+      "city": "Mequon",
+      "state": "WI",
+      "agency_name": "Thiensville Police Department",
+      "circumstance": "loose/roaming dog",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "A Thiensville police officer fired 16 rounds at two unattended dogs observed near North Cedarburg and Highland roads in Mequon on April 23. One dog was killed; the second was injured and later rescued after 17 days, sustaining bullet wounds to the hip and back end requiring multiple surgeries.",
+      "source_url": "https://www.gmtoday.com/news_graphic/news/thiensville-officer-under-investigation-dog-shooting/article_687ccb6d-cdf0-5ad1-892f-29f97e77e321.html",
+      "source_name": "Greater Milwaukee Today",
+      "additional_sources": [
+        "https://www.tmj4.com/news/local-news/in-your-community/ozaukee-county/thiensville-police-officer-shot-and-killed-a-dog-in-mequon-triggering-outside-probe"
+      ],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-04-06",
+      "date_precision": "day",
+      "city": "Sun Valley",
+      "state": "CA",
+      "agency_name": "Los Angeles Police Department",
+      "circumstance": "traffic stop",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "During a traffic stop and bomb squad investigation in Sun Valley, LAPD officers fatally shot a dog that officers said attacked one of them. The attacked officer was bitten and fell backward, hitting his head on the pavement, and was hospitalized.",
+      "source_url": "https://www.cbsnews.com/losangeles/news/sun-valley-lapd-shoots-dog-illegal-fireworks-investigation/",
+      "source_name": "CBS News",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-03-08",
+      "date_precision": "day",
+      "city": "Palm Coast",
+      "state": "FL",
+      "agency_name": "Flagler County Sheriff's Office",
+      "circumstance": "welfare check",
+      "dog_outcome": "injured-survived",
+      "human_injured_by_fire": "no",
+      "summary": "Deputy Devrin Perdue responded to a welfare check at a duplex on Farraday Lane after a 911 caller reported two dogs left outside in shock collars; as Perdue walked back to his vehicle, the black dog (a two-and-a-half-year-old labrador-pit bull mix named Bear) ran toward him aggressively and jumped at him, prompting Perdue to fire two rounds, striking the dog. Bear underwent surgery for lung injuries and is receiving care at animal hospitals; several children witnessed the shooting from a screened-in porch.",
+      "source_url": "https://flaglerlive.com/dog-shooting/",
+      "source_name": "FlaglerLive",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-02-26",
+      "date_precision": "day",
+      "city": "Pittsford",
+      "state": "NY",
+      "agency_name": "Monroe County Sheriff's Office",
+      "circumstance": "welfare check",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "A Monroe County sheriff's deputy responding to a welfare check at a Pittsford home was attacked and bitten by a dog that charged from the house's breezeway. The deputy fired two rounds from an agency-issued firearm and killed the dog; the deputy suffered a puncture wound and was treated and released at a hospital.",
+      "source_url": "https://www.democratandchronicle.com/story/news/2026/02/27/deputy-shoots-kills-dog-while-responding-to-a-call-in-pittsford-ny-stone-road/88895630007/",
+      "source_name": "Democrat and Chronicle",
       "additional_sources": [],
       "confidence": "high",
       "reviewed": false
@@ -486,8 +721,25 @@
       "source_url": "https://www.nbcmiami.com/news/local/fort-lauderdale-officer-shoots-dog-that-bit-him-killed-pet-rabbit-police/3748255/",
       "source_name": "NBC 6 South Florida",
       "additional_sources": [
-        "https://www.miamiherald.com/news/local/crime/article314304903.html"
+        "https://www.miamiherald.com/news/local/crime/article314304903.html",
+        "https://www.local10.com/news/local/2026/01/13/police-dog-shot-by-officer-after-killing-homeowners-rabbit-in-fort-lauderdale/"
       ],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2025-09-24",
+      "date_precision": "day",
+      "city": "Wurtsboro",
+      "state": "NY",
+      "agency_name": "New York State Police Troop F",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "injured-survived",
+      "human_injured_by_fire": "unknown",
+      "summary": "On September 24, 2025, a New York State Trooper Matthew Grant shot a 3-year-old American Bully named Pumpkin multiple times (seven shots) in the driveway of the owner's home in Wurtsboro while conducting interviews for an unrelated investigation. The dog's front left leg had to be amputated; the owner filed a $250,000 lawsuit in December 2025 alleging negligence and reckless discharge of a firearm.",
+      "source_url": "https://www.recordonline.com/story/news/local/2026/03/12/mamakating-ny-man-sues-state-trooper-who-shot-his-dog-in-his-driveway/89101310007/",
+      "source_name": "Times Herald-Record",
+      "additional_sources": [],
       "confidence": "high",
       "reviewed": false
     },
