@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T18:27:28Z",
-  "total_incidents": 35,
-  "reviewed_count": 9,
-  "total_sources": 90,
+  "generated_at": "2026-09-03T19:34:14Z",
+  "total_incidents": 46,
+  "reviewed_count": 46,
+  "total_sources": 119,
   "date_range": {
     "earliest": "2026-01-13",
     "latest": "2026-08-27"
@@ -10,24 +10,24 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 28,
+    "current_year_to_date": 40,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 246
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 28
+      "count": 40
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 25
+      "count": 34
     },
     {
       "label": "injured-survived",
-      "count": 5
+      "count": 6
     },
     {
       "label": "unknown",
@@ -36,36 +36,40 @@
     {
       "label": "unharmed",
       "count": 1
+    },
+    {
+      "label": "injured-euthanized",
+      "count": 1
     }
   ],
   "circumstance_breakdown": [
+    {
+      "label": "other",
+      "count": 14
+    },
     {
       "label": "unrelated call response",
       "count": 10
     },
     {
-      "label": "other",
+      "label": "welfare check",
       "count": 6
     },
     {
-      "label": "unknown",
-      "count": 5
-    },
-    {
-      "label": "welfare check",
+      "label": "loose/roaming dog",
       "count": 4
     },
     {
-      "label": "loose/roaming dog",
-      "count": 3
-    },
-    {
       "label": "warrant service",
-      "count": 3
+      "count": 4
     },
     {
       "label": "domestic call",
-      "count": 2
+      "count": 3
+    },
+    {
+      "label": "unknown",
+      "count": 3
     },
     {
       "label": "pursuit",
@@ -79,22 +83,41 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 20
+      "count": 30
     },
     {
       "label": "county SO",
-      "count": 12
+      "count": 13
     },
     {
       "label": "unknown",
-      "count": 3
+      "count": 2
+    },
+    {
+      "label": "state",
+      "count": 1
     }
   ],
   "state_counts": [
     {
       "state": "CA",
       "name": "California",
-      "count": 8
+      "count": 9
+    },
+    {
+      "state": "MD",
+      "name": "Maryland",
+      "count": 4
+    },
+    {
+      "state": "NY",
+      "name": "New York",
+      "count": 4
+    },
+    {
+      "state": "PA",
+      "name": "Pennsylvania",
+      "count": 3
     },
     {
       "state": "FL",
@@ -112,23 +135,13 @@
       "count": 2
     },
     {
-      "state": "PA",
-      "name": "Pennsylvania",
+      "state": "OH",
+      "name": "Ohio",
       "count": 2
     },
     {
-      "state": "AR",
-      "name": "Arkansas",
-      "count": 2
-    },
-    {
-      "state": "MD",
-      "name": "Maryland",
-      "count": 2
-    },
-    {
-      "state": "NY",
-      "name": "New York",
+      "state": "IL",
+      "name": "Illinois",
       "count": 2
     },
     {
@@ -162,13 +175,13 @@
       "count": 1
     },
     {
-      "state": "OH",
-      "name": "Ohio",
+      "state": "NJ",
+      "name": "New Jersey",
       "count": 1
     },
     {
-      "state": "NJ",
-      "name": "New Jersey",
+      "state": "AR",
+      "name": "Arkansas",
       "count": 1
     },
     {
@@ -185,9 +198,24 @@
       "state": "MI",
       "name": "Michigan",
       "count": 1
+    },
+    {
+      "state": "OR",
+      "name": "Oregon",
+      "count": 1
+    },
+    {
+      "state": "HI",
+      "name": "Hawaii",
+      "count": 1
+    },
+    {
+      "state": "MO",
+      "name": "Missouri",
+      "count": 1
     }
   ],
-  "human_injured_count": 1,
+  "human_injured_count": 2,
   "recent_incidents": [
     {
       "incident_date": "2026-08-27",
@@ -315,7 +343,7 @@
       "city": "Graham",
       "state": "WA",
       "agency_name": "Pierce County Sheriff's Department",
-      "circumstance": "unrelated call response",
+      "circumstance": "welfare check",
       "dog_outcome": "killed",
       "human_injured_by_fire": "unknown",
       "summary": "Deputies in Graham, Washington killed an aggressive dog near the scene where a 5-year-old girl was found dead after disappearing.",
@@ -383,7 +411,45 @@
       "source_name": "KRCR",
       "additional_sources": [],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-07-26",
+      "date_precision": "day",
+      "city": "Chicago",
+      "state": "IL",
+      "agency_name": "Chicago Police Department",
+      "circumstance": "other",
+      "dog_outcome": "unknown",
+      "human_injured_by_fire": "no",
+      "summary": "Chicago police shot a dog after it bit a 25-year-old woman and a 15-year-old girl inside a residence in the 4200 block of West Cullerton Street in North Lawndale early on July 26, 2026. Both victims were hospitalized in serious condition; police did not say whether the dog survived.",
+      "source_url": "https://www.cbsnews.com/chicago/news/police-shoot-dog-woman-teenage-girl-bitten-chicago-west-side/",
+      "source_name": "cbsnews.com",
+      "additional_sources": [
+        "https://www.nbcchicago.com/news/local/dog-shot-by-chicago-police-after-girl-woman-attacked-in-north-lawndale/3966296/",
+        "https://wgntv.com/news/chicago-news/chicago-police-shoot-dog-after-it-attacks-and-seriously-injuries-2-people-in-north-lawndale-according-to-police/"
+      ],
+      "confidence": "medium",
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-07-22",
+      "date_precision": "day",
+      "city": "Kalaeloa",
+      "state": "HI",
+      "agency_name": "Honolulu Police Department",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Honolulu police officer fatally shot a pit bull that charged at him during an HPD operation in Kalaeloa around 6:35 p.m. on July 22, 2026. The dog fled and was later found dead. One officer was reported injured.",
+      "source_url": "https://www.kitv.com/news/hpd-officer-shoots-and-kills-pit-bull-charging-at-him-in-kalaeloa/article_e6c7842d-d6bb-4b9f-936d-2ef09708b83a.html",
+      "source_name": "kitv.com",
+      "additional_sources": [
+        "https://www.hawaiinewsnow.com/2026/07/23/hpd-says-officer-discharged-firearm-large-pit-bull-kalaeloa/",
+        "https://www.staradvertiser.com/2026/07/23/breaking-news/officer-kills-charging-pit-bull-during-hpd-operation-in-kalaeloa/"
+      ],
+      "confidence": "high",
+      "reviewed": true
     },
     {
       "incident_date": "2026-07-20",
@@ -399,10 +465,12 @@
       "source_name": "KATV",
       "additional_sources": [
         "https://katv.com/news/local/little-rock-police-release-events-that-led-up-to-heights-dog-shooting",
-        "https://www.arkansasonline.com/news/2026/jul/19/little-rock-police-officer-fatally-shoots-dog/"
+        "https://www.arkansasonline.com/news/2026/jul/19/little-rock-police-officer-fatally-shoots-dog/",
+        "https://www.kark.com/news/local-news/locals-react-after-little-rock-police-release-dashboard-body-cam-video-showing-officer-shooting-dog/",
+        "https://www.thv11.com/video/news/local/little-rock/review-underway-after-little-rock-police-officer-shoots-dog/91-4cb048e1-7c4a-4093-a3bd-68b2b66f9448"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-07-20",
@@ -421,7 +489,25 @@
         "https://patch.com/california/los-angeles/deputy-kills-dog-during-attack-la-county-sheriff"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-07-14",
+      "date_precision": "day",
+      "city": "Auxvasse",
+      "state": "MO",
+      "agency_name": "Callaway County Sheriff's Office",
+      "circumstance": "warrant service",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "Callaway County sheriff's deputies went to a home on Tate Drive near Auxvasse around 4:14 p.m. on July 14, 2026 to serve a failure-to-appear arrest warrant. Two dogs approached; one behaved aggressively. Pepper spray failed, and when the dog charged again Deputy Zach Hubbard shot and killed it. Bodycam footage was released.",
+      "source_url": "https://abc17news.com/news/callaway/2026/07/16/callaway-county-deputy-shoots-dog-while-serving-warrant/",
+      "source_name": "abc17news.com",
+      "additional_sources": [
+        "https://krcgtv.com/news/local/callaway-county-sheriffs-deputies-fatally-shoot-dog-while-serving-warrant"
+      ],
+      "confidence": "high",
+      "reviewed": true
     },
     {
       "incident_date": "2026-07-08",
@@ -440,7 +526,7 @@
         "https://www.fox5atlanta.com/news/dog-killed-cobb-county-deputy-serves-warrant"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-06-28",
@@ -456,7 +542,23 @@
       "source_name": "FOX 10 Phoenix",
       "additional_sources": [],
       "confidence": "medium",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-06-27",
+      "date_precision": "unknown",
+      "city": "Annapolis",
+      "state": "MD",
+      "agency_name": "Annapolis Police Department",
+      "circumstance": "loose/roaming dog",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A police officer fatally shot a dog described as \"aggressive\" in Annapolis. It had bitten two people and two dogs before charging at a police officer",
+      "source_url": "https://www.capitalgazette.com/2026/07/01/police-officer-shoots-dog-annapolis/",
+      "source_name": "Capital Gazette",
+      "additional_sources": [],
+      "confidence": "low",
+      "reviewed": true
     },
     {
       "incident_date": "2026-06-22",
@@ -472,7 +574,7 @@
       "source_name": "wnyt.com",
       "additional_sources": [],
       "confidence": "medium",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-06-21",
@@ -491,7 +593,7 @@
         "https://www.13newsnow.com/video/news/local/mycity/norfolk/norfolk-police-officer-shoots-kills-dog-while-responding-to-separate-incident/291-9a810d66-62af-4b82-b242-68c84335bed5"
       ],
       "confidence": "low",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-06-16",
@@ -509,7 +611,7 @@
         "https://www.abc27.com/local-news/dog-killed-one-person-injured-in-york-county-officer-involved-shooting/"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-06-13",
@@ -533,10 +635,46 @@
         "https://atlantablackstar.com/2026/06/17/oh-my-god-oh-my-god-lapd-kills-black-womans-dog-after-neighbor-calls-911-as-research-reveals-a-disturbing-pattern-thats-hard-to-ignore/",
         "https://www.yahoo.com/news/us/articles/dog-killed-york-knicks-fan-175828508.html",
         "https://www.tmz.com/2026/06/16/gofundme-for-dog-shot-by-lapd-officer-raises-huge-sum/",
-        "https://www.tmz.com/2026/06/15/lapd-shoots-kills-dog/"
+        "https://www.tmz.com/2026/06/15/lapd-shoots-kills-dog/",
+        "https://www.primetimer.com/news/laura-loomer-slams-lapd-over-shooting-dog-during-knicks-celebration-says-dog-s-life-matters-more-than-illegal-aliens"
       ],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-05-31",
+      "date_precision": "day",
+      "city": "Winters",
+      "state": "CA",
+      "agency_name": "Winters Police Department",
+      "circumstance": "domestic call",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "Winters police shot and killed a dog while responding to a domestic-violence call near the Railroad Avenue bridge on Sunday, May 31, 2026.",
+      "source_url": "https://fox40.com/news/local-news/police-kill-dog-in-winters-while-responding-to-domestic-violence-call/",
+      "source_name": "fox40.com",
+      "additional_sources": [],
+      "confidence": "medium",
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-05-06",
+      "date_precision": "day",
+      "city": "Canandaigua",
+      "state": "NY",
+      "agency_name": "Canandaigua Police Department",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "A Canandaigua police officer shot and killed a dog on May 6, 2026 after it seriously injured its owner and then charged the officer.",
+      "source_url": "https://13wham.com/news/local/dog-shot-and-killed-by-officer-during-attack-in-canandaigua",
+      "source_name": "13wham.com",
+      "additional_sources": [
+        "https://www.whec.com/top-news/canandaigua-woman-severely-hurt-after-dog-attack-dog-shot-and-killed-by-officers/",
+        "https://www.fingerlakes1.com/2026/05/07/canandaigua-police-shoot-and-kill-dog-after-attack-leaves-owner-seriously-injured/"
+      ],
+      "confidence": "high",
+      "reviewed": true
     },
     {
       "incident_date": "2026-05-05",
@@ -552,7 +690,7 @@
       "source_name": "Monroe Evening News",
       "additional_sources": [],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-05-02",
@@ -570,7 +708,26 @@
         "https://www.latimes.com/california/story/2026-05-06/deputy-fatally-shoots-dog-during-investigation-in-san-bernardino"
       ],
       "confidence": "medium",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-04-28",
+      "date_precision": "day",
+      "city": "Pacoima",
+      "state": "CA",
+      "agency_name": "Los Angeles Police Department",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "During a homeless-encampment cleanup near Bradley Avenue and Montague Street in Pacoima around 10:45 a.m. on April 28, 2026, a loose dog repeatedly bit a sanitation worker and an LAPD officer. The officer shot and killed the dog; the officer and worker were hospitalized in stable condition.",
+      "source_url": "https://www.cbsnews.com/losangeles/news/dog-bite-pacoima-police-shoot-homeless-cleanup/",
+      "source_name": "cbsnews.com",
+      "additional_sources": [
+        "https://ktla.com/news/local-news/lapd-officer-civilian-injured-in-pacoima-dog-attack/",
+        "https://www.nbclosangeles.com/news/local/lapd-officer-shoots-a-dog-during-encampment-cleanup-in-pacoima/3882738/"
+      ],
+      "confidence": "high",
+      "reviewed": true
     },
     {
       "incident_date": "2026-04-27",
@@ -586,7 +743,7 @@
       "source_name": "ashlandcountypictures.com",
       "additional_sources": [],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-04-26",
@@ -602,7 +759,7 @@
       "source_name": "WBFF",
       "additional_sources": [],
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-04-23",
@@ -620,90 +777,7 @@
         "https://www.tmj4.com/news/local-news/in-your-community/ozaukee-county/thiensville-police-officer-shot-and-killed-a-dog-in-mequon-triggering-outside-probe"
       ],
       "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2026-04-06",
-      "date_precision": "day",
-      "city": "Sun Valley",
-      "state": "CA",
-      "agency_name": "Los Angeles Police Department",
-      "circumstance": "traffic stop",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "unknown",
-      "summary": "During a traffic stop and bomb squad investigation in Sun Valley, LAPD officers fatally shot a dog that officers said attacked one of them. The attacked officer was bitten and fell backward, hitting his head on the pavement, and was hospitalized.",
-      "source_url": "https://www.cbsnews.com/losangeles/news/sun-valley-lapd-shoots-dog-illegal-fireworks-investigation/",
-      "source_name": "CBS News",
-      "additional_sources": [],
-      "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2026-03-08",
-      "date_precision": "day",
-      "city": "Palm Coast",
-      "state": "FL",
-      "agency_name": "Flagler County Sheriff's Office",
-      "circumstance": "welfare check",
-      "dog_outcome": "injured-survived",
-      "human_injured_by_fire": "no",
-      "summary": "Deputy Devrin Perdue responded to a welfare check at a duplex on Farraday Lane after a 911 caller reported two dogs left outside in shock collars; as Perdue walked back to his vehicle, the black dog (a two-and-a-half-year-old labrador-pit bull mix named Bear) ran toward him aggressively and jumped at him, prompting Perdue to fire two rounds, striking the dog. Bear underwent surgery for lung injuries and is receiving care at animal hospitals; several children witnessed the shooting from a screened-in porch.",
-      "source_url": "https://flaglerlive.com/dog-shooting/",
-      "source_name": "FlaglerLive",
-      "additional_sources": [],
-      "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2026-02-26",
-      "date_precision": "day",
-      "city": "Pittsford",
-      "state": "NY",
-      "agency_name": "Monroe County Sheriff's Office",
-      "circumstance": "welfare check",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "no",
-      "summary": "A Monroe County sheriff's deputy responding to a welfare check at a Pittsford home was attacked and bitten by a dog that charged from the house's breezeway. The deputy fired two rounds from an agency-issued firearm and killed the dog; the deputy suffered a puncture wound and was treated and released at a hospital.",
-      "source_url": "https://www.democratandchronicle.com/story/news/2026/02/27/deputy-shoots-kills-dog-while-responding-to-a-call-in-pittsford-ny-stone-road/88895630007/",
-      "source_name": "Democrat and Chronicle",
-      "additional_sources": [],
-      "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2026-02-13",
-      "date_precision": "day",
-      "city": "Bogota",
-      "state": "NJ",
-      "agency_name": "Bogota Police Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "unharmed",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Bogota police officer fired a weapon at a dog that lunged at him while responding to a report of the animal biting a 17-year-old girl on Palisades Avenue and Linwood Avenue. The dog survived the shooting.",
-      "source_url": "https://www.northjersey.com/story/news/bergen/bogota/2026/02/17/bogota-nj-police-officer-shoots-dog-attack/88727054007/",
-      "source_name": "Bergen Record",
-      "additional_sources": [],
-      "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2026-01-13",
-      "date_precision": "day",
-      "city": "Fort Lauderdale",
-      "state": "FL",
-      "agency_name": "Fort Lauderdale Police Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "injured-survived",
-      "human_injured_by_fire": "no",
-      "summary": "A Fort Lauderdale Police officer responded to a call about a large dog that had entered a home and killed a pet rabbit. When the officer encountered the dog, it attacked and bit the officer on the forearm; the officer then fired, hitting the dog, which fled but was later found by Broward County Animal Control.",
-      "source_url": "https://www.nbcmiami.com/news/local/fort-lauderdale-officer-shoots-dog-that-bit-him-killed-pet-rabbit-police/3748255/",
-      "source_name": "NBC 6 South Florida",
-      "additional_sources": [
-        "https://www.miamiherald.com/news/local/crime/article314304903.html",
-        "https://www.local10.com/news/local/2026/01/13/police-dog-shot-by-officer-after-killing-homeowners-rabbit-in-fort-lauderdale/"
-      ],
-      "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     }
   ]
 }
