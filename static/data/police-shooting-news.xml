@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2026 11:10:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 11:07:51 +0000</lastBuildDate>
+    <item>
+      <title>Officer Chris Fisher : What we know about Georgia officer killed in line of duty</title>
+      <link>https://www.wsbtv.com/news/local/officer-chris-fisher-what-we-know-about-georgia-officer-killed-line-duty/REFVYQQ2RNA4DHUDNAI5RYZDJM/</link>
+      <description/>
+      <pubDate>Wed, 02 Sep 2026 21:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsbtv.com</source>
+    </item>
+    <item>
+      <title>Georgia officer shot and killed . GBI issues blue alert for suspect</title>
+      <link>https://www.yahoo.com/news/articles/large-police-investigation-outside-motel-102128531.html</link>
+      <description/>
+      <pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
     <item>
       <title>Deputy shoots suspect after pursuit in Abingdon , sheriff says</title>
       <link>https://www.wbaltv.com/article/abingdon-pursuit-cotswold-court-harford-county-sheriff/73582840</link>
@@ -389,22 +405,6 @@
       <pubDate>Fri, 07 Aug 2026 18:00:00 +0000</pubDate>
       <category>incident</category>
       <source>sacurrent.com</source>
-    </item>
-    <item>
-      <title>Dallas ISD Officer Shot , Critically Wounded While Helping Person Near Sam Club | KLIF 570 News &amp; Info</title>
-      <link>https://www.klif.com/2026/08/06/dallas-isd-officer-shot-critically-wounded-while-helping-person-near-sams-club/</link>
-      <description/>
-      <pubDate>Fri, 07 Aug 2026 00:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>klif.com</source>
-    </item>
-    <item>
-      <title>Dallas ISD officer shot at Sam Club parking lot by person he was trying to help</title>
-      <link>https://www.kwtx.com/2026/08/06/dallas-isd-officer-shot-sams-club-parking-lot-by-person-he-was-trying-help/</link>
-      <description/>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kwtx.com</source>
     </item>
   </channel>
 </rss>
