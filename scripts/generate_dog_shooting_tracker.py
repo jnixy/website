@@ -1250,8 +1250,16 @@ def main():
         if not fields.get("qualifies"):
             print(f"  no  — {fields.get('reason', '')[:80]}")
             continue
-        if not (fields.get("state") or "").strip():
+        st = (fields.get("state") or "").strip().upper()
+        if not st:
             print(f"  skip (no state -- unplaceable)  {a['title'][:60]}")
+            continue
+        # The classifier is scoped to sworn U.S. officers, but the headline-only
+        # path sets `state` from geography without re-checking the country, so a
+        # Canadian story lands as 'MB'/'ON'. Drop it here rather than let one bad
+        # row fail validate_rows() and block the whole batch (cron included).
+        if st not in VALID_STATES:
+            print(f"  skip (non-US state {st!r})  {a['title'][:60]}")
             continue
 
         row = make_row(fields, a, next_id(incidents))
