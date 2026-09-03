@@ -1,24 +1,20 @@
 {
-  "generated_at": "2026-09-03T17:58:07Z",
-  "total_incidents": 39,
+  "generated_at": "2026-09-03T18:27:28Z",
+  "total_incidents": 35,
   "reviewed_count": 9,
-  "total_sources": 94,
+  "total_sources": 90,
   "date_range": {
-    "earliest": "2025-08-01",
+    "earliest": "2026-01-13",
     "latest": "2026-08-27"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
     "current_year_to_date": 28,
-    "prior_year_same_point": 2,
+    "prior_year_same_point": 0,
     "as_of_day_of_year": 246
   },
   "yearly_counts": [
-    {
-      "year": 2025,
-      "count": 4
-    },
     {
       "year": 2026,
       "count": 28
@@ -27,11 +23,11 @@
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 28
+      "count": 25
     },
     {
       "label": "injured-survived",
-      "count": 6
+      "count": 5
     },
     {
       "label": "unknown",
@@ -45,7 +41,7 @@
   "circumstance_breakdown": [
     {
       "label": "unrelated call response",
-      "count": 11
+      "count": 10
     },
     {
       "label": "other",
@@ -57,10 +53,6 @@
     },
     {
       "label": "welfare check",
-      "count": 5
-    },
-    {
-      "label": "warrant service",
       "count": 4
     },
     {
@@ -68,38 +60,34 @@
       "count": 3
     },
     {
+      "label": "warrant service",
+      "count": 3
+    },
+    {
       "label": "domestic call",
       "count": 2
     },
     {
-      "label": "traffic stop",
-      "count": 2
+      "label": "pursuit",
+      "count": 1
     },
     {
-      "label": "pursuit",
+      "label": "traffic stop",
       "count": 1
     }
   ],
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 21
+      "count": 20
     },
     {
       "label": "county SO",
-      "count": 13
+      "count": 12
     },
     {
       "label": "unknown",
       "count": 3
-    },
-    {
-      "label": "federal",
-      "count": 1
-    },
-    {
-      "label": "state",
-      "count": 1
     }
   ],
   "state_counts": [
@@ -109,24 +97,19 @@
       "count": 8
     },
     {
-      "state": "TX",
-      "name": "Texas",
-      "count": 3
-    },
-    {
       "state": "FL",
       "name": "Florida",
-      "count": 3
-    },
-    {
-      "state": "NY",
-      "name": "New York",
       "count": 3
     },
     {
       "state": "WI",
       "name": "Wisconsin",
       "count": 3
+    },
+    {
+      "state": "TX",
+      "name": "Texas",
+      "count": 2
     },
     {
       "state": "PA",
@@ -141,6 +124,11 @@
     {
       "state": "MD",
       "name": "Maryland",
+      "count": 2
+    },
+    {
+      "state": "NY",
+      "name": "New York",
       "count": 2
     },
     {
@@ -169,11 +157,6 @@
       "count": 1
     },
     {
-      "state": "NV",
-      "name": "Nevada",
-      "count": 1
-    },
-    {
       "state": "AZ",
       "name": "Arizona",
       "count": 1
@@ -196,11 +179,6 @@
     {
       "state": "VA",
       "name": "Virginia",
-      "count": 1
-    },
-    {
-      "state": "LA",
-      "name": "Louisiana",
       "count": 1
     },
     {
@@ -724,38 +702,6 @@
         "https://www.miamiherald.com/news/local/crime/article314304903.html",
         "https://www.local10.com/news/local/2026/01/13/police-dog-shot-by-officer-after-killing-homeowners-rabbit-in-fort-lauderdale/"
       ],
-      "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2025-09-24",
-      "date_precision": "day",
-      "city": "Wurtsboro",
-      "state": "NY",
-      "agency_name": "New York State Police Troop F",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "injured-survived",
-      "human_injured_by_fire": "unknown",
-      "summary": "On September 24, 2025, a New York State Trooper Matthew Grant shot a 3-year-old American Bully named Pumpkin multiple times (seven shots) in the driveway of the owner's home in Wurtsboro while conducting interviews for an unrelated investigation. The dog's front left leg had to be amputated; the owner filed a $250,000 lawsuit in December 2025 alleging negligence and reckless discharge of a firearm.",
-      "source_url": "https://www.recordonline.com/story/news/local/2026/03/12/mamakating-ny-man-sues-state-trooper-who-shot-his-dog-in-his-driveway/89101310007/",
-      "source_name": "Times Herald-Record",
-      "additional_sources": [],
-      "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2025-09-05",
-      "date_precision": "day",
-      "city": "Henderson",
-      "state": "NV",
-      "agency_name": "Henderson Police Department",
-      "circumstance": "welfare check",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "no",
-      "summary": "On Sept. 5, 2025, Henderson Police officers Christian Salas and Autumn Owens responded to a welfare check. According to the family's lawsuit, Bruno, a seven-year-old boxer mix, exited the home and moved away from officers at a moderate pace without displaying aggressive behavior; Officer Salas fired once, killing the dog. The family has filed a federal lawsuit claiming the officer failed to employ less-lethal options and did not face actual threat.",
-      "source_url": "https://www.ktnv.com/13-investigates/henderson-family-files-federal-lawsuit-against-police-after-officer-fatally-shoots-dog",
-      "source_name": "ktnv.com",
-      "additional_sources": [],
       "confidence": "high",
       "reviewed": false
     }
