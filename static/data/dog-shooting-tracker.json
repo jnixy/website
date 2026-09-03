@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-03T19:34:14Z",
-  "total_incidents": 46,
-  "reviewed_count": 46,
-  "total_sources": 119,
+  "generated_at": "2026-09-03T20:14:08Z",
+  "total_incidents": 45,
+  "reviewed_count": 45,
+  "total_sources": 120,
   "date_range": {
     "earliest": "2026-01-13",
     "latest": "2026-08-27"
@@ -10,14 +10,14 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 40,
+    "current_year_to_date": 45,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 246
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 40
+      "count": 45
     }
   ],
   "outcome_breakdown": [
@@ -27,7 +27,7 @@
     },
     {
       "label": "injured-survived",
-      "count": 6
+      "count": 5
     },
     {
       "label": "unknown",
@@ -69,7 +69,7 @@
     },
     {
       "label": "unknown",
-      "count": 3
+      "count": 2
     },
     {
       "label": "pursuit",
@@ -91,7 +91,7 @@
     },
     {
       "label": "unknown",
-      "count": 2
+      "count": 1
     },
     {
       "label": "state",
@@ -125,11 +125,6 @@
       "count": 3
     },
     {
-      "state": "WI",
-      "name": "Wisconsin",
-      "count": 3
-    },
-    {
       "state": "TX",
       "name": "Texas",
       "count": 2
@@ -137,6 +132,11 @@
     {
       "state": "OH",
       "name": "Ohio",
+      "count": 2
+    },
+    {
+      "state": "WI",
+      "name": "Wisconsin",
       "count": 2
     },
     {
@@ -433,6 +433,22 @@
       "reviewed": true
     },
     {
+      "incident_date": "2026-07-24",
+      "date_precision": "day",
+      "city": "Baltimore",
+      "state": "MD",
+      "agency_name": "Baltimore Police Department",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "A Baltimore police officer fatally shot a dog on West Franklin Street after it attacked two women and their pet, around late July 2026. Distinct from the March 2026 Hartwait Street shooting.",
+      "source_url": "https://www.thebanner.com/community/local-news/baltimore-police-fatal-dog-shooting-west-franklin-street-EX6Z4GQVXVDJ5BFO4DDD3CNJ2M/",
+      "source_name": "thebanner.com",
+      "additional_sources": [],
+      "confidence": "medium",
+      "reviewed": true
+    },
+    {
       "incident_date": "2026-07-22",
       "date_precision": "day",
       "city": "Kalaeloa",
@@ -492,6 +508,22 @@
       "reviewed": true
     },
     {
+      "incident_date": "2026-07-17",
+      "date_precision": "day",
+      "city": "Topeka",
+      "state": "KS",
+      "agency_name": "Topeka Police Department",
+      "circumstance": "unknown",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "Topeka police shot and killed a dog after two people were bitten.",
+      "source_url": "https://www.cjonline.com/story/news/crime/2026/07/20/police-shoot-and-kill-dog-after-2-people-are-attacked-in-se-topeka/90954833007/",
+      "source_name": "The Topeka Capital-Journal",
+      "additional_sources": [],
+      "confidence": "low",
+      "reviewed": true
+    },
+    {
       "incident_date": "2026-07-14",
       "date_precision": "day",
       "city": "Auxvasse",
@@ -546,7 +578,7 @@
     },
     {
       "incident_date": "2026-06-27",
-      "date_precision": "unknown",
+      "date_precision": "day",
       "city": "Annapolis",
       "state": "MD",
       "agency_name": "Annapolis Police Department",
@@ -742,40 +774,6 @@
       "source_url": "https://ashlandcountypictures.com/woman-seriously-injured-in-dog-attack-in-richland-county-deputies-forced-to-use-deadly-force-to-stop-mauling/",
       "source_name": "ashlandcountypictures.com",
       "additional_sources": [],
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-04-26",
-      "date_precision": "day",
-      "city": "Bowie",
-      "state": "MD",
-      "agency_name": "Bowie Police Department",
-      "circumstance": "welfare check",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "unknown",
-      "summary": "A 52-year-old man was attacked by his own dog at his Bowie home on Sunday morning around 7:30 a.m. Bowie police officers arrived and opened fire on the dog after it continued attacking the man despite attempts to restrain it; the man was taken to a hospital in serious condition.",
-      "source_url": "https://foxbaltimore.com/news/local/bowie-maryland-dog-attack-serious-injuries-man-prince-geroges-county?teaserSource=trending",
-      "source_name": "WBFF",
-      "additional_sources": [],
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-04-23",
-      "date_precision": "day",
-      "city": "Mequon",
-      "state": "WI",
-      "agency_name": "Thiensville Police Department",
-      "circumstance": "loose/roaming dog",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "no",
-      "summary": "A Thiensville police officer fired 16 rounds at two unattended dogs observed near North Cedarburg and Highland roads in Mequon on April 23. One dog was killed; the second was injured and later rescued after 17 days, sustaining bullet wounds to the hip and back end requiring multiple surgeries.",
-      "source_url": "https://www.gmtoday.com/news_graphic/news/thiensville-officer-under-investigation-dog-shooting/article_687ccb6d-cdf0-5ad1-892f-29f97e77e321.html",
-      "source_name": "Greater Milwaukee Today",
-      "additional_sources": [
-        "https://www.tmj4.com/news/local-news/in-your-community/ozaukee-county/thiensville-police-officer-shot-and-killed-a-dog-in-mequon-triggering-outside-probe"
-      ],
       "confidence": "high",
       "reviewed": true
     }
