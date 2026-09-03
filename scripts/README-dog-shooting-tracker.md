@@ -14,7 +14,7 @@ result and Netlify redeploys).
 |---|---|
 | discover | Google News RSS (`GOOGLE_NEWS_PHRASINGS`, the primary source) + GDELT DOC 2.0 API (`GDELT_QUERIES`, best-effort). Blocked domains, non-US TLDs, already-seen URLs, and human-excluded URLs (`datasets/dog-shootings-excluded.json`) are dropped. Queries are single quoted phrases. A GDELT query whose retries all fail is logged `FAIL` and kept distinct from a genuine zero, but does **not** fail the run — GDELT is unreliable from GitHub Actions and Google News carries discovery. |
 | extract | Article body text via `trafilatura`. If the page is video- or script-only (no body text), the article is **not** dropped — it goes to classify with a headline-only flag and stricter rules: a passive headline ("dog shot by officers", "…her dog, who was shot by police") qualifies, but the law-enforcement actor must be named in the headline itself (not inferred from the URL or town), and a headline that names a civilian, an off-duty/retired officer, or an officer under SBI/DA/IA investigation for the shooting does not. |
-| classify | One `claude-haiku-4-5` call per article (forced tool call), given the article's **publication date** as the anchor for resolving "Thursday" / "this week". Returns `qualifies` plus structured fields. `PROMPT_VERSION` is stamped on every row. Date guards: the model must quote its evidence in `incident_date_source` (no quote → date blanked); a resolved year more than one year before publication with `litigation = none` is dropped (mis-resolved relative date). Enum drift is coerced onto the vocab. A row with no `state` is dropped as unplaceable. |
+| classify | One `claude-haiku-4-5` call per article (forced tool call), given the article's **publication date** as the anchor for resolving "Thursday" / "this week". Returns `qualifies` plus structured fields. `PROMPT_VERSION` is stamped on every row. Date guards: the model must quote its evidence in `incident_date_source` (no quote → date blanked); a resolved year more than one year before publication with `litigation = none` is dropped (mis-resolved relative date). Enum drift is coerced onto the vocab. A row with no `state`, or a `state` that is not a US state (Canadian stories sometimes pass the headline-only classifier), is dropped rather than failing the whole batch at `validate_rows()`. |
 | dedupe | Candidates are blocked by `state` (or `city` when the row has no state) — no date window. One `claude-haiku-4-5` call decides same-incident **from the summary alone, ignoring dates** (they are often wrong): same agency, same metro, same described sequence of events / named officials. A match appends the URL to the existing row's `additional_sources`; no new row. |
 | store | Append new incidents to `datasets/dog-shootings.csv` (`reviewed = no`). Update `datasets/dog-shootings-seen-urls.json`. Existing rows' fields are never overwritten — only `additional_sources` grows on a dedupe match. |
 | validate | Parse check, no future dates, enum vocab, no duplicate ids, no blocklisted source domains. Aborts the write if >50% of processed articles errored. |
@@ -27,12 +27,15 @@ police, county sheriff/deputy, state police, federal, tribal, or campus — who,
 **while acting as police** (a call, stop, arrest, patrol, warrant, or otherwise
 handling a police matter), discharged a firearm at or toward a dog. Any outcome
 counts (killed, wounded, missed). On- vs. off-duty is a recorded field, not an
-exclusion — an off-duty officer who intervenes *as police* still counts.
+exclusion — an off-duty officer who intervenes *as police* still counts. What
+happens *after* the shooting — a criminal charge, discipline, resignation, a
+lawsuit, or a clearance — is recorded (in `dept_response`), not an exclusion.
+The test is only whether the shooter was an officer acting as police when they
+fired, the same standard applied to officer-involved shootings of people.
 
 **Excluded:** animal-control officers, civilians, security guards, game wardens
 acting in a wildlife capacity; **retired/former officers, and off-duty officers
-acting as private citizens in a personal dispute**; **any officer charged with a
-crime for the shooting** (it was not a lawful act in a law-enforcement capacity);
+acting as private citizens in a personal dispute**;
 non-firearm force; an officer's own police K-9 or a service dog; mercy killings of
 injured wildlife or livestock; animals that were not dogs; multi-topic news
 roundups that only mention a shooting in passing; and stories about policy,

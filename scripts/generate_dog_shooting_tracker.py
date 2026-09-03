@@ -76,7 +76,7 @@ PUBLISHED_CSV = "static/data/dog-shootings.csv"
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-02.1"
+PROMPT_VERSION = "2026-09-03"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
@@ -598,13 +598,14 @@ INCLUDE an article only if it reports a specific, concrete incident (a real even
 EXCLUDE (set qualifies=false) if ANY of these apply:
   - the shooter was an animal-control officer, a civilian, a security guard, or a game warden acting in a wildlife capacity
   - the shooter was a RETIRED or FORMER officer, or an off-duty officer acting as a private citizen in a personal dispute (e.g. defending their own pet, a neighbor conflict) rather than as police
-  - the shooter was CHARGED WITH A CRIME (animal cruelty, reckless endangerment, etc.) for the shooting — that means it was not a lawful act in a law-enforcement capacity
   - no firearm was involved (baton, Taser, catch-pole, vehicle, or the dog was only impounded/euthanized by a vet)
   - the animal was not a dog (cat, livestock, or wildlife such as a deer, bear, or coyote — including an officer euthanizing an animal injured by a car)
   - the dog shot was the officer's own K-9 / police dog / a service dog
   - it is about policy, training, legislation, procurement, a lawsuit ruling with no described incident, an opinion/column, or aggregate statistics with no specific incident
   - it is a first-report of an unconfirmed claim with no identifiable agency or location
   - it is a multi-topic news roundup that mentions the shooting only in passing, with no dedicated account of it
+
+The test is whether the shooter was a sworn officer acting as police WHEN THEY FIRED. What happens afterward does not change that: an officer being CHARGED with a crime, disciplined, fired, sued, or cleared AFTER the shooting still qualifies — those are exactly the cases to record, the same way an officer-involved shooting of a person is tracked whether or not charges follow. Put any such charge, discipline, resignation, or DA decision in dept_response.
 
 Report fields ONLY from what the article states. If the article does not state a field, use "unknown" for the enum fields and "" for the free-text fields (city, county, incident_date, officer_named, dog_breed_reported). Never infer from general knowledge or from the outlet's location.
 
@@ -691,14 +692,15 @@ HEADLINE_ONLY_NOTE = (
     "Set qualifies=false if the headline: names or implies a NON-police shooter "
     "(\"man\", \"gunman\", \"resident\", \"neighbor\", \"owner\", \"homeowner\", "
     "a security guard, an animal-control officer); says the officer was "
-    "OFF-DUTY, RETIRED, or FORMER, or was acting in a personal dispute; says the "
-    "officer is CHARGED, or is under investigation / review by the SBI, a state "
-    "bureau, a DA, or internal affairs FOR THE SHOOTING (that signals it was not "
-    "a lawful act as police); is about an animal that is not a dog (a coyote, "
-    "deer, bear, livestock -- even if a dog is also mentioned); indicates no "
-    "firearm (Tasered, caught, hit by a car); or is silent on who shot. If in "
-    "doubt about a detail OTHER than the shooter, the weapon, the animal, or "
-    "the on-duty/lawful-act question, still qualify it.\n"
+    "OFF-DUTY, RETIRED, or FORMER, or was acting in a personal dispute; is "
+    "about an animal that is not a dog (a coyote, deer, bear, livestock -- even "
+    "if a dog is also mentioned); indicates no firearm (Tasered, caught, hit by "
+    "a car); or is silent on who shot. A headline saying the officer was "
+    "CHARGED, disciplined, resigned, or is under investigation FOR THE SHOOTING "
+    "does NOT disqualify it -- if an on-duty officer acting as police fired the "
+    "gun, still qualify. If in doubt about a detail OTHER than the shooter, the "
+    "weapon, the animal, or whether the shooter was acting as police, still "
+    "qualify it.\n"
     "When it qualifies, set confidence=low and leave every field you cannot "
     "determine as unknown/empty, including incident_date. EXCEPTION: if the "
     "headline or URL names a city, neighbourhood, or region, set `state` to that "
