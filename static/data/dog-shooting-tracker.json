@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:14:08Z",
+  "generated_at": "2026-09-03T20:38:01Z",
   "total_incidents": 45,
   "reviewed_count": 45,
   "total_sources": 120,
@@ -83,15 +83,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 30
+      "count": 31
     },
     {
       "label": "county SO",
       "count": 13
-    },
-    {
-      "label": "unknown",
-      "count": 1
     },
     {
       "label": "state",
@@ -365,7 +361,7 @@
       "date_precision": "day",
       "city": "Allentown",
       "state": "PA",
-      "agency_name": "",
+      "agency_name": "Allentown Police Department",
       "circumstance": "loose/roaming dog",
       "dog_outcome": "killed",
       "human_injured_by_fire": "unknown",
