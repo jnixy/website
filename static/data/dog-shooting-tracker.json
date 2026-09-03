@@ -1,50 +1,70 @@
 {
-  "generated_at": "2026-09-02T19:58:36Z",
-  "total_incidents": 9,
+  "generated_at": "2026-09-03T17:25:45Z",
+  "total_incidents": 22,
   "reviewed_count": 9,
-  "total_sources": 37,
+  "total_sources": 56,
   "date_range": {
-    "earliest": "2026-08-12",
+    "earliest": "2025-09-05",
     "latest": "2026-08-27"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 9,
+    "current_year_to_date": 17,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 245
+    "as_of_day_of_year": 246
   },
   "yearly_counts": [
     {
+      "year": 2025,
+      "count": 1
+    },
+    {
       "year": 2026,
-      "count": 9
+      "count": 17
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 5
+      "count": 14
+    },
+    {
+      "label": "unknown",
+      "count": 4
+    },
+    {
+      "label": "injured-survived",
+      "count": 3
+    },
+    {
+      "label": "unharmed",
+      "count": 1
+    }
+  ],
+  "circumstance_breakdown": [
+    {
+      "label": "unrelated call response",
+      "count": 8
+    },
+    {
+      "label": "warrant service",
+      "count": 3
+    },
+    {
+      "label": "other",
+      "count": 3
+    },
+    {
+      "label": "loose/roaming dog",
+      "count": 2
     },
     {
       "label": "unknown",
       "count": 2
     },
     {
-      "label": "injured-survived",
-      "count": 2
-    }
-  ],
-  "circumstance_breakdown": [
-    {
-      "label": "loose/roaming dog",
-      "count": 2
-    },
-    {
-      "label": "warrant service",
-      "count": 2
-    },
-    {
-      "label": "unrelated call response",
+      "label": "welfare check",
       "count": 2
     },
     {
@@ -54,40 +74,41 @@
     {
       "label": "pursuit",
       "count": 1
-    },
-    {
-      "label": "other",
-      "count": 1
     }
   ],
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 4
+      "count": 12
     },
     {
       "label": "county SO",
-      "count": 4
+      "count": 8
     },
     {
       "label": "unknown",
-      "count": 1
+      "count": 2
     }
   ],
   "state_counts": [
     {
       "state": "CA",
       "name": "California",
+      "count": 4
+    },
+    {
+      "state": "TX",
+      "name": "Texas",
+      "count": 2
+    },
+    {
+      "state": "FL",
+      "name": "Florida",
       "count": 2
     },
     {
       "state": "NC",
       "name": "North Carolina",
-      "count": 1
-    },
-    {
-      "state": "TX",
-      "name": "Texas",
       "count": 1
     },
     {
@@ -101,11 +122,6 @@
       "count": 1
     },
     {
-      "state": "FL",
-      "name": "Florida",
-      "count": 1
-    },
-    {
       "state": "WA",
       "name": "Washington",
       "count": 1
@@ -113,6 +129,51 @@
     {
       "state": "IA",
       "name": "Iowa",
+      "count": 1
+    },
+    {
+      "state": "AR",
+      "name": "Arkansas",
+      "count": 1
+    },
+    {
+      "state": "GA",
+      "name": "Georgia",
+      "count": 1
+    },
+    {
+      "state": "NV",
+      "name": "Nevada",
+      "count": 1
+    },
+    {
+      "state": "MD",
+      "name": "Maryland",
+      "count": 1
+    },
+    {
+      "state": "AZ",
+      "name": "Arizona",
+      "count": 1
+    },
+    {
+      "state": "NY",
+      "name": "New York",
+      "count": 1
+    },
+    {
+      "state": "OH",
+      "name": "Ohio",
+      "count": 1
+    },
+    {
+      "state": "WI",
+      "name": "Wisconsin",
+      "count": 1
+    },
+    {
+      "state": "NJ",
+      "name": "New Jersey",
       "count": 1
     }
   ],
@@ -297,6 +358,154 @@
       ],
       "confidence": "high",
       "reviewed": true
+    },
+    {
+      "incident_date": "2026-07-08",
+      "date_precision": "day",
+      "city": "Marietta",
+      "state": "GA",
+      "agency_name": "Cobb County Sheriff's Office",
+      "circumstance": "warrant service",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Cobb County sheriff's deputy fatally shot a dog while serving an arrest warrant on Wednesday. Authorities said the dog was behaving aggressively at the time.",
+      "source_url": "https://patch.com/georgia/marietta/cobb-deputy-fatally-shoots-dog-while-serving-arrest-warrant-sheriff",
+      "source_name": "Patch",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-06-28",
+      "date_precision": "day",
+      "city": "Phoenix",
+      "state": "AZ",
+      "agency_name": "Phoenix Police",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "A Phoenix Police officer shot a dog early Sunday morning during a burglary investigation while searching a backyard near 7th Avenue and Broadway Road. Officers said the dog bit the officer and lunged at him a second time before being shot.",
+      "source_url": "https://www.fox10phoenix.com/news/pocket-fire-grows-more-than-6k-acres-dog-shot-phoenix-police-officer-nightly-roundup",
+      "source_name": "FOX 10 Phoenix",
+      "additional_sources": [],
+      "confidence": "medium",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-06-22",
+      "date_precision": "day",
+      "city": "St. Johnsville",
+      "state": "NY",
+      "agency_name": "Fulton County Sheriff's Office",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "unknown",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Fulton County Sheriff's sergeant fired at a German Shepherd that charged at him while deputies were investigating a report of a suspicious person trespassing on property in St. Johnsville. The sergeant said he fired in self-defense due to the dog's aggressive behavior and a previous dog bite incident involving a deputy.",
+      "source_url": "https://wnyt.com/top-stories/fulton-county-sheriffs-sergeant-shoots-dog-after-it-charges-at-him-in-st-johnsville/",
+      "source_name": "wnyt.com",
+      "additional_sources": [],
+      "confidence": "medium",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-06-13",
+      "date_precision": "day",
+      "city": "Los Angeles",
+      "state": "CA",
+      "agency_name": "LAPD",
+      "circumstance": "welfare check",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "LAPD officers responded to a report of a screaming woman at an apartment building in Canoga Park on June 13, 2026. Officers shot and killed Jameson, a 2-year-old golden retriever/Saint Bernard/poodle mix, after the dog allegedly charged at an officer when it exited the apartment during the welfare check.",
+      "source_url": "https://www.dexerto.com/entertainment/internet-raises-over-100k-for-family-after-dog-shot-by-police-during-knicks-celebration-3376305/",
+      "source_name": "Dexerto",
+      "additional_sources": [
+        "https://kfiam640.iheart.com/featured/la-local-news/content/2026-06-15-lapd-officer-shoots-dog-in-canoga-park/"
+      ],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-05-02",
+      "date_precision": "day",
+      "city": "",
+      "state": "CA",
+      "agency_name": "San Bernardino County Sheriff's Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A San Bernardino County sheriff's deputy fatally shot a homeowner's dog while investigating reports of a stolen vehicle. The homeowner contends the deputy should not have been on the property, particularly since the vehicle was located elsewhere.",
+      "source_url": "https://www.cbsnews.com/losangeles/video/san-bernardino-county-deputy-fatally-shoots-dog-while-responding-to-report-of-stolen-vehicle/",
+      "source_name": "CBS News",
+      "additional_sources": [],
+      "confidence": "medium",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-04-27",
+      "date_precision": "day",
+      "city": "Butler",
+      "state": "OH",
+      "agency_name": "Richland County Sheriff's Office",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "A Richland County Sheriff's Deputy responded to an active dog mauling on April 27, 2026, where a woman was under attack by a Pitbull mix named \"Clyde\" that had already killed a smaller dog. After pepper spray and a Taser proved ineffective and the dog advanced toward a deputy, the officer fired a single shot, killing the dog and allowing emergency medical care to begin.",
+      "source_url": "https://ashlandcountypictures.com/woman-seriously-injured-in-dog-attack-in-richland-county-deputies-forced-to-use-deadly-force-to-stop-mauling/",
+      "source_name": "ashlandcountypictures.com",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-02-13",
+      "date_precision": "day",
+      "city": "Bogota",
+      "state": "NJ",
+      "agency_name": "Bogota Police Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "unharmed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Bogota police officer fired a weapon at a dog that lunged at him while responding to a report of the animal biting a 17-year-old girl on Palisades Avenue and Linwood Avenue. The dog survived the shooting.",
+      "source_url": "https://www.northjersey.com/story/news/bergen/bogota/2026/02/17/bogota-nj-police-officer-shoots-dog-attack/88727054007/",
+      "source_name": "Bergen Record",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-01-13",
+      "date_precision": "day",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "agency_name": "Fort Lauderdale Police Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "injured-survived",
+      "human_injured_by_fire": "no",
+      "summary": "A Fort Lauderdale Police officer responded to a call about a large dog that had entered a home and killed a pet rabbit. When the officer encountered the dog, it attacked and bit the officer on the forearm; the officer then fired, hitting the dog, which fled but was later found by Broward County Animal Control.",
+      "source_url": "https://www.nbcmiami.com/news/local/fort-lauderdale-officer-shoots-dog-that-bit-him-killed-pet-rabbit-police/3748255/",
+      "source_name": "NBC 6 South Florida",
+      "additional_sources": [
+        "https://www.miamiherald.com/news/local/crime/article314304903.html"
+      ],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2025-09-05",
+      "date_precision": "day",
+      "city": "Henderson",
+      "state": "NV",
+      "agency_name": "Henderson Police Department",
+      "circumstance": "welfare check",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "On Sept. 5, 2025, Henderson Police officers Christian Salas and Autumn Owens responded to a welfare check. According to the family's lawsuit, Bruno, a seven-year-old boxer mix, exited the home and moved away from officers at a moderate pace without displaying aggressive behavior; Officer Salas fired once, killing the dog. The family has filed a federal lawsuit claiming the officer failed to employ less-lethal options and did not face actual threat.",
+      "source_url": "https://www.ktnv.com/13-investigates/henderson-family-files-federal-lawsuit-against-police-after-officer-fatally-shoots-dog",
+      "source_name": "ktnv.com",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
     }
   ]
 }
