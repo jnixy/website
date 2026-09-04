@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T11:48:19Z",
-  "total_incidents": 45,
-  "reviewed_count": 45,
-  "total_sources": 120,
+  "generated_at": "2026-09-04T14:17:33Z",
+  "total_incidents": 49,
+  "reviewed_count": 49,
+  "total_sources": 127,
   "date_range": {
     "earliest": "2026-01-13",
     "latest": "2026-08-27"
@@ -10,28 +10,28 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 45,
+    "current_year_to_date": 49,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 247
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 45
+      "count": 49
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 34
+      "count": 36
     },
     {
       "label": "injured-survived",
-      "count": 5
+      "count": 6
     },
     {
       "label": "unknown",
-      "count": 4
+      "count": 5
     },
     {
       "label": "unharmed",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "other",
-      "count": 14
+      "count": 17
     },
     {
       "label": "unrelated call response",
@@ -57,7 +57,7 @@
     },
     {
       "label": "loose/roaming dog",
-      "count": 4
+      "count": 5
     },
     {
       "label": "warrant service",
@@ -83,11 +83,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 31
+      "count": 33
     },
     {
       "label": "county SO",
-      "count": 13
+      "count": 15
     },
     {
       "label": "state",
@@ -101,6 +101,11 @@
       "count": 9
     },
     {
+      "state": "FL",
+      "name": "Florida",
+      "count": 4
+    },
+    {
       "state": "MD",
       "name": "Maryland",
       "count": 4
@@ -111,24 +116,19 @@
       "count": 4
     },
     {
+      "state": "TX",
+      "name": "Texas",
+      "count": 3
+    },
+    {
       "state": "PA",
       "name": "Pennsylvania",
       "count": 3
     },
     {
-      "state": "FL",
-      "name": "Florida",
-      "count": 3
-    },
-    {
-      "state": "TX",
-      "name": "Texas",
-      "count": 2
-    },
-    {
       "state": "OH",
       "name": "Ohio",
-      "count": 2
+      "count": 3
     },
     {
       "state": "WI",
@@ -208,6 +208,11 @@
     {
       "state": "MO",
       "name": "Missouri",
+      "count": 1
+    },
+    {
+      "state": "TN",
+      "name": "Tennessee",
       "count": 1
     }
   ],
@@ -686,6 +691,24 @@
       "reviewed": true
     },
     {
+      "incident_date": "2026-05-20",
+      "date_precision": "day",
+      "city": "San Antonio",
+      "state": "TX",
+      "agency_name": "San Antonio Police Department",
+      "circumstance": "other",
+      "dog_outcome": "injured-survived",
+      "human_injured_by_fire": "no",
+      "summary": "San Antonio police responded to the 100 block of Montrose near South Presa Street on the South Side after a family dog attacked its two owners. When officers arrived, the dog turned aggressive toward them as well; an officer shot it in the lower chest. The dog survived and was taken into Animal Care Services custody. The son was hospitalized; the mother declined treatment at the scene.",
+      "source_url": "https://www.ksat.com/news/local/2026/05/20/mother-son-injured-after-being-bitten-by-family-dog-on-south-side-acs-says/",
+      "source_name": "ksat.com",
+      "additional_sources": [
+        "https://www.yahoo.com/news/articles/sapd-1-taken-hospital-being-205055225.html"
+      ],
+      "confidence": "high",
+      "reviewed": true
+    },
+    {
       "incident_date": "2026-05-06",
       "date_precision": "day",
       "city": "Canandaigua",
@@ -754,22 +777,6 @@
         "https://ktla.com/news/local-news/lapd-officer-civilian-injured-in-pacoima-dog-attack/",
         "https://www.nbclosangeles.com/news/local/lapd-officer-shoots-a-dog-during-encampment-cleanup-in-pacoima/3882738/"
       ],
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-04-27",
-      "date_precision": "day",
-      "city": "Butler",
-      "state": "OH",
-      "agency_name": "Richland County Sheriff's Office",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "no",
-      "summary": "A Richland County Sheriff's Deputy responded to an active dog mauling on April 27, 2026, where a woman was under attack by a Pitbull mix named \"Clyde\" that had already killed a smaller dog. After pepper spray and a Taser proved ineffective and the dog advanced toward a deputy, the officer fired a single shot, killing the dog and allowing emergency medical care to begin.",
-      "source_url": "https://ashlandcountypictures.com/woman-seriously-injured-in-dog-attack-in-richland-county-deputies-forced-to-use-deadly-force-to-stop-mauling/",
-      "source_name": "ashlandcountypictures.com",
-      "additional_sources": [],
       "confidence": "high",
       "reviewed": true
     }
