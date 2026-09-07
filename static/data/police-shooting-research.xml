@@ -5,7 +5,16 @@
     <link>https://jnix.netlify.app/police-shooting-research/</link>
     <description>Recent academic research on police shootings and use of deadly force</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2026 13:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 11:53:22 +0000</lastBuildDate>
+    <item>
+      <title>What happens in police disciplinary decision-making? A grounded theory study of the Korean police</title>
+      <link>https://doi.org/10.1080/10439463.2026.2726918</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Jaeseong Jang&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;This study examines how disciplinary decision-making (DDM) operates within the Korean police by focusing on the processes through which disciplinary outcomes are produced. Drawing on in-depth interviews with disciplinary officers, this study employs a grounded theory approach to analyse the dynamics of police discipline. The analysis identifies Situated Inconsistency in DDM as the central phenomenon. This inconsistency is shaped by causal conditions such as excessive discretion in DDM and instit...&lt;/p&gt;</description>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing &amp; Society</source>
+      <priority>false</priority>
+    </item>
     <item>
       <title>‘We’re recording you too, bud:’ body-worn cameras, citizen journalism, and the changing landscape of police visibility</title>
       <link>https://doi.org/10.1080/10439463.2026.2724367</link>
@@ -265,15 +274,6 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>The Journal of Politics</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Mapping the temporal evolution of causal effects in public administration and policy research</title>
-      <link>https://doi.org/10.1093/jopart/muag015</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; L Jason Anastasopoulos &amp; Inkyu Kang&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Public Administration Research and Theory&lt;br&gt;&lt;p&gt;Abstract Recent growth in the use of randomized and quasi-experiments in public administration and policy research has advanced the ability to establish cause-and-effect relationships. However, many studies adopt static conceptions of causality, focusing on snapshots or time-averaged effects while overlooking how the effects change over time. This oversight is problematic, as interventions of scholarly interest, such as leadership training or the adoption of new technologies, are likely to produ...&lt;/p&gt;</description>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Journal of Public Administration Research and Theory</source>
       <priority>false</priority>
     </item>
   </channel>
