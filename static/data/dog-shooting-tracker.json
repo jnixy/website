@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-04T14:17:33Z",
-  "total_incidents": 49,
+  "generated_at": "2026-09-09T11:55:13Z",
+  "total_incidents": 50,
   "reviewed_count": 49,
-  "total_sources": 127,
+  "total_sources": 131,
   "date_range": {
     "earliest": "2026-01-13",
-    "latest": "2026-08-27"
+    "latest": "2026-09-07"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 49,
+    "current_year_to_date": 50,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 247
+    "as_of_day_of_year": 252
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 49
+      "count": 50
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 36
+      "count": 37
     },
     {
       "label": "injured-survived",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "other",
-      "count": 17
+      "count": 18
     },
     {
       "label": "unrelated call response",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 33
+      "count": 34
     },
     {
       "label": "county SO",
@@ -214,10 +214,35 @@
       "state": "TN",
       "name": "Tennessee",
       "count": 1
+    },
+    {
+      "state": "DC",
+      "name": "District of Columbia",
+      "count": 1
     }
   ],
   "human_injured_count": 2,
   "recent_incidents": [
+    {
+      "incident_date": "2026-09-07",
+      "date_precision": "day",
+      "city": "Washington",
+      "state": "DC",
+      "agency_name": "DC Police",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "A DC police officer shot and killed a dog during an arrest on Sunday.",
+      "source_url": "https://washingtonian.com/2026/09/09/lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder/",
+      "source_name": "Washingtonian",
+      "additional_sources": [
+        "https://wjla.com/newsletter-daily/gallery/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road?photo=3",
+        "https://www.yahoo.com/news/us/articles/dc-police-officer-fatally-shoots-230259898.html",
+        "https://wjla.com/news/local/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road"
+      ],
+      "confidence": "low",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-08-27",
       "date_precision": "day",
@@ -759,25 +784,6 @@
         "https://www.latimes.com/california/story/2026-05-06/deputy-fatally-shoots-dog-during-investigation-in-san-bernardino"
       ],
       "confidence": "medium",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-04-28",
-      "date_precision": "day",
-      "city": "Pacoima",
-      "state": "CA",
-      "agency_name": "Los Angeles Police Department",
-      "circumstance": "other",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "no",
-      "summary": "During a homeless-encampment cleanup near Bradley Avenue and Montague Street in Pacoima around 10:45 a.m. on April 28, 2026, a loose dog repeatedly bit a sanitation worker and an LAPD officer. The officer shot and killed the dog; the officer and worker were hospitalized in stable condition.",
-      "source_url": "https://www.cbsnews.com/losangeles/news/dog-bite-pacoima-police-shoot-homeless-cleanup/",
-      "source_name": "cbsnews.com",
-      "additional_sources": [
-        "https://ktla.com/news/local-news/lapd-officer-civilian-injured-in-pacoima-dog-attack/",
-        "https://www.nbclosangeles.com/news/local/lapd-officer-shoots-a-dog-during-encampment-cleanup-in-pacoima/3882738/"
-      ],
-      "confidence": "high",
       "reviewed": true
     }
   ]
