@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T11:55:13Z",
+  "generated_at": "2026-09-10T11:52:06Z",
   "total_incidents": 50,
   "reviewed_count": 49,
-  "total_sources": 131,
+  "total_sources": 133,
   "date_range": {
     "earliest": "2026-01-13",
     "latest": "2026-09-07"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 50,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 252
+    "as_of_day_of_year": 253
   },
   "yearly_counts": [
     {
@@ -238,7 +238,9 @@
       "additional_sources": [
         "https://wjla.com/newsletter-daily/gallery/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road?photo=3",
         "https://www.yahoo.com/news/us/articles/dc-police-officer-fatally-shoots-230259898.html",
-        "https://wjla.com/news/local/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road"
+        "https://wjla.com/news/local/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road",
+        "https://www.dcnewsnow.com/news/local-news/washington-dc/dc-police-officer-fatally-shoots-dog-while-arresting-man-wanted-in-deadly-stabbing/",
+        "https://wjla.com/news/local/gallery/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road"
       ],
       "confidence": "low",
       "reviewed": false
