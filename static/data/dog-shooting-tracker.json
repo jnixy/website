@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T11:52:06Z",
-  "total_incidents": 50,
+  "generated_at": "2026-09-11T11:52:58Z",
+  "total_incidents": 52,
   "reviewed_count": 49,
-  "total_sources": 133,
+  "total_sources": 136,
   "date_range": {
     "earliest": "2026-01-13",
     "latest": "2026-09-07"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 50,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 253
+    "as_of_day_of_year": 254
   },
   "yearly_counts": [
     {
@@ -23,15 +23,15 @@
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 37
+      "count": 38
+    },
+    {
+      "label": "unknown",
+      "count": 6
     },
     {
       "label": "injured-survived",
       "count": 6
-    },
-    {
-      "label": "unknown",
-      "count": 5
     },
     {
       "label": "unharmed",
@@ -45,11 +45,11 @@
   "circumstance_breakdown": [
     {
       "label": "other",
-      "count": 18
+      "count": 19
     },
     {
       "label": "unrelated call response",
-      "count": 10
+      "count": 11
     },
     {
       "label": "welfare check",
@@ -83,11 +83,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 34
+      "count": 35
     },
     {
       "label": "county SO",
-      "count": 15
+      "count": 16
     },
     {
       "label": "state",
@@ -128,6 +128,11 @@
     {
       "state": "OH",
       "name": "Ohio",
+      "count": 3
+    },
+    {
+      "state": "TN",
+      "name": "Tennessee",
       "count": 3
     },
     {
@@ -211,11 +216,6 @@
       "count": 1
     },
     {
-      "state": "TN",
-      "name": "Tennessee",
-      "count": 1
-    },
-    {
       "state": "DC",
       "name": "District of Columbia",
       "count": 1
@@ -240,7 +240,8 @@
         "https://www.yahoo.com/news/us/articles/dc-police-officer-fatally-shoots-230259898.html",
         "https://wjla.com/news/local/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road",
         "https://www.dcnewsnow.com/news/local-news/washington-dc/dc-police-officer-fatally-shoots-dog-while-arresting-man-wanted-in-deadly-stabbing/",
-        "https://wjla.com/news/local/gallery/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road"
+        "https://wjla.com/news/local/gallery/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road",
+        "https://washingtonian.com/2026/09/09/lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder/?utm_source=rss&utm_medium=rss&utm_campaign=lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder"
       ],
       "confidence": "low",
       "reviewed": false
