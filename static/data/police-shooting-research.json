@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-07T11:53:22Z",
+  "generated_at": "2026-09-14T12:09:00Z",
   "stories": [
+    {
+      "title": "“The Secret and Mysterious Process of Whistleblowing”: Police Perspectives on Whistleblowing in the UK",
+      "url": "https://doi.org/10.1007/s11896-026-09859-6",
+      "date": "2026-09-07T00:00:00Z",
+      "journal": "Journal of Police and Criminal Psychology",
+      "authors": "Olivia Elizabeth Vere Taylor et al.",
+      "abstract": "Abstract Recent high-profile cases of police misconduct in the UK have raised questions about the willingness or ability of police officers to contest misconduct amongst their own members. Willingness to whistleblow against fellow colleagues has received limited attention in the literature. Previous research has revealed discrepancies in defining and measuring whistleblowing with a reliance on quantitative approaches limiting the understanding of officers lived experiences. Here, we investigate officer knowledge, perceptions, and real-life encounters with police whistleblowing, employing semi-structured interviews with 15 members of a UK policing force. We focus on officers’ own definitions of whistleblowing, the reality of their experiences along with reflections and potential improvements on the process. Applying a reflexive thematic analysis, six main themes were generated – (1) the blind spots of whistleblowing, (2) the primacy and influence of interpersonal relationships, (3) cynicism and scepticism about the whistleblowing system, tensions in the process including (4) the problem of gossip and (5) the paradox of anonymity, and (6) suggestions for change. We reveal widespread confusion among officers regarding whistleblowing, compounded by a reliance on gossip and a notable distrust of investigative systems. Officers describe both positive and negative consequences of anonymity in the reporting system and reveal a cynicism about the possibility that police forces can undergo positive organisational change. They also make recommendations for improving organisational communication and the investigative process. We conclude with some practical recommendations for improving whistleblowing in the policing context.",
+      "type": "article",
+      "doi": "10.1007/s11896-026-09859-6",
+      "priority": false
+    },
     {
       "title": "What happens in police disciplinary decision-making? A grounded theory study of the Korean police",
       "url": "https://doi.org/10.1080/10439463.2026.2726918",
@@ -461,6 +472,17 @@
       "abstract": "",
       "type": "article",
       "doi": "10.1007/s40615-026-02994-0",
+      "priority": false
+    },
+    {
+      "title": "What's a policy without trust? How the legacy of policing shapes experiences of drug decriminalization in British Columbia",
+      "url": "https://doi.org/10.1016/j.socscimed.2026.119371",
+      "date": "2026-05-05T00:00:00Z",
+      "journal": "Social Science & Medicine",
+      "authors": "Alissa Greer et al.",
+      "abstract": "Historically, coercive and distrustful relations between police and people who use drugs have contributed to profound and enduring health harms. British Columbia's drug decriminalization policy, introduced in 2023, aimed to shift these dynamics and promote health and wellbeing by reducing criminalization and improving interactions with police. Drawing on qualitative interviews with 38 people who use drugs with diverse and intersecting structural vulnerabilities, including Indigeneity, racialization, and economic and housing precarity, we examine perceptions and experiences of policing and policy during the first year of decriminalization. Participants described a persistent legacy of police violence, including physical, psychological, and symbolic harms, that shaped enduring mistrust toward both policing and the policy itself. This mistrust constrained the perceived legitimacy of decriminalization, with participants questioning whether the policy meaningfully altered entrenched institutional practices, culture, or power relations. Past and present policing also remained a structuring force of social marginalization, shaping the everyday realities of people who use drugs. Rather than a departure from previous enforcement regimes, the legacies of policing overshadowed the potential benefits of decriminalization. These findings demonstrate how historical harms and institutional legacies mediate health-oriented policy reforms through fear, mistrust, and constrained legitimacy. Drug decriminalization is not implemented in a vacuum; its capacity to improve health and wellbeing depends on the sociohistorical contexts and legacies that structure how people engage with police, institutions, and health policy.",
+      "type": "article",
+      "doi": "10.1016/j.socscimed.2026.119371",
       "priority": false
     },
     {
