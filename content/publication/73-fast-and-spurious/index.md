@@ -56,7 +56,7 @@ links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.0440bf49"}, 
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point = "Left"
 +++
 
 This one's been accepted at the *Journal of Quantitative Criminology*, with John Hall at Cambridge leading the charge. The publisher embargoes accepted manuscripts for twelve months before authors can post them, so the postprint isn't up yet — the [preprint](https://doi.org/10.21428/cb6ab371.0440bf49) linked above has the full analysis for anyone who wants to dig in now, or if you'd like the accepted version before the embargo lifts, just email me.
@@ -79,16 +79,16 @@ A generalized synthetic control comparing New York to a donor pool of large U.S.
 
 ## The Bottom Line
 
-| Year | Pursuits | Collisions | Robberies | Shootings | Gun Violence |
-|------|---------:|-----------:|----------:|----------:|-------------:|
-| 2018 | 61 | 58 | 12,965 | 754 | 2,017 |
-| 2019 | 64 | 73 | 13,434 | 777 | 2,324 |
-| 2020 | 99 | 69 | 13,187 | 1,532 | 4,479 |
-| 2021 | 109 | 62 | 13,861 | 1,562 | 5,028 |
-| 2022 | 214 | 84 | 17,439 | 1,294 | 4,162 |
-| 2023 | 1,592 | 318 | 16,922 | 974 | 3,109 |
-| 2024 | 1,930 | 421 | 16,569 | 904 | 2,917 |
-| 2025 | 492 | 104 | 15,048 | 688 | 2,506 |
+| Year | Pursuits | Δ Pursuits | Collisions | Δ Collisions | Robberies | Δ Robberies | Shootings | Δ Shootings | Gun Violence | Δ Gun Violence |
+|------|---------:|-----------:|-----------:|-------------:|----------:|------------:|----------:|------------:|-------------:|---------------:|
+| 2018 | 61 | — | 58 | — | 12,965 | — | 754 | — | 2,017 | — |
+| 2019 | 64 | +4.9% | 73 | +25.9% | 13,434 | +3.6% | 777 | +3.1% | 2,324 | +15.2% |
+| 2020 | 99 | +54.7% | 69 | -5.5% | 13,187 | -1.8% | 1,532 | +97.2% | 4,479 | +92.7% |
+| 2021 | 109 | +10.1% | 62 | -10.1% | 13,861 | +5.1% | 1,562 | +2.0% | 5,028 | +12.3% |
+| 2022 | 214 | +96.3% | 84 | +35.5% | 17,439 | +25.8% | 1,294 | -17.2% | 4,162 | -17.2% |
+| 2023 | 1,592 | +643.9% | 318 | +278.6% | 16,922 | -3.0% | 974 | -24.7% | 3,109 | -25.3% |
+| 2024 | 1,930 | +21.2% | 421 | +32.4% | 16,569 | -2.1% | 904 | -7.2% | 2,917 | -6.2% |
+| 2025 | 492 | -74.5% | 104 | -75.3% | 15,048 | -9.2% | 688 | -23.9% | 2,506 | -14.1% |
 
 *Annual counts, NYPD/NYC Open Data. Robbery and shooting totals kept declining through the escalation years for reasons the paper argues are unrelated to pursuits — which is exactly why we didn't stop at the city-level trend.*
 
