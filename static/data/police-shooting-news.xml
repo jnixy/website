@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Sep 2026 11:22:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 11:32:06 +0000</lastBuildDate>
     <item>
       <title>Family questions police shooting of Milwaukee man after viewing body camera footage</title>
       <link>https://www.wisn.com/article/family-questions-police-shooting-of-milwaukee-man-after-viewing-body-camera-footage/73693031</link>
@@ -15,12 +15,36 @@
       <source>wisn.com</source>
     </item>
     <item>
+      <title>GBI investigating police shooting in Rome ; South Broad Street reopens</title>
+      <link>https://www.fox5atlanta.com/news/gbi-investigating-police-shooting-rome-south-broad-street-closed</link>
+      <description/>
+      <pubDate>Fri, 11 Sep 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
+    </item>
+    <item>
       <title>DeKalb officer shot while responding to domestic incident</title>
       <link>https://www.decaturish.com/news/dekalb/dekalb-officer-shot-while-responding-to-domestic-incident/article_00f5e46c-4d34-4d88-bb46-79c62b745d82.html</link>
       <description/>
       <pubDate>Fri, 11 Sep 2026 21:30:00 +0000</pubDate>
       <category>incident</category>
       <source>decaturish.com</source>
+    </item>
+    <item>
+      <title>At least 2 injured in Pasadena police shooting</title>
+      <link>https://www.yahoo.com/news/articles/least-2-injured-pasadena-police-070650330.html</link>
+      <description/>
+      <pubDate>Fri, 11 Sep 2026 08:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Watch : Charlotte - Mecklenburg provide update after officer shot</title>
+      <link>https://www.wbtv.com/2026/09/09/live-stream-charlotte-mecklenburg-police-hold-press-conference-after-officer-shot/</link>
+      <description/>
+      <pubDate>Wed, 09 Sep 2026 23:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wbtv.com</source>
     </item>
     <item>
       <title>Milwaukee police shooting , suspect killed identified</title>
@@ -381,30 +405,6 @@
       <pubDate>Sat, 15 Aug 2026 13:30:00 +0000</pubDate>
       <category>incident</category>
       <source>whoradio.iheart.com</source>
-    </item>
-    <item>
-      <title>Officer killed to join more than 30 names on wall of Metro lobby headquarters</title>
-      <link>https://news3lv.com/news/local/officer-killed-to-join-more-than-30-names-on-wall-of-metro-lobby-headquarters</link>
-      <description/>
-      <pubDate>Sat, 15 Aug 2026 06:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>news3lv.com</source>
-    </item>
-    <item>
-      <title>Police officer shot in Muscatine during chase , suspect at large</title>
-      <link>https://www.kcci.com/article/police-officer-shot-in-muscatine-during-chase-suspect-at-large/73441062</link>
-      <description/>
-      <pubDate>Sat, 15 Aug 2026 04:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kcci.com</source>
-    </item>
-    <item>
-      <title>Police : Suspect at large after Muscatine officer shot</title>
-      <link>https://www.kcrg.com/2026/08/14/police-suspect-large-after-muscatine-officer-shot/</link>
-      <description/>
-      <pubDate>Sat, 15 Aug 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kcrg.com</source>
     </item>
   </channel>
 </rss>

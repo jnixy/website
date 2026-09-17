@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:22:48Z",
+  "generated_at": "2026-09-17T11:32:06Z",
   "stories": [
     {
       "title": "Family questions police shooting of Milwaukee man after viewing body camera footage",
@@ -10,11 +10,35 @@
       "category": "incident"
     },
     {
+      "title": "GBI investigating police shooting in Rome ; South Broad Street reopens",
+      "url": "https://www.fox5atlanta.com/news/gbi-investigating-police-shooting-rome-south-broad-street-closed",
+      "description": "",
+      "date": "2026-09-11T23:30:00Z",
+      "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
       "title": "DeKalb officer shot while responding to domestic incident",
       "url": "https://www.decaturish.com/news/dekalb/dekalb-officer-shot-while-responding-to-domestic-incident/article_00f5e46c-4d34-4d88-bb46-79c62b745d82.html",
       "description": "",
       "date": "2026-09-11T21:30:00Z",
       "source": "decaturish.com",
+      "category": "incident"
+    },
+    {
+      "title": "At least 2 injured in Pasadena police shooting",
+      "url": "https://www.yahoo.com/news/articles/least-2-injured-pasadena-police-070650330.html",
+      "description": "",
+      "date": "2026-09-11T08:15:00Z",
+      "source": "yahoo.com",
+      "category": "incident"
+    },
+    {
+      "title": "Watch : Charlotte - Mecklenburg provide update after officer shot",
+      "url": "https://www.wbtv.com/2026/09/09/live-stream-charlotte-mecklenburg-police-hold-press-conference-after-officer-shot/",
+      "description": "",
+      "date": "2026-09-09T23:45:00Z",
+      "source": "wbtv.com",
       "category": "incident"
     },
     {
