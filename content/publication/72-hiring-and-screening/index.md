@@ -56,7 +56,7 @@ links = [{name = "DOI", url="https://doi.org/10.1108/PIJPSM-03-2026-0065"}, {nam
 
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = "Center"
+  focal_point = "TopLeft"
 +++
 
 For most people who think about applying to a police department, the agency's website is the whole encounter before they ever talk to a recruiter. In a new paper with Sadaf Hashimi, Natalie Cotton, Jessie Huff, and Erin Kearns — part of a DHS-funded project on insider threats in law enforcement — we asked a basic question nobody had answered at scale: what do those websites actually tell applicants about how hiring and screening work?
