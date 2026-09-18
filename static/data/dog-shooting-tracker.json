@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-17T12:05:46Z",
-  "total_incidents": 52,
+  "generated_at": "2026-09-18T11:49:50Z",
+  "total_incidents": 53,
   "reviewed_count": 49,
-  "total_sources": 136,
+  "total_sources": 138,
   "date_range": {
     "earliest": "2026-01-13",
-    "latest": "2026-09-07"
+    "latest": "2026-09-11"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 50,
+    "current_year_to_date": 51,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 260
+    "as_of_day_of_year": 261
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 50
+      "count": 51
     }
   ],
   "outcome_breakdown": [
@@ -27,7 +27,7 @@
     },
     {
       "label": "unknown",
-      "count": 6
+      "count": 7
     },
     {
       "label": "injured-survived",
@@ -61,7 +61,7 @@
     },
     {
       "label": "warrant service",
-      "count": 4
+      "count": 5
     },
     {
       "label": "domestic call",
@@ -87,7 +87,7 @@
     },
     {
       "label": "county SO",
-      "count": 16
+      "count": 17
     },
     {
       "label": "state",
@@ -99,6 +99,11 @@
       "state": "CA",
       "name": "California",
       "count": 9
+    },
+    {
+      "state": "PA",
+      "name": "Pennsylvania",
+      "count": 4
     },
     {
       "state": "FL",
@@ -118,11 +123,6 @@
     {
       "state": "TX",
       "name": "Texas",
-      "count": 3
-    },
-    {
-      "state": "PA",
-      "name": "Pennsylvania",
       "count": 3
     },
     {
@@ -223,6 +223,24 @@
   ],
   "human_injured_count": 2,
   "recent_incidents": [
+    {
+      "incident_date": "2026-09-11",
+      "date_precision": "day",
+      "city": "Philadelphia",
+      "state": "PA",
+      "agency_name": "Philadelphia Sheriff's Office",
+      "circumstance": "warrant service",
+      "dog_outcome": "unknown",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Philadelphia Sheriff's deputy serving a warrant on Colony Drive in Northeast Philadelphia shot a dog that had bitten the deputy several times on Thursday. The dog's condition was not reported.",
+      "source_url": "https://www.cbsnews.com/philadelphia/video/philadelphia-sheriffs-deputy-shoots-dog-after-being-bit-police-source-says/",
+      "source_name": "CBS News",
+      "additional_sources": [
+        "https://www.cbsnews.com/philadelphia/news/sheriffs-deputy-shoots-dog-bite/"
+      ],
+      "confidence": "medium",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-09-07",
       "date_precision": "day",
@@ -769,24 +787,6 @@
       "source_name": "Monroe Evening News",
       "additional_sources": [],
       "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-05-02",
-      "date_precision": "day",
-      "city": "",
-      "state": "CA",
-      "agency_name": "San Bernardino County Sheriff's Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "unknown",
-      "summary": "A San Bernardino County sheriff's deputy fatally shot a homeowner's dog while investigating reports of a stolen vehicle. The homeowner contends the deputy should not have been on the property, particularly since the vehicle was located elsewhere.",
-      "source_url": "https://www.cbsnews.com/losangeles/video/san-bernardino-county-deputy-fatally-shoots-dog-while-responding-to-report-of-stolen-vehicle/",
-      "source_name": "CBS News",
-      "additional_sources": [
-        "https://www.latimes.com/california/story/2026-05-06/deputy-fatally-shoots-dog-during-investigation-in-san-bernardino"
-      ],
-      "confidence": "medium",
       "reviewed": true
     }
   ]
