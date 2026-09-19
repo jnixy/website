@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-18T11:49:50Z",
+  "generated_at": "2026-09-19T11:33:27Z",
   "total_incidents": 53,
   "reviewed_count": 49,
-  "total_sources": 138,
+  "total_sources": 140,
   "date_range": {
     "earliest": "2026-01-13",
     "latest": "2026-09-11"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 51,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 261
+    "as_of_day_of_year": 262
   },
   "yearly_counts": [
     {
@@ -236,7 +236,9 @@
       "source_url": "https://www.cbsnews.com/philadelphia/video/philadelphia-sheriffs-deputy-shoots-dog-after-being-bit-police-source-says/",
       "source_name": "CBS News",
       "additional_sources": [
-        "https://www.cbsnews.com/philadelphia/news/sheriffs-deputy-shoots-dog-bite/"
+        "https://www.cbsnews.com/philadelphia/news/sheriffs-deputy-shoots-dog-bite/",
+        "https://hoodline.com/2026/09/dog-bites-philly-sheriff-s-deputy-repeatedly-deputy-opens-fire-on-colony-drive/",
+        "https://www.yahoo.com/news/videos/philadelphia-sheriffs-deputy-shoots-dog-211700757.html"
       ],
       "confidence": "medium",
       "reviewed": false
