@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2026 11:04:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 10:47:39 +0000</lastBuildDate>
+    <item>
+      <title>Milwaukee police shooting , family questions police details</title>
+      <link>https://www.fox6now.com/news/milwaukee-police-shooting-family-questions-police-details</link>
+      <description/>
+      <pubDate>Sun, 13 Sep 2026 08:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox6now.com</source>
+    </item>
     <item>
       <title>Family questions police shooting of Milwaukee man after viewing body camera footage</title>
       <link>https://www.wisn.com/article/family-questions-police-shooting-of-milwaukee-man-after-viewing-body-camera-footage/73693031</link>
@@ -93,6 +101,14 @@
       <pubDate>Fri, 04 Sep 2026 13:00:00 +0000</pubDate>
       <category>incident</category>
       <source>yahoo.com</source>
+    </item>
+    <item>
+      <title>Grovetown Officer Shoots Suspect in Fatal Encounter</title>
+      <link>https://kicks99.com/2026/09/01/grovetown-officer-shoots-suspect-in-fatal-encounter/</link>
+      <description/>
+      <pubDate>Fri, 04 Sep 2026 01:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kicks99.com</source>
     </item>
     <item>
       <title>Georgia officer killed on duty , honored by the community</title>
@@ -213,6 +229,14 @@
       <pubDate>Thu, 27 Aug 2026 19:15:00 +0000</pubDate>
       <category>incident</category>
       <source>wset.com</source>
+    </item>
+    <item>
+      <title>San Jose officer shot , armed suspect killed after entering family home</title>
+      <link>https://bnonews.com/index.php/2026/08/san-jose-officer-shot-armed-robbery-suspect-killed-after-entering-familys-home/</link>
+      <description/>
+      <pubDate>Thu, 27 Aug 2026 01:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>bnonews.com</source>
     </item>
     <item>
       <title>NMSP investigating police shooting involving Alamogordo Police</title>
@@ -381,30 +405,6 @@
       <pubDate>Sun, 16 Aug 2026 01:00:00 +0000</pubDate>
       <category>incident</category>
       <source>abc6onyourside.com</source>
-    </item>
-    <item>
-      <title>Des Moines Man IDd As Suspect In Muscatine Police Shooting | La Preciosa 98 . 7 FM y 1470 AM</title>
-      <link>https://lapreciosa987.iheart.com/content/2026-08-15-des-moines-man-idd-as-suspect-in-muscatine-police-shooting/</link>
-      <description/>
-      <pubDate>Sat, 15 Aug 2026 17:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>lapreciosa987.iheart.com</source>
-    </item>
-    <item>
-      <title>Calgary Officer Shot , Suspect Dead After Dramatic Chase and Gunfire in City Park</title>
-      <link>https://www.theepochtimes.com/world/calgary-officer-shot-suspect-dead-after-dramatic-chase-and-gunfire-in-city-park-6072576</link>
-      <description/>
-      <pubDate>Sat, 15 Aug 2026 16:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>theepochtimes.com</source>
-    </item>
-    <item>
-      <title>Des Moines Man IDd As Suspect In Muscatine Police Shooting</title>
-      <link>https://whoradio.iheart.com/content/2026-08-15-des-moines-man-idd-as-suspect-in-muscatine-police-shooting/</link>
-      <description/>
-      <pubDate>Sat, 15 Aug 2026 13:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>whoradio.iheart.com</source>
     </item>
   </channel>
 </rss>
