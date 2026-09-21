@@ -66,7 +66,7 @@ No government agency tracks how often police shoot dogs. This tracker is assembl
     <div class="dst-notes">
       <h3>How this is built</h3>
       <p>
-        A scheduled job searches GDELT and Google News for coverage of police shooting dogs, pulls the
+        A scheduled job searches Google News for coverage of police shooting dogs, pulls the
         article text, and uses a language model to decide whether the story describes a specific incident
         that fits the scope below and to pull out structured details (date, location, agency, circumstance,
         outcome). A second model pass merges multiple articles about the same event into one record.
