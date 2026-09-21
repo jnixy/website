@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:27:17Z",
+  "generated_at": "2026-09-21T13:26:44Z",
   "source": "Mapping Police Violence (mappingpoliceviolence.us)",
   "source_last_incident_date": "2026-08-18",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
@@ -7,10 +7,10 @@
     "total_incidents": 14832,
     "current_year": 2026,
     "prior_year": 2025,
-    "as_of_date": "2026-08-31",
+    "as_of_date": "2026-09-07",
     "lag_days": 14,
     "current_year_to_date": 697,
-    "prior_year_same_point": 795
+    "prior_year_same_point": 819
   },
   "yearly_counts": [
     {
@@ -182,7 +182,7 @@
           572,
           647,
           697,
-          null,
+          697,
           null,
           null,
           null
