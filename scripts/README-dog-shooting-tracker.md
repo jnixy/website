@@ -12,7 +12,7 @@ result and Netlify redeploys).
 
 | Stage | What happens |
 |---|---|
-| discover | Google News RSS (`GOOGLE_NEWS_PHRASINGS`, the primary source) + GDELT DOC 2.0 API (`GDELT_QUERIES`, best-effort). Blocked domains, non-US TLDs, already-seen URLs, and human-excluded URLs (`datasets/dog-shootings-excluded.json`) are dropped. Queries are single quoted phrases. A GDELT query whose retries all fail is logged `FAIL` and kept distinct from a genuine zero, but does **not** fail the run — GDELT is unreliable from GitHub Actions and Google News carries discovery. |
+| discover | Google News RSS (`GOOGLE_NEWS_PHRASINGS`, the only source). Blocked domains, non-US TLDs, already-seen URLs, and human-excluded URLs (`datasets/dog-shootings-excluded.json`) are dropped. Queries are single quoted phrases. |
 | extract | Article body text via `trafilatura`. If the page is video- or script-only (no body text), the article is **not** dropped — it goes to classify with a headline-only flag and stricter rules: a passive headline ("dog shot by officers", "…her dog, who was shot by police") qualifies, but the law-enforcement actor must be named in the headline itself (not inferred from the URL or town), and a headline that names a civilian, an off-duty/retired officer, or an officer under SBI/DA/IA investigation for the shooting does not. |
 | classify | One `claude-haiku-4-5` call per article (forced tool call), given the article's **publication date** as the anchor for resolving "Thursday" / "this week". Returns `qualifies` plus structured fields. `PROMPT_VERSION` is stamped on every row. Date guards: the model must quote its evidence in `incident_date_source` (no quote → date blanked); a resolved year more than one year before publication with `litigation = none` is dropped (mis-resolved relative date). Enum drift is coerced onto the vocab. A row with no `state`, or a `state` that is not a US state (Canadian stories sometimes pass the headline-only classifier), is dropped rather than failing the whole batch at `validate_rows()`. |
 | dedupe | Candidates are blocked by `state` (or `city` when the row has no state) — no date window. One `claude-haiku-4-5` call decides same-incident **from the summary alone, ignoring dates** (they are often wrong): same agency, same metro, same described sequence of events / named officials. A match appends the URL to the existing row's `additional_sources`; no new row. |
@@ -127,20 +127,18 @@ tab instead — `workflow_dispatch` takes `days`, `limit`, `discover_only`, and
 no-write classifier check (`dry_run`) without touching the dataset. Re-enable
 the `schedule:` block once precision is acceptable.
 
-**GDELT is unreliable from GitHub Actions** — runners share an IP pool that
-GDELT rate-limits, so CI runs on 2026-09-01 saw it 429 and connect-timeout on
-nearly every request (`generate_police_shooting_news.py` hits the same wall).
-The GDELT leg is deliberately small (7 non-overlapping queries, `(10, 30)`s
-timeout, 2 retries) so a mostly-failing leg still finishes in a few minutes, and
-its failure is logged but **does not fail the run**. Google News is the primary
-source. If Google-News-only breadth proves too thin after a few real runs, the
-fix is a GDELT proxy on a non-Actions IP (Val.town / Cloudflare Worker), not
-more retries. GDELT is also unreachable from some university networks, so a local
-`--discover-only` may return Google News only.
+**GDELT was dropped (2026-09-21).** It was a best-effort second discovery
+source, but it timed out or returned 429 on nearly every request — from GitHub
+Actions (shared runner IPs hit its per-IP rate limiter) and later from a local IP
+too — and cost about six minutes of timeouts per daily run for no candidates.
+Google News is now the only discovery source. If its breadth proves too thin,
+widen `GOOGLE_NEWS_PHRASINGS` (or, as a last resort, front GDELT with a proxy on
+a non-Actions IP); more retries will not help. `generate_police_shooting_news.py`
+still queries GDELT.
 
 **Exit codes.** The script exits non-zero only on real failures: `ANTHROPIC_API_KEY`
-missing, >50% of classified articles erroring, or a validation problem. A GDELT
-outage is not one of these.
+missing, >50% of classified articles erroring, or a validation problem. A quiet
+news window with no new candidates is not one of these.
 
 ## Limitations
 
@@ -155,8 +153,8 @@ had missed entirely — headlines using an adjective inside the verb phrase
 ("deputies shoot **aggressive** dog"), a "kills" verb, or a passive
 construction. `GOOGLE_NEWS_PHRASINGS` and `HEADLINE_ONLY_NOTE` were widened to
 cover those forms. The other direction held up: our set caught a pack-attack
-incident the parallel tracker missed. Recall is still bounded by GDELT being
-unusable from Actions (see below).
+incident the parallel tracker missed. Recall is bounded by Google News
+being the only discovery source (see below).
 
 ## Historical data (deliberately not ingested)
 

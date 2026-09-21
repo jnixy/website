@@ -6,8 +6,7 @@ There is no national, systematic tracking of police shootings of dogs. This
 script builds one from news coverage, using the same approach as Charles Fain
 Lehman's flock-crime-tracker (flockstopscrime.com):
 
-  1. discover  - Google News RSS (primary) + GDELT DOC 2.0 API (best-effort;
-                 unreliable from GitHub Actions, never fails the run)
+  1. discover  - Google News RSS, one narrow query per headline phrasing
   2. extract   - pull article body text with trafilatura
   3. classify  - one Claude (Haiku) call per article: does it describe a
                  sworn officer firing a gun at a dog? plus structured fields
@@ -81,22 +80,6 @@ PROMPT_VERSION = "2026-09-03"
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
 MAX_DEDUPE_CANDIDATES = 20   # cap on same-state rows sent to the dedupe model
-# GDELT is unreliable from the GitHub Actions IP range: CI runs on 2026-09-01
-# saw ~half of all requests connect-timeout even on trivial single-term queries
-# at a 45s timeout. Query *shape* is no longer the problem (that was the OR
-# groups); the endpoint itself is just slow/flaky from Actions. So the GDELT leg
-# is built to finish fast even when it is mostly failing: a short list of
-# non-overlapping queries, a smaller record cap (the server responds quicker for
-# 100 than 250), and a longer pause so a burst of failures backs off instead of
-# retrying into the same congestion.
-GDELT_PAUSE_SEC = 5
-# (connect, read). A *connect* timeout beyond ~10s is pointless — if GDELT has
-# not accepted the socket by then it is down for this request, not slow. Read
-# gets 30s for the JSON body. Successful CI queries returned in 2–25s, so this
-# only clips genuine failures.
-GDELT_TIMEOUT = (10, 30)
-GDELT_RETRIES = 2
-GDELT_MAX_RECORDS = 100
 GNEWS_PAUSE_SEC = 1
 
 # The CSV schema. Order matters — this is the on-disk column order.
@@ -218,34 +201,6 @@ def clean_incident_date(fields, published=""):
         prec = "day"
     return iso, prec
 
-# Discovery — GDELT DOC 2.0 API queries (ANDs terms; quotes for phrases).
-# `sourcecountry:US` is appended per query. The LLM is the real relevance gate.
-#
-# BEST-EFFORT ONLY. GDELT is unreliable from GitHub Actions runners: three CI
-# runs on 2026-09-01 saw it connect-time-out and 429 on nearly every request
-# (shared runner IP pool -> GDELT's per-IP rate limiter). generate_police_
-# shooting_news.py hits the same wall. A GDELT failure does NOT fail the run;
-# Google News carries discovery. If Google-News-only breadth proves too thin,
-# the fix is a GDELT proxy on a non-Actions IP (Val.town / Cloudflare Worker),
-# not more retries here.
-#
-# The list is kept SHORT and non-overlapping so the leg's wall-clock stays
-# bounded when it is mostly failing. Measured yields, 2026-09-01, 14d window:
-#   "shot the dog" police  39   |  "officer shot" dog  38   <- the two producers
-#   "police shot" dog       5   |  "deputy shot" dog     5
-#   "shot the dog" deputy   1   |  "shot a dog" police   3   |  everything else 0
-# GDELT matches article *body* text, which is past tense, so the present-tense
-# "shoots" phrasings (0 hits here) live only in GOOGLE_NEWS_PHRASINGS.
-GDELT_QUERIES = [
-    '"shot the dog" police',      # 39 — top producer
-    '"officer shot" dog',         # 38 — top producer
-    '"police shot" dog',          # 5  — distinct "police shot <X>" framing
-    '"deputy shot" dog',          # 5  — sheriff/deputy coverage
-    '"shot the family dog"',      # pet/home context, low volume but high precision
-    '"opened fire" dog police',   # 13 in run #1 — a different verb entirely
-    'puppycide',                  # term of art; GDELT corpus larger than GNews
-]
-
 # Google News RSS — one narrow feed per phrasing; `when:Nd` limits recency.
 #
 # Unquoted terms are AND-joined, which is far too loose: "police shot dog"
@@ -258,12 +213,12 @@ GDELT_QUERIES = [
 # / "officer shot dog" / "deputy shot dog" (AND-joined, ~10%), "police killed
 # dog" (69 hits, almost none relevant), "officer kills dog" and "police shot
 # and killed" dog (returned an outlet's general feed), "shot by a police
-# officer" dog (0 relevant), and "puppycide" (0 hits on Google News — it is
-# kept in GDELT_QUERIES, where the corpus is larger).
-# GDELT is unreliable from GitHub Actions (see GDELT_QUERIES note), so Google
-# News is effectively the sole discovery source and this list has to carry the
-# breadth GDELT used to add. The first block is the 2026-09-01 probe set (hit /
-# on-topic counts from a 21-day window). The second block is unverified — added
+# officer" dog (0 relevant), and "puppycide" (0 hits on Google News).
+# Google News is the sole discovery source (GDELT was dropped 2026-09-21: it
+# timed out or 429'd on nearly every request, from CI and from a local IP
+# alike), so this list has to carry all of the breadth. The first block is
+# the 2026-09-01 probe set (hit / on-topic counts from a 21-day window). The
+# second block is unverified — added
 # to widen agency coverage (state police, generic "police"), verbs ("opened fire
 # on"), and the "family dog" pet-context signal — and should be pruned after the
 # next real run against its own yield.
@@ -279,7 +234,7 @@ GOOGLE_NEWS_PHRASINGS = [
     '"police shot a dog"',       # 2 hits, 1 on-topic
     '"deputy shot the dog"',     # 1 hit, on-topic
     '"dog shot by police"',      # 5 hits, ~3 on-topic
-    # -- unverified, added 2026-09-01 to replace GDELT breadth --
+    # -- unverified, added 2026-09-01 to widen breadth --
     '"police shoot dog"',        # plural-verb headline form, "police" as agency
     '"police shoot a dog"',
     '"officer shoots a dog"',
@@ -290,7 +245,7 @@ GOOGLE_NEWS_PHRASINGS = [
     '"shot the family dog"',
     '"dog shot by deputy"',      # mirrors the working "dog shot by police"
     '"dog shot by officer"',
-    '"opened fire on the dog"',  # migrated from GDELT_QUERIES
+    '"opened fire on the dog"',  # a different verb entirely
     '"shoots dog while"',        # parallel to the working "shoots dog during"
     # -- added 2026-09-02, recall gaps found against a parallel OIAS tracker --
     # Three confirmed in-scope incidents in the Aug 2026 window were absent from
@@ -353,7 +308,7 @@ STATE_NAME_BY_ABBR = {
 }
 VALID_STATES = set(STATE_NAME_BY_ABBR)
 
-# Spoofed browser UA — GDELT rejects obvious bot agents.
+# Browser-like UA — some publishers reject obvious bot agents.
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
     "(KHTML, like Gecko) Version/17.4.1 Safari/605.1.15"
@@ -382,7 +337,7 @@ def _blocked(url):
 def _non_us(url):
     """True for obvious non-US publishers, by country-code TLD.
 
-    GDELT gets `sourcecountry:US`; Google News has no working equivalent and
+    Google News has no working US-only filter and
     leaked ctvnews.ca, aptnnews.ca and dailystar.co.uk into a 21-day probe.
     The classifier already scopes to sworn *U.S.* officers and would reject
     these, so this is purely to avoid paying for the call. It is deliberately
@@ -391,56 +346,6 @@ def _non_us(url):
     """
     host = _domain(url)
     return any(host == t or host.endswith("." + t) for t in NON_US_TLDS)
-
-
-def parse_gdelt_date(gdelt_date):
-    try:
-        return datetime.strptime(gdelt_date, "%Y%m%dT%H%M%SZ").strftime("%Y-%m-%dT%H:%M:%SZ")
-    except Exception:
-        return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-
-def fetch_gdelt(query, days_back):
-    """One GDELT DOC 2.0 query -> list of {title, url, source, date}.
-
-    Returns None -- NOT an empty list -- when every attempt fails. A query that
-    genuinely matches nothing and a query that timed out every retry are very
-    different facts for a tracker whose whole claim is completeness, and the
-    caller has to be able to tell them apart to report honestly.
-    """
-    url = "https://api.gdeltproject.org/api/v2/doc/doc"
-    params = {
-        "query": f"{query} sourcecountry:US",
-        "mode": "artlist",
-        "maxrecords": GDELT_MAX_RECORDS,
-        "format": "json",
-        "timespan": f"{days_back}d",
-    }
-    for attempt in range(GDELT_RETRIES):
-        try:
-            resp = requests.get(
-                url, params=params, headers={"User-Agent": USER_AGENT},
-                timeout=GDELT_TIMEOUT,
-            )
-            if resp.status_code == 429:
-                time.sleep(10 * (attempt + 1))
-                continue
-            resp.raise_for_status()
-            articles = resp.json().get("articles", [])
-            return [
-                {
-                    "title": (a.get("title") or "").strip(),
-                    "url": a.get("url", ""),
-                    "source": a.get("domain", ""),
-                    "date": parse_gdelt_date(a.get("seendate", "")),
-                }
-                for a in articles
-                if a.get("url")
-            ]
-        except Exception as e:  # noqa: BLE001 - a single bad query shouldn't kill the run
-            print(f"  ! GDELT error for {query!r}: {e}")
-            time.sleep(3)
-    return None
 
 
 def fetch_google_news(phrasing, days_back):
@@ -512,26 +417,9 @@ def resolve_url(article):
 
 def discover(days_back, seen_urls, excluded=None):
     """Run every query, dedupe by URL, drop blocked domains, already-seen URLs,
-    and human-excluded URLs. Returns (candidates, failed_queries) — failed_queries
-    lists the GDELT queries whose every retry failed, which the caller must
-    surface: a silent under-collection is the one failure mode this tracker
-    cannot tolerate."""
+    and human-excluded URLs. Returns the fresh candidates, newest first."""
     excluded = excluded or set()
     candidates = {}
-    failed_queries = []
-
-    print(f"GDELT ({len(GDELT_QUERIES)} queries, {days_back}d window)")
-    for query in GDELT_QUERIES:
-        articles = fetch_gdelt(query, days_back)
-        if articles is None:
-            failed_queries.append(query)
-            print(f"  FAIL  {query}   (all retries failed -- NOT a real zero)")
-            time.sleep(GDELT_PAUSE_SEC)
-            continue
-        print(f"  {len(articles):4d}  {query}")
-        for a in articles:
-            candidates.setdefault(a["url"], a)
-        time.sleep(GDELT_PAUSE_SEC)
 
     print(f"Google News ({len(GOOGLE_NEWS_PHRASINGS)} feeds)")
     for phrasing in GOOGLE_NEWS_PHRASINGS:
@@ -540,6 +428,20 @@ def discover(days_back, seen_urls, excluded=None):
         for a in articles:
             candidates.setdefault(a["url"], a)
         time.sleep(GNEWS_PAUSE_SEC)
+
+    # Zero raw entries across every feed is a fetch failure, not a quiet news
+    # week: the count is taken before the already-seen filter, so even a slow
+    # window still returns the last few days' coverage. feedparser swallows
+    # network errors, so without this a Google News outage (now the only source)
+    # looks like "no new incidents". Exit non-zero so the Actions run goes red
+    # and emails, instead of a log line nobody reads.
+    if not candidates:
+        print(
+            f"!! all {len(GOOGLE_NEWS_PHRASINGS)} Google News feeds returned 0 entries; "
+            "treating as a fetch failure, not an empty news window.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     # news.google.com is itself blocklisted, so the blocklist check has to wait
     # until after resolve_url() — otherwise every Google News hit is dropped here.
@@ -553,12 +455,7 @@ def discover(days_back, seen_urls, excluded=None):
     ]
     fresh.sort(key=lambda a: a["date"], reverse=True)
     print(f"\n{len(candidates)} unique URLs -> {len(fresh)} new, unblocked candidates")
-    if failed_queries:
-        print(
-            f"\n!! {len(failed_queries)}/{len(GDELT_QUERIES)} GDELT queries FAILED "
-            f"(not empty results): {failed_queries}"
-        )
-    return fresh, failed_queries
+    return fresh
 
 
 # --------------------------------------------------------------------------- #
@@ -1189,7 +1086,7 @@ def main():
     print(f"Loaded {len(incidents)} existing incidents, {len(seen_urls)} seen URLs, "
           f"{len(excluded)} excluded URLs.\n")
 
-    candidates, failed_queries = discover(args.days, seen_urls, excluded)
+    candidates = discover(args.days, seen_urls, excluded)
 
     if args.discover_only:
         print("\n--- candidates ---")
@@ -1306,17 +1203,6 @@ def main():
     print(f"\nWrote {INCIDENTS_CSV} ({len(incidents)} incidents), {DASHBOARD_JSON}, {PUBLISHED_CSV}.")
     print(f"Dashboard: {data['total_incidents']} incidents, "
           f"{data['stats']['current_year_to_date']} YTD.")
-
-    # GDELT failing is NOT a run failure. It is unreliable from GitHub Actions
-    # runners (shared IP pool -> GDELT's per-IP rate limiter; confirmed failing
-    # for generate_police_shooting_news.py too, with 429s). It is best-effort
-    # additive recall on top of Google News, which is the dependable source.
-    # The `!! N/M GDELT queries FAILED` line from discover() is the record.
-    if failed_queries:
-        print(
-            f"\nnote: {len(failed_queries)}/{len(GDELT_QUERIES)} GDELT queries failed "
-            f"this run (best-effort source; Google News carried discovery)."
-        )
 
 
 if __name__ == "__main__":
