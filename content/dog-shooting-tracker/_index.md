@@ -1,17 +1,21 @@
 ---
-title: "Police Shootings of Dogs"
+title: "Dogs Shot by Police"
 summary: "A running, news-derived count of incidents in which U.S. law enforcement officers fired a gun at a dog"
 type: page
 reading_time: false
 share: true
 profile: false
 comments: false
+image:
+  preview_only: true
 ---
 
-A running record of incidents in which a sworn U.S. law enforcement officer discharged a firearm at or toward a dog — killed, wounded, or missed. It is built automatically from news coverage and updated daily.
+How often do U.S. police officers shoot dogs? The only honest answer is no one knows for sure. There's no official data, and various unofficial data collection efforts are dated or inadequate. But every so often I see stories pop up (like [this one](https://www.thetrace.org/2026/06/police-dog-shootings-how-often/) from June 2026) regurgitating an [old claim from a DOJ COPS Office Employee](https://perma.cc/Y9JJ-2FSE) that police shoot ~10,000 dogs per year, or 25-30 per day on average. (In comparison, [best estimates](https://ajph.aphapublications.org/doi/pdf/10.2105/AJPH.2023.307560) are that police shoot ~1800 *people* per year.)
+
+I've always been skeptical of this claim, but without good data who knows? So I built a running record of incidents in which a sworn U.S. law enforcement officer discharged a firearm at or toward a dog (whether the dog was killed, injured, or missed). It is built automatically from news coverage and updated daily.
 
 {{% alert note %}}
-No government agency tracks how often police shoot dogs. This tracker is assembled from news reports we monitor automatically, so these numbers represent a **floor, not a full count** — incidents in news deserts, or that were never reported, are missing. Earlier volunteer efforts — the [Puppycide Database Project](https://github.com/puppycidedatabaseproject/pdb-database) and a citizen-compiled [1998–2014 spreadsheet](https://archive.org/details/1998THRU2014DOGSSHOTBYPOLICE) — stopped years ago and used broader, less consistent definitions (e.g., animals that were not dogs, mercy killings of animals struck by vehicles). See the notes below the charts for scope and limitations.
+This tracker is assembled from news reports we monitor automatically, so these numbers represent a **floor, not a full count** — incidents in news deserts, or that were never reported, are missing. Earlier volunteer efforts — the [Puppycide Database Project](https://github.com/puppycidedatabaseproject/pdb-database) and a citizen-compiled [1998–2014 spreadsheet](https://archive.org/details/1998THRU2014DOGSSHOTBYPOLICE) — stopped years ago and used broader, less consistent definitions (e.g., animals that were not dogs, mercy killings of animals struck by vehicles). See the notes below the charts for scope and limitations.
 {{% /alert %}}
 
 ---
