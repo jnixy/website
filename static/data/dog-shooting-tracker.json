@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-21T13:23:04Z",
-  "total_incidents": 53,
-  "reviewed_count": 49,
-  "total_sources": 140,
+  "generated_at": "2026-09-21T18:50:10Z",
+  "total_incidents": 51,
+  "reviewed_count": 51,
+  "total_sources": 138,
   "date_range": {
     "earliest": "2026-01-13",
-    "latest": "2026-09-11"
+    "latest": "2026-09-17"
   },
   "stats": {
     "current_year": 2026,
@@ -23,11 +23,11 @@
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 38
+      "count": 37
     },
     {
       "label": "unknown",
-      "count": 7
+      "count": 6
     },
     {
       "label": "injured-survived",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "other",
-      "count": 19
+      "count": 17
     },
     {
       "label": "unrelated call response",
@@ -83,11 +83,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 35
+      "count": 34
     },
     {
       "label": "county SO",
-      "count": 17
+      "count": 16
     },
     {
       "label": "state",
@@ -128,11 +128,6 @@
     {
       "state": "OH",
       "name": "Ohio",
-      "count": 3
-    },
-    {
-      "state": "TN",
-      "name": "Tennessee",
       "count": 3
     },
     {
@@ -216,6 +211,11 @@
       "count": 1
     },
     {
+      "state": "TN",
+      "name": "Tennessee",
+      "count": 1
+    },
+    {
       "state": "DC",
       "name": "District of Columbia",
       "count": 1
@@ -224,7 +224,7 @@
   "human_injured_count": 2,
   "recent_incidents": [
     {
-      "incident_date": "2026-09-11",
+      "incident_date": "2026-09-17",
       "date_precision": "day",
       "city": "Philadelphia",
       "state": "PA",
@@ -241,20 +241,20 @@
         "https://www.yahoo.com/news/videos/philadelphia-sheriffs-deputy-shoots-dog-211700757.html"
       ],
       "confidence": "medium",
-      "reviewed": false
+      "reviewed": true
     },
     {
-      "incident_date": "2026-09-07",
+      "incident_date": "2026-09-06",
       "date_precision": "day",
       "city": "Washington",
       "state": "DC",
       "agency_name": "DC Police",
-      "circumstance": "other",
+      "circumstance": "unrelated call response",
       "dog_outcome": "killed",
       "human_injured_by_fire": "unknown",
       "summary": "A DC police officer shot and killed a dog during an arrest on Sunday.",
-      "source_url": "https://washingtonian.com/2026/09/09/lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder/",
-      "source_name": "Washingtonian",
+      "source_url": " https://www.dcnewsnow.com/news/local-news/washington-dc/dc-police-officer-fatally-shoots-dog-while-arresting-man-wanted-in-deadly-stabbing/",
+      "source_name": "DC News Now",
       "additional_sources": [
         "https://wjla.com/newsletter-daily/gallery/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road?photo=3",
         "https://www.yahoo.com/news/us/articles/dc-police-officer-fatally-shoots-230259898.html",
@@ -264,7 +264,7 @@
         "https://washingtonian.com/2026/09/09/lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder/?utm_source=rss&utm_medium=rss&utm_campaign=lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder"
       ],
       "confidence": "low",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-08-27",
