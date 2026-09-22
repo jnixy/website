@@ -1,29 +1,33 @@
 {
-  "generated_at": "2026-09-21T18:50:10Z",
-  "total_incidents": 51,
+  "generated_at": "2026-09-22T12:02:46Z",
+  "total_incidents": 54,
   "reviewed_count": 51,
-  "total_sources": 138,
+  "total_sources": 141,
   "date_range": {
-    "earliest": "2026-01-13",
-    "latest": "2026-09-17"
+    "earliest": "2024-08-15",
+    "latest": "2026-09-21"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 51,
+    "current_year_to_date": 53,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 264
+    "as_of_day_of_year": 265
   },
   "yearly_counts": [
     {
+      "year": 2024,
+      "count": 1
+    },
+    {
       "year": 2026,
-      "count": 51
+      "count": 53
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 37
+      "count": 40
     },
     {
       "label": "unknown",
@@ -49,7 +53,7 @@
     },
     {
       "label": "unrelated call response",
-      "count": 11
+      "count": 14
     },
     {
       "label": "welfare check",
@@ -83,11 +87,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 34
+      "count": 36
     },
     {
       "label": "county SO",
-      "count": 16
+      "count": 17
     },
     {
       "label": "state",
@@ -101,13 +105,13 @@
       "count": 9
     },
     {
-      "state": "PA",
-      "name": "Pennsylvania",
-      "count": 4
-    },
-    {
       "state": "FL",
       "name": "Florida",
+      "count": 5
+    },
+    {
+      "state": "PA",
+      "name": "Pennsylvania",
       "count": 4
     },
     {
@@ -118,6 +122,11 @@
     {
       "state": "NY",
       "name": "New York",
+      "count": 4
+    },
+    {
+      "state": "IL",
+      "name": "Illinois",
       "count": 4
     },
     {
@@ -133,11 +142,6 @@
     {
       "state": "WI",
       "name": "Wisconsin",
-      "count": 2
-    },
-    {
-      "state": "IL",
-      "name": "Illinois",
       "count": 2
     },
     {
@@ -223,6 +227,38 @@
   ],
   "human_injured_count": 2,
   "recent_incidents": [
+    {
+      "incident_date": "2026-09-21",
+      "date_precision": "day",
+      "city": "Chicago",
+      "state": "IL",
+      "agency_name": "Chicago Police Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "unknown",
+      "summary": "Chicago police officers conducting an investigation in Humboldt Park were attacked by a dog, and one officer discharged a firearm, fatally shooting the dog. Three officers were injured in the incident and taken to hospitals in good condition.",
+      "source_url": "https://chicago.suntimes.com/news/2026/09/21/chicago-police-fatally-shoot-dog-attacked-officers-humboldt-park",
+      "source_name": "Chicago Sun-Times",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-09-21",
+      "date_precision": "day",
+      "city": "Chicago",
+      "state": "IL",
+      "agency_name": "Chicago Police Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "A Chicago police officer shot and killed a dog that attacked him while officers were conducting an investigation in East Garfield Park on Monday afternoon. Three officers suffered non-life-threatening injuries in the incident.",
+      "source_url": "https://abc7chicago.com/post/east-garfield-park-chicago-shooting-today-3-cops-hurt-dog-attack-700-block-north-christiana-avenue-fatally-shot/19856236/",
+      "source_name": "ABC7 Chicago",
+      "additional_sources": [],
+      "confidence": "high",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-09-17",
       "date_precision": "day",
@@ -753,41 +789,6 @@
       "additional_sources": [
         "https://www.yahoo.com/news/articles/sapd-1-taken-hospital-being-205055225.html"
       ],
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-05-06",
-      "date_precision": "day",
-      "city": "Canandaigua",
-      "state": "NY",
-      "agency_name": "Canandaigua Police Department",
-      "circumstance": "other",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "no",
-      "summary": "A Canandaigua police officer shot and killed a dog on May 6, 2026 after it seriously injured its owner and then charged the officer.",
-      "source_url": "https://13wham.com/news/local/dog-shot-and-killed-by-officer-during-attack-in-canandaigua",
-      "source_name": "13wham.com",
-      "additional_sources": [
-        "https://www.whec.com/top-news/canandaigua-woman-severely-hurt-after-dog-attack-dog-shot-and-killed-by-officers/",
-        "https://www.fingerlakes1.com/2026/05/07/canandaigua-police-shoot-and-kill-dog-after-attack-leaves-owner-seriously-injured/"
-      ],
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-05-05",
-      "date_precision": "day",
-      "city": "Frenchtown",
-      "state": "MI",
-      "agency_name": "Monroe County Sheriff's Office",
-      "circumstance": "domestic call",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Monroe County Sheriff's deputy shot a German Shepard mix during a family trouble call in Frenchtown Township on May 5, 2026. According to the sheriff's office, the dog charged aggressively at deputy Garret Kaatz; after unsuccessful attempts to stop it, Kaatz fired his gun, fatally wounding the dog.",
-      "source_url": "https://www.monroenews.com/story/news/2026/05/05/monroe-county-deputy-shoots-dog-in-frenchtown/89949200007/",
-      "source_name": "Monroe Evening News",
-      "additional_sources": [],
       "confidence": "high",
       "reviewed": true
     }
