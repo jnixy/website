@@ -25,8 +25,11 @@ result and Netlify redeploys).
 **Included:** a currently-serving sworn law enforcement officer — municipal
 police, county sheriff/deputy, state police, federal, tribal, or campus — who,
 **while acting as police** (a call, stop, arrest, patrol, warrant, or otherwise
-handling a police matter), discharged a firearm at or toward a dog. Any outcome
-counts (killed, wounded, missed). On- vs. off-duty is a recorded field, not an
+handling a police matter), discharged a firearm at or toward a dog — or fired at
+someone else and struck a dog, including a police K-9 (`dog_targeted=no`; scope
+widened 2026-09-24). Why the officer fired doesn't matter: protecting a person, a
+dog attacking another dog, a loose dog. Any outcome counts (killed, wounded,
+missed). On- vs. off-duty is a recorded field, not an
 exclusion — an off-duty officer who intervenes *as police* still counts. What
 happens *after* the shooting — a criminal charge, discipline, resignation, a
 lawsuit, or a clearance — is recorded (in `dept_response`), not an exclusion.
@@ -36,7 +39,7 @@ fired, the same standard applied to officer-involved shootings of people.
 **Excluded:** animal-control officers, civilians, security guards, game wardens
 acting in a wildlife capacity; **retired/former officers, and off-duty officers
 acting as private citizens in a personal dispute**;
-non-firearm force; an officer's own police K-9 or a service dog; mercy killings of
+dogs shot by a suspect rather than police; non-firearm force; mercy killings of
 injured wildlife or livestock; animals that were not dogs; multi-topic news
 roundups that only mention a shooting in passing; and stories about policy,
 training, procurement, or litigation with no specific incident described.
@@ -44,11 +47,15 @@ training, procurement, or litigation with no specific incident described.
 ## Data schema (`datasets/dog-shootings.csv`)
 
 `id, date_added, incident_date, date_precision, city, county, state, agency_name,
-agency_type, on_duty, officer_named, dogs_fired_at, dog_outcome, dog_breed_reported,
+agency_type, on_duty, officer_named, dogs_fired_at, dog_targeted, dog_outcome, dog_breed_reported,
 dog_restrained, circumstance, warrant_type, human_injured_by_fire, dept_response,
 litigation, summary, source_name, source_url, additional_sources, discovery,
 official_ref, official_url, confidence, prompt_version, reviewed`
 
+- `dog_targeted` ∈ {yes, no, unknown}: `yes` = fired at/toward the dog; `no` = hit
+  by rounds aimed at someone else. Every row before 2026-09-24 is `yes`.
+- **Classifier regression check:** `python scripts/eval_dog_classifier.py --repeat 3`
+  (14 scope edge cases, about $0.03). Run it after any prompt change.
 - `discovery` ∈ {media, official, both} — found in the news, only in a police
   department's own records, or in both. Every row before 2026-09-24 is `media`.
 - `official_ref` / `official_url` — the agency's case id (`LAPD NRF035-26`,

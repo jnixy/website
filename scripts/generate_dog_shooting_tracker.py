@@ -86,7 +86,7 @@ PUBLISHED_CSV = "static/data/dog-shootings.csv"
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-24"
+PROMPT_VERSION = "2026-09-24.2"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
@@ -107,6 +107,7 @@ CSV_FIELDS = [
     "on_duty",                # yes | no | unknown
     "officer_named",          # individual officer name ONLY if in an official record; else ""
     "dogs_fired_at",          # integer count of dogs fired at
+    "dog_targeted",           # yes = fired at/toward the dog | no = hit by fire aimed at someone/something else | unknown
     "dog_outcome",            # see DOG_OUTCOMES
     "dog_breed_reported",     # verbatim breed language from the source
     "dog_restrained",         # yes | no | unknown (leashed/crated/fenced/held)
@@ -150,6 +151,7 @@ ENUM_FIELDS = {
     "date_precision": (DATE_PRECISIONS, "unknown"),
     "agency_type": (AGENCY_TYPES, "unknown"),
     "on_duty": (["yes", "no", "unknown"], "unknown"),
+    "dog_targeted": (["yes", "no", "unknown"], "unknown"),
     "dog_outcome": (DOG_OUTCOMES, "unknown"),
     "dog_restrained": (["yes", "no", "unknown"], "unknown"),
     "circumstance": (CIRCUMSTANCES, "other"),
@@ -500,25 +502,27 @@ def extract_article_text(url):
 # 3. Classification (one Claude call per article)
 # --------------------------------------------------------------------------- #
 
-CLASSIFY_SYSTEM = f"""You extract structured data about ONE kind of event: a currently-serving sworn U.S. law-enforcement officer discharging a firearm AT or TOWARD a dog WHILE ACTING IN A LAW-ENFORCEMENT CAPACITY.
+CLASSIFY_SYSTEM = f"""You extract structured data about ONE kind of event: a currently-serving sworn U.S. law-enforcement officer, WHILE ACTING IN A LAW-ENFORCEMENT CAPACITY, discharging a firearm AT or TOWARD a dog — or firing at someone or something else and STRIKING a dog.
 
 INCLUDE an article only if it reports a specific, concrete incident (a real event on a real date/place) in which:
   - a SWORN, currently-employed law-enforcement officer (municipal police, county sheriff/deputy, state police/trooper, federal agent, tribal police, campus police), acting as police — on a call, a stop, an arrest, a patrol, a warrant, or otherwise handling a police matter (an OFF-duty officer who intervenes as police counts), AND
-  - fired a gun AT or TOWARD a dog (any outcome: killed, wounded, or missed).
+  - fired a gun AT or TOWARD a dog (any outcome: killed, wounded, or missed), OR fired at a person or something else and the police gunfire STRUCK a dog. Any dog counts: a family pet, a guard dog, a civilian's service/assistance dog, or a police K-9 (including the officer's own partner).
 
 EXCLUDE (set qualifies=false) if ANY of these apply:
   - the shooter was an animal-control officer, a civilian, a security guard, or a game warden acting in a wildlife capacity
   - the shooter was a RETIRED or FORMER officer, or an off-duty officer acting as a private citizen in a personal dispute (e.g. defending their own pet, a neighbor conflict) rather than as police
   - no firearm was involved (baton, Taser, catch-pole, vehicle, or the dog was only impounded/euthanized by a vet)
   - the animal was not a dog (cat, livestock, or wildlife such as a deer, bear, or coyote — including an officer euthanizing an animal injured by a car)
-  - the dog shot was the officer's own K-9 / police dog / a service dog
+  - the dog was hit only by a NON-police shooter's gunfire (e.g. a suspect shot a police K-9)
   - it is about policy, training, legislation, procurement, a lawsuit ruling with no described incident, an opinion/column, or aggregate statistics with no specific incident
   - it is a first-report of an unconfirmed claim with no identifiable agency or location
   - it is a multi-topic news roundup that mentions the shooting only in passing, with no dedicated account of it
 
-The test is whether the shooter was a sworn officer acting as police WHEN THEY FIRED. What happens afterward does not change that: an officer being CHARGED with a crime, disciplined, fired, sued, or cleared AFTER the shooting still qualifies — those are exactly the cases to record, the same way an officer-involved shooting of a person is tracked whether or not charges follow. Put any such charge, discipline, resignation, or DA decision in dept_response.
+The test is whether the shooter was a sworn officer acting as police WHEN THEY FIRED. WHY they fired does not matter: firing to protect themselves, another person, or another animal (including a dog attacking another dog), at a loose or roaming dog, or during a call about dogs fighting all qualify — responding to such a call IS handling a police matter. A shot that missed, or a dog that was not hit, still qualifies. Missing details — no exact date, no officer name, an unknown outcome — never disqualify: record them as unknown/empty. An identifiable agency (or place) plus a reported police shooting at or of a dog is enough. Do not invent exclusions beyond the list above. What happens afterward does not change that: an officer being CHARGED with a crime, disciplined, fired, sued, or cleared AFTER the shooting still qualifies — those are exactly the cases to record, the same way an officer-involved shooting of a person is tracked whether or not charges follow. Put any such charge, discipline, resignation, or DA decision in dept_response.
 
 Report fields ONLY from what the article states. If the article does not state a field, use "unknown" for the enum fields and "" for the free-text fields (city, county, incident_date, officer_named, dog_breed_reported). Never infer from general knowledge or from the outlet's location.
+
+dog_targeted: "yes" if the officer fired at or toward the dog; "no" if the dog was struck by rounds aimed at a person or something else (e.g. a K-9 or a family dog hit during a shootout with a suspect); "unknown" if the article does not make clear which.
 
 officer_named: give an individual officer's name ONLY if the article attributes it to an official record (a charging document, a lawsuit, a department statement/press release, or a disciplinary record). Otherwise leave it "".
 
@@ -541,9 +545,12 @@ CLASSIFY_TOOL = {
     "input_schema": {
         "type": "object",
         "additionalProperties": False,
+        # `reason` precedes `qualifies` so the model reasons before it decides.
+        # With qualifies first it committed, then rationalised -- observed: a
+        # reason saying "qualifies for inclusion" alongside qualifies=false.
         "properties": {
+            "reason": {"type": "string", "description": "one sentence: why it does or doesn't qualify, applying ONLY the listed exclusions"},
             "qualifies": {"type": "boolean"},
-            "reason": {"type": "string", "description": "one sentence: why it does or doesn't qualify"},
             "incident_date_source": {"type": "string", "description": "exact words from the article that state when the shooting happened; empty string if the article says nothing about timing"},
             "incident_date": {"type": "string", "description": "YYYY-MM-DD, filled ONLY when incident_date_source is non-empty; never guessed"},
             "date_precision": {"type": "string", "enum": DATE_PRECISIONS},
@@ -555,6 +562,7 @@ CLASSIFY_TOOL = {
             "on_duty": {"type": "string", "enum": ["yes", "no", "unknown"]},
             "officer_named": {"type": "string"},
             "dogs_fired_at": {"type": "integer"},
+            "dog_targeted": {"type": "string", "enum": ["yes", "no", "unknown"]},
             "dog_outcome": {"type": "string", "enum": DOG_OUTCOMES},
             "dog_breed_reported": {"type": "string"},
             "dog_restrained": {"type": "string", "enum": ["yes", "no", "unknown"]},
@@ -573,10 +581,10 @@ CLASSIFY_TOOL = {
             "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
         },
         "required": [
-            "qualifies", "reason", "incident_date_source", "incident_date",
+            "reason", "qualifies", "incident_date_source", "incident_date",
             "date_precision", "city", "county",
             "state", "agency_name", "agency_type", "on_duty", "officer_named",
-            "dogs_fired_at", "dog_outcome", "dog_breed_reported", "dog_restrained",
+            "dogs_fired_at", "dog_targeted", "dog_outcome", "dog_breed_reported", "dog_restrained",
             "circumstance", "warrant_type", "human_injured_by_fire", "dept_response",
             "litigation", "summary", "confidence",
         ],
@@ -595,6 +603,9 @@ HEADLINE_ONLY_NOTE = (
     "shooter must be law enforcement (police, deputy, sheriff, trooper, officer, "
     "agent, or a named LE agency) and the weapon a firearm (\"shot\", \"opened "
     "fire\", \"gunfire\").\n"
+    "A headline saying a dog or police K-9 was struck by POLICE gunfire aimed at "
+    "someone else also qualifies (\"Family dog killed by police bullet during "
+    "standoff\") -- set dog_targeted=no. A K-9 shot by a SUSPECT does not.\n"
     "The law-enforcement actor must be NAMED IN THE HEADLINE ITSELF. Do NOT "
     "infer police involvement from the URL, the town, a local-news byline, or "
     "the fact that a dog shooting is newsworthy. \"Community reacts to shooting "
@@ -657,6 +668,7 @@ def classify_article(client, title, text, url, published="", official_record=Fal
         resp = client.messages.create(
             model=MODEL,
             max_tokens=1024,
+            temperature=0,  # scope decisions should not flip run to run
             system=CLASSIFY_SYSTEM,
             tools=[CLASSIFY_TOOL],
             tool_choice={"type": "tool", "name": "record_incident"},
@@ -759,6 +771,7 @@ def find_duplicate(client, new_row, existing_rows):
         resp = client.messages.create(
             model=MODEL,
             max_tokens=256,
+            temperature=0,  # scope decisions should not flip run to run
             system=system,
             tools=[DEDUPE_TOOL],
             tool_choice={"type": "tool", "name": "dedupe_decision"},
@@ -794,6 +807,10 @@ def load_incidents():
         # `discovery` was added 2026-09-24; every earlier row came from news.
         if r["discovery"] not in ("media", "official", "both"):
             r["discovery"] = "media"
+        # `dog_targeted` was added 2026-09-24. Until then the scope was "fired
+        # at or toward a dog", so every earlier row is targeted by definition.
+        if r["dog_targeted"] not in ("yes", "no", "unknown"):
+            r["dog_targeted"] = "yes"
     return rows
 
 
@@ -913,6 +930,7 @@ def make_row(fields, article, row_id):
             "on_duty": enums["on_duty"],
             "officer_named": _freetext(fields.get("officer_named")),
             "dogs_fired_at": str(fields["dogs_fired_at"]) if str(fields.get("dogs_fired_at", "")).strip().isdigit() else "",
+            "dog_targeted": enums["dog_targeted"],
             "dog_outcome": enums["dog_outcome"],
             "dog_breed_reported": _freetext(fields.get("dog_breed_reported")),
             "dog_restrained": enums["dog_restrained"],
@@ -1050,6 +1068,7 @@ def build_dashboard_json(rows):
                 "agency_name": r.get("agency_name", ""),
                 "circumstance": r.get("circumstance", ""),
                 "dog_outcome": r.get("dog_outcome", ""),
+                "dog_targeted": r.get("dog_targeted", "yes"),
                 "human_injured_by_fire": r.get("human_injured_by_fire", ""),
                 "summary": r.get("summary", ""),
                 "source_url": r.get("source_url", ""),
@@ -1107,6 +1126,8 @@ def validate_rows(rows):
             problems.append(f"id {rid}: blocklisted source domain {r.get('source_url')}")
         if r.get("discovery") not in ("media", "official", "both"):
             problems.append(f"id {rid}: bad discovery {r.get('discovery')!r}")
+        if r.get("dog_targeted") not in ("yes", "no", "unknown"):
+            problems.append(f"id {rid}: bad dog_targeted {r.get('dog_targeted')!r}")
     return problems
 
 
@@ -1462,7 +1483,8 @@ def main():
             errors += 1
             continue
         if not fields.get("qualifies"):
-            print(f"  no  — {fields.get('reason', '')[:80]}")
+            # Headline included so rejections can be audited from the Actions log.
+            print(f"  no  — {a['title'][:70]}  ::  {fields.get('reason', '')[:120]}")
             continue
         st = (fields.get("state") or "").strip().upper()
         if not st:

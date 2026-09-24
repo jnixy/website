@@ -6,9 +6,10 @@ body:
     attributes:
       value: >
         In scope: a sworn law enforcement officer (police, sheriff/deputy, state, federal,
-        tribal, or campus) fired a gun at or toward a dog. Out of scope: animal-control
-        officers, civilians, non-firearm force, an officer's own K-9, and mercy killings of
-        wildlife or livestock.
+        tribal, or campus), acting as police, fired a gun at or toward a dog, or police
+        gunfire aimed at someone else struck a dog (including a police K-9). Out of scope:
+        animal-control officers, civilians, off-duty officers acting privately, dogs shot
+        by a suspect, non-firearm force, and mercy killings of wildlife or livestock.
   - type: input
     id: date
     attributes:

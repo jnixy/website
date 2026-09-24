@@ -234,6 +234,7 @@
       if (r.dog_outcome && r.dog_outcome !== 'unknown') tags.push(OUTCOME_LABELS[r.dog_outcome] || r.dog_outcome);
       if (r.circumstance && r.circumstance !== 'unknown') tags.push(titleCase(r.circumstance));
       if (r.human_injured_by_fire === 'yes') tags.push('Person injured by gunfire');
+      if (r.dog_targeted === 'no') tags.push('Hit by fire aimed at someone else');
       var pending = r.reviewed ? '' :
         ' <span class="dst-tag dst-tag-pending" title="Auto-extracted; not yet checked against the sources by a person">Unverified</span>';
       if (r.discovery === 'official') {
