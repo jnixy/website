@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-09-24T16:02:22Z",
-  "total_incidents": 52,
+  "generated_at": "2026-09-24T16:16:16Z",
+  "total_incidents": 54,
   "reviewed_count": 51,
-  "total_sources": 144,
+  "total_sources": 146,
   "date_range": {
-    "earliest": "2026-01-13",
+    "earliest": "2026-01-07",
     "latest": "2026-09-21"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 52,
+    "current_year_to_date": 54,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 267
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 52
+      "count": 54
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 38
-    },
-    {
-      "label": "unknown",
-      "count": 6
+      "count": 39
     },
     {
       "label": "injured-survived",
+      "count": 7
+    },
+    {
+      "label": "unknown",
       "count": 6
     },
     {
@@ -49,7 +49,11 @@
     },
     {
       "label": "unrelated call response",
-      "count": 12
+      "count": 13
+    },
+    {
+      "label": "warrant service",
+      "count": 6
     },
     {
       "label": "welfare check",
@@ -57,10 +61,6 @@
     },
     {
       "label": "loose/roaming dog",
-      "count": 5
-    },
-    {
-      "label": "warrant service",
       "count": 5
     },
     {
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 35
+      "count": 37
     },
     {
       "label": "county SO",
@@ -103,7 +103,7 @@
     {
       "state": "PA",
       "name": "Pennsylvania",
-      "count": 4
+      "count": 6
     },
     {
       "state": "FL",
@@ -223,11 +223,24 @@
   ],
   "human_injured_count": 2,
   "discovery_counts": {
-    "media": 52,
-    "official": 0,
-    "both": 0
+    "media": 49,
+    "official": 2,
+    "both": 3
   },
-  "official_coverage": [],
+  "official_coverage": [
+    {
+      "ref_prefix": "LAPD",
+      "agency_name": "Los Angeles Police Department",
+      "official": 3,
+      "media_covered": 3
+    },
+    {
+      "ref_prefix": "PPD",
+      "agency_name": "Philadelphia Police Department",
+      "official": 2,
+      "media_covered": 0
+    }
+  ],
   "recent_incidents": [
     {
       "incident_date": "2026-09-21",
@@ -318,8 +331,8 @@
         "https://mynewsla.com/crime/2026/08/27/lapd-shoots-dog-that-attacked-officer-in-green-meadows/",
         "https://www.yahoo.com/news/videos/lapd-officer-shoots-dog-being-232600059.html"
       ],
-      "discovery": "media",
-      "official_url": "",
+      "discovery": "both",
+      "official_url": "https://www.lapdonline.org/newsroom/officer-involved-animal-shooting-investigation-nrf035-26ne/",
       "confidence": "high",
       "reviewed": true
     },
@@ -799,8 +812,8 @@
         "https://www.tmz.com/2026/06/15/lapd-shoots-kills-dog/",
         "https://www.primetimer.com/news/laura-loomer-slams-lapd-over-shooting-dog-during-knicks-celebration-says-dog-s-life-matters-more-than-illegal-aliens"
       ],
-      "discovery": "media",
-      "official_url": "",
+      "discovery": "both",
+      "official_url": "https://www.lapdonline.org/newsroom/officer-involved-shooting-investigation-nrf027-26ne/",
       "confidence": "high",
       "reviewed": true
     },
