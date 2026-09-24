@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-23T12:05:33Z",
+  "generated_at": "2026-09-24T12:10:44Z",
   "total_incidents": 55,
   "reviewed_count": 51,
-  "total_sources": 145,
+  "total_sources": 147,
   "date_range": {
     "earliest": "2024-08-15",
     "latest": "2026-09-21"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 54,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 266
+    "as_of_day_of_year": 267
   },
   "yearly_counts": [
     {
@@ -241,7 +241,8 @@
       "source_name": "Chicago Sun-Times",
       "additional_sources": [
         "https://chicagomonitor.com/2026/09/chicago-police-shoot-and-kill-dog-after-they-say-it-attacked-officers-in-humboldt-park-late-monday-afternoon/",
-        "https://wgntv.com/news/chicago-news/3-cpd-officers-injured-in-west-side-dog-attack/"
+        "https://wgntv.com/news/chicago-news/3-cpd-officers-injured-in-west-side-dog-attack/",
+        "https://www.yahoo.com/news/videos/chicago-police-shoot-kill-dog-113140499.html"
       ],
       "confidence": "high",
       "reviewed": false
