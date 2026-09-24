@@ -1153,7 +1153,21 @@ def match_official(client, row, source, incidents):
     ]
     if len(near) == 1:
         return int(near[0]["id"])
-    return find_duplicate(client, row, near or incidents)
+    # LLM fallback. Two hard limits the model can't be trusted with, since its
+    # prompt says to ignore date gaps (right for news, wrong here): a row
+    # already linked to one agency case can't be a second case, and a
+    # human-reviewed row's date is trustworthy, so a gap of more than a few days
+    # rules it out. Observed without these: PPD 26-02 (Jan 5, Sebring Rd) was
+    # merged into PPD 26-06 (Jan 29, Robinson St) -- "Philly PD, dog attacking
+    # a woman" was enough for the model.
+    def eligible(r):
+        if r.get("official_ref"):
+            return False
+        gap = _date_gap(r.get("incident_date", ""), row["incident_date"]) if row["incident_date"] else None
+        return not (r.get("reviewed") == "yes" and gap is not None and gap > 3)
+
+    pool = [r for r in (near or incidents) if eligible(r)]
+    return find_duplicate(client, row, pool)
 
 
 def ingest_official_records(client, source, records, incidents, seen_urls, excluded):
