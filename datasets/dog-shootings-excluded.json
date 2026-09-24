@@ -66,5 +66,9 @@
   {
     "url": "https://www.yahoo.com/news/us/articles/lawsuit-filed-against-walton-county-230125035.html",
     "note": "excluded by hand 2026-09-24"
+  },
+  {
+    "url": "https://www.phillypolice.com/ois/26-12/",
+    "note": "PPD 26-12: off-duty officer, personal weapon, defending own family while walking -- private citizen, out of scope (2026-09-24)"
   }
 ]
