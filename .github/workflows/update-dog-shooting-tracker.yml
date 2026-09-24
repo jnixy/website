@@ -36,6 +36,11 @@ on:
         type: boolean
         required: false
         default: false
+      official_only:
+        description: 'Skip news discovery; only cross-check agency OIS pages (LAPD, Philadelphia PD)'
+        type: boolean
+        required: false
+        default: false
 
 jobs:
   update-tracker:
@@ -56,6 +61,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Generate dog shooting tracker
+      if: github.event.inputs.official_only != 'true'
       env:
         ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         DAYS: ${{ github.event.inputs.days || '3' }}
@@ -67,6 +73,26 @@ jobs:
         if [ "$DISCOVER_ONLY" = "true" ]; then ARGS="$ARGS --discover-only"; fi
         if [ "$DRY_RUN" = "true" ]; then ARGS="$ARGS --dry-run"; fi
         echo "Running: python scripts/generate_dog_shooting_tracker.py $ARGS"
+        python -u scripts/generate_dog_shooting_tracker.py $ARGS
+
+    # Agency OIS pages (scripts/dog_tracker_official.py) change slowly, so the
+    # scheduled run checks them on Mondays only; a dispatch with
+    # official_only=true runs just this step. A fetch/parse failure is a
+    # warning inside the script, never a red run.
+    - name: Cross-check agency records
+      if: >-
+        github.event.inputs.discover_only != 'true' &&
+        (github.event.inputs.official_only == 'true' || github.event_name == 'schedule')
+      env:
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        DRY_RUN: ${{ github.event.inputs.dry_run }}
+        OFFICIAL_ONLY: ${{ github.event.inputs.official_only }}
+      run: |
+        if [ "$OFFICIAL_ONLY" != "true" ] && [ "$(date -u +%u)" != "1" ]; then
+          echo "Not Monday -- skipping agency records."; exit 0
+        fi
+        ARGS="--official"
+        if [ "$DRY_RUN" = "true" ]; then ARGS="$ARGS --dry-run"; fi
         python -u scripts/generate_dog_shooting_tracker.py $ARGS
 
     - name: Commit and push if changes

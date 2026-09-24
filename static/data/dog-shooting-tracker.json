@@ -1,33 +1,29 @@
 {
-  "generated_at": "2026-09-24T12:10:44Z",
-  "total_incidents": 55,
+  "generated_at": "2026-09-24T16:02:22Z",
+  "total_incidents": 52,
   "reviewed_count": 51,
-  "total_sources": 147,
+  "total_sources": 144,
   "date_range": {
-    "earliest": "2024-08-15",
+    "earliest": "2026-01-13",
     "latest": "2026-09-21"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 54,
+    "current_year_to_date": 52,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 267
   },
   "yearly_counts": [
     {
-      "year": 2024,
-      "count": 1
-    },
-    {
       "year": 2026,
-      "count": 54
+      "count": 52
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 41
+      "count": 38
     },
     {
       "label": "unknown",
@@ -49,11 +45,11 @@
   "circumstance_breakdown": [
     {
       "label": "other",
-      "count": 18
+      "count": 17
     },
     {
       "label": "unrelated call response",
-      "count": 14
+      "count": 12
     },
     {
       "label": "welfare check",
@@ -87,11 +83,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 37
+      "count": 35
     },
     {
       "label": "county SO",
-      "count": 17
+      "count": 16
     },
     {
       "label": "state",
@@ -105,18 +101,13 @@
       "count": 9
     },
     {
-      "state": "FL",
-      "name": "Florida",
-      "count": 5
-    },
-    {
-      "state": "IL",
-      "name": "Illinois",
-      "count": 5
-    },
-    {
       "state": "PA",
       "name": "Pennsylvania",
+      "count": 4
+    },
+    {
+      "state": "FL",
+      "name": "Florida",
       "count": 4
     },
     {
@@ -137,6 +128,11 @@
     {
       "state": "OH",
       "name": "Ohio",
+      "count": 3
+    },
+    {
+      "state": "IL",
+      "name": "Illinois",
       "count": 3
     },
     {
@@ -226,6 +222,12 @@
     }
   ],
   "human_injured_count": 2,
+  "discovery_counts": {
+    "media": 52,
+    "official": 0,
+    "both": 0
+  },
+  "official_coverage": [],
   "recent_incidents": [
     {
       "incident_date": "2026-09-21",
@@ -242,41 +244,13 @@
       "additional_sources": [
         "https://chicagomonitor.com/2026/09/chicago-police-shoot-and-kill-dog-after-they-say-it-attacked-officers-in-humboldt-park-late-monday-afternoon/",
         "https://wgntv.com/news/chicago-news/3-cpd-officers-injured-in-west-side-dog-attack/",
-        "https://www.yahoo.com/news/videos/chicago-police-shoot-kill-dog-113140499.html"
+        "https://www.yahoo.com/news/videos/chicago-police-shoot-kill-dog-113140499.html",
+        "https://abc7chicago.com/post/east-garfield-park-chicago-shooting-today-3-cops-hurt-dog-attack-700-block-north-christiana-avenue-fatally-shot/19856236/",
+        "https://www.yahoo.com/news/videos/3-officers-hospitalized-dog-fatally-034815416.html"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2026-09-21",
-      "date_precision": "day",
-      "city": "Chicago",
-      "state": "IL",
-      "agency_name": "Chicago Police Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "no",
-      "summary": "A Chicago police officer shot and killed a dog that attacked him while officers were conducting an investigation in East Garfield Park on Monday afternoon. Three officers suffered non-life-threatening injuries in the incident.",
-      "source_url": "https://abc7chicago.com/post/east-garfield-park-chicago-shooting-today-3-cops-hurt-dog-attack-700-block-north-christiana-avenue-fatally-shot/19856236/",
-      "source_name": "ABC7 Chicago",
-      "additional_sources": [],
-      "confidence": "high",
-      "reviewed": false
-    },
-    {
-      "incident_date": "2026-09-21",
-      "date_precision": "day",
-      "city": "Chicago",
-      "state": "IL",
-      "agency_name": "Chicago Police Department",
-      "circumstance": "other",
-      "dog_outcome": "killed",
-      "human_injured_by_fire": "unknown",
-      "summary": "An officer with the Chicago Police Department shot and killed a dog that officers said attacked him on the West Side on Monday afternoon. Two other officers were also injured in the incident.",
-      "source_url": "https://www.yahoo.com/news/videos/3-officers-hospitalized-dog-fatally-034815416.html",
-      "source_name": "Yahoo",
-      "additional_sources": [],
-      "confidence": "medium",
       "reviewed": false
     },
     {
@@ -296,6 +270,8 @@
         "https://hoodline.com/2026/09/dog-bites-philly-sheriff-s-deputy-repeatedly-deputy-opens-fire-on-colony-drive/",
         "https://www.yahoo.com/news/videos/philadelphia-sheriffs-deputy-shoots-dog-211700757.html"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "medium",
       "reviewed": true
     },
@@ -319,6 +295,8 @@
         "https://wjla.com/news/local/gallery/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road",
         "https://washingtonian.com/2026/09/09/lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder/?utm_source=rss&utm_medium=rss&utm_campaign=lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "low",
       "reviewed": true
     },
@@ -340,6 +318,8 @@
         "https://mynewsla.com/crime/2026/08/27/lapd-shoots-dog-that-attacked-officer-in-green-meadows/",
         "https://www.yahoo.com/news/videos/lapd-officer-shoots-dog-being-232600059.html"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -358,6 +338,8 @@
       "additional_sources": [
         "https://www.wcnc.com/article/news/local/4-people-hurt-in-northwest-charlotte-dog-attack/275-caa2df40-7bc1-4bdb-b28f-26985dd577c7"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "low",
       "reviewed": true
     },
@@ -374,6 +356,8 @@
       "source_url": "https://www.palmbeachpost.com/story/news/crime/2026/08/26/police-shoot-kill-dog-they-say-lunged-after-car-chase-near-trumps-mar-a-lago-palm-beach-florida/91472147007/",
       "source_name": "The Palm Beach Post",
       "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "low",
       "reviewed": true
     },
@@ -400,6 +384,8 @@
         "https://ktla.com/news/local-news/deputy-shoots-pit-bull-sunland-recreation-center/",
         "https://www.yahoo.com/news/articles/l-deputies-shoot-pit-bull-011821653.html"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -419,6 +405,8 @@
         "https://wcfcourier.com/news/local/police-officer-shoots-kills-attacking-pit-bull/article_71841479-483b-5b62-a6d3-5dea79f49f95.html",
         "https://kwayradio.com/police-shot-and-killed-dog-involved-in-fight/"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -439,6 +427,8 @@
         "https://www.kltv.com/2026/08/14/hopkins-county-deputy-kills-dog-while-serving-warrant-wrong-residence/",
         "https://www.cbs19.tv/article/news/local/hopkins-county-deputy-shoots-dog-while-serving-high-risk-felony-warrant/501-50b767ed-ee3f-4d16-bfaf-57d885d47a29"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -462,6 +452,8 @@
         "https://thenationaldesk.com/news/americas-news-now/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby?photo=2",
         "https://mynorthwest.com/local/graham-aggressive-dog-dead/4266000"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "low",
       "reviewed": true
     },
@@ -480,6 +472,8 @@
       "additional_sources": [
         "https://www.mcall.com/2026/08/13/allentown-police-officer-fatally-shoots-loose-dog-biting-people/"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "low",
       "reviewed": true
     },
@@ -499,6 +493,8 @@
         "https://www.yahoo.com/news/us/articles/tfpd-officer-shoots-dog-twin-234429901.html",
         "https://www.kmvt.com/video/2026/08/13/dog-released-after-being-shot-by-twin-falls-police-officer/"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -515,6 +511,8 @@
       "source_url": "https://krcrtv.com/news/local/oroville-police-shoot-dog-during-hit-and-run-probe-after-it-charged-and-attacked-officers",
       "source_name": "KRCR",
       "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -534,6 +532,8 @@
         "https://www.nbcchicago.com/news/local/dog-shot-by-chicago-police-after-girl-woman-attacked-in-north-lawndale/3966296/",
         "https://wgntv.com/news/chicago-news/chicago-police-shoot-dog-after-it-attacks-and-seriously-injuries-2-people-in-north-lawndale-according-to-police/"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "medium",
       "reviewed": true
     },
@@ -550,6 +550,8 @@
       "source_url": "https://www.thebanner.com/community/local-news/baltimore-police-fatal-dog-shooting-west-franklin-street-EX6Z4GQVXVDJ5BFO4DDD3CNJ2M/",
       "source_name": "thebanner.com",
       "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "medium",
       "reviewed": true
     },
@@ -569,6 +571,8 @@
         "https://www.hawaiinewsnow.com/2026/07/23/hpd-says-officer-discharged-firearm-large-pit-bull-kalaeloa/",
         "https://www.staradvertiser.com/2026/07/23/breaking-news/officer-kills-charging-pit-bull-during-hpd-operation-in-kalaeloa/"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -590,6 +594,8 @@
         "https://www.kark.com/news/local-news/locals-react-after-little-rock-police-release-dashboard-body-cam-video-showing-officer-shooting-dog/",
         "https://www.thv11.com/video/news/local/little-rock/review-underway-after-little-rock-police-officer-shoots-dog/91-4cb048e1-7c4a-4093-a3bd-68b2b66f9448"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -609,6 +615,8 @@
         "https://www.nbclosangeles.com/news/local/deputy-shoots-kills-dog-lancaster-attack/3919706/",
         "https://patch.com/california/los-angeles/deputy-kills-dog-during-attack-la-county-sheriff"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -625,6 +633,8 @@
       "source_url": "https://www.cjonline.com/story/news/crime/2026/07/20/police-shoot-and-kill-dog-after-2-people-are-attacked-in-se-topeka/90954833007/",
       "source_name": "The Topeka Capital-Journal",
       "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "low",
       "reviewed": true
     },
@@ -643,6 +653,8 @@
       "additional_sources": [
         "https://krcgtv.com/news/local/callaway-county-sheriffs-deputies-fatally-shoot-dog-while-serving-warrant"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -662,6 +674,8 @@
         "https://www.wsbradio.com/news/local/cobb-deputy-under-investigation-after-fatal-dog-shooting/33W3WSEKOJBPTBBCABXAT67NQE/",
         "https://www.fox5atlanta.com/news/dog-killed-cobb-county-deputy-serves-warrant"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -678,6 +692,8 @@
       "source_url": "https://www.fox10phoenix.com/news/pocket-fire-grows-more-than-6k-acres-dog-shot-phoenix-police-officer-nightly-roundup",
       "source_name": "FOX 10 Phoenix",
       "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "medium",
       "reviewed": true
     },
@@ -694,6 +710,8 @@
       "source_url": "https://www.capitalgazette.com/2026/07/01/police-officer-shoots-dog-annapolis/",
       "source_name": "Capital Gazette",
       "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "low",
       "reviewed": true
     },
@@ -710,6 +728,8 @@
       "source_url": "https://wnyt.com/top-stories/fulton-county-sheriffs-sergeant-shoots-dog-after-it-charges-at-him-in-st-johnsville/",
       "source_name": "wnyt.com",
       "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "medium",
       "reviewed": true
     },
@@ -729,6 +749,8 @@
         "https://www.13newsnow.com/article/news/local/mycity/norfolk/norfolk-police-officer-shoots-kills-dog-during-investigation-into-separate-incident/291-60d81c28-5ced-4b33-93b0-b6c44374be77",
         "https://www.13newsnow.com/video/news/local/mycity/norfolk/norfolk-police-officer-shoots-kills-dog-while-responding-to-separate-incident/291-9a810d66-62af-4b82-b242-68c84335bed5"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "low",
       "reviewed": true
     },
@@ -747,6 +769,8 @@
       "additional_sources": [
         "https://www.abc27.com/local-news/dog-killed-one-person-injured-in-york-county-officer-involved-shooting/"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -775,6 +799,8 @@
         "https://www.tmz.com/2026/06/15/lapd-shoots-kills-dog/",
         "https://www.primetimer.com/news/laura-loomer-slams-lapd-over-shooting-dog-during-knicks-celebration-says-dog-s-life-matters-more-than-illegal-aliens"
       ],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "high",
       "reviewed": true
     },
@@ -791,7 +817,50 @@
       "source_url": "https://fox40.com/news/local-news/police-kill-dog-in-winters-while-responding-to-domestic-violence-call/",
       "source_name": "fox40.com",
       "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
       "confidence": "medium",
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-05-20",
+      "date_precision": "day",
+      "city": "San Antonio",
+      "state": "TX",
+      "agency_name": "San Antonio Police Department",
+      "circumstance": "other",
+      "dog_outcome": "injured-survived",
+      "human_injured_by_fire": "no",
+      "summary": "San Antonio police responded to the 100 block of Montrose near South Presa Street on the South Side after a family dog attacked its two owners. When officers arrived, the dog turned aggressive toward them as well; an officer shot it in the lower chest. The dog survived and was taken into Animal Care Services custody. The son was hospitalized; the mother declined treatment at the scene.",
+      "source_url": "https://www.ksat.com/news/local/2026/05/20/mother-son-injured-after-being-bitten-by-family-dog-on-south-side-acs-says/",
+      "source_name": "ksat.com",
+      "additional_sources": [
+        "https://www.yahoo.com/news/articles/sapd-1-taken-hospital-being-205055225.html"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-05-06",
+      "date_precision": "day",
+      "city": "Canandaigua",
+      "state": "NY",
+      "agency_name": "Canandaigua Police Department",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "human_injured_by_fire": "no",
+      "summary": "A Canandaigua police officer shot and killed a dog on May 6, 2026 after it seriously injured its owner and then charged the officer.",
+      "source_url": "https://13wham.com/news/local/dog-shot-and-killed-by-officer-during-attack-in-canandaigua",
+      "source_name": "13wham.com",
+      "additional_sources": [
+        "https://www.whec.com/top-news/canandaigua-woman-severely-hurt-after-dog-attack-dog-shot-and-killed-by-officers/",
+        "https://www.fingerlakes1.com/2026/05/07/canandaigua-police-shoot-and-kill-dog-after-attack-leaves-owner-seriously-injured/"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
       "reviewed": true
     }
   ]

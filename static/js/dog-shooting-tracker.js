@@ -111,9 +111,12 @@
       reviewed = rc + ' of ' + data.total_incidents + ' incident' +
         (data.total_incidents === 1 ? '' : 's') + ' human-verified. ';
     }
+    var dc = data.discovery_counts || {};
+    var fromAgencies = (dc.official || 0) + (dc.both || 0) > 0;
     meta.innerHTML =
       range +
-      'Compiled from ' + (data.total_sources || 0).toLocaleString() + ' news reports. ' +
+      'Compiled from ' + (data.total_sources || 0).toLocaleString() + ' news reports' +
+      (fromAgencies ? ' and police department records. ' : '. ') +
       reviewed +
       'Every count is a floor — see the notes below the charts. ' +
       'Updated ' + formatDateTime(data.generated_at) +
@@ -223,12 +226,19 @@
       (r.additional_sources || []).forEach(function (u, i) {
         sources += ' &middot; <a href="' + escapeHtml(u) + '" target="_blank" rel="noopener">+' + (i + 1) + '</a>';
       });
+      // For an agency-only row the primary source already IS the agency record.
+      if (r.discovery === 'both' && r.official_url) {
+        sources += ' &middot; <a href="' + escapeHtml(r.official_url) + '" target="_blank" rel="noopener">Department record</a>';
+      }
       var tags = [];
       if (r.dog_outcome && r.dog_outcome !== 'unknown') tags.push(OUTCOME_LABELS[r.dog_outcome] || r.dog_outcome);
       if (r.circumstance && r.circumstance !== 'unknown') tags.push(titleCase(r.circumstance));
       if (r.human_injured_by_fire === 'yes') tags.push('Person injured by gunfire');
       var pending = r.reviewed ? '' :
         ' <span class="dst-tag dst-tag-pending" title="Auto-extracted; not yet checked against the sources by a person">Unverified</span>';
+      if (r.discovery === 'official') {
+        pending += ' <span class="dst-tag dst-tag-agency" title="Found in the police department\'s own shooting records; no news coverage found">Agency record</span>';
+      }
       html += '<li class="dst-incident">' +
         '<div class="dst-incident-head"><span class="dst-incident-loc">' + escapeHtml(loc || 'Location unknown') + pending +
         '</span><span class="dst-incident-date">' + escapeHtml(when) + '</span></div>' +
@@ -242,6 +252,18 @@
     });
     html += '</ul>';
     host.innerHTML = html;
+  }
+
+  // "Of the N dog shootings in <agency>'s own records, the news covered M."
+  function renderCoverage(data) {
+    var el = document.getElementById('dst-coverage');
+    var cov = data.official_coverage || [];
+    if (!el) return;
+    if (!cov.length) { el.style.display = 'none'; return; }
+    el.innerHTML = 'So far: ' + cov.map(function (c) {
+      return escapeHtml(c.agency_name) + ' records list ' + c.official + ' dog shooting' +
+        (c.official === 1 ? '' : 's') + '; the news covered <strong>' + c.media_covered + '</strong>';
+    }).join('. ') + '.';
   }
 
   function hide(id) { var el = document.getElementById(id); if (el) el.style.display = 'none'; }
@@ -260,6 +282,7 @@
     renderHBar('dst-chart-agency', data.agency_type_breakdown, null);
     renderStateMap(data);
     renderRecent(data);
+    renderCoverage(data);
   }
 
   function relayoutForTheme() {

@@ -46,8 +46,14 @@ training, procurement, or litigation with no specific incident described.
 `id, date_added, incident_date, date_precision, city, county, state, agency_name,
 agency_type, on_duty, officer_named, dogs_fired_at, dog_outcome, dog_breed_reported,
 dog_restrained, circumstance, warrant_type, human_injured_by_fire, dept_response,
-litigation, summary, source_name, source_url, additional_sources, confidence,
-prompt_version, reviewed`
+litigation, summary, source_name, source_url, additional_sources, discovery,
+official_ref, official_url, confidence, prompt_version, reviewed`
+
+- `discovery` ∈ {media, official, both} — found in the news, only in a police
+  department's own records, or in both. Every row before 2026-09-24 is `media`.
+- `official_ref` / `official_url` — the agency's case id (`LAPD NRF035-26`,
+  `PPD 26-03`) and its record page. `official_ref` is the idempotency key: a
+  record already in the CSV is never re-added.
 
 - `reviewed` ∈ {yes, no} — `no` on every automated row; a person sets it to `yes`
   after checking the row against its sources. The dashboard shows "N of M
@@ -119,13 +125,64 @@ python scripts/generate_dog_shooting_tracker.py --exclude https://example.com/st
 CI: `.github/workflows/update-dog-shooting-tracker.yml`. Requires the
 `ANTHROPIC_API_KEY` repository secret.
 
-**The daily cron is currently commented out.** Until the discovery queries are
-tuned and the classifier has been checked against hand-labelled articles, an
-unattended run would auto-commit unvetted rows. Run it by hand from the Actions
-tab instead — `workflow_dispatch` takes `days`, `limit`, `discover_only`, and
-`dry_run` inputs, so you can do a no-cost query check (`discover_only`) or a
-no-write classifier check (`dry_run`) without touching the dataset. Re-enable
-the `schedule:` block once precision is acceptable.
+**The daily cron is on** (enabled 2026-09-03, `41 6 * * *` UTC).
+`workflow_dispatch` takes `days`, `limit`, `discover_only`, `dry_run`, and
+`official_only` inputs, so you can do a no-cost query check (`discover_only`) or
+a no-write classifier check (`dry_run`) without touching the dataset.
+
+## Agency records (cross-checking the news)
+
+Some departments publish incident-level officer-involved-shooting lists that
+include shootings of dogs. `scripts/dog_tracker_official.py` fetches and parses
+them (one parser + one `OFFICIAL_SOURCES` entry per agency; no LLM calls there).
+The main script then runs each record through the **same classifier** as a news
+article (so the off-duty / scope rules apply unchanged) and matches it:
+
+1. `official_ref` already in the CSV → skip.
+2. Same state + same agency + `incident_date` within a day → that row.
+3. Otherwise the usual LLM dedupe adjudicates.
+
+A match sets `discovery=both` and fills `official_ref`/`official_url`. No other
+field is touched, so reviewed rows stay intact. No match adds a row with
+`discovery=official`, `reviewed=no`. A news article that later merges into an
+agency-only row flips it to `both`. Classifier rejections are remembered in the
+seen-URLs file as `official:<ref>`, so they are not re-billed each week. To
+drop an agency-only row, delete it and `--exclude` its `official_url`.
+
+```bash
+python scripts/generate_dog_shooting_tracker.py --official --dry-run   # preview
+python scripts/generate_dog_shooting_tracker.py --official             # write
+```
+
+The scheduled workflow runs `--official` on **Mondays** after the news pass. A
+page that fails to fetch or parse only prints a warning (and a parser that
+returns 0 records from a large page prints `layout changed?`). An API failure on
+more than half the records fails the run, the same as the news path.
+
+| Agency | Source | Notes |
+|---|---|---|
+| Los Angeles PD | 2026 O.I.S. table (`Name` = "Dog") → newsroom release | **URL slug is per year — update it each January** |
+| Philadelphia PD | `/ois/` index, narratives inline | Also lists earlier years; only 2026+ is ingested |
+
+On 2026-09-24, LAPD listed 4 dog shootings in 2026 and the news had found all 4.
+Philadelphia PD listed 4 on-duty ones (plus 1 off-duty, which is out of scope),
+and the news had found none of them.
+
+### Annual reports (manual)
+
+Some agencies report dog shootings only in an annual PDF, e.g. the Milwaukee
+Fire & Police Commission use-of-force report (bot-blocked for curl, so download
+it in a browser). These are entered by hand into
+`datasets/dog-shootings-official-staging.csv`
+(`agency_name, city, state, official_ref, incident_date, location, url, text`,
+where `text` is the report's description of the incident) and ingested with
+`--official-staging` (same classify + match path). Only incident-level entries
+work; an aggregate count ("officers shot 12 dogs") can't be matched and belongs
+in the page notes, not the CSV.
+
+**Q1 2027 checklist** (2026 reports):
+- [ ] Milwaukee FPC use-of-force report
+- [ ] candidates from `quality_reports/dog-tracker-official-source-candidates.md`
 
 **GDELT was dropped (2026-09-21).** It was a best-effort second discovery
 source, but it timed out or returned 429 on nearly every request — from GitHub

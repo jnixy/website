@@ -17,6 +17,12 @@ Lehman's flock-crime-tracker (flockstopscrime.com):
                  (the durable dataset; git history is the audit log)
   6. emit      - aggregates JSON for the dashboard page + a published CSV copy
 
+Agency records (--official): some departments publish incident-level OIS lists
+that include dog shootings (scripts/dog_tracker_official.py). Each record goes
+through the same classifier, then is matched to an existing incident (marked
+discovery=both) or added as a new one (discovery=official). This cross-check
+shows how much media discovery misses.
+
 Outputs:
   - datasets/dog-shootings.csv            -- incident dataset (source of truth)
   - datasets/dog-shootings-seen-urls.json -- URL-level dedup cache
@@ -46,6 +52,8 @@ Usage:
   python scripts/generate_dog_shooting_tracker.py --dry-run       # classify but don't write files
   python scripts/generate_dog_shooting_tracker.py --rebuild-json  # rebuild dashboard JSON from the CSV only
   python scripts/generate_dog_shooting_tracker.py --exclude URL   # blocklist a false-positive article, then exit
+  python scripts/generate_dog_shooting_tracker.py --official      # cross-check agency OIS pages only (add --dry-run to preview)
+  python scripts/generate_dog_shooting_tracker.py --official-staging  # ingest hand-entered annual-report rows
 """
 
 import argparse
@@ -59,6 +67,8 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 
+import dog_tracker_official as official
+
 # --------------------------------------------------------------------------- #
 # 0. Configuration
 # --------------------------------------------------------------------------- #
@@ -69,13 +79,14 @@ import requests
 INCIDENTS_CSV = "datasets/dog-shootings.csv"
 SEEN_URLS_FILE = "datasets/dog-shootings-seen-urls.json"
 EXCLUDED_FILE = "datasets/dog-shootings-excluded.json"  # URLs a human has judged NOT a qualifying incident
+OFFICIAL_STAGING_CSV = "datasets/dog-shootings-official-staging.csv"  # hand-entered annual-report rows
 DASHBOARD_JSON = "static/data/dog-shooting-tracker.json"
 PUBLISHED_CSV = "static/data/dog-shootings.csv"
 
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-03"
+PROMPT_VERSION = "2026-09-24"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
@@ -108,6 +119,9 @@ CSV_FIELDS = [
     "source_name",            # primary outlet domain
     "source_url",             # primary article URL
     "additional_sources",     # space-separated additional URLs for the same incident
+    "discovery",              # media | official | both -- where the incident was found
+    "official_ref",           # agency case id, e.g. "LAPD NRF035-26" / "PPD 26-03"; "" if none
+    "official_url",           # the agency's own record for the incident; "" if none
     "confidence",             # high | medium | low (model's self-rating)
     "prompt_version",         # PROMPT_VERSION that produced/updated the row
     "reviewed",               # yes | no -- has a person checked this row against the sources?
@@ -704,8 +718,13 @@ def find_duplicate(client, new_row, existing_rows):
     }
     system = (
         "You decide whether a new dog-shooting incident is the SAME real-world event as one "
-        "already recorded. The incident_date in these records is frequently WRONG, so ignore "
-        "date differences entirely -- never treat a date gap as evidence of separate events. "
+        "already recorded. The incident_date in these records is frequently WRONG, so never "
+        "treat a date GAP as evidence of separate events. But the reverse does not hold: an "
+        "IDENTICAL incident_date plus the same agency is strong evidence of the SAME event -- "
+        "two separate dog shootings by one department on one day are rare. Outlets also label "
+        "the same block with different neighborhood names (e.g. 'Humboldt Park' vs 'East "
+        "Garfield Park' for one Chicago address), so a different neighborhood name within one "
+        "city is NOT evidence of a different event. "
         "Decide from the SUMMARY: is it the same agency (or one unstated), in the same place or "
         "a nearby area of the same metro, describing the same specific event -- the same "
         "officer/deputy action, the same dog, the same sequence of events (e.g. 'Tased the dog "
@@ -751,6 +770,9 @@ def load_incidents():
         # `reviewed` was added later; a blank (or anything not "yes") means
         # "not yet reviewed". Normalise case so the on-disk value is stable.
         r["reviewed"] = "yes" if (r.get("reviewed") or "").strip().lower() == "yes" else "no"
+        # `discovery` was added 2026-09-24; every earlier row came from news.
+        if r["discovery"] not in ("media", "official", "both"):
+            r["discovery"] = "media"
     return rows
 
 
@@ -882,6 +904,9 @@ def make_row(fields, article, row_id):
             "source_name": article.get("source", "") or _domain(article.get("url", "")),
             "source_url": article.get("url", ""),
             "additional_sources": "",
+            "discovery": "media",
+            "official_ref": "",
+            "official_url": "",
             "confidence": enums["confidence"],
             "prompt_version": PROMPT_VERSION,
             "reviewed": "no",  # a person sets this to "yes" after checking the row
@@ -945,6 +970,20 @@ def build_dashboard_json(rows):
         reverse=True,
     )[:RECENT_LIMIT]
 
+    # Agency cross-check: for each department whose own records we ingest, how
+    # many of its recorded dog shootings did news discovery also find? Grouped
+    # by the official_ref prefix ("LAPD", "PPD", ...).
+    coverage = {}
+    for r in rows:
+        ref = (r.get("official_ref") or "").strip()
+        if not ref:
+            continue
+        c = coverage.setdefault(ref.split()[0], {"agency_name": r.get("agency_name", ""),
+                                                 "official": 0, "media_covered": 0})
+        c["official"] += 1
+        if r.get("discovery") == "both":
+            c["media_covered"] += 1
+
     incident_dates = [r["incident_date"][:10] for r in dated]
     total_sources = 0
     for r in rows:
@@ -975,6 +1014,12 @@ def build_dashboard_json(rows):
             for s, c in sorted(state_counts.items(), key=lambda kv: -kv[1])
         ],
         "human_injured_count": sum(1 for r in rows if r.get("human_injured_by_fire") == "yes"),
+        "discovery_counts": {
+            k: sum(1 for r in rows if r.get("discovery") == k) for k in ("media", "official", "both")
+        },
+        "official_coverage": [
+            {"ref_prefix": k, **v} for k, v in sorted(coverage.items(), key=lambda kv: -kv[1]["official"])
+        ],
         "recent_incidents": [
             {
                 "incident_date": r.get("incident_date", ""),
@@ -991,6 +1036,8 @@ def build_dashboard_json(rows):
                 "additional_sources": [
                     u for u in (r.get("additional_sources") or "").split() if u
                 ],
+                "discovery": r.get("discovery", "media"),
+                "official_url": r.get("official_url", ""),
                 "confidence": r.get("confidence", ""),
                 "reviewed": (r.get("reviewed") or "no").strip().lower() == "yes",
             }
@@ -1037,7 +1084,195 @@ def validate_rows(rows):
                 problems.append(f"id {rid}: unparseable incident_date {idate!r}")
         if _blocked(r.get("source_url", "")):
             problems.append(f"id {rid}: blocklisted source domain {r.get('source_url')}")
+        if r.get("discovery") not in ("media", "official", "both"):
+            problems.append(f"id {rid}: bad discovery {r.get('discovery')!r}")
     return problems
+
+
+# --------------------------------------------------------------------------- #
+# 8. Agency records (see scripts/dog_tracker_official.py)
+# --------------------------------------------------------------------------- #
+
+def _norm(s):
+    return re.sub(r"[^a-z0-9 ]", "", (s or "").lower()).strip()
+
+
+def _agency_matches(row_agency, source):
+    """Case-insensitive match of a row's agency against the source's name or
+    its abbreviation (hand-entered rows say "LAPD" as often as the full name)."""
+    a = _norm(row_agency)
+    full = _norm(source["agency_name"])
+    abbr = "".join(w[0] for w in full.split() if w not in ("of", "the"))
+    return a == full or a == abbr or (a and (a in full or full in a))
+
+
+def _date_gap(a, b):
+    try:
+        return abs((datetime.strptime(a[:10], "%Y-%m-%d") - datetime.strptime(b[:10], "%Y-%m-%d")).days)
+    except ValueError:
+        return None
+
+
+def match_official(client, row, source, incidents):
+    """Id of the existing incident this agency record describes, or None.
+
+    Agency records carry an exact date, so try a deterministic match first:
+    same state + same agency + incident_date within a day. Only if that finds
+    nothing (or more than one) does the LLM adjudicate -- it catches rows whose
+    date is missing or off, or whose agency was written differently."""
+    def close(r):
+        gap = _date_gap(r.get("incident_date", ""), row["incident_date"]) if row["incident_date"] else None
+        return gap is not None and gap <= 1
+
+    near = [
+        r for r in incidents
+        if r.get("state") == source["state"]
+        and _agency_matches(r.get("agency_name"), source)
+        and close(r)
+    ]
+    if len(near) == 1:
+        return int(near[0]["id"])
+    return find_duplicate(client, row, near or incidents)
+
+
+def ingest_official_records(client, source, records, incidents, seen_urls, excluded):
+    """Classify each agency record and fold it into `incidents` in place.
+    Returns (added, matched, rejected, errors)."""
+    have_refs = {r.get("official_ref") for r in incidents if r.get("official_ref")}
+    added = matched = rejected = errors = 0
+    for rec in records:
+        ref, url = rec["official_ref"], rec["url"]
+        if ref in have_refs:
+            continue  # already folded in on an earlier run
+        if not official.in_scope(rec):
+            continue
+        if url in excluded:
+            print(f"  skip (excluded by review)  {ref}")
+            continue
+        # Keyed by case ref, not URL: an agency press release may already be in
+        # seen_urls from news discovery, which says nothing about this record.
+        seen_key = f"official:{ref}"
+        if seen_key in seen_urls:
+            continue  # classified before and rejected
+        seen_urls.add(seen_key)
+        text = rec.get("text") or extract_article_text(url)
+        if not text:
+            # No narrative (release page unreachable): give the classifier the
+            # bare table facts; it will set most fields to unknown.
+            text = (f"{source['agency_name']} lists this incident in its officer-involved "
+                    f"shooting records as an officer-involved shooting of a dog. "
+                    f"Date: {rec['incident_date']}. Location: {rec['location']}. Case: {ref}.")
+        title = f"{source['agency_name']} officer-involved shooting record {ref}: {rec['location']}"
+        fields = classify_article(client, title, text, url, rec.get("incident_date", ""))
+        if fields is None:
+            seen_urls.discard(seen_key)  # API error -- retry next run
+            errors += 1
+            continue
+        if not fields.get("qualifies"):
+            rejected += 1
+            print(f"  no   {ref} -- {fields.get('reason', '')[:80]}")
+            continue
+
+        row = make_row(fields, {"url": url, "source": source["agency_name"],
+                                "date": rec.get("incident_date", "")}, next_id(incidents))
+        # The agency record is authoritative for who, where and when.
+        row["agency_name"] = source["agency_name"]
+        row["state"] = source["state"]
+        row["city"] = row["city"] or source["city"]
+        if rec.get("incident_date"):
+            row["incident_date"], row["date_precision"] = rec["incident_date"], "day"
+        row.update({"discovery": "official", "official_ref": ref, "official_url": url})
+
+        dup_id = match_official(client, row, source, incidents)
+        if dup_id is not None:
+            r = next(r for r in incidents if int(r["id"]) == dup_id)
+            # Never overwrite a reviewed row's fields -- only record provenance.
+            if r.get("discovery") == "media":
+                r["discovery"] = "both"
+            if not r.get("official_ref"):
+                r["official_ref"], r["official_url"] = ref, url
+            matched += 1
+            print(f"  match {ref} -> incident {dup_id}")
+        else:
+            incidents.append(row)
+            added += 1
+            print(f"  ADD  incident {row['id']}: {ref} {row['incident_date']} {row['city']} -- {row['dog_outcome']}")
+        have_refs.add(ref)
+    return added, matched, rejected, errors
+
+
+def fetch_official_page(url):
+    try:
+        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=45)
+        resp.raise_for_status()
+        return resp.text
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! could not fetch {url}: {e}")
+        return None
+
+
+def load_staging():
+    """Hand-entered annual-report rows, grouped into (source, records) pairs."""
+    if not os.path.exists(OFFICIAL_STAGING_CSV):
+        return []
+    with open(OFFICIAL_STAGING_CSV, "r", encoding="utf-8", newline="") as f:
+        rows = [r for r in csv.DictReader(f) if (r.get("official_ref") or "").strip()]
+    groups = {}
+    for r in rows:
+        key = (r["agency_name"].strip(), r["state"].strip().upper())
+        src = groups.setdefault(key, ({"key": "staging", "agency_name": key[0], "state": key[1],
+                                       "city": r.get("city", "").strip()}, []))
+        src[1].append({
+            "official_ref": r["official_ref"].strip(),
+            "incident_date": r.get("incident_date", "").strip(),
+            "location": r.get("location", "").strip(),
+            "url": r.get("url", "").strip() or f"staging:{r['official_ref'].strip()}",
+            "text": r.get("text", "").strip() or None,
+        })
+    return list(groups.values())
+
+
+def run_official(staging=False):
+    """Cross-check agency records against the dataset. Returns the updated
+    incidents + seen URLs, or None when nothing could be fetched. A fetch or
+    parse failure is a warning, never a failed run -- these pages are a
+    secondary source and change layout without notice."""
+    incidents = load_incidents()
+    seen_urls = load_seen_urls()
+    excluded = load_excluded()
+    if staging:
+        batches = load_staging()
+        print(f"Staging file: {sum(len(recs) for _, recs in batches)} record(s)")
+    else:
+        batches = []
+        for src in official.OFFICIAL_SOURCES:
+            page = fetch_official_page(src["url"])
+            if page is None:
+                continue
+            recs = src["parser"](page)
+            if not recs and len(page) > 20000:
+                print(f"  !! {src['key']}: 0 dog records parsed from a {len(page)}-byte page -- "
+                      "layout changed? Check the parser in scripts/dog_tracker_official.py.")
+            print(f"{src['key']}: {len(recs)} dog record(s), "
+                  f"{sum(official.in_scope(r) for r in recs)} in scope")
+            batches.append((src, recs))
+    if not any(recs for _, recs in batches):
+        return None
+
+    client = get_client()
+    totals = [0, 0, 0, 0]
+    for src, recs in batches:
+        for i, n in enumerate(ingest_official_records(client, src, recs, incidents, seen_urls, excluded)):
+            totals[i] += n
+    added, matched, rejected, errors = totals
+    print(f"\nofficial: added={added} matched={matched} rejected={rejected} errors={errors}")
+    # Same breaker as the news path: a bad key or an API outage must turn the
+    # run red, not pass as "nothing new".
+    attempted = added + matched + rejected + errors
+    if attempted and errors / attempted > 0.5:
+        print("ERROR: >50% of agency records errored -- not writing.", file=sys.stderr)
+        sys.exit(1)
+    return incidents, seen_urls
 
 
 # --------------------------------------------------------------------------- #
@@ -1065,7 +1300,33 @@ def main():
     ap.add_argument("--rebuild-json", action="store_true", help="rebuild dashboard JSON from the CSV and exit")
     ap.add_argument("--exclude", nargs="+", metavar="URL",
                     help="add URL(s) to the exclusion list (a deleted false positive) and exit")
+    ap.add_argument("--official", action="store_true",
+                    help="cross-check agency OIS pages (no news discovery); honours --dry-run")
+    ap.add_argument("--official-staging", action="store_true",
+                    help=f"ingest hand-entered rows from {OFFICIAL_STAGING_CSV}; honours --dry-run")
     args = ap.parse_args()
+
+    if args.official or args.official_staging:
+        result = run_official(staging=args.official_staging)
+        if result is None:
+            print("No agency records to process.")
+            return
+        incidents, seen_urls = result
+        problems = validate_rows(incidents)
+        if problems:
+            print("VALIDATION PROBLEMS:", file=sys.stderr)
+            for p in problems:
+                print(f"  - {p}", file=sys.stderr)
+            sys.exit(1)
+        if args.dry_run:
+            print("--dry-run: nothing written.")
+            return
+        save_incidents(incidents)
+        save_seen_urls(seen_urls)
+        write_dashboard_json(incidents)
+        publish_csv_copy()
+        print(f"Wrote {INCIDENTS_CSV} ({len(incidents)} incidents).")
+        return
 
     if args.exclude:
         n = add_excluded(args.exclude)
@@ -1162,6 +1423,12 @@ def main():
             continue
 
         row = make_row(fields, a, next_id(incidents))
+        # The tracker counts 2026 onward. Lawsuit coverage of an older shooting
+        # passes clean_incident_date() (litigation explains the old date) but
+        # is still out of scope -- observed: a 2024 Walton County FL case.
+        if row["incident_date"] and row["incident_date"] < official.TRACKING_START:
+            print(f"  skip (incident {row['incident_date']} predates {official.TRACKING_START})  {a['title'][:60]}")
+            continue
         dup_id = find_duplicate(client, row, incidents)
         if dup_id is not None:
             for r in incidents:
@@ -1170,6 +1437,8 @@ def main():
                     if a["url"] not in extra and a["url"] != r.get("source_url"):
                         extra.append(a["url"])
                         r["additional_sources"] = " ".join(extra)
+                    if r.get("discovery") == "official":
+                        r["discovery"] = "both"  # news has now covered an agency-only incident
                     merged += 1
                     print(f"  merge -> incident {dup_id}  ({a['title'][:60]})")
                     break
