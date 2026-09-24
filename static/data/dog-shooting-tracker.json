@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-24T16:19:02Z",
-  "total_incidents": 55,
+  "generated_at": "2026-09-24T16:21:00Z",
+  "total_incidents": 56,
   "reviewed_count": 51,
-  "total_sources": 147,
+  "total_sources": 148,
   "date_range": {
-    "earliest": "2026-01-07",
+    "earliest": "2026-01-05",
     "latest": "2026-09-21"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 55,
+    "current_year_to_date": 56,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 267
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 55
+      "count": 56
     }
   ],
   "outcome_breakdown": [
@@ -26,12 +26,12 @@
       "count": 39
     },
     {
-      "label": "injured-survived",
+      "label": "unknown",
       "count": 7
     },
     {
-      "label": "unknown",
-      "count": 6
+      "label": "injured-survived",
+      "count": 7
     },
     {
       "label": "unharmed",
@@ -49,7 +49,7 @@
     },
     {
       "label": "unrelated call response",
-      "count": 14
+      "count": 15
     },
     {
       "label": "warrant service",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 38
+      "count": 39
     },
     {
       "label": "county SO",
@@ -103,7 +103,7 @@
     {
       "state": "PA",
       "name": "Pennsylvania",
-      "count": 7
+      "count": 8
     },
     {
       "state": "FL",
@@ -224,7 +224,7 @@
   "human_injured_count": 2,
   "discovery_counts": {
     "media": 48,
-    "official": 3,
+    "official": 4,
     "both": 4
   },
   "official_coverage": [
@@ -237,7 +237,7 @@
     {
       "ref_prefix": "PPD",
       "agency_name": "Philadelphia Police Department",
-      "official": 3,
+      "official": 4,
       "media_covered": 0
     }
   ],
