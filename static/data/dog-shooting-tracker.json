@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:07:23Z",
+  "generated_at": "2026-09-24T19:26:34Z",
   "total_incidents": 56,
   "reviewed_count": 51,
   "total_sources": 148,
@@ -27,11 +27,11 @@
     },
     {
       "label": "unknown",
-      "count": 7
+      "count": 8
     },
     {
       "label": "injured-survived",
-      "count": 7
+      "count": 6
     },
     {
       "label": "unharmed",
