@@ -622,7 +622,26 @@ HEADLINE_ONLY_NOTE = (
 )
 
 
-def classify_article(client, title, text, url, published=""):
+# Agency records are a police department's own log of an officer firing at a
+# dog, so the record itself settles most of the scope question. Without this
+# note Haiku invented exclusions that are not in CLASSIFY_SYSTEM on the first
+# live run (2026-09-24): "the dog was attacking another dog", "defense of a
+# third party", and "an official listing with no description".
+OFFICIAL_RECORD_NOTE = (
+    "\n\nNOTE: this is not a news article. It is the police department's OWN "
+    "record of an officer-involved shooting at a dog, from its official "
+    "shooting log. The department listing it is itself the evidence that one of "
+    "its officers fired at a dog, so set qualifies=true UNLESS the text says the "
+    "shooter was off-duty and acting as a private citizen (e.g. defending their "
+    "own family or pet on a personal outing), was not a sworn officer, or the "
+    "animal was not a dog. Why the officer fired does not matter: protecting a "
+    "person, protecting another animal, a dog attacking a dog, a missed shot, a "
+    "dog that was not hit -- all qualify. A terse record with no narrative "
+    "still qualifies; leave the fields you cannot determine as unknown."
+)
+
+
+def classify_article(client, title, text, url, published="", official_record=False):
     """Return the tool input dict, or None on a hard API error. text=None means
     body extraction failed -> classify from the headline under strict rules.
     `published` is the article's publication date (ISO) -- the anchor for
@@ -632,6 +651,8 @@ def classify_article(client, title, text, url, published=""):
         user = f"{pub}Article URL: {url}\nHeadline: {title}\n\nArticle text:\n{text}"
     else:
         user = f"{pub}Article URL: {url}\nHeadline: {title}{HEADLINE_ONLY_NOTE}"
+    if official_record:
+        user += OFFICIAL_RECORD_NOTE
     try:
         resp = client.messages.create(
             model=MODEL,
@@ -1155,7 +1176,7 @@ def ingest_official_records(client, source, records, incidents, seen_urls, exclu
         if seen_key in seen_urls:
             continue  # classified before and rejected
         seen_urls.add(seen_key)
-        text = rec.get("text") or extract_article_text(url)
+        text = rec.get("text") or _fetch_record_text(url)
         if not text:
             # No narrative (release page unreachable): give the classifier the
             # bare table facts; it will set most fields to unknown.
@@ -1163,7 +1184,8 @@ def ingest_official_records(client, source, records, incidents, seen_urls, exclu
                     f"shooting records as an officer-involved shooting of a dog. "
                     f"Date: {rec['incident_date']}. Location: {rec['location']}. Case: {ref}.")
         title = f"{source['agency_name']} officer-involved shooting record {ref}: {rec['location']}"
-        fields = classify_article(client, title, text, url, rec.get("incident_date", ""))
+        fields = classify_article(client, title, text, url, rec.get("incident_date", ""),
+                                 official_record=True)
         if fields is None:
             seen_urls.discard(seen_key)  # API error -- retry next run
             errors += 1
@@ -1209,6 +1231,24 @@ def fetch_official_page(url):
     except Exception as e:  # noqa: BLE001
         print(f"  ! could not fetch {url}: {e}")
         return None
+
+
+def _fetch_record_text(url):
+    """Narrative from an agency release page. Uses the same browser-UA request
+    as the index pages: trafilatura's own fetcher got nothing back from
+    lapdonline.org on Actions, which the index request reaches fine."""
+    if not url.startswith("http"):
+        return None
+    page = fetch_official_page(url)
+    if not page:
+        return None
+    try:
+        import trafilatura
+        text = trafilatura.extract(page, include_comments=False, include_tables=False)
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! extract failed for {url}: {e}")
+        return None
+    return text[:12000] if text and len(text) > 200 else None
 
 
 def load_staging():
