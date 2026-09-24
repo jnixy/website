@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-24T16:16:16Z",
-  "total_incidents": 54,
+  "generated_at": "2026-09-24T16:19:02Z",
+  "total_incidents": 55,
   "reviewed_count": 51,
-  "total_sources": 146,
+  "total_sources": 147,
   "date_range": {
     "earliest": "2026-01-07",
     "latest": "2026-09-21"
@@ -10,14 +10,14 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 54,
+    "current_year_to_date": 55,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 267
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 54
+      "count": 55
     }
   ],
   "outcome_breakdown": [
@@ -35,7 +35,7 @@
     },
     {
       "label": "unharmed",
-      "count": 1
+      "count": 2
     },
     {
       "label": "injured-euthanized",
@@ -49,7 +49,7 @@
     },
     {
       "label": "unrelated call response",
-      "count": 13
+      "count": 14
     },
     {
       "label": "warrant service",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 37
+      "count": 38
     },
     {
       "label": "county SO",
@@ -103,7 +103,7 @@
     {
       "state": "PA",
       "name": "Pennsylvania",
-      "count": 6
+      "count": 7
     },
     {
       "state": "FL",
@@ -223,21 +223,21 @@
   ],
   "human_injured_count": 2,
   "discovery_counts": {
-    "media": 49,
-    "official": 2,
-    "both": 3
+    "media": 48,
+    "official": 3,
+    "both": 4
   },
   "official_coverage": [
     {
       "ref_prefix": "LAPD",
       "agency_name": "Los Angeles Police Department",
-      "official": 3,
-      "media_covered": 3
+      "official": 4,
+      "media_covered": 4
     },
     {
       "ref_prefix": "PPD",
       "agency_name": "Philadelphia Police Department",
-      "official": 2,
+      "official": 3,
       "media_covered": 0
     }
   ],
