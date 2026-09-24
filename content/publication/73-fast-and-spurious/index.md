@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.0440bf49"}, {name = "Slides", url="https://jnix.netlify.app/talk/cambridge_ebp_2026/"}]
+links = [{name = "DOI", url="https://doi.org/10.1007/s10940-026-09692-4"}, {name = "Slides", url="https://jnix.netlify.app/talk/cambridge_ebp_2026/"}, {name = "Replication Materials", url="https://github.com/jnixy/fast_and_spurious"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder.
@@ -59,7 +59,7 @@ links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.0440bf49"}, 
   focal_point = "Left"
 +++
 
-This one's been accepted at the *Journal of Quantitative Criminology*, with John Hall at Cambridge leading the charge. The publisher embargoes accepted manuscripts for twelve months before authors can post them, so the postprint isn't up yet — the [preprint](https://doi.org/10.21428/cb6ab371.0440bf49) linked above has the full analysis for anyone who wants to dig in now, or if you'd like the accepted version before the embargo lifts, just email me.
+This one's been published open-access at the *Journal of Quantitative Criminology*, with John Hall at Cambridge leading the charge. You can download it for free [here](https://link.springer.com/article/10.1007/s10940-026-09692-4). 
 
 ## The Escalation
 
