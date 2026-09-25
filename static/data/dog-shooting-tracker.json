@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-24T19:26:34Z",
-  "total_incidents": 56,
+  "generated_at": "2026-09-25T12:45:27Z",
+  "total_incidents": 58,
   "reviewed_count": 51,
-  "total_sources": 148,
+  "total_sources": 153,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-09-21"
+    "latest": "2026-09-25"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 56,
+    "current_year_to_date": 57,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 267
+    "as_of_day_of_year": 268
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 56
+      "count": 57
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 39
+      "count": 41
     },
     {
       "label": "unknown",
@@ -64,12 +64,12 @@
       "count": 5
     },
     {
-      "label": "domestic call",
-      "count": 3
+      "label": "unknown",
+      "count": 4
     },
     {
-      "label": "unknown",
-      "count": 2
+      "label": "domestic call",
+      "count": 3
     },
     {
       "label": "pursuit",
@@ -83,11 +83,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 39
+      "count": 40
     },
     {
       "label": "county SO",
-      "count": 16
+      "count": 17
     },
     {
       "label": "state",
@@ -98,7 +98,7 @@
     {
       "state": "CA",
       "name": "California",
-      "count": 9
+      "count": 10
     },
     {
       "state": "PA",
@@ -121,6 +121,11 @@
       "count": 4
     },
     {
+      "state": "IL",
+      "name": "Illinois",
+      "count": 4
+    },
+    {
       "state": "TX",
       "name": "Texas",
       "count": 3
@@ -128,11 +133,6 @@
     {
       "state": "OH",
       "name": "Ohio",
-      "count": 3
-    },
-    {
-      "state": "IL",
-      "name": "Illinois",
       "count": 3
     },
     {
@@ -223,7 +223,7 @@
   ],
   "human_injured_count": 2,
   "discovery_counts": {
-    "media": 48,
+    "media": 50,
     "official": 4,
     "both": 4
   },
@@ -243,6 +243,27 @@
   ],
   "recent_incidents": [
     {
+      "incident_date": "2026-09-25",
+      "date_precision": "day",
+      "city": "Industry",
+      "state": "CA",
+      "agency_name": "Los Angeles County Sheriff's Department",
+      "circumstance": "unknown",
+      "dog_outcome": "killed",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "Los Angeles County sheriff's deputies shot and killed a dog near Fairway Drive and San Jose Avenue in Industry on Thursday morning around 10 a.m. near a homeless encampment; the circumstances that prompted the shooting remain unclear.",
+      "source_url": "https://hoodline.com/2026/09/deputies-kill-dog-near-industry-homeless-camp-cause-still-unclear/",
+      "source_name": "Hoodline",
+      "additional_sources": [
+        "https://ktla.com/news/local-news/deputy-shoots-dog-after-being-bitten-in-city-of-industry/"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "medium",
+      "reviewed": false
+    },
+    {
       "incident_date": "2026-09-21",
       "date_precision": "day",
       "city": "Chicago",
@@ -260,7 +281,9 @@
         "https://wgntv.com/news/chicago-news/3-cpd-officers-injured-in-west-side-dog-attack/",
         "https://www.yahoo.com/news/videos/chicago-police-shoot-kill-dog-113140499.html",
         "https://abc7chicago.com/post/east-garfield-park-chicago-shooting-today-3-cops-hurt-dog-attack-700-block-north-christiana-avenue-fatally-shot/19856236/",
-        "https://www.yahoo.com/news/videos/3-officers-hospitalized-dog-fatally-034815416.html"
+        "https://www.yahoo.com/news/videos/3-officers-hospitalized-dog-fatally-034815416.html",
+        "https://www.aol.com/articles/3-chicago-police-officers-injured-013022000.html",
+        "https://hoodline.com/2026/09/dog-attacks-chicago-officer-in-east-garfield-park-two-more-cops-hurt/"
       ],
       "discovery": "media",
       "official_url": "",
@@ -878,28 +901,6 @@
       "source_name": "ksat.com",
       "additional_sources": [
         "https://www.yahoo.com/news/articles/sapd-1-taken-hospital-being-205055225.html"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-05-06",
-      "date_precision": "day",
-      "city": "Canandaigua",
-      "state": "NY",
-      "agency_name": "Canandaigua Police Department",
-      "circumstance": "other",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "A Canandaigua police officer shot and killed a dog on May 6, 2026 after it seriously injured its owner and then charged the officer.",
-      "source_url": "https://13wham.com/news/local/dog-shot-and-killed-by-officer-during-attack-in-canandaigua",
-      "source_name": "13wham.com",
-      "additional_sources": [
-        "https://www.whec.com/top-news/canandaigua-woman-severely-hurt-after-dog-attack-dog-shot-and-killed-by-officers/",
-        "https://www.fingerlakes1.com/2026/05/07/canandaigua-police-shoot-and-kill-dog-after-attack-leaves-owner-seriously-injured/"
       ],
       "discovery": "media",
       "official_url": "",
