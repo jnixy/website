@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 11:35:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 11:42:53 +0000</lastBuildDate>
     <item>
       <title>Escobar , over 100 members of Congress demand medical care for man shot by ICE</title>
       <link>https://kvia.com/news/2026/09/22/escobar-over-100-members-of-congress-demand-medical-care-for-man-shot-by-ice/</link>
@@ -303,14 +303,6 @@
       <source>wnyc.org</source>
     </item>
     <item>
-      <title>ICE agent shoots and wounds man in Austin , Texas , officials say</title>
-      <link>https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>ksl.com</source>
-    </item>
-    <item>
       <title>ICE Agent Shoots Man In Austin | NewsRadio 560 WHYN</title>
       <link>https://whyn.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
       <description/>
@@ -359,6 +351,14 @@
       <source>knrs.iheart.com</source>
     </item>
     <item>
+      <title>ICE agent shoots and wounds man in Austin , Texas , officials say</title>
+      <link>https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say</link>
+      <description/>
+      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ksl.com</source>
+    </item>
+    <item>
       <title>ICE officer shoots and wounds man in Austin , Texas , officials say - Dominican Republic Post – Caribbean News , Business , Travel &amp; Culture</title>
       <link>https://dominicanrepublicpost.com/ice-officer-shoots-and-wounds-man-in-austin-texas-officials-say/</link>
       <description/>
@@ -383,12 +383,12 @@
       <source>woodradio.iheart.com</source>
     </item>
     <item>
-      <title>ICE agent shoots , wounds man in Austin , Texas</title>
-      <link>https://www.wmtw.com/article/ice-agent-shooting-north-austin-texas/73813943</link>
+      <title>ICE Agent Shoots Man in Austin Amid Scrutiny of Immigration Enforcement</title>
+      <link>https://www.newsweek.com/man-wounded-in-austin-shooting-involving-ice-agent-12465694</link>
       <description/>
       <pubDate>Mon, 21 Sep 2026 00:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>wmtw.com</source>
+      <source>newsweek.com</source>
     </item>
     <item>
       <title>ICE Agent Shoots Man In Austin | NewsRadio 570 WKBN</title>
