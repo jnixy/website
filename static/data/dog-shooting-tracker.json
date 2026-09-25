@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T14:04:22Z",
+  "generated_at": "2026-09-25T14:34:23Z",
   "total_incidents": 57,
-  "reviewed_count": 51,
+  "reviewed_count": 57,
   "total_sources": 153,
   "date_range": {
     "earliest": "2026-01-05",
@@ -261,7 +261,7 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "medium",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-09-21",
@@ -289,7 +289,7 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-09-17",
