@@ -1143,9 +1143,12 @@ def _agency_matches(row_agency, source):
     """Case-insensitive match of a row's agency against the source's name or
     its abbreviation (hand-entered rows say "LAPD" as often as the full name)."""
     a = _norm(row_agency)
-    full = _norm(source["agency_name"])
-    abbr = "".join(w[0] for w in full.split() if w not in ("of", "the"))
-    return a == full or a == abbr or (a and (a in full or full in a))
+    for name in [source["agency_name"], *source.get("aliases", [])]:
+        full = _norm(name)
+        abbr = "".join(w[0] for w in full.split() if w not in ("of", "the"))
+        if a == full or a == abbr or (a and (a in full or full in a)):
+            return True
+    return False
 
 
 def _date_gap(a, b):
@@ -1210,6 +1213,29 @@ def ingest_official_records(client, source, records, incidents, seen_urls, exclu
         seen_key = f"official:{ref}"
         if seen_key in seen_urls:
             continue  # classified before and rejected
+        if source.get("match_only"):
+            # The record can't confirm a dog, so no LLM and no new row: link it
+            # to the one existing row with the same agency within a day, or
+            # flag it every run until a person adds or --excludes it.
+            near = [
+                r for r in incidents
+                if r.get("state") == source["state"]
+                and _agency_matches(r.get("agency_name"), source)
+                and not r.get("official_ref")
+                and _date_gap(r.get("incident_date", ""), rec.get("incident_date", "")) in (0, 1)
+            ]
+            if len(near) == 1:
+                r = near[0]
+                if r.get("discovery") == "media":
+                    r["discovery"] = "both"
+                r["official_ref"], r["official_url"] = ref, url
+                matched += 1
+                have_refs.add(ref)
+                print(f"  match {ref} -> incident {r['id']}")
+            else:
+                print(f"  !! UNMATCHED {ref} ({url}) -- species not stated; check by hand, then "
+                      f"add a row or --exclude the URL")
+            continue
         seen_urls.add(seen_key)
         text = rec.get("text") or _fetch_record_text(url)
         if not text:
@@ -1321,11 +1347,13 @@ def run_official(staging=False):
     else:
         batches = []
         for src in official.OFFICIAL_SOURCES:
-            page = fetch_official_page(src["url"])
-            if page is None:
+            urls = src["url"] if isinstance(src["url"], list) else [src["url"]]
+            pages = [p for p in (fetch_official_page(u) for u in urls) if p]
+            if not pages:
                 continue
+            page = "\n".join(pages)
             recs = src["parser"](page)
-            if not recs and len(page) > 20000:
+            if not recs and len(page) > 20000 and not src.get("empty_ok"):
                 print(f"  !! {src['key']}: 0 dog records parsed from a {len(page)}-byte page -- "
                       "layout changed? Check the parser in scripts/dog_tracker_official.py.")
             print(f"{src['key']}: {len(recs)} dog record(s), "

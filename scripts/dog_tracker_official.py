@@ -4,7 +4,8 @@ Agency-record sources for the dog-shooting tracker.
 Some departments publish their own incident-level lists of officer-involved
 shootings, and a few include shootings at dogs. Media discovery misses many of
 these (on 2026-09-24: LAPD 4 of 4 dog shootings were media-covered, Philadelphia
-PD 0 of 4), so they are cross-checked here.
+PD 0 of 4), so they are cross-checked here. DC's letters say only "animal",
+so they confirm existing rows but never add one (`match_only`).
 
 This module only FETCHES and PARSES. It makes no LLM calls and does not touch
 the CSV; generate_dog_shooting_tracker.py classifies each record with the same
@@ -132,8 +133,45 @@ def parse_philly(page_html):
 
 
 # --------------------------------------------------------------------------- #
+# DC Metropolitan Police Department
+# --------------------------------------------------------------------------- #
+# The Deputy Mayor for Public Safety and Justice posts a letter to the Council's
+# public-safety chair for every MPD firearm discharge, titled e.g. "...Serious
+# Use of Force (Firearm Discharge at an Animal) ... Officer on December 17,
+# 2025". The attached PDF adds only the block and the officer's name -- it never
+# names the species -- so the title is all we parse. Because "animal" is not
+# "dog", these records are match-only (see `match_only` in the registry): they
+# confirm existing DC rows but never add one without a person checking.
+# Posting lags the incident (weeks to months), and the newsroom is paginated.
+
+def parse_dc_mpd(page_html):
+    out = []
+    links = re.findall(r'href="(/release/[^"]+)"[^>]*>(.*?)</a>', page_html, flags=re.S | re.I)
+    if links and not any("councilmember" in _text(t).lower() for _, t in links):
+        print("  !! dc_mpd: no Council correspondence on the newsroom page -- layout changed?")
+    for href, title in links:
+        title = _text(title)
+        if "discharge at an animal" not in title.lower():
+            continue
+        date = _narrative_date(title.rsplit(" on ", 1)[-1])
+        out.append({
+            "official_ref": f"DC MPD {date or href.rsplit('/', 1)[-1]}",
+            "incident_date": date,
+            "location": "",
+            "url": f"https://dmpsj.dc.gov{href}",
+            "text": title,
+        })
+    return out
+
+
+# --------------------------------------------------------------------------- #
 # Registry
 # --------------------------------------------------------------------------- #
+# Optional keys: `url` may be a list (paginated index; pages are concatenated),
+# `aliases` are other names rows use for the agency, `match_only` means the
+# record cannot confirm a dog so it only links to an existing row, and
+# `empty_ok` silences the "0 records parsed" layout warning for a source where
+# none is the normal state.
 
 OFFICIAL_SOURCES = [
     {
@@ -152,6 +190,18 @@ OFFICIAL_SOURCES = [
         "state": "PA",
         "url": "https://www.phillypolice.com/ois/",
         "parser": parse_philly,
+    },
+    {
+        "key": "dc_mpd",
+        "agency_name": "Metropolitan Police Department",
+        "aliases": ["DC Police", "DC Metropolitan Police Department", "Metropolitan Police Department of the District of Columbia"],
+        "city": "Washington",
+        "state": "DC",
+        # ~25 releases per page; three pages reach back well past the posting lag.
+        "url": [f"https://dmpsj.dc.gov/newsroom?page={p}" for p in range(3)],
+        "parser": parse_dc_mpd,
+        "match_only": True,
+        "empty_ok": True,
     },
 ]
 
