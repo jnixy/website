@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "DOI", url="https://doi.org/10.1007/s10940-026-09692-4"}, {name = "Slides", url="https://jnix.netlify.app/talk/cambridge_ebp_2026/"}, {name = "Replication Materials", url="https://github.com/jnixy/fast_and_spurious"}]
+links = [{name = "DOI", url="https://doi.org/10.1007/s10940-026-09692-4", icon = "unlock-alt", icon_pack = "fas"}, {name = "Slides", url="https://jnix.netlify.app/talk/cambridge_ebp_2026/", icon = "file-powerpoint", icon_pack = "fas"}, {name = "Replication Materials", url="https://github.com/jnixy/fast_and_spurious", icon = "code", icon_pack = "fas"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder.
