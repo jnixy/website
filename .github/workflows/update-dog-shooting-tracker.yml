@@ -37,7 +37,7 @@ on:
         required: false
         default: false
       official_only:
-        description: 'Skip news discovery; only cross-check agency OIS pages (LAPD, Philadelphia PD, DC MPD)'
+        description: 'Skip news discovery; only cross-check agency OIS pages (LAPD, Philadelphia PD, DC MPD, Seattle PD)'
         type: boolean
         required: false
         default: false

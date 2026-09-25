@@ -165,6 +165,58 @@ def parse_dc_mpd(page_html):
 
 
 # --------------------------------------------------------------------------- #
+# Seattle Police Department
+# --------------------------------------------------------------------------- #
+# SPD Blotter is WordPress; its REST search returns every 2026 post mentioning
+# "dog" as JSON. Two post shapes: a standalone release ("Police Shoot and Kill
+# Dog...", ending "Incident Number: 2026-28916", about the day it is posted) and
+# a daily roundup titled with its date, one "#2026-29021/Precinct/Watch/Unit:"
+# header per incident. The same shooting can appear in both under different
+# incident numbers; match_official folds the second onto the first by date.
+# Only segments where a dog and a shot share a sentence are kept.
+
+SHOT_WORDS = re.compile(r"\b(shot|shoots?|shooting|fired|firing|discharg\w*)\b", re.I)
+SPD_HEADER = re.compile(r"<strong>\s*#(\d{4}-\d+)/[^<]*</strong>", re.I)
+
+
+def _dog_shot(text):
+    return any(DOG_WORDS.search(s) and SHOT_WORDS.search(s)
+               for s in re.split(r"(?<=[.!?])\s+", text))
+
+
+def parse_spd(page_json):
+    import json
+    try:
+        posts = json.loads(page_json)
+    except ValueError:
+        print("  !! spd: blotter search did not return JSON -- API changed?")
+        return []
+    out = []
+    for p in posts:
+        body = p.get("content", {}).get("rendered", "")
+        title = _text(p.get("title", {}).get("rendered", ""))
+        posted = (p.get("date") or "")[:10]
+        parts = SPD_HEADER.split(body)
+        if len(parts) > 1:  # roundup: [intro, num, html, num, html, ...]
+            day = _narrative_date(title) or posted
+            segments = [(parts[i], _text(parts[i + 1]), day) for i in range(1, len(parts) - 1, 2)]
+        else:
+            text = _text(body)
+            num = re.search(r"Incident Number\s*:?\s*(\d{4}-\d+)", text)
+            segments = [(num.group(1) if num else f"post{p.get('id')}", text, posted)]
+        for num, text, day in segments:
+            if _dog_shot(text):
+                out.append({
+                    "official_ref": f"SPD {num}",
+                    "incident_date": day,
+                    "location": "",
+                    "url": p.get("link", ""),
+                    "text": f"{title}. {text}",
+                })
+    return out
+
+
+# --------------------------------------------------------------------------- #
 # Registry
 # --------------------------------------------------------------------------- #
 # Optional keys: `url` may be a list (paginated index; pages are concatenated),
@@ -202,6 +254,16 @@ OFFICIAL_SOURCES = [
         "parser": parse_dc_mpd,
         "match_only": True,
         "empty_ok": True,
+    },
+    {
+        "key": "spd",
+        "agency_name": "Seattle Police Department",
+        "city": "Seattle",
+        "state": "WA",
+        "url": ("https://spdblotter.seattle.gov/wp-json/wp/v2/posts?search=dog"
+                f"&after={TRACKING_START}T00:00:00&per_page=100&_fields=id,date,link,title,content"),
+        "parser": parse_spd,
+        "empty_ok": True,  # most weeks no 2026 post mentions a dog being shot
     },
 ]
 

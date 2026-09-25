@@ -85,7 +85,7 @@ This tracker is assembled from news reports we monitor automatically, so these n
         lists include shootings of dogs. Once a week the tracker compares those lists with what the news
         turned up. An incident that appears in a department's records but never made the news is added and
         tagged <strong>Agency record</strong>. The comparison also gives a rough sense of how much news
-        coverage misses. Right now the tracker checks the Los Angeles and Philadelphia police departments, plus Washington,
+        coverage misses. Right now the tracker checks the Los Angeles, Philadelphia, and Seattle police departments, plus Washington,
         DC's Metropolitan Police Department (DC's records say "animal," not "dog," so they only confirm
         incidents found elsewhere).
         Know of another department that publishes incident-level records? Let me know via

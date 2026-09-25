@@ -171,6 +171,7 @@ more than half the records fails the run, the same as the news path.
 | Los Angeles PD | 2026 O.I.S. table (`Name` = "Dog") → newsroom release | **URL slug is per year — update it each January** |
 | Philadelphia PD | `/ois/` index, narratives inline | Also lists earlier years; only 2026+ is ingested |
 | DC Metropolitan PD | dmpsj.dc.gov newsroom, pages 0-2: Deputy Mayor's letters to the Council titled "Firearm Discharge at an Animal … on <date>" | **Match-only.** The letters (and their PDFs) never name the species, so a letter only links to an existing DC row within a day; an unmatched one prints `!! UNMATCHED` every run until someone adds a row or `--exclude`s the URL. Posting lags weeks to months. No 2026 animal letters as of 2026-09-25 |
+| Seattle PD | SPD Blotter WordPress REST search (`/wp-json/wp/v2/posts?search=dog&after=2026-01-01`) | Standalone releases (ref = `Incident Number`) and daily roundups (ref = each `#2026-NNNNN/...` header); a segment is kept only if a dog and a shot share a sentence. Record date = the post date (releases say "this afternoon") or the roundup's title date. One event can appear in both under different numbers; the second matches the first by date. Found 2026-01-30 Freeway Park, which the news pass had missed |
 
 On 2026-09-24, LAPD listed 4 dog shootings in 2026 and the news had found all 4.
 Philadelphia PD listed 4 on-duty ones (plus 1 off-duty, which is out of scope),
