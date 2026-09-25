@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-25T12:45:27Z",
-  "total_incidents": 58,
+  "generated_at": "2026-09-25T14:04:22Z",
+  "total_incidents": 57,
   "reviewed_count": 51,
   "total_sources": 153,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-09-25"
+    "latest": "2026-09-24"
   },
   "stats": {
     "current_year": 2026,
@@ -23,7 +23,7 @@
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 41
+      "count": 40
     },
     {
       "label": "unknown",
@@ -64,11 +64,11 @@
       "count": 5
     },
     {
-      "label": "unknown",
-      "count": 4
+      "label": "domestic call",
+      "count": 3
     },
     {
-      "label": "domestic call",
+      "label": "unknown",
       "count": 3
     },
     {
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 40
+      "count": 39
     },
     {
       "label": "county SO",
@@ -121,11 +121,6 @@
       "count": 4
     },
     {
-      "state": "IL",
-      "name": "Illinois",
-      "count": 4
-    },
-    {
       "state": "TX",
       "name": "Texas",
       "count": 3
@@ -133,6 +128,11 @@
     {
       "state": "OH",
       "name": "Ohio",
+      "count": 3
+    },
+    {
+      "state": "IL",
+      "name": "Illinois",
       "count": 3
     },
     {
@@ -223,7 +223,7 @@
   ],
   "human_injured_count": 2,
   "discovery_counts": {
-    "media": 50,
+    "media": 49,
     "official": 4,
     "both": 4
   },
@@ -243,7 +243,7 @@
   ],
   "recent_incidents": [
     {
-      "incident_date": "2026-09-25",
+      "incident_date": "2026-09-24",
       "date_precision": "day",
       "city": "Industry",
       "state": "CA",
@@ -283,7 +283,8 @@
         "https://abc7chicago.com/post/east-garfield-park-chicago-shooting-today-3-cops-hurt-dog-attack-700-block-north-christiana-avenue-fatally-shot/19856236/",
         "https://www.yahoo.com/news/videos/3-officers-hospitalized-dog-fatally-034815416.html",
         "https://www.aol.com/articles/3-chicago-police-officers-injured-013022000.html",
-        "https://hoodline.com/2026/09/dog-attacks-chicago-officer-in-east-garfield-park-two-more-cops-hurt/"
+        "https://hoodline.com/2026/09/dog-attacks-chicago-officer-in-east-garfield-park-two-more-cops-hurt/",
+        "https://wgntv.com/video/dog-shot-and-killed-by-chicago-police-officers-after-they-say-it-attacked-them-during-investigation/12193748/"
       ],
       "discovery": "media",
       "official_url": "",
