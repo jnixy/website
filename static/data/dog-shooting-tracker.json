@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T14:34:23Z",
-  "total_incidents": 57,
+  "generated_at": "2026-09-25T15:23:01Z",
+  "total_incidents": 58,
   "reviewed_count": 57,
-  "total_sources": 153,
+  "total_sources": 154,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-09-24"
@@ -10,20 +10,20 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 57,
+    "current_year_to_date": 58,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 268
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 57
+      "count": 58
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 40
+      "count": 41
     },
     {
       "label": "unknown",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "other",
-      "count": 17
+      "count": 18
     },
     {
       "label": "unrelated call response",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 39
+      "count": 40
     },
     {
       "label": "county SO",
@@ -136,6 +136,11 @@
       "count": 3
     },
     {
+      "state": "WA",
+      "name": "Washington",
+      "count": 2
+    },
+    {
       "state": "WI",
       "name": "Wisconsin",
       "count": 2
@@ -148,11 +153,6 @@
     {
       "state": "ID",
       "name": "Idaho",
-      "count": 1
-    },
-    {
-      "state": "WA",
-      "name": "Washington",
       "count": 1
     },
     {
@@ -224,7 +224,7 @@
   "human_injured_count": 2,
   "discovery_counts": {
     "media": 49,
-    "official": 4,
+    "official": 5,
     "both": 4
   },
   "official_coverage": [
@@ -238,6 +238,12 @@
       "ref_prefix": "PPD",
       "agency_name": "Philadelphia Police Department",
       "official": 4,
+      "media_covered": 0
+    },
+    {
+      "ref_prefix": "SPD",
+      "agency_name": "Seattle Police Department",
+      "official": 1,
       "media_covered": 0
     }
   ],
