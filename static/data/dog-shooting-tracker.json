@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-25T15:23:01Z",
-  "total_incidents": 58,
+  "generated_at": "2026-09-26T11:45:38Z",
+  "total_incidents": 59,
   "reviewed_count": 57,
-  "total_sources": 154,
+  "total_sources": 157,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-09-24"
@@ -10,14 +10,14 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 58,
+    "current_year_to_date": 59,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 268
+    "as_of_day_of_year": 269
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 58
+      "count": 59
     }
   ],
   "outcome_breakdown": [
@@ -31,7 +31,7 @@
     },
     {
       "label": "injured-survived",
-      "count": 6
+      "count": 7
     },
     {
       "label": "unharmed",
@@ -53,7 +53,7 @@
     },
     {
       "label": "warrant service",
-      "count": 6
+      "count": 7
     },
     {
       "label": "welfare check",
@@ -87,7 +87,7 @@
     },
     {
       "label": "county SO",
-      "count": 17
+      "count": 18
     },
     {
       "label": "state",
@@ -98,7 +98,7 @@
     {
       "state": "CA",
       "name": "California",
-      "count": 10
+      "count": 11
     },
     {
       "state": "PA",
@@ -223,7 +223,7 @@
   ],
   "human_injured_count": 2,
   "discovery_counts": {
-    "media": 49,
+    "media": 50,
     "official": 5,
     "both": 4
   },
@@ -270,6 +270,27 @@
       "reviewed": true
     },
     {
+      "incident_date": "2026-09-24",
+      "date_precision": "day",
+      "city": "Keyes",
+      "state": "CA",
+      "agency_name": "Stanislaus County Sheriff's Office",
+      "circumstance": "warrant service",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "During execution of a search warrant at a Keyes home on Wednesday morning, a dog attacked a Stanislaus County sheriff's K-9, and a deputy shot and wounded the dog. Two men were arrested at the scene.",
+      "source_url": "https://hoodline.com/2026/09/keyes-marijuana-bust-turns-violent-as-dog-attacks-k-9-deputy-opens-fire/",
+      "source_name": "Hoodline",
+      "additional_sources": [
+        "https://www.cbsnews.com/sacramento/news/keyes-stanislaus-county-dog-shot-k9-attack/"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
       "incident_date": "2026-09-21",
       "date_precision": "day",
       "city": "Chicago",
@@ -290,7 +311,8 @@
         "https://www.yahoo.com/news/videos/3-officers-hospitalized-dog-fatally-034815416.html",
         "https://www.aol.com/articles/3-chicago-police-officers-injured-013022000.html",
         "https://hoodline.com/2026/09/dog-attacks-chicago-officer-in-east-garfield-park-two-more-cops-hurt/",
-        "https://wgntv.com/video/dog-shot-and-killed-by-chicago-police-officers-after-they-say-it-attacked-them-during-investigation/12193748/"
+        "https://wgntv.com/video/dog-shot-and-killed-by-chicago-police-officers-after-they-say-it-attacked-them-during-investigation/12193748/",
+        "https://wgntv.com/video/chicago-police-shoot-and-kill-dog-after-they-say-it-attacked-officers-in-humboldt-park-late-monday-afternoon/12192833/"
       ],
       "discovery": "media",
       "official_url": "",
@@ -891,27 +913,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "medium",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-05-20",
-      "date_precision": "day",
-      "city": "San Antonio",
-      "state": "TX",
-      "agency_name": "San Antonio Police Department",
-      "circumstance": "other",
-      "dog_outcome": "injured-survived",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "San Antonio police responded to the 100 block of Montrose near South Presa Street on the South Side after a family dog attacked its two owners. When officers arrived, the dog turned aggressive toward them as well; an officer shot it in the lower chest. The dog survived and was taken into Animal Care Services custody. The son was hospitalized; the mother declined treatment at the scene.",
-      "source_url": "https://www.ksat.com/news/local/2026/05/20/mother-son-injured-after-being-bitten-by-family-dog-on-south-side-acs-says/",
-      "source_name": "ksat.com",
-      "additional_sources": [
-        "https://www.yahoo.com/news/articles/sapd-1-taken-hospital-being-205055225.html"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
       "reviewed": true
     }
   ]
