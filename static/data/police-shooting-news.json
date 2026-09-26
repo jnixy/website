@@ -1,6 +1,38 @@
 {
-  "generated_at": "2026-09-25T11:42:53Z",
+  "generated_at": "2026-09-26T11:15:45Z",
   "stories": [
+    {
+      "title": "Wanted suspect dead after police shooting in SE Portland ; K9 officer killed",
+      "url": "https://katu.com/news/local/police-shooting-reported-in-montavilla-neighborhood-in-se-portland-crime-investigation-local-community-officer-involved-pppb-breaking-news",
+      "description": "",
+      "date": "2026-09-25T00:30:00Z",
+      "source": "katu.com",
+      "category": "incident"
+    },
+    {
+      "title": "Marshal Shot Serving Marengo County Murder Warrant , Suspect Dead",
+      "url": "https://wtug.com/ixp/993/p/marengo-county-shooting-investigation-update/",
+      "description": "",
+      "date": "2026-09-23T22:15:00Z",
+      "source": "wtug.com",
+      "category": "incident"
+    },
+    {
+      "title": "Officer shot during struggle with inmate at Daytona Beach hospital",
+      "url": "https://www.wesh.com/article/officer-shot-inmate-daytona-beach-hospital/73853316",
+      "description": "",
+      "date": "2026-09-23T18:45:00Z",
+      "source": "wesh.com",
+      "category": "incident"
+    },
+    {
+      "title": "Florida janitor denied bond after elderly couple attacked , officer shot : Records",
+      "url": "https://www.fox35orlando.com/news/florida-janitor-denied-bond-after-elderly-couple-attacked-officer-shot-records",
+      "description": "",
+      "date": "2026-09-23T05:30:00Z",
+      "source": "fox35orlando.com",
+      "category": "incident"
+    },
     {
       "title": "Escobar , over 100 members of Congress demand medical care for man shot by ICE",
       "url": "https://kvia.com/news/2026/09/22/escobar-over-100-members-of-congress-demand-medical-care-for-man-shot-by-ice/",
@@ -538,19 +570,19 @@
       "category": "incident"
     },
     {
-      "title": "APD releases details in deadly police shooting at apartment complex",
-      "url": "https://www.kob.com/new-mexico/apd-releases-details-in-deadly-police-shooting-at-apartment-complex/",
-      "description": "",
-      "date": "2026-09-04T01:45:00Z",
-      "source": "kob.com",
-      "category": "incident"
-    },
-    {
       "title": "Grovetown Officer Shoots Suspect in Fatal Encounter",
       "url": "https://kicks99.com/2026/09/01/grovetown-officer-shoots-suspect-in-fatal-encounter/",
       "description": "",
       "date": "2026-09-04T01:45:00Z",
       "source": "kicks99.com",
+      "category": "incident"
+    },
+    {
+      "title": "APD releases details in deadly police shooting at apartment complex",
+      "url": "https://www.kob.com/new-mexico/apd-releases-details-in-deadly-police-shooting-at-apartment-complex/",
+      "description": "",
+      "date": "2026-09-04T01:45:00Z",
+      "source": "kob.com",
       "category": "incident"
     },
     {

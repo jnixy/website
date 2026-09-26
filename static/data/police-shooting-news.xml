@@ -5,7 +5,39 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Sep 2026 11:42:53 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 11:15:45 +0000</lastBuildDate>
+    <item>
+      <title>Wanted suspect dead after police shooting in SE Portland ; K9 officer killed</title>
+      <link>https://katu.com/news/local/police-shooting-reported-in-montavilla-neighborhood-in-se-portland-crime-investigation-local-community-officer-involved-pppb-breaking-news</link>
+      <description/>
+      <pubDate>Fri, 25 Sep 2026 00:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>katu.com</source>
+    </item>
+    <item>
+      <title>Marshal Shot Serving Marengo County Murder Warrant , Suspect Dead</title>
+      <link>https://wtug.com/ixp/993/p/marengo-county-shooting-investigation-update/</link>
+      <description/>
+      <pubDate>Wed, 23 Sep 2026 22:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wtug.com</source>
+    </item>
+    <item>
+      <title>Officer shot during struggle with inmate at Daytona Beach hospital</title>
+      <link>https://www.wesh.com/article/officer-shot-inmate-daytona-beach-hospital/73853316</link>
+      <description/>
+      <pubDate>Wed, 23 Sep 2026 18:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wesh.com</source>
+    </item>
+    <item>
+      <title>Florida janitor denied bond after elderly couple attacked , officer shot : Records</title>
+      <link>https://www.fox35orlando.com/news/florida-janitor-denied-bond-after-elderly-couple-attacked-officer-shot-records</link>
+      <description/>
+      <pubDate>Wed, 23 Sep 2026 05:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox35orlando.com</source>
+    </item>
     <item>
       <title>Escobar , over 100 members of Congress demand medical care for man shot by ICE</title>
       <link>https://kvia.com/news/2026/09/22/escobar-over-100-members-of-congress-demand-medical-care-for-man-shot-by-ice/</link>
@@ -373,38 +405,6 @@
       <pubDate>Mon, 21 Sep 2026 02:00:00 +0000</pubDate>
       <category>incident</category>
       <source>wgy.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | Newsradio WOOD 1300 and 106 . 9 FM</title>
-      <link>https://woodradio.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>woodradio.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man in Austin Amid Scrutiny of Immigration Enforcement</title>
-      <link>https://www.newsweek.com/man-wounded-in-austin-shooting-involving-ice-agent-12465694</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>newsweek.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | NewsRadio 570 WKBN</title>
-      <link>https://570wkbn.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>570wkbn.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | Hallelujah 95 . 5</title>
-      <link>https://hallelujah955.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>hallelujah955.iheart.com</source>
     </item>
   </channel>
 </rss>
