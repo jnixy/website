@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-26T11:45:38Z",
-  "total_incidents": 59,
+  "generated_at": "2026-09-27T12:27:10Z",
+  "total_incidents": 60,
   "reviewed_count": 57,
-  "total_sources": 157,
+  "total_sources": 159,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-09-24"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 59,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 269
+    "as_of_day_of_year": 270
   },
   "yearly_counts": [
     {
@@ -23,7 +23,7 @@
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 41
+      "count": 42
     },
     {
       "label": "unknown",
@@ -64,11 +64,11 @@
       "count": 5
     },
     {
-      "label": "domestic call",
-      "count": 3
+      "label": "unknown",
+      "count": 4
     },
     {
-      "label": "unknown",
+      "label": "domestic call",
       "count": 3
     },
     {
@@ -91,6 +91,10 @@
     },
     {
       "label": "state",
+      "count": 1
+    },
+    {
+      "label": "unknown",
       "count": 1
     }
   ],
@@ -141,6 +145,11 @@
       "count": 2
     },
     {
+      "state": "GA",
+      "name": "Georgia",
+      "count": 2
+    },
+    {
       "state": "WI",
       "name": "Wisconsin",
       "count": 2
@@ -158,11 +167,6 @@
     {
       "state": "IA",
       "name": "Iowa",
-      "count": 1
-    },
-    {
-      "state": "GA",
-      "name": "Georgia",
       "count": 1
     },
     {
@@ -223,7 +227,7 @@
   ],
   "human_injured_count": 2,
   "discovery_counts": {
-    "media": 50,
+    "media": 51,
     "official": 5,
     "both": 4
   },
@@ -283,7 +287,8 @@
       "source_url": "https://hoodline.com/2026/09/keyes-marijuana-bust-turns-violent-as-dog-attacks-k-9-deputy-opens-fire/",
       "source_name": "Hoodline",
       "additional_sources": [
-        "https://www.cbsnews.com/sacramento/news/keyes-stanislaus-county-dog-shot-k9-attack/"
+        "https://www.cbsnews.com/sacramento/news/keyes-stanislaus-county-dog-shot-k9-attack/",
+        "https://www.modbee.com/news/local/article317395370.html"
       ],
       "discovery": "media",
       "official_url": "",
