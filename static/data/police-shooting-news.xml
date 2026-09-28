@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2026 11:55:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 13:42:25 +0000</lastBuildDate>
     <item>
       <title>Wanted suspect dead after police shooting in SE Portland ; K9 officer killed</title>
       <link>https://katu.com/news/local/police-shooting-reported-in-montavilla-neighborhood-in-se-portland-crime-investigation-local-community-officer-involved-pppb-breaking-news</link>
@@ -13,6 +13,14 @@
       <pubDate>Fri, 25 Sep 2026 00:30:00 +0000</pubDate>
       <category>incident</category>
       <source>katu.com</source>
+    </item>
+    <item>
+      <title>Congressman says Venezuelan man shot by ICE then taken into custody told he needs surgery</title>
+      <link>https://www.newsday.com/news/nation/austin-texas-ice-shooting-hospital-wilber-perez-y39690</link>
+      <description/>
+      <pubDate>Thu, 24 Sep 2026 04:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>newsday.com</source>
     </item>
     <item>
       <title>Marshal Shot Serving Marengo County Murder Warrant , Suspect Dead</title>
@@ -335,6 +343,14 @@
       <source>wnyc.org</source>
     </item>
     <item>
+      <title>ICE agent shoots and wounds man in Austin , Texas , officials say</title>
+      <link>https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say</link>
+      <description/>
+      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ksl.com</source>
+    </item>
+    <item>
       <title>ICE Agent Shoots Man In Austin | NewsRadio 560 WHYN</title>
       <link>https://whyn.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
       <description/>
@@ -383,28 +399,12 @@
       <source>knrs.iheart.com</source>
     </item>
     <item>
-      <title>ICE agent shoots and wounds man in Austin , Texas , officials say</title>
-      <link>https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>ksl.com</source>
-    </item>
-    <item>
       <title>ICE officer shoots and wounds man in Austin , Texas , officials say - Dominican Republic Post – Caribbean News , Business , Travel &amp; Culture</title>
       <link>https://dominicanrepublicpost.com/ice-officer-shoots-and-wounds-man-in-austin-texas-officials-say/</link>
       <description/>
       <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
       <category>incident</category>
       <source>dominicanrepublicpost.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | News Radio 103 . 1 and 810 WGY</title>
-      <link>https://wgy.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wgy.iheart.com</source>
     </item>
   </channel>
 </rss>
