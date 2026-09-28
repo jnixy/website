@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-27T12:27:10Z",
-  "total_incidents": 60,
+  "generated_at": "2026-09-28T14:29:43Z",
+  "total_incidents": 61,
   "reviewed_count": 57,
-  "total_sources": 159,
+  "total_sources": 162,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-09-24"
+    "latest": "2026-09-26"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 59,
+    "current_year_to_date": 60,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 270
+    "as_of_day_of_year": 271
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 59
+      "count": 60
     }
   ],
   "outcome_breakdown": [
@@ -27,7 +27,7 @@
     },
     {
       "label": "unknown",
-      "count": 8
+      "count": 9
     },
     {
       "label": "injured-survived",
@@ -49,7 +49,7 @@
     },
     {
       "label": "unrelated call response",
-      "count": 15
+      "count": 16
     },
     {
       "label": "warrant service",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 40
+      "count": 41
     },
     {
       "label": "county SO",
@@ -155,6 +155,11 @@
       "count": 2
     },
     {
+      "state": "NJ",
+      "name": "New Jersey",
+      "count": 2
+    },
+    {
       "state": "NC",
       "name": "North Carolina",
       "count": 1
@@ -172,11 +177,6 @@
     {
       "state": "AZ",
       "name": "Arizona",
-      "count": 1
-    },
-    {
-      "state": "NJ",
-      "name": "New Jersey",
       "count": 1
     },
     {
@@ -229,7 +229,7 @@
   "discovery_counts": {
     "media": 51,
     "official": 5,
-    "both": 4
+    "both": 5
   },
   "official_coverage": [
     {
@@ -245,6 +245,12 @@
       "media_covered": 0
     },
     {
+      "ref_prefix": "DC",
+      "agency_name": "DC Police",
+      "official": 1,
+      "media_covered": 1
+    },
+    {
       "ref_prefix": "SPD",
       "agency_name": "Seattle Police Department",
       "official": 1,
@@ -252,6 +258,28 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-09-26",
+      "date_precision": "day",
+      "city": "Sayreville",
+      "state": "NJ",
+      "agency_name": "Sayreville Police Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "unknown",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "Sayreville police responded to a 911 call reporting a family dog attacking three household members on MacArthur Avenue. Officers shot the dog to stop the attack; the three victims were hospitalized in stable condition.",
+      "source_url": "https://newjersey.news12.com/2026/09/28/police-responded-to-the-familys-home-after-a-911-caller-reported-three-people-were-being-attacked-by-the-family-dog/2Wrlb4gb31TF1QAMl8MJVC",
+      "source_name": "News12 | New Jersey",
+      "additional_sources": [
+        "https://www.nj.com/middlesex/2026/09/cops-shoot-dog-that-was-attacking-nj-family-prosecutor-says.html",
+        "https://www.rlsmedia.com/node/64310"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-09-24",
       "date_precision": "day",
@@ -368,8 +396,8 @@
         "https://wjla.com/news/local/gallery/metropolitan-police-department-andrew-tyree-richardson-charles-sharp-14th-street-northwest-washington-homicide-stabbing-arrest-second-degree-murder-armed-burglary-bb-gun-officer-involved-shooting-dog-columbia-heights-road",
         "https://washingtonian.com/2026/09/09/lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder/?utm_source=rss&utm_medium=rss&utm_campaign=lonnie-bunch-smithsonian-national-guard-member-arrested-stevie-wonder"
       ],
-      "discovery": "media",
-      "official_url": "",
+      "discovery": "both",
+      "official_url": "https://dmpsj.dc.gov/release/correspondence-councilmember-brooke-pinto-regarding-officer-involved-shooting-firearm",
       "confidence": "low",
       "reviewed": true
     },
@@ -899,25 +927,6 @@
       "discovery": "both",
       "official_url": "https://www.lapdonline.org/newsroom/officer-involved-shooting-investigation-nrf027-26ne/",
       "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-05-31",
-      "date_precision": "day",
-      "city": "Winters",
-      "state": "CA",
-      "agency_name": "Winters Police Department",
-      "circumstance": "domestic call",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "Winters police shot and killed a dog while responding to a domestic-violence call near the Railroad Avenue bridge on Sunday, May 31, 2026.",
-      "source_url": "https://fox40.com/news/local-news/police-kill-dog-in-winters-while-responding-to-domestic-violence-call/",
-      "source_name": "fox40.com",
-      "additional_sources": [],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "medium",
       "reviewed": true
     }
   ]
