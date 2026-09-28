@@ -5,7 +5,34 @@
     <link>https://jnix.netlify.app/police-shooting-research/</link>
     <description>Recent academic research on police shootings and use of deadly force</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2026 12:17:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 13:13:44 +0000</lastBuildDate>
+    <item>
+      <title>The Fast and the Spurious: A Causal Evaluation of NYPD’s Pursuit Policy, 2022–2025</title>
+      <link>https://doi.org/10.1007/s10940-026-09692-4</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; John J. Hall &amp; Justin Nix&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Quantitative Criminology&lt;br&gt;&lt;p&gt;Abstract Objectives This study examines the consequences of the New York City Police Department’s late-2022 operational shift that sharply expanded vehicle pursuits. We evaluate whether the surge in pursuits affected motor vehicle collisions, robberies, and shootings, and whether any crime-prevention benefits offset the associated collision costs. Methods For collision outcomes, interrupted time series (ITS) segmented regression provides direct causal estimates. For crime outcomes, where within-...&lt;/p&gt;</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Journal of Quantitative Criminology</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>The effects of interview timing and body‐worn camera video review on completeness and accuracy of accounts of a lethal force scenario</title>
+      <link>https://doi.org/10.1111/1745-9133.70041</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Louise E. Porter et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminology &amp; Public Policy&lt;br&gt;&lt;p&gt;Abstract Research Summary How to optimize police officers’ accounts following a critical incident like an officer‐involved shooting has been debated in policy and scholarly literature. Although empirical research has begun to explore the impact of interview timing and viewing body‐worn camera (BWC) footage from the incident, no study has explored how timing interacts with BWC review to impact officers’ memory reports. The present study addressed this through a randomized controlled experiment. P...&lt;/p&gt;</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Criminology &amp; Public Policy</source>
+      <priority>true</priority>
+    </item>
+    <item>
+      <title>Protests, Racial Threat, and Social Control: How Does Protesting and Racial Threat Impact Different Types of Social Control?</title>
+      <link>https://doi.org/10.1177/21533687261489287</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Karen F. Parker &amp; Cresean Hughes&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Race and Justice&lt;br&gt;&lt;p&gt;Across the USA, Black Lives Matter (BLM) protests have brought attention to racial injustice and disparities in police action, including the use of lethal force. By situating BLM protests within racial resistance, and along with racial threat theory, the current study explores the influence of multiple indicators of racial and structural inequalities on racialized social control. Specifically, we offer a look at the impact of BLM protests and racial threat indicators on two forms of social contr...&lt;/p&gt;</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Race and Justice</source>
+      <priority>false</priority>
+    </item>
     <item>
       <title>“The Secret and Mysterious Process of Whistleblowing”: Police Perspectives on Whistleblowing in the UK</title>
       <link>https://doi.org/10.1007/s11896-026-09859-6</link>
@@ -27,7 +54,7 @@
     <item>
       <title>‘We’re recording you too, bud:’ body-worn cameras, citizen journalism, and the changing landscape of police visibility</title>
       <link>https://doi.org/10.1080/10439463.2026.2724367</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ajay Sandhu &amp; Sara K. Thompson&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;The widespread adoption of body-worn cameras (BWCs) has transformed the landscape of police visibility. While BWCs are commonly understood as technologies for evidence collection and police accountability, less attention has been paid to how police officers themselves understand the technology as a means of responding to citizen journalism. Drawing on interviews with frontline officers from one of Canada's largest municipal police services, this paper examines how officers understand and mobilis...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ajay P.S. Sandhu &amp; Sara K. Thompson&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;The widespread adoption of body-worn cameras (BWCs) has transformed the landscape of police visibility. While BWCs are commonly understood as technologies for evidence collection and police accountability, less attention has been paid to how police officers themselves understand the technology as a means of responding to citizen journalism. Drawing on interviews with frontline officers from one of Canada's largest municipal police services, this paper examines how officers understand and mobilis...&lt;/p&gt;</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Policing &amp; Society</source>
@@ -81,7 +108,7 @@
     <item>
       <title>The relationship between officer misconduct and convictionless arrests</title>
       <link>https://doi.org/10.1073/pnas.2603437123</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Bocar A. Ba et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Proceedings of the National Academy of Sciences&lt;br&gt;&lt;p&gt;This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department's rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations in...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Bocar Ba et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Proceedings of the National Academy of Sciences&lt;br&gt;&lt;p&gt;This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department's rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations in...&lt;/p&gt;</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Proceedings of the National Academy of Sciences</source>
@@ -117,7 +144,7 @@
     <item>
       <title>Non-fatal firearm violence across 17 US cities using police dashboard data, 2020–2025</title>
       <link>https://doi.org/10.1016/j.pmedr.2026.103587</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Maureen R. Benjamins et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Preventive Medicine Reports&lt;br&gt;&lt;p&gt;Objective: Non-fatal firearm violence is a substantial, but often overlooked, public health burden in the United States (US); however, local data infrastructure remains limited. We identified and summarized city-level public dashboards reporting non-fatal firearm violence. Methods: In this descriptive epidemiologic study, we searched for US cities with publicly available dashboards reporting local police-reported non-fatal firearm violence. We then compared violence counts, population-based rate...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Maureen Reindl Benjamins et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Preventive Medicine Reports&lt;br&gt;&lt;p&gt;Objective: Non-fatal firearm violence is a substantial, but often overlooked, public health burden in the United States (US); however, local data infrastructure remains limited. We identified and summarized city-level public dashboards reporting non-fatal firearm violence. Methods: In this descriptive epidemiologic study, we searched for US cities with publicly available dashboards reporting local police-reported non-fatal firearm violence. We then compared violence counts, population-based rate...&lt;/p&gt;</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Preventive Medicine Reports</source>
@@ -234,7 +261,7 @@
     <item>
       <title>Policing Black Youth</title>
       <link>https://doi.org/10.1017/s1742058x26100174</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Kaneesha Johnson &amp; Tyler Whittenberg&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Du Bois Review Social Science Research on Race&lt;br&gt;&lt;p&gt;Abstract Policing has become a popular topic of inquiry in social science literature, but much of this attention has been confined to traditional forms of policing, focusing on state and municipal police departments or, in the case of schools, have focused on disciplinary policies. In seeking to expand the contours of what the scholarly community defines as police, we focus our attention on the origins of K-12 school policing. Specifically, using a multi-modal historical approach, we provide a h...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Kaneesha R. Johnson &amp; Tyler Whittenberg&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Du Bois Review Social Science Research on Race&lt;br&gt;&lt;p&gt;Abstract Policing has become a popular topic of inquiry in social science literature, but much of this attention has been confined to traditional forms of policing, focusing on state and municipal police departments or, in the case of schools, have focused on disciplinary policies. In seeking to expand the contours of what the scholarly community defines as police, we focus our attention on the origins of K-12 school policing. Specifically, using a multi-modal historical approach, we provide a h...&lt;/p&gt;</description>
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Du Bois Review Social Science Research on Race</source>
@@ -247,33 +274,6 @@
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Law and Human Behavior</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Assessing “Reasonable” Police Uses of Force After Barnes v. Felix : How Time Framing Affects Public Perceptions</title>
-      <link>https://doi.org/10.1177/10986111261462411</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Scott M. Mourtgos et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Police Quarterly&lt;br&gt;&lt;p&gt;Recent Supreme Court doctrine rejects a narrow “moment of threat” lens in favor of evaluating police use-of-force under the totality of the circumstances. Whether expanding the temporal frame changes how reasonableness and culpability are assigned remains unclear. We test this question using a nationally stratified experiment fielded the day Barnes v. Felix was decided (N = 2,401). Participants were randomly assigned to view one of three temporally distinct dashcam clips from the Barnes incident...&lt;/p&gt;</description>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Police Quarterly</source>
-      <priority>true</priority>
-    </item>
-    <item>
-      <title>Changes in social media coverage of police during the 2017 phoenix Trump rally</title>
-      <link>https://doi.org/10.1108/pijpsm-02-2026-0052</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; David Tyler &amp; Edward R. Maguire&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Social media provides a valuable framework for understanding public sentiment on social issues and institutions, including the police. This paper investigates changes in the salience of (i.e. the proportion of tweets referencing police) and sentiment toward the police during the 2017 Phoenix Trump rally, an event where police deployed less-lethal weapons against protesters, journalists and onlookers without warning. Design/methodology/approach Drawing on tweets posted during the rally, w...&lt;/p&gt;</description>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Policing An International Journal</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Rethinking Public Support for Body-Worn Cameras: Race, Ethnicity, and Context</title>
-      <link>https://doi.org/10.1177/21533687261460876</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Jangwon Kim &amp; Bitna Kim&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Race and Justice&lt;br&gt;&lt;p&gt;This study revisits public support for the use of body-worn cameras (BWCs) in policing, with a specific focus on examining the multifaceted role of race and ethnicity. We test two models in which race and ethnicity shape attitudes toward BWCs by contextualizing two prominent factors: instrumental concern and procedural justice. Using a nationally representative sample of 3,306 U.S. adults, we examine the indirect effect of race and ethnicity through path analysis (generalized structural equation...&lt;/p&gt;</description>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Race and Justice</source>
       <priority>false</priority>
     </item>
   </channel>
