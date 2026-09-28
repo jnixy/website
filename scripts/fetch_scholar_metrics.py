@@ -13,9 +13,9 @@ from pathlib import Path
 
 try:
     from scholarly import scholarly, ProxyGenerator
-except ImportError:
-    print("Error: scholarly package not installed")
-    print("Install with: pip install scholarly")
+except ImportError as e:
+    print(f"Error: could not import scholarly ({e})")
+    print("Install with: pip install -r requirements.txt")
     exit(1)
 
 SCHOLAR_ID = "_Jr8r8UAAAAJ"

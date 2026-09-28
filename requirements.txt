@@ -2,6 +2,8 @@ scholarly
 requests
 free-proxy
 httpx<0.28
+# scholarly 1.7.x imports bibtexparser.bibdatabase, removed in bibtexparser 2.0
+bibtexparser<2
 pandas
 openpyxl
 
