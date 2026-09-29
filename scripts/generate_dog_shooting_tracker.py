@@ -215,7 +215,49 @@ def clean_incident_date(fields, published=""):
         return "", "unknown"
     if prec == "unknown":
         prec = "day"
-    return iso, prec
+    return check_weekday(iso, prec, evidence, published)
+
+
+WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+_WEEKDAY_RE = re.compile(r"\b(" + "|".join(WEEKDAYS) + r")\b", re.I)
+_MONTH_DAY_RE = re.compile(
+    r"\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2}\b|\b\d{1,2}/\d{1,2}\b", re.I)
+
+
+def check_weekday(iso, prec, evidence, published):
+    """Second-guess the model's resolution of a weekday reference. Haiku
+    resolves "on Monday" to the wrong week (observed: a Monday 09-28 shooting
+    dated 09-22) or a day off (ids 68, 70), so do the arithmetic here instead.
+
+    - Evidence names ONE weekday and no calendar date: the shooting is the most
+      recent such day on or before publication ("last Monday" in a Monday
+      story means a week earlier). Overrides the model's date.
+    - Evidence names a weekday AND a calendar date that disagree (outlets do
+      print "Wednesday, September 25" for a Friday): keep the date but mark it
+      approximate -- we can't tell which half is wrong.
+    Anything else ("Monday of last week", two weekdays, no publication date)
+    is left alone."""
+    days = {m.lower() for m in _WEEKDAY_RE.findall(evidence)}
+    if len(days) != 1 or re.search(r"\bweeks?\b", evidence, re.I):
+        return iso, prec
+    target = WEEKDAYS.index(days.pop())
+    d = datetime.strptime(iso, "%Y-%m-%d").date()
+    if _MONTH_DAY_RE.search(evidence):
+        if d.weekday() != target:
+            print(f"  ! incident_date {iso} is a {WEEKDAYS[d.weekday()]}, but source says {evidence!r} -- marked approximate")
+            return iso, "approximate"
+        return iso, prec
+    try:
+        pub = datetime.strptime(published[:10], "%Y-%m-%d").date()
+    except ValueError:
+        return iso, prec
+    back = (pub.weekday() - target) % 7
+    if back == 0 and re.search(r"\blast\s+" + WEEKDAYS[target], evidence, re.I):
+        back = 7
+    resolved = (pub - timedelta(days=back)).isoformat()
+    if resolved != iso:
+        print(f"  ! incident_date {iso} -> {resolved} ({evidence!r}, published {pub})")
+    return resolved, "day"
 
 # Google News RSS — one narrow feed per phrasing; `when:Nd` limits recency.
 #
