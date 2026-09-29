@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T14:29:43Z",
-  "total_incidents": 61,
+  "generated_at": "2026-09-29T13:19:22Z",
+  "total_incidents": 63,
   "reviewed_count": 57,
-  "total_sources": 162,
+  "total_sources": 171,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-09-26"
@@ -10,14 +10,14 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 60,
+    "current_year_to_date": 61,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 271
+    "as_of_day_of_year": 272
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 60
+      "count": 61
     }
   ],
   "outcome_breakdown": [
@@ -27,11 +27,11 @@
     },
     {
       "label": "unknown",
-      "count": 9
+      "count": 10
     },
     {
       "label": "injured-survived",
-      "count": 7
+      "count": 8
     },
     {
       "label": "unharmed",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "other",
-      "count": 18
+      "count": 19
     },
     {
       "label": "unrelated call response",
@@ -64,12 +64,12 @@
       "count": 5
     },
     {
-      "label": "unknown",
+      "label": "domestic call",
       "count": 4
     },
     {
-      "label": "domestic call",
-      "count": 3
+      "label": "unknown",
+      "count": 4
     },
     {
       "label": "pursuit",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 41
+      "count": 43
     },
     {
       "label": "county SO",
@@ -110,6 +110,11 @@
       "count": 8
     },
     {
+      "state": "IL",
+      "name": "Illinois",
+      "count": 5
+    },
+    {
       "state": "FL",
       "name": "Florida",
       "count": 4
@@ -132,11 +137,6 @@
     {
       "state": "OH",
       "name": "Ohio",
-      "count": 3
-    },
-    {
-      "state": "IL",
-      "name": "Illinois",
       "count": 3
     },
     {
@@ -227,7 +227,7 @@
   ],
   "human_injured_count": 2,
   "discovery_counts": {
-    "media": 51,
+    "media": 53,
     "official": 5,
     "both": 5
   },
@@ -273,7 +273,10 @@
       "source_name": "News12 | New Jersey",
       "additional_sources": [
         "https://www.nj.com/middlesex/2026/09/cops-shoot-dog-that-was-attacking-nj-family-prosecutor-says.html",
-        "https://www.rlsmedia.com/node/64310"
+        "https://www.rlsmedia.com/node/64310",
+        "https://newjersey.news12.com/police-responded-to-the-familys-home-after-a-911-caller-reported-three-people-were-being-attacked-by-the-family-dog",
+        "https://www.tapinto.net/towns/raritan-bay/sections/police-and-fire/articles/sayreville-police-shoot-dog-during-attack-on-three-family-members-prosecutor-s-office-says",
+        "https://www.mycentraljersey.com/story/news/local/middlesex-county/2026/09/28/sayreville-police-shoot-dog-family-attack-injuries-sept-2026/91983823007/"
       ],
       "discovery": "media",
       "official_url": "",
@@ -316,7 +319,29 @@
       "source_name": "Hoodline",
       "additional_sources": [
         "https://www.cbsnews.com/sacramento/news/keyes-stanislaus-county-dog-shot-k9-attack/",
-        "https://www.modbee.com/news/local/article317395370.html"
+        "https://www.modbee.com/news/local/article317395370.html",
+        "https://www.officer.com/on-the-street/k-9-equipment-services/news/55408191/stanislaus-county-deputy-shoots-dog-after-alleged-attack-on-sheriffs-k-9"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-09-22",
+      "date_precision": "day",
+      "city": "Chicago",
+      "state": "IL",
+      "agency_name": "Chicago Police Department",
+      "circumstance": "domestic call",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "no",
+      "summary": "A Chicago police officer fired at a pit bull that allegedly charged at two officers responding to a domestic disturbance call in North Lawndale on Monday morning. The dog was struck and taken for medical attention; both officers suffered minor injuries.",
+      "source_url": "https://hoodline.com/2026/09/north-lawndale-officer-shoots-pit-bull-after-domestic-call-turns-chaotic/",
+      "source_name": "Hoodline",
+      "additional_sources": [
+        "https://abc7chicago.com/post/chicago-police-officer-shoots-pit-bull-allegedly-charged-lawndale-west-douglas-boulevard/19883886/"
       ],
       "discovery": "media",
       "official_url": "",
@@ -642,7 +667,8 @@
       "source_name": "cbsnews.com",
       "additional_sources": [
         "https://www.nbcchicago.com/news/local/dog-shot-by-chicago-police-after-girl-woman-attacked-in-north-lawndale/3966296/",
-        "https://wgntv.com/news/chicago-news/chicago-police-shoot-dog-after-it-attacks-and-seriously-injuries-2-people-in-north-lawndale-according-to-police/"
+        "https://wgntv.com/news/chicago-news/chicago-police-shoot-dog-after-it-attacks-and-seriously-injuries-2-people-in-north-lawndale-according-to-police/",
+        "https://cedarnews.net/newstasks/1013692/chicago-officer-shoots-police-dog-allegedly-charged/"
       ],
       "discovery": "media",
       "official_url": "",
@@ -895,37 +921,6 @@
       ],
       "discovery": "media",
       "official_url": "",
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-06-13",
-      "date_precision": "day",
-      "city": "Los Angeles",
-      "state": "CA",
-      "agency_name": "LAPD",
-      "circumstance": "welfare check",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "LAPD officers responded to a report of a screaming woman at an apartment building in Canoga Park on June 13, 2026. Officers shot and killed Jameson, a 2-year-old golden retriever/Saint Bernard/poodle mix, after the dog allegedly charged at an officer when it exited the apartment during the welfare check.",
-      "source_url": "https://www.dexerto.com/entertainment/internet-raises-over-100k-for-family-after-dog-shot-by-police-during-knicks-celebration-3376305/",
-      "source_name": "Dexerto",
-      "additional_sources": [
-        "https://kfiam640.iheart.com/featured/la-local-news/content/2026-06-15-lapd-officer-shoots-dog-in-canoga-park/",
-        "https://abc7.com/post/neighbor-called-911-apologizes-lapd-fatally-shoots-dog-during-knicks-celebration-canoga-park-abc7-exclusive/19327925/",
-        "https://www.tmz.com/2026/06/19/lapd-officer-jameson-dog-bodycam/",
-        "https://www.tmz.com/2026/06/19/neighbor-apologizes-calling-cops-before-lapd-dog-shooting/",
-        "https://www.tmz.com/2026/06/18/los-angeles-mayor-karen-bass-orders-investigation-into-fatal-dog-shooting-by-lapd/",
-        "https://www.tmz.com/2026/06/18/lapd-chief-responds-to-dog-shooting-incident/",
-        "https://atlantablackstar.com/2026/06/17/oh-my-god-oh-my-god-lapd-kills-black-womans-dog-after-neighbor-calls-911-as-research-reveals-a-disturbing-pattern-thats-hard-to-ignore/",
-        "https://www.yahoo.com/news/us/articles/dog-killed-york-knicks-fan-175828508.html",
-        "https://www.tmz.com/2026/06/16/gofundme-for-dog-shot-by-lapd-officer-raises-huge-sum/",
-        "https://www.tmz.com/2026/06/15/lapd-shoots-kills-dog/",
-        "https://www.primetimer.com/news/laura-loomer-slams-lapd-over-shooting-dog-during-knicks-celebration-says-dog-s-life-matters-more-than-illegal-aliens"
-      ],
-      "discovery": "both",
-      "official_url": "https://www.lapdonline.org/newsroom/officer-involved-shooting-investigation-nrf027-26ne/",
       "confidence": "high",
       "reviewed": true
     }
