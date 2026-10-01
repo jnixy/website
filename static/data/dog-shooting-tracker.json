@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-30T12:59:12Z",
-  "total_incidents": 62,
+  "generated_at": "2026-10-01T13:52:16Z",
+  "total_incidents": 63,
   "reviewed_count": 62,
-  "total_sources": 173,
+  "total_sources": 176,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-09-28"
+    "latest": "2026-09-29"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 62,
+    "current_year_to_date": 63,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 273
+    "as_of_day_of_year": 274
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 62
+      "count": 63
     }
   ],
   "outcome_breakdown": [
@@ -27,7 +27,7 @@
     },
     {
       "label": "injured-survived",
-      "count": 9
+      "count": 10
     },
     {
       "label": "unknown",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "other",
-      "count": 18
+      "count": 19
     },
     {
       "label": "unrelated call response",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 43
+      "count": 44
     },
     {
       "label": "county SO",
@@ -136,6 +136,11 @@
       "count": 3
     },
     {
+      "state": "NJ",
+      "name": "New Jersey",
+      "count": 3
+    },
+    {
       "state": "WA",
       "name": "Washington",
       "count": 2
@@ -148,11 +153,6 @@
     {
       "state": "WI",
       "name": "Wisconsin",
-      "count": 2
-    },
-    {
-      "state": "NJ",
-      "name": "New Jersey",
       "count": 2
     },
     {
@@ -223,7 +223,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 52,
+    "media": 53,
     "official": 5,
     "both": 5
   },
@@ -255,6 +255,25 @@
   ],
   "recent_incidents": [
     {
+      "incident_date": "2026-09-29",
+      "date_precision": "day",
+      "city": "Newark",
+      "state": "NJ",
+      "agency_name": "Newark Police Department",
+      "circumstance": "other",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Newark Special Police Officer fired at a pit bull that attacked two civilians and then turned on the officer near Fleming Avenue and Christie Street. The dog was struck but survived and fled the area.",
+      "source_url": "https://www.rlsmedia.com/article/newark-special-police-officer-shoots-pit-bull-after-dog-attacks-two-people-turns-officer",
+      "source_name": "RLS Media",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
       "incident_date": "2026-09-28",
       "date_precision": "day",
       "city": "Chicago",
@@ -271,7 +290,8 @@
         "https://abc7chicago.com/post/chicago-police-officer-shoots-pit-bull-allegedly-charged-lawndale-west-douglas-boulevard/19883886/",
         "https://wgntv.com/news/chicago-news/chicago-cop-shoots-dog-who-charged-at-officers-police-say/",
         "https://www.yahoo.com/news/videos/chicago-police-officer-shoots-dog-161245890.html",
-        "https://cedarnews.net/newstasks/1013692/chicago-officer-shoots-police-dog-allegedly-charged/"
+        "https://cedarnews.net/newstasks/1013692/chicago-officer-shoots-police-dog-allegedly-charged/",
+        "https://www.aol.com/articles/chicago-cop-shoots-dog-charged-165337000.html"
       ],
       "discovery": "media",
       "official_url": "",
@@ -753,7 +773,8 @@
         "https://katv.com/news/local/little-rock-police-release-events-that-led-up-to-heights-dog-shooting",
         "https://www.arkansasonline.com/news/2026/jul/19/little-rock-police-officer-fatally-shoots-dog/",
         "https://www.kark.com/news/local-news/locals-react-after-little-rock-police-release-dashboard-body-cam-video-showing-officer-shooting-dog/",
-        "https://www.thv11.com/video/news/local/little-rock/review-underway-after-little-rock-police-officer-shoots-dog/91-4cb048e1-7c4a-4093-a3bd-68b2b66f9448"
+        "https://www.thv11.com/video/news/local/little-rock/review-underway-after-little-rock-police-officer-shoots-dog/91-4cb048e1-7c4a-4093-a3bd-68b2b66f9448",
+        "https://www.kark.com/news/state-news/bodycam-video-shows-moment-arkansas-officer-shoots-family-dogs/"
       ],
       "discovery": "media",
       "official_url": "",
@@ -899,28 +920,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "medium",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-06-21",
-      "date_precision": "day",
-      "city": "Norfolk",
-      "state": "VA",
-      "agency_name": "Norfolk Police",
-      "circumstance": "unknown",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Norfolk officer shot and killed a dog while responding to a call on a Sunday afternoon.",
-      "source_url": "https://www.13newsnow.com/video/news/local/mycity/norfolk/norfolk-officer-shoots-kills-dog-while-responding-to-sunday-afternoon-call/291-a744d51a-b148-44e8-8f8b-8d593f0d1439",
-      "source_name": "13newsnow.com",
-      "additional_sources": [
-        "https://www.13newsnow.com/article/news/local/mycity/norfolk/norfolk-police-officer-shoots-kills-dog-during-investigation-into-separate-incident/291-60d81c28-5ced-4b33-93b0-b6c44374be77",
-        "https://www.13newsnow.com/video/news/local/mycity/norfolk/norfolk-police-officer-shoots-kills-dog-while-responding-to-separate-incident/291-9a810d66-62af-4b82-b242-68c84335bed5"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "low",
       "reviewed": true
     }
   ]
