@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-10-01T13:01:27Z",
+  "generated_at": "2026-10-02T12:22:45Z",
   "stories": [
+    {
+      "title": "NMSP releases new details on police shooting in Mora County",
+      "url": "https://www.kob.com/new-mexico/nmsp-releases-new-details-on-police-shooting-in-mora-county/",
+      "description": "",
+      "date": "2026-10-02T04:00:00Z",
+      "source": "kob.com",
+      "category": "incident"
+    },
+    {
+      "title": "Kentucky State Police identify trooper killed in interstate shooting . Here what we know",
+      "url": "https://www.wsmv.com/2026/09/28/kentucky-state-police-identify-trooper-killed-interstate-shooting-heres-what-we-know/",
+      "description": "",
+      "date": "2026-09-29T02:00:00Z",
+      "source": "wsmv.com",
+      "category": "incident"
+    },
     {
       "title": "Wanted suspect dead after police shooting in SE Portland ; K9 officer killed",
       "url": "https://katu.com/news/local/police-shooting-reported-in-montavilla-neighborhood-in-se-portland-crime-investigation-local-community-officer-involved-pppb-breaking-news",
@@ -578,14 +594,6 @@
       "category": "incident"
     },
     {
-      "title": "Grovetown Officer Shoots Suspect in Fatal Encounter",
-      "url": "https://kicks99.com/2026/09/01/grovetown-officer-shoots-suspect-in-fatal-encounter/",
-      "description": "",
-      "date": "2026-09-04T01:45:00Z",
-      "source": "kicks99.com",
-      "category": "incident"
-    },
-    {
       "title": "APD releases details in deadly police shooting at apartment complex",
       "url": "https://www.kob.com/new-mexico/apd-releases-details-in-deadly-police-shooting-at-apartment-complex/",
       "description": "",
@@ -594,11 +602,27 @@
       "category": "incident"
     },
     {
+      "title": "Grovetown Officer Shoots Suspect in Fatal Encounter",
+      "url": "https://kicks99.com/2026/09/01/grovetown-officer-shoots-suspect-in-fatal-encounter/",
+      "description": "",
+      "date": "2026-09-04T01:45:00Z",
+      "source": "kicks99.com",
+      "category": "incident"
+    },
+    {
       "title": "Georgia officer killed on duty , honored by the community",
       "url": "https://www.fox5atlanta.com/news/death-chris-fisher-community-honors-slain-georgia-officer",
       "description": "",
       "date": "2026-09-03T15:45:00Z",
       "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
+      "title": "Mississippi city where police killed 1 - year - old Kohen Wiley fires police chief",
+      "url": "https://www.latimes.com/world-nation/story/2026-09-02/mississippi-city-where-police-killed-1-year-old-kohen-wiley-fires-police-chief",
+      "description": "",
+      "date": "2026-09-02T21:15:00Z",
+      "source": "latimes.com",
       "category": "incident"
     },
     {
