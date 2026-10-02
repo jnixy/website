@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2026 13:01:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 12:22:45 +0000</lastBuildDate>
+    <item>
+      <title>NMSP releases new details on police shooting in Mora County</title>
+      <link>https://www.kob.com/new-mexico/nmsp-releases-new-details-on-police-shooting-in-mora-county/</link>
+      <description/>
+      <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kob.com</source>
+    </item>
+    <item>
+      <title>Kentucky State Police identify trooper killed in interstate shooting . Here what we know</title>
+      <link>https://www.wsmv.com/2026/09/28/kentucky-state-police-identify-trooper-killed-interstate-shooting-heres-what-we-know/</link>
+      <description/>
+      <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsmv.com</source>
+    </item>
     <item>
       <title>Wanted suspect dead after police shooting in SE Portland ; K9 officer killed</title>
       <link>https://katu.com/news/local/police-shooting-reported-in-montavilla-neighborhood-in-se-portland-crime-investigation-local-community-officer-involved-pppb-breaking-news</link>
@@ -389,22 +405,6 @@
       <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
       <category>incident</category>
       <source>twincitiesnewstalk.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | Talk Radio 105 . 9</title>
-      <link>https://knrs.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>knrs.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE officer shoots and wounds man in Austin , Texas , officials say - Dominican Republic Post – Caribbean News , Business , Travel &amp; Culture</title>
-      <link>https://dominicanrepublicpost.com/ice-officer-shoots-and-wounds-man-in-austin-texas-officials-say/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>dominicanrepublicpost.com</source>
     </item>
   </channel>
 </rss>

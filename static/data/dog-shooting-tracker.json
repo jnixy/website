@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T13:52:16Z",
+  "generated_at": "2026-10-02T13:08:06Z",
   "total_incidents": 63,
   "reviewed_count": 62,
-  "total_sources": 176,
+  "total_sources": 178,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-09-29"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 63,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 274
+    "as_of_day_of_year": 275
   },
   "yearly_counts": [
     {
@@ -267,7 +267,9 @@
       "summary": "A Newark Special Police Officer fired at a pit bull that attacked two civilians and then turned on the officer near Fleming Avenue and Christie Street. The dog was struck but survived and fled the area.",
       "source_url": "https://www.rlsmedia.com/article/newark-special-police-officer-shoots-pit-bull-after-dog-attacks-two-people-turns-officer",
       "source_name": "RLS Media",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://www.rlsmedia.com/node/64328"
+      ],
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
