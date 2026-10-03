@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T13:08:06Z",
-  "total_incidents": 63,
+  "generated_at": "2026-10-03T12:00:39Z",
+  "total_incidents": 64,
   "reviewed_count": 62,
-  "total_sources": 178,
+  "total_sources": 181,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-09-29"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 63,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 275
+    "as_of_day_of_year": 276
   },
   "yearly_counts": [
     {
@@ -23,7 +23,7 @@
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 42
+      "count": 43
     },
     {
       "label": "injured-survived",
@@ -69,7 +69,7 @@
     },
     {
       "label": "unknown",
-      "count": 3
+      "count": 4
     },
     {
       "label": "pursuit",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 44
+      "count": 45
     },
     {
       "label": "county SO",
@@ -121,6 +121,11 @@
       "count": 4
     },
     {
+      "state": "NJ",
+      "name": "New Jersey",
+      "count": 4
+    },
+    {
       "state": "IL",
       "name": "Illinois",
       "count": 4
@@ -133,11 +138,6 @@
     {
       "state": "OH",
       "name": "Ohio",
-      "count": 3
-    },
-    {
-      "state": "NJ",
-      "name": "New Jersey",
       "count": 3
     },
     {
@@ -223,7 +223,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 53,
+    "media": 54,
     "official": 5,
     "both": 5
   },
