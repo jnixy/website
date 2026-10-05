@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Oct 2026 12:15:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 14:27:36 +0000</lastBuildDate>
     <item>
       <title>NMSP releases new details on police shooting in Mora County</title>
       <link>https://www.kob.com/new-mexico/nmsp-releases-new-details-on-police-shooting-in-mora-county/</link>
@@ -13,6 +13,86 @@
       <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>kob.com</source>
+    </item>
+    <item>
+      <title>Man shot by ICE in Austin will stay in custody , but will not return to detention center</title>
+      <link>https://www.tpr.org/border-immigration/2026-10-01/man-shot-by-ice-in-austin-will-stay-in-custody-but-will-not-return-to-detention-center</link>
+      <description/>
+      <pubDate>Thu, 01 Oct 2026 21:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>tpr.org</source>
+    </item>
+    <item>
+      <title>Judge keeps immigrant delivery driver shot by ICE in custody for alleged assault</title>
+      <link>https://www.nbcnews.com/news/us-news/judge-keeps-immigrant-delivery-driver-shot-ice-custody-alleged-assault-rcna600898</link>
+      <description/>
+      <pubDate>Thu, 01 Oct 2026 16:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcnews.com</source>
+    </item>
+    <item>
+      <title>Austin ICE shooting : Bond denied for man shot by ICE agent ; he now in federal criminal custody</title>
+      <link>https://www.fox26houston.com/news/austin-ice-shooting-bond-denied-for-wilber-perez-austin-tx</link>
+      <description/>
+      <pubDate>Thu, 01 Oct 2026 13:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox26houston.com</source>
+    </item>
+    <item>
+      <title>Judge keeps Venezuelan DoorDash driver shot by ICE behind bars for alleged assault</title>
+      <link>https://www.cbsnews.com/news/doordash-driver-shot-ice-custody-alleged-assault-wilber-rafael-garces-perez/</link>
+      <description/>
+      <pubDate>Thu, 01 Oct 2026 12:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>cbsnews.com</source>
+    </item>
+    <item>
+      <title>Judge keeps delivery driver shot by ICE in custody</title>
+      <link>https://www.wxii12.com/article/venezuelan-delivery-driver-texas-ice-shooting-custody/73967643</link>
+      <description/>
+      <pubDate>Thu, 01 Oct 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wxii12.com</source>
+    </item>
+    <item>
+      <title>Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault</title>
+      <link>https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
+      <description/>
+      <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wral.com</source>
+    </item>
+    <item>
+      <title>Venezuelan delivery driver shot by federal agent in Texas to remain in custody</title>
+      <link>https://www.wsbradio.com/news/national/judge-keeps/DVT7JF3SJ42SPNAED67JV7LYKA/</link>
+      <description/>
+      <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsbradio.com</source>
+    </item>
+    <item>
+      <title>Federal prosecutors charge Venezuelan man shot by ICE agent in Texas with assaulting an officer</title>
+      <link>https://www.timesfreepress.com/news/2026/sep/30/federal-prosecutors-charge-venezuelan-man-shot-by-ice-agent-in-texas-with-assaulting-an-officer/</link>
+      <description/>
+      <pubDate>Wed, 30 Sep 2026 19:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>timesfreepress.com</source>
+    </item>
+    <item>
+      <title>Federal prosecutors charge Venezuelan man shot by ICE agent in Austin , Texas with assaulting an officer</title>
+      <link>https://abc11.com/story/federal-prosecutors-charge-venezuelan-man-shot-ice-agent-austin-texas-assaulting-officer/19891731/</link>
+      <description/>
+      <pubDate>Wed, 30 Sep 2026 17:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc11.com</source>
+    </item>
+    <item>
+      <title>Venezuelan Shot by ICE Charged by DOJ With Assaulting a Federal Officer</title>
+      <link>https://twitchy.com/brettt/2026/09/29/venezuelan-shot-by-ice-charged-with-assaulting-a-federal-officer-n2432818</link>
+      <description/>
+      <pubDate>Wed, 30 Sep 2026 00:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>twitchy.com</source>
     </item>
     <item>
       <title>Kentucky State Police identify trooper killed in interstate shooting . Here what we know</title>
@@ -325,86 +405,6 @@
       <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>wsfcam.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE agent shoots and wounds Venezuelan migrant in Austin , sparking protests</title>
-      <link>https://nypost.com/2026/09/20/us-news/ice-agent-shoots-and-wounds-venezuelan-migrant-in-austin-sparking-protests/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 03:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nypost.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | News Radio 105 . 5 WERC</title>
-      <link>https://wercfm.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 03:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wercfm.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | KFBK News Radio</title>
-      <link>https://kfbk.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 03:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kfbk.iheart.com</source>
-    </item>
-    <item>
-      <title>Federal immigration agent shoots and injures man in Austin , Texas</title>
-      <link>https://wnyc.org/npr/nx-s1-5975517</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 03:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wnyc.org</source>
-    </item>
-    <item>
-      <title>ICE agent shoots and wounds man in Austin , Texas , officials say</title>
-      <link>https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>ksl.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | NewsRadio 560 WHYN</title>
-      <link>https://whyn.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>whyn.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | News Radio 540</title>
-      <link>https://newsradio540.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>newsradio540.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | WTKG 1230 AM</title>
-      <link>https://wtkg.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wtkg.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | Vero Patriot</title>
-      <link>https://veropatriot.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>veropatriot.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | Twin Cities News Talk</title>
-      <link>https://twincitiesnewstalk.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 02:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>twincitiesnewstalk.iheart.com</source>
     </item>
   </channel>
 </rss>
