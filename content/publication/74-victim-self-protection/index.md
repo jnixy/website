@@ -84,7 +84,7 @@ From victims' statements, we coded 12 distinct self-protective behaviors — eve
 
 ## Police: Self-Protection of Any Kind Helped
 
-At the referral stage, every way of measuring self-protection pointed the same direction. Cases where the victim did something physical had about 2.4 times the odds of referral. So did cases involving nonforceful behaviors like struggling, hiding, or pleading. And each additional behavior bumped the odds of referral by about 31%. Detectives, in other words, appear to treat self-protection as corroboration — evidence that something happened, whatever form it took.
+At the referral stage, every way of measuring self-protection pointed the same direction. Cases where the victim did something physical had about 2.4 times the odds of referral compared with otherwise similar cases where she didn't. So did cases involving nonforceful behaviors like struggling, hiding, or pleading. And each additional behavior bumped the odds of referral by about 31%. Detectives, in other words, appear to treat self-protection as corroboration — evidence that something happened, whatever form it took.
 
 It's worth keeping this in proportion, though. By far the strongest predictor of referral was whether the victim wanted an investigation (odds nearly 13 times higher). Cases where the victim knew the suspect were less likely to be referred than stranger cases.
 
@@ -94,7 +94,7 @@ At the charging stage, the picture flipped.
 
 ![Odds ratios for victim self-protective behaviors predicting police referral and prosecutorial charging](figure_1.png)
 
-When victims used forceful self-protection — hitting, kicking, threatening the attacker — prosecutors had about three times the odds of filing charges. When victims used *nonforceful* self-protection, the odds of charges fell by about 70%. The same nonforceful behaviors that made police *more* likely to refer a case made prosecutors *less* likely to charge it. And the total count didn't matter at all to prosecutors. It wasn't how much a victim resisted, but how.
+When victims used forceful self-protection — hitting, kicking, threatening the attacker — prosecutors had about three times the odds of filing charges compared with otherwise similar cases. *Nonforceful* self-protection cut the odds of charges by about 70%, again holding everything else constant, including whether the victim also fought back. Put the two together and a victim who only pleaded, stalled, or froze had roughly one-tenth the odds of charges of a victim who only fought back, while a victim who did both landed close to where a victim who did neither would.[^3] The same nonforceful behaviors that made police *more* likely to refer a case made prosecutors *less* likely to charge it. And the total number of behaviors didn't predict charging. It wasn't how much a victim resisted, but how.
 
 That's uncomfortable, because the nonforceful category includes some of the most common responses to sexual assault: pleading, stalling, pretending to cooperate, freezing. [Tonic immobility](https://doi.org/10.1037/trm0000537) — an involuntary freeze response — is engaged in most highly traumatic events. A charging calculus that rewards fighting back and penalizes freezing is, functionally, the old resistance standard with the statute removed.
 
@@ -110,7 +110,7 @@ There's a competing explanation we take seriously: forceful resistance might sim
 | Forceful self-protection | 0.89 | 3.05 ↑ |
 | Nonforceful self-protection | 2.42 ↑ | 0.30 ↓ |
 
-*Odds ratios from Tables 3 and 4 (Models 1–2 and 4–5). Arrows mark statistically significant associations; values above 1 mean a case was more likely to advance, below 1 less likely.*
+*Odds ratios from Tables 3 and 4: the two self-protection rows come from Models 2 and 5, all other rows from Models 1 and 4. Each is net of everything else in its model. Arrows mark statistically significant associations; values above 1 mean a case was more likely to advance, below 1 less likely.*
 
 Prosecutors keyed on confessions, credibility, and substance use — all things that bear on how a jury will see the case. Police keyed on whether the victim was on board.
 
@@ -125,3 +125,5 @@ One plausible reason for the gap is training. Police have had years of trauma-in
 [^1]: We also dropped cases with a restricted kit, a kit collected in a homicide investigation, or incomplete files, and the small number of cases with male victims (12) or female suspects (2). About 30% of victims were minors; the paper's supplemental appendix re-runs everything without them, and the large majority of findings hold.
 
 [^2]: Confessions were left out of the referral models because police referred essentially every case with one — only one confession case wasn't referred.
+
+[^3]: Forceful and nonforceful behavior enter the model as two separate yes/no indicators, so each odds ratio holds the other constant, and a victim who did both gets both effects multiplied together. The comparisons here are what the model implies, not separately estimated effects: 0.30 ÷ 3.05 ≈ 0.10 for only nonforceful vs. only forceful, and 3.05 × 0.30 ≈ 0.92 for both vs. neither. We didn't test whether combining the two changes how either one works (an interaction), so treat these as rough.
