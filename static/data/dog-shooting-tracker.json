@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-04T12:50:27Z",
-  "total_incidents": 64,
-  "reviewed_count": 62,
-  "total_sources": 181,
+  "generated_at": "2026-10-05T13:36:07Z",
+  "total_incidents": 65,
+  "reviewed_count": 65,
+  "total_sources": 186,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-09-29"
+    "latest": "2026-10-01"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 63,
+    "current_year_to_date": 65,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 277
+    "as_of_day_of_year": 278
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 63
+      "count": 65
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 43
+      "count": 44
     },
     {
       "label": "injured-survived",
@@ -49,7 +49,7 @@
     },
     {
       "label": "unrelated call response",
-      "count": 16
+      "count": 17
     },
     {
       "label": "warrant service",
@@ -60,16 +60,16 @@
       "count": 7
     },
     {
+      "label": "domestic call",
+      "count": 5
+    },
+    {
       "label": "loose/roaming dog",
       "count": 5
     },
     {
-      "label": "domestic call",
-      "count": 4
-    },
-    {
       "label": "unknown",
-      "count": 4
+      "count": 3
     },
     {
       "label": "pursuit",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 45
+      "count": 46
     },
     {
       "label": "county SO",
@@ -156,6 +156,11 @@
       "count": 2
     },
     {
+      "state": "AR",
+      "name": "Arkansas",
+      "count": 2
+    },
+    {
       "state": "NC",
       "name": "North Carolina",
       "count": 1
@@ -173,11 +178,6 @@
     {
       "state": "AZ",
       "name": "Arizona",
-      "count": 1
-    },
-    {
-      "state": "AR",
-      "name": "Arkansas",
       "count": 1
     },
     {
@@ -223,7 +223,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 54,
+    "media": 55,
     "official": 5,
     "both": 5
   },
@@ -255,6 +255,30 @@
   ],
   "recent_incidents": [
     {
+      "incident_date": "2026-10-01",
+      "date_precision": "day",
+      "city": "South Brunswick",
+      "state": "NJ",
+      "agency_name": "South Brunswick Police Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "no",
+      "summary": "A South Brunswick police officer responding to a report of escaped livestock near a roadway walked up a property's driveway to contact the homeowner; a dog on the property attacked him and he shot and killed it. The officer was treated at Penn Medicine Princeton Medical Center and released.",
+      "source_url": "https://www.mycentraljersey.com/story/news/local/middlesex-county/2026/10/02/south-brunswick-officer-shoots-dog-after-attack/92062673007/",
+      "source_name": "Central New Jersey News",
+      "additional_sources": [
+        "https://www.nj.com/middlesex/2026/10/investigation-underway-after-nj-cop-fatally-shoots-dog-that-attacked-him-during-call.html",
+        "https://patch.com/new-jersey/southbrunswick/south-brunswick-cop-shoots-dog-attacked-him-prosecutor-says",
+        "https://dailyvoice.com/article/nj-officer-shoots-kills-dog-during-attack-prosecutor/",
+        "https://newjersey.news12.com/south-brunswick-officer-fatally-shoots-dog-after-attack-during-call"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": true
+    },
+    {
       "incident_date": "2026-09-29",
       "date_precision": "day",
       "city": "Newark",
@@ -273,7 +297,7 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-09-28",
@@ -775,8 +799,7 @@
         "https://katv.com/news/local/little-rock-police-release-events-that-led-up-to-heights-dog-shooting",
         "https://www.arkansasonline.com/news/2026/jul/19/little-rock-police-officer-fatally-shoots-dog/",
         "https://www.kark.com/news/local-news/locals-react-after-little-rock-police-release-dashboard-body-cam-video-showing-officer-shooting-dog/",
-        "https://www.thv11.com/video/news/local/little-rock/review-underway-after-little-rock-police-officer-shoots-dog/91-4cb048e1-7c4a-4093-a3bd-68b2b66f9448",
-        "https://www.kark.com/news/state-news/bodycam-video-shows-moment-arkansas-officer-shoots-family-dogs/"
+        "https://www.thv11.com/video/news/local/little-rock/review-underway-after-little-rock-police-officer-shoots-dog/91-4cb048e1-7c4a-4093-a3bd-68b2b66f9448"
       ],
       "discovery": "media",
       "official_url": "",
@@ -868,6 +891,29 @@
       "reviewed": true
     },
     {
+      "incident_date": "2026-07-01",
+      "date_precision": "month",
+      "city": "Palestine",
+      "state": "AR",
+      "agency_name": "Palestine Police Department",
+      "circumstance": "domestic call",
+      "dog_outcome": "killed",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "no",
+      "summary": "A Palestine police officer standing by while a man retrieved belongings from his ex-partner's home after a domestic dispute fired about eight shots inside the house, killing the family's Rottweiler (which got out of a bedroom) and a pit bull that followed it. The owner was beside the Rottweiler when he fired; six children were present.",
+      "source_url": "https://wreg.com/news/ar-officer-charged-in-connection-to-shooting-of-dogs-in-home/",
+      "source_name": "WREG",
+      "additional_sources": [
+        "https://www.kark.com/news/state-news/bodycam-video-shows-moment-arkansas-officer-shoots-family-dogs/",
+        "https://www.yahoo.com/news/us/articles/ar-police-officer-charged-dogs-002912535.html",
+        "https://www.newsnationnow.com/us-news/mid-south/arkansas-officer-shoots-family-dogs-bodycam-video/"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": true
+    },
+    {
       "incident_date": "2026-06-28",
       "date_precision": "day",
       "city": "Phoenix",
@@ -880,44 +926,6 @@
       "summary": "A Phoenix Police officer shot a dog early Sunday morning during a burglary investigation while searching a backyard near 7th Avenue and Broadway Road. Officers said the dog bit the officer and lunged at him a second time before being shot.",
       "source_url": "https://www.fox10phoenix.com/news/pocket-fire-grows-more-than-6k-acres-dog-shot-phoenix-police-officer-nightly-roundup",
       "source_name": "FOX 10 Phoenix",
-      "additional_sources": [],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "medium",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-06-27",
-      "date_precision": "day",
-      "city": "Annapolis",
-      "state": "MD",
-      "agency_name": "Annapolis Police Department",
-      "circumstance": "loose/roaming dog",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "A police officer fatally shot a dog described as \"aggressive\" in Annapolis. It had bitten two people and two dogs before charging at a police officer",
-      "source_url": "https://www.capitalgazette.com/2026/07/01/police-officer-shoots-dog-annapolis/",
-      "source_name": "Capital Gazette",
-      "additional_sources": [],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "low",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-06-22",
-      "date_precision": "day",
-      "city": "St. Johnsville",
-      "state": "NY",
-      "agency_name": "Fulton County Sheriff's Office",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "unknown",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Fulton County Sheriff's sergeant fired at a German Shepherd that charged at him while deputies were investigating a report of a suspicious person trespassing on property in St. Johnsville. The sergeant said he fired in self-defense due to the dog's aggressive behavior and a previous dog bite incident involving a deputy.",
-      "source_url": "https://wnyt.com/top-stories/fulton-county-sheriffs-sergeant-shoots-dog-after-it-charges-at-him-in-st-johnsville/",
-      "source_name": "wnyt.com",
       "additional_sources": [],
       "discovery": "media",
       "official_url": "",
