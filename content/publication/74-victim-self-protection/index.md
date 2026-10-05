@@ -75,6 +75,13 @@ The data come from our evaluation of the [Minnesota Sexual Assault Kit Initiativ
 
 From victims' statements, we coded 12 distinct self-protective behaviors — everything from hitting or biting the attacker, to running away, to screaming for help, to pleading, stalling, or holding still out of fear. Then we measured them three ways, because prior work has mostly used a crude "any resistance vs. none" switch: physical vs. verbal, forceful vs. nonforceful, and a simple count of how many different things the victim did. The average victim reported about two.
 
+| | Forceful | Nonforceful |
+|---|---|---|
+| **Physical** | • Attacked using a *non-gun* weapon (e.g., knives, tools, broom)<br>• Attacked *without* a weapon (e.g., hit, slap, scratch, kick, bite)<br>• Chased, caught, or tried to catch/hold onto the suspect | • Ran or drove away or attempted to hide<br>• Struggled against the suspect or attempted to block attacks (e.g., pushed, removed hand from body, ducked) |
+| **Verbal** | • *Threatened* to use a non-gun weapon<br>• *Threatened* to attack without a weapon<br>• Screamed/shouted/yelled, threw insults, or threatened to call the police<br>• Tried to attract attention from bystanders, including calling or texting others<br>• Directly called the police or a security guard during the incident | • Cried, argued, reasoned, pleaded, bargained, or lied to the suspect<br>• Pretended to cooperate or held still out of fear, stalled for time, or tried to de-escalate the suspect |
+
+*Adapted from Table 1 of the paper. Each behavior falls in one cell, but a victim could report several, so a single case can count as both physical and verbal, or both forceful and nonforceful.*
+
 ## Police: Self-Protection of Any Kind Helped
 
 At the referral stage, every way of measuring self-protection pointed the same direction. Cases where the victim did something physical had about 2.4 times the odds of referral. So did cases involving nonforceful behaviors like struggling, hiding, or pleading. And each additional behavior bumped the odds of referral by about 31%. Detectives, in other words, appear to treat self-protection as corroboration — evidence that something happened, whatever form it took.
@@ -103,7 +110,7 @@ There's a competing explanation we take seriously: forceful resistance might sim
 | Forceful self-protection | 0.89 | 3.05 ↑ |
 | Nonforceful self-protection | 2.42 ↑ | 0.30 ↓ |
 
-*Odds ratios from Tables 3 and 4 (Models 1–2 and 4–5). Arrows mark statistically reliable associations; values above 1 mean a case was more likely to advance, below 1 less likely.*
+*Odds ratios from Tables 3 and 4 (Models 1–2 and 4–5). Arrows mark statistically significant associations; values above 1 mean a case was more likely to advance, below 1 less likely.*
 
 Prosecutors keyed on confessions, credibility, and substance use — all things that bear on how a jury will see the case. Police keyed on whether the victim was on board.
 
