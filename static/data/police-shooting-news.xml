@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 13:13:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 13:11:20 +0000</lastBuildDate>
+    <item>
+      <title>NMSP releases bodycam showing moments during police shooting in Mora County</title>
+      <link>https://www.koat.com/article/nmsp-releases-bodycam-showing-moments-during-police-shooting-in-mora-county/73987666</link>
+      <description/>
+      <pubDate>Fri, 02 Oct 2026 05:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
+    </item>
     <item>
       <title>NMSP releases new details on police shooting in Mora County</title>
       <link>https://www.kob.com/new-mexico/nmsp-releases-new-details-on-police-shooting-in-mora-county/</link>
@@ -45,6 +53,14 @@
       <pubDate>Thu, 01 Oct 2026 12:15:00 +0000</pubDate>
       <category>incident</category>
       <source>cbsnews.com</source>
+    </item>
+    <item>
+      <title>Milwaukee police shooting near 7th and Scott , suspect wounded</title>
+      <link>https://www.fox6now.com/news/breaking-officer-involved-shooting-near-7th-scott-suspect-officer-shot</link>
+      <description/>
+      <pubDate>Thu, 01 Oct 2026 05:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox6now.com</source>
     </item>
     <item>
       <title>Judge keeps delivery driver shot by ICE in custody</title>
@@ -95,12 +111,60 @@
       <source>twitchy.com</source>
     </item>
     <item>
+      <title>Houston police shooting : Suspect wanted for indecency with child shot dead</title>
+      <link>https://www.fox26houston.com/news/houston-police-officer-shoots-kills-wanted-suspect-wanted-indecency-child</link>
+      <description/>
+      <pubDate>Tue, 29 Sep 2026 14:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox26houston.com</source>
+    </item>
+    <item>
+      <title>Suspect arrested after KSP trooper shot , killed on I - 65 | Bowling Green Daily News</title>
+      <link>https://bgdailynews.com/2026/09/29/ksp-trooper-shot-killed-on-i-65/</link>
+      <description/>
+      <pubDate>Tue, 29 Sep 2026 14:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>bgdailynews.com</source>
+    </item>
+    <item>
+      <title>  Armed and dangerou suspect in custody after trooper killed in shooting in Kentucky . Here what we know</title>
+      <link>https://www.wsmv.com/2026/09/28/armed-dangerous-suspect-custody-after-trooper-killed-shooting-kentucky-heres-what-we-know/</link>
+      <description/>
+      <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wsmv.com</source>
+    </item>
+    <item>
+      <title>What is a Blue Alert ? Why one was issued after trooper shot on I - 65 in Kentucky</title>
+      <link>https://www.wlky.com/article/what-is-a-blue-alert-i-65-trooper-shooting-western-kentucky/73931355</link>
+      <description/>
+      <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wlky.com</source>
+    </item>
+    <item>
       <title>Kentucky State Police identify trooper killed in interstate shooting . Here what we know</title>
       <link>https://www.wsmv.com/2026/09/28/kentucky-state-police-identify-trooper-killed-interstate-shooting-heres-what-we-know/</link>
       <description/>
       <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
       <category>incident</category>
       <source>wsmv.com</source>
+    </item>
+    <item>
+      <title>KSP trooper shot , killed on I - 65 | Bowling Green Daily News</title>
+      <link>https://bgdailynews.com/2026/09/28/ksp-trooper-shot-killed-on-i-65/</link>
+      <description/>
+      <pubDate>Mon, 28 Sep 2026 23:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>bgdailynews.com</source>
+    </item>
+    <item>
+      <title>North Texas Woman Faces Attempted Capital Murder Charge After Officer Shot</title>
+      <link>https://www.wbap.com/2026/09/28/north-texas-woman-faces-attempted-capital-murder-charge-after-officer-shot/</link>
+      <description/>
+      <pubDate>Mon, 28 Sep 2026 23:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wbap.com</source>
     </item>
     <item>
       <title>Wanted suspect dead after police shooting in SE Portland ; K9 officer killed</title>
@@ -197,6 +261,14 @@
       <pubDate>Tue, 22 Sep 2026 20:00:00 +0000</pubDate>
       <category>incident</category>
       <source>foxnews.com</source>
+    </item>
+    <item>
+      <title>Portland Man Shot by Police After Murdering Victim and Refusing to Drop His Weapon</title>
+      <link>https://www.themainewire.com/2026/09/portland-man-shot-by-police-after-murdering-victim-and-refusing-to-drop-his-weapon/</link>
+      <description/>
+      <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>themainewire.com</source>
     </item>
     <item>
       <title>Central Texas students plan walkouts after ICE agent shoots man in Austin</title>
@@ -333,78 +405,6 @@
       <pubDate>Mon, 21 Sep 2026 04:45:00 +0000</pubDate>
       <category>incident</category>
       <source>wgiram.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | News Radio 1470</title>
-      <link>https://newsradio1470.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>newsradio1470.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | Sports Radio 800 KXIC</title>
-      <link>https://kxic.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kxic.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | Newsradio 970 KFBX - AM</title>
-      <link>https://970kfbx.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>970kfbx.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | NewsRadio WHAM 1180</title>
-      <link>https://wham1180.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wham1180.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | Talk Radio 1190</title>
-      <link>https://1190talkradio.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>1190talkradio.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | NewsRadio 1450 / 1370 WKIP</title>
-      <link>https://1450wkip.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>1450wkip.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | News Radio 94 . 3 WSC</title>
-      <link>https://943wsc.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>943wsc.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | News Radio 101 . 9 Big WAAX</title>
-      <link>https://1019bigwaax.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>1019bigwaax.iheart.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | NewsTalk 1240 WSFC</title>
-      <link>https://wsfcam.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsfcam.iheart.com</source>
     </item>
   </channel>
 </rss>
