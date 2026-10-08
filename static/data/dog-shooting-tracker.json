@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:51:36Z",
+  "generated_at": "2026-10-08T14:02:05Z",
   "total_incidents": 65,
   "reviewed_count": 65,
   "total_sources": 186,
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 65,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 280
+    "as_of_day_of_year": 281
   },
   "yearly_counts": [
     {
