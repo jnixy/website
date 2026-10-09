@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T13:18:04Z",
+  "generated_at": "2026-10-09T13:05:26Z",
   "stories": [
     {
       "title": "NMSP releases bodycam showing moments during police shooting in Mora County",
@@ -50,6 +50,14 @@
       "category": "incident"
     },
     {
+      "title": "Man shot by ICE officer to remain in custody , judge says criminal prosecution can continue",
+      "url": "https://katu.com/news/nation-world/man-shot-by-ice-officer-to-remain-in-custody-judge-says-criminal-prosecution-can-continue",
+      "description": "",
+      "date": "2026-10-01T12:15:00Z",
+      "source": "katu.com",
+      "category": "incident"
+    },
+    {
       "title": "Milwaukee police shooting near 7th and Scott , suspect wounded",
       "url": "https://www.fox6now.com/news/breaking-officer-involved-shooting-near-7th-scott-suspect-officer-shot",
       "description": "",
@@ -67,10 +75,10 @@
     },
     {
       "title": "Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault",
-      "url": "https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/",
+      "url": "https://www.durangoherald.com/articles/associated-press/judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/",
       "description": "",
-      "date": "2026-10-01T00:45:00Z",
-      "source": "wral.com",
+      "date": "2026-10-01T01:45:00Z",
+      "source": "durangoherald.com",
       "category": "incident"
     },
     {
@@ -103,6 +111,22 @@
       "description": "",
       "date": "2026-09-30T00:45:00Z",
       "source": "twitchy.com",
+      "category": "incident"
+    },
+    {
+      "title": "Man shot by ICE in Austin is charged with assaulting and resisting an officer",
+      "url": "https://www.tpr.org/border-immigration/2026-09-29/man-shot-by-ice-in-austin-is-charged-with-assaulting-and-resisting-an-officer",
+      "description": "",
+      "date": "2026-09-29T18:30:00Z",
+      "source": "tpr.org",
+      "category": "incident"
+    },
+    {
+      "title": "Feds charge Venezuelan man shot by ICE agent with assaulting an officer",
+      "url": "https://www.cbsnews.com/news/venezuelan-man-shot-by-ice-agent-charged-doj/",
+      "description": "",
+      "date": "2026-09-29T16:00:00Z",
+      "source": "cbsnews.com",
       "category": "incident"
     },
     {
@@ -474,6 +498,14 @@
       "category": "incident"
     },
     {
+      "title": "ICE agent shoots and wounds Venezuelan migrant in Austin , sparking protests",
+      "url": "https://nypost.com/2026/09/20/us-news/ice-agent-shoots-and-wounds-venezuelan-migrant-in-austin-sparking-protests/",
+      "description": "",
+      "date": "2026-09-21T03:00:00Z",
+      "source": "nypost.com",
+      "category": "incident"
+    },
+    {
       "title": "ICE Agent Shoots Man In Austin | News Radio 105 . 5 WERC",
       "url": "https://wercfm.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/",
       "description": "",
@@ -490,19 +522,19 @@
       "category": "incident"
     },
     {
-      "title": "ICE agent shoots and wounds Venezuelan migrant in Austin , sparking protests",
-      "url": "https://nypost.com/2026/09/20/us-news/ice-agent-shoots-and-wounds-venezuelan-migrant-in-austin-sparking-protests/",
-      "description": "",
-      "date": "2026-09-21T03:00:00Z",
-      "source": "nypost.com",
-      "category": "incident"
-    },
-    {
       "title": "Federal immigration agent shoots and injures man in Austin , Texas",
       "url": "https://wnyc.org/npr/nx-s1-5975517",
       "description": "",
       "date": "2026-09-21T03:00:00Z",
       "source": "wnyc.org",
+      "category": "incident"
+    },
+    {
+      "title": "ICE agent shoots and wounds man in Austin , Texas , officials say",
+      "url": "https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say",
+      "description": "",
+      "date": "2026-09-21T02:30:00Z",
+      "source": "ksl.com",
       "category": "incident"
     },
     {
@@ -554,14 +586,6 @@
       "category": "incident"
     },
     {
-      "title": "ICE agent shoots and wounds man in Austin , Texas , officials say",
-      "url": "https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say",
-      "description": "",
-      "date": "2026-09-21T02:30:00Z",
-      "source": "ksl.com",
-      "category": "incident"
-    },
-    {
       "title": "ICE officer shoots and wounds man in Austin , Texas , officials say - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
       "url": "https://dominicanrepublicpost.com/ice-officer-shoots-and-wounds-man-in-austin-texas-officials-say/",
       "description": "",
@@ -586,11 +610,11 @@
       "category": "incident"
     },
     {
-      "title": "ICE Agent Shoots Man in Austin Amid Scrutiny of Immigration Enforcement",
-      "url": "https://www.newsweek.com/man-wounded-in-austin-shooting-involving-ice-agent-12465694",
+      "title": "ICE agent shoots , wounds man in Austin , Texas",
+      "url": "https://www.wmtw.com/article/ice-agent-shooting-north-austin-texas/73813943",
       "description": "",
       "date": "2026-09-21T00:30:00Z",
-      "source": "newsweek.com",
+      "source": "wmtw.com",
       "category": "incident"
     },
     {
@@ -618,11 +642,11 @@
       "category": "incident"
     },
     {
-      "title": "ICE agent shoots , wounds man in Austin , Texas",
-      "url": "https://www.wmtw.com/article/ice-agent-shooting-north-austin-texas/73813943",
+      "title": "ICE Agent Shoots Man in Austin Amid Scrutiny of Immigration Enforcement",
+      "url": "https://www.newsweek.com/man-wounded-in-austin-shooting-involving-ice-agent-12465694",
       "description": "",
       "date": "2026-09-21T00:30:00Z",
-      "source": "wmtw.com",
+      "source": "newsweek.com",
       "category": "incident"
     },
     {
