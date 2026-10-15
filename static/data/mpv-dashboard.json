@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:14:05Z",
+  "generated_at": "2026-10-15T15:18:57Z",
   "source": "Mapping Police Violence (mappingpoliceviolence.us)",
   "source_last_incident_date": "2026-08-18",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
@@ -7,10 +7,10 @@
     "total_incidents": 14832,
     "current_year": 2026,
     "prior_year": 2025,
-    "as_of_date": "2026-09-28",
+    "as_of_date": "2026-08-18",
     "lag_days": 14,
     "current_year_to_date": 697,
-    "prior_year_same_point": 882
+    "prior_year_same_point": 759
   },
   "yearly_counts": [
     {
@@ -182,7 +182,7 @@
           572,
           647,
           697,
-          697,
+          null,
           null,
           null,
           null
@@ -1444,11 +1444,11 @@
       "count": 168
     },
     {
-      "label": "New York Police Department",
+      "label": "Houston Police Department",
       "count": 134
     },
     {
-      "label": "Houston Police Department",
+      "label": "New York Police Department",
       "count": 134
     },
     {
@@ -1460,11 +1460,11 @@
       "count": 107
     },
     {
-      "label": "Las Vegas Metropolitan Police Department",
+      "label": "Chicago Police Department",
       "count": 105
     },
     {
-      "label": "Chicago Police Department",
+      "label": "Las Vegas Metropolitan Police Department",
       "count": 105
     },
     {
@@ -1484,11 +1484,11 @@
       "count": 68
     },
     {
-      "label": "Philadelphia Police Department",
+      "label": "Columbus Division of Police",
       "count": 65
     },
     {
-      "label": "Columbus Division of Police",
+      "label": "Miami-Dade Police Department",
       "count": 65
     }
   ]

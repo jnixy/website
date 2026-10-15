@@ -359,8 +359,12 @@ def build_breakdown(df, col, bucket_fn=None):
 
 
 def build_top_n(df, col, n=TOP_N):
-    counts = df[col].value_counts().head(n)
-    return [{'label': str(k), 'count': int(v)} for k, v in counts.items()]
+    # value_counts() leaves ties in arbitrary order, so which tied agency
+    # makes the top-n cutoff could flip between runs. Break ties
+    # alphabetically to keep the list stable.
+    counts = sorted(df[col].value_counts().items(),
+                    key=lambda kv: (-kv[1], str(kv[0]).casefold()))[:n]
+    return [{'label': str(k), 'count': int(v)} for k, v in counts]
 
 
 def load_state_population(xlsx_bytes):
@@ -496,8 +500,12 @@ def build_dashboard_json(df, state_pop_df):
     # Lag-adjusted year-to-date comparison: MPV incidents get added/verified
     # over time, so comparing "as of today" would make the current year
     # look artificially low against a fully-caught-up prior year. Compare
-    # both years as of the same lag-adjusted date instead.
-    as_of = datetime.now() - timedelta(days=YTD_LAG_DAYS)
+    # both years as of the same lag-adjusted date instead. Capped at MPV's
+    # latest incident so a pause in upstream logging (e.g., none after
+    # 2026-08-18 as of Oct 2026) doesn't compare a truncated current year
+    # against a full prior-year window.
+    as_of = min(datetime.now() - timedelta(days=YTD_LAG_DAYS),
+                most_recent.to_pydatetime())
     as_of_day_of_year = as_of.timetuple().tm_yday
 
     ytd_count = int((
