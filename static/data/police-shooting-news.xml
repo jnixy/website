@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2026 11:13:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 10:32:42 +0000</lastBuildDate>
     <item>
       <title>Kentucky State Police hold candlelight vigil to honor trooper fatally shot during traffic stop</title>
       <link>https://www.wsmv.com/2026/10/02/kentucky-state-police-hold-candlelight-vigil-honor-trooper-fatally-shot-during-traffic-stop/</link>
@@ -391,20 +391,20 @@
       <source>lasvegassun.com</source>
     </item>
     <item>
+      <title>Ontario , Canada : Police officer shot outside synagogue on Yom Kippur</title>
+      <link>https://us.cnn.com/2026/09/21/world/police-officer-shot-synagogue-yom-kippur-ontario-hnk</link>
+      <description/>
+      <pubDate>Mon, 21 Sep 2026 06:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>us.cnn.com</source>
+    </item>
+    <item>
       <title>ICE agent shoots and wounds man in Austin , Texas : Multi - Source Coverage One News Page</title>
       <link>https://www.onenewspage.com/story/ice-agent-shoots-and-wounds-man-in-austin-texas-46de1889/</link>
       <description/>
       <pubDate>Mon, 21 Sep 2026 06:00:00 +0000</pubDate>
       <category>incident</category>
       <source>onenewspage.com</source>
-    </item>
-    <item>
-      <title>ICE Agent Shoots Man In Austin | NewsRadio 600 WMT</title>
-      <link>https://600wmtradio.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 05:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>600wmtradio.iheart.com</source>
     </item>
   </channel>
 </rss>
