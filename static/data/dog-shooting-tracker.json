@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T16:12:54Z",
+  "generated_at": "2026-10-17T16:15:54Z",
   "total_incidents": 70,
   "reviewed_count": 65,
-  "total_sources": 205,
+  "total_sources": 206,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-10-14"
@@ -10,20 +10,20 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 69,
+    "current_year_to_date": 70,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 290
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 69
+      "count": 70
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 47
+      "count": 48
     },
     {
       "label": "injured-survived",
@@ -31,7 +31,7 @@
     },
     {
       "label": "unknown",
-      "count": 9
+      "count": 8
     },
     {
       "label": "unharmed",
@@ -329,6 +329,27 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-10-05",
+      "date_precision": "day",
+      "city": "Fresno",
+      "state": "CA",
+      "agency_name": "Fresno Police",
+      "circumstance": "other",
+      "dog_outcome": "killed",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "An officer shot a pit bull that had attacked a man in Fresno; the man was hospitalized.",
+      "source_url": "https://www.fresnobee.com/news/local/article317499625.html",
+      "source_name": "Fresno Bee",
+      "additional_sources": [
+        "https://kmph.com/news/local/gallery/pit-bull-dog-shot-dead-by-police-another-captured-after-neighbor-attacked-pleasant-and-michigan-avenues-the-fresno-police-department"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "low",
       "reviewed": false
     },
     {
@@ -926,25 +947,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-07-17",
-      "date_precision": "day",
-      "city": "Topeka",
-      "state": "KS",
-      "agency_name": "Topeka Police Department",
-      "circumstance": "unknown",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "Topeka police shot and killed a dog after two people were bitten.",
-      "source_url": "https://www.cjonline.com/story/news/crime/2026/07/20/police-shoot-and-kill-dog-after-2-people-are-attacked-in-se-topeka/90954833007/",
-      "source_name": "The Topeka Capital-Journal",
-      "additional_sources": [],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "low",
       "reviewed": true
     }
   ]
