@@ -12,3 +12,6 @@ anthropic>=0.40,<1
 trafilatura>=1.8
 feedparser>=6.0
 googlenewsdecoder>=0.1.7
+# selectolax 1.0 (2026-10-03) removed selectolax.parser, which googlenewsdecoder
+# (<=0.2.1) imports -- every Google News decode failed until this pin.
+selectolax<1.0

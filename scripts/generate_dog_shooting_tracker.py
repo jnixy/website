@@ -458,8 +458,11 @@ def resolve_url(article):
         return True
     try:
         from googlenewsdecoder import gnewsdecoder
-    except Exception:  # noqa: BLE001
-        return False  # can't reach the publisher URL; skip rather than fetch google
+    except Exception as e:  # noqa: BLE001
+        # Can't reach the publisher URL; skip rather than fetch google. Observed:
+        # selectolax 1.0 broke this import (see requirements.txt pin).
+        article["decode_error"] = f"decoder import failed: {type(e).__name__}: {e}"
+        return False
     try:
         decoded = gnewsdecoder(article["url"], interval=1)
     except Exception as e:  # noqa: BLE001
