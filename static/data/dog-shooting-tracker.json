@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17T16:15:54Z",
+  "generated_at": "2026-10-17T16:22:15Z",
   "total_incidents": 70,
-  "reviewed_count": 65,
+  "reviewed_count": 66,
   "total_sources": 206,
   "date_range": {
     "earliest": "2026-01-05",
@@ -49,7 +49,7 @@
     },
     {
       "label": "unrelated call response",
-      "count": 17
+      "count": 18
     },
     {
       "label": "warrant service",
@@ -69,7 +69,7 @@
     },
     {
       "label": "unknown",
-      "count": 5
+      "count": 4
     },
     {
       "label": "pursuit",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 49
+      "count": 50
     },
     {
       "label": "county SO",
@@ -91,10 +91,6 @@
     },
     {
       "label": "state",
-      "count": 1
-    },
-    {
-      "label": "unknown",
       "count": 1
     }
   ],
@@ -266,14 +262,14 @@
     {
       "incident_date": "2026-10-14",
       "date_precision": "day",
-      "city": "St. Pete",
+      "city": "St. Petersburg",
       "state": "FL",
-      "agency_name": "",
-      "circumstance": "unknown",
+      "agency_name": "St. Petersburg Police Department",
+      "circumstance": "unrelated call response",
       "dog_outcome": "killed",
-      "dog_targeted": "unknown",
-      "human_injured_by_fire": "unknown",
-      "summary": "Police shot a dog during an investigation into a man found dead on a St. Petersburg road.",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "no",
+      "summary": "St. Petersburg officers responded around 8:17 p.m. to a report of a seriously injured man lying in the 2500 block of Quincy Street South and found him bleeding with his leashed pit bull mix beside him. When rescue personnel tried to approach, the dog became agitated and began biting the man, and an officer shot and killed it. The man, the dog's owner, died at the scene; a preliminary autopsy found life-threatening dog bites to the neck and shoulder.",
       "source_url": "https://www.wfla.com/video/police-shoot-dog-after-man-found-dead-in-st-pete-road-investigation-underway/12270778/",
       "source_name": "WFLA",
       "additional_sources": [
@@ -287,7 +283,7 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "low",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-10-13",
