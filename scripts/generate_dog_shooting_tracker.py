@@ -462,9 +462,13 @@ def resolve_url(article):
         return False  # can't reach the publisher URL; skip rather than fetch google
     try:
         decoded = gnewsdecoder(article["url"], interval=1)
-    except Exception:  # noqa: BLE001
+    except Exception as e:  # noqa: BLE001
+        article["decode_error"] = f"{type(e).__name__}: {e}"
         return False
     if not (decoded.get("status") and decoded.get("decoded_url")):
+        # Kept for the run log: from 2026-10-04 every decode failed on Actions
+        # (still fine locally) and the reason was invisible.
+        article["decode_error"] = str(decoded.get("message") or decoded.get("error") or decoded)
         return False
     article["url"] = decoded["decoded_url"]
     article["needs_decode"] = False
@@ -1518,14 +1522,19 @@ def main():
     errors = 0
     added = 0
     merged = 0
+    unresolved = 0
     for a in candidates:
         discovered_url = a["url"]
-        # Mark the as-discovered URL seen even if we skip it below, so we never
-        # retry it -- and, for Google wrappers, never pay to decode it twice.
-        seen_urls.add(discovered_url)
+        # An unresolved URL is NOT marked seen, so a decode outage only delays
+        # it to the next run (it stays in the `--days` window). Marking it seen
+        # first silently discarded every article from 2026-10-04 to 10-17.
         if not resolve_url(a):
-            print(f"  skip (unresolved)  {a['title'][:60]}")
+            unresolved += 1
+            print(f"  skip (unresolved)  {a['title'][:60]}  ::  {a.get('decode_error', '')[:120]}")
             continue
+        # Mark seen once resolved, even if skipped below, so we never pay to
+        # decode it twice.
+        seen_urls.add(discovered_url)
         # Checks deferred out of discover() until the real publisher URL exists.
         if a["url"] in excluded:
             print(f"  skip (excluded by review)  {_domain(a['url'])}")
@@ -1594,7 +1603,14 @@ def main():
             print(f"  ADD  incident {row['id']}: {row['state']} {row['incident_date']} "
                   f"{row['agency_name'][:40]} — {row['dog_outcome']}")
 
-    print(f"\nprocessed={processed} added={added} merged={merged} errors={errors}")
+    print(f"\nprocessed={processed} added={added} merged={merged} errors={errors} unresolved={unresolved}")
+
+    # Every candidate failing to decode is a decoder outage, not a quiet news
+    # day -- go red (GitHub emails) instead of committing a no-op "success".
+    if unresolved >= 3 and unresolved == len(candidates):
+        print(f"ERROR: all {unresolved} candidates failed Google News URL decoding — "
+              "treating as a decoder outage, not writing.", file=sys.stderr)
+        sys.exit(1)
 
     if processed and errors / processed > 0.5:
         print("ERROR: >50% of processed articles errored — not writing.", file=sys.stderr)
