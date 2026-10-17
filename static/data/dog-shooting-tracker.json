@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-17T15:59:14Z",
-  "total_incidents": 71,
+  "generated_at": "2026-10-17T16:12:54Z",
+  "total_incidents": 70,
   "reviewed_count": 65,
-  "total_sources": 206,
+  "total_sources": 205,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-10-07"
+    "latest": "2026-10-14"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 67,
+    "current_year_to_date": 69,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 290
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 67
+      "count": 69
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 48
-    },
-    {
-      "label": "unknown",
-      "count": 10
+      "count": 47
     },
     {
       "label": "injured-survived",
-      "count": 10
+      "count": 11
+    },
+    {
+      "label": "unknown",
+      "count": 9
     },
     {
       "label": "unharmed",
@@ -64,11 +64,11 @@
       "count": 6
     },
     {
-      "label": "unknown",
-      "count": 6
+      "label": "domestic call",
+      "count": 5
     },
     {
-      "label": "domestic call",
+      "label": "unknown",
       "count": 5
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "label": "county SO",
-      "count": 20
+      "count": 19
     },
     {
       "label": "state",
@@ -102,7 +102,7 @@
     {
       "state": "CA",
       "name": "California",
-      "count": 13
+      "count": 12
     },
     {
       "state": "PA",
@@ -232,7 +232,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 61,
+    "media": 60,
     "official": 5,
     "both": 5
   },
@@ -263,6 +263,55 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-10-14",
+      "date_precision": "day",
+      "city": "St. Pete",
+      "state": "FL",
+      "agency_name": "",
+      "circumstance": "unknown",
+      "dog_outcome": "killed",
+      "dog_targeted": "unknown",
+      "human_injured_by_fire": "unknown",
+      "summary": "Police shot a dog during an investigation into a man found dead on a St. Petersburg road.",
+      "source_url": "https://www.wfla.com/video/police-shoot-dog-after-man-found-dead-in-st-pete-road-investigation-underway/12270778/",
+      "source_name": "WFLA",
+      "additional_sources": [
+        "https://www.tampabay.com/news/st-petersburg/2026/10/15/st-pete-police-dog-shooting/",
+        "https://hoodline.com/2026/10/man-found-dead-in-st-pete-street-while-walking-dog-officers-shoot-animal/",
+        "https://www.yahoo.com/news/articles/st-pete-police-officer-fatally-130159090.html",
+        "https://www.wtsp.com/article/news/local/pinellascounty/suspicious-death-investigation-st-pete-police-shoot-dog-man-dead/67-aed80079-2e28-45ec-b55a-39dbda78cc9c",
+        "https://www.tampafp.com/man-dead-dog-shot-by-police-during-suspicious-death-call-in-st-petersburg/",
+        "https://www.wfla.com/news/pinellas-county/police-shoot-dog-after-man-found-dead-in-st-pete-road-investigation-underway/"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "low",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-10-13",
+      "date_precision": "day",
+      "city": "Laredo",
+      "state": "TX",
+      "agency_name": "Laredo Police",
+      "circumstance": "unknown",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "Laredo police shot a dog following a reported bite incident; the department's use of force is under review.",
+      "source_url": "https://www.kgns.tv/video/2026/10/15/laredo-police-shoot-dog-after-reported-bite-use-force-under-review/",
+      "source_name": "KGNS",
+      "additional_sources": [
+        "https://www.kgns.tv/2026/10/15/laredo-police-shoot-dog-after-reported-bite-use-force-under-review/?outputType=amp",
+        "https://www.kgns.tv/video/2026/10/14/officer-shoots-dog-after-animal-bite-call-laredo/",
+        "https://www.kgns.tv/2026/10/13/officer-shoots-dog-after-animal-bite-call-laredo/"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "low",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-10-07",
       "date_precision": "day",
@@ -896,49 +945,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "low",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-07-14",
-      "date_precision": "day",
-      "city": "Auxvasse",
-      "state": "MO",
-      "agency_name": "Callaway County Sheriff's Office",
-      "circumstance": "warrant service",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "Callaway County sheriff's deputies went to a home on Tate Drive near Auxvasse around 4:14 p.m. on July 14, 2026 to serve a failure-to-appear arrest warrant. Two dogs approached; one behaved aggressively. Pepper spray failed, and when the dog charged again Deputy Zach Hubbard shot and killed it. Bodycam footage was released.",
-      "source_url": "https://abc17news.com/news/callaway/2026/07/16/callaway-county-deputy-shoots-dog-while-serving-warrant/",
-      "source_name": "abc17news.com",
-      "additional_sources": [
-        "https://krcgtv.com/news/local/callaway-county-sheriffs-deputies-fatally-shoot-dog-while-serving-warrant"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-07-08",
-      "date_precision": "day",
-      "city": "Marietta",
-      "state": "GA",
-      "agency_name": "Cobb County Sheriff's Office",
-      "circumstance": "warrant service",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Cobb County sheriff's deputy fatally shot a dog while serving an arrest warrant on Wednesday. Authorities said the dog was behaving aggressively at the time.",
-      "source_url": "https://patch.com/georgia/marietta/cobb-deputy-fatally-shoots-dog-while-serving-arrest-warrant-sheriff",
-      "source_name": "Patch",
-      "additional_sources": [
-        "https://www.wsbradio.com/news/local/cobb-deputy-under-investigation-after-fatal-dog-shooting/33W3WSEKOJBPTBBCABXAT67NQE/",
-        "https://www.fox5atlanta.com/news/dog-killed-cobb-county-deputy-serves-warrant"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
       "reviewed": true
     }
   ]
