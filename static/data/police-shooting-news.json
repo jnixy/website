@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-10-17T10:32:42Z",
+  "generated_at": "2026-10-18T10:52:43Z",
   "stories": [
+    {
+      "title": "Man reportedly armed with knife shot by police in Tolleson",
+      "url": "https://www.azfamily.com/2026/10/18/man-reportedly-armed-with-knife-shot-by-officers-tolleson/",
+      "description": "",
+      "date": "2026-10-18T03:45:00Z",
+      "source": "azfamily.com",
+      "category": "incident"
+    },
     {
       "title": "Kentucky State Police hold candlelight vigil to honor trooper fatally shot during traffic stop",
       "url": "https://www.wsmv.com/2026/10/02/kentucky-state-police-hold-candlelight-vigil-honor-trooper-fatally-shot-during-traffic-stop/",
@@ -83,10 +91,10 @@
     },
     {
       "title": "Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault",
-      "url": "https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/",
+      "url": "https://www.durangoherald.com/articles/associated-press/judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/",
       "description": "",
-      "date": "2026-10-01T00:45:00Z",
-      "source": "wral.com",
+      "date": "2026-10-01T01:45:00Z",
+      "source": "durangoherald.com",
       "category": "incident"
     },
     {
@@ -522,6 +530,14 @@
       "category": "incident"
     },
     {
+      "title": "ICE agent shoots and wounds Venezuelan migrant in Austin , sparking protests",
+      "url": "https://nypost.com/2026/09/20/us-news/ice-agent-shoots-and-wounds-venezuelan-migrant-in-austin-sparking-protests/",
+      "description": "",
+      "date": "2026-09-21T03:00:00Z",
+      "source": "nypost.com",
+      "category": "incident"
+    },
+    {
       "title": "ICE Agent Shoots Man In Austin | News Radio 105 . 5 WERC",
       "url": "https://wercfm.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/",
       "description": "",
@@ -538,19 +554,19 @@
       "category": "incident"
     },
     {
-      "title": "ICE agent shoots and wounds Venezuelan migrant in Austin , sparking protests",
-      "url": "https://nypost.com/2026/09/20/us-news/ice-agent-shoots-and-wounds-venezuelan-migrant-in-austin-sparking-protests/",
-      "description": "",
-      "date": "2026-09-21T03:00:00Z",
-      "source": "nypost.com",
-      "category": "incident"
-    },
-    {
       "title": "Federal immigration agent shoots and injures man in Austin , Texas",
       "url": "https://wnyc.org/npr/nx-s1-5975517",
       "description": "",
       "date": "2026-09-21T03:00:00Z",
       "source": "wnyc.org",
+      "category": "incident"
+    },
+    {
+      "title": "ICE agent shoots and wounds man in Austin , Texas , officials say",
+      "url": "https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say",
+      "description": "",
+      "date": "2026-09-21T02:30:00Z",
+      "source": "ksl.com",
       "category": "incident"
     },
     {
@@ -602,14 +618,6 @@
       "category": "incident"
     },
     {
-      "title": "ICE agent shoots and wounds man in Austin , Texas , officials say",
-      "url": "https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say",
-      "description": "",
-      "date": "2026-09-21T02:30:00Z",
-      "source": "ksl.com",
-      "category": "incident"
-    },
-    {
       "title": "ICE officer shoots and wounds man in Austin , Texas , officials say - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
       "url": "https://dominicanrepublicpost.com/ice-officer-shoots-and-wounds-man-in-austin-texas-officials-say/",
       "description": "",
@@ -642,6 +650,14 @@
       "category": "incident"
     },
     {
+      "title": "ICE agent shoots , wounds man in Austin , Texas",
+      "url": "https://www.wmtw.com/article/ice-agent-shooting-north-austin-texas/73813943",
+      "description": "",
+      "date": "2026-09-21T00:30:00Z",
+      "source": "wmtw.com",
+      "category": "incident"
+    },
+    {
       "title": "ICE Agent Shoots Man In Austin | NewsRadio 570 WKBN",
       "url": "https://570wkbn.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/",
       "description": "",
@@ -663,14 +679,6 @@
       "description": "",
       "date": "2026-09-21T00:30:00Z",
       "source": "kfyi.iheart.com",
-      "category": "incident"
-    },
-    {
-      "title": "ICE agent shoots , wounds man in Austin , Texas",
-      "url": "https://www.wmtw.com/article/ice-agent-shooting-north-austin-texas/73813943",
-      "description": "",
-      "date": "2026-09-21T00:30:00Z",
-      "source": "wmtw.com",
       "category": "incident"
     },
     {
