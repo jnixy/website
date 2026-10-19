@@ -1,6 +1,39 @@
 {
-  "generated_at": "2026-10-12T14:45:15Z",
+  "generated_at": "2026-10-19T13:38:39Z",
   "stories": [
+    {
+      "title": "Exploring the attitudinal effects of a personality-based de-escalation training program: Findings from the National De-escalation Training Center",
+      "url": "https://doi.org/10.1177/00938548261491834",
+      "date": "2026-10-17T00:00:00Z",
+      "journal": "Criminal Justice and Behavior",
+      "authors": "Samantha A. Tosto",
+      "abstract": "Several high-profile incidents of police misconduct in the past decade have led to calls for reform and the prioritization of de-escalation training for law enforcement. However, the empirical evidence on various de-escalation strategies is in relative infancy. To further this scholarship, the current research represents a preliminary evaluation of the National De-escalation Training Center (NDTC) across several agencies and geographic regions of the United States. The study uses pre- and post-training data from over 500 trainees in the 6-month study period to determine if exposure to training informs changes to attitudes regarding procedural justice and de-escalation concepts. Factor analysis of the survey’s constructs and pre-post attitudinal change comparisons were conducted. Findings confirm that exposure to NDTC training resulted in significant improvements to procedural justice attitudes. Implications for in-service training and future research on long-term attitudinal change are explored.",
+      "type": "article",
+      "doi": "10.1177/00938548261491834",
+      "priority": false
+    },
+    {
+      "title": "Examining Racism-Based Police Violence and Mental Health among Black African Emerging Adults in the United States: The Moderating Roles of Grit and Family Cohesion",
+      "url": "https://doi.org/10.1177/08862605261490531",
+      "date": "2026-10-12T00:00:00Z",
+      "journal": "Journal of Interpersonal Violence",
+      "authors": "Asha Layne et al.",
+      "abstract": "In the United States, Black Americans are disproportionately likely to experience racism-based police violence (RPV), which has led scholars and practitioners alike to call this a public health crisis. Although this is not a recent phenomenon, the existing literature has limited its examination of RPV exposure and mental health trauma to the Black American experience, ignoring that racial identity alone is not the only identity that is factored into racism-based violence against Black African individuals. This cross-sectional study, therefore, adds to the existing literature on RPV and trauma literature by examining three forms of RPV exposure-direct victimization, in-person witnessing, and media-based exposure-and their relationship with depression, police contact anxiety, and suicidality, while exploring the buffer relationship of grit and family cohesion among first and second-generation Black African emerging adults (aged 18-29). Findings from this study highlight that exposure to all three forms of RPV is directly associated with police contact anxiety, with RPV-media-based exposure being significantly related to suicidal ideation. Importantly, this study demonstrated the existence of generational differences. Moderation analyses examining whether family cohesion and grit moderate the effects of RPV showed that, among first-generation emerging adults, neither family cohesion nor grit had a significant moderating effect on any form of RPV; among second-generation emerging adults, family cohesion had a significant association between RPV-media and police contact anxiety. The findings support the need for future research to perform longitudinal studies on RPV and mental trauma in Black African emerging adults.",
+      "type": "article",
+      "doi": "10.1177/08862605261490531",
+      "priority": false
+    },
+    {
+      "title": "Punitive Policing in the Americas",
+      "url": "https://doi.org/10.1146/annurev-criminol-032924-041955",
+      "date": "2026-10-12T00:00:00Z",
+      "journal": "Annual Review of Criminology",
+      "authors": "Beatriz Magaloni & Kim Juárez",
+      "abstract": "Police violence remains pervasive across democratic societies in the Americas. This review brings the US literature on policing into dialogue with comparative research on Latin America to identify common forces that sustain what we call punitive policing—systems of law enforcement that systematically violate human rights, rely on excessive surveillance and coercion, and disproportionately target marginalized populations. Synthesizing scholarship from both regions, the review highlights three factors that help explain the persistence of punitive policing: colonial legacies, the militarization of public security, and deeply entrenched racial and socioeconomic inequalities that shape how police are deployed and whom they target with violence. Our review shows that punitive policing is a governance problem that undermines legitimacy, public safety, citizenship, and democratic stability. Yet the evidence also suggests that meaningful reform is possible when bottom-up, coordinated mobilization converges with top-down institutional intervention to constrain punitive policing.",
+      "type": "article",
+      "doi": "10.1146/annurev-criminol-032924-041955",
+      "priority": false
+    },
     {
       "title": "Psychological Distress as a Mediator of the Association Between Racism-based Police Violence and Mental Health Help-Seeking Among Black and Hispanic Emerging Adults",
       "url": "https://doi.org/10.1007/s40615-026-03194-6",
