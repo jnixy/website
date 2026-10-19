@@ -26,24 +26,28 @@ import generate_dog_shooting_tracker as g  # noqa: E402
 
 PUB = "2026-05-12T14:00:00Z"
 
-# (case id, expected qualifies, headline, body[, expected dog_targeted])
+# (case id, expected qualifies, headline, body[, expected dog_targeted or None
+#  [, expected circumstance]])
 CASES = [
     ("defend-person", True,
      "Officer shoots dog mauling woman in her front yard",
      "Springfield police said an officer shot a pit bull Monday that was attacking a 62-year-old "
      "woman in her front yard on Elm Street. Officers responding to a 911 call found the dog biting "
      "the woman's arm and fired two rounds, killing the dog. The woman was hospitalized in stable "
-     "condition, according to Springfield Police Department spokesperson Lt. Dana Ruiz."),
+     "condition, according to Springfield Police Department spokesperson Lt. Dana Ruiz.",
+     None, "dog attack/bite call"),
     ("dog-on-dog", True,
      "Police fire at German shepherd attacking a leashed dog",
      "A Dayton police officer fired twice at a German shepherd Monday afternoon after it attacked "
      "a leashed dog being walked on Hess Street, the Dayton Police Department said. The shepherd "
-     "ran off and was not found. The smaller dog was taken to a veterinarian for bite wounds."),
+     "ran off and was not found. The smaller dog was taken to a veterinarian for bite wounds.",
+     None, "dog attack/bite call"),
     ("missed-shot", True,
      "Deputy fires at charging dog during welfare check, misses",
      "A Marion County sheriff's deputy fired one round at a dog that charged him during a welfare "
      "check on Monday, the sheriff's office said. The shot missed and the dog ran back into the "
-     "house. No one was injured."),
+     "house. No one was injured.",
+     None, "welfare check"),
     ("service-dog", True,
      "Family says police shot their son's autism service dog",
      "A Tacoma family says a Tacoma police officer shot and killed their son's autism service dog "
@@ -77,6 +81,26 @@ CASES = [
      "armed suspect in a backyard on Maple Street struck the dog, the Omaha Police Department said. "
      "The suspect was wounded and arrested.",
      "no"),
+    # Circumstance boundary (added 2026-10-19): code what officers knew as they
+    # approached, not what the dog did to them on arrival.
+    ("chase-call", True,
+     "Deputy shoots dog that chased child into home",
+     "A Lake County sheriff's deputy shot and killed a large dog Monday evening after a resident "
+     "called to report the dog had aggressively chased a 10-year-old boy into his house. The deputy "
+     "found the dog roaming the street, and it ran straight at him, the sheriff's office said.",
+     None, "dog attack/bite call"),
+    ("welfare-bite-report", True,
+     "Officer shoots dog during welfare check on bitten neighbor",
+     "A Riverton police officer shot a dog Monday after a caller asked police to check on a "
+     "neighbor who she thought had been bitten by his dog. When the officer knocked, the dog "
+     "lunged at him through the door and he fired once, the department said. The dog survived.",
+     None, "dog attack/bite call"),
+    ("attacked-on-other-call", True,
+     "Dog bites officer during burglary investigation; officer fires",
+     "A Mesa police officer investigating a reported burglary shot a dog Monday night after it "
+     "bit him in a backyard he was searching, the department said. The dog was killed. The "
+     "officer was treated for a bite to the leg.",
+     None, "unrelated call response"),
     # --- should be rejected ---
     ("k9-shot-by-suspect", False,
      "Police K-9 wounded after suspect opens fire on officers",
@@ -113,15 +137,20 @@ def main():
     for case in CASES:
         cid, expected, title, body = case[:4]
         want_targeted = case[4] if len(case) > 4 else None  # checked only where given
-        results, targeted = [], []
+        want_circ = case[5] if len(case) > 5 else None
+        results, targeted, circs = [], [], []
         for _ in range(args.repeat):
             fields = g.classify_article(client, title, body, f"https://example.com/{cid}", PUB)
             results.append(None if fields is None else bool(fields.get("qualifies")))
             targeted.append(fields.get("dog_targeted") if fields else None)
+            circs.append(fields.get("circumstance") if fields else None)
         ok = all(r == expected for r in results)
         if want_targeted:
             ok = ok and all(t == want_targeted for t in targeted)
             results = [f"{r}/{t}" for r, t in zip(results, targeted)]
+        if want_circ:
+            ok = ok and all(c == want_circ for c in circs)
+            results = [f"{r}/{c}" for r, c in zip(results, circs)]
         failures += 0 if ok else 1
         last = fields.get("reason", "") if fields else "API error"
         print(f"{'PASS' if ok else 'FAIL'}  {cid:18s} expected={expected!s:5s} got={results}  {last[:90]}")

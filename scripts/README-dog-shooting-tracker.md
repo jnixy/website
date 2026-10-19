@@ -68,8 +68,13 @@ official_ref, official_url, confidence, prompt_version, reviewed`
 - `agency_type` ∈ {municipal PD, county SO, state, federal, tribal, campus, other, unknown}
 - `dog_outcome` ∈ {killed, injured-survived, injured-euthanized, unharmed, unknown}
 - `circumstance` ∈ {welfare check, warrant service, wrong address, traffic stop,
-  loose/roaming dog, unrelated call response, pursuit, domestic call, noise
-  complaint, other, unknown}
+  dog attack/bite call, loose/roaming dog, unrelated call response, pursuit,
+  domestic call, noise complaint, other, unknown}. Coded on what officers knew
+  as they approached (the call's content, or what they saw on self-initiated
+  activity). `dog attack/bite call` = the call reported, or officers saw, a dog
+  biting, attacking, menacing or chasing a person or animal; a dog that first
+  went after officers on a call about something else keeps that call's code.
+  (Added 2026-10-19; existing rows recoded by hand.)
 - `officer_named` — an individual officer's name is stored **only** when the source
   attributes it to an official record (charging document, lawsuit, department
   statement, disciplinary record). Otherwise blank. The agency is always named.

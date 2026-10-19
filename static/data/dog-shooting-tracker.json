@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:40:09Z",
+  "generated_at": "2026-10-19T13:27:52Z",
   "total_incidents": 70,
   "reviewed_count": 70,
   "total_sources": 207,
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 70,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 291
+    "as_of_day_of_year": 292
   },
   "yearly_counts": [
     {
@@ -44,12 +44,12 @@
   ],
   "circumstance_breakdown": [
     {
-      "label": "other",
-      "count": 22
+      "label": "dog attack/bite call",
+      "count": 32
     },
     {
       "label": "unrelated call response",
-      "count": 18
+      "count": 15
     },
     {
       "label": "warrant service",
@@ -57,10 +57,6 @@
     },
     {
       "label": "welfare check",
-      "count": 7
-    },
-    {
-      "label": "loose/roaming dog",
       "count": 6
     },
     {
@@ -69,10 +65,14 @@
     },
     {
       "label": "unknown",
-      "count": 3
+      "count": 2
     },
     {
       "label": "pursuit",
+      "count": 1
+    },
+    {
+      "label": "loose/roaming dog",
       "count": 1
     },
     {
@@ -291,7 +291,7 @@
       "city": "Laredo",
       "state": "TX",
       "agency_name": "Laredo Police Department",
-      "circumstance": "other",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "injured-survived",
       "dog_targeted": "yes",
       "human_injured_by_fire": "no",
@@ -314,7 +314,7 @@
       "city": "Warrior",
       "state": "AL",
       "agency_name": "Warrior Police Department",
-      "circumstance": "other",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "no",
@@ -333,7 +333,7 @@
       "city": "Fresno",
       "state": "CA",
       "agency_name": "Fresno Police Department",
-      "circumstance": "other",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "no",
@@ -381,7 +381,7 @@
       "city": "Newark",
       "state": "NJ",
       "agency_name": "Newark Police Department",
-      "circumstance": "other",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "injured-survived",
       "dog_targeted": "yes",
       "human_injured_by_fire": "unknown",
@@ -427,7 +427,7 @@
       "city": "Sayreville",
       "state": "NJ",
       "agency_name": "Sayreville Police Department",
-      "circumstance": "unrelated call response",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "unknown",
@@ -518,7 +518,7 @@
       "city": "Princess Anne",
       "state": "MD",
       "agency_name": "Somerset County Sheriff's Office",
-      "circumstance": "loose/roaming dog",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "no",
@@ -641,7 +641,7 @@
       "city": "Charlotte",
       "state": "NC",
       "agency_name": "Sheriff's Office",
-      "circumstance": "loose/roaming dog",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "unknown",
       "dog_targeted": "yes",
       "human_injured_by_fire": "unknown",
@@ -710,7 +710,7 @@
       "city": "Waterloo",
       "state": "IA",
       "agency_name": "Waterloo Police Department",
-      "circumstance": "other",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "no",
@@ -782,7 +782,7 @@
       "city": "Allentown",
       "state": "PA",
       "agency_name": "Allentown Police Department",
-      "circumstance": "loose/roaming dog",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "unknown",
@@ -844,7 +844,7 @@
       "city": "Chicago",
       "state": "IL",
       "agency_name": "Chicago Police Department",
-      "circumstance": "other",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "unknown",
       "dog_targeted": "yes",
       "human_injured_by_fire": "no",
@@ -866,7 +866,7 @@
       "city": "Baltimore",
       "state": "MD",
       "agency_name": "Baltimore Police Department",
-      "circumstance": "other",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "no",
@@ -885,7 +885,7 @@
       "city": "Kalaeloa",
       "state": "HI",
       "agency_name": "Honolulu Police Department",
-      "circumstance": "other",
+      "circumstance": "unrelated call response",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "unknown",
@@ -931,7 +931,7 @@
       "city": "Lancaster",
       "state": "CA",
       "agency_name": "Los Angeles County Sheriff's Department",
-      "circumstance": "other",
+      "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "no",

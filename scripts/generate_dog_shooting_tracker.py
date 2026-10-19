@@ -86,7 +86,7 @@ PUBLISHED_CSV = "static/data/dog-shootings.csv"
 MODEL = "claude-haiku-4-5"
 # Bump when the classification prompt / schema changes materially, so rows can
 # be traced to the logic that produced them.
-PROMPT_VERSION = "2026-09-24.2"
+PROMPT_VERSION = "2026-10-19"
 
 DEFAULT_DAYS_BACK = 3
 DEFAULT_ARTICLE_LIMIT = 60  # max NEW articles classified in one run (cost guard)
@@ -136,9 +136,26 @@ DOG_OUTCOMES = [
 ]
 CIRCUMSTANCES = [
     "welfare check", "warrant service", "wrong address", "traffic stop",
-    "loose/roaming dog", "unrelated call response", "pursuit", "domestic call",
-    "noise complaint", "other", "unknown",
+    "dog attack/bite call", "loose/roaming dog", "unrelated call response", "pursuit",
+    "domestic call", "noise complaint", "other", "unknown",
 ]
+# Added 2026-10-19: "other" had become mostly attack calls (22 of 70 rows).
+# Coded on what officers knew as they approached -- the call's content, or for
+# self-initiated activity what they saw -- not on what the dog did to them.
+CIRCUMSTANCE_DESCRIPTION = (
+    "Code what officers knew AS THEY APPROACHED: the content of the call, or for "
+    "self-initiated activity what they saw. 'dog attack/bite call' = the call "
+    "reported, or officers saw, a dog biting, attacking, menacing or chasing a "
+    "person or another animal (e.g. 'dog attacking a woman', 'pit bull bit a man', "
+    "'dogs fighting', 'a dog chased a child into his home', 'my neighbor may have "
+    "been bitten, please check on him'). This OVERRIDES the call's label: a welfare "
+    "check, or any other call, whose report mentions a dog biting, attacking, "
+    "menacing or chasing someone is a 'dog attack/bite call'; a welfare check with "
+    "no such report stays 'welfare check'. A dog that first went after the officers "
+    "during a call about something else is NOT an attack call: code that call "
+    "(welfare check, warrant service, unrelated call response, ...). "
+    "'loose/roaming dog' = a loose dog reported with no biting, attacking or chasing."
+)
 DATE_PRECISIONS = ["day", "month", "approximate", "unknown"]
 
 # Every enum field, mapped to (allowed values, fallback). The classify tool
@@ -615,7 +632,7 @@ CLASSIFY_TOOL = {
             "dog_outcome": {"type": "string", "enum": DOG_OUTCOMES},
             "dog_breed_reported": {"type": "string"},
             "dog_restrained": {"type": "string", "enum": ["yes", "no", "unknown"]},
-            "circumstance": {"type": "string", "enum": CIRCUMSTANCES},
+            "circumstance": {"type": "string", "enum": CIRCUMSTANCES, "description": CIRCUMSTANCE_DESCRIPTION},
             "warrant_type": {
                 "type": "string",
                 "enum": ["search warrant", "arrest warrant", "no-knock", "none", "unknown"],
