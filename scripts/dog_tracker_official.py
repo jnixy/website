@@ -5,7 +5,8 @@ Some departments publish their own incident-level lists of officer-involved
 shootings, and a few include shootings at dogs. Media discovery misses many of
 these (on 2026-09-24: LAPD 4 of 4 dog shootings were media-covered, Philadelphia
 PD 0 of 4), so they are cross-checked here. DC's letters say only "animal",
-so they confirm existing rows but never add one (`match_only`).
+so they confirm existing rows but never add one (`match_only`). Cincinnati's
+records come from its Citizen Complaint Authority and lag by months.
 
 This module only FETCHES and PARSES. It makes no LLM calls and does not touch
 the CSV; generate_dog_shooting_tracker.py classifies each record with the same
@@ -31,6 +32,7 @@ see datasets/dog-shootings-official-staging.csv and the README.
 import html as _html
 import re
 from datetime import datetime
+from urllib.parse import urlencode
 
 # Only incidents on/after this date are in scope (the tracker is 2026-only;
 # the Philadelphia index also lists earlier years).
@@ -217,6 +219,64 @@ def parse_spd(page_json):
 
 
 # --------------------------------------------------------------------------- #
+# Cincinnati Police Department (Citizen Complaint Authority)
+# --------------------------------------------------------------------------- #
+# CPD's own use-of-force dataset leaves out animals, but the CCA investigates
+# every firearm discharge and publishes its closed cases on Socrata with
+# case_severity_category "SHOTS FIRED - DOG". One row per allegation/officer, so
+# a case repeats; we keep one record per unique_case_number. Cases appear only
+# once CCA closes them, 3-12 months after the shooting -- a lagged check, not a
+# live feed. There is no narrative, so the record text is built from the fields.
+
+CINCY_CCA_URL = (
+    "https://data.cincinnati-oh.gov/resource/ii65-eyg6.json?"
+    + urlencode({
+        "$where": f"case_severity_category = 'SHOTS FIRED - DOG' AND incident_date_time >= '{TRACKING_START}'",
+        "$order": "incident_date_time",
+        "$limit": "1000",
+    })
+)
+
+
+def parse_cincinnati(page_json):
+    import json
+    try:
+        rows = json.loads(page_json)
+    except ValueError:
+        print("  !! cincinnati: CCA dataset did not return JSON -- API changed?")
+        return []
+    if isinstance(rows, dict):  # Socrata error object, e.g. a renamed column
+        print(f"  !! cincinnati: CCA query failed: {rows.get('message', rows)}")
+        return []
+    cases = {}
+    for r in rows:
+        case = (r.get("unique_case_number") or "").strip()
+        if case:
+            cases.setdefault(case, []).append(r)
+    out = []
+    for case, rs in cases.items():
+        r = rs[0]
+        date = (r.get("incident_date_time") or "")[:10]
+        hood = re.sub(r"\s+", " ", r.get("cpd_neighborhood") or "").title()
+        place = ", ".join(x for x in (r.get("address_x"), hood) if x and x != "N/A")
+        off_duty = "off-duty" if any((x.get("officer_off_duty") or "").upper() == "YES" for x in rs) else "on-duty"
+        findings = sorted({f"{x.get('allegation_description', '').lower()}: {x.get('allegation_finding', '').lower()}"
+                           for x in rs if x.get("allegation_description")})
+        out.append({
+            "official_ref": f"CCA {case}",
+            "incident_date": date,
+            "location": place,
+            "url": f"https://data.cincinnati-oh.gov/resource/ii65-eyg6.json?unique_case_number={case}",
+            "text": (f"Cincinnati Citizen Complaint Authority closed case {case}, case category "
+                     f"'SHOTS FIRED - DOG': {len(rs)} allegation record(s) concerning {off_duty} "
+                     f"Cincinnati Police Department officer(s) who fired a gun at a dog on {date} at {place}. "
+                     f"Allegations and CCA findings: {'; '.join(findings) or 'not listed'}. "
+                     f"The record does not say whether the dog was hit."),
+        })
+    return out
+
+
+# --------------------------------------------------------------------------- #
 # Registry
 # --------------------------------------------------------------------------- #
 # Optional keys: `url` may be a list (paginated index; pages are concatenated),
@@ -264,6 +324,15 @@ OFFICIAL_SOURCES = [
                 f"&after={TRACKING_START}T00:00:00&per_page=100&_fields=id,date,link,title,content"),
         "parser": parse_spd,
         "empty_ok": True,  # most weeks no 2026 post mentions a dog being shot
+    },
+    {
+        "key": "cincinnati",
+        "agency_name": "Cincinnati Police Department",
+        "city": "Cincinnati",
+        "state": "OH",
+        "url": CINCY_CCA_URL,
+        "parser": parse_cincinnati,
+        "empty_ok": True,  # closed cases only; months pass with none
     },
 ]
 

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T13:55:37Z",
-  "total_incidents": 70,
-  "reviewed_count": 70,
-  "total_sources": 207,
+  "generated_at": "2026-10-19T18:26:53Z",
+  "total_incidents": 71,
+  "reviewed_count": 71,
+  "total_sources": 209,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-10-14"
@@ -10,20 +10,20 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 70,
+    "current_year_to_date": 71,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 292
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 70
+      "count": 71
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 48
+      "count": 49
     },
     {
       "label": "injured-survived",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 32
+      "count": 33
     },
     {
       "label": "unrelated call response",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 50
+      "count": 51
     },
     {
       "label": "county SO",
@@ -116,13 +116,13 @@
       "count": 5
     },
     {
-      "state": "TX",
-      "name": "Texas",
-      "count": 4
-    },
-    {
       "state": "NY",
       "name": "New York",
+      "count": 5
+    },
+    {
+      "state": "TX",
+      "name": "Texas",
       "count": 4
     },
     {
@@ -228,7 +228,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 60,
+    "media": 61,
     "official": 5,
     "both": 5
   },
@@ -657,6 +657,27 @@
       "reviewed": true
     },
     {
+      "incident_date": "2026-08-26",
+      "date_precision": "day",
+      "city": "Hempstead",
+      "state": "NY",
+      "agency_name": "Hempstead Police Department",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "killed",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "no",
+      "summary": "Hempstead (village) officers responded around 1 p.m. to a report of a loose, aggressive dog in Kennedy Memorial Park and found it attacking people near a playground; an officer shot and killed it to stop further injuries. At least two people bitten by the dog were hospitalized. The owner said the 6-year-old Belgian shepherd, a trained guard dog, got out when landscapers left a gate open.",
+      "source_url": "https://longisland.news12.com/dog-fatally-shot-by-hempstead-police-after-attacking-multiple-people-in-park",
+      "source_name": "News12 Long Island",
+      "additional_sources": [
+        "https://hudsonvalley.news12.com/2026/08/27/dog-fatally-shot-by-hempstead-police-after-attacking-multiple-people-in-park/zDBvcuoO3rPt6IGxExMHG"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": true
+    },
+    {
       "incident_date": "2026-08-25",
       "date_precision": "day",
       "city": "Palm Beach",
@@ -919,28 +940,6 @@
         "https://www.arkansasonline.com/news/2026/jul/19/little-rock-police-officer-fatally-shoots-dog/",
         "https://www.kark.com/news/local-news/locals-react-after-little-rock-police-release-dashboard-body-cam-video-showing-officer-shooting-dog/",
         "https://www.thv11.com/video/news/local/little-rock/review-underway-after-little-rock-police-officer-shoots-dog/91-4cb048e1-7c4a-4093-a3bd-68b2b66f9448"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-07-20",
-      "date_precision": "day",
-      "city": "Lancaster",
-      "state": "CA",
-      "agency_name": "Los Angeles County Sheriff's Department",
-      "circumstance": "dog attack/bite call",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "An LA County Sheriff's Deputy shot and killed a pit bull that was attacking an unresponsive man in a locked front yard in Lancaster. The deputy attempted commands before firing; the victim was taken to a hospital in stable condition.",
-      "source_url": "https://www.cbsnews.com/losangeles/news/la-county-deputy-kills-dog-attacking-a-man-in-a-lancaster-yard/",
-      "source_name": "CBS News",
-      "additional_sources": [
-        "https://www.nbclosangeles.com/news/local/deputy-shoots-kills-dog-lancaster-attack/3919706/",
-        "https://patch.com/california/los-angeles/deputy-kills-dog-during-attack-la-county-sheriff"
       ],
       "discovery": "media",
       "official_url": "",
