@@ -8,7 +8,8 @@ front-end component (static/js/news-feed.js).
 
 Discovery sources:
   - OpenAlex (primary) -- title/abstract search, reconstructable abstracts,
-    reliable publication dates. Free, no key; polite pool via mailto.
+    reliable publication dates. Free key (OPENALEX_API_KEY) strongly advised:
+    keyless requests share a $0.10/day per-IP budget.
   - PubMed E-utilities (backup) -- esearch + efetch for medical/public-health
     coverage. efetch (not esummary) so abstracts come back populated.
 
@@ -279,7 +280,7 @@ def get_with_retry(url, params=None, headers=None, max_attempts=4):
 
 def fetch_openalex(query, days_back=DAYS_BACK):
     """
-    Fetch articles from OpenAlex (free, no key required; polite pool via mailto).
+    Fetch articles from OpenAlex (free key via OPENALEX_API_KEY; see params below).
     Docs: https://docs.openalex.org
 
     Uses the title_and_abstract.search filter (topical match) plus a bounded
@@ -306,6 +307,12 @@ def fetch_openalex(query, days_back=DAYS_BACK):
         'mailto': CONTACT_EMAIL,
         'cursor': '*',
     }
+    # Since 2026, keyless requests share one $0.10/day budget per IP -- on
+    # GitHub Actions' shared runners that ran out and returned 401 (2026-10-19).
+    # A free key gets its own $1/day; mailto no longer raises the limit.
+    api_key = os.environ.get('OPENALEX_API_KEY', '').strip()
+    if api_key:
+        params['api_key'] = api_key
 
     results = []
     for _ in range(OPENALEX_MAX_PAGES):

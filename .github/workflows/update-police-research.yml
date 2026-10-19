@@ -25,6 +25,10 @@ jobs:
         pip install -r requirements.txt
 
     - name: Generate research feed
+      env:
+        # Free key from https://openalex.org/settings/api. Without it, requests
+        # share a $0.10/day per-IP budget that runner IPs exhaust (401s).
+        OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
       run: |
         python scripts/generate_police_shooting_research.py
 
