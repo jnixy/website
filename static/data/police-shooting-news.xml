@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Oct 2026 12:54:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 11:23:45 +0000</lastBuildDate>
+    <item>
+      <title>Family , friends demand answers a month after Charlotte - Mecklenburg police officer fatally shot Curtis Massey</title>
+      <link>https://www.wbtv.com/2026/10/18/family-friends-man-killed-by-charlotte-mecklenburg-police-demand-answers/</link>
+      <description/>
+      <pubDate>Sun, 18 Oct 2026 20:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wbtv.com</source>
+    </item>
     <item>
       <title>Man reportedly armed with knife shot by police in Tolleson</title>
       <link>https://www.azfamily.com/2026/10/18/man-reportedly-armed-with-knife-shot-by-officers-tolleson/</link>
@@ -96,11 +104,11 @@
     </item>
     <item>
       <title>Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault</title>
-      <link>https://www.durangoherald.com/articles/associated-press/judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
+      <link>https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
       <description/>
-      <pubDate>Thu, 01 Oct 2026 01:45:00 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>durangoherald.com</source>
+      <source>wral.com</source>
     </item>
     <item>
       <title>Venezuelan delivery driver shot by federal agent in Texas to remain in custody</title>
@@ -397,14 +405,6 @@
       <pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
       <category>incident</category>
       <source>lasvegassun.com</source>
-    </item>
-    <item>
-      <title>Ontario , Canada : Police officer shot outside synagogue on Yom Kippur</title>
-      <link>https://us.cnn.com/2026/09/21/world/police-officer-shot-synagogue-yom-kippur-ontario-hnk</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 06:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>us.cnn.com</source>
     </item>
   </channel>
 </rss>

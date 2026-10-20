@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-10-19T12:54:27Z",
+  "generated_at": "2026-10-20T11:23:45Z",
   "stories": [
+    {
+      "title": "Family , friends demand answers a month after Charlotte - Mecklenburg police officer fatally shot Curtis Massey",
+      "url": "https://www.wbtv.com/2026/10/18/family-friends-man-killed-by-charlotte-mecklenburg-police-demand-answers/",
+      "description": "",
+      "date": "2026-10-18T20:45:00Z",
+      "source": "wbtv.com",
+      "category": "incident"
+    },
     {
       "title": "Man reportedly armed with knife shot by police in Tolleson",
       "url": "https://www.azfamily.com/2026/10/18/man-reportedly-armed-with-knife-shot-by-officers-tolleson/",
@@ -91,10 +99,10 @@
     },
     {
       "title": "Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault",
-      "url": "https://www.durangoherald.com/articles/associated-press/judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/",
+      "url": "https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/",
       "description": "",
-      "date": "2026-10-01T01:45:00Z",
-      "source": "durangoherald.com",
+      "date": "2026-10-01T00:45:00Z",
+      "source": "wral.com",
       "category": "incident"
     },
     {
@@ -562,14 +570,6 @@
       "category": "incident"
     },
     {
-      "title": "ICE agent shoots and wounds man in Austin , Texas , officials say",
-      "url": "https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say",
-      "description": "",
-      "date": "2026-09-21T02:30:00Z",
-      "source": "ksl.com",
-      "category": "incident"
-    },
-    {
       "title": "ICE Agent Shoots Man In Austin | NewsRadio 560 WHYN",
       "url": "https://whyn.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/",
       "description": "",
@@ -618,6 +618,14 @@
       "category": "incident"
     },
     {
+      "title": "ICE agent shoots and wounds man in Austin , Texas , officials say",
+      "url": "https://www.ksl.com:443/article/51626394/ice-agent-shoots-and-wounds-man-in-austin-texas-officials-say",
+      "description": "",
+      "date": "2026-09-21T02:30:00Z",
+      "source": "ksl.com",
+      "category": "incident"
+    },
+    {
       "title": "ICE officer shoots and wounds man in Austin , Texas , officials say - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
       "url": "https://dominicanrepublicpost.com/ice-officer-shoots-and-wounds-man-in-austin-texas-officials-say/",
       "description": "",
@@ -650,14 +658,6 @@
       "category": "incident"
     },
     {
-      "title": "ICE agent shoots , wounds man in Austin , Texas",
-      "url": "https://www.wmtw.com/article/ice-agent-shooting-north-austin-texas/73813943",
-      "description": "",
-      "date": "2026-09-21T00:30:00Z",
-      "source": "wmtw.com",
-      "category": "incident"
-    },
-    {
       "title": "ICE Agent Shoots Man In Austin | NewsRadio 570 WKBN",
       "url": "https://570wkbn.iheart.com/content/2026-09-20-ice-agent-shoots-man-in-austin/",
       "description": "",
@@ -679,6 +679,14 @@
       "description": "",
       "date": "2026-09-21T00:30:00Z",
       "source": "kfyi.iheart.com",
+      "category": "incident"
+    },
+    {
+      "title": "ICE agent shoots , wounds man in Austin , Texas",
+      "url": "https://www.wmtw.com/article/ice-agent-shooting-north-austin-texas/73813943",
+      "description": "",
+      "date": "2026-09-21T00:30:00Z",
+      "source": "wmtw.com",
       "category": "incident"
     },
     {
