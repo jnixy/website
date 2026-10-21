@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2026 11:23:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 11:38:57 +0000</lastBuildDate>
+    <item>
+      <title>Off - duty ICE agent shot by Fresno homeowner granted bond , allowed to return to Texas</title>
+      <link>https://abc30.com/story/off-duty-ice-agent-shot-fresno-homeowner-granted-bond-allowed-return-texas/19962311/</link>
+      <description/>
+      <pubDate>Wed, 21 Oct 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc30.com</source>
+    </item>
+    <item>
+      <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
+      <link>https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/</link>
+      <description/>
+      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcwashington.com</source>
+    </item>
     <item>
       <title>Family , friends demand answers a month after Charlotte - Mecklenburg police officer fatally shot Curtis Massey</title>
       <link>https://www.wbtv.com/2026/10/18/family-friends-man-killed-by-charlotte-mecklenburg-police-demand-answers/</link>
@@ -104,11 +120,11 @@
     </item>
     <item>
       <title>Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault</title>
-      <link>https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
+      <link>https://www.durangoherald.com/articles/associated-press/judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
       <description/>
-      <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2026 01:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>wral.com</source>
+      <source>durangoherald.com</source>
     </item>
     <item>
       <title>Venezuelan delivery driver shot by federal agent in Texas to remain in custody</title>
@@ -389,22 +405,6 @@
       <pubDate>Mon, 21 Sep 2026 17:15:00 +0000</pubDate>
       <category>incident</category>
       <source>news4sanantonio.com</source>
-    </item>
-    <item>
-      <title>ICE Officer Shoots DoorDash Driver in Austin , Texas , Lawyer Says</title>
-      <link>https://www.today.com/food/news/ice-shooting-doordash-driver-austin-texas-rcna599023</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 16:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>today.com</source>
-    </item>
-    <item>
-      <title>ICE agent shoots and wounds man in Austin , Texas , officials say - Las Vegas Sun News</title>
-      <link>https://lasvegassun.com/news/2026/sep/20/ice-agent-shoots-and-wounds-man-in-austin-texas-of/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 08:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>lasvegassun.com</source>
     </item>
   </channel>
 </rss>
