@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T12:05:06Z",
-  "total_incidents": 71,
+  "generated_at": "2026-10-21T12:20:17Z",
+  "total_incidents": 72,
   "reviewed_count": 71,
-  "total_sources": 210,
+  "total_sources": 212,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-10-14"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 71,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 293
+    "as_of_day_of_year": 294
   },
   "yearly_counts": [
     {
@@ -27,7 +27,7 @@
     },
     {
       "label": "injured-survived",
-      "count": 11
+      "count": 12
     },
     {
       "label": "unknown",
@@ -53,7 +53,7 @@
     },
     {
       "label": "warrant service",
-      "count": 7
+      "count": 8
     },
     {
       "label": "welfare check",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 51
+      "count": 52
     },
     {
       "label": "county SO",
@@ -224,11 +224,16 @@
       "state": "AL",
       "name": "Alabama",
       "count": 1
+    },
+    {
+      "state": "IN",
+      "name": "Indiana",
+      "count": 1
     }
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 61,
+    "media": 62,
     "official": 5,
     "both": 5
   },
