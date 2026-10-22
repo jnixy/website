@@ -5,7 +5,31 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Oct 2026 11:38:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 11:38:55 +0000</lastBuildDate>
+    <item>
+      <title>License plates honoring fallen Yarmouth officer killed in 2018 shooting have arrived</title>
+      <link>https://turnto10.com/news/local/license-plates-honoring-fallen-yarmouth-officer-killed-in-2018-shooting-have-arrived-sergeant-sean-gannon-massachusetts-police-officer-oct-21-2026</link>
+      <description/>
+      <pubDate>Wed, 21 Oct 2026 23:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>turnto10.com</source>
+    </item>
+    <item>
+      <title>Van Zandt County deputy killed , Canton officer hurt in shootout ; suspect dead</title>
+      <link>https://www.kbtx.com/2026/10/21/van-zandt-county-deputy-killed-canton-officer-hurt-shootout-suspect-dead/</link>
+      <description/>
+      <pubDate>Wed, 21 Oct 2026 18:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kbtx.com</source>
+    </item>
+    <item>
+      <title>Van Zandt County deputy killed , Canton officer injured in shootout</title>
+      <link>https://www.fox4news.com/news/van-zandt-county-deputy-killed-canton-officer-injured-shootout</link>
+      <description/>
+      <pubDate>Wed, 21 Oct 2026 13:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox4news.com</source>
+    </item>
     <item>
       <title>Off - duty ICE agent shot by Fresno homeowner granted bond , allowed to return to Texas</title>
       <link>https://abc30.com/story/off-duty-ice-agent-shot-fresno-homeowner-granted-bond-allowed-return-texas/19962311/</link>
@@ -13,6 +37,14 @@
       <pubDate>Wed, 21 Oct 2026 02:15:00 +0000</pubDate>
       <category>incident</category>
       <source>abc30.com</source>
+    </item>
+    <item>
+      <title>Police shooting that killed a 1 - year - old was justified , Mississippi AG says</title>
+      <link>https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148</link>
+      <description/>
+      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
     </item>
     <item>
       <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
@@ -373,38 +405,6 @@
       <pubDate>Mon, 21 Sep 2026 22:30:00 +0000</pubDate>
       <category>incident</category>
       <source>tpr.org</source>
-    </item>
-    <item>
-      <title>Ormond Police Officer Shot at AdventHealth Daytona Beach</title>
-      <link>https://1033wvyb.com/ormond-police-officer-shot-at-adventhealth-daytona-beach/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 22:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>1033wvyb.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE moved from hospital to detention center  with a bullet in his back , lawyer tells CNN | U . S . News</title>
-      <link>https://www.kten.com/news/national/man-shot-by-ice-moved-from-hospital-to-detention-center-with-a-bullet-in-his/article_d26da066-3f60-5d9f-8d3e-868082eaf626.html</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 19:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kten.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE is detained in Texas with a bullet still in his back</title>
-      <link>https://www.sun-sentinel.com/2026/09/21/ice-shooting-austin/</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 19:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>sun-sentinel.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE agent in Austin now held at Pearsall detention facility , sources say</title>
-      <link>https://news4sanantonio.com/news/local/man-shot-by-ice-agent-in-austin-now-held-at-pearsall-detention-facility-sources-say</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 17:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>news4sanantonio.com</source>
     </item>
   </channel>
 </rss>
