@@ -1,53 +1,53 @@
 {
-  "generated_at": "2026-10-19T14:08:12Z",
-  "source": "Mapping Police Violence (mappingpoliceviolence.us)",
-  "source_last_incident_date": "2026-08-18",
+  "generated_at": "2026-10-22T09:59:45Z",
+  "source": "Mapping Police Violence (mappingpoliceviolence.org)",
+  "source_last_incident_date": "2026-10-10",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
   "stats": {
-    "total_incidents": 14832,
+    "total_incidents": 14982,
     "current_year": 2026,
     "prior_year": 2025,
-    "as_of_date": "2026-08-18",
+    "as_of_date": "2026-10-08",
     "lag_days": 14,
-    "current_year_to_date": 697,
-    "prior_year_same_point": 759
+    "current_year_to_date": 880,
+    "prior_year_same_point": 927
   },
   "yearly_counts": [
     {
       "year": 2013,
-      "count": 1020
+      "count": 1012
     },
     {
       "year": 2014,
-      "count": 988
+      "count": 974
     },
     {
       "year": 2015,
-      "count": 1028
+      "count": 1025
     },
     {
       "year": 2016,
-      "count": 1011
+      "count": 1009
     },
     {
       "year": 2017,
-      "count": 1044
+      "count": 1041
     },
     {
       "year": 2018,
-      "count": 1094
+      "count": 1098
     },
     {
       "year": 2019,
-      "count": 1049
+      "count": 1047
     },
     {
       "year": 2020,
-      "count": 1102
+      "count": 1082
     },
     {
       "year": 2021,
-      "count": 1103
+      "count": 1104
     },
     {
       "year": 2022,
@@ -55,19 +55,19 @@
     },
     {
       "year": 2023,
-      "count": 1196
+      "count": 1193
     },
     {
       "year": 2024,
-      "count": 1210
+      "count": 1213
     },
     {
       "year": 2025,
-      "count": 1131
+      "count": 1139
     },
     {
       "year": 2026,
-      "count": 697
+      "count": 886
     }
   ],
   "cumulative_trajectory": {
@@ -90,32 +90,32 @@
         "year": 2021,
         "cumulative_by_month": [
           82,
-          182,
-          271,
-          361,
-          452,
-          568,
+          183,
+          272,
+          362,
+          453,
+          570,
           644,
-          744,
-          828,
-          931,
-          1008,
-          1103
+          745,
+          830,
+          930,
+          1010,
+          1104
         ]
       },
       {
         "year": 2022,
         "cumulative_by_month": [
-          87,
-          182,
-          288,
-          385,
-          481,
-          580,
-          684,
-          768,
-          872,
-          965,
+          88,
+          186,
+          292,
+          388,
+          482,
+          581,
+          686,
+          772,
+          875,
+          964,
           1061,
           1159
         ]
@@ -124,66 +124,66 @@
         "year": 2023,
         "cumulative_by_month": [
           108,
-          194,
+          193,
           284,
-          381,
-          480,
-          573,
-          671,
-          788,
-          883,
-          980,
-          1076,
-          1196
+          382,
+          479,
+          571,
+          667,
+          792,
+          884,
+          979,
+          1078,
+          1193
         ]
       },
       {
         "year": 2024,
         "cumulative_by_month": [
-          90,
-          169,
-          281,
-          383,
-          512,
-          623,
-          727,
-          829,
-          916,
-          1020,
-          1109,
-          1210
+          88,
+          168,
+          279,
+          379,
+          506,
+          620,
+          725,
+          830,
+          920,
+          1023,
+          1113,
+          1213
         ]
       },
       {
         "year": 2025,
         "cumulative_by_month": [
           107,
-          198,
-          289,
-          386,
-          490,
-          591,
-          697,
-          795,
-          888,
-          966,
-          1043,
-          1131
+          201,
+          295,
+          390,
+          494,
+          599,
+          706,
+          805,
+          899,
+          975,
+          1053,
+          1139
         ]
       },
       {
         "year": 2026,
         "cumulative_by_month": [
-          83,
-          173,
-          268,
-          372,
-          483,
-          572,
-          647,
-          697,
-          null,
-          null,
+          85,
+          179,
+          281,
+          386,
+          500,
+          596,
+          682,
+          782,
+          861,
+          886,
           null,
           null
         ]
@@ -204,28 +204,28 @@
     "counts": [
       [
         0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
         2,
-        5,
+        1,
+        1,
+        1,
+        1,
         2,
         3,
+        5,
+        3,
+        5,
+        2,
         2,
         3,
-        2,
         4,
         5,
         3,
-        2,
-        4,
+        3,
+        6,
         4,
         3,
         5,
-        1,
+        2,
         2,
         2,
         1,
@@ -233,17 +233,17 @@
         0,
         2,
         1,
-        2,
+        1,
         5,
+        2,
+        2,
+        7,
         4,
+        3,
+        3,
+        3,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        2,
         0,
         0,
         0,
@@ -263,41 +263,41 @@
         3,
         3,
         0,
+        6,
+        5,
+        2,
+        5,
+        5,
+        7,
+        3,
+        4,
+        6,
+        6,
+        3,
+        5,
+        2,
+        2,
+        6,
+        2,
+        3,
+        4,
+        0,
+        5,
+        4,
+        0,
+        7,
+        1,
+        5,
+        0,
+        3,
+        3,
+        3,
+        3,
+        2,
+        4,
         7,
         5,
-        3,
-        4,
-        5,
-        6,
-        3,
-        2,
-        6,
-        6,
-        3,
-        3,
-        2,
-        2,
-        6,
-        2,
-        3,
-        4,
-        0,
-        5,
-        4,
-        0,
-        5,
         1,
-        4,
-        0,
-        3,
-        3,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -314,46 +314,46 @@
       ],
       [
         0,
-        6,
+        7,
         3,
         6,
         5,
-        2,
-        4,
         3,
+        4,
+        4,
         4,
         3,
         6,
-        2,
+        4,
         4,
         7,
         7,
         4,
         4,
         5,
-        7,
+        6,
         1,
-        4,
+        5,
         2,
-        4,
-        2,
+        5,
+        3,
         2,
         3,
+        2,
+        4,
+        2,
+        4,
+        4,
+        2,
         1,
-        4,
-        3,
-        4,
-        3,
+        0,
         2,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        4,
+        6,
+        2,
+        2,
+        1,
+        1,
         0,
         0,
         0,
@@ -368,18 +368,18 @@
         0
       ],
       [
-        3,
+        4,
         4,
         2,
         8,
         1,
         3,
-        1,
+        3,
         5,
-        1,
+        2,
         2,
         4,
-        7,
+        3,
         2,
         3,
         4,
@@ -387,28 +387,28 @@
         1,
         0,
         4,
-        7,
+        8,
         1,
         4,
+        3,
         4,
-        4,
-        1,
+        3,
         5,
         3,
         1,
-        2,
-        2,
+        4,
+        3,
         1,
         7,
+        4,
+        1,
+        4,
+        4,
+        1,
+        4,
+        1,
         2,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        2,
         0,
         0,
         0,
@@ -424,22 +424,22 @@
       ],
       [
         3,
-        3,
+        2,
         1,
         2,
+        2,
         3,
-        3,
-        4,
+        2,
         3,
         3,
         0,
         4,
-        2,
-        6,
+        4,
+        7,
         3,
         5,
         1,
-        1,
+        2,
         3,
         4,
         2,
@@ -447,23 +447,23 @@
         6,
         5,
         4,
+        5,
+        5,
+        4,
+        4,
         3,
+        7,
         4,
-        4,
+        1,
+        2,
+        5,
         4,
         3,
-        6,
-        3,
-        0,
+        1,
+        2,
+        5,
         4,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        3,
         0,
         0,
         0,
@@ -481,20 +481,20 @@
         0,
         2,
         1,
-        2,
-        2,
+        3,
+        3,
         5,
-        5,
+        4,
         1,
-        1,
+        2,
         1,
         0,
         2,
-        2,
-        4,
-        4,
-        4,
+        1,
         3,
+        3,
+        5,
+        2,
         6,
         3,
         5,
@@ -502,23 +502,23 @@
         3,
         3,
         3,
-        3,
+        2,
         4,
         1,
         3,
         0,
         1,
         4,
+        6,
+        5,
+        2,
+        4,
+        2,
+        1,
+        2,
+        1,
         4,
         3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -536,43 +536,43 @@
         2,
         4,
         2,
-        3,
         2,
-        7,
-        1,
-        4,
-        4,
         2,
-        3,
-        3,
-        2,
-        0,
-        7,
-        3,
-        3,
-        1,
-        5,
-        3,
-        2,
-        1,
-        4,
-        2,
-        1,
-        5,
         6,
-        1,
         2,
-        2,
-        0,
-        3,
         4,
+        3,
+        2,
+        4,
+        3,
+        3,
         0,
+        6,
+        3,
+        3,
+        1,
+        5,
+        3,
+        2,
+        1,
+        4,
+        2,
+        2,
+        5,
+        7,
+        2,
+        3,
+        2,
         0,
+        2,
+        5,
+        4,
+        3,
+        2,
         0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        5,
+        4,
         0,
         0,
         0,
@@ -642,173 +642,165 @@
   "race_breakdown": [
     {
       "label": "White",
-      "count": 6510
+      "count": 6916
     },
     {
       "label": "Black",
-      "count": 3656
+      "count": 3779
     },
     {
       "label": "Hispanic",
-      "count": 2702
+      "count": 2715
     },
     {
       "label": "Unknown",
-      "count": 1372
+      "count": 1014
     },
     {
       "label": "Asian",
-      "count": 279
+      "count": 234
     },
     {
       "label": "Native American",
-      "count": 213
+      "count": 231
     },
     {
       "label": "Pacific Islander",
-      "count": 58
-    },
-    {
-      "label": "Multiracial",
-      "count": 42
+      "count": 93
     }
   ],
   "armed_status_breakdown": [
     {
       "label": "Allegedly Armed",
-      "count": 11515
-    },
-    {
-      "label": "Unarmed",
-      "count": 1531
+      "count": 11242
     },
     {
       "label": "Unclear/Unknown",
-      "count": 977
+      "count": 1644
+    },
+    {
+      "label": "Unarmed",
+      "count": 1328
     },
     {
       "label": "Vehicle",
-      "count": 809
+      "count": 768
     }
   ],
   "encounter_breakdown": [
     {
-      "label": "Not Reported",
-      "count": 4047
-    },
-    {
       "label": "Part 1 Violent Crime",
-      "count": 2656
-    },
-    {
-      "label": "Other",
-      "count": 1801
-    },
-    {
-      "label": "Other Non-Violent Offense",
-      "count": 1788
-    },
-    {
-      "label": "Domestic Disturbance",
-      "count": 973
-    },
-    {
-      "label": "Mental Health/Welfare Check",
-      "count": 961
-    },
-    {
-      "label": "Traffic Stop",
-      "count": 950
+      "count": 4224
     },
     {
       "label": "Person With A Weapon",
-      "count": 842
+      "count": 2816
     },
     {
-      "label": "None/Unknown",
-      "count": 814
+      "label": "Other Non-Violent Offense",
+      "count": 2180
+    },
+    {
+      "label": "Traffic Stop",
+      "count": 1590
+    },
+    {
+      "label": "Domestic Disturbance",
+      "count": 1243
+    },
+    {
+      "label": "Mental Health/Welfare Check",
+      "count": 1129
+    },
+    {
+      "label": "Not Reported",
+      "count": 982
+    },
+    {
+      "label": "Other Crimes Against People",
+      "count": 817
+    },
+    {
+      "label": "Other",
+      "count": 1
     }
   ],
   "weapon_breakdown": [
     {
       "label": "Gun",
-      "count": 8489
+      "count": 7690
     },
     {
-      "label": "Knife",
-      "count": 2247
-    },
-    {
-      "label": "No Object",
-      "count": 1009
-    },
-    {
-      "label": "Other",
-      "count": 869
-    },
-    {
-      "label": "Vehicle",
-      "count": 809
-    },
-    {
-      "label": "Undetermined",
-      "count": 701
-    },
-    {
-      "label": "Toy Weapon",
-      "count": 479
+      "label": "Edged Weapon",
+      "count": 2583
     },
     {
       "label": "Unknown Weapon",
-      "count": 161
+      "count": 1644
     },
     {
-      "label": "Gun, Vehicle",
-      "count": 68
+      "label": "Unarmed",
+      "count": 1328
+    },
+    {
+      "label": "Vehicle",
+      "count": 768
+    },
+    {
+      "label": "Other",
+      "count": 750
+    },
+    {
+      "label": "Replica",
+      "count": 179
+    },
+    {
+      "label": "Gun,Edged Weapon",
+      "count": 40
     }
   ],
   "disparity_rates": [
     {
-      "race": "Native American",
-      "count": 213,
-      "population": 2251699,
-      "rate_per_100k": 9.46,
-      "disparity_vs_white": 2.79
+      "race": "Pacific Islander",
+      "count": 93,
+      "population": 622018,
+      "rate_per_100k": 14.95,
+      "disparity_vs_white": 4.14
     },
     {
-      "race": "Pacific Islander",
-      "count": 58,
-      "population": 622018,
-      "rate_per_100k": 9.32,
-      "disparity_vs_white": 2.74
+      "race": "Native American",
+      "count": 231,
+      "population": 2251699,
+      "rate_per_100k": 10.26,
+      "disparity_vs_white": 2.84
     },
     {
       "race": "Black",
-      "count": 3656,
+      "count": 3779,
       "population": 39940338,
-      "rate_per_100k": 9.15,
-      "disparity_vs_white": 2.69
+      "rate_per_100k": 9.46,
+      "disparity_vs_white": 2.62
     },
     {
       "race": "Hispanic",
-      "count": 2702,
+      "count": 2715,
       "population": 62080044,
-      "rate_per_100k": 4.35,
-      "disparity_vs_white": 1.28
+      "rate_per_100k": 4.37,
+      "disparity_vs_white": 1.21
     },
     {
       "race": "White",
-      "count": 6510,
+      "count": 6916,
       "population": 191697647,
-      "rate_per_100k": 3.4,
+      "rate_per_100k": 3.61,
       "disparity_vs_white": 1.0
     },
     {
       "race": "Asian",
-      "count": 279,
+      "count": 234,
       "population": 19618719,
-      "rate_per_100k": 1.42,
-      "disparity_vs_white": 0.42
+      "rate_per_100k": 1.19,
+      "disparity_vs_white": 0.33
     }
   ],
   "arrest_rate_trend": {
@@ -832,131 +824,131 @@
       "White": [
         {
           "year": 2013,
-          "count": 415,
+          "count": 470,
           "arrests": 4063963,
-          "rate_per_100k_arrests": 10.21
+          "rate_per_100k_arrests": 11.57
         },
         {
           "year": 2014,
-          "count": 455,
+          "count": 470,
           "arrests": 6336228,
-          "rate_per_100k_arrests": 7.18
+          "rate_per_100k_arrests": 7.42
         },
         {
           "year": 2015,
-          "count": 523,
+          "count": 518,
           "arrests": 6168945,
-          "rate_per_100k_arrests": 8.48
+          "rate_per_100k_arrests": 8.4
         },
         {
           "year": 2016,
-          "count": 512,
+          "count": 511,
           "arrests": 6138384,
-          "rate_per_100k_arrests": 8.34
+          "rate_per_100k_arrests": 8.32
         },
         {
           "year": 2017,
-          "count": 498,
+          "count": 497,
           "arrests": 6115879,
-          "rate_per_100k_arrests": 8.14
+          "rate_per_100k_arrests": 8.13
         },
         {
           "year": 2018,
-          "count": 501,
+          "count": 518,
           "arrests": 5914026,
-          "rate_per_100k_arrests": 8.47
+          "rate_per_100k_arrests": 8.76
         },
         {
           "year": 2019,
-          "count": 476,
+          "count": 469,
           "arrests": 5545854,
-          "rate_per_100k_arrests": 8.58
+          "rate_per_100k_arrests": 8.46
         },
         {
           "year": 2020,
-          "count": 502,
+          "count": 468,
           "arrests": 4278932,
-          "rate_per_100k_arrests": 11.73
+          "rate_per_100k_arrests": 10.94
         },
         {
           "year": 2021,
-          "count": 525,
+          "count": 527,
           "arrests": 3459300,
-          "rate_per_100k_arrests": 15.18
+          "rate_per_100k_arrests": 15.23
         },
         {
           "year": 2022,
-          "count": 492,
+          "count": 526,
           "arrests": 4338280,
-          "rate_per_100k_arrests": 11.34
+          "rate_per_100k_arrests": 12.12
         },
         {
           "year": 2023,
-          "count": 526,
+          "count": 557,
           "arrests": 4541256,
-          "rate_per_100k_arrests": 11.58
+          "rate_per_100k_arrests": 12.27
         },
         {
           "year": 2024,
-          "count": 496,
+          "count": 560,
           "arrests": 4474451,
-          "rate_per_100k_arrests": 11.09
+          "rate_per_100k_arrests": 12.52
         },
         {
           "year": 2025,
-          "count": 426,
+          "count": 507,
           "arrests": 4491706,
-          "rate_per_100k_arrests": 9.48
+          "rate_per_100k_arrests": 11.29
         }
       ],
       "Black": [
         {
           "year": 2013,
-          "count": 275,
+          "count": 300,
           "arrests": 1986782,
-          "rate_per_100k_arrests": 13.84
+          "rate_per_100k_arrests": 15.1
         },
         {
           "year": 2014,
-          "count": 253,
+          "count": 258,
           "arrests": 2531146,
-          "rate_per_100k_arrests": 10.0
+          "rate_per_100k_arrests": 10.19
         },
         {
           "year": 2015,
-          "count": 270,
+          "count": 273,
           "arrests": 2411425,
-          "rate_per_100k_arrests": 11.2
+          "rate_per_100k_arrests": 11.32
         },
         {
           "year": 2016,
-          "count": 254,
+          "count": 260,
           "arrests": 2376576,
-          "rate_per_100k_arrests": 10.69
+          "rate_per_100k_arrests": 10.94
         },
         {
           "year": 2017,
-          "count": 254,
+          "count": 264,
           "arrests": 2413087,
-          "rate_per_100k_arrests": 10.53
+          "rate_per_100k_arrests": 10.94
         },
         {
           "year": 2018,
-          "count": 253,
+          "count": 267,
           "arrests": 2372409,
-          "rate_per_100k_arrests": 10.66
+          "rate_per_100k_arrests": 11.25
         },
         {
           "year": 2019,
-          "count": 279,
+          "count": 273,
           "arrests": 2214545,
-          "rate_per_100k_arrests": 12.6
+          "rate_per_100k_arrests": 12.33
         },
         {
           "year": 2020,
-          "count": 270,
+          "count": 256,
           "arrests": 1665912,
-          "rate_per_100k_arrests": 16.21
+          "rate_per_100k_arrests": 15.37
         },
         {
           "year": 2021,
@@ -966,41 +958,41 @@
         },
         {
           "year": 2022,
-          "count": 297,
+          "count": 300,
           "arrests": 1805123,
-          "rate_per_100k_arrests": 16.45
+          "rate_per_100k_arrests": 16.62
         },
         {
           "year": 2023,
-          "count": 276,
+          "count": 278,
           "arrests": 2039648,
-          "rate_per_100k_arrests": 13.53
+          "rate_per_100k_arrests": 13.63
         },
         {
           "year": 2024,
-          "count": 301,
+          "count": 303,
           "arrests": 2085721,
-          "rate_per_100k_arrests": 14.43
+          "rate_per_100k_arrests": 14.53
         },
         {
           "year": 2025,
-          "count": 265,
+          "count": 272,
           "arrests": 2176004,
-          "rate_per_100k_arrests": 12.18
+          "rate_per_100k_arrests": 12.5
         }
       ],
       "Other": [
         {
           "year": 2013,
-          "count": 25,
+          "count": 26,
           "arrests": 253194,
-          "rate_per_100k_arrests": 9.87
+          "rate_per_100k_arrests": 10.27
         },
         {
           "year": 2014,
-          "count": 29,
+          "count": 31,
           "arrests": 266991,
-          "rate_per_100k_arrests": 10.86
+          "rate_per_100k_arrests": 11.61
         },
         {
           "year": 2015,
@@ -1010,63 +1002,63 @@
         },
         {
           "year": 2016,
-          "count": 48,
+          "count": 44,
           "arrests": 346549,
-          "rate_per_100k_arrests": 13.85
+          "rate_per_100k_arrests": 12.7
         },
         {
           "year": 2017,
-          "count": 46,
+          "count": 45,
           "arrests": 349174,
-          "rate_per_100k_arrests": 13.17
+          "rate_per_100k_arrests": 12.89
         },
         {
           "year": 2018,
-          "count": 45,
+          "count": 53,
           "arrests": 334531,
-          "rate_per_100k_arrests": 13.45
+          "rate_per_100k_arrests": 15.84
         },
         {
           "year": 2019,
-          "count": 44,
+          "count": 42,
           "arrests": 322252,
-          "rate_per_100k_arrests": 13.65
+          "rate_per_100k_arrests": 13.03
         },
         {
           "year": 2020,
-          "count": 32,
+          "count": 37,
           "arrests": 265347,
-          "rate_per_100k_arrests": 12.06
+          "rate_per_100k_arrests": 13.94
         },
         {
           "year": 2021,
-          "count": 39,
+          "count": 36,
           "arrests": 211246,
-          "rate_per_100k_arrests": 18.46
+          "rate_per_100k_arrests": 17.04
         },
         {
           "year": 2022,
-          "count": 46,
+          "count": 45,
           "arrests": 261617,
-          "rate_per_100k_arrests": 17.58
+          "rate_per_100k_arrests": 17.2
         },
         {
           "year": 2023,
-          "count": 45,
+          "count": 41,
           "arrests": 281814,
-          "rate_per_100k_arrests": 15.97
+          "rate_per_100k_arrests": 14.55
         },
         {
           "year": 2024,
-          "count": 43,
+          "count": 44,
           "arrests": 291950,
-          "rate_per_100k_arrests": 14.73
+          "rate_per_100k_arrests": 15.07
         },
         {
           "year": 2025,
-          "count": 47,
+          "count": 41,
           "arrests": 300709,
-          "rate_per_100k_arrests": 15.63
+          "rate_per_100k_arrests": 13.63
         }
       ]
     }
@@ -1075,100 +1067,100 @@
     {
       "state": "NM",
       "name": "New Mexico",
-      "count": 309,
+      "count": 312,
       "population": 2117522,
-      "rate_per_million": 145.93
+      "rate_per_million": 147.34
     },
     {
       "state": "AK",
       "name": "Alaska",
-      "count": 96,
+      "count": 94,
       "population": 733391,
-      "rate_per_million": 130.9
+      "rate_per_million": 128.17
     },
     {
       "state": "OK",
       "name": "Oklahoma",
-      "count": 365,
+      "count": 369,
       "population": 3959353,
-      "rate_per_million": 92.19
+      "rate_per_million": 93.2
     },
     {
       "state": "AZ",
       "name": "Arizona",
-      "count": 657,
+      "count": 663,
       "population": 7151502,
-      "rate_per_million": 91.87
+      "rate_per_million": 92.71
     },
     {
       "state": "WY",
       "name": "Wyoming",
-      "count": 50,
+      "count": 52,
       "population": 576851,
-      "rate_per_million": 86.68
+      "rate_per_million": 90.14
     },
     {
       "state": "MT",
       "name": "Montana",
-      "count": 90,
+      "count": 93,
       "population": 1084225,
-      "rate_per_million": 83.01
+      "rate_per_million": 85.78
     },
     {
       "state": "CO",
       "name": "Colorado",
-      "count": 473,
+      "count": 479,
       "population": 5773714,
-      "rate_per_million": 81.92
+      "rate_per_million": 82.96
     },
     {
       "state": "DC",
       "name": "District of Columbia",
-      "count": 55,
+      "count": 54,
       "population": 689545,
-      "rate_per_million": 79.76
+      "rate_per_million": 78.31
     },
     {
       "state": "NV",
       "name": "Nevada",
-      "count": 237,
+      "count": 242,
       "population": 3104614,
-      "rate_per_million": 76.34
+      "rate_per_million": 77.95
     },
     {
       "state": "WV",
       "name": "West Virginia",
-      "count": 134,
+      "count": 138,
       "population": 1793716,
-      "rate_per_million": 74.71
+      "rate_per_million": 76.94
     },
     {
       "state": "MS",
       "name": "Mississippi",
-      "count": 204,
+      "count": 203,
       "population": 2961279,
-      "rate_per_million": 68.89
+      "rate_per_million": 68.55
     },
     {
       "state": "AR",
       "name": "Arkansas",
-      "count": 203,
+      "count": 202,
       "population": 3011524,
-      "rate_per_million": 67.41
+      "rate_per_million": 67.08
     },
     {
       "state": "ID",
       "name": "Idaho",
-      "count": 123,
+      "count": 121,
       "population": 1839106,
-      "rate_per_million": 66.88
+      "rate_per_million": 65.79
     },
     {
       "state": "MO",
       "name": "Missouri",
-      "count": 374,
+      "count": 385,
       "population": 6154913,
-      "rate_per_million": 60.76
+      "rate_per_million": 62.55
     },
     {
       "state": "LA",
@@ -1180,30 +1172,37 @@
     {
       "state": "TN",
       "name": "Tennessee",
-      "count": 396,
+      "count": 410,
       "population": 6910840,
-      "rate_per_million": 57.3
-    },
-    {
-      "state": "KY",
-      "name": "Kentucky",
-      "count": 252,
-      "population": 4505836,
-      "rate_per_million": 55.93
+      "rate_per_million": 59.33
     },
     {
       "state": "AL",
       "name": "Alabama",
-      "count": 280,
+      "count": 278,
       "population": 5024279,
-      "rate_per_million": 55.73
+      "rate_per_million": 55.33
     },
     {
       "state": "UT",
       "name": "Utah",
-      "count": 180,
+      "count": 181,
       "population": 3271616,
-      "rate_per_million": 55.02
+      "rate_per_million": 55.32
+    },
+    {
+      "state": "KY",
+      "name": "Kentucky",
+      "count": 248,
+      "population": 4505836,
+      "rate_per_million": 55.04
+    },
+    {
+      "state": "GA",
+      "name": "Georgia",
+      "count": 560,
+      "population": 10711908,
+      "rate_per_million": 52.28
     },
     {
       "state": "SD",
@@ -1213,32 +1212,39 @@
       "rate_per_million": 51.88
     },
     {
-      "state": "GA",
-      "name": "Georgia",
-      "count": 548,
-      "population": 10711908,
-      "rate_per_million": 51.16
+      "state": "OR",
+      "name": "Oregon",
+      "count": 219,
+      "population": 4237256,
+      "rate_per_million": 51.68
     },
     {
       "state": "CA",
       "name": "California",
-      "count": 2017,
+      "count": 2035,
       "population": 39538223,
-      "rate_per_million": 51.01
+      "rate_per_million": 51.47
     },
     {
-      "state": "OR",
-      "name": "Oregon",
-      "count": 215,
-      "population": 4237256,
-      "rate_per_million": 50.74
+      "state": "WA",
+      "name": "Washington",
+      "count": 388,
+      "population": 7705281,
+      "rate_per_million": 50.36
     },
     {
       "state": "TX",
       "name": "Texas",
-      "count": 1462,
+      "count": 1460,
       "population": 29145505,
-      "rate_per_million": 50.16
+      "rate_per_million": 50.09
+    },
+    {
+      "state": "ME",
+      "name": "Maine",
+      "count": 68,
+      "population": 1362359,
+      "rate_per_million": 49.91
     },
     {
       "state": "KS",
@@ -1248,32 +1254,18 @@
       "rate_per_million": 49.7
     },
     {
-      "state": "WA",
-      "name": "Washington",
-      "count": 382,
-      "population": 7705281,
-      "rate_per_million": 49.58
-    },
-    {
-      "state": "ME",
-      "name": "Maine",
-      "count": 67,
-      "population": 1362359,
-      "rate_per_million": 49.18
-    },
-    {
       "state": "FL",
       "name": "Florida",
-      "count": 1037,
+      "count": 1051,
       "population": 21538187,
-      "rate_per_million": 48.15
+      "rate_per_million": 48.8
     },
     {
       "state": "SC",
       "name": "South Carolina",
-      "count": 239,
+      "count": 242,
       "population": 5118425,
-      "rate_per_million": 46.69
+      "rate_per_million": 47.28
     },
     {
       "state": "ND",
@@ -1292,23 +1284,16 @@
     {
       "state": "NC",
       "name": "North Carolina",
-      "count": 433,
+      "count": 437,
       "population": 10439388,
-      "rate_per_million": 41.48
+      "rate_per_million": 41.86
     },
     {
       "state": "HI",
       "name": "Hawaii",
-      "count": 58,
+      "count": 59,
       "population": 1455271,
-      "rate_per_million": 39.86
-    },
-    {
-      "state": "WI",
-      "name": "Wisconsin",
-      "count": 217,
-      "population": 5893718,
-      "rate_per_million": 36.82
+      "rate_per_million": 40.54
     },
     {
       "state": "NE",
@@ -1318,25 +1303,32 @@
       "rate_per_million": 36.71
     },
     {
+      "state": "WI",
+      "name": "Wisconsin",
+      "count": 216,
+      "population": 5893718,
+      "rate_per_million": 36.65
+    },
+    {
       "state": "OH",
       "name": "Ohio",
-      "count": 425,
+      "count": 424,
       "population": 11799448,
-      "rate_per_million": 36.02
+      "rate_per_million": 35.93
     },
     {
       "state": "DE",
       "name": "Delaware",
-      "count": 33,
+      "count": 35,
       "population": 989948,
-      "rate_per_million": 33.34
+      "rate_per_million": 35.36
     },
     {
       "state": "MD",
       "name": "Maryland",
-      "count": 202,
+      "count": 203,
       "population": 6177224,
-      "rate_per_million": 32.7
+      "rate_per_million": 32.86
     },
     {
       "state": "VT",
@@ -1348,79 +1340,79 @@
     {
       "state": "VA",
       "name": "Virginia",
-      "count": 275,
+      "count": 279,
       "population": 8631393,
-      "rate_per_million": 31.86
+      "rate_per_million": 32.32
     },
     {
       "state": "NH",
       "name": "New Hampshire",
-      "count": 43,
+      "count": 44,
       "population": 1377529,
-      "rate_per_million": 31.22
+      "rate_per_million": 31.94
     },
     {
       "state": "IA",
       "name": "Iowa",
-      "count": 99,
+      "count": 100,
       "population": 3190369,
-      "rate_per_million": 31.03
+      "rate_per_million": 31.34
     },
     {
       "state": "MI",
       "name": "Michigan",
-      "count": 268,
+      "count": 274,
       "population": 10077331,
-      "rate_per_million": 26.59
+      "rate_per_million": 27.19
     },
     {
       "state": "PA",
       "name": "Pennsylvania",
-      "count": 344,
+      "count": 353,
       "population": 13002700,
-      "rate_per_million": 26.46
+      "rate_per_million": 27.15
     },
     {
       "state": "IL",
       "name": "Illinois",
-      "count": 335,
+      "count": 339,
       "population": 12812508,
-      "rate_per_million": 26.15
+      "rate_per_million": 26.46
     },
     {
       "state": "MN",
       "name": "Minnesota",
-      "count": 141,
+      "count": 144,
       "population": 5706494,
-      "rate_per_million": 24.71
+      "rate_per_million": 25.23
     },
     {
       "state": "NJ",
       "name": "New Jersey",
-      "count": 161,
+      "count": 163,
       "population": 9288994,
-      "rate_per_million": 17.33
+      "rate_per_million": 17.55
     },
     {
       "state": "NY",
       "name": "New York",
-      "count": 304,
+      "count": 310,
       "population": 20201249,
-      "rate_per_million": 15.05
+      "rate_per_million": 15.35
     },
     {
       "state": "CT",
       "name": "Connecticut",
-      "count": 52,
+      "count": 53,
       "population": 3605944,
-      "rate_per_million": 14.42
+      "rate_per_million": 14.7
     },
     {
       "state": "MA",
       "name": "Massachusetts",
-      "count": 91,
+      "count": 96,
       "population": 7029917,
-      "rate_per_million": 12.94
+      "rate_per_million": 13.66
     },
     {
       "state": "RI",
@@ -1433,63 +1425,63 @@
   "top_agencies": [
     {
       "label": "Los Angeles Police Department",
-      "count": 212
+      "count": 210
     },
     {
       "label": "Phoenix Police Department",
-      "count": 175
+      "count": 179
     },
     {
-      "label": "Los Angeles County Sheriff's Office",
-      "count": 168
+      "label": "Los Angeles County Sheriff's Department",
+      "count": 173
+    },
+    {
+      "label": "New York City Police Department",
+      "count": 138
     },
     {
       "label": "Houston Police Department",
-      "count": 134
+      "count": 133
     },
     {
-      "label": "New York Police Department",
-      "count": 134
+      "label": "United States Marshals Service",
+      "count": 125
     },
     {
-      "label": "U.S. Marshals Service",
-      "count": 127
+      "label": "Las Vegas Metro Police Department",
+      "count": 105
     },
     {
       "label": "San Antonio Police Department",
-      "count": 107
+      "count": 104
     },
     {
       "label": "Chicago Police Department",
-      "count": 105
-    },
-    {
-      "label": "Las Vegas Metropolitan Police Department",
-      "count": 105
-    },
-    {
-      "label": "Jacksonville Sheriff's Office",
-      "count": 84
-    },
-    {
-      "label": "Albuquerque Police Department",
-      "count": 80
+      "count": 102
     },
     {
       "label": "Pennsylvania State Police",
-      "count": 74
+      "count": 88
+    },
+    {
+      "label": "Jacksonville Sheriff's Office",
+      "count": 85
+    },
+    {
+      "label": "San Bernardino County Sheriff's Office",
+      "count": 81
+    },
+    {
+      "label": "Albuquerque Police Department",
+      "count": 78
     },
     {
       "label": "California Highway Patrol",
-      "count": 68
+      "count": 74
     },
     {
-      "label": "Columbus Division of Police",
-      "count": 65
-    },
-    {
-      "label": "Miami-Dade Police Department",
-      "count": 65
+      "label": "Riverside County Sheriff's Office",
+      "count": 71
     }
   ]
 }

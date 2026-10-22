@@ -9,46 +9,66 @@ aggregates JSON that powers a client-side charts dashboard
 - static/data/mpv-dashboard.json   -- aggregates only (small, page-load-friendly)
 
 Visitors who want the full incident-level dataset are linked directly to
-mappingpoliceviolence.us rather than us re-publishing a raw-data mirror here.
+mappingpoliceviolence.org rather than us re-publishing a raw-data mirror here.
 
-Source: https://mappingpoliceviolence.us (methodology: /aboutthedata)
+Source: https://mappingpoliceviolence.org (Campaign Zero). MPV moved there
+from mappingpoliceviolence.us in 2026; the .us workbook is frozen at
+2026-08-18. The live data is a public Airtable shared view, whose "Download
+CSV" button we hit programmatically (see download_mpv_csv()). If that ever
+breaks, download the CSV by hand from MPV_SHARE_URL and rerun with
+`--csv path/to/file.csv`.
 """
 
+import argparse
+import io
 import json
 import os
+import re
 import sys
+import urllib.parse
 from datetime import datetime, timedelta
 
 import pandas as pd
 import requests
 
-MPV_URL = 'https://mappingpoliceviolence.us/s/MPVDatasetDownload.xlsx'
-MPV_SHEET = '2013-2026 Police Killings'
-MPV_STATE_SHEET = '2013-2026 Killings by State'
-REQUEST_TIMEOUT = 60
+MPV_SHARE_URL = 'https://airtable.com/appzVzSeINK1S3EVR/shroOenW19l1m3w0H/tblxearKzw8W7ViN8'
+MPV_AIRTABLE_APP_ID = 'appzVzSeINK1S3EVR'
+REQUEST_TIMEOUT = 120
+# Airtable's page/API reject the default python-requests User-Agent.
+REQUEST_HEADERS = {
+    'User-Agent': ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                   '(KHTML, like Gecko) Chrome/130.0 Safari/537.36'),
+}
+
+# The new export has no state sheet, so population denominators are frozen
+# from the last .us workbook -- see scripts/extract_mpv_state_population.py.
+STATE_POPULATION_FILE = 'datasets/mpv-state-population.csv'
 
 DASHBOARD_OUTPUT_FILE = 'static/data/mpv-dashboard.json'
 
-# Column names in the source workbook, kept as constants so a schema change
+# Warn (in the workflow log) when the newest incident is older than this --
+# the .us source went silently stale for two months before we noticed.
+STALE_SOURCE_DAYS = 60
+
+# Column names in the source CSV, kept as constants so a schema change
 # upstream is a one-line fix instead of a search-and-replace.
-COL_DATE = 'Date of Incident (month/day/year)'
-COL_STATE = 'State'
-COL_RACE = "Victim's race"
-COL_ARMED = 'Armed/Unarmed Status'
-COL_AGENCY = 'Agency responsible for death'
-COL_CAUSE = 'Cause of death'
-COL_ENCOUNTER = 'Encounter Type'
-COL_WEAPON = 'Alleged Weapon (Source: WaPo and Review of Cases Not Included in WaPo Database)'
+COL_DATE = 'date'
+COL_STATE = 'state'
+COL_RACE = 'race'
+COL_AGENCY = 'agency_responsible'
+COL_CAUSE = 'use_of_force'
+COL_ENCOUNTER = 'encounter_type'
+COL_WEAPON = 'allegedly_armed_with'
 
 REQUIRED_COLUMNS = [
-    COL_DATE, COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY, COL_CAUSE,
-    COL_ENCOUNTER, COL_WEAPON,
+    COL_DATE, COL_STATE, COL_RACE, COL_AGENCY, COL_CAUSE, COL_ENCOUNTER, COL_WEAPON,
 ]
 
-# Population-by-race columns on the "Killings by State" sheet. We only use
-# these (population context, cause-agnostic) -- never that sheet's own
-# Rate/Disparity columns, which are computed over MPV's all-cause killings
-# total and would silently break this dashboard's shooting-only scope.
+# Population-by-race columns, originally from the .us workbook's "Killings
+# by State" sheet. We only ever used these (population context,
+# cause-agnostic) -- never that sheet's own Rate/Disparity columns, which
+# were computed over MPV's all-cause killings total and would silently
+# break this dashboard's shooting-only scope.
 STATE_RACE_POPULATION_COLS = {
     'White': 'White Population',
     'Black': 'Black Population',
@@ -60,11 +80,10 @@ STATE_RACE_POPULATION_COLS = {
 STATE_SHEET_REQUIRED_COLUMNS = ['State', 'Total Population'] + list(STATE_RACE_POPULATION_COLS.values())
 
 # Full state names for hover-text readability on the per-state choropleth
-# map -- the map itself keys entirely off the 2-letter codes both MPV
-# sheets already use (COL_STATE and the "Killings by State" sheet's own
-# 'State' column agree exactly, confirmed against a live pull), which is
-# also exactly what Plotly's built-in `locationmode: 'USA-states'` wants,
-# so no geojson/FIPS lookup is needed anywhere in this pipeline.
+# map. The map itself keys off 2-letter codes (what Plotly's built-in
+# `locationmode: 'USA-states'` wants, so no geojson/FIPS lookup is needed);
+# the new MPV export uses full names, so load_incidents() converts them via
+# STATE_ABBR_BY_NAME below.
 STATE_NAME_BY_ABBR = {
     'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas',
     'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware',
@@ -80,6 +99,7 @@ STATE_NAME_BY_ABBR = {
     'UT': 'Utah', 'VT': 'Vermont', 'VA': 'Virginia', 'WA': 'Washington',
     'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming',
 }
+STATE_ABBR_BY_NAME = {name.upper(): abbr for abbr, name in STATE_NAME_BY_ABBR.items()}
 
 # National arrest totals by race, by year, for the "shootings per 100k
 # arrests" trend chart. Hand-maintained (no live API access -- see
@@ -174,11 +194,47 @@ TOP_N = 15
 YTD_LAG_DAYS = 14
 
 
-def download_mpv_workbook(url=MPV_URL):
-    """Download the MPV .xlsx into memory. Raises on any failure — a bad
-    download should fail the workflow loudly rather than silently produce
-    an empty/stale dashboard."""
-    response = requests.get(url, timeout=REQUEST_TIMEOUT)
+def download_mpv_csv(share_url=MPV_SHARE_URL):
+    """Download the MPV CSV from its public Airtable shared view.
+
+    This replays what the view's "Download CSV" button does: the share page
+    embeds a signed `accessPolicy` (granting anonymous `downloadCsv` on this
+    one view) inside the URL it uses to fetch its own data, so we lift that
+    policy out of the page and pass it to the view's downloadCsv endpoint.
+    The output is identical to a manual download (verified 2026-10-22).
+
+    Undocumented Airtable endpoint, so raises loudly on any failure rather
+    than silently producing an empty/stale dashboard -- the fallback is a
+    manual download plus `--csv`."""
+    session = requests.Session()
+    session.headers.update(REQUEST_HEADERS)
+
+    page = session.get(share_url, timeout=REQUEST_TIMEOUT)
+    page.raise_for_status()
+    match = re.search(r'urlWithParams: "([^"]+)"', page.text)
+    if not match:
+        raise ValueError(
+            "Couldn't find the data URL on the Airtable share page — the page format "
+            f"may have changed. Download the CSV manually from {share_url} and rerun "
+            "with --csv."
+        )
+    data_url = match.group(1).encode().decode('unicode_escape')
+    view_match = re.search(r'/view/(viw\w+)/', data_url)
+    query = dict(urllib.parse.parse_qsl(urllib.parse.urlparse(data_url).query))
+    if not view_match or 'accessPolicy' not in query:
+        raise ValueError(f"Unexpected Airtable data URL format: {data_url[:200]}")
+
+    response = session.get(
+        f"https://airtable.com/v0.3/view/{view_match.group(1)}/downloadCsv",
+        params={
+            'x-time-zone': 'UTC',
+            'x-user-locale': 'en',
+            'x-airtable-application-id': MPV_AIRTABLE_APP_ID,
+            'accessPolicy': query['accessPolicy'],
+            'requestId': query.get('requestId', ''),
+        },
+        timeout=REQUEST_TIMEOUT,
+    )
     response.raise_for_status()
     if len(response.content) < 1_000_000:
         raise ValueError(
@@ -188,20 +244,19 @@ def download_mpv_workbook(url=MPV_URL):
     return response.content
 
 
-def load_incidents(xlsx_bytes):
-    """Parse the main incidents sheet and validate the schema we depend on."""
-    import io
-    df = pd.read_excel(io.BytesIO(xlsx_bytes), sheet_name=MPV_SHEET)
+def load_incidents(csv_bytes):
+    """Parse the incidents CSV and validate the schema we depend on."""
+    df = pd.read_csv(io.BytesIO(csv_bytes), low_memory=False)
 
     missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
     if missing:
         raise ValueError(
-            f"MPV workbook is missing expected column(s): {missing}. "
+            f"MPV export is missing expected column(s): {missing}. "
             "The upstream schema may have changed — update the COL_* constants "
             "in scripts/generate_mpv_dashboard.py."
         )
 
-    df['_date'] = pd.to_datetime(df[COL_DATE], errors='coerce')
+    df['_date'] = pd.to_datetime(df[COL_DATE], format='%m/%d/%Y', errors='coerce')
     df = df.dropna(subset=['_date']).copy()
 
     # Administrative/category text fields: normalize case before any
@@ -212,8 +267,18 @@ def load_incidents(xlsx_bytes):
     # live run: Encounter Type is 27% blank in the source and every blank
     # cell survived as an actual float, not the string 'nan', which broke
     # downstream .lower() calls expecting a string).
-    for col in [COL_STATE, COL_RACE, COL_ARMED, COL_AGENCY, COL_CAUSE, COL_ENCOUNTER, COL_WEAPON]:
+    for col in [COL_STATE, COL_RACE, COL_AGENCY, COL_CAUSE, COL_ENCOUNTER, COL_WEAPON]:
         df[col] = df[col].fillna('').astype(str).str.strip()
+
+    # Full state names -> 2-letter codes (what the map and the population
+    # file key on). Fail on anything unmapped (e.g. a territory MPV starts
+    # including) rather than silently dropping those rows from state rates.
+    abbrs = df[COL_STATE].str.upper().map(STATE_ABBR_BY_NAME)
+    unmapped = sorted(df.loc[abbrs.isna(), COL_STATE].unique())
+    if unmapped:
+        raise ValueError(f"Unrecognized state name(s) in MPV export: {unmapped}. "
+                         "Add them to STATE_NAME_BY_ABBR.")
+    df[COL_STATE] = abbrs
 
     # MPV's dataset covers every cause of death in police custody, not just
     # shootings (Taser-only, vehicle, restraint, etc. are all included).
@@ -231,9 +296,7 @@ def bucket_race(raw_race):
     display categories (case-insensitive matching per project convention)."""
     if not raw_race or raw_race.lower() in ('nan', 'unknown race', 'unknown'):
         return 'Unknown'
-    normalized = raw_race.upper()
-    if ';' in raw_race or ' AND ' in normalized:
-        return 'Multiracial'
+    normalized = raw_race.upper().strip()
     mapping = {
         'WHITE': 'White',
         'BLACK': 'Black',
@@ -241,23 +304,36 @@ def bucket_race(raw_race):
         'ASIAN': 'Asian',
         'NATIVE AMERICAN': 'Native American',
         'PACIFIC ISLANDER': 'Pacific Islander',
+        # Labels used by the 2026 mappingpoliceviolence.org export
+        'AMERICAN INDIAN AND ALASKA NATIVE': 'Native American',
+        'NATIVE HAWAIIAN AND PACIFIC ISLANDER': 'Pacific Islander',
     }
-    return mapping.get(normalized, 'Unknown')
+    # Exact labels first: the new single-race labels contain " AND ", so
+    # the multiracial test below would otherwise swallow them.
+    if normalized in mapping:
+        return mapping[normalized]
+    if ';' in raw_race or ',' in raw_race or ' AND ' in normalized:
+        return 'Multiracial'
+    return 'Unknown'
 
 
-def bucket_armed_status(raw_status):
-    """Collapse the source's armed/unarmed field into display categories
-    (case-insensitive matching per project convention)."""
-    if not raw_status or raw_status.lower() == 'nan':
+def bucket_armed_status(raw_weapon):
+    """Derive an armed-status category from the alleged-weapon field
+    (case-insensitive matching per project convention).
+
+    The .us workbook had a separate MPV-coded "Armed/Unarmed Status" column;
+    the 2026 .org export dropped it. The two don't line up -- of records in
+    both, 741 with weapon "Unarmed/did not have a weapon" had been coded
+    "Allegedly Armed" -- so this series isn't comparable with dashboard
+    versions before Oct 2026 (flagged in the chart's caption)."""
+    normalized = raw_weapon.upper().strip() if raw_weapon else ''
+    if normalized in ('', 'NAN', 'UNKNOWN WEAPON', 'UNDETERMINED'):
         return 'Unclear/Unknown'
-    normalized = raw_status.upper()
-    if 'UNARMED' in normalized:
+    if normalized.startswith('UNARMED'):
         return 'Unarmed'
-    if 'VEHICLE' in normalized:
+    if normalized == 'VEHICLE':
         return 'Vehicle'
-    if 'ARMED' in normalized:
-        return 'Allegedly Armed'
-    return 'Unclear/Unknown'
+    return 'Allegedly Armed'
 
 
 def build_capped_breakdown(df, col, top_n=8, empty_label='Not Reported', aliases=None):
@@ -367,19 +443,14 @@ def build_top_n(df, col, n=TOP_N):
     return [{'label': str(k), 'count': int(v)} for k, v in counts]
 
 
-def load_state_population(xlsx_bytes):
-    """Read population-by-race context from the 'Killings by State' sheet.
-    Only population columns are used here -- never that sheet's own Rate/
-    Disparity columns, which are computed over MPV's all-cause killings
-    total (see STATE_RACE_POPULATION_COLS comment above for why)."""
-    import io
-    df = pd.read_excel(io.BytesIO(xlsx_bytes), sheet_name=MPV_STATE_SHEET)
+def load_state_population(path=STATE_POPULATION_FILE):
+    """Read population-by-race context, frozen from the .us workbook's
+    'Killings by State' sheet by scripts/extract_mpv_state_population.py
+    (population columns only -- see STATE_RACE_POPULATION_COLS for why)."""
+    df = pd.read_csv(path)
     missing = [c for c in STATE_SHEET_REQUIRED_COLUMNS if c not in df.columns]
     if missing:
-        raise ValueError(
-            f"MPV '{MPV_STATE_SHEET}' sheet is missing expected column(s): {missing}. "
-            "The upstream schema may have changed."
-        )
+        raise ValueError(f"{path} is missing expected column(s): {missing}.")
     return df
 
 
@@ -519,7 +590,7 @@ def build_dashboard_json(df, state_pop_df):
 
     return {
         'generated_at': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'source': 'Mapping Police Violence (mappingpoliceviolence.us)',
+        'source': 'Mapping Police Violence (mappingpoliceviolence.org)',
         'source_last_incident_date': most_recent.strftime('%Y-%m-%d'),
         'scope': SCOPE_DESCRIPTION,
         'stats': {
@@ -535,9 +606,12 @@ def build_dashboard_json(df, state_pop_df):
         'cumulative_trajectory': build_cumulative_trajectory(df, as_of),
         'heatmap': build_calendar_heatmap(df),
         'race_breakdown': build_breakdown(df, COL_RACE, bucket_race),
-        'armed_status_breakdown': build_breakdown(df, COL_ARMED, bucket_armed_status),
-        'encounter_breakdown': build_capped_breakdown(df, COL_ENCOUNTER, empty_label='Not Reported'),
-        'weapon_breakdown': build_capped_breakdown(df, COL_WEAPON, empty_label='Unknown', aliases={'Machete': 'Knife'}),
+        'armed_status_breakdown': build_breakdown(df, COL_WEAPON, bucket_armed_status),
+        'encounter_breakdown': build_capped_breakdown(df, COL_ENCOUNTER, empty_label='Not Reported',
+                                                      aliases={'None/Unknown': 'Not Reported'}),
+        'weapon_breakdown': build_capped_breakdown(df, COL_WEAPON, empty_label='Unknown Weapon',
+                                                   aliases={'Undetermined': 'Unknown Weapon',
+                                                            'Unarmed/Did Not Have A Weapon': 'Unarmed'}),
         'disparity_rates': build_disparity_rates(df, state_pop_df),
         'arrest_rate_trend': build_arrest_rate_trend(df),
         'state_rates': build_state_rates(df, state_pop_df),
@@ -546,17 +620,26 @@ def build_dashboard_json(df, state_pop_df):
 
 
 def main():
-    print("Downloading Mapping Police Violence dataset...")
-    try:
-        xlsx_bytes = download_mpv_workbook()
-    except Exception as e:
-        print(f"ERROR: failed to download MPV dataset: {e}", file=sys.stderr)
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description=__doc__.split('\n\n')[0])
+    parser.add_argument('--csv', help='Parse a manually downloaded MPV CSV instead of fetching it')
+    args = parser.parse_args()
 
-    print(f"Downloaded {len(xlsx_bytes):,} bytes. Parsing '{MPV_SHEET}' sheet...")
+    if args.csv:
+        print(f"Reading MPV dataset from {args.csv}...")
+        with open(args.csv, 'rb') as f:
+            csv_bytes = f.read()
+    else:
+        print("Downloading Mapping Police Violence dataset...")
+        try:
+            csv_bytes = download_mpv_csv()
+        except Exception as e:
+            print(f"ERROR: failed to download MPV dataset: {e}", file=sys.stderr)
+            sys.exit(1)
+
+    print(f"Read {len(csv_bytes):,} bytes. Parsing...")
     try:
-        df = load_incidents(xlsx_bytes)
-        state_pop_df = load_state_population(xlsx_bytes)
+        df = load_incidents(csv_bytes)
+        state_pop_df = load_state_population()
     except Exception as e:
         print(f"ERROR: failed to parse MPV dataset: {e}", file=sys.stderr)
         sys.exit(1)
@@ -564,6 +647,12 @@ def main():
     print(f"Loaded {len(df):,} incidents "
           f"({df['_date'].min().date()} to {df['_date'].max().date()})")
     print(f"Loaded population context for {state_pop_df['State'].notna().sum()} states/DC")
+
+    days_since_latest = (datetime.now() - df['_date'].max().to_pydatetime()).days
+    if days_since_latest > STALE_SOURCE_DAYS:
+        # ::warning:: surfaces as an annotation on the GitHub Actions run.
+        print(f"::warning::Newest MPV incident is {days_since_latest} days old "
+              f"({df['_date'].max().date()}) — upstream may have stopped updating.")
 
     dashboard = build_dashboard_json(df, state_pop_df)
 

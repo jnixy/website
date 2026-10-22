@@ -70,9 +70,9 @@
     document.getElementById('mpv-meta').innerHTML =
       escapeHtml(data.scope) + ' &middot; year-to-date figures use a ' + stats.lag_days +
       '-day reporting-lag adjustment, so both years are compared as of ' + asOfShort + '.<br>' +
-      'Data: <a href="https://mappingpoliceviolence.us" target="_blank" rel="noopener">Mapping Police Violence</a> ' +
+      'Data: <a href="https://mappingpoliceviolence.org" target="_blank" rel="noopener">Mapping Police Violence</a> ' +
       '&middot; Dashboard generated ' + formatDateTime(data.generated_at) +
-      ' &middot; <a class="mpv-download-link" href="https://mappingpoliceviolence.us" target="_blank" rel="noopener">Download the full incident-level dataset</a>';
+      ' &middot; <a class="mpv-download-link" href="https://airtable.com/appzVzSeINK1S3EVR/shroOenW19l1m3w0H/tblxearKzw8W7ViN8" target="_blank" rel="noopener">Download the full incident-level dataset</a>';
   }
 
   function escapeHtml(text) {

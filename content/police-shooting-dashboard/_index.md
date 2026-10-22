@@ -8,7 +8,7 @@ profile: false
 comments: false
 ---
 
-An interactive look at national trends in fatal police shootings, built with the [Mapping Police Violence](https://mappingpoliceviolence.us) dataset (updated weekly).
+An interactive look at national trends in fatal police shootings, built with the [Mapping Police Violence](https://mappingpoliceviolence.org) dataset (updated weekly). MPV moved from mappingpoliceviolence.us to mappingpoliceviolence.org (Campaign Zero) in 2026; this dashboard switched over in October 2026.
 
 {{% alert note %}}
 Looking for recent news or academic research on police shootings instead? See the [news tracker](/police-shooting-news/) and [research tracker](/police-shooting-research/).
@@ -49,8 +49,9 @@ Looking for recent news or academic research on police shootings instead? See th
         <div id="chart-race" class="mpv-chart"></div>
       </div>
       <div class="mpv-chart-card">
-        <h3 class="mpv-chart-title">Armed Status</h3>
+        <h3 class="mpv-chart-title">Alleged Armed Status</h3>
         <div id="chart-armed" class="mpv-chart"></div>
+        <p class="mpv-chart-note">Derived from MPV's alleged-weapon field. MPV's separate armed/unarmed coding was dropped from its 2026 export, so these figures aren't comparable with versions of this dashboard before October 2026.</p>
       </div>
     </div>
     <div class="mpv-chart-grid mpv-two-col">
