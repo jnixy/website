@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Oct 2026 11:27:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 10:47:24 +0000</lastBuildDate>
+    <item>
+      <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
+      <link>http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegazette.com</source>
+    </item>
+    <item>
+      <title>Austin ICE shooting : Man shot by agents formally indicted</title>
+      <link>https://www.fox7austin.com/news/austin-ice-shooting-wilbur-perez-indictment</link>
+      <description/>
+      <pubDate>Thu, 22 Oct 2026 01:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox7austin.com</source>
+    </item>
     <item>
       <title>License plates honoring fallen Yarmouth officer killed in 2018 shooting have arrived</title>
       <link>https://turnto10.com/news/local/license-plates-honoring-fallen-yarmouth-officer-killed-in-2018-shooting-have-arrived-sergeant-sean-gannon-massachusetts-police-officer-oct-21-2026</link>
@@ -152,11 +168,11 @@
     </item>
     <item>
       <title>Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault</title>
-      <link>https://www.durangoherald.com/articles/associated-press/judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
+      <link>https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
       <description/>
-      <pubDate>Thu, 01 Oct 2026 01:45:00 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>durangoherald.com</source>
+      <source>wral.com</source>
     </item>
     <item>
       <title>Venezuelan delivery driver shot by federal agent in Texas to remain in custody</title>
@@ -389,22 +405,6 @@
       <pubDate>Tue, 22 Sep 2026 02:15:00 +0000</pubDate>
       <category>incident</category>
       <source>fox26houston.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE officer is detained in Texas with a bullet still in his back , attorney says</title>
-      <link>https://www.wcvb.com/article/texas-ice-shooting-doordash-bullet/73826758</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 23:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wcvb.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE in Austin says he has a bullet lodged in his back and was denied medical care</title>
-      <link>https://www.tpr.org/2026-09-20/man-shot-by-ice-in-austin-says-he-has-a-bullet-lodged-in-his-back-and-was-denied-medical-care</link>
-      <description/>
-      <pubDate>Mon, 21 Sep 2026 22:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>tpr.org</source>
     </item>
   </channel>
 </rss>
