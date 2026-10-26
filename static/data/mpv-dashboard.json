@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-22T15:02:36Z",
+  "generated_at": "2026-10-26T13:40:51Z",
   "source": "Mapping Police Violence (mappingpoliceviolence.org)",
   "source_last_incident_date": "2026-10-10",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
   "stats": {
-    "total_incidents": 14982,
+    "total_incidents": 14981,
     "current_year": 2026,
     "prior_year": 2025,
-    "as_of_date": "2026-10-08",
+    "as_of_date": "2026-10-10",
     "lag_days": 14,
-    "current_year_to_date": 880,
-    "prior_year_same_point": 927
+    "current_year_to_date": 886,
+    "prior_year_same_point": 934
   },
   "yearly_counts": [
     {
       "year": 2013,
-      "count": 1012
+      "count": 1011
     },
     {
       "year": 2014,
@@ -642,19 +642,19 @@
   "race_breakdown": [
     {
       "label": "White",
-      "count": 6916
+      "count": 6918
     },
     {
       "label": "Black",
-      "count": 3779
+      "count": 3780
     },
     {
       "label": "Hispanic",
-      "count": 2715
+      "count": 2717
     },
     {
       "label": "Unknown",
-      "count": 1014
+      "count": 1008
     },
     {
       "label": "Asian",
@@ -672,25 +672,25 @@
   "armed_status_breakdown": [
     {
       "label": "Allegedly Armed",
-      "count": 11242
+      "count": 11263
     },
     {
       "label": "Unclear/Unknown",
-      "count": 1644
+      "count": 1623
     },
     {
       "label": "Unarmed",
-      "count": 1328
+      "count": 1329
     },
     {
       "label": "Vehicle",
-      "count": 768
+      "count": 766
     }
   ],
   "encounter_breakdown": [
     {
       "label": "Part 1 Violent Crime",
-      "count": 4224
+      "count": 4227
     },
     {
       "label": "Person With A Weapon",
@@ -698,15 +698,15 @@
     },
     {
       "label": "Other Non-Violent Offense",
-      "count": 2180
+      "count": 2179
     },
     {
       "label": "Traffic Stop",
-      "count": 1590
+      "count": 1591
     },
     {
       "label": "Domestic Disturbance",
-      "count": 1243
+      "count": 1242
     },
     {
       "label": "Mental Health/Welfare Check",
@@ -714,11 +714,11 @@
     },
     {
       "label": "Not Reported",
-      "count": 982
+      "count": 980
     },
     {
       "label": "Other Crimes Against People",
-      "count": 817
+      "count": 816
     },
     {
       "label": "Other",
@@ -728,27 +728,27 @@
   "weapon_breakdown": [
     {
       "label": "Gun",
-      "count": 7690
+      "count": 7710
     },
     {
       "label": "Edged Weapon",
-      "count": 2583
+      "count": 2582
     },
     {
       "label": "Unknown Weapon",
-      "count": 1644
+      "count": 1623
     },
     {
       "label": "Unarmed",
-      "count": 1328
+      "count": 1329
     },
     {
       "label": "Vehicle",
-      "count": 768
+      "count": 766
     },
     {
       "label": "Other",
-      "count": 750
+      "count": 752
     },
     {
       "label": "Replica",
@@ -776,21 +776,21 @@
     },
     {
       "race": "Black",
-      "count": 3779,
+      "count": 3780,
       "population": 39940338,
       "rate_per_100k": 9.46,
       "disparity_vs_white": 2.62
     },
     {
       "race": "Hispanic",
-      "count": 2715,
+      "count": 2717,
       "population": 62080044,
-      "rate_per_100k": 4.37,
+      "rate_per_100k": 4.38,
       "disparity_vs_white": 1.21
     },
     {
       "race": "White",
-      "count": 6916,
+      "count": 6918,
       "population": 191697647,
       "rate_per_100k": 3.61,
       "disparity_vs_white": 1.0
@@ -824,9 +824,9 @@
       "White": [
         {
           "year": 2013,
-          "count": 470,
+          "count": 469,
           "arrests": 4063963,
-          "rate_per_100k_arrests": 11.57
+          "rate_per_100k_arrests": 11.54
         },
         {
           "year": 2014,
@@ -854,9 +854,9 @@
         },
         {
           "year": 2018,
-          "count": 518,
+          "count": 519,
           "arrests": 5914026,
-          "rate_per_100k_arrests": 8.76
+          "rate_per_100k_arrests": 8.78
         },
         {
           "year": 2019,
@@ -866,15 +866,15 @@
         },
         {
           "year": 2020,
-          "count": 468,
+          "count": 469,
           "arrests": 4278932,
-          "rate_per_100k_arrests": 10.94
+          "rate_per_100k_arrests": 10.96
         },
         {
           "year": 2021,
-          "count": 527,
+          "count": 528,
           "arrests": 3459300,
-          "rate_per_100k_arrests": 15.23
+          "rate_per_100k_arrests": 15.26
         },
         {
           "year": 2022,
@@ -952,9 +952,9 @@
         },
         {
           "year": 2021,
-          "count": 281,
+          "count": 282,
           "arrests": 1434174,
-          "rate_per_100k_arrests": 19.59
+          "rate_per_100k_arrests": 19.66
         },
         {
           "year": 2022,
@@ -1067,9 +1067,9 @@
     {
       "state": "NM",
       "name": "New Mexico",
-      "count": 312,
+      "count": 311,
       "population": 2117522,
-      "rate_per_million": 147.34
+      "rate_per_million": 146.87
     },
     {
       "state": "AK",
@@ -1453,7 +1453,7 @@
     },
     {
       "label": "San Antonio Police Department",
-      "count": 104
+      "count": 105
     },
     {
       "label": "Chicago Police Department",
@@ -1473,7 +1473,7 @@
     },
     {
       "label": "Albuquerque Police Department",
-      "count": 78
+      "count": 77
     },
     {
       "label": "California Highway Patrol",
