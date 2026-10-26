@@ -1,12 +1,60 @@
 {
-  "generated_at": "2026-10-25T11:13:02Z",
+  "generated_at": "2026-10-26T12:47:06Z",
   "stories": [
+    {
+      "title": "NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion",
+      "url": "https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion",
+      "description": "",
+      "date": "2026-10-24T13:15:00Z",
+      "source": "fox5ny.com",
+      "category": "incident"
+    },
     {
       "title": "Takeaways from AP investigation into police shootings of alleged cow smugglers in India",
       "url": "http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html",
       "description": "",
       "date": "2026-10-23T04:00:00Z",
       "source": "thegazette.com",
+      "category": "incident"
+    },
+    {
+      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
+      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "thegazette.com",
+      "category": "incident"
+    },
+    {
+      "title": "SDPD officer shoots , kills man said to have been armed with an ax",
+      "url": "https://timesofsandiego.com/crime/2026/10/22/san-diego-police-ax-wielding-man-shot-killed/",
+      "description": "",
+      "date": "2026-10-22T19:15:00Z",
+      "source": "timesofsandiego.com",
+      "category": "incident"
+    },
+    {
+      "title": "Second suspect , 16 , surrenders nearly a week after deadly Bakersfield police shooting",
+      "url": "https://bakersfieldnow.com/news/local/second-suspect-16-surrenders-nearly-a-week-after-deadly-bakersfield-police-shooting-pacheco-road-kern-county-california",
+      "description": "",
+      "date": "2026-10-22T03:15:00Z",
+      "source": "bakersfieldnow.com",
+      "category": "incident"
+    },
+    {
+      "title": "Van Zandt County deputy killed , officer injured while serving warrants in Texas",
+      "url": "https://bnonews.com/index.php/2026/10/van-zandt-county-deputy-killed-officer-injured-while-serving-warrants-in-texas/",
+      "description": "",
+      "date": "2026-10-22T03:00:00Z",
+      "source": "bnonews.com",
+      "category": "incident"
+    },
+    {
+      "title": "Texas Deputy Killed , Canton Officer Wounded While Serving Assault Warrants",
+      "url": "https://www.wbap.com/2026/10/21/texas-deputy-killed-canton-officer-wounded-while-serving-assault-warrants/",
+      "description": "",
+      "date": "2026-10-22T03:00:00Z",
+      "source": "wbap.com",
       "category": "incident"
     },
     {
@@ -26,11 +74,27 @@
       "category": "incident"
     },
     {
+      "title": "Deputy killed in shootout is identified – KTBB News , Weather , Talk",
+      "url": "https://ktbb.com/post/?p=1551359",
+      "description": "",
+      "date": "2026-10-21T22:15:00Z",
+      "source": "ktbb.com",
+      "category": "incident"
+    },
+    {
       "title": "Van Zandt County deputy killed , Canton officer hurt in shootout ; suspect dead",
       "url": "https://www.kbtx.com/2026/10/21/van-zandt-county-deputy-killed-canton-officer-hurt-shootout-suspect-dead/",
       "description": "",
       "date": "2026-10-21T18:45:00Z",
       "source": "kbtx.com",
+      "category": "incident"
+    },
+    {
+      "title": "Van Zandt deputy killed and Canton officer injured in shootout – NBC 5 Dallas - Fort Worth",
+      "url": "https://www.nbcdfw.com/news/local/van-zandt-county-deputy-killed-canton-police-officer-injured-in-shootout-with-suspect/4093668/",
+      "description": "",
+      "date": "2026-10-21T14:45:00Z",
+      "source": "nbcdfw.com",
       "category": "incident"
     },
     {

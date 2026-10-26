@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Oct 2026 11:13:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 12:47:06 +0000</lastBuildDate>
+    <item>
+      <title>NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion</title>
+      <link>https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion</link>
+      <description/>
+      <pubDate>Sat, 24 Oct 2026 13:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5ny.com</source>
+    </item>
     <item>
       <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
       <link>http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html</link>
@@ -13,6 +21,46 @@
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>thegazette.com</source>
+    </item>
+    <item>
+      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
+      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegazette.com</source>
+    </item>
+    <item>
+      <title>SDPD officer shoots , kills man said to have been armed with an ax</title>
+      <link>https://timesofsandiego.com/crime/2026/10/22/san-diego-police-ax-wielding-man-shot-killed/</link>
+      <description/>
+      <pubDate>Thu, 22 Oct 2026 19:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>timesofsandiego.com</source>
+    </item>
+    <item>
+      <title>Second suspect , 16 , surrenders nearly a week after deadly Bakersfield police shooting</title>
+      <link>https://bakersfieldnow.com/news/local/second-suspect-16-surrenders-nearly-a-week-after-deadly-bakersfield-police-shooting-pacheco-road-kern-county-california</link>
+      <description/>
+      <pubDate>Thu, 22 Oct 2026 03:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>bakersfieldnow.com</source>
+    </item>
+    <item>
+      <title>Van Zandt County deputy killed , officer injured while serving warrants in Texas</title>
+      <link>https://bnonews.com/index.php/2026/10/van-zandt-county-deputy-killed-officer-injured-while-serving-warrants-in-texas/</link>
+      <description/>
+      <pubDate>Thu, 22 Oct 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>bnonews.com</source>
+    </item>
+    <item>
+      <title>Texas Deputy Killed , Canton Officer Wounded While Serving Assault Warrants</title>
+      <link>https://www.wbap.com/2026/10/21/texas-deputy-killed-canton-officer-wounded-while-serving-assault-warrants/</link>
+      <description/>
+      <pubDate>Thu, 22 Oct 2026 03:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wbap.com</source>
     </item>
     <item>
       <title>Austin ICE shooting : Man shot by agents formally indicted</title>
@@ -31,12 +79,28 @@
       <source>turnto10.com</source>
     </item>
     <item>
+      <title>Deputy killed in shootout is identified – KTBB News , Weather , Talk</title>
+      <link>https://ktbb.com/post/?p=1551359</link>
+      <description/>
+      <pubDate>Wed, 21 Oct 2026 22:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ktbb.com</source>
+    </item>
+    <item>
       <title>Van Zandt County deputy killed , Canton officer hurt in shootout ; suspect dead</title>
       <link>https://www.kbtx.com/2026/10/21/van-zandt-county-deputy-killed-canton-officer-hurt-shootout-suspect-dead/</link>
       <description/>
       <pubDate>Wed, 21 Oct 2026 18:45:00 +0000</pubDate>
       <category>incident</category>
       <source>kbtx.com</source>
+    </item>
+    <item>
+      <title>Van Zandt deputy killed and Canton officer injured in shootout – NBC 5 Dallas - Fort Worth</title>
+      <link>https://www.nbcdfw.com/news/local/van-zandt-county-deputy-killed-canton-police-officer-injured-in-shootout-with-suspect/4093668/</link>
+      <description/>
+      <pubDate>Wed, 21 Oct 2026 14:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcdfw.com</source>
     </item>
     <item>
       <title>Van Zandt County deputy killed , Canton officer injured in shootout</title>
@@ -341,70 +405,6 @@
       <pubDate>Wed, 23 Sep 2026 01:30:00 +0000</pubDate>
       <category>incident</category>
       <source>thegazette.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE returned to detention with bullet still lodged near his spine</title>
-      <link>https://www.fox13now.com/politics/immigration/man-shot-by-ice-is-back-in-detention-facility-with-a-bullet-lodged-next-to-his-spine-congressman-says</link>
-      <description/>
-      <pubDate>Tue, 22 Sep 2026 23:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox13now.com</source>
-    </item>
-    <item>
-      <title>Attorney for family of Biddeford man shot by ICE speaks to Congress</title>
-      <link>https://www.pressherald.com/2026/09/22/attorney-for-family-of-maine-man-shot-by-ice-speaks-to-congress/</link>
-      <description/>
-      <pubDate>Tue, 22 Sep 2026 22:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>pressherald.com</source>
-    </item>
-    <item>
-      <title>Judge temporarily blocks deportation of man shot by ICE agent in Austin , attorney says</title>
-      <link>https://kfdm.com/newsletter-daily/judge-temporarily-blocks-deportation-of-man-shot-by-ice-agent-in-austin-attorney-says</link>
-      <description/>
-      <pubDate>Tue, 22 Sep 2026 20:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kfdm.com</source>
-    </item>
-    <item>
-      <title>Federal judge blocks deportation of man shot by ICE in Austin</title>
-      <link>https://www.foxnews.com/us/federal-judge-temporarily-blocks-deportation-illegal-immigrant-shot-ice-austin-attorney-says</link>
-      <description/>
-      <pubDate>Tue, 22 Sep 2026 20:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>foxnews.com</source>
-    </item>
-    <item>
-      <title>Portland Man Shot by Police After Murdering Victim and Refusing to Drop His Weapon</title>
-      <link>https://www.themainewire.com/2026/09/portland-man-shot-by-police-after-murdering-victim-and-refusing-to-drop-his-weapon/</link>
-      <description/>
-      <pubDate>Tue, 22 Sep 2026 18:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>themainewire.com</source>
-    </item>
-    <item>
-      <title>Central Texas students plan walkouts after ICE agent shoots man in Austin</title>
-      <link>https://komonews.com/news/nation-world/austin-area-students-plan-walkouts-after-ice-agent-shoots-wilber-garces-perez</link>
-      <description/>
-      <pubDate>Tue, 22 Sep 2026 14:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>komonews.com</source>
-    </item>
-    <item>
-      <title>Man Shot by ICE in Austin Says He Needs Medical Care</title>
-      <link>https://www.newser.com/story/396811/delivery-driver-shot-by-ice-in-austin-describes-ordeal.html</link>
-      <description/>
-      <pubDate>Tue, 22 Sep 2026 05:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>newser.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE agent in North Austin speaks about incident</title>
-      <link>https://www.fox26houston.com/news/austin-ice-shooting-man-shot-by-ice-speaks</link>
-      <description/>
-      <pubDate>Tue, 22 Sep 2026 02:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox26houston.com</source>
     </item>
   </channel>
 </rss>
