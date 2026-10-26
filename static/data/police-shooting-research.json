@@ -1,6 +1,39 @@
 {
-  "generated_at": "2026-10-19T13:38:39Z",
+  "generated_at": "2026-10-26T12:28:29Z",
   "stories": [
+    {
+      "title": "Policing depictions in news: role priming and attitudes toward Defund the Police",
+      "url": "https://doi.org/10.1108/pijpsm-11-2025-0230",
+      "date": "2026-10-24T00:00:00Z",
+      "journal": "Policing An International Journal",
+      "authors": "Ethan Morrow & Brian L. Quick",
+      "abstract": "Purpose Research on portrayals of police in the news media often examines cases of wrongdoing, such as corruption or police brutality. The purpose of this study is to determine how these negative depictions of law enforcement may lead to divergent effects compared to positive depictions. Furthermore, this study examines how such depictions may influence attitudes toward police reform. Design/methodology/approach The study features a 2 (Police Depiction: Protector or Aggressor) × 2 (Suspect/Victim Race: White or Black) experimental design. A sample of 200 college students was collected in the fall of 2021, shortly after the rise of the Defund the Police movement. Guided by empathetic concern and priming theory, we seek to understand how emotion can mediate the relationship between news exposure and attitudes toward the Defund the Police movement. Findings The findings demonstrate that news depicting an officer stopping a school shooting led to greater empathetic concern for the officer than news depicting an incident of police brutality. This increased officer empathetic concern was associated with more negative attitudes toward defunding the police. Originality/value This study provides one of the first investigations into the relative effects of positive and negative news depictions of police. The findings build on recent scholarship to disentangle the effect of emotion on public attitudes toward police.",
+      "type": "article",
+      "doi": "10.1108/pijpsm-11-2025-0230",
+      "priority": false
+    },
+    {
+      "title": "Black Empowerment, Policy Comprehensiveness, and Civilians Killed by Police",
+      "url": "https://doi.org/10.1177/21533687261498924",
+      "date": "2026-10-22T00:00:00Z",
+      "journal": "Race and Justice",
+      "authors": "Torri Sperry & Frank A Donohue",
+      "abstract": "A robust body of research suggests that Black individuals are disproportionate victims of lethal police violence. One potential explanation for this disparity is racial threat, which posits that the dominant group in society will impose coercive control tactics, such as police violence, particularly in contexts where large minority populations are perceived as threatening. However, others have argued that once a certain threshold of empowerment is met, minority groups will counter these attempts at social control. The current study examines the relationships between Black political empowerment, departmental use of force policies, and Black civilians killed by police. Findings suggest that greater political empowerment is associated with fewer killings of Black civilians, specifically when the agency has a Black chief and the proportion of Black officers reflects the city's Black resident population. We also find that agencies with a greater number of use of force policies experience fewer Black civilian fatalities by police, although this finding is slightly sensitive to model specification.",
+      "type": "article",
+      "doi": "10.1177/21533687261498924",
+      "priority": false
+    },
+    {
+      "title": "Anticipatory Stress of Police Violence and Suicidal Thoughts and Behaviors Among US Black Adults: A Sex-stratified Analysis",
+      "url": "https://doi.org/10.1007/s40615-026-03227-0",
+      "date": "2026-10-21T00:00:00Z",
+      "journal": "Journal of Racial and Ethnic Health Disparities",
+      "authors": "Kimberly Christie Burke et al.",
+      "abstract": "Police violence is a well-documented contributor to racial disparities in health, with policing operating as a chronic stressor in Black communities. Emerging evidence links policing with suicide risk among Black adults. The present study builds on this work by examining associations between anticipatory stress of police violence and suicidal thoughts and behaviors (STB), and explores whether these associations differ by sex using data from a nationally representative survey of 3,015 self-identified US Black adults conducted in 2023. Survey-weighted regression analyses reveal that anticipatory stress of police violence is significantly associated with past-year (OR = 1.32) and lifetime (OR = 1.46) suicidal thoughts, after controlling for other risk factors, including anticipatory stress of interpersonal violence, lifetime gun violence exposure, and relevant demographic characteristics. Sex-stratified analyses show these associations are significant among women but not men, suggesting the importance of intersectional approaches that move beyond Black cisgender men's experiences as the reference case of police harm.",
+      "type": "article",
+      "doi": "10.1007/s40615-026-03227-0",
+      "priority": false
+    },
     {
       "title": "Exploring the attitudinal effects of a personality-based de-escalation training program: Findings from the National De-escalation Training Center",
       "url": "https://doi.org/10.1177/00938548261491834",
