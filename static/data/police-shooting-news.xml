@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Oct 2026 12:47:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 12:01:05 +0000</lastBuildDate>
     <item>
       <title>NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion</title>
       <link>https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion</link>
@@ -13,6 +13,22 @@
       <pubDate>Sat, 24 Oct 2026 13:15:00 +0000</pubDate>
       <category>incident</category>
       <source>fox5ny.com</source>
+    </item>
+    <item>
+      <title>JUST IN : ACPD releases footage of fatal police shooting on Columbia Pike</title>
+      <link>https://www.arlnow.com/2026/10/23/just-in-acpd-releases-footage-of-fatal-police-shooting-on-columbia-pike/</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>arlnow.com</source>
+    </item>
+    <item>
+      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
+      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
     </item>
     <item>
       <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
@@ -77,6 +93,14 @@
       <pubDate>Wed, 21 Oct 2026 23:15:00 +0000</pubDate>
       <category>incident</category>
       <source>turnto10.com</source>
+    </item>
+    <item>
+      <title>Suspect dead after being shot by police outside Academy store in Humble , police say</title>
+      <link>https://abc13.com/post/suspect-dead-being-shot-police-outside-academy-store-humble-say/19965715/</link>
+      <description/>
+      <pubDate>Wed, 21 Oct 2026 23:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc13.com</source>
     </item>
     <item>
       <title>Deputy killed in shootout is identified – KTBB News , Weather , Talk</title>
@@ -232,11 +256,11 @@
     </item>
     <item>
       <title>Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault</title>
-      <link>https://www.durangoherald.com/articles/associated-press/judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
+      <link>https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
       <description/>
-      <pubDate>Thu, 01 Oct 2026 01:45:00 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>durangoherald.com</source>
+      <source>wral.com</source>
     </item>
     <item>
       <title>Venezuelan delivery driver shot by federal agent in Texas to remain in custody</title>
@@ -327,6 +351,14 @@
       <source>wlky.com</source>
     </item>
     <item>
+      <title>Kentucky trooper killed in I - 65 shooting , suspect taken into custody</title>
+      <link>https://fox17.com/news/local/kentucky-state-trooper-death-killed-in-i-65-shooting-armed-suspect-caught</link>
+      <description/>
+      <pubDate>Tue, 29 Sep 2026 01:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox17.com</source>
+    </item>
+    <item>
       <title>KSP trooper shot , killed on I - 65 | Bowling Green Daily News</title>
       <link>https://bgdailynews.com/2026/09/28/ksp-trooper-shot-killed-on-i-65/</link>
       <description/>
@@ -373,38 +405,6 @@
       <pubDate>Wed, 23 Sep 2026 18:45:00 +0000</pubDate>
       <category>incident</category>
       <source>wesh.com</source>
-    </item>
-    <item>
-      <title>Florida janitor denied bond after elderly couple attacked , officer shot : Records</title>
-      <link>https://www.fox35orlando.com/news/florida-janitor-denied-bond-after-elderly-couple-attacked-officer-shot-records</link>
-      <description/>
-      <pubDate>Wed, 23 Sep 2026 05:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox35orlando.com</source>
-    </item>
-    <item>
-      <title>Escobar , over 100 members of Congress demand medical care for man shot by ICE</title>
-      <link>https://kvia.com/news/2026/09/22/escobar-over-100-members-of-congress-demand-medical-care-for-man-shot-by-ice/</link>
-      <description/>
-      <pubDate>Wed, 23 Sep 2026 05:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kvia.com</source>
-    </item>
-    <item>
-      <title>Venezuelan man shot by ICE officer moved from hospital into custody</title>
-      <link>https://www.wsbradio.com/news/man-shot-by-ice/VP3BSD3IMUYW7JF6OT5S2MURF4/</link>
-      <description/>
-      <pubDate>Wed, 23 Sep 2026 03:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsbradio.com</source>
-    </item>
-    <item>
-      <title>Judge sets hearing for Venezuelan man shot by ICE and police in Texas release some video from scene</title>
-      <link>http://www.thegazette.com/news/national/judge-sets-hearing-for-venezuelan-man-shot-by-ice-and-police-in-texas-release-some/article_377958c1-2438-5ed7-9792-fc0694d8ec8a.html</link>
-      <description/>
-      <pubDate>Wed, 23 Sep 2026 01:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>thegazette.com</source>
     </item>
   </channel>
 </rss>

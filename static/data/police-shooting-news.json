@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:47:06Z",
+  "generated_at": "2026-10-27T12:01:05Z",
   "stories": [
     {
       "title": "NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion",
@@ -7,6 +7,22 @@
       "description": "",
       "date": "2026-10-24T13:15:00Z",
       "source": "fox5ny.com",
+      "category": "incident"
+    },
+    {
+      "title": "JUST IN : ACPD releases footage of fatal police shooting on Columbia Pike",
+      "url": "https://www.arlnow.com/2026/10/23/just-in-acpd-releases-footage-of-fatal-police-shooting-on-columbia-pike/",
+      "description": "",
+      "date": "2026-10-23T23:00:00Z",
+      "source": "arlnow.com",
+      "category": "incident"
+    },
+    {
+      "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
+      "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "fox5atlanta.com",
       "category": "incident"
     },
     {
@@ -71,6 +87,14 @@
       "description": "",
       "date": "2026-10-21T23:15:00Z",
       "source": "turnto10.com",
+      "category": "incident"
+    },
+    {
+      "title": "Suspect dead after being shot by police outside Academy store in Humble , police say",
+      "url": "https://abc13.com/post/suspect-dead-being-shot-police-outside-academy-store-humble-say/19965715/",
+      "description": "",
+      "date": "2026-10-21T23:00:00Z",
+      "source": "abc13.com",
       "category": "incident"
     },
     {
@@ -227,10 +251,10 @@
     },
     {
       "title": "Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault",
-      "url": "https://www.durangoherald.com/articles/associated-press/judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/",
+      "url": "https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/",
       "description": "",
-      "date": "2026-10-01T01:45:00Z",
-      "source": "durangoherald.com",
+      "date": "2026-10-01T00:45:00Z",
+      "source": "wral.com",
       "category": "incident"
     },
     {
@@ -319,6 +343,14 @@
       "description": "",
       "date": "2026-09-29T02:00:00Z",
       "source": "wlky.com",
+      "category": "incident"
+    },
+    {
+      "title": "Kentucky trooper killed in I - 65 shooting , suspect taken into custody",
+      "url": "https://fox17.com/news/local/kentucky-state-trooper-death-killed-in-i-65-shooting-armed-suspect-caught",
+      "description": "",
+      "date": "2026-09-29T01:15:00Z",
+      "source": "fox17.com",
       "category": "incident"
     },
     {
@@ -1567,22 +1599,6 @@
       "description": "",
       "date": "2026-07-28T18:45:00Z",
       "source": "nbcwashington.com",
-      "category": "incident"
-    },
-    {
-      "title": "Madison police shooting : Civilian oversight board to conduct review",
-      "url": "https://www.fox6now.com/news/madison-police-shooting-civilian-oversight-board",
-      "description": "",
-      "date": "2026-07-28T01:45:00Z",
-      "source": "fox6now.com",
-      "category": "incident"
-    },
-    {
-      "title": "Texas worker shot by ICE didnt have drugs despite FBI claim",
-      "url": "https://www.washingtonexaminer.com/policy/immigration/4663558/texas-construction-worker-fatally-shot-ice-didnt-have-drugs-despite-fbi-claims/",
-      "description": "",
-      "date": "2026-07-25T23:30:00Z",
-      "source": "washingtonexaminer.com",
       "category": "incident"
     }
   ]
