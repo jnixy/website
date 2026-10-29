@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:39:25Z",
+  "generated_at": "2026-10-29T12:49:32Z",
   "stories": [
     {
       "title": "NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion",
@@ -15,6 +15,14 @@
       "description": "",
       "date": "2026-10-23T23:00:00Z",
       "source": "arlnow.com",
+      "category": "incident"
+    },
+    {
+      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
+      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "thegazette.com",
       "category": "incident"
     },
     {
@@ -34,11 +42,11 @@
       "category": "incident"
     },
     {
-      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
-      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
+      "title": "Kohen Wiley family disputes Mississippi finding that fatal police shooting was justified",
+      "url": "https://www.wokv.com/news/national/family-1-year-old/QKBFKJXXVE2RHLS75TXDZY6HAA/",
       "description": "",
-      "date": "2026-10-23T04:00:00Z",
-      "source": "thegazette.com",
+      "date": "2026-10-22T23:00:00Z",
+      "source": "wokv.com",
       "category": "incident"
     },
     {
@@ -138,19 +146,19 @@
       "category": "incident"
     },
     {
-      "title": "Police shooting that killed a 1 - year - old was justified , Mississippi AG says",
-      "url": "https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148",
-      "description": "",
-      "date": "2026-10-19T20:15:00Z",
-      "source": "koat.com",
-      "category": "incident"
-    },
-    {
       "title": "Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington",
       "url": "https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/",
       "description": "",
       "date": "2026-10-19T20:15:00Z",
       "source": "nbcwashington.com",
+      "category": "incident"
+    },
+    {
+      "title": "Police shooting that killed a 1 - year - old was justified , Mississippi AG says",
+      "url": "https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148",
+      "description": "",
+      "date": "2026-10-19T20:15:00Z",
+      "source": "koat.com",
       "category": "incident"
     },
     {
@@ -1591,14 +1599,6 @@
       "description": "",
       "date": "2026-07-28T21:00:00Z",
       "source": "yahoo.com",
-      "category": "incident"
-    },
-    {
-      "title": "Officer shoots man after domestic call involving knife – NBC4 Washington",
-      "url": "https://www.nbcwashington.com/news/local/fairfax-county-officer-shoots-at-man-running-away/4135140/",
-      "description": "",
-      "date": "2026-07-28T18:45:00Z",
-      "source": "nbcwashington.com",
       "category": "incident"
     }
   ]

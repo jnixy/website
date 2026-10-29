@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2026 12:39:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 12:49:32 +0000</lastBuildDate>
     <item>
       <title>NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion</title>
       <link>https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion</link>
@@ -21,6 +21,14 @@
       <pubDate>Fri, 23 Oct 2026 23:00:00 +0000</pubDate>
       <category>incident</category>
       <source>arlnow.com</source>
+    </item>
+    <item>
+      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
+      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegazette.com</source>
     </item>
     <item>
       <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
@@ -39,12 +47,12 @@
       <source>thegazette.com</source>
     </item>
     <item>
-      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
-      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
+      <title>Kohen Wiley family disputes Mississippi finding that fatal police shooting was justified</title>
+      <link>https://www.wokv.com/news/national/family-1-year-old/QKBFKJXXVE2RHLS75TXDZY6HAA/</link>
       <description/>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Oct 2026 23:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>thegazette.com</source>
+      <source>wokv.com</source>
     </item>
     <item>
       <title>SDPD officer shoots , kills man said to have been armed with an ax</title>
@@ -143,20 +151,20 @@
       <source>abc30.com</source>
     </item>
     <item>
-      <title>Police shooting that killed a 1 - year - old was justified , Mississippi AG says</title>
-      <link>https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148</link>
-      <description/>
-      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>koat.com</source>
-    </item>
-    <item>
       <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
       <link>https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/</link>
       <description/>
       <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
       <category>incident</category>
       <source>nbcwashington.com</source>
+    </item>
+    <item>
+      <title>Police shooting that killed a 1 - year - old was justified , Mississippi AG says</title>
+      <link>https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148</link>
+      <description/>
+      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
     </item>
     <item>
       <title>Family , friends demand answers a month after Charlotte - Mecklenburg police officer fatally shot Curtis Massey</title>
@@ -397,14 +405,6 @@
       <pubDate>Wed, 23 Sep 2026 22:15:00 +0000</pubDate>
       <category>incident</category>
       <source>wtug.com</source>
-    </item>
-    <item>
-      <title>Officer shot during struggle with inmate at Daytona Beach hospital</title>
-      <link>https://www.wesh.com/article/officer-shot-inmate-daytona-beach-hospital/73853316</link>
-      <description/>
-      <pubDate>Wed, 23 Sep 2026 18:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wesh.com</source>
     </item>
   </channel>
 </rss>
