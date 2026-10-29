@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-28T13:30:49Z",
-  "total_incidents": 73,
+  "generated_at": "2026-10-29T13:40:59Z",
+  "total_incidents": 74,
   "reviewed_count": 71,
-  "total_sources": 214,
+  "total_sources": 215,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-10-21"
+    "latest": "2026-10-28"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 72,
+    "current_year_to_date": 73,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 301
+    "as_of_day_of_year": 302
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 72
+      "count": 73
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 50
+      "count": 51
     },
     {
       "label": "injured-survived",
@@ -49,7 +49,7 @@
     },
     {
       "label": "unrelated call response",
-      "count": 15
+      "count": 16
     },
     {
       "label": "warrant service",
@@ -87,7 +87,7 @@
     },
     {
       "label": "county SO",
-      "count": 20
+      "count": 21
     },
     {
       "label": "state",
@@ -108,7 +108,7 @@
     {
       "state": "FL",
       "name": "Florida",
-      "count": 5
+      "count": 6
     },
     {
       "state": "MD",
@@ -233,7 +233,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 63,
+    "media": 64,
     "official": 5,
     "both": 5
   },
@@ -264,6 +264,25 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-10-28",
+      "date_precision": "day",
+      "city": "Pinellas County",
+      "state": "FL",
+      "agency_name": "Pinellas County Sheriff's Office",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "killed",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "Pinellas County deputies shot and killed a dog that charged at them while responding to a neighbors' complaint about a homeless camp on Bryan Dairy Road. The dog was taken to an animal hospital where it was pronounced dead; a suspect was arrested on drug charges.",
+      "source_url": "https://iontb.com/man-arrested-dog-shot-during-deputies-response-to-homeless-camp-off-bryan-dairy-road/",
+      "source_name": "IONTB",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-10-21",
       "date_precision": "day",
@@ -922,28 +941,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "medium",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-07-22",
-      "date_precision": "day",
-      "city": "Kalaeloa",
-      "state": "HI",
-      "agency_name": "Honolulu Police Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Honolulu police officer fatally shot a pit bull that charged at him during an HPD operation in Kalaeloa around 6:35 p.m. on July 22, 2026. The dog fled and was later found dead. One officer was reported injured.",
-      "source_url": "https://www.kitv.com/news/hpd-officer-shoots-and-kills-pit-bull-charging-at-him-in-kalaeloa/article_e6c7842d-d6bb-4b9f-936d-2ef09708b83a.html",
-      "source_name": "kitv.com",
-      "additional_sources": [
-        "https://www.hawaiinewsnow.com/2026/07/23/hpd-says-officer-discharged-firearm-large-pit-bull-kalaeloa/",
-        "https://www.staradvertiser.com/2026/07/23/breaking-news/officer-kills-charging-pit-bull-during-hpd-operation-in-kalaeloa/"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
       "reviewed": true
     }
   ]
