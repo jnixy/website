@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T12:41:15Z",
+  "generated_at": "2026-10-31T12:09:50Z",
   "stories": [
     {
       "title": "NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion",
@@ -18,14 +18,6 @@
       "category": "incident"
     },
     {
-      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
-      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
-      "description": "",
-      "date": "2026-10-23T04:00:00Z",
-      "source": "thegazette.com",
-      "category": "incident"
-    },
-    {
       "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
       "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
       "description": "",
@@ -39,6 +31,22 @@
       "description": "",
       "date": "2026-10-23T04:00:00Z",
       "source": "thegazette.com",
+      "category": "incident"
+    },
+    {
+      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
+      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "thegazette.com",
+      "category": "incident"
+    },
+    {
+      "title": "No charges filed in deadly Mundelein police shooting of Mary Alice Love , family files wrongful death lawsuit",
+      "url": "https://abc7chicago.com/post/no-charges-filed-deadly-mundelein-police-shooting-mary-alice-love-family-files-wrongful-death-lawsuit/19969695/",
+      "description": "",
+      "date": "2026-10-22T23:15:00Z",
+      "source": "abc7chicago.com",
       "category": "incident"
     },
     {
@@ -146,11 +154,11 @@
       "category": "incident"
     },
     {
-      "title": "Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington",
-      "url": "https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/",
+      "title": "Expert weighs in on deadly police shooting during welfare check in Bristol",
+      "url": "https://www.nbcconnecticut.com/news/local/expert-weighs-in-on-deadly-police-shooting-during-welfare-check-in-bristol/3786474/",
       "description": "",
-      "date": "2026-10-19T20:15:00Z",
-      "source": "nbcwashington.com",
+      "date": "2026-10-20T03:45:00Z",
+      "source": "nbcconnecticut.com",
       "category": "incident"
     },
     {
@@ -159,6 +167,14 @@
       "description": "",
       "date": "2026-10-19T20:15:00Z",
       "source": "koat.com",
+      "category": "incident"
+    },
+    {
+      "title": "Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington",
+      "url": "https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/",
+      "description": "",
+      "date": "2026-10-19T20:15:00Z",
+      "source": "nbcwashington.com",
       "category": "incident"
     },
     {
@@ -1583,22 +1599,6 @@
       "description": "",
       "date": "2026-07-29T17:30:00Z",
       "source": "ktvu.com",
-      "category": "incident"
-    },
-    {
-      "title": "Madison police shooting : Community members call for reform",
-      "url": "https://www.fox6now.com/news/madison-police-shooting-community-trust",
-      "description": "",
-      "date": "2026-07-29T01:00:00Z",
-      "source": "fox6now.com",
-      "category": "incident"
-    },
-    {
-      "title": "Break - in suspect dead days after being shot by police",
-      "url": "https://www.yahoo.com/news/us/articles/break-suspect-dead-days-being-203335035.html",
-      "description": "",
-      "date": "2026-07-28T21:00:00Z",
-      "source": "yahoo.com",
       "category": "incident"
     }
   ]

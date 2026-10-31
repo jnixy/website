@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2026 12:41:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 12:09:50 +0000</lastBuildDate>
     <item>
       <title>NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion</title>
       <link>https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion</link>
@@ -23,14 +23,6 @@
       <source>arlnow.com</source>
     </item>
     <item>
-      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
-      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
-      <description/>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>thegazette.com</source>
-    </item>
-    <item>
       <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
       <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
       <description/>
@@ -45,6 +37,22 @@
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>thegazette.com</source>
+    </item>
+    <item>
+      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
+      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegazette.com</source>
+    </item>
+    <item>
+      <title>No charges filed in deadly Mundelein police shooting of Mary Alice Love , family files wrongful death lawsuit</title>
+      <link>https://abc7chicago.com/post/no-charges-filed-deadly-mundelein-police-shooting-mary-alice-love-family-files-wrongful-death-lawsuit/19969695/</link>
+      <description/>
+      <pubDate>Thu, 22 Oct 2026 23:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc7chicago.com</source>
     </item>
     <item>
       <title>Kohen Wiley family disputes Mississippi finding that fatal police shooting was justified</title>
@@ -151,12 +159,12 @@
       <source>abc30.com</source>
     </item>
     <item>
-      <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
-      <link>https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/</link>
+      <title>Expert weighs in on deadly police shooting during welfare check in Bristol</title>
+      <link>https://www.nbcconnecticut.com/news/local/expert-weighs-in-on-deadly-police-shooting-during-welfare-check-in-bristol/3786474/</link>
       <description/>
-      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
+      <pubDate>Tue, 20 Oct 2026 03:45:00 +0000</pubDate>
       <category>incident</category>
-      <source>nbcwashington.com</source>
+      <source>nbcconnecticut.com</source>
     </item>
     <item>
       <title>Police shooting that killed a 1 - year - old was justified , Mississippi AG says</title>
@@ -165,6 +173,14 @@
       <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
       <category>incident</category>
       <source>koat.com</source>
+    </item>
+    <item>
+      <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
+      <link>https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/</link>
+      <description/>
+      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcwashington.com</source>
     </item>
     <item>
       <title>Family , friends demand answers a month after Charlotte - Mecklenburg police officer fatally shot Curtis Massey</title>
@@ -389,22 +405,6 @@
       <pubDate>Fri, 25 Sep 2026 00:30:00 +0000</pubDate>
       <category>incident</category>
       <source>katu.com</source>
-    </item>
-    <item>
-      <title>Congressman says Venezuelan man shot by ICE then taken into custody told he needs surgery</title>
-      <link>https://www.newsday.com/news/nation/austin-texas-ice-shooting-hospital-wilber-perez-y39690</link>
-      <description/>
-      <pubDate>Thu, 24 Sep 2026 04:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>newsday.com</source>
-    </item>
-    <item>
-      <title>Marshal Shot Serving Marengo County Murder Warrant , Suspect Dead</title>
-      <link>https://wtug.com/ixp/993/p/marengo-county-shooting-investigation-update/</link>
-      <description/>
-      <pubDate>Wed, 23 Sep 2026 22:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wtug.com</source>
     </item>
   </channel>
 </rss>
