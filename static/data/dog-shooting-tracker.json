@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-30T13:30:02Z",
-  "total_incidents": 74,
+  "generated_at": "2026-10-31T13:02:16Z",
+  "total_incidents": 75,
   "reviewed_count": 71,
-  "total_sources": 215,
+  "total_sources": 219,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-10-28"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 73,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 303
+    "as_of_day_of_year": 304
   },
   "yearly_counts": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "label": "unknown",
-      "count": 8
+      "count": 9
     },
     {
       "label": "unharmed",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 34
+      "count": 35
     },
     {
       "label": "unrelated call response",
@@ -92,6 +92,10 @@
     {
       "label": "state",
       "count": 1
+    },
+    {
+      "label": "unknown",
+      "count": 1
     }
   ],
   "state_counts": [
@@ -111,13 +115,13 @@
       "count": 6
     },
     {
-      "state": "MD",
-      "name": "Maryland",
-      "count": 5
-    },
-    {
       "state": "NY",
       "name": "New York",
+      "count": 6
+    },
+    {
+      "state": "MD",
+      "name": "Maryland",
       "count": 5
     },
     {
@@ -233,7 +237,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 64,
+    "media": 65,
     "official": 5,
     "both": 5
   },
