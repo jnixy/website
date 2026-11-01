@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T12:09:50Z",
+  "generated_at": "2026-11-01T13:09:37Z",
   "stories": [
     {
       "title": "NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion",
@@ -191,6 +191,14 @@
       "description": "",
       "date": "2026-10-18T03:45:00Z",
       "source": "azfamily.com",
+      "category": "incident"
+    },
+    {
+      "title": "NMSP : Suspect dead in Hobbs police shooting",
+      "url": "https://www.kob.com/news/top-news/nmsp-suspect-dead-in-hobbs-police-shooting/",
+      "description": "",
+      "date": "2026-10-15T18:30:00Z",
+      "source": "kob.com",
       "category": "incident"
     },
     {
@@ -1591,14 +1599,6 @@
       "description": "",
       "date": "2026-07-31T04:45:00Z",
       "source": "fox6now.com",
-      "category": "incident"
-    },
-    {
-      "title": "AG investigating deadly Fremont police shooting of 62 - year - old man",
-      "url": "https://www.ktvu.com/news/ag-investigating-deadly-fremont-shooting-stemmed-from-family-dispute",
-      "description": "",
-      "date": "2026-07-29T17:30:00Z",
-      "source": "ktvu.com",
       "category": "incident"
     }
   ]

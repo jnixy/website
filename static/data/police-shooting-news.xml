@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Oct 2026 12:09:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 13:09:37 +0000</lastBuildDate>
     <item>
       <title>NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion</title>
       <link>https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion</link>
@@ -197,6 +197,14 @@
       <pubDate>Sun, 18 Oct 2026 03:45:00 +0000</pubDate>
       <category>incident</category>
       <source>azfamily.com</source>
+    </item>
+    <item>
+      <title>NMSP : Suspect dead in Hobbs police shooting</title>
+      <link>https://www.kob.com/news/top-news/nmsp-suspect-dead-in-hobbs-police-shooting/</link>
+      <description/>
+      <pubDate>Thu, 15 Oct 2026 18:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kob.com</source>
     </item>
     <item>
       <title>Kentucky State Police hold candlelight vigil to honor trooper fatally shot during traffic stop</title>
@@ -397,14 +405,6 @@
       <pubDate>Mon, 28 Sep 2026 23:15:00 +0000</pubDate>
       <category>incident</category>
       <source>wbap.com</source>
-    </item>
-    <item>
-      <title>Wanted suspect dead after police shooting in SE Portland ; K9 officer killed</title>
-      <link>https://katu.com/news/local/police-shooting-reported-in-montavilla-neighborhood-in-se-portland-crime-investigation-local-community-officer-involved-pppb-breaking-news</link>
-      <description/>
-      <pubDate>Fri, 25 Sep 2026 00:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>katu.com</source>
     </item>
   </channel>
 </rss>
