@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-31T13:02:16Z",
-  "total_incidents": 75,
+  "generated_at": "2026-11-01T13:46:12Z",
+  "total_incidents": 76,
   "reviewed_count": 71,
-  "total_sources": 219,
+  "total_sources": 220,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-10-28"
+    "latest": "2026-10-29"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 73,
+    "current_year_to_date": 74,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 304
+    "as_of_day_of_year": 305
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 73
+      "count": 74
     }
   ],
   "outcome_breakdown": [
@@ -27,7 +27,7 @@
     },
     {
       "label": "injured-survived",
-      "count": 12
+      "count": 13
     },
     {
       "label": "unknown",
@@ -49,7 +49,7 @@
     },
     {
       "label": "unrelated call response",
-      "count": 16
+      "count": 17
     },
     {
       "label": "warrant service",
@@ -87,7 +87,7 @@
     },
     {
       "label": "county SO",
-      "count": 21
+      "count": 22
     },
     {
       "label": "state",
@@ -102,7 +102,7 @@
     {
       "state": "CA",
       "name": "California",
-      "count": 12
+      "count": 13
     },
     {
       "state": "PA",
@@ -237,7 +237,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 65,
+    "media": 66,
     "official": 5,
     "both": 5
   },
@@ -268,6 +268,25 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-10-29",
+      "date_precision": "day",
+      "city": "Apple Valley",
+      "state": "CA",
+      "agency_name": "San Bernardino County Sheriff's Department",
+      "circumstance": "unrelated call response",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "no",
+      "summary": "A San Bernardino County Sheriff's deputy shot and wounded one of four large dogs that charged toward the deputy and a sheriff's bloodhound K-9 during a missing-person search in Apple Valley. The wounded dog was transported to an animal hospital by animal control.",
+      "source_url": "https://hoodline.com/2026/10/four-dogs-charge-deputy-k-9-during-apple-valley-search-for-missing-90-year-old/",
+      "source_name": "Hoodline",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-10-28",
       "date_precision": "day",
@@ -923,25 +942,6 @@
         "https://www.nbcchicago.com/news/local/dog-shot-by-chicago-police-after-girl-woman-attacked-in-north-lawndale/3966296/",
         "https://wgntv.com/news/chicago-news/chicago-police-shoot-dog-after-it-attacks-and-seriously-injuries-2-people-in-north-lawndale-according-to-police/"
       ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "medium",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-07-24",
-      "date_precision": "day",
-      "city": "Baltimore",
-      "state": "MD",
-      "agency_name": "Baltimore Police Department",
-      "circumstance": "dog attack/bite call",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "A Baltimore police officer fatally shot a dog on West Franklin Street after it attacked two women and their pet, around late July 2026. Distinct from the March 2026 Hartwait Street shooting.",
-      "source_url": "https://www.thebanner.com/community/local-news/baltimore-police-fatal-dog-shooting-west-franklin-street-EX6Z4GQVXVDJ5BFO4DDD3CNJ2M/",
-      "source_name": "thebanner.com",
-      "additional_sources": [],
       "discovery": "media",
       "official_url": "",
       "confidence": "medium",
