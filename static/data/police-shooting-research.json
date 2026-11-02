@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-10-26T12:28:29Z",
+  "generated_at": "2026-11-02T15:02:08Z",
   "stories": [
+    {
+      "title": "The Other Talk: Race and Keeping Kids Safe",
+      "url": "https://doi.org/10.1177/21533687261498930",
+      "date": "2026-10-27T00:00:00Z",
+      "journal": "Race and Justice",
+      "authors": "Sandra Lee Browning et al.",
+      "abstract": "Using a 2025 national study of 500 White and 500 Black respondents, we examine Americans’ likelihood of having two talks with teenage family members: “The Talk” about police officers and “The Other Talk” about the dangers of crime and criminals. Consistent with previous research, the data revealed a large racial divide in “The Talk.” Black respondents were far more likely than White respondents to say they would teach youths how to avoid police violence. By contrast, the data revealed a smaller racial divide in “The Other Talk.” Although Black respondents were more likely than White respondents to have this talk with teenage family members, “The Other Talk” was the norm in both racial groups, making it virtually universal. A key multivariate finding was that fear of the police and experiences with officers shaped the likelihood of “The Talk” for both Black and White respondents.",
+      "type": "article",
+      "doi": "10.1177/21533687261498930",
+      "priority": false
+    },
     {
       "title": "Policing depictions in news: role priming and attitudes toward Defund the Police",
       "url": "https://doi.org/10.1108/pijpsm-11-2025-0230",
@@ -76,6 +87,17 @@
       "abstract": "",
       "type": "article",
       "doi": "10.1007/s40615-026-03194-6",
+      "priority": false
+    },
+    {
+      "title": "A deadly intersection: The role of race and mental illness in 11 years of police killings",
+      "url": "https://doi.org/10.1016/j.amepre.2026.108625",
+      "date": "2026-10-01T00:00:00Z",
+      "journal": "American Journal of Preventive Medicine",
+      "authors": "Therese L. Todd et al.",
+      "abstract": "INTRODUCTION: People of color and people with mental illness are at increased risk of police use of force. The aim of this study was to determine how the intersection of race and mental illness affects the risk of being killed by police and quantify compounded vulnerability relative to single-identity risk. METHODS: A cross-sectional study conducted in 2026 of all U.S. police killings from 2013-2023 using the Mapping Police Violence database. Deaths were coded for signs of mental illness and race/ethnicity. Relative risk (RR) was calculated by dividing subgroup killings by corresponding adult population counts. The analytic sample included 9,318 individuals aged ≥18 killed by police after excluding cases with missing data. RESULTS: People with signs of mental illness were over seven times more likely to be killed by police than those without (RR=7.41). Black people were over three times more likely than White people (RR=3.06). Intersectional analyses showed compounded risk: Black people with signs of mental illness were over 19 times more likely to be killed than White people without (RR=19.31). CONCLUSIONS: Race and mental illness independently increase risk, but their intersection produces extreme vulnerability. Findings underscore the need for reforms addressing racial inequities, mental health care gaps, and police-based crisis response.",
+      "type": "article",
+      "doi": "10.1016/j.amepre.2026.108625",
       "priority": false
     },
     {
