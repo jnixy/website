@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:09:37Z",
+  "generated_at": "2026-11-02T15:33:21Z",
   "stories": [
     {
       "title": "NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion",
@@ -18,6 +18,14 @@
       "category": "incident"
     },
     {
+      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
+      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "thegazette.com",
+      "category": "incident"
+    },
+    {
       "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
       "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
       "description": "",
@@ -28,14 +36,6 @@
     {
       "title": "Takeaways from AP investigation into police shootings of alleged cow smugglers in India",
       "url": "http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html",
-      "description": "",
-      "date": "2026-10-23T04:00:00Z",
-      "source": "thegazette.com",
-      "category": "incident"
-    },
-    {
-      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
-      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
       "description": "",
       "date": "2026-10-23T04:00:00Z",
       "source": "thegazette.com",
@@ -130,6 +130,14 @@
       "category": "incident"
     },
     {
+      "title": "Venezuelan man shot by ICE agent in North Austin indicted on federal assault charge",
+      "url": "https://foxsanantonio.com/news/local/venezuelan-man-shot-by-ice-agent-in-north-austin-indicted-on-federal-assault-charge",
+      "description": "",
+      "date": "2026-10-21T16:45:00Z",
+      "source": "foxsanantonio.com",
+      "category": "incident"
+    },
+    {
       "title": "Van Zandt deputy killed and Canton officer injured in shootout – NBC 5 Dallas - Fort Worth",
       "url": "https://www.nbcdfw.com/news/local/van-zandt-county-deputy-killed-canton-police-officer-injured-in-shootout-with-suspect/4093668/",
       "description": "",
@@ -162,19 +170,19 @@
       "category": "incident"
     },
     {
-      "title": "Police shooting that killed a 1 - year - old was justified , Mississippi AG says",
-      "url": "https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148",
-      "description": "",
-      "date": "2026-10-19T20:15:00Z",
-      "source": "koat.com",
-      "category": "incident"
-    },
-    {
       "title": "Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington",
       "url": "https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/",
       "description": "",
       "date": "2026-10-19T20:15:00Z",
       "source": "nbcwashington.com",
+      "category": "incident"
+    },
+    {
+      "title": "Police shooting that killed a 1 - year - old was justified , Mississippi AG says",
+      "url": "https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148",
+      "description": "",
+      "date": "2026-10-19T20:15:00Z",
+      "source": "koat.com",
       "category": "incident"
     },
     {
@@ -199,6 +207,22 @@
       "description": "",
       "date": "2026-10-15T18:30:00Z",
       "source": "kob.com",
+      "category": "incident"
+    },
+    {
+      "title": "Lawyers for New York man shot by ICE say officer fired into car without warning – KTBB News , Weather , Talk",
+      "url": "https://ktbb.com/post/?p=1549491",
+      "description": "",
+      "date": "2026-10-15T14:15:00Z",
+      "source": "ktbb.com",
+      "category": "incident"
+    },
+    {
+      "title": "Lawyers for NY man shot by ICE say officer fired into car without warning",
+      "url": "https://www.orlandosentinel.com/2026/10/14/ice-shooting-new-york/",
+      "description": "",
+      "date": "2026-10-15T14:00:00Z",
+      "source": "orlandosentinel.com",
       "category": "incident"
     },
     {
@@ -1575,30 +1599,6 @@
       "description": "",
       "date": "2026-08-03T00:30:00Z",
       "source": "kctv5.com",
-      "category": "incident"
-    },
-    {
-      "title": "Madison police shooting ; mayor says protest site  not sustainable or safe  ",
-      "url": "https://www.fox6now.com/news/madison-mayor",
-      "description": "",
-      "date": "2026-07-31T14:00:00Z",
-      "source": "fox6now.com",
-      "category": "incident"
-    },
-    {
-      "title": "DART Police officer shot in South Dallas",
-      "url": "https://www.fox4news.com/news/dart-police-officer-shot-south-dallas",
-      "description": "",
-      "date": "2026-07-31T05:45:00Z",
-      "source": "fox4news.com",
-      "category": "incident"
-    },
-    {
-      "title": "Waukesha police shooting following hostage situation at Meijer",
-      "url": "https://www.fox6now.com/news/waukesha-police-shooting-following-hostage-situation-meijer",
-      "description": "",
-      "date": "2026-07-31T04:45:00Z",
-      "source": "fox6now.com",
       "category": "incident"
     }
   ]

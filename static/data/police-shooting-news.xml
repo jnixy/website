@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2026 13:09:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 15:33:21 +0000</lastBuildDate>
     <item>
       <title>NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion</title>
       <link>https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion</link>
@@ -23,6 +23,14 @@
       <source>arlnow.com</source>
     </item>
     <item>
+      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
+      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegazette.com</source>
+    </item>
+    <item>
       <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
       <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
       <description/>
@@ -33,14 +41,6 @@
     <item>
       <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
       <link>http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html</link>
-      <description/>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>thegazette.com</source>
-    </item>
-    <item>
-      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
-      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
       <description/>
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
@@ -135,6 +135,14 @@
       <source>kbtx.com</source>
     </item>
     <item>
+      <title>Venezuelan man shot by ICE agent in North Austin indicted on federal assault charge</title>
+      <link>https://foxsanantonio.com/news/local/venezuelan-man-shot-by-ice-agent-in-north-austin-indicted-on-federal-assault-charge</link>
+      <description/>
+      <pubDate>Wed, 21 Oct 2026 16:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>foxsanantonio.com</source>
+    </item>
+    <item>
       <title>Van Zandt deputy killed and Canton officer injured in shootout – NBC 5 Dallas - Fort Worth</title>
       <link>https://www.nbcdfw.com/news/local/van-zandt-county-deputy-killed-canton-police-officer-injured-in-shootout-with-suspect/4093668/</link>
       <description/>
@@ -167,20 +175,20 @@
       <source>nbcconnecticut.com</source>
     </item>
     <item>
-      <title>Police shooting that killed a 1 - year - old was justified , Mississippi AG says</title>
-      <link>https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148</link>
-      <description/>
-      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>koat.com</source>
-    </item>
-    <item>
       <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
       <link>https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/</link>
       <description/>
       <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
       <category>incident</category>
       <source>nbcwashington.com</source>
+    </item>
+    <item>
+      <title>Police shooting that killed a 1 - year - old was justified , Mississippi AG says</title>
+      <link>https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148</link>
+      <description/>
+      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
     </item>
     <item>
       <title>Family , friends demand answers a month after Charlotte - Mecklenburg police officer fatally shot Curtis Massey</title>
@@ -205,6 +213,22 @@
       <pubDate>Thu, 15 Oct 2026 18:30:00 +0000</pubDate>
       <category>incident</category>
       <source>kob.com</source>
+    </item>
+    <item>
+      <title>Lawyers for New York man shot by ICE say officer fired into car without warning – KTBB News , Weather , Talk</title>
+      <link>https://ktbb.com/post/?p=1549491</link>
+      <description/>
+      <pubDate>Thu, 15 Oct 2026 14:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ktbb.com</source>
+    </item>
+    <item>
+      <title>Lawyers for NY man shot by ICE say officer fired into car without warning</title>
+      <link>https://www.orlandosentinel.com/2026/10/14/ice-shooting-new-york/</link>
+      <description/>
+      <pubDate>Thu, 15 Oct 2026 14:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>orlandosentinel.com</source>
     </item>
     <item>
       <title>Kentucky State Police hold candlelight vigil to honor trooper fatally shot during traffic stop</title>
@@ -381,30 +405,6 @@
       <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
       <category>incident</category>
       <source>wlky.com</source>
-    </item>
-    <item>
-      <title>Kentucky trooper killed in I - 65 shooting , suspect taken into custody</title>
-      <link>https://fox17.com/news/local/kentucky-state-trooper-death-killed-in-i-65-shooting-armed-suspect-caught</link>
-      <description/>
-      <pubDate>Tue, 29 Sep 2026 01:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox17.com</source>
-    </item>
-    <item>
-      <title>KSP trooper shot , killed on I - 65 | Bowling Green Daily News</title>
-      <link>https://bgdailynews.com/2026/09/28/ksp-trooper-shot-killed-on-i-65/</link>
-      <description/>
-      <pubDate>Mon, 28 Sep 2026 23:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>bgdailynews.com</source>
-    </item>
-    <item>
-      <title>North Texas Woman Faces Attempted Capital Murder Charge After Officer Shot</title>
-      <link>https://www.wbap.com/2026/09/28/north-texas-woman-faces-attempted-capital-murder-charge-after-officer-shot/</link>
-      <description/>
-      <pubDate>Mon, 28 Sep 2026 23:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wbap.com</source>
     </item>
   </channel>
 </rss>
