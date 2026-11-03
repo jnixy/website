@@ -46,7 +46,7 @@ url_code = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.874e801d", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1177/10986111261507732}]
+links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.874e801d", icon = "unlock-alt", icon_pack = "fas"}, {name = "DOI", url="https://doi.org/10.1177/10986111261507732}, {name = "Replication Materials", url="https://github.com/jnixy/killing-cascade", icon = "code", icon_pack = "fas"}]
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your project's folder.
