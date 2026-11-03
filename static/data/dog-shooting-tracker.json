@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-02T16:31:22Z",
-  "total_incidents": 76,
+  "generated_at": "2026-11-03T14:40:06Z",
+  "total_incidents": 77,
   "reviewed_count": 71,
-  "total_sources": 221,
+  "total_sources": 222,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-10-29"
+    "latest": "2026-10-31"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 74,
+    "current_year_to_date": 75,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 306
+    "as_of_day_of_year": 307
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 74
+      "count": 75
     }
   ],
   "outcome_breakdown": [
@@ -27,7 +27,7 @@
     },
     {
       "label": "injured-survived",
-      "count": 13
+      "count": 14
     },
     {
       "label": "unknown",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 35
+      "count": 36
     },
     {
       "label": "unrelated call response",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 52
+      "count": 53
     },
     {
       "label": "county SO",
@@ -170,6 +170,11 @@
       "count": 2
     },
     {
+      "state": "MI",
+      "name": "Michigan",
+      "count": 2
+    },
+    {
       "state": "NC",
       "name": "North Carolina",
       "count": 1
@@ -192,11 +197,6 @@
     {
       "state": "KS",
       "name": "Kansas",
-      "count": 1
-    },
-    {
-      "state": "MI",
-      "name": "Michigan",
       "count": 1
     },
     {
@@ -237,7 +237,7 @@
   ],
   "human_injured_count": 3,
   "discovery_counts": {
-    "media": 66,
+    "media": 67,
     "official": 5,
     "both": 5
   },
@@ -268,6 +268,25 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-10-31",
+      "date_precision": "day",
+      "city": "Hazel Park",
+      "state": "MI",
+      "agency_name": "Hazel Park Police Department",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "A 39-year-old woman was attacked by three dogs (two pit bulls and a Presa Canario) at her home in Hazel Park on October 31. The first responding officer used a Taser twice to distract the dogs, but when one dog bit the officer in the thigh, the officer fired at the dog; a second officer then shot and killed the wounded dog.",
+      "source_url": "https://www.clickondetroit.com/news/local/2026/11/03/hazel-park-woman-mauled-by-her-own-dogs-officer-shots-dog-after-being-bit-clone/",
+      "source_name": "ClickOnDetroit | WDIV Local 4",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-10-29",
       "date_precision": "day",
@@ -923,28 +942,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-07-26",
-      "date_precision": "day",
-      "city": "Chicago",
-      "state": "IL",
-      "agency_name": "Chicago Police Department",
-      "circumstance": "dog attack/bite call",
-      "dog_outcome": "unknown",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "Chicago police shot a dog after it bit a 25-year-old woman and a 15-year-old girl inside a residence in the 4200 block of West Cullerton Street in North Lawndale early on July 26, 2026. Both victims were hospitalized in serious condition; police did not say whether the dog survived.",
-      "source_url": "https://www.cbsnews.com/chicago/news/police-shoot-dog-woman-teenage-girl-bitten-chicago-west-side/",
-      "source_name": "cbsnews.com",
-      "additional_sources": [
-        "https://www.nbcchicago.com/news/local/dog-shot-by-chicago-police-after-girl-woman-attacked-in-north-lawndale/3966296/",
-        "https://wgntv.com/news/chicago-news/chicago-police-shoot-dog-after-it-attacks-and-seriously-injuries-2-people-in-north-lawndale-according-to-police/"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "medium",
       "reviewed": true
     }
   ]
