@@ -61,7 +61,7 @@ links = [{name = "Preprint", url="https://doi.org/10.21428/cb6ab371.874e801d", i
 
 ## UPDATE, 11.2.2026
 
-Ian Adams and I learned yesterday that our paper, "[The Killing Cascade: More Officers, More Wounds, More Deaths in Police Shootings](https://doi.org/10.21428/cb6ab371.874e801d)," has been accepted at *Police Quarterly*. I wrote a summary of an earlier version here several months ago, while it was under review elsewhere. A fair amount has changed since then thanks to multiple rounds of demanding reviews and us adding another year's worth of data that have become available since we first wrote the paper. So I've revised this post to bring it in-line with the accepted version of the paper.
+Ian Adams and I learned yesterday that our paper, "[The Killing Cascade: More Officers, More Wounds, More Deaths in Police Shootings](https://doi.org/10.21428/cb6ab371.874e801d)," has been accepted at [*Police Quarterly*](https://doi.org/10.1177/10986111261507732). I wrote a summary of an earlier version here several months ago, while it was under review elsewhere. A fair amount has changed since then thanks to multiple rounds of demanding reviews and us adding another year's worth of data that have become available since we first wrote the paper. So I've revised this post to bring it in-line with the accepted version of the paper.
 
 ## The Killing Cascade
 
@@ -112,9 +112,4 @@ Third, whatever determines how many times someone is shot, survival depends part
 We know a lot more about who gets shot by police than about who survives. Recording where people are wounded, for survivors as well as for those who die, is a relatively inexpensive way to start closing that gap.
 
 [^1]: The earlier version of this post also estimated that 272 deaths would not have occurred if multi-officer shootings carried single-officer fatality rates. The published paper keeps a version of that calculation in an appendix, but frames it as a difference in expected deaths within our sample, not deaths that could have been prevented. Given the confounding problem, we think that framing is the right one.
-
----
-
-*Check out this [short video summary](https://x.com/CrimConsortium/status/2021267772689260893) that CrimRxiv Consortium posted on Twitter!*
-*The preprint version of this manuscript is available at [CrimRxiv](https://www.crimrxiv.com/pub/7mj8aj3g). We welcome feedback as we move through the peer review process.*
 
