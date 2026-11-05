@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-11-04T14:17:25Z",
+  "generated_at": "2026-11-05T14:32:04Z",
   "stories": [
+    {
+      "title": "SLED investigating Irmo police shooting during domestic call",
+      "url": "https://www.postandcourier.com/columbia/news/irmo-police-shooting-sled-investigation-columbia/article_57d034a8-c416-4a33-ac95-4e1daf8d80f3.html",
+      "description": "",
+      "date": "2026-11-03T02:15:00Z",
+      "source": "postandcourier.com",
+      "category": "incident"
+    },
     {
       "title": "NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion",
       "url": "https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion",
@@ -18,19 +26,19 @@
       "category": "incident"
     },
     {
-      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
-      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
-      "description": "",
-      "date": "2026-10-23T04:00:00Z",
-      "source": "thegazette.com",
-      "category": "incident"
-    },
-    {
       "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
       "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
       "description": "",
       "date": "2026-10-23T04:00:00Z",
       "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
+      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
+      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "thegazette.com",
       "category": "incident"
     },
     {
@@ -199,6 +207,14 @@
       "description": "",
       "date": "2026-10-18T03:45:00Z",
       "source": "azfamily.com",
+      "category": "incident"
+    },
+    {
+      "title": "Man Shot by ICE in NYC Last Week Yet to Receive Surgery for Bullet in His Neck",
+      "url": "https://truthout.org/articles/man-shot-by-ice-in-nyc-last-week-yet-to-receive-surgery-for-bullet-in-his-neck/",
+      "description": "",
+      "date": "2026-10-16T18:00:00Z",
+      "source": "truthout.org",
       "category": "incident"
     },
     {
@@ -1583,22 +1599,6 @@
       "description": "",
       "date": "2026-08-03T17:00:00Z",
       "source": "wafb.com",
-      "category": "incident"
-    },
-    {
-      "title": "AM Roundup : Deadly Gilbert stabbing and police shooting , Merc welcomes Plum",
-      "url": "https://www.abc15.com/news/am-roundup/am-roundup-deadly-gilbert-stabbing-and-police-shooting-kelsey-plum-traded-to-merc",
-      "description": "",
-      "date": "2026-08-03T12:00:00Z",
-      "source": "abc15.com",
-      "category": "incident"
-    },
-    {
-      "title": "Kansas City , Kansas Police honors officer killed in the line of duty 83 years ago",
-      "url": "https://www.kctv5.com/2026/08/02/kansas-city-kansas-police-honors-officer-killed-line-duty-83-years-ago/",
-      "description": "",
-      "date": "2026-08-03T00:30:00Z",
-      "source": "kctv5.com",
       "category": "incident"
     }
   ]
