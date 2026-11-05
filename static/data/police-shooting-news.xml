@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2026 14:17:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 14:32:04 +0000</lastBuildDate>
+    <item>
+      <title>SLED investigating Irmo police shooting during domestic call</title>
+      <link>https://www.postandcourier.com/columbia/news/irmo-police-shooting-sled-investigation-columbia/article_57d034a8-c416-4a33-ac95-4e1daf8d80f3.html</link>
+      <description/>
+      <pubDate>Tue, 03 Nov 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>postandcourier.com</source>
+    </item>
     <item>
       <title>NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion</title>
       <link>https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion</link>
@@ -23,20 +31,20 @@
       <source>arlnow.com</source>
     </item>
     <item>
-      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
-      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
-      <description/>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>thegazette.com</source>
-    </item>
-    <item>
       <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
       <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
       <description/>
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
+      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegazette.com</source>
     </item>
     <item>
       <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
@@ -205,6 +213,14 @@
       <pubDate>Sun, 18 Oct 2026 03:45:00 +0000</pubDate>
       <category>incident</category>
       <source>azfamily.com</source>
+    </item>
+    <item>
+      <title>Man Shot by ICE in NYC Last Week Yet to Receive Surgery for Bullet in His Neck</title>
+      <link>https://truthout.org/articles/man-shot-by-ice-in-nyc-last-week-yet-to-receive-surgery-for-bullet-in-his-neck/</link>
+      <description/>
+      <pubDate>Fri, 16 Oct 2026 18:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>truthout.org</source>
     </item>
     <item>
       <title>NMSP : Suspect dead in Hobbs police shooting</title>
@@ -389,22 +405,6 @@
       <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
       <category>incident</category>
       <source>wsmv.com</source>
-    </item>
-    <item>
-      <title>  Armed and dangerou suspect in custody after trooper killed in shooting in Kentucky . Here what we know</title>
-      <link>https://www.wsmv.com/2026/09/28/armed-dangerous-suspect-custody-after-trooper-killed-shooting-kentucky-heres-what-we-know/</link>
-      <description/>
-      <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsmv.com</source>
-    </item>
-    <item>
-      <title>What is a Blue Alert ? Why one was issued after trooper shot on I - 65 in Kentucky</title>
-      <link>https://www.wlky.com/article/what-is-a-blue-alert-i-65-trooper-shooting-western-kentucky/73931355</link>
-      <description/>
-      <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wlky.com</source>
     </item>
   </channel>
 </rss>
