@@ -74,7 +74,7 @@ Here are those 16 agencies one by one:
 
 ![Then vs. now in sixteen long-running agencies](then_vs_now.png)
 
-Ten of the 16 kill fewer people a year now than before 1995:
+Ten of the 16 kill fewer people a year now than before 1995. For example, here's what the data show for America's three largest cities:
 
 | Agency | Before 1995 (per year) | Since 2015 (per year) |
 |---|---:|---:|
