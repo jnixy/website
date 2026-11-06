@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-05T14:57:15Z",
-  "total_incidents": 78,
+  "generated_at": "2026-11-06T14:35:27Z",
+  "total_incidents": 79,
   "reviewed_count": 71,
-  "total_sources": 223,
+  "total_sources": 224,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-10-31"
+    "latest": "2026-11-05"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 76,
+    "current_year_to_date": 77,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 309
+    "as_of_day_of_year": 310
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 76
+      "count": 77
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 51
+      "count": 52
     },
     {
       "label": "injured-survived",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 36
+      "count": 37
     },
     {
       "label": "unrelated call response",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 54
+      "count": 55
     },
     {
       "label": "county SO",
@@ -112,7 +112,7 @@
     {
       "state": "FL",
       "name": "Florida",
-      "count": 6
+      "count": 7
     },
     {
       "state": "NY",
@@ -242,7 +242,7 @@
   ],
   "human_injured_count": 4,
   "discovery_counts": {
-    "media": 68,
+    "media": 69,
     "official": 5,
     "both": 5
   },
@@ -273,6 +273,25 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-11-05",
+      "date_precision": "day",
+      "city": "Tampa",
+      "state": "FL",
+      "agency_name": "Tampa Police Department",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "killed",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "Tampa police officers responded to a report of a dog attack near North 42nd Street and East Idlewild Avenue and found a pit bull actively mauling a man in his 60s after having killed a smaller dog. Officers fired their weapons to stop the attack; the pit bull died at the scene and the man was hospitalized with serious injuries.",
+      "source_url": "https://hoodline.com/2026/11/tampa-officers-shoot-pit-bull-mid-attack-leave-owner-hospitalized-seriously-hurt/",
+      "source_name": "Hoodline",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-10-31",
       "date_precision": "day",
@@ -925,25 +944,6 @@
         "https://www.yahoo.com/news/us/articles/tfpd-officer-shoots-dog-twin-234429901.html",
         "https://www.kmvt.com/video/2026/08/13/dog-released-after-being-shot-by-twin-falls-police-officer/"
       ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-07-29",
-      "date_precision": "day",
-      "city": "Oroville",
-      "state": "CA",
-      "agency_name": "Oroville Police Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "An Oroville police officer shot and killed a pit bull that escaped from a nearby fenced yard and charged at officers while they were wrapping up a hit-and-run investigation on July 29, 2026. Police said the dog attacked officers after one officer attempted to stop it with a Taser, and no officers or bystanders were injured.",
-      "source_url": "https://krcrtv.com/news/local/oroville-police-shoot-dog-during-hit-and-run-probe-after-it-charged-and-attacked-officers",
-      "source_name": "KRCR",
-      "additional_sources": [],
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
