@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:02:08Z",
+  "generated_at": "2026-11-09T15:31:30Z",
   "stories": [
     {
       "title": "The Other Talk: Race and Keeping Kids Safe",
@@ -101,17 +101,6 @@
       "priority": false
     },
     {
-      "title": "The Fast and the Spurious: A Causal Evaluation of NYPD’s Pursuit Policy, 2022–2025",
-      "url": "https://doi.org/10.1007/s10940-026-09692-4",
-      "date": "2026-09-24T00:00:00Z",
-      "journal": "Journal of Quantitative Criminology",
-      "authors": "John J. Hall & Justin Nix",
-      "abstract": "Abstract Objectives This study examines the consequences of the New York City Police Department’s late-2022 operational shift that sharply expanded vehicle pursuits. We evaluate whether the surge in pursuits affected motor vehicle collisions, robberies, and shootings, and whether any crime-prevention benefits offset the associated collision costs. Methods For collision outcomes, interrupted time series (ITS) segmented regression provides direct causal estimates. For crime outcomes, where within-city trends may reflect national forces, we triangulate across a city-level ITS, a generalized synthetic control comparing New York with large U.S. cities, a test of whether crime rose after the February 2025 re-restriction, and descriptive borough- and precinct-level comparisons of where any decline was concentrated. A cost-benefit analysis estimates the threshold of prevented shootings needed for pursuit escalation to break even. Results Monthly pursuits rose from roughly eight to a peak above 200. Pursuit-related collisions increased proportionally with pursuit volume across all four policy regimes and declined sharply following the February 2025 policy re-restriction. Crime outcomes provide no evidence of deterrence. The generalized synthetic control finds NYC’s post-2022 shooting trajectory statistically indistinguishable from the national counterfactual, and robbery, if anything, rose relative to comparable cities. The February 2025 reduction in pursuits was not followed by any increase in crime. Descriptive within-city comparisons align: the shooting DiD rests on non-parallel pre-trends, and the robbery DiD runs opposite to deterrence. Conclusions Pursuit escalation produced clear and attributable collision harms while providing no credible evidence of crime reduction. Cost-benefit estimates suggest the threshold of prevented shootings required to offset these harms was not achieved. Agencies should require affirmative evidence of crime-prevention benefits before expanding pursuit authority.",
-      "type": "article",
-      "doi": "10.1007/s10940-026-09692-4",
-      "priority": false
-    },
-    {
       "title": "The effects of interview timing and body‐worn camera video review on completeness and accuracy of accounts of a lethal force scenario",
       "url": "https://doi.org/10.1111/1745-9133.70041",
       "date": "2026-09-24T00:00:00Z",
@@ -121,6 +110,17 @@
       "type": "article",
       "doi": "10.1111/1745-9133.70041",
       "priority": true
+    },
+    {
+      "title": "The Fast and the Spurious: A Causal Evaluation of NYPD’s Pursuit Policy, 2022–2025",
+      "url": "https://doi.org/10.1007/s10940-026-09692-4",
+      "date": "2026-09-24T00:00:00Z",
+      "journal": "Journal of Quantitative Criminology",
+      "authors": "John J. Hall & Justin Nix",
+      "abstract": "Abstract Objectives This study examines the consequences of the New York City Police Department’s late-2022 operational shift that sharply expanded vehicle pursuits. We evaluate whether the surge in pursuits affected motor vehicle collisions, robberies, and shootings, and whether any crime-prevention benefits offset the associated collision costs. Methods For collision outcomes, interrupted time series (ITS) segmented regression provides direct causal estimates. For crime outcomes, where within-city trends may reflect national forces, we triangulate across a city-level ITS, a generalized synthetic control comparing New York with large U.S. cities, a test of whether crime rose after the February 2025 re-restriction, and descriptive borough- and precinct-level comparisons of where any decline was concentrated. A cost-benefit analysis estimates the threshold of prevented shootings needed for pursuit escalation to break even. Results Monthly pursuits rose from roughly eight to a peak above 200. Pursuit-related collisions increased proportionally with pursuit volume across all four policy regimes and declined sharply following the February 2025 policy re-restriction. Crime outcomes provide no evidence of deterrence. The generalized synthetic control finds NYC’s post-2022 shooting trajectory statistically indistinguishable from the national counterfactual, and robbery, if anything, rose relative to comparable cities. The February 2025 reduction in pursuits was not followed by any increase in crime. Descriptive within-city comparisons align: the shooting DiD rests on non-parallel pre-trends, and the robbery DiD runs opposite to deterrence. Conclusions Pursuit escalation produced clear and attributable collision harms while providing no credible evidence of crime reduction. Cost-benefit estimates suggest the threshold of prevented shootings required to offset these harms was not achieved. Agencies should require affirmative evidence of crime-prevention benefits before expanding pursuit authority.",
+      "type": "article",
+      "doi": "10.1007/s10940-026-09692-4",
+      "priority": false
     },
     {
       "title": "Protests, Racial Threat, and Social Control: How Does Protesting and Racial Threat Impact Different Types of Social Control?",
@@ -227,7 +227,7 @@
       "date": "2026-08-12T00:00:00Z",
       "journal": "Proceedings of the National Academy of Sciences",
       "authors": "Bocar Ba et al.",
-      "abstract": "This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department's rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations involving high officer discretion, compared to their no-misconduct peers. Our findings also suggest that downstream legal actors, such as prosecutors and judges, may be partially \"correcting\" these arrests.",
+      "abstract": "Given the use of an individual’s arrest history for many economic and social outcomes, policymakers have enacted criminal justice reform measures. This paper examines which officers are making conviction‐less arrests (arrests that result in no charges or where the defendant is found not guilty), and whether these arrests can be reduced with increased oversight. Using the Chicago Police Department’s rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high‐misconduct officers are 12% more likely than no‐misconduct officers to make arrests that result in no charges and 31% more likely to make arrests with “not guilty” outcomes, with no difference in arrests yielding “guilty” outcomes. We also analyze two events that increased the transparency of police misconduct through public disclosure of complaint records and find that increased oversight reduces conviction‐less arrests, but with nuances across misconduct profiles–low‐misconduct officers show stronger responses and high‐misconduct officers show weaker responses.",
       "type": "article",
       "doi": "10.1073/pnas.2603437123",
       "priority": false
@@ -311,13 +311,13 @@
     },
     {
       "title": "Reconceptualizing Polyvictimization: Integrating Self-Reported Victimization and Police Use of Force",
-      "url": "https://doi.org/10.1177/08862605261455579",
+      "url": "https://doi.org/10.21428/cb6ab371.b23bb1ac",
       "date": "2026-07-21T00:00:00Z",
       "journal": "Journal of Interpersonal Violence",
       "authors": "Ashley N. Jackson & Lee Ann Slocum",
       "abstract": "Research on police violence (PV) narrowly defines it as physical force, disregarding its other forms, like psychological violence and neglect, and its co-occurrence with non-police victimization (NPV). This omission is important because of overlapping risk factors and potential compounding harm. Using the National Crime Victimization Survey and Police-Public Contact Survey, this study employs a more expansive definition that includes psychological and neglectful PV and assesses the overlap of these harms with NPV. Psychological PV was the most experienced form, and it was most prevalent among individuals who are male, younger, Black, city residents, and low-income. Any PV exposure, especially physical, was associated with a heightened NPV risk. While Black respondents had a higher likelihood of psychological PV than White individuals, its association with NPV was strongest for White respondents. Findings underscore the need to include PV in polyvictimization research and for alternatives to formal institutions that may perpetuate harm.",
       "type": "article",
-      "doi": "10.1177/08862605261455579",
+      "doi": "10.21428/cb6ab371.b23bb1ac",
       "priority": false
     },
     {

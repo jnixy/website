@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-research/</link>
     <description>Recent academic research on police shootings and use of deadly force</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2026 15:02:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 15:31:30 +0000</lastBuildDate>
     <item>
       <title>The Other Talk: Race and Keeping Kids Safe</title>
       <link>https://doi.org/10.1177/21533687261498930</link>
@@ -88,15 +88,6 @@
       <priority>false</priority>
     </item>
     <item>
-      <title>The Fast and the Spurious: A Causal Evaluation of NYPD’s Pursuit Policy, 2022–2025</title>
-      <link>https://doi.org/10.1007/s10940-026-09692-4</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; John J. Hall &amp; Justin Nix&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Quantitative Criminology&lt;br&gt;&lt;p&gt;Abstract Objectives This study examines the consequences of the New York City Police Department’s late-2022 operational shift that sharply expanded vehicle pursuits. We evaluate whether the surge in pursuits affected motor vehicle collisions, robberies, and shootings, and whether any crime-prevention benefits offset the associated collision costs. Methods For collision outcomes, interrupted time series (ITS) segmented regression provides direct causal estimates. For crime outcomes, where within-...&lt;/p&gt;</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Journal of Quantitative Criminology</source>
-      <priority>false</priority>
-    </item>
-    <item>
       <title>The effects of interview timing and body‐worn camera video review on completeness and accuracy of accounts of a lethal force scenario</title>
       <link>https://doi.org/10.1111/1745-9133.70041</link>
       <description>&lt;strong&gt;Authors:&lt;/strong&gt; Louise E. Porter et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminology &amp; Public Policy&lt;br&gt;&lt;p&gt;Abstract Research Summary How to optimize police officers’ accounts following a critical incident like an officer‐involved shooting has been debated in policy and scholarly literature. Although empirical research has begun to explore the impact of interview timing and viewing body‐worn camera (BWC) footage from the incident, no study has explored how timing interacts with BWC review to impact officers’ memory reports. The present study addressed this through a randomized controlled experiment. P...&lt;/p&gt;</description>
@@ -104,6 +95,15 @@
       <category>research</category>
       <source>Criminology &amp; Public Policy</source>
       <priority>true</priority>
+    </item>
+    <item>
+      <title>The Fast and the Spurious: A Causal Evaluation of NYPD’s Pursuit Policy, 2022–2025</title>
+      <link>https://doi.org/10.1007/s10940-026-09692-4</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; John J. Hall &amp; Justin Nix&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Quantitative Criminology&lt;br&gt;&lt;p&gt;Abstract Objectives This study examines the consequences of the New York City Police Department’s late-2022 operational shift that sharply expanded vehicle pursuits. We evaluate whether the surge in pursuits affected motor vehicle collisions, robberies, and shootings, and whether any crime-prevention benefits offset the associated collision costs. Methods For collision outcomes, interrupted time series (ITS) segmented regression provides direct causal estimates. For crime outcomes, where within-...&lt;/p&gt;</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Journal of Quantitative Criminology</source>
+      <priority>false</priority>
     </item>
     <item>
       <title>Protests, Racial Threat, and Social Control: How Does Protesting and Racial Threat Impact Different Types of Social Control?</title>
@@ -189,7 +189,7 @@
     <item>
       <title>The relationship between officer misconduct and convictionless arrests</title>
       <link>https://doi.org/10.1073/pnas.2603437123</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Bocar Ba et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Proceedings of the National Academy of Sciences&lt;br&gt;&lt;p&gt;This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department's rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations in...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Bocar Ba et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Proceedings of the National Academy of Sciences&lt;br&gt;&lt;p&gt;Given the use of an individual’s arrest history for many economic and social outcomes, policymakers have enacted criminal justice reform measures. This paper examines which officers are making conviction‐less arrests (arrests that result in no charges or where the defendant is found not guilty), and whether these arrests can be reduced with increased oversight. Using the Chicago Police Department’s rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned t...&lt;/p&gt;</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Proceedings of the National Academy of Sciences</source>
@@ -260,7 +260,7 @@
     </item>
     <item>
       <title>Reconceptualizing Polyvictimization: Integrating Self-Reported Victimization and Police Use of Force</title>
-      <link>https://doi.org/10.1177/08862605261455579</link>
+      <link>https://doi.org/10.21428/cb6ab371.b23bb1ac</link>
       <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ashley N. Jackson &amp; Lee Ann Slocum&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Interpersonal Violence&lt;br&gt;&lt;p&gt;Research on police violence (PV) narrowly defines it as physical force, disregarding its other forms, like psychological violence and neglect, and its co-occurrence with non-police victimization (NPV). This omission is important because of overlapping risk factors and potential compounding harm. Using the National Crime Victimization Survey and Police-Public Contact Survey, this study employs a more expansive definition that includes psychological and neglectful PV and assesses the overlap of th...&lt;/p&gt;</description>
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
       <category>research</category>
