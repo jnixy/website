@@ -39,7 +39,7 @@ For my purposes, a death counts when the paper reports that an on-duty officer o
 
 For each agency-year, I searched the paper several ways: full-text searches pairing kill phrases ("shot and killed," "fatally wounded") with the agency's name, headline searches, and stories about prosecutors' reviews of each shooting, which in some places, like Texas, means a grand jury. Each search window ran to January 15 of the following year. Every case (and every exclusion) is logged with the article and its database ID in an [evidence file](https://github.com/jnixy/agency-level-fatal-OIS/blob/main/data/historical/historical_ois_evidence.csv), so anyone with access can check my work. Where a paper printed its own count (e.g. "the city's fifth fatal police shooting this year"), I checked the reconstruction against it.
 
-On the one hand, this method's weakness is that it can miss deaths. If a story never ran, or ran under wording none of my searches anticipated, that death is missing. So the reconstructed counts are best read as floors. It also only reaches back as far as each paper's archive (mostly the mid-1980s), and some cities are simply out of reach. Detroit's papers aren't in the database before 1995, and the *Los Angeles Times* isn't in NewsBank at all.
+Obviously this method's weakness is that it can miss deaths. If a story never ran, or ran under wording none of my searches anticipated, that death is missing. So the reconstructed counts are best read as floors. It also only reaches back as far as each paper's archive (mostly the mid-1980s), and some cities are simply out of reach. Detroit's papers aren't in the database before 1995, and the *Los Angeles Times* isn't in NewsBank at all.
 
 ## What it added
 
