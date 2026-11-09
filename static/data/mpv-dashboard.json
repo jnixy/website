@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-02T16:39:46Z",
+  "generated_at": "2026-11-09T16:57:05Z",
   "source": "Mapping Police Violence (mappingpoliceviolence.org)",
-  "source_last_incident_date": "2026-10-18",
+  "source_last_incident_date": "2026-10-26",
   "scope": "NOTE: Incidents involving a firearm (MPV 'Cause of death' contains Gunshot)",
   "stats": {
-    "total_incidents": 15006,
+    "total_incidents": 15025,
     "current_year": 2026,
     "prior_year": 2025,
-    "as_of_date": "2026-10-18",
+    "as_of_date": "2026-10-26",
     "lag_days": 14,
-    "current_year_to_date": 912,
-    "prior_year_same_point": 946
+    "current_year_to_date": 931,
+    "prior_year_same_point": 961
   },
   "yearly_counts": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "year": 2026,
-      "count": 912
+      "count": 931
     }
   ],
   "cumulative_trajectory": {
@@ -176,14 +176,14 @@
         "cumulative_by_month": [
           85,
           179,
-          281,
-          386,
-          500,
-          596,
-          682,
-          782,
-          861,
-          912,
+          280,
+          385,
+          499,
+          595,
+          681,
+          781,
+          860,
+          931,
           null,
           null
         ]
@@ -213,7 +213,7 @@
         3,
         5,
         3,
-        5,
+        4,
         2,
         2,
         3,
@@ -245,8 +245,8 @@
         1,
         2,
         1,
-        0,
-        0,
+        1,
+        2,
         0,
         0,
         0,
@@ -300,7 +300,7 @@
         1,
         0,
         4,
-        0,
+        1,
         0,
         0,
         0,
@@ -355,7 +355,7 @@
         1,
         1,
         5,
-        0,
+        5,
         0,
         0,
         0,
@@ -465,7 +465,7 @@
         4,
         3,
         1,
-        0,
+        6,
         0,
         0,
         0,
@@ -520,7 +520,7 @@
         4,
         4,
         3,
-        0,
+        1,
         0,
         0,
         0,
@@ -575,7 +575,7 @@
         4,
         4,
         2,
-        0,
+        4,
         0,
         0,
         0,
@@ -642,23 +642,23 @@
   "race_breakdown": [
     {
       "label": "White",
-      "count": 6953
+      "count": 6971
     },
     {
       "label": "Black",
-      "count": 3794
+      "count": 3800
     },
     {
       "label": "Hispanic",
-      "count": 2735
+      "count": 2738
     },
     {
       "label": "Unknown",
-      "count": 962
+      "count": 951
     },
     {
       "label": "Asian",
-      "count": 238
+      "count": 241
     },
     {
       "label": "Native American",
@@ -672,15 +672,15 @@
   "armed_status_breakdown": [
     {
       "label": "Allegedly Armed",
-      "count": 11309
+      "count": 11365
     },
     {
       "label": "Unclear/Unknown",
-      "count": 1598
+      "count": 1560
     },
     {
       "label": "Unarmed",
-      "count": 1332
+      "count": 1333
     },
     {
       "label": "Vehicle",
@@ -690,35 +690,35 @@
   "encounter_breakdown": [
     {
       "label": "Part 1 Violent Crime",
-      "count": 4238
+      "count": 4244
     },
     {
       "label": "Person With A Weapon",
-      "count": 2818
+      "count": 2817
     },
     {
       "label": "Other Non-Violent Offense",
-      "count": 2180
+      "count": 2186
     },
     {
       "label": "Traffic Stop",
-      "count": 1593
+      "count": 1596
     },
     {
       "label": "Domestic Disturbance",
-      "count": 1245
+      "count": 1246
     },
     {
       "label": "Mental Health/Welfare Check",
-      "count": 1133
+      "count": 1134
     },
     {
       "label": "Not Reported",
-      "count": 981
+      "count": 980
     },
     {
       "label": "Other Crimes Against People",
-      "count": 817
+      "count": 821
     },
     {
       "label": "Other",
@@ -728,19 +728,19 @@
   "weapon_breakdown": [
     {
       "label": "Gun",
-      "count": 7749
+      "count": 7799
     },
     {
       "label": "Edged Weapon",
-      "count": 2588
+      "count": 2589
     },
     {
       "label": "Unknown Weapon",
-      "count": 1598
+      "count": 1560
     },
     {
       "label": "Unarmed",
-      "count": 1332
+      "count": 1333
     },
     {
       "label": "Vehicle",
@@ -748,7 +748,7 @@
     },
     {
       "label": "Other",
-      "count": 754
+      "count": 758
     },
     {
       "label": "Replica",
@@ -756,7 +756,7 @@
     },
     {
       "label": "Gun,Edged Weapon",
-      "count": 39
+      "count": 40
     }
   ],
   "disparity_rates": [
@@ -765,42 +765,42 @@
       "count": 93,
       "population": 622018,
       "rate_per_100k": 14.95,
-      "disparity_vs_white": 4.12
+      "disparity_vs_white": 4.11
     },
     {
       "race": "Native American",
       "count": 231,
       "population": 2251699,
       "rate_per_100k": 10.26,
-      "disparity_vs_white": 2.83
+      "disparity_vs_white": 2.82
     },
     {
       "race": "Black",
-      "count": 3794,
+      "count": 3800,
       "population": 39940338,
-      "rate_per_100k": 9.5,
+      "rate_per_100k": 9.51,
       "disparity_vs_white": 2.62
     },
     {
       "race": "Hispanic",
-      "count": 2735,
+      "count": 2738,
       "population": 62080044,
       "rate_per_100k": 4.41,
-      "disparity_vs_white": 1.22
+      "disparity_vs_white": 1.21
     },
     {
       "race": "White",
-      "count": 6953,
+      "count": 6971,
       "population": 191697647,
-      "rate_per_100k": 3.63,
+      "rate_per_100k": 3.64,
       "disparity_vs_white": 1.0
     },
     {
       "race": "Asian",
-      "count": 238,
+      "count": 241,
       "population": 19618719,
-      "rate_per_100k": 1.21,
-      "disparity_vs_white": 0.33
+      "rate_per_100k": 1.23,
+      "disparity_vs_white": 0.34
     }
   ],
   "arrest_rate_trend": {
@@ -896,9 +896,9 @@
         },
         {
           "year": 2025,
-          "count": 508,
+          "count": 510,
           "arrests": 4491706,
-          "rate_per_100k_arrests": 11.31
+          "rate_per_100k_arrests": 11.35
         }
       ],
       "Black": [
@@ -976,9 +976,9 @@
         },
         {
           "year": 2025,
-          "count": 272,
+          "count": 274,
           "arrests": 2176004,
-          "rate_per_100k_arrests": 12.5
+          "rate_per_100k_arrests": 12.59
         }
       ],
       "Other": [
@@ -1056,9 +1056,9 @@
         },
         {
           "year": 2025,
-          "count": 41,
+          "count": 42,
           "arrests": 300709,
-          "rate_per_100k_arrests": 13.63
+          "rate_per_100k_arrests": 13.97
         }
       ]
     }
@@ -1163,6 +1163,13 @@
       "rate_per_million": 62.71
     },
     {
+      "state": "TN",
+      "name": "Tennessee",
+      "count": 414,
+      "population": 6910840,
+      "rate_per_million": 59.91
+    },
+    {
       "state": "LA",
       "name": "Louisiana",
       "count": 278,
@@ -1170,18 +1177,18 @@
       "rate_per_million": 59.69
     },
     {
-      "state": "TN",
-      "name": "Tennessee",
-      "count": 410,
-      "population": 6910840,
-      "rate_per_million": 59.33
-    },
-    {
       "state": "UT",
       "name": "Utah",
-      "count": 183,
+      "count": 184,
       "population": 3271616,
-      "rate_per_million": 55.94
+      "rate_per_million": 56.24
+    },
+    {
+      "state": "KY",
+      "name": "Kentucky",
+      "count": 250,
+      "population": 4505836,
+      "rate_per_million": 55.48
     },
     {
       "state": "AL",
@@ -1189,13 +1196,6 @@
       "count": 278,
       "population": 5024279,
       "rate_per_million": 55.33
-    },
-    {
-      "state": "KY",
-      "name": "Kentucky",
-      "count": 249,
-      "population": 4505836,
-      "rate_per_million": 55.26
     },
     {
       "state": "GA",
@@ -1221,23 +1221,23 @@
     {
       "state": "CA",
       "name": "California",
-      "count": 2039,
+      "count": 2040,
       "population": 39538223,
-      "rate_per_million": 51.57
+      "rate_per_million": 51.6
     },
     {
       "state": "WA",
       "name": "Washington",
-      "count": 388,
+      "count": 389,
       "population": 7705281,
-      "rate_per_million": 50.36
+      "rate_per_million": 50.48
     },
     {
       "state": "TX",
       "name": "Texas",
-      "count": 1461,
+      "count": 1465,
       "population": 29145505,
-      "rate_per_million": 50.13
+      "rate_per_million": 50.27
     },
     {
       "state": "ME",
@@ -1256,16 +1256,16 @@
     {
       "state": "FL",
       "name": "Florida",
-      "count": 1053,
+      "count": 1054,
       "population": 21538187,
-      "rate_per_million": 48.89
+      "rate_per_million": 48.94
     },
     {
       "state": "SC",
       "name": "South Carolina",
-      "count": 243,
+      "count": 244,
       "population": 5118425,
-      "rate_per_million": 47.48
+      "rate_per_million": 47.67
     },
     {
       "state": "ND",
@@ -1284,9 +1284,9 @@
     {
       "state": "NC",
       "name": "North Carolina",
-      "count": 440,
+      "count": 441,
       "population": 10439388,
-      "rate_per_million": 42.15
+      "rate_per_million": 42.24
     },
     {
       "state": "HI",
@@ -1298,9 +1298,9 @@
     {
       "state": "NE",
       "name": "Nebraska",
-      "count": 72,
+      "count": 73,
       "population": 1961504,
-      "rate_per_million": 36.71
+      "rate_per_million": 37.22
     },
     {
       "state": "WI",
@@ -1326,9 +1326,9 @@
     {
       "state": "MD",
       "name": "Maryland",
-      "count": 203,
+      "count": 204,
       "population": 6177224,
-      "rate_per_million": 32.86
+      "rate_per_million": 33.02
     },
     {
       "state": "VT",
@@ -1361,9 +1361,9 @@
     {
       "state": "MI",
       "name": "Michigan",
-      "count": 274,
+      "count": 275,
       "population": 10077331,
-      "rate_per_million": 27.19
+      "rate_per_million": 27.29
     },
     {
       "state": "PA",
@@ -1375,9 +1375,9 @@
     {
       "state": "IL",
       "name": "Illinois",
-      "count": 339,
+      "count": 340,
       "population": 12812508,
-      "rate_per_million": 26.46
+      "rate_per_million": 26.54
     },
     {
       "state": "MN",
@@ -1461,7 +1461,7 @@
     },
     {
       "label": "Pennsylvania State Police",
-      "count": 88
+      "count": 87
     },
     {
       "label": "Jacksonville Sheriff's Office",
