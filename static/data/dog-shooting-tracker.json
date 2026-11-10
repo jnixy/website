@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-09T16:50:29Z",
-  "total_incidents": 79,
+  "generated_at": "2026-11-10T15:13:28Z",
+  "total_incidents": 81,
   "reviewed_count": 71,
-  "total_sources": 224,
+  "total_sources": 226,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-11-05"
+    "latest": "2026-11-06"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 77,
+    "current_year_to_date": 79,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 313
+    "as_of_day_of_year": 314
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 77
+      "count": 79
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 52
+      "count": 53
     },
     {
       "label": "injured-survived",
@@ -31,7 +31,7 @@
     },
     {
       "label": "unknown",
-      "count": 10
+      "count": 11
     },
     {
       "label": "unharmed",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 37
+      "count": 39
     },
     {
       "label": "unrelated call response",
@@ -83,11 +83,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 55
+      "count": 56
     },
     {
       "label": "county SO",
-      "count": 22
+      "count": 23
     },
     {
       "label": "state",
@@ -145,6 +145,16 @@
       "count": 3
     },
     {
+      "state": "VA",
+      "name": "Virginia",
+      "count": 3
+    },
+    {
+      "state": "MI",
+      "name": "Michigan",
+      "count": 3
+    },
+    {
       "state": "WA",
       "name": "Washington",
       "count": 2
@@ -162,16 +172,6 @@
     {
       "state": "AR",
       "name": "Arkansas",
-      "count": 2
-    },
-    {
-      "state": "VA",
-      "name": "Virginia",
-      "count": 2
-    },
-    {
-      "state": "MI",
-      "name": "Michigan",
       "count": 2
     },
     {
@@ -240,9 +240,9 @@
       "count": 1
     }
   ],
-  "human_injured_count": 4,
+  "human_injured_count": 5,
   "discovery_counts": {
-    "media": 69,
+    "media": 71,
     "official": 5,
     "both": 5
   },
@@ -273,6 +273,25 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-11-06",
+      "date_precision": "day",
+      "city": "Detroit",
+      "state": "MI",
+      "agency_name": "Detroit Police Department",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "unknown",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "yes",
+      "summary": "Detroit police responded to a call at a home on Ferguson Avenue on Friday evening. When the homeowner exited to speak with officers, her dog became loose and charged at them; police fired at the dog. One officer was bitten and another was struck in the leg by crossfire gunfire; both were hospitalized.",
+      "source_url": "https://www.fox2detroit.com/news/detroit-police-shoot-dog-during-attack-officer-injured-crossfire",
+      "source_name": "FOX 2 Detroit",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "medium",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-11-05",
       "date_precision": "day",
@@ -305,6 +324,25 @@
       "summary": "A 39-year-old woman was attacked by three dogs (two pit bulls and a Presa Canario) at her home in Hazel Park on October 31. The first responding officer used a Taser twice to distract the dogs, but when one dog bit the officer in the thigh, the officer fired at the dog; a second officer then shot and killed the wounded dog.",
       "source_url": "https://www.clickondetroit.com/news/local/2026/11/03/hazel-park-woman-mauled-by-her-own-dogs-officer-shots-dog-after-being-bit-clone/",
       "source_name": "ClickOnDetroit | WDIV Local 4",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-10-30",
+      "date_precision": "day",
+      "city": "South Riding",
+      "state": "VA",
+      "agency_name": "Loudoun County Sheriff's Office",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "killed",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Loudoun County Sheriff's Office deputy shot and killed a dog named Honcho on Oct. 30 in South Riding after responding to a report of an aggressive dog. The dog's owner disputes the justification, stating that deputies have been unable to locate any bite victim, and the incident is under internal investigation.",
+      "source_url": "https://www.loudounnow.com/news/south-riding-woman-seeks-answers-after-deputy-fatally-shoots-dog/article_7e8c6e1f-71c7-4c16-b030-ae440490b743.html",
+      "source_name": "LoudounNow.com",
       "additional_sources": [],
       "discovery": "media",
       "official_url": "",
@@ -904,49 +942,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "low",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-08-12",
-      "date_precision": "day",
-      "city": "Allentown",
-      "state": "PA",
-      "agency_name": "Allentown Police Department",
-      "circumstance": "dog attack/bite call",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "An officer in Allentown shot a loose dog after it attacked three people.",
-      "source_url": "https://www.lehighvalleylive.com/allentown/2026/08/loose-dog-shot-by-officer-after-attacking-3-in-allentown-police-say.html",
-      "source_name": "lehighvalleylive",
-      "additional_sources": [
-        "https://www.mcall.com/2026/08/13/allentown-police-officer-fatally-shoots-loose-dog-biting-people/"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "low",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-08-12",
-      "date_precision": "day",
-      "city": "Twin Falls",
-      "state": "ID",
-      "agency_name": "Twin Falls Police Department",
-      "circumstance": "unrelated call response",
-      "dog_outcome": "injured-survived",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Twin Falls police officer shot a large Rottweiler on Wednesday afternoon, August 12, 2026, at approximately 1:30 p.m. while visiting a residence as part of an active investigation. The dog ran toward the officer after he knocked on the door; according to police, the officer discharged his duty weapon, striking the animal. The dog was transported to a veterinary office, treated, and released to its owner.",
-      "source_url": "https://www.kmvt.com/2026/08/13/twin-falls-officer-shoots-dog-during-investigation-visit/",
-      "source_name": "KMVT",
-      "additional_sources": [
-        "https://www.yahoo.com/news/us/articles/tfpd-officer-shoots-dog-twin-234429901.html",
-        "https://www.kmvt.com/video/2026/08/13/dog-released-after-being-shot-by-twin-falls-police-officer/"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
       "reviewed": true
     }
   ]
