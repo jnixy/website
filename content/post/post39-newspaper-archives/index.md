@@ -49,8 +49,6 @@ Nineteen newspapers have now filled in years for 20 agencies, from Omaha and Okl
 
 Last week, 25 agencies had any data before 2000. Now 38 do. More to the point, the number of agencies with at least five years of data both before 1995 and since 2015 has grown from 16 to 30.
 
-Two big cities were partial wins. The *Chicago Sun-Times* didn't run a story on most killings by Chicago police, so I could only use years where the paper printed the department's own count (1992, 1998, and 1999). And a 1995 *Daily News of Los Angeles* story gave LAPD's own counts for 1993 and 1994. They showed that two years already in my file were wrong, one of them by 16 deaths, so I replaced those two and dropped two more that rested on the same unrecorded source.
-
 ## Checking the papers against the FBI
 
 How do I know the newspaper counts are any good? One rough check is the FBI's [Supplementary Homicide Reports](https://cde.ucr.cjis.gov/) (SHR), in which agencies are supposed to report every homicide, including people killed by police. I merged them into the panel using [Jacob Kaplan's](https://jacobdkaplan.com/) cleaned files. SHR is a crude yardstick: it's [long been known](https://doi.org/10.2105/AJPH.93.7.1117) to miss a large share of police killings, and it doesn't record whether the officer was on duty.
@@ -74,16 +72,6 @@ Many of those cities are fast-growing Sun Belt departments (San Antonio, Austin,
 So the picture is more mixed than last week's post suggested. The biggest departments (New York, Chicago, Los Angeles) are well below where they were. A lot of mid-sized and growing departments aren't.
 
 Still, recall what the Lancet estimate implies: with population growth, roughly twice as many deaths a year in the 2010s as in the 1980s. These 30 agencies show nothing like that. The pooled estimate is a 31% decline, and even the top of its uncertainty range is no increase. That's not true of every agency, but it's not what a doubling would look like.
-
-## Using the data
-
-Every agency in the panel carries its FBI ORI code, which makes these counts easy to merge with other data, such as:
-
-- **The [LEMAS](https://bjs.ojp.gov/data-collection/law-enforcement-management-and-administrative-statistics-lemas) survey and the [Census of State and Local Law Enforcement Agencies](https://bjs.ojp.gov/data-collection/census-state-and-local-law-enforcement-agencies-csllea)** for agency size, policies, and training;
-- **The FBI's Uniform Crime Reports**, which Kaplan has [cleaned and documented](https://ucrbook.com/), to ask whether shootings track violent crime or attacks on officers;
-- **Census data**, through the [Law Enforcement Agency Identifiers Crosswalk](https://www.icpsr.umich.edu/web/NACJD/studies/35158), to turn counts into rates.
-
-Population-adjusted rates are the obvious next step for the then-vs-now comparison. I'll get there eventually, or would be happy to collaborate.
 
 ## What's next
 
