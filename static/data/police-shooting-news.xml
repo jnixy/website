@@ -5,7 +5,31 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 15:59:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 14:46:02 +0000</lastBuildDate>
+    <item>
+      <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
+      <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
+      <description/>
+      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>khq.com</source>
+    </item>
+    <item>
+      <title>Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured</title>
+      <link>https://www.fox5atlanta.com/news/police-identify-fallen-colorado-officer-killed-shootout-left-suspect-dead-4-injured</link>
+      <description/>
+      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>Kenosha standoff , police shooting ; use of force justified , DA rules</title>
+      <link>https://www.fox6now.com/news/kenosha-standoff-police-shooting-justified</link>
+      <description/>
+      <pubDate>Fri, 06 Nov 2026 02:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox6now.com</source>
+    </item>
     <item>
       <title>SLED investigating Irmo police shooting during domestic call</title>
       <link>https://www.postandcourier.com/columbia/news/irmo-police-shooting-sled-investigation-columbia/article_57d034a8-c416-4a33-ac95-4e1daf8d80f3.html</link>
@@ -31,20 +55,20 @@
       <source>arlnow.com</source>
     </item>
     <item>
-      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
-      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
-      <description/>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox5atlanta.com</source>
-    </item>
-    <item>
       <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
       <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
       <description/>
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>thegazette.com</source>
+    </item>
+    <item>
+      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
+      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
     </item>
     <item>
       <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
@@ -381,30 +405,6 @@
       <pubDate>Tue, 29 Sep 2026 16:00:00 +0000</pubDate>
       <category>incident</category>
       <source>cbsnews.com</source>
-    </item>
-    <item>
-      <title>Houston police shooting : Suspect wanted for indecency with child shot dead</title>
-      <link>https://www.fox26houston.com/news/houston-police-officer-shoots-kills-wanted-suspect-wanted-indecency-child</link>
-      <description/>
-      <pubDate>Tue, 29 Sep 2026 14:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox26houston.com</source>
-    </item>
-    <item>
-      <title>Suspect arrested after KSP trooper shot , killed on I - 65 | Bowling Green Daily News</title>
-      <link>https://bgdailynews.com/2026/09/29/ksp-trooper-shot-killed-on-i-65/</link>
-      <description/>
-      <pubDate>Tue, 29 Sep 2026 14:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>bgdailynews.com</source>
-    </item>
-    <item>
-      <title>Kentucky State Police identify trooper killed in interstate shooting . Here what we know</title>
-      <link>https://www.wsmv.com/2026/09/28/kentucky-state-police-identify-trooper-killed-interstate-shooting-heres-what-we-know/</link>
-      <description/>
-      <pubDate>Tue, 29 Sep 2026 02:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsmv.com</source>
     </item>
   </channel>
 </rss>

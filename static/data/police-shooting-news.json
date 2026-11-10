@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-09T15:59:11Z",
+  "generated_at": "2026-11-10T14:46:02Z",
   "stories": [
+    {
+      "title": "Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting",
+      "url": "https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html",
+      "description": "",
+      "date": "2026-11-07T06:00:00Z",
+      "source": "khq.com",
+      "category": "incident"
+    },
+    {
+      "title": "Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured",
+      "url": "https://www.fox5atlanta.com/news/police-identify-fallen-colorado-officer-killed-shootout-left-suspect-dead-4-injured",
+      "description": "",
+      "date": "2026-11-07T06:00:00Z",
+      "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
+      "title": "Kenosha standoff , police shooting ; use of force justified , DA rules",
+      "url": "https://www.fox6now.com/news/kenosha-standoff-police-shooting-justified",
+      "description": "",
+      "date": "2026-11-06T02:30:00Z",
+      "source": "fox6now.com",
+      "category": "incident"
+    },
     {
       "title": "SLED investigating Irmo police shooting during domestic call",
       "url": "https://www.postandcourier.com/columbia/news/irmo-police-shooting-sled-investigation-columbia/article_57d034a8-c416-4a33-ac95-4e1daf8d80f3.html",
@@ -26,19 +50,19 @@
       "category": "incident"
     },
     {
-      "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
-      "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
-      "description": "",
-      "date": "2026-10-23T04:00:00Z",
-      "source": "fox5atlanta.com",
-      "category": "incident"
-    },
-    {
       "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
       "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
       "description": "",
       "date": "2026-10-23T04:00:00Z",
       "source": "thegazette.com",
+      "category": "incident"
+    },
+    {
+      "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
+      "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "fox5atlanta.com",
       "category": "incident"
     },
     {
@@ -1575,30 +1599,6 @@
       "description": "",
       "date": "2026-08-06T00:45:00Z",
       "source": "reviewjournal.com",
-      "category": "incident"
-    },
-    {
-      "title": "Gilbert PD identifies victims , suspect killed in stabbing , police shooting",
-      "url": "https://www.azfamily.com/2026/08/05/police-id-victims-suspect-killed-gilbert-stabbing-police-shooting/",
-      "description": "",
-      "date": "2026-08-05T01:15:00Z",
-      "source": "azfamily.com",
-      "category": "incident"
-    },
-    {
-      "title": "Suspect shot by officers in Linn County after crash near River Bend County Park",
-      "url": "https://www.kptv.com/2026/08/04/suspect-shot-by-officers-linn-county-after-crash-near-river-bend-county-park/",
-      "description": "",
-      "date": "2026-08-04T10:00:00Z",
-      "source": "kptv.com",
-      "category": "incident"
-    },
-    {
-      "title": "UPDATE : Livingston Parish deputy shoots pursuit suspect on I - 55 after being tased with own weapon",
-      "url": "https://www.wafb.com/2026/08/03/lsp-detectives-investigating-officer-involved-shooting/",
-      "description": "",
-      "date": "2026-08-03T17:00:00Z",
-      "source": "wafb.com",
       "category": "incident"
     }
   ]
