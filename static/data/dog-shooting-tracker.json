@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T15:13:28Z",
+  "generated_at": "2026-11-11T14:42:15Z",
   "total_incidents": 81,
   "reviewed_count": 71,
-  "total_sources": 226,
+  "total_sources": 227,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-11-06"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 79,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 314
+    "as_of_day_of_year": 315
   },
   "yearly_counts": [
     {
@@ -286,7 +286,9 @@
       "summary": "Detroit police responded to a call at a home on Ferguson Avenue on Friday evening. When the homeowner exited to speak with officers, her dog became loose and charged at them; police fired at the dog. One officer was bitten and another was struck in the leg by crossfire gunfire; both were hospitalized.",
       "source_url": "https://www.fox2detroit.com/news/detroit-police-shoot-dog-during-attack-officer-injured-crossfire",
       "source_name": "FOX 2 Detroit",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://hoodline.com/2026/11/detroit-officer-shot-in-leg-by-crossfire-as-police-gun-down-dog-mid-attack/"
+      ],
       "discovery": "media",
       "official_url": "",
       "confidence": "medium",
