@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-11T14:42:15Z",
-  "total_incidents": 81,
-  "reviewed_count": 71,
-  "total_sources": 227,
+  "generated_at": "2026-11-11T15:27:09Z",
+  "total_incidents": 80,
+  "reviewed_count": 80,
+  "total_sources": 230,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-11-06"
+    "latest": "2026-11-09"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 79,
+    "current_year_to_date": 80,
     "prior_year_same_point": 0,
     "as_of_day_of_year": 315
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 79
+      "count": 80
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 53
+      "count": 54
     },
     {
       "label": "injured-survived",
@@ -31,7 +31,7 @@
     },
     {
       "label": "unknown",
-      "count": 11
+      "count": 9
     },
     {
       "label": "unharmed",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 39
+      "count": 38
     },
     {
       "label": "unrelated call response",
@@ -87,14 +87,14 @@
     },
     {
       "label": "county SO",
-      "count": 23
+      "count": 22
     },
     {
       "label": "state",
       "count": 1
     },
     {
-      "label": "unknown",
+      "label": "other",
       "count": 1
     }
   ],
@@ -233,16 +233,11 @@
       "state": "IN",
       "name": "Indiana",
       "count": 1
-    },
-    {
-      "state": "MS",
-      "name": "Mississippi",
-      "count": 1
     }
   ],
-  "human_injured_count": 5,
+  "human_injured_count": 4,
   "discovery_counts": {
-    "media": 71,
+    "media": 70,
     "official": 5,
     "both": 5
   },
@@ -274,25 +269,26 @@
   ],
   "recent_incidents": [
     {
-      "incident_date": "2026-11-06",
-      "date_precision": "day",
+      "incident_date": "2026-11-09",
+      "date_precision": "approximate",
       "city": "Detroit",
       "state": "MI",
       "agency_name": "Detroit Police Department",
-      "circumstance": "dog attack/bite call",
+      "circumstance": "unknown",
       "dog_outcome": "unknown",
       "dog_targeted": "yes",
       "human_injured_by_fire": "yes",
-      "summary": "Detroit police responded to a call at a home on Ferguson Avenue on Friday evening. When the homeowner exited to speak with officers, her dog became loose and charged at them; police fired at the dog. One officer was bitten and another was struck in the leg by crossfire gunfire; both were hospitalized.",
+      "summary": "Detroit police responded to a call at a home on Ferguson Avenue on the evening of Nov. 9 (reports conflict between Friday and Monday). When the homeowner exited to speak with officers, her dog became loose and charged at them; police fired at the dog. One officer was bitten and another was struck in the leg by crossfire gunfire; both were hospitalized.",
       "source_url": "https://www.fox2detroit.com/news/detroit-police-shoot-dog-during-attack-officer-injured-crossfire",
       "source_name": "FOX 2 Detroit",
       "additional_sources": [
-        "https://hoodline.com/2026/11/detroit-officer-shot-in-leg-by-crossfire-as-police-gun-down-dog-mid-attack/"
+        "https://hoodline.com/2026/11/detroit-officer-shot-in-leg-by-crossfire-as-police-gun-down-dog-mid-attack/",
+        "https://www.detroitnews.com/story/news/local/detroit-city/2026/11/10/dog-shot-after-charging-at-detroit-police-officers-wounded/92708587007/"
       ],
       "discovery": "media",
       "official_url": "",
       "confidence": "medium",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-11-05",
@@ -307,11 +303,13 @@
       "summary": "Tampa police officers responded to a report of a dog attack near North 42nd Street and East Idlewild Avenue and found a pit bull actively mauling a man in his 60s after having killed a smaller dog. Officers fired their weapons to stop the attack; the pit bull died at the scene and the man was hospitalized with serious injuries.",
       "source_url": "https://hoodline.com/2026/11/tampa-officers-shoot-pit-bull-mid-attack-leave-owner-hospitalized-seriously-hurt/",
       "source_name": "Hoodline",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://www.tampabay28.com/news/region-tampa/tampa-police-shoot-kill-pit-bull-after-deadly-dog-attack-owner-seriously-injured"
+      ],
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-10-31",
@@ -320,17 +318,41 @@
       "state": "MI",
       "agency_name": "Hazel Park Police Department",
       "circumstance": "dog attack/bite call",
-      "dog_outcome": "injured-survived",
+      "dog_outcome": "killed",
       "dog_targeted": "yes",
       "human_injured_by_fire": "unknown",
-      "summary": "A 39-year-old woman was attacked by three dogs (two pit bulls and a Presa Canario) at her home in Hazel Park on October 31. The first responding officer used a Taser twice to distract the dogs, but when one dog bit the officer in the thigh, the officer fired at the dog; a second officer then shot and killed the wounded dog.",
+      "summary": "A 39-year-old woman was attacked by her three dogs (two pit bulls and a Presa Canario) at her Hazel Park home on Oct. 31. The first responding officer used a Taser twice without effect; when one dog bit the officer in the thigh, the officer shot it, and a second officer then shot and killed the wounded dog.",
       "source_url": "https://www.clickondetroit.com/news/local/2026/11/03/hazel-park-woman-mauled-by-her-own-dogs-officer-shots-dog-after-being-bit-clone/",
       "source_name": "ClickOnDetroit | WDIV Local 4",
       "additional_sources": [],
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-10-30",
+      "date_precision": "day",
+      "city": "Rochester",
+      "state": "NY",
+      "agency_name": "Rochester Police Department",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Rochester police officer fired one round at a large-breed dog that was attacking a pedestrian near Ambrose Street and North Plymouth Avenue around 10:40 a.m. on Oct. 30, striking it in the leg. The dog survived and was taken to a veterinarian by its owner; both dogs involved were secured with help from Rochester Animal Services.",
+      "source_url": "https://www.rochesterfirst.com/video/rochester-officer-shoots-dog-during-attack-on-pedestrian/12323211/",
+      "source_name": "RochesterFirst",
+      "additional_sources": [
+        "https://13wham.com/news/local/officer-shoots-dog-that-attacked-pedestrian-rochester-police-ambrose-street-north-plymouth-avenue",
+        "https://www.rochesterfirst.com/news/rpd/rochester-officer-shoots-dog-during-attack-on-pedestrian/",
+        "https://www.whec.com/top-news/rpd-dog-shot-by-officer-after-attacking-person-on-ambrose-street/",
+        "https://www.yahoo.com/news/videos/rochester-officer-shoots-dog-during-200443728.html"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
+      "reviewed": true
     },
     {
       "incident_date": "2026-10-30",
@@ -349,7 +371,7 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-10-29",
@@ -364,11 +386,13 @@
       "summary": "A San Bernardino County Sheriff's deputy shot and wounded one of four large dogs that charged toward the deputy and a sheriff's bloodhound K-9 during a missing-person search in Apple Valley. The wounded dog was transported to an animal hospital by animal control.",
       "source_url": "https://hoodline.com/2026/10/four-dogs-charge-deputy-k-9-during-apple-valley-search-for-missing-90-year-old/",
       "source_name": "Hoodline",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://www.vvng.com/dog-shot-after-charging-deputy-and-sheriffs-k-9-during-search-for-missing-person-in-apple-valley/"
+      ],
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-10-28",
@@ -387,14 +411,14 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-10-21",
       "date_precision": "day",
       "city": "Manassas",
       "state": "VA",
-      "agency_name": "Prince William County Police",
+      "agency_name": "Prince William County Police Department",
       "circumstance": "dog attack/bite call",
       "dog_outcome": "killed",
       "dog_targeted": "yes",
@@ -402,11 +426,13 @@
       "summary": "Prince William County police responded to a report of two pit bulls mauling each other in a backyard in Manassas. When officers arrived and attempted to separate the animals, one pit bull charged at an officer and attempted to bite him; a second officer fired a single shot, killing the dog.",
       "source_url": "https://hoodline.com/2026/10/manassas-officer-shoots-pit-bull-dead-after-backyard-mauling-turns-on-police/",
       "source_name": "Hoodline",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://www.pwcva.gov/assets/2026-10/Releases%2010.22.2026.pdf"
+      ],
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": false
+      "reviewed": true
     },
     {
       "incident_date": "2026-10-14",
@@ -522,6 +548,27 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
+      "reviewed": true
+    },
+    {
+      "incident_date": "2026-10-01",
+      "date_precision": "month",
+      "city": "Muncie",
+      "state": "IN",
+      "agency_name": "Muncie Police Department",
+      "circumstance": "warrant service",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Muncie police officer fired approximately five rounds at a one-year-old dog named Memphis during a child support warrant service, striking the dog in both rear legs; one leg requires amputation. The officer deactivated his body camera before the shooting and reactivated it afterward, and his account that the dog was charging toward him is disputed by the location of the injuries.",
+      "source_url": "https://www.hoosierenquirer.com/post/shocking-cover-up-muncie-cop-switches-bodycam-off-then-blasts-1-year-old-dog-five-times-both-rea",
+      "source_name": "Hoosier Enquirer",
+      "additional_sources": [
+        "https://www.hoosierenquirer.com/post/hoosier-enquirer-asks-mayor-ridenour-for-independent-review-after-muncie-officer-turns-off-body-came"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "medium",
       "reviewed": true
     },
     {
@@ -894,56 +941,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-08-13",
-      "date_precision": "day",
-      "city": "",
-      "state": "TX",
-      "agency_name": "Hopkins County Sheriff's Office",
-      "circumstance": "warrant service",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "A Hopkins County Sheriff's Office deputy shot and killed a dog while serving a high-risk felony warrant on Wednesday. According to the sheriff's office, the dog lunged at the deputy after pushing past a resident, prompting the deputy to fire his weapon.",
-      "source_url": "https://www.yahoo.com/news/us/articles/hopkins-county-deputy-shoots-dog-155912994.html",
-      "source_name": "Yahoo",
-      "additional_sources": [
-        "https://www.greenvillechronicle.com/s/5082/Hopkins-County-Deputy-Fatally-Shoots-Dog-While-Attempting-to-Serve-High-Risk-Felony-Warrant.php",
-        "https://www.kltv.com/2026/08/14/hopkins-county-deputy-kills-dog-while-serving-warrant-wrong-residence/",
-        "https://www.cbs19.tv/article/news/local/hopkins-county-deputy-shoots-dog-while-serving-high-risk-felony-warrant/501-50b767ed-ee3f-4d16-bfaf-57d885d47a29"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-08-13",
-      "date_precision": "approximate",
-      "city": "Graham",
-      "state": "WA",
-      "agency_name": "Pierce County Sheriff's Department",
-      "circumstance": "welfare check",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "Deputies in Graham, Washington killed an aggressive dog near the scene where a 5-year-old girl was found dead after disappearing.",
-      "source_url": "https://abc45.com/news/nation-world/gallery/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby?photo=2",
-      "source_name": "WXLV",
-      "additional_sources": [
-        "https://mynorthwest.com/local/large-animal-attack-graham/4266289?show=comments",
-        "https://www.king5.com/article/news/community/5-year-old-girl-found-dead-pierce-county-yard-deputies-shoot-aggressive-dog/281-a939178d-2810-4bd7-8ae6-062af6d975b5",
-        "https://fox17.com/news/nation-world/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby",
-        "https://abcnews4.com/news/nation-world/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby",
-        "https://thenationaldesk.com/news/americas-news-now/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby?photo=2",
-        "https://mynorthwest.com/local/graham-aggressive-dog-dead/4266000",
-        "https://abc45.com/news/nation-world/gallery/5-year-old-girl-found-dead-in-graham-deputies-kill-aggressive-dog-nearby?photo=1"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "low",
       "reviewed": true
     }
   ]
