@@ -1,0 +1,362 @@
+/* CCJ Doctoral Program Productivity dashboard
+   For jnix.netlify.app. Follows mpv-dashboard.css: reuses the site's theme
+   variables (--article-bg-color, --text-muted, --heading-color,
+   --border-color) so light/dark mode matches the rest of the site. */
+
+.ccj-dashboard-container {
+  margin-top: 1.5rem;
+}
+
+.ccj-loading,
+.ccj-error {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-muted, #666);
+}
+
+.ccj-error,
+.ccj-check {
+  color: #c62828;
+}
+
+.ccj-check {
+  display: none;
+  border: 1px solid #c62828;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.ccj-meta,
+.ccj-muted,
+.ccj-note {
+  font-size: 0.85rem;
+  color: var(--text-muted, #666);
+}
+
+.ccj-meta {
+  margin-bottom: 1rem;
+}
+
+/* Controls */
+.ccj-controls {
+  position: sticky;
+  top: 70px;
+  z-index: 5;
+  background: var(--article-bg-color, #f8f9fa);
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 0.9rem 1rem 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.ccj-control-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.6rem 1rem;
+}
+
+.ccj-control label.ccj-label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted, #666);
+  margin-bottom: 0.15rem;
+}
+
+.ccj-control select,
+.ccj-control input[type="text"],
+.ccj-control input[type="search"],
+.ccj-inline select,
+.ccj-inline input {
+  width: 100%;
+  max-width: 100%;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.4rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+}
+
+.ccj-control select option,
+.ccj-inline select option {
+  color: #1a1a1a;
+}
+
+.ccj-years {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.ccj-rank-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.9rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.ccj-check-label,
+label.ccj-rank-opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+}
+
+.ccj-control-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-muted, #666);
+}
+
+.ccj-control-footer a {
+  margin-left: 1rem;
+}
+
+/* Paper-settings notice */
+.ccj-paper-note {
+  display: none;
+  font-size: 0.85rem;
+  border-left: 3px solid #ef6c00;
+  padding: 0.4rem 0.8rem;
+  margin-bottom: 1rem;
+  color: var(--text-muted, #666);
+}
+
+/* Stat tiles */
+.ccj-stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.ccj-stat-tile {
+  background: var(--article-bg-color, #f8f9fa);
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 0.9rem;
+  text-align: center;
+}
+
+.ccj-stat-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--heading-color, #1a1a1a);
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.ccj-stat-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted, #666);
+  margin-top: 0.25rem;
+}
+
+/* Cards */
+.ccj-card {
+  background: var(--article-bg-color, #f8f9fa);
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+  margin-bottom: 1.5rem;
+  min-width: 0;
+}
+
+.ccj-card h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.3rem;
+}
+
+.ccj-card .ccj-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted, #666);
+  margin-bottom: 0.8rem;
+}
+
+.ccj-two-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .ccj-two-col {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Animations (MP4s rendered by scripts 61-62 in the paper's repo). The
+   videos have white backgrounds, so they sit on a white tile in dark mode too. */
+.ccj-video {
+  margin: 0 0 1rem;
+}
+
+.ccj-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 6px;
+}
+
+.ccj-video-portrait video {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.ccj-video figcaption {
+  margin-top: 0.4rem;
+}
+
+.ccj-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  align-items: flex-end;
+  margin-bottom: 0.8rem;
+}
+
+.ccj-inline > div {
+  flex: 1 1 200px;
+  min-width: 0;
+}
+
+.ccj-chart {
+  width: 100%;
+  min-height: 220px;
+}
+
+/* Comparison chips */
+.ccj-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.ccj-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 2px solid;
+  border-radius: 999px;
+  padding: 0.1rem 0.25rem 0.1rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.ccj-chip button {
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 0.3rem;
+}
+
+.ccj-dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Tables */
+.ccj-table-wrap {
+  overflow-x: auto;
+  max-height: 520px;
+  overflow-y: auto;
+  border: 1px solid var(--border-color, #e0e0e0);
+  border-radius: 6px;
+}
+
+.ccj-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.ccj-table th,
+.ccj-table td {
+  padding: 0.35rem 0.6rem;
+  border-bottom: 1px solid var(--border-color, #e0e0e0);
+  text-align: left;
+  vertical-align: top;
+}
+
+.ccj-table th {
+  position: sticky;
+  top: 0;
+  background: var(--article-bg-color, #f8f9fa);
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.ccj-table .ccj-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.ccj-delta.up {
+  color: #2e7d32;
+}
+
+.ccj-delta.down {
+  color: #c62828;
+}
+
+.ccj-pager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+}
+
+.ccj-pager button,
+.ccj-button {
+  border: 1px solid var(--border-color, #ccc);
+  background: transparent;
+  color: inherit;
+  border-radius: 4px;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.ccj-pager button[disabled] {
+  opacity: 0.4;
+  cursor: default;
+}
+
+@media (max-width: 600px) {
+  .ccj-controls {
+    position: static;
+  }
+}
+
+/* Correction-report form (Netlify Forms) */
+.ccj-report-form textarea {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.4rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+}
