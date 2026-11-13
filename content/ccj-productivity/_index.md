@@ -166,9 +166,54 @@ The default settings reproduce the published rankings. The other settings are fo
       </div>
     </div>
 
+    <div class="ccj-card" id="network">
+      <h3>Who coauthors with whom across programs</h3>
+      <div class="ccj-sub">Programs are linked when faculty at both programs share a credited 2020&ndash;2024 refereed article. Click a program to see its partners, its faculty network, and the shared papers. This card uses the paper's settings and does not change with the controls above.</div>
+      <div id="ccj-net-loading" class="ccj-loading">Loading the network&hellip;</div>
+      <div id="ccj-net-body" style="display:none">
+        <div class="ccj-net-facts" id="ccj-net-facts" aria-label="Network summary"></div>
+        <div class="ccj-net-controls" role="group" aria-label="Network options">
+          <label for="ccj-net-size">Circle size
+            <select id="ccj-net-size"><option value="total_credit">Total credit</option><option value="credit_per_faculty">Credit per faculty</option><option value="n_faculty">Faculty count</option></select>
+          </label>
+          <label for="ccj-net-minw">Hide pairs with fewer than <span id="ccj-net-minwv">1</span> shared articles
+            <input type="range" id="ccj-net-minw" min="1" max="6" value="1">
+          </label>
+        </div>
+        <div class="ccj-net-main">
+          <div class="ccj-net-canvas">
+            <svg id="ccj-net-svg" viewBox="0 0 900 680" role="img" aria-label="Program coauthorship network"></svg>
+            <div class="ccj-net-legend">
+              <span><i class="ccj-net-sw" style="background:var(--net-t1)"></i>Top third by total credit</span>
+              <span><i class="ccj-net-sw" style="background:var(--net-t2)"></i>Middle third</span>
+              <span><i class="ccj-net-sw" style="background:var(--net-t3)"></i>Bottom third</span>
+              <span><i class="ccj-net-ln"></i>Line width: shared articles</span>
+            </div>
+          </div>
+          <aside class="ccj-net-panel" id="ccj-net-panel" aria-live="polite"></aside>
+        </div>
+        <div class="ccj-net-profile">
+          <h4>How each program's articles were written</h4>
+          <div class="ccj-note">Each program counts every article credited to it, so an article shared by two programs counts once for each. Across all distinct articles, <span id="ccj-net-mix"></span> Click a row to select that program above.</div>
+          <div class="ccj-net-legend" style="padding:0">
+            <span><i class="ccj-net-sw net-c-solo"></i>Solo</span>
+            <span><i class="ccj-net-sw net-c-other"></i>With faculty at another ranked program</span>
+            <span><i class="ccj-net-sw net-c-coll"></i>With program colleagues</span>
+            <span><i class="ccj-net-sw net-c-out" style="outline:1px solid var(--border-color, #e0e0e0)"></i>Outside coauthors only</span>
+            <label for="ccj-net-sort" style="margin-left:auto">Sort
+              <select id="ccj-net-sort"><option value="other">With another program</option><option value="solo">Solo</option><option value="coll">With colleagues</option><option value="n">Articles</option></select>
+            </label>
+          </div>
+          <div class="ccj-net-tablewrap"><div id="ccj-net-table"></div></div>
+        </div>
+        <div class="ccj-note" style="margin-top:1rem"><strong>How links are drawn.</strong> Links follow the same rule as the credit: each faculty member's 2020&ndash;2024 articles belong to the program they were at in January 2025, wherever the work was done. So a link means faculty now at both programs share an article. Some links come from people who were colleagues, or advisor and student, before one of them moved. Faculty appear with their names and article counts; individual credit is not shown. <span id="ccj-net-built"></span></div>
+      </div>
+    </div>
+    <div class="ccj-net-tip" id="ccj-net-tip" hidden></div>
+
     <div class="ccj-card" id="articles">
       <h3>Articles</h3>
-      <div class="ccj-sub">Every article credited under the current settings. Faculty names are not shown.</div>
+      <div class="ccj-sub">Every article credited under the current settings. Faculty names are not shown here; they appear only in the coauthorship network above.</div>
       <div class="ccj-inline">
         <div><label class="ccj-label" for="ccj-ap">Program</label><select id="ccj-ap"></select></div>
         <div><label class="ccj-label" for="ccj-q">Search titles, journals, DOIs</label><input type="search" id="ccj-q" placeholder="e.g., body-worn cameras"></div>
@@ -181,7 +226,9 @@ The default settings reproduce the published rankings. The other settings are fo
 </div>
 
 <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="/js/ccj-productivity.js"></script>
+<script src="/js/ccj-network.js"></script>
 
 ## How the numbers work
 
