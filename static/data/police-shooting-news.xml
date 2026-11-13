@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 15:02:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:27:30 +0000</lastBuildDate>
     <item>
       <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
       <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
@@ -21,6 +21,14 @@
       <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
       <category>incident</category>
       <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>Suspect killed in police shooting in Deming</title>
+      <link>https://www.koat.com/article/suspect-killed-in-police-shooting-in-deming/74351669</link>
+      <description/>
+      <pubDate>Fri, 06 Nov 2026 04:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>koat.com</source>
     </item>
     <item>
       <title>Kenosha standoff , police shooting ; use of force justified , DA rules</title>
@@ -55,20 +63,20 @@
       <source>arlnow.com</source>
     </item>
     <item>
-      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
-      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
-      <description/>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>thegazette.com</source>
-    </item>
-    <item>
       <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
       <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
       <description/>
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
+      <link>http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegazette.com</source>
     </item>
     <item>
       <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
@@ -397,14 +405,6 @@
       <pubDate>Tue, 29 Sep 2026 18:30:00 +0000</pubDate>
       <category>incident</category>
       <source>tpr.org</source>
-    </item>
-    <item>
-      <title>Feds charge Venezuelan man shot by ICE agent with assaulting an officer</title>
-      <link>https://www.cbsnews.com/news/venezuelan-man-shot-by-ice-agent-charged-doj/</link>
-      <description/>
-      <pubDate>Tue, 29 Sep 2026 16:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>cbsnews.com</source>
     </item>
   </channel>
 </rss>

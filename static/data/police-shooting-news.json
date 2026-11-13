@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T15:02:38Z",
+  "generated_at": "2026-11-13T14:27:30Z",
   "stories": [
     {
       "title": "Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting",
@@ -15,6 +15,14 @@
       "description": "",
       "date": "2026-11-07T06:00:00Z",
       "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
+      "title": "Suspect killed in police shooting in Deming",
+      "url": "https://www.koat.com/article/suspect-killed-in-police-shooting-in-deming/74351669",
+      "description": "",
+      "date": "2026-11-06T04:30:00Z",
+      "source": "koat.com",
       "category": "incident"
     },
     {
@@ -50,19 +58,19 @@
       "category": "incident"
     },
     {
-      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
-      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
-      "description": "",
-      "date": "2026-10-23T04:00:00Z",
-      "source": "thegazette.com",
-      "category": "incident"
-    },
-    {
       "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
       "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
       "description": "",
       "date": "2026-10-23T04:00:00Z",
       "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
+      "title": "In India , police shootings of alleged cow smugglers raise alarm about impunity and bias",
+      "url": "http://www.thegazette.com/news/world/in-india-police-shootings-of-alleged-cow-smugglers-raise-alarm-about-impunity-and-bias/article_341c15ee-9232-5c4e-8ce0-2843fa0d0159.html",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "thegazette.com",
       "category": "incident"
     },
     {
@@ -1591,14 +1599,6 @@
       "description": "",
       "date": "2026-08-06T13:00:00Z",
       "source": "gilmermirror.com",
-      "category": "incident"
-    },
-    {
-      "title": "Witness describes calling police masked man with gun before officer shot | Shootings",
-      "url": "https://www.reviewjournal.com/crime/shootings/he-had-the-gun-witness-who-called-police-before-officer-fatally-shot-gives-account-3859775/",
-      "description": "",
-      "date": "2026-08-06T00:45:00Z",
-      "source": "reviewjournal.com",
       "category": "incident"
     }
   ]
