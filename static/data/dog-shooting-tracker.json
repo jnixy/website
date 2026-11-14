@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-13T14:54:12Z",
+  "generated_at": "2026-11-14T13:49:37Z",
   "total_incidents": 82,
   "reviewed_count": 80,
-  "total_sources": 232,
+  "total_sources": 233,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-11-12"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 82,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 317
+    "as_of_day_of_year": 318
   },
   "yearly_counts": [
     {
@@ -281,7 +281,9 @@
       "summary": "LAPD officers responding to a domestic violence call in Westlake shot a large dog that approached them around 6:50 p.m. on Thursday. The dog was hit by gunfire and taken into care by Animal Services; its condition was not immediately known.",
       "source_url": "https://www.nbclosangeles.com/news/local/lapd-shoots-dog-westlake/3969899/",
       "source_name": "NBC Los Angeles",
-      "additional_sources": [],
+      "additional_sources": [
+        "https://mynewsla.com/crime/2026/11/12/dog-shot-by-lapd-in-westlake-district/"
+      ],
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
