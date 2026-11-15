@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-14T13:49:37Z",
-  "total_incidents": 82,
+  "generated_at": "2026-11-15T14:17:17Z",
+  "total_incidents": 83,
   "reviewed_count": 80,
-  "total_sources": 233,
+  "total_sources": 234,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-11-12"
+    "latest": "2026-11-14"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 82,
+    "current_year_to_date": 83,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 318
+    "as_of_day_of_year": 319
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 82
+      "count": 83
     }
   ],
   "outcome_breakdown": [
@@ -31,7 +31,7 @@
     },
     {
       "label": "unknown",
-      "count": 9
+      "count": 10
     },
     {
       "label": "unharmed",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 39
+      "count": 40
     },
     {
       "label": "unrelated call response",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 57
+      "count": 58
     },
     {
       "label": "county SO",
@@ -107,7 +107,7 @@
     {
       "state": "PA",
       "name": "Pennsylvania",
-      "count": 8
+      "count": 9
     },
     {
       "state": "FL",
@@ -237,7 +237,7 @@
   ],
   "human_injured_count": 4,
   "discovery_counts": {
-    "media": 72,
+    "media": 73,
     "official": 5,
     "both": 5
   },
@@ -268,6 +268,25 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-11-14",
+      "date_precision": "day",
+      "city": "Philadelphia",
+      "state": "PA",
+      "agency_name": "Philadelphia Police Department",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "unknown",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "no",
+      "summary": "A Philadelphia police officer shot a pit bull while responding to a report of vicious dogs in the East Mount Airy neighborhood on Saturday night near Thouron Avenue and East Sedgwick Street. The dog's fate was unclear at the time of reporting, and no human injuries were reported.",
+      "source_url": "https://www.nbcphiladelphia.com/news/local/philly-officer-shoots-pit-bull-while-responding-to-report-of-vicious-dogs/4497608/",
+      "source_name": "NBC10 Philadelphia",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "medium",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-11-12",
       "date_precision": "day",
@@ -911,25 +930,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-08-25",
-      "date_precision": "day",
-      "city": "Palm Beach",
-      "state": "FL",
-      "agency_name": "Palm Beach Police Department",
-      "circumstance": "pursuit",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "Police killed a dog described as having lunged or bitten an officer during or after a car chase near Mar-a-Lago in Palm Beach, Florida.",
-      "source_url": "https://www.palmbeachpost.com/story/news/crime/2026/08/26/police-shoot-kill-dog-they-say-lunged-after-car-chase-near-trumps-mar-a-lago-palm-beach-florida/91472147007/",
-      "source_name": "The Palm Beach Post",
-      "additional_sources": [],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "low",
       "reviewed": true
     }
   ]
