@@ -6,9 +6,6 @@ reading_time: false
 share: true
 profile: false
 comments: false
-# To launch, delete the next line and uncomment the menu entry in
-# config/_default/menus.toml.
-draft: true
 ---
 
 Which criminology and criminal justice doctoral programs' faculty publish the most refereed articles, and in which journals? This dashboard extends a series of studies that began with Kleck, Wang, and Tark (2007), continued with Kleck and Barnes (2011), and most recently Kleck and Mims (2017). It covers the 44 member programs of the [Association of Doctoral Programs in Criminology and Criminal Justice](https://adpccj.com/members).

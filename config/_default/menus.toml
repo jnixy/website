@@ -69,10 +69,8 @@
   name = "Contact"
   url = "#contact"
   weight = 100
-# CCJ program productivity dashboard -- uncomment at launch (after the paper's
-# double-blind review), together with removing `draft: true` from
-# content/ccj-productivity/_index.md.
-# [[main]]
-#   name = "CCJ Rankings"
-#   url = "/ccj-productivity/"
-#   weight = 80
+
+[[main]]
+  name = "CCJ Rankings"
+  url = "/ccj-productivity/"
+  weight = 80
