@@ -242,7 +242,7 @@ The default settings reproduce the published rankings. The other settings are fo
 
 <ul id="ccj-changelog" class="ccj-note"></ul>
 
-The underlying data, code, and paper will be linked here on publication.
+The data and code behind this page are archived on [Zenodo](https://doi.org/10.5281/zenodo.24294015) and available on [GitHub](https://github.com/jnixy/ccj-phd-productivity-2020-2024). The preprint and the published paper will be linked here.
 
 ## Found a mistake?
 
