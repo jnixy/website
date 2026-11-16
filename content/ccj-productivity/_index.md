@@ -6,10 +6,8 @@ reading_time: false
 share: true
 profile: false
 comments: false
-# Kept as a draft while the accompanying paper is under double-blind review:
-# a public page built from the same data would identify the authors. Hugo
-# skips drafts on Netlify; preview locally with `hugo server -D`. To launch,
-# delete this line and uncomment the menu entry in config/_default/menus.toml.
+# To launch, delete the next line and uncomment the menu entry in
+# config/_default/menus.toml.
 draft: true
 ---
 
