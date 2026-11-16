@@ -69,3 +69,8 @@
   name = "Contact"
   url = "#contact"
   weight = 100
+
+[[main]]
+  name = "CCJ Rankings"
+  url = "/ccj-productivity/"
+  weight = 80

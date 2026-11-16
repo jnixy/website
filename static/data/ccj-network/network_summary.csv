@@ -1,0 +1,19 @@
+statistic,value
+programs,44
+program pairs sharing >= 1 article,286
+program network density,0.3023255813953488
+programs with no tie,0
+rank assortativity (total-credit rank),-0.07194314414706353
+credit/faculty rank assortativity,-0.03494805537466514
+"corr(strength, total credit), Spearman",0.7749304400093098
+articles linking >= 2 programs,886
+faculty with >= 1 credited article,650
+faculty isolates (no roster coauthor),136
+largest faculty component (share of faculty),0.7246153846153847
+share of program-articles: solo,0.08273980906197909
+share of program-articles: with another ranked program,0.2888316411577512
+distinct articles,5579
+"share of distinct articles: 2+ roster authors, same program",0.08926330883670909
+"share of distinct articles: one roster author, outside coauthors only",0.6540598673597419
+share of distinct articles: roster authors at 2+ programs,0.15880982254884388
+share of distinct articles: solo,0.09786700125470514
