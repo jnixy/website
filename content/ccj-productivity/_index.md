@@ -26,7 +26,6 @@ The default settings reproduce the published rankings. The other settings are fo
   <div id="ccj-content" style="display:none;">
     <div id="ccj-check" class="ccj-check"></div>
     <div id="ccj-meta" class="ccj-meta"></div>
-
     <div class="ccj-controls" role="region" aria-label="Dashboard settings">
       <div class="ccj-control-grid">
         <div class="ccj-control">
@@ -69,18 +68,14 @@ The default settings reproduce the published rankings. The other settings are fo
         <span><a href="#" id="ccj-copy-link">Copy link to this view</a><a href="#" id="ccj-reset">Reset to the paper's settings</a></span>
       </div>
     </div>
-
     <div id="ccj-paper-note" class="ccj-paper-note">You have changed the paper's settings, so these rankings differ from the published tables by design. "vs. paper" in the table shows how far each program moved.</div>
-
     <div id="ccj-stats" class="ccj-stats-row"></div>
-
     <div class="ccj-card" id="rankings">
       <h3>Rankings</h3>
       <div class="ccj-sub" id="ccj-rank-note"></div>
       <div id="chart-rankings" class="ccj-chart"></div>
       <div class="ccj-table-wrap"><table id="ccj-rank-table" class="ccj-table"></table></div>
     </div>
-
     <div class="ccj-card" id="compare">
       <h3>Compare programs</h3>
       <div class="ccj-sub">Pick up to six programs. They stay highlighted in every chart on the page.</div>
@@ -101,7 +96,6 @@ The default settings reproduce the published rankings. The other settings are fo
         </div>
       </div>
     </div>
-
     <div class="ccj-card" id="scatter">
       <h3>Build your own scatterplot</h3>
       <div class="ccj-sub">Plot any two program-level measures against each other.</div>
@@ -112,13 +106,11 @@ The default settings reproduce the published rankings. The other settings are fo
       <div id="chart-scatter" class="ccj-chart"></div>
       <div class="ccj-note" id="ccj-scatter-note"></div>
     </div>
-
     <div class="ccj-card" id="trends">
       <h3>Rank trends across waves, 2000&ndash;2004 to now</h3>
       <div id="chart-trends" class="ccj-chart"></div>
       <div class="ccj-note" id="ccj-trends-note"></div>
     </div>
-
     <div class="ccj-card" id="animations">
       <h3>Two findings, animated</h3>
       <div class="ccj-sub">Short animations of figures from the paper. They show the paper's settings and do not change with the controls above.</div>
@@ -143,7 +135,6 @@ The default settings reproduce the published rankings. The other settings are fo
         <figcaption id="ccj-anim-vp" class="ccj-note"><strong>Volume vs. prestige depends on which journals count as &ldquo;top.&rdquo;</strong> Each dot is a program: authorships per faculty member (across) against the share of its authorships in eight top journals (up). The animation steps through three definitions of the top eight: Kleck and Mims's list (Sorensen et al., 2006), the DeJong and St. George (2018) survey, and Google Scholar Metrics' Criminology, Criminal Law &amp; Policing category (h5-index). The seven programs highest on each list are labeled.</figcaption>
       </figure>
     </div>
-
     <div class="ccj-card" id="journals">
       <h3>Journals</h3>
       <div class="ccj-two-col">
@@ -160,7 +151,6 @@ The default settings reproduce the published rankings. The other settings are fo
         </div>
       </div>
     </div>
-
     <div class="ccj-card" id="network">
       <h3>Who coauthors with whom across programs</h3>
       <div class="ccj-sub">Programs are linked when faculty at both programs share a credited 2020&ndash;2024 refereed article. Click a program to see its partners, its faculty network, and the shared papers. This card uses the paper's settings and does not change with the controls above.</div>
@@ -205,7 +195,6 @@ The default settings reproduce the published rankings. The other settings are fo
       </div>
     </div>
     <div class="ccj-net-tip" id="ccj-net-tip" hidden></div>
-
     <div class="ccj-card" id="articles">
       <h3>Articles</h3>
       <div class="ccj-sub">Every article credited under the current settings. Faculty names are not shown here; they appear only in the coauthorship network above.</div>
