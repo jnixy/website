@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Nov 2026 13:51:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 15:33:41 +0000</lastBuildDate>
     <item>
       <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
       <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
@@ -39,6 +39,14 @@
       <source>fox6now.com</source>
     </item>
     <item>
+      <title>Terrebonne Parish deputy shoots , kills man after pursuit in Houma , state police say</title>
+      <link>https://www.fox8live.com/2026/11/05/terrebonne-parish-deputy-shoots-kills-1-after-pursuit-houma-state-police-say/</link>
+      <description/>
+      <pubDate>Thu, 05 Nov 2026 22:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox8live.com</source>
+    </item>
+    <item>
       <title>SLED investigating Irmo police shooting during domestic call</title>
       <link>https://www.postandcourier.com/columbia/news/irmo-police-shooting-sled-investigation-columbia/article_57d034a8-c416-4a33-ac95-4e1daf8d80f3.html</link>
       <description/>
@@ -63,12 +71,12 @@
       <source>arlnow.com</source>
     </item>
     <item>
-      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
-      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
+      <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
+      <link>http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html</link>
       <description/>
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>fox5atlanta.com</source>
+      <source>thegazette.com</source>
     </item>
     <item>
       <title>In India , police shootings of alleged cow smugglers raise alarm about impunity and bias</title>
@@ -79,12 +87,12 @@
       <source>thegazette.com</source>
     </item>
     <item>
-      <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
-      <link>http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html</link>
+      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
+      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
       <description/>
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>thegazette.com</source>
+      <source>fox5atlanta.com</source>
     </item>
     <item>
       <title>No charges filed in deadly Mundelein police shooting of Mary Alice Love , family files wrongful death lawsuit</title>
@@ -215,20 +223,20 @@
       <source>nbcconnecticut.com</source>
     </item>
     <item>
-      <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
-      <link>https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/</link>
-      <description/>
-      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcwashington.com</source>
-    </item>
-    <item>
       <title>Police shooting that killed a 1 - year - old was justified , Mississippi AG says</title>
       <link>https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148</link>
       <description/>
       <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
       <category>incident</category>
       <source>koat.com</source>
+    </item>
+    <item>
+      <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
+      <link>https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/</link>
+      <description/>
+      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>nbcwashington.com</source>
     </item>
     <item>
       <title>Family , friends demand answers a month after Charlotte - Mecklenburg police officer fatally shot Curtis Massey</title>
@@ -397,14 +405,6 @@
       <pubDate>Wed, 30 Sep 2026 00:45:00 +0000</pubDate>
       <category>incident</category>
       <source>twitchy.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE in Austin is charged with assaulting and resisting an officer</title>
-      <link>https://www.tpr.org/border-immigration/2026-09-29/man-shot-by-ice-in-austin-is-charged-with-assaulting-and-resisting-an-officer</link>
-      <description/>
-      <pubDate>Tue, 29 Sep 2026 18:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>tpr.org</source>
     </item>
   </channel>
 </rss>

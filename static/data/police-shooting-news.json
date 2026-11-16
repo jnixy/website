@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T13:51:10Z",
+  "generated_at": "2026-11-16T15:33:41Z",
   "stories": [
     {
       "title": "Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting",
@@ -34,6 +34,14 @@
       "category": "incident"
     },
     {
+      "title": "Terrebonne Parish deputy shoots , kills man after pursuit in Houma , state police say",
+      "url": "https://www.fox8live.com/2026/11/05/terrebonne-parish-deputy-shoots-kills-1-after-pursuit-houma-state-police-say/",
+      "description": "",
+      "date": "2026-11-05T22:00:00Z",
+      "source": "fox8live.com",
+      "category": "incident"
+    },
+    {
       "title": "SLED investigating Irmo police shooting during domestic call",
       "url": "https://www.postandcourier.com/columbia/news/irmo-police-shooting-sled-investigation-columbia/article_57d034a8-c416-4a33-ac95-4e1daf8d80f3.html",
       "description": "",
@@ -58,11 +66,11 @@
       "category": "incident"
     },
     {
-      "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
-      "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
+      "title": "Takeaways from AP investigation into police shootings of alleged cow smugglers in India",
+      "url": "http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html",
       "description": "",
       "date": "2026-10-23T04:00:00Z",
-      "source": "fox5atlanta.com",
+      "source": "thegazette.com",
       "category": "incident"
     },
     {
@@ -74,11 +82,11 @@
       "category": "incident"
     },
     {
-      "title": "Takeaways from AP investigation into police shootings of alleged cow smugglers in India",
-      "url": "http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html",
+      "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
+      "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
       "description": "",
       "date": "2026-10-23T04:00:00Z",
-      "source": "thegazette.com",
+      "source": "fox5atlanta.com",
       "category": "incident"
     },
     {
@@ -210,19 +218,19 @@
       "category": "incident"
     },
     {
-      "title": "Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington",
-      "url": "https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/",
-      "description": "",
-      "date": "2026-10-19T20:15:00Z",
-      "source": "nbcwashington.com",
-      "category": "incident"
-    },
-    {
       "title": "Police shooting that killed a 1 - year - old was justified , Mississippi AG says",
       "url": "https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148",
       "description": "",
       "date": "2026-10-19T20:15:00Z",
       "source": "koat.com",
+      "category": "incident"
+    },
+    {
+      "title": "Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington",
+      "url": "https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/",
+      "description": "",
+      "date": "2026-10-19T20:15:00Z",
+      "source": "nbcwashington.com",
       "category": "incident"
     },
     {
@@ -1591,14 +1599,6 @@
       "description": "",
       "date": "2026-08-06T14:30:00Z",
       "source": "click2houston.com",
-      "category": "incident"
-    },
-    {
-      "title": "A border agent killed a migrant who crossed into Starr County . Eight months later , it still under investigation . – The Gilmer Mirror",
-      "url": "https://www.gilmermirror.com/2026/08/06/a-border-agent-killed-a-migrant-who-crossed-into-starr-county-eight-months-later-its-still-under-investigation/",
-      "description": "",
-      "date": "2026-08-06T13:00:00Z",
-      "source": "gilmermirror.com",
       "category": "incident"
     }
   ]
