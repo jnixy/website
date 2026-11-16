@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-11-09T15:31:30Z",
+  "generated_at": "2026-11-16T15:09:25Z",
   "stories": [
+    {
+      "title": "Beyond the Training Room: An RCT of Virtual Reality De-escalation Training on Field Behavioral Outcomes and Citizen Complaints",
+      "url": "https://doi.org/10.1177/10986111261507260",
+      "date": "2026-11-10T00:00:00Z",
+      "journal": "Police Quarterly",
+      "authors": "Pengfei Zhang",
+      "abstract": "Virtual reality (VR) is increasingly used in police de-escalation training, but evaluations have rarely followed officers out of the training room. We conducted a randomized controlled trial in a municipal public security bureau in central China, assigning 480 officers who handled 110 dispatches at local police stations to VR training or to traditional scenario-based training matched in content, duration, learning objectives, and debriefing. Over the 12 months after training, blind coders rated de-escalation behavior in 5,259 body-worn camera recordings of real encounters, and research staff extracted documented use of force and public complaints. In the modified intention-to-treat sample ( n = 457), with standard errors clustered by training session, VR officers displayed more de-escalation behavior than traditional officers ( d = 0.38, 95% CI [0.18, 0.59]), with differences in verbal, relational, and tactical behavior. Their documented use-of-force rate was 20% lower after adjustment for workload and prior force (IRR = 0.80, 95% CI [0.66, 0.97]), a smaller and less precisely estimated difference than the behavioral effect. Fewer VR officers received a public complaint (16.9% vs. 21.2%), but this difference was not statistically reliable (OR = 0.76, 95% CI [0.47, 1.22]). Both groups used slightly fewer de-escalation behaviors as time since training increased, but the between-group difference was similar across four three-month intervals, and the behavioral result held across all sensitivity analyses. The findings show that a content-matched VR program can produce measurable transfer to real police work over a full year, and that the estimated effect becomes smaller and less certain as outcomes move further from the trained behavior, from coded conduct to documented force to public complaints.",
+      "type": "article",
+      "doi": "10.1177/10986111261507260",
+      "priority": true
+    },
     {
       "title": "The Other Talk: Race and Keeping Kids Safe",
       "url": "https://doi.org/10.1177/21533687261498930",
@@ -227,7 +238,7 @@
       "date": "2026-08-12T00:00:00Z",
       "journal": "Proceedings of the National Academy of Sciences",
       "authors": "Bocar Ba et al.",
-      "abstract": "Given the use of an individual’s arrest history for many economic and social outcomes, policymakers have enacted criminal justice reform measures. This paper examines which officers are making conviction‐less arrests (arrests that result in no charges or where the defendant is found not guilty), and whether these arrests can be reduced with increased oversight. Using the Chicago Police Department’s rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high‐misconduct officers are 12% more likely than no‐misconduct officers to make arrests that result in no charges and 31% more likely to make arrests with “not guilty” outcomes, with no difference in arrests yielding “guilty” outcomes. We also analyze two events that increased the transparency of police misconduct through public disclosure of complaint records and find that increased oversight reduces conviction‐less arrests, but with nuances across misconduct profiles–low‐misconduct officers show stronger responses and high‐misconduct officers show weaker responses.",
+      "abstract": "This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department’s rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations involving high officer discretion, compared to their no-misconduct peers. Our findings also suggest that downstream legal actors, such as prosecutors and judges, may be partially “correcting” these arrests.",
       "type": "article",
       "doi": "10.1073/pnas.2603437123",
       "priority": false
@@ -409,7 +420,7 @@
       "priority": false
     },
     {
-      "title": "Policing Black Youth",
+      "title": "Policing Black Youth: The Origins of School Policing in the United States",
       "url": "https://doi.org/10.1017/s1742058x26100174",
       "date": "2026-06-26T00:00:00Z",
       "journal": "Du Bois Review Social Science Research on Race",
@@ -446,7 +457,7 @@
       "url": "https://doi.org/10.1108/pijpsm-02-2026-0052",
       "date": "2026-06-19T00:00:00Z",
       "journal": "Policing An International Journal",
-      "authors": "David H.F. Tyler & Edward R. Maguire",
+      "authors": "David Tyler & Edward R. Maguire",
       "abstract": "Purpose Social media provides a valuable framework for understanding public sentiment on social issues and institutions, including the police. This paper investigates changes in the salience of (i.e. the proportion of tweets referencing police) and sentiment toward the police during the 2017 Phoenix Trump rally, an event where police deployed less-lethal weapons against protesters, journalists and onlookers without warning. Design/methodology/approach Drawing on tweets posted during the rally, we conducted descriptive analyses and applied micro-level interrupted time series models to examine shifts in both the salience of and sentiment toward the police throughout the event. Findings Analyzing over 440,000 tweets, we found a 226% spike in police salience after police used force against the crowd. This coincided with a significant rise in negative sentiment and an immediate and prolonged decline in positive sentiment toward police. Originality/value The findings offer insights into the impact of police actions on public discourse and expressed sentiment on social media.",
       "type": "article",
       "doi": "10.1108/pijpsm-02-2026-0052",

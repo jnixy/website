@@ -5,7 +5,16 @@
     <link>https://jnix.netlify.app/police-shooting-research/</link>
     <description>Recent academic research on police shootings and use of deadly force</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Nov 2026 15:31:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 15:09:25 +0000</lastBuildDate>
+    <item>
+      <title>Beyond the Training Room: An RCT of Virtual Reality De-escalation Training on Field Behavioral Outcomes and Citizen Complaints</title>
+      <link>https://doi.org/10.1177/10986111261507260</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Pengfei Zhang&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Police Quarterly&lt;br&gt;&lt;p&gt;Virtual reality (VR) is increasingly used in police de-escalation training, but evaluations have rarely followed officers out of the training room. We conducted a randomized controlled trial in a municipal public security bureau in central China, assigning 480 officers who handled 110 dispatches at local police stations to VR training or to traditional scenario-based training matched in content, duration, learning objectives, and debriefing. Over the 12 months after training, blind coders rated ...&lt;/p&gt;</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Police Quarterly</source>
+      <priority>true</priority>
+    </item>
     <item>
       <title>The Other Talk: Race and Keeping Kids Safe</title>
       <link>https://doi.org/10.1177/21533687261498930</link>
@@ -189,7 +198,7 @@
     <item>
       <title>The relationship between officer misconduct and convictionless arrests</title>
       <link>https://doi.org/10.1073/pnas.2603437123</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Bocar Ba et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Proceedings of the National Academy of Sciences&lt;br&gt;&lt;p&gt;Given the use of an individual’s arrest history for many economic and social outcomes, policymakers have enacted criminal justice reform measures. This paper examines which officers are making conviction‐less arrests (arrests that result in no charges or where the defendant is found not guilty), and whether these arrests can be reduced with increased oversight. Using the Chicago Police Department’s rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned t...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Bocar Ba et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Proceedings of the National Academy of Sciences&lt;br&gt;&lt;p&gt;This paper examines whether officers with high prior alleged misconduct are more likely to make convictionless arrests (arrests that result in no or dismissed charges or where the defendant is found not guilty). Using the Chicago Police Department’s rotational duty calendar to obtain plausibly exogenous variation in the set of officers assigned to work on a particular day, we find that high-misconduct officers make statistically significantly more arrests for nonindex crimes and in situations in...&lt;/p&gt;</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Proceedings of the National Academy of Sciences</source>
@@ -265,15 +274,6 @@
       <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Journal of Interpersonal Violence</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Contesting repression in divided democracies: Can counternarratives reduce support for police violence?</title>
-      <link>https://doi.org/10.1111/ajps.70073</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Yanilda María González &amp; Natán Skigin&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; American Journal of Political Science&lt;br&gt;&lt;p&gt;Abstract Democracies often struggle to contain police violence, which undermines the rule of law and reproduces inequality by targeting marginalized citizens. Yet, scholars have shown that repressive policing enjoys considerable public support. Focusing on Brazil, we demonstrate that attitudes toward police violence mirror polarization between left‐ and right‐wing voters, and investigate how competing narratives change attitudes toward police violence through multiple mechanisms. We argue that m...&lt;/p&gt;</description>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>American Journal of Political Science</source>
       <priority>false</priority>
     </item>
   </channel>
