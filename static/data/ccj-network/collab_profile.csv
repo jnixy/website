@@ -1,45 +1,45 @@
 program,category,n,share,n_articles
-American University,Outside coauthors only,55,0.632183908045977,87
-American University,Solo,19,0.21839080459770116,87
-American University,With another ranked program,11,0.12643678160919541,87
-American University,With program colleagues,2,0.022988505747126436,87
-Arizona State University,Outside coauthors only,282,0.5685483870967742,496
-Arizona State University,Solo,28,0.056451612903225805,496
-Arizona State University,With another ranked program,151,0.30443548387096775,496
-Arizona State University,With program colleagues,35,0.07056451612903226,496
-CUNY Graduate Center,Outside coauthors only,122,0.6192893401015228,197
-CUNY Graduate Center,Solo,12,0.06091370558375635,197
-CUNY Graduate Center,With another ranked program,52,0.2639593908629442,197
-CUNY Graduate Center,With program colleagues,11,0.05583756345177665,197
+American University,Outside coauthors only,55,0.6395348837209303,86
+American University,Solo,18,0.20930232558139536,86
+American University,With another ranked program,11,0.12790697674418605,86
+American University,With program colleagues,2,0.023255813953488372,86
+Arizona State University,Outside coauthors only,281,0.5699797160243407,493
+Arizona State University,Solo,27,0.05476673427991886,493
+Arizona State University,With another ranked program,150,0.30425963488843816,493
+Arizona State University,With program colleagues,35,0.07099391480730223,493
+CUNY Graduate Center,Outside coauthors only,122,0.6224489795918368,196
+CUNY Graduate Center,Solo,11,0.05612244897959184,196
+CUNY Graduate Center,With another ranked program,52,0.2653061224489796,196
+CUNY Graduate Center,With program colleagues,11,0.05612244897959184,196
 Cincinnati,Outside coauthors only,157,0.5286195286195287,297
 Cincinnati,Solo,6,0.020202020202020204,297
 Cincinnati,With another ranked program,119,0.4006734006734007,297
 Cincinnati,With program colleagues,15,0.050505050505050504,297
-Florida International,Outside coauthors only,49,0.4537037037037037,108
-Florida International,Solo,5,0.046296296296296294,108
-Florida International,With another ranked program,23,0.21296296296296297,108
-Florida International,With program colleagues,31,0.28703703703703703,108
-Florida State,Outside coauthors only,155,0.4492753623188406,345
-Florida State,Solo,27,0.0782608695652174,345
-Florida State,With another ranked program,119,0.34492753623188405,345
-Florida State,With program colleagues,44,0.12753623188405797,345
-George Mason,Outside coauthors only,127,0.5474137931034483,232
-George Mason,Solo,23,0.09913793103448276,232
-George Mason,With another ranked program,51,0.21982758620689655,232
-George Mason,With program colleagues,31,0.1336206896551724,232
-Georgia State,Outside coauthors only,76,0.5135135135135135,148
-Georgia State,Solo,17,0.11486486486486487,148
-Georgia State,With another ranked program,48,0.32432432432432434,148
-Georgia State,With program colleagues,7,0.0472972972972973,148
+Florida International,Outside coauthors only,48,0.4485981308411215,107
+Florida International,Solo,5,0.04672897196261682,107
+Florida International,With another ranked program,23,0.21495327102803738,107
+Florida International,With program colleagues,31,0.2897196261682243,107
+Florida State,Outside coauthors only,154,0.4489795918367347,343
+Florida State,Solo,26,0.07580174927113703,343
+Florida State,With another ranked program,119,0.3469387755102041,343
+Florida State,With program colleagues,44,0.1282798833819242,343
+George Mason,Outside coauthors only,127,0.5521739130434783,230
+George Mason,Solo,22,0.09565217391304348,230
+George Mason,With another ranked program,50,0.21739130434782608,230
+George Mason,With program colleagues,31,0.13478260869565217,230
+Georgia State,Outside coauthors only,75,0.5102040816326531,147
+Georgia State,Solo,17,0.11564625850340136,147
+Georgia State,With another ranked program,48,0.32653061224489793,147
+Georgia State,With program colleagues,7,0.047619047619047616,147
 Indiana University - Bloomington,Outside coauthors only,28,0.4827586206896552,58
 Indiana University - Bloomington,Solo,8,0.13793103448275862,58
 Indiana University - Bloomington,With another ranked program,22,0.3793103448275862,58
 Indiana University of Pennsylvania,Outside coauthors only,11,0.6111111111111112,18
 Indiana University of Pennsylvania,With another ranked program,7,0.3888888888888889,18
-Michigan State University,Outside coauthors only,218,0.5034642032332564,433
-Michigan State University,Solo,83,0.19168591224018475,433
-Michigan State University,With another ranked program,115,0.26558891454965355,433
-Michigan State University,With program colleagues,17,0.03926096997690531,433
+Michigan State University,Outside coauthors only,215,0.5,430
+Michigan State University,Solo,83,0.1930232558139535,430
+Michigan State University,With another ranked program,115,0.26744186046511625,430
+Michigan State University,With program colleagues,17,0.03953488372093023,430
 North Dakota State,Outside coauthors only,5,0.625,8
 North Dakota State,Solo,1,0.125,8
 North Dakota State,With another ranked program,2,0.25,8
@@ -55,14 +55,14 @@ Prairie View A&M,Outside coauthors only,23,0.6571428571428571,35
 Prairie View A&M,Solo,5,0.14285714285714285,35
 Prairie View A&M,With another ranked program,6,0.17142857142857143,35
 Prairie View A&M,With program colleagues,1,0.02857142857142857,35
-Rutgers University - Newark,Outside coauthors only,128,0.64,200
-Rutgers University - Newark,Solo,29,0.145,200
-Rutgers University - Newark,With another ranked program,37,0.185,200
-Rutgers University - Newark,With program colleagues,6,0.03,200
-Sam Houston State,Outside coauthors only,201,0.5710227272727273,352
-Sam Houston State,Solo,20,0.056818181818181816,352
-Sam Houston State,With another ranked program,115,0.32670454545454547,352
-Sam Houston State,With program colleagues,16,0.045454545454545456,352
+Rutgers University - Newark,Outside coauthors only,127,0.6414141414141414,198
+Rutgers University - Newark,Solo,28,0.1414141414141414,198
+Rutgers University - Newark,With another ranked program,37,0.18686868686868688,198
+Rutgers University - Newark,With program colleagues,6,0.030303030303030304,198
+Sam Houston State,Outside coauthors only,200,0.5698005698005698,351
+Sam Houston State,Solo,20,0.05698005698005698,351
+Sam Houston State,With another ranked program,115,0.32763532763532766,351
+Sam Houston State,With program colleagues,16,0.045584045584045586,351
 Southern Illinois University - Carbondale,Outside coauthors only,55,0.625,88
 Southern Illinois University - Carbondale,Solo,7,0.07954545454545454,88
 Southern Illinois University - Carbondale,With another ranked program,26,0.29545454545454547,88
@@ -74,17 +74,17 @@ Temple University,Outside coauthors only,104,0.6666666666666666,156
 Temple University,Solo,17,0.10897435897435898,156
 Temple University,With another ranked program,30,0.19230769230769232,156
 Temple University,With program colleagues,5,0.03205128205128205,156
-Texas Southern University,Outside coauthors only,16,0.6666666666666666,24
-Texas Southern University,Solo,4,0.16666666666666666,24
-Texas Southern University,With another ranked program,4,0.16666666666666666,24
-Texas State University,Outside coauthors only,73,0.4294117647058823,170
-Texas State University,Solo,11,0.06470588235294118,170
-Texas State University,With another ranked program,75,0.4411764705882353,170
-Texas State University,With program colleagues,11,0.06470588235294118,170
-UMass Lowell,Outside coauthors only,144,0.6923076923076923,208
-UMass Lowell,Solo,17,0.08173076923076923,208
-UMass Lowell,With another ranked program,30,0.14423076923076922,208
-UMass Lowell,With program colleagues,17,0.08173076923076923,208
+Texas Southern University,Outside coauthors only,15,0.6818181818181818,22
+Texas Southern University,Solo,3,0.13636363636363635,22
+Texas Southern University,With another ranked program,4,0.18181818181818182,22
+Texas State University,Outside coauthors only,72,0.4260355029585799,169
+Texas State University,Solo,11,0.0650887573964497,169
+Texas State University,With another ranked program,75,0.4437869822485207,169
+Texas State University,With program colleagues,11,0.0650887573964497,169
+UMass Lowell,Outside coauthors only,144,0.6956521739130435,207
+UMass Lowell,Solo,16,0.07729468599033816,207
+UMass Lowell,With another ranked program,30,0.14492753623188406,207
+UMass Lowell,With program colleagues,17,0.0821256038647343,207
 UNLV,Outside coauthors only,41,0.7592592592592593,54
 UNLV,Solo,1,0.018518518518518517,54
 UNLV,With another ranked program,9,0.16666666666666666,54
@@ -101,18 +101,18 @@ University of Arkansas - Little Rock,Outside coauthors only,32,0.484848484848484
 University of Arkansas - Little Rock,Solo,3,0.045454545454545456,66
 University of Arkansas - Little Rock,With another ranked program,28,0.42424242424242425,66
 University of Arkansas - Little Rock,With program colleagues,3,0.045454545454545456,66
-University of California - Irvine,Outside coauthors only,147,0.7170731707317073,205
-University of California - Irvine,Solo,25,0.12195121951219512,205
-University of California - Irvine,With another ranked program,27,0.13170731707317074,205
-University of California - Irvine,With program colleagues,6,0.02926829268292683,205
-University of Central Florida,Outside coauthors only,92,0.6174496644295302,149
-University of Central Florida,Solo,6,0.040268456375838924,149
-University of Central Florida,With another ranked program,24,0.1610738255033557,149
-University of Central Florida,With program colleagues,27,0.18120805369127516,149
-University of Delaware,Outside coauthors only,99,0.66,150
-University of Delaware,Solo,11,0.07333333333333333,150
-University of Delaware,With another ranked program,26,0.17333333333333334,150
-University of Delaware,With program colleagues,14,0.09333333333333334,150
+University of California - Irvine,Outside coauthors only,147,0.7205882352941176,204
+University of California - Irvine,Solo,24,0.11764705882352941,204
+University of California - Irvine,With another ranked program,27,0.1323529411764706,204
+University of California - Irvine,With program colleagues,6,0.029411764705882353,204
+University of Central Florida,Outside coauthors only,91,0.6148648648648649,148
+University of Central Florida,Solo,6,0.04054054054054054,148
+University of Central Florida,With another ranked program,24,0.16216216216216217,148
+University of Central Florida,With program colleagues,27,0.18243243243243243,148
+University of Delaware,Outside coauthors only,98,0.6621621621621622,148
+University of Delaware,Solo,10,0.06756756756756757,148
+University of Delaware,With another ranked program,26,0.17567567567567569,148
+University of Delaware,With program colleagues,14,0.0945945945945946,148
 University of Florida,Outside coauthors only,28,0.56,50
 University of Florida,Solo,10,0.2,50
 University of Florida,With another ranked program,12,0.24,50
@@ -132,10 +132,10 @@ University of Miami,Outside coauthors only,48,0.3779527559055118,127
 University of Miami,Solo,4,0.031496062992125984,127
 University of Miami,With another ranked program,65,0.5118110236220472,127
 University of Miami,With program colleagues,10,0.07874015748031496,127
-University of Mississippi,Outside coauthors only,95,0.6089743589743589,156
-University of Mississippi,Solo,10,0.0641025641025641,156
-University of Mississippi,With another ranked program,49,0.3141025641025641,156
-University of Mississippi,With program colleagues,2,0.01282051282051282,156
+University of Mississippi,Outside coauthors only,93,0.6038961038961039,154
+University of Mississippi,Solo,10,0.06493506493506493,154
+University of Mississippi,With another ranked program,49,0.3181818181818182,154
+University of Mississippi,With program colleagues,2,0.012987012987012988,154
 University of Missouri - St. Louis,Outside coauthors only,32,0.38095238095238093,84
 University of Missouri - St. Louis,Solo,8,0.09523809523809523,84
 University of Missouri - St. Louis,With another ranked program,42,0.5,84
@@ -148,10 +148,10 @@ University of New Haven,Outside coauthors only,26,0.3880597014925373,67
 University of New Haven,Solo,27,0.40298507462686567,67
 University of New Haven,With another ranked program,12,0.1791044776119403,67
 University of New Haven,With program colleagues,2,0.029850746268656716,67
-University of Pennsylvania,Outside coauthors only,134,0.7403314917127072,181
-University of Pennsylvania,Solo,6,0.03314917127071823,181
-University of Pennsylvania,With another ranked program,31,0.1712707182320442,181
-University of Pennsylvania,With program colleagues,10,0.055248618784530384,181
+University of Pennsylvania,Outside coauthors only,132,0.7374301675977654,179
+University of Pennsylvania,Solo,6,0.0335195530726257,179
+University of Pennsylvania,With another ranked program,31,0.17318435754189945,179
+University of Pennsylvania,With program colleagues,10,0.055865921787709494,179
 University of South Carolina,Outside coauthors only,101,0.5872093023255814,172
 University of South Carolina,Solo,10,0.05813953488372093,172
 University of South Carolina,With another ranked program,41,0.23837209302325582,172
