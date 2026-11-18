@@ -53,7 +53,9 @@
 
     // Program network
     var svg = d3.select('#ccj-net-svg');
-    var gL = svg.append('g'), gN = svg.append('g');
+    // Labels get their own top layer: drawn inside each node's group, a label
+    // was painted over by any circle drawn after it (e.g. Penn State, Northeastern).
+    var gL = svg.append('g'), gN = svg.append('g'), gT = svg.append('g');
     var tip = $('ccj-net-tip');
     function showTip(ev, html) {
       tip.innerHTML = html; tip.hidden = false;
@@ -116,22 +118,26 @@
         .on('click', function (ev, l) { select(l.source.id, l.target.id); });
       var g = gN.selectAll('g.ccj-net-node').data(nodes, function (d) { return d.id; }).join(function (enter) {
         var e = enter.append('g').attr('class', 'ccj-net-node').attr('tabindex', 0).attr('role', 'button');
-        e.append('circle'); e.append('text').attr('text-anchor', 'middle');
+        e.append('circle');
         return e;
       });
+      gT.selectAll('text.ccj-net-label').data(nodes, function (d) { return d.id; }).join('text')
+        .attr('class', 'ccj-net-label').attr('text-anchor', 'middle').attr('aria-hidden', 'true')
+        .attr('x', function (d) { return d.x; }).attr('y', function (d) { return d.y + d.r + 11; })
+        .text(function (d) { return ab(d.id); });
       g.attr('transform', function (d) { return 'translate(' + d.x + ',' + d.y + ')'; }).attr('aria-label', function (d) { return d.id; })
         .on('mousemove', function (ev, d) { showTip(ev, '<b>' + esc(d.id) + '</b><br>Rank ' + d.rank + ' by total credit · ' + fmt1(d.total_credit) + ' credit<br>' + d.n_faculty + ' faculty · ' + fmt1(d.credit_per_faculty) + ' per faculty'); })
         .on('mouseleave', hideTip)
         .on('click', function (ev, d) { select(d.id); })
         .on('keydown', function (ev, d) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); select(d.id); } });
       g.select('circle').attr('r', function (d) { return d.r; }).attr('fill', function (d) { return TCOL[d.tertile]; });
-      g.select('text').attr('dy', function (d) { return d.r + 11; }).text(function (d) { return ab(d.id); });
       highlight();
     }
     function highlight() {
       var s = state.sel;
       var nb = new Set();
       if (s) links.forEach(function (l) { if (l.source.id === s || l.target.id === s) { nb.add(l.source.id); nb.add(l.target.id); } });
+      gT.selectAll('text.ccj-net-label').classed('dim', function (d) { return s && !nb.has(d.id) && d.id !== s; });
       gN.selectAll('g.ccj-net-node').classed('dim', function (d) { return s && !nb.has(d.id) && d.id !== s; })
         .classed('sel', function (d) { return d.id === s; });
       gL.selectAll('line').classed('dim', function (l) { return s && l.source.id !== s && l.target.id !== s; })
