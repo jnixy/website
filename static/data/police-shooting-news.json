@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-18T15:32:10Z",
+  "generated_at": "2026-11-19T15:39:35Z",
   "stories": [
+    {
+      "title": "Man suspected of killing wife dies after police shooting ; records show pending sexual - assault case",
+      "url": "https://www.ksat.com/news/local/2026/11/17/man-suspected-of-killing-wife-dies-after-police-shooting-records-show-pending-sexual-assault-case/",
+      "description": "",
+      "date": "2026-11-18T01:15:00Z",
+      "source": "ksat.com",
+      "category": "incident"
+    },
+    {
+      "title": "  COP crew films New Mexico jaywalking stop that ends in fatal police shooting",
+      "url": "https://www.fox26houston.com/news/new-mexico-cops-shooting-police",
+      "description": "",
+      "date": "2026-11-13T18:00:00Z",
+      "source": "fox26houston.com",
+      "category": "incident"
+    },
     {
       "title": "Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting",
       "url": "https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html",
@@ -23,6 +39,14 @@
       "description": "",
       "date": "2026-11-06T04:30:00Z",
       "source": "koat.com",
+      "category": "incident"
+    },
+    {
+      "title": "Lakewood police shooting reported near West Colfax , Wadsworth",
+      "url": "https://www.denverpost.com/2026/11/05/lakewood-police-shooting-colfax-wadsworth/",
+      "description": "",
+      "date": "2026-11-06T04:30:00Z",
+      "source": "denverpost.com",
       "category": "incident"
     },
     {
@@ -66,6 +90,14 @@
       "category": "incident"
     },
     {
+      "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
+      "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
+      "description": "",
+      "date": "2026-10-23T04:00:00Z",
+      "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
       "title": "Takeaways from AP investigation into police shootings of alleged cow smugglers in India",
       "url": "http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html",
       "description": "",
@@ -79,14 +111,6 @@
       "description": "",
       "date": "2026-10-23T04:00:00Z",
       "source": "thegazette.com",
-      "category": "incident"
-    },
-    {
-      "title": "Suspect , 2 officers injured in Woodstock police shooting , officials say",
-      "url": "https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say",
-      "description": "",
-      "date": "2026-10-23T04:00:00Z",
-      "source": "fox5atlanta.com",
       "category": "incident"
     },
     {
@@ -1575,30 +1599,6 @@
       "description": "",
       "date": "2026-08-06T23:00:00Z",
       "source": "wbap.com",
-      "category": "incident"
-    },
-    {
-      "title": "Dallas ISD police officer shot by person he was helping in North Dallas , officials says",
-      "url": "https://www.keranews.org/news/2026-08-06/two-police-shootings-north-dallas-crime",
-      "description": "",
-      "date": "2026-08-06T22:30:00Z",
-      "source": "keranews.org",
-      "category": "incident"
-    },
-    {
-      "title": "Dallas ISD officer shot in Sam Club parking lot , injuries are serious",
-      "url": "https://www.kwtx.com/2026/08/06/dallas-isd-officer-shot-sams-club-parking-lot-injuries-are-critical/",
-      "description": "",
-      "date": "2026-08-06T19:45:00Z",
-      "source": "kwtx.com",
-      "category": "incident"
-    },
-    {
-      "title": "A border agent killed a migrant who crossed into Starr County . Eight months later , it still under investigation . ",
-      "url": "https://www.click2houston.com/news/texas/2026/08/06/a-border-agent-killed-a-migrant-who-crossed-into-starr-county-eight-months-later-its-still-under-investigation/",
-      "description": "",
-      "date": "2026-08-06T14:30:00Z",
-      "source": "click2houston.com",
       "category": "incident"
     }
   ]

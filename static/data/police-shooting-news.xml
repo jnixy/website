@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 15:32:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:39:35 +0000</lastBuildDate>
+    <item>
+      <title>Man suspected of killing wife dies after police shooting ; records show pending sexual - assault case</title>
+      <link>https://www.ksat.com/news/local/2026/11/17/man-suspected-of-killing-wife-dies-after-police-shooting-records-show-pending-sexual-assault-case/</link>
+      <description/>
+      <pubDate>Wed, 18 Nov 2026 01:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>ksat.com</source>
+    </item>
+    <item>
+      <title>  COP crew films New Mexico jaywalking stop that ends in fatal police shooting</title>
+      <link>https://www.fox26houston.com/news/new-mexico-cops-shooting-police</link>
+      <description/>
+      <pubDate>Fri, 13 Nov 2026 18:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox26houston.com</source>
+    </item>
     <item>
       <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
       <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
@@ -29,6 +45,14 @@
       <pubDate>Fri, 06 Nov 2026 04:30:00 +0000</pubDate>
       <category>incident</category>
       <source>koat.com</source>
+    </item>
+    <item>
+      <title>Lakewood police shooting reported near West Colfax , Wadsworth</title>
+      <link>https://www.denverpost.com/2026/11/05/lakewood-police-shooting-colfax-wadsworth/</link>
+      <description/>
+      <pubDate>Fri, 06 Nov 2026 04:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>denverpost.com</source>
     </item>
     <item>
       <title>Kenosha standoff , police shooting ; use of force justified , DA rules</title>
@@ -71,6 +95,14 @@
       <source>arlnow.com</source>
     </item>
     <item>
+      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
+      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
+    </item>
+    <item>
       <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
       <link>http://www.thegazette.com/news/world/takeaways-from-ap-investigation-into-police-shootings-of-alleged-cow-smugglers-in-india/article_4317dfc5-961b-598a-b88b-585e10593eeb.html</link>
       <description/>
@@ -85,14 +117,6 @@
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>thegazette.com</source>
-    </item>
-    <item>
-      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
-      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
-      <description/>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox5atlanta.com</source>
     </item>
     <item>
       <title>No charges filed in deadly Mundelein police shooting of Mary Alice Love , family files wrongful death lawsuit</title>
@@ -381,30 +405,6 @@
       <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
       <category>incident</category>
       <source>wsbradio.com</source>
-    </item>
-    <item>
-      <title>Federal prosecutors charge Venezuelan man shot by ICE agent in Texas with assaulting an officer</title>
-      <link>https://www.timesfreepress.com/news/2026/sep/30/federal-prosecutors-charge-venezuelan-man-shot-by-ice-agent-in-texas-with-assaulting-an-officer/</link>
-      <description/>
-      <pubDate>Wed, 30 Sep 2026 19:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>timesfreepress.com</source>
-    </item>
-    <item>
-      <title>Federal prosecutors charge Venezuelan man shot by ICE agent in Austin , Texas with assaulting an officer</title>
-      <link>https://abc11.com/story/federal-prosecutors-charge-venezuelan-man-shot-ice-agent-austin-texas-assaulting-officer/19891731/</link>
-      <description/>
-      <pubDate>Wed, 30 Sep 2026 17:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>abc11.com</source>
-    </item>
-    <item>
-      <title>Venezuelan Shot by ICE Charged by DOJ With Assaulting a Federal Officer</title>
-      <link>https://twitchy.com/brettt/2026/09/29/venezuelan-shot-by-ice-charged-with-assaulting-a-federal-officer-n2432818</link>
-      <description/>
-      <pubDate>Wed, 30 Sep 2026 00:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>twitchy.com</source>
     </item>
   </channel>
 </rss>
