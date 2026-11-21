@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-11-20T15:44:51Z",
-  "total_incidents": 83,
+  "generated_at": "2026-11-21T14:56:12Z",
+  "total_incidents": 84,
   "reviewed_count": 80,
-  "total_sources": 234,
+  "total_sources": 235,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-11-14"
+    "latest": "2026-11-18"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 83,
+    "current_year_to_date": 84,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 324
+    "as_of_day_of_year": 325
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 83
+      "count": 84
     }
   ],
   "outcome_breakdown": [
@@ -27,7 +27,7 @@
     },
     {
       "label": "injured-survived",
-      "count": 15
+      "count": 16
     },
     {
       "label": "unknown",
@@ -53,7 +53,7 @@
     },
     {
       "label": "warrant service",
-      "count": 8
+      "count": 9
     },
     {
       "label": "domestic call",
@@ -87,7 +87,7 @@
     },
     {
       "label": "county SO",
-      "count": 23
+      "count": 24
     },
     {
       "label": "state",
@@ -180,6 +180,11 @@
       "count": 2
     },
     {
+      "state": "IN",
+      "name": "Indiana",
+      "count": 2
+    },
+    {
       "state": "NC",
       "name": "North Carolina",
       "count": 1
@@ -228,16 +233,11 @@
       "state": "AL",
       "name": "Alabama",
       "count": 1
-    },
-    {
-      "state": "IN",
-      "name": "Indiana",
-      "count": 1
     }
   ],
   "human_injured_count": 4,
   "discovery_counts": {
-    "media": 73,
+    "media": 74,
     "official": 5,
     "both": 5
   },
@@ -268,6 +268,25 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-11-18",
+      "date_precision": "day",
+      "city": "Elkhart",
+      "state": "IN",
+      "agency_name": "Elkhart County Sheriff's Office",
+      "circumstance": "warrant service",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "An Elkhart County Sheriff's Office officer shot a 3-year-old German shepherd in the leg while the agency was serving felony arrest warrants. The dog was taken to Fort Wayne Animal Hospital and was recovering.",
+      "source_url": "https://www.elkharttruth.com/news/officer-shoots-dog-while-attempting-to-serve-warrants/article_5f22583d-d41e-5e6b-aff2-c02785c466ca.html",
+      "source_name": "The Elkhart Truth",
+      "additional_sources": [],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "medium",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-11-14",
       "date_precision": "day",
@@ -909,27 +928,6 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "low",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-08-26",
-      "date_precision": "day",
-      "city": "Hempstead",
-      "state": "NY",
-      "agency_name": "Hempstead Police Department",
-      "circumstance": "dog attack/bite call",
-      "dog_outcome": "killed",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "no",
-      "summary": "Hempstead (village) officers responded around 1 p.m. to a report of a loose, aggressive dog in Kennedy Memorial Park and found it attacking people near a playground; an officer shot and killed it to stop further injuries. At least two people bitten by the dog were hospitalized. The owner said the 6-year-old Belgian shepherd, a trained guard dog, got out when landscapers left a gate open.",
-      "source_url": "https://longisland.news12.com/dog-fatally-shot-by-hempstead-police-after-attacking-multiple-people-in-park",
-      "source_name": "News12 Long Island",
-      "additional_sources": [
-        "https://hudsonvalley.news12.com/2026/08/27/dog-fatally-shot-by-hempstead-police-after-attacking-multiple-people-in-park/zDBvcuoO3rPt6IGxExMHG"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "high",
       "reviewed": true
     }
   ]
