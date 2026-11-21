@@ -5,7 +5,23 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Nov 2026 15:19:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 14:32:31 +0000</lastBuildDate>
+    <item>
+      <title>Madison police shooting : No charges for officer in Corey Ruiz death</title>
+      <link>https://www.fox5atlanta.com/news/madison-police-shooting-no-charges-officer-corey-ruizs-death</link>
+      <description/>
+      <pubDate>Fri, 20 Nov 2026 00:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>Johnston police shooting : Officer who shot man during stop identified</title>
+      <link>https://www.kcci.com/article/johnston-iowa-police-shooting-sean-lewis-clements-officers-identified-ethan-meng/74476850</link>
+      <description/>
+      <pubDate>Thu, 19 Nov 2026 19:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kcci.com</source>
+    </item>
     <item>
       <title>Man suspected of killing wife dies after police shooting ; records show pending sexual - assault case</title>
       <link>https://www.ksat.com/news/local/2026/11/17/man-suspected-of-killing-wife-dies-after-police-shooting-records-show-pending-sexual-assault-case/</link>
@@ -23,12 +39,12 @@
       <source>fox26houston.com</source>
     </item>
     <item>
-      <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
-      <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
+      <title>Several Casulaties Reported After Shooting In Poland . The Suspect Was Shot By Police . </title>
+      <link>https://www.ibtimes.com/five-killed-krakow-main-market-square-shooting-3809531</link>
       <description/>
-      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
+      <pubDate>Sat, 07 Nov 2026 19:00:00 +0000</pubDate>
       <category>incident</category>
-      <source>khq.com</source>
+      <source>ibtimes.com</source>
     </item>
     <item>
       <title>Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured</title>
@@ -37,6 +53,30 @@
       <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
       <category>incident</category>
       <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
+      <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
+      <description/>
+      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>khq.com</source>
+    </item>
+    <item>
+      <title>Osage County deputies shot in November incident honored with prestigious award</title>
+      <link>https://www.wibw.com/2026/11/06/osage-county-deputies-shot-november-incident-honored-with-prestigious-award/</link>
+      <description/>
+      <pubDate>Sat, 07 Nov 2026 01:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wibw.com</source>
+    </item>
+    <item>
+      <title>1 officer killed and 3 wounded in a firefight with a suspect in Lakewood , Colorado</title>
+      <link>https://www.bakersfield.com/ap/national/1-officer-killed-and-3-wounded-in-a-firefight-with-a-suspect-in-lakewood-colorado/article_b2930347-c9e1-5e4a-a372-f5c94de64d7f.html</link>
+      <description/>
+      <pubDate>Fri, 06 Nov 2026 08:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>bakersfield.com</source>
     </item>
     <item>
       <title>Suspect killed in police shooting in Deming</title>
@@ -71,6 +111,14 @@
       <source>fox8live.com</source>
     </item>
     <item>
+      <title>Parents of 1 - year - old fatally shot by police protest at Mississippi Attorney General Office</title>
+      <link>https://www.sandiegouniontribune.com/2026/11/02/mississippi-child-shot-protest/</link>
+      <description/>
+      <pubDate>Tue, 03 Nov 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>sandiegouniontribune.com</source>
+    </item>
+    <item>
       <title>SLED investigating Irmo police shooting during domestic call</title>
       <link>https://www.postandcourier.com/columbia/news/irmo-police-shooting-sled-investigation-columbia/article_57d034a8-c416-4a33-ac95-4e1daf8d80f3.html</link>
       <description/>
@@ -87,6 +135,14 @@
       <source>fox5ny.com</source>
     </item>
     <item>
+      <title>Ohio father who ran over deputy one day after son was killed in a police shooting convicted of murder</title>
+      <link>https://thegrio.com/2026/10/23/rodney-hinton-guilty-murder-trial/</link>
+      <description/>
+      <pubDate>Sat, 24 Oct 2026 05:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>thegrio.com</source>
+    </item>
+    <item>
       <title>JUST IN : ACPD releases footage of fatal police shooting on Columbia Pike</title>
       <link>https://www.arlnow.com/2026/10/23/just-in-acpd-releases-footage-of-fatal-police-shooting-on-columbia-pike/</link>
       <description/>
@@ -95,12 +151,12 @@
       <source>arlnow.com</source>
     </item>
     <item>
-      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
-      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
+      <title>Body - camera footage released in police shooting of Miss . 1 - year - old Kohen Wiley as family speaks out</title>
+      <link>https://abc30.com/story/body-camera-footage-released-police-shooting-miss-1-year-old-kohen-wiley-family-speaks/19971972/</link>
       <description/>
-      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Oct 2026 12:30:00 +0000</pubDate>
       <category>incident</category>
-      <source>fox5atlanta.com</source>
+      <source>abc30.com</source>
     </item>
     <item>
       <title>Takeaways from AP investigation into police shootings of alleged cow smugglers in India</title>
@@ -117,6 +173,22 @@
       <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>thegazette.com</source>
+    </item>
+    <item>
+      <title>Suspect , 2 officers injured in Woodstock police shooting , officials say</title>
+      <link>https://www.fox5atlanta.com/news/suspect-2-officers-injured-woodstock-police-shooting-officials-say</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 04:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>State releases footage of police shooting of 1 - year - old Kohen Wiley</title>
+      <link>https://www.walb.com/2026/10/23/state-releases-footage-police-shooting-1-year-old-kohen-wiley/</link>
+      <description/>
+      <pubDate>Fri, 23 Oct 2026 02:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>walb.com</source>
     </item>
     <item>
       <title>No charges filed in deadly Mundelein police shooting of Mary Alice Love , family files wrongful death lawsuit</title>
@@ -333,78 +405,6 @@
       <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
       <category>incident</category>
       <source>kob.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE in Austin will stay in custody , but will not return to detention center</title>
-      <link>https://www.tpr.org/border-immigration/2026-10-01/man-shot-by-ice-in-austin-will-stay-in-custody-but-will-not-return-to-detention-center</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 21:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>tpr.org</source>
-    </item>
-    <item>
-      <title>Judge keeps immigrant delivery driver shot by ICE in custody for alleged assault</title>
-      <link>https://www.nbcnews.com/news/us-news/judge-keeps-immigrant-delivery-driver-shot-ice-custody-alleged-assault-rcna600898</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 16:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcnews.com</source>
-    </item>
-    <item>
-      <title>Austin ICE shooting : Bond denied for man shot by ICE agent ; he now in federal criminal custody</title>
-      <link>https://www.fox26houston.com/news/austin-ice-shooting-bond-denied-for-wilber-perez-austin-tx</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 13:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox26houston.com</source>
-    </item>
-    <item>
-      <title>Judge keeps Venezuelan DoorDash driver shot by ICE behind bars for alleged assault</title>
-      <link>https://www.cbsnews.com/news/doordash-driver-shot-ice-custody-alleged-assault-wilber-rafael-garces-perez/</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 12:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>cbsnews.com</source>
-    </item>
-    <item>
-      <title>Man shot by ICE officer to remain in custody , judge says criminal prosecution can continue</title>
-      <link>https://katu.com/news/nation-world/man-shot-by-ice-officer-to-remain-in-custody-judge-says-criminal-prosecution-can-continue</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 12:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>katu.com</source>
-    </item>
-    <item>
-      <title>Milwaukee police shooting near 7th and Scott , suspect wounded</title>
-      <link>https://www.fox6now.com/news/breaking-officer-involved-shooting-near-7th-scott-suspect-officer-shot</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 05:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox6now.com</source>
-    </item>
-    <item>
-      <title>Judge keeps delivery driver shot by ICE in custody</title>
-      <link>https://www.wxii12.com/article/venezuelan-delivery-driver-texas-ice-shooting-custody/73967643</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 02:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wxii12.com</source>
-    </item>
-    <item>
-      <title>Judge keeps Venezuelan delivery driver shot by ICE in custody for alleged assault</title>
-      <link>https://www.wral.com/news/ap/40a93-judge-keeps-venezuelan-delivery-driver-shot-by-ice-in-custody-for-alleged-assault/</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wral.com</source>
-    </item>
-    <item>
-      <title>Venezuelan delivery driver shot by federal agent in Texas to remain in custody</title>
-      <link>https://www.wsbradio.com/news/national/judge-keeps/DVT7JF3SJ42SPNAED67JV7LYKA/</link>
-      <description/>
-      <pubDate>Thu, 01 Oct 2026 00:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wsbradio.com</source>
     </item>
   </channel>
 </rss>
