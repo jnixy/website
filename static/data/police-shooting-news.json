@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-21T14:32:31Z",
+  "generated_at": "2026-11-22T14:28:26Z",
   "stories": [
+    {
+      "title": "Man killed in Lexington police shooting identified , KSP investigating",
+      "url": "https://www.wkyt.com/2026/11/21/man-killed-lexington-police-shooting-identified-ksp-investigating/",
+      "description": "",
+      "date": "2026-11-21T16:30:00Z",
+      "source": "wkyt.com",
+      "category": "incident"
+    },
+    {
+      "title": "Madison police shooting : No charges for officers , officials react",
+      "url": "https://www.fox6now.com/news/madison-police-shooting-no-charges-statements",
+      "description": "",
+      "date": "2026-11-20T01:30:00Z",
+      "source": "fox6now.com",
+      "category": "incident"
+    },
+    {
+      "title": "SIIR completes investigation into fatal 2024 Spokane police shooting",
+      "url": "https://www.kxly.com/news/siir-completes-investigation-into-fatal-2024-spokane-police-shooting/article_3cf5bf1c-e657-47e4-b598-dc70bcfef9c5.html",
+      "description": "",
+      "date": "2026-11-20T01:15:00Z",
+      "source": "kxly.com",
+      "category": "incident"
+    },
     {
       "title": "Madison police shooting : No charges for officer in Corey Ruiz death",
       "url": "https://www.fox5atlanta.com/news/madison-police-shooting-no-charges-officer-corey-ruizs-death",
@@ -106,19 +130,19 @@
       "category": "incident"
     },
     {
-      "title": "Parents of 1 - year - old fatally shot by police protest at Mississippi Attorney General Office",
-      "url": "https://www.sandiegouniontribune.com/2026/11/02/mississippi-child-shot-protest/",
-      "description": "",
-      "date": "2026-11-03T02:15:00Z",
-      "source": "sandiegouniontribune.com",
-      "category": "incident"
-    },
-    {
       "title": "SLED investigating Irmo police shooting during domestic call",
       "url": "https://www.postandcourier.com/columbia/news/irmo-police-shooting-sled-investigation-columbia/article_57d034a8-c416-4a33-ac95-4e1daf8d80f3.html",
       "description": "",
       "date": "2026-11-03T02:15:00Z",
       "source": "postandcourier.com",
+      "category": "incident"
+    },
+    {
+      "title": "Parents of 1 - year - old fatally shot by police protest at Mississippi Attorney General Office",
+      "url": "https://www.sandiegouniontribune.com/2026/11/02/mississippi-child-shot-protest/",
+      "description": "",
+      "date": "2026-11-03T02:15:00Z",
+      "source": "sandiegouniontribune.com",
       "category": "incident"
     },
     {
@@ -1575,30 +1599,6 @@
       "description": "",
       "date": "2026-08-15T02:30:00Z",
       "source": "kcrg.com",
-      "category": "incident"
-    },
-    {
-      "title": "Partner of man shot by ICE agent in Biddeford posts tribute a month after his death",
-      "url": "https://www.pressherald.com/2026/08/13/partner-of-man-shot-by-ice-agent-in-biddeford-posts-tribute-a-month-after-his-death/",
-      "description": "",
-      "date": "2026-08-13T23:45:00Z",
-      "source": "pressherald.com",
-      "category": "incident"
-    },
-    {
-      "title": "Oakland police shooting near a homeless encampment triggers probe",
-      "url": "https://www.foxnews.com/us/watch-terrifying-moment-spear-wielding-man-lunges-california-cops-before-shots-ring-out",
-      "description": "",
-      "date": "2026-08-13T23:00:00Z",
-      "source": "foxnews.com",
-      "category": "incident"
-    },
-    {
-      "title": "Neighbors concerned with crime in NW Albuquerque following deadly police shooting at apartment",
-      "url": "https://www.kob.com/new-mexico/neighbors-concerned-with-crime-in-nw-albuquerque-following-deadly-police-shooting-at-apartment/",
-      "description": "",
-      "date": "2026-08-13T03:30:00Z",
-      "source": "kob.com",
       "category": "incident"
     }
   ]
