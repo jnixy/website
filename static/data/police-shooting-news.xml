@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 14:28:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:56:45 +0000</lastBuildDate>
+    <item>
+      <title>Off - duty NYPD officer shoots at girlfriend , then himself in Bronx : sources</title>
+      <link>https://abc7ny.com/post/off-duty-nypd-officer-shoots-girlfriend-himself-bronx-sources/20067043/</link>
+      <description/>
+      <pubDate>Sun, 22 Nov 2026 20:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>abc7ny.com</source>
+    </item>
     <item>
       <title>Man killed in Lexington police shooting identified , KSP investigating</title>
       <link>https://www.wkyt.com/2026/11/21/man-killed-lexington-police-shooting-identified-ksp-investigating/</link>
@@ -39,6 +47,14 @@
       <source>fox5atlanta.com</source>
     </item>
     <item>
+      <title>Madison police shooting of Ruiz : No charges filed</title>
+      <link>https://www.wisn.com/article/wisconsin-madison-police-shooting-ruiz-no-charges/74477796</link>
+      <description/>
+      <pubDate>Fri, 20 Nov 2026 00:15:00 +0000</pubDate>
+      <category>incident</category>
+      <source>wisn.com</source>
+    </item>
+    <item>
       <title>Johnston police shooting : Officer who shot man during stop identified</title>
       <link>https://www.kcci.com/article/johnston-iowa-police-shooting-sean-lewis-clements-officers-identified-ethan-meng/74476850</link>
       <description/>
@@ -61,6 +77,14 @@
       <pubDate>Fri, 13 Nov 2026 18:00:00 +0000</pubDate>
       <category>incident</category>
       <source>fox26houston.com</source>
+    </item>
+    <item>
+      <title>No criminal charges in Mount Shasta police shooting that killed Sonoma County man , California attorney general rules</title>
+      <link>https://www.pressdemocrat.com/2026/11/09/no-charges-in-shasta-amtrak-shooting/</link>
+      <description/>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>pressdemocrat.com</source>
     </item>
     <item>
       <title>Several Casulaties Reported After Shooting In Poland . The Suspect Was Shot By Police . </title>
@@ -381,30 +405,6 @@
       <pubDate>Fri, 16 Oct 2026 18:00:00 +0000</pubDate>
       <category>incident</category>
       <source>truthout.org</source>
-    </item>
-    <item>
-      <title>NMSP : Suspect dead in Hobbs police shooting</title>
-      <link>https://www.kob.com/news/top-news/nmsp-suspect-dead-in-hobbs-police-shooting/</link>
-      <description/>
-      <pubDate>Thu, 15 Oct 2026 18:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>kob.com</source>
-    </item>
-    <item>
-      <title>Lawyers for New York man shot by ICE say officer fired into car without warning – KTBB News , Weather , Talk</title>
-      <link>https://ktbb.com/post/?p=1549491</link>
-      <description/>
-      <pubDate>Thu, 15 Oct 2026 14:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>ktbb.com</source>
-    </item>
-    <item>
-      <title>Lawyers for NY man shot by ICE say officer fired into car without warning</title>
-      <link>https://www.orlandosentinel.com/2026/10/14/ice-shooting-new-york/</link>
-      <description/>
-      <pubDate>Thu, 15 Oct 2026 14:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>orlandosentinel.com</source>
     </item>
   </channel>
 </rss>

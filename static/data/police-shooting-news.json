@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-11-22T14:28:26Z",
+  "generated_at": "2026-11-23T17:56:45Z",
   "stories": [
+    {
+      "title": "Off - duty NYPD officer shoots at girlfriend , then himself in Bronx : sources",
+      "url": "https://abc7ny.com/post/off-duty-nypd-officer-shoots-girlfriend-himself-bronx-sources/20067043/",
+      "description": "",
+      "date": "2026-11-22T20:30:00Z",
+      "source": "abc7ny.com",
+      "category": "incident"
+    },
     {
       "title": "Man killed in Lexington police shooting identified , KSP investigating",
       "url": "https://www.wkyt.com/2026/11/21/man-killed-lexington-police-shooting-identified-ksp-investigating/",
@@ -34,6 +42,14 @@
       "category": "incident"
     },
     {
+      "title": "Madison police shooting of Ruiz : No charges filed",
+      "url": "https://www.wisn.com/article/wisconsin-madison-police-shooting-ruiz-no-charges/74477796",
+      "description": "",
+      "date": "2026-11-20T00:15:00Z",
+      "source": "wisn.com",
+      "category": "incident"
+    },
+    {
       "title": "Johnston police shooting : Officer who shot man during stop identified",
       "url": "https://www.kcci.com/article/johnston-iowa-police-shooting-sean-lewis-clements-officers-identified-ethan-meng/74476850",
       "description": "",
@@ -55,6 +71,14 @@
       "description": "",
       "date": "2026-11-13T18:00:00Z",
       "source": "fox26houston.com",
+      "category": "incident"
+    },
+    {
+      "title": "No criminal charges in Mount Shasta police shooting that killed Sonoma County man , California attorney general rules",
+      "url": "https://www.pressdemocrat.com/2026/11/09/no-charges-in-shasta-amtrak-shooting/",
+      "description": "",
+      "date": "2026-11-10T00:00:00Z",
+      "source": "pressdemocrat.com",
       "category": "incident"
     },
     {
@@ -1575,30 +1599,6 @@
       "description": "",
       "date": "2026-08-15T13:30:00Z",
       "source": "whoradio.iheart.com",
-      "category": "incident"
-    },
-    {
-      "title": "Officer killed to join more than 30 names on wall of Metro lobby headquarters",
-      "url": "https://news3lv.com/news/local/officer-killed-to-join-more-than-30-names-on-wall-of-metro-lobby-headquarters",
-      "description": "",
-      "date": "2026-08-15T06:00:00Z",
-      "source": "news3lv.com",
-      "category": "incident"
-    },
-    {
-      "title": "Police officer shot in Muscatine during chase , suspect at large",
-      "url": "https://www.kcci.com/article/police-officer-shot-in-muscatine-during-chase-suspect-at-large/73441062",
-      "description": "",
-      "date": "2026-08-15T04:15:00Z",
-      "source": "kcci.com",
-      "category": "incident"
-    },
-    {
-      "title": "Police : Suspect at large after Muscatine officer shot",
-      "url": "https://www.kcrg.com/2026/08/14/police-suspect-large-after-muscatine-officer-shot/",
-      "description": "",
-      "date": "2026-08-15T02:30:00Z",
-      "source": "kcrg.com",
       "category": "incident"
     }
   ]
