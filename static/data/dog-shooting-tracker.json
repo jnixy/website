@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T18:43:34Z",
+  "generated_at": "2026-11-24T18:15:39Z",
   "total_incidents": 84,
   "reviewed_count": 80,
-  "total_sources": 235,
+  "total_sources": 236,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-11-18"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 84,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 327
+    "as_of_day_of_year": 328
   },
   "yearly_counts": [
     {
