@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-11-24T18:15:39Z",
-  "total_incidents": 84,
+  "generated_at": "2026-11-25T17:37:57Z",
+  "total_incidents": 86,
   "reviewed_count": 80,
-  "total_sources": 236,
+  "total_sources": 241,
   "date_range": {
     "earliest": "2026-01-05",
-    "latest": "2026-11-18"
+    "latest": "2026-11-24"
   },
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 84,
+    "current_year_to_date": 85,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 328
+    "as_of_day_of_year": 329
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 84
+      "count": 85
     }
   ],
   "outcome_breakdown": [
     {
       "label": "killed",
-      "count": 55
+      "count": 56
     },
     {
       "label": "injured-survived",
@@ -31,7 +31,7 @@
     },
     {
       "label": "unknown",
-      "count": 10
+      "count": 11
     },
     {
       "label": "unharmed",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 40
+      "count": 41
     },
     {
       "label": "unrelated call response",
@@ -65,7 +65,7 @@
     },
     {
       "label": "unknown",
-      "count": 3
+      "count": 4
     },
     {
       "label": "pursuit",
@@ -83,11 +83,11 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 58
+      "count": 59
     },
     {
       "label": "county SO",
-      "count": 24
+      "count": 25
     },
     {
       "label": "state",
@@ -102,7 +102,7 @@
     {
       "state": "CA",
       "name": "California",
-      "count": 14
+      "count": 15
     },
     {
       "state": "PA",
@@ -117,7 +117,7 @@
     {
       "state": "NY",
       "name": "New York",
-      "count": 6
+      "count": 7
     },
     {
       "state": "MD",
@@ -237,7 +237,7 @@
   ],
   "human_injured_count": 4,
   "discovery_counts": {
-    "media": 74,
+    "media": 76,
     "official": 5,
     "both": 5
   },
@@ -268,6 +268,28 @@
     }
   ],
   "recent_incidents": [
+    {
+      "incident_date": "2026-11-24",
+      "date_precision": "day",
+      "city": "Los Angeles",
+      "state": "CA",
+      "agency_name": "Los Angeles County Sheriff's Department",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "unknown",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "unknown",
+      "summary": "A Los Angeles County sheriff's deputy shot a dog near 87th Street and Budlong Avenue in South Los Angeles after the dog bit her during a Tuesday morning incident. The deputy's injuries and the dog's condition were not immediately reported.",
+      "source_url": "https://wisevoter.com/world/us/ca/los-angeles/2026/11/25/la-county-deputy-shoots-dog-south-la",
+      "source_name": "Wisevoter",
+      "additional_sources": [
+        "https://www.cbsnews.com/losangeles/news/la-county-deputy-shoots-kills-dog-south-la/",
+        "https://www.nbclosangeles.com/news/local/dog-bite-deputy-shooting-south-los-angeles/3974766/"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "medium",
+      "reviewed": false
+    },
     {
       "incident_date": "2026-11-18",
       "date_precision": "day",
@@ -907,27 +929,6 @@
       "discovery": "both",
       "official_url": "https://www.lapdonline.org/newsroom/officer-involved-animal-shooting-investigation-nrf035-26ne/",
       "confidence": "high",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-08-26",
-      "date_precision": "day",
-      "city": "Charlotte",
-      "state": "NC",
-      "agency_name": "Sheriff's Office",
-      "circumstance": "dog attack/bite call",
-      "dog_outcome": "unknown",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "A sheriff's deputy fired a gun at a dog during a pack attack in northwest Charlotte that injured four people.",
-      "source_url": "https://www.wcnc.com/video/news/seven-loose-dogs-attack-couple-in-northwest-charlotte/275-141cb8f5-2bb3-4e08-a914-979400cd889d",
-      "source_name": "WCNC",
-      "additional_sources": [
-        "https://www.wcnc.com/article/news/local/4-people-hurt-in-northwest-charlotte-dog-attack/275-caa2df40-7bc1-4bdb-b28f-26985dd577c7"
-      ],
-      "discovery": "media",
-      "official_url": "",
-      "confidence": "low",
       "reviewed": true
     }
   ]
