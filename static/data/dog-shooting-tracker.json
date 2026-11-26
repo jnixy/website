@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-25T17:37:57Z",
-  "total_incidents": 86,
+  "generated_at": "2026-11-26T17:20:32Z",
+  "total_incidents": 87,
   "reviewed_count": 80,
-  "total_sources": 241,
+  "total_sources": 248,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-11-24"
@@ -10,14 +10,14 @@
   "stats": {
     "current_year": 2026,
     "prior_year": 2025,
-    "current_year_to_date": 85,
+    "current_year_to_date": 86,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 329
+    "as_of_day_of_year": 330
   },
   "yearly_counts": [
     {
       "year": 2026,
-      "count": 85
+      "count": 86
     }
   ],
   "outcome_breakdown": [
@@ -27,7 +27,7 @@
     },
     {
       "label": "injured-survived",
-      "count": 16
+      "count": 17
     },
     {
       "label": "unknown",
@@ -45,7 +45,7 @@
   "circumstance_breakdown": [
     {
       "label": "dog attack/bite call",
-      "count": 41
+      "count": 42
     },
     {
       "label": "unrelated call response",
@@ -83,7 +83,7 @@
   "agency_type_breakdown": [
     {
       "label": "municipal PD",
-      "count": 59
+      "count": 60
     },
     {
       "label": "county SO",
@@ -120,14 +120,14 @@
       "count": 7
     },
     {
-      "state": "MD",
-      "name": "Maryland",
+      "state": "TX",
+      "name": "Texas",
       "count": 5
     },
     {
-      "state": "TX",
-      "name": "Texas",
-      "count": 4
+      "state": "MD",
+      "name": "Maryland",
+      "count": 5
     },
     {
       "state": "NJ",
@@ -237,7 +237,7 @@
   ],
   "human_injured_count": 4,
   "discovery_counts": {
-    "media": 76,
+    "media": 77,
     "official": 5,
     "both": 5
   },
@@ -288,6 +288,30 @@
       "discovery": "media",
       "official_url": "",
       "confidence": "medium",
+      "reviewed": false
+    },
+    {
+      "incident_date": "2026-11-24",
+      "date_precision": "day",
+      "city": "Arlington",
+      "state": "TX",
+      "agency_name": "Arlington Police Department",
+      "circumstance": "dog attack/bite call",
+      "dog_outcome": "injured-survived",
+      "dog_targeted": "yes",
+      "human_injured_by_fire": "no",
+      "summary": "An Arlington police officer fired his service weapon at a dog that charged toward him while responding to a commercial alarm call on Nov. 24, 2026. The dog was injured and taken to a veterinarian for treatment; the officer was not hurt and was placed on administrative leave pending an Internal Affairs review.",
+      "source_url": "https://hoodline.com/2026/11/arlington-officer-shoots-dog-that-charged-him-during-alarm-call-leave-follows/",
+      "source_name": "Hoodline",
+      "additional_sources": [
+        "https://www.wfaa.com/article/news/crime/arlington-texas-police-officer-dog-shooting/287-6967548d-2969-4c1a-bd5a-75fbef8e9988",
+        "https://www.star-telegram.com/news/local/arlington/article318252630.html",
+        "https://www.fox4news.com/news/arlington-police-officer-shoots-dog-while-responding-commercial-alarm",
+        "https://wisevoter.com/world/us/tx/arlington/2026/11/25/arlington-officer-shoots-dog-alarm-call"
+      ],
+      "discovery": "media",
+      "official_url": "",
+      "confidence": "high",
       "reviewed": false
     },
     {
@@ -905,30 +929,6 @@
       "discovery": "both",
       "official_url": "https://dmpsj.dc.gov/release/correspondence-councilmember-brooke-pinto-regarding-officer-involved-shooting-firearm",
       "confidence": "low",
-      "reviewed": true
-    },
-    {
-      "incident_date": "2026-08-27",
-      "date_precision": "day",
-      "city": "Los Angeles",
-      "state": "CA",
-      "agency_name": "Los Angeles Police Department",
-      "circumstance": "domestic call",
-      "dog_outcome": "unknown",
-      "dog_targeted": "yes",
-      "human_injured_by_fire": "unknown",
-      "summary": "LAPD officers responded to a domestic incident call in the Green Meadows neighborhood on Thursday morning. As they returned to their vehicle, three unrestrained dogs emerged from a property and charged at them; one dog attacked an officer, resulting in a shooting. The officer was bitten on the leg and taken to a hospital for treatment of puncture wounds.",
-      "source_url": "https://patch.com/california/los-angeles/police-shoot-dog-who-attacked-officer-los-angeles",
-      "source_name": "Patch",
-      "additional_sources": [
-        "https://www.yahoo.com/news/articles/officer-shoots-dog-being-attacked-193217024.html",
-        "https://mynewsla.com/crime/2026/08/29/lapd-shoots-dog-who-attacked-officer-in-green-meadows/",
-        "https://mynewsla.com/crime/2026/08/27/lapd-shoots-dog-that-attacked-officer-in-green-meadows/",
-        "https://www.yahoo.com/news/videos/lapd-officer-shoots-dog-being-232600059.html"
-      ],
-      "discovery": "both",
-      "official_url": "https://www.lapdonline.org/newsroom/officer-involved-animal-shooting-investigation-nrf035-26ne/",
-      "confidence": "high",
       "reviewed": true
     }
   ]
