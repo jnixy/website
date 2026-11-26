@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T17:05:34Z",
+  "generated_at": "2026-11-26T16:45:52Z",
   "stories": [
     {
       "title": "SFPD : Suspect in custody after police shooting",
@@ -7,6 +7,14 @@
       "description": "",
       "date": "2026-11-25T05:45:00Z",
       "source": "kob.com",
+      "category": "incident"
+    },
+    {
+      "title": "SHOCK : Raytown Police Officer Shot & Killed Serving Warrant",
+      "url": "https://www.tonyskansascity.com/2026/11/shock-raytown-police-officer-shot.html",
+      "description": "",
+      "date": "2026-11-25T03:30:00Z",
+      "source": "tonyskansascity.com",
       "category": "incident"
     },
     {
@@ -106,14 +114,6 @@
       "category": "incident"
     },
     {
-      "title": "Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured",
-      "url": "https://www.fox5atlanta.com/news/police-identify-fallen-colorado-officer-killed-shootout-left-suspect-dead-4-injured",
-      "description": "",
-      "date": "2026-11-07T06:00:00Z",
-      "source": "fox5atlanta.com",
-      "category": "incident"
-    },
-    {
       "title": "Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting",
       "url": "https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html",
       "description": "",
@@ -122,11 +122,35 @@
       "category": "incident"
     },
     {
+      "title": "Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured",
+      "url": "https://www.fox5atlanta.com/news/police-identify-fallen-colorado-officer-killed-shootout-left-suspect-dead-4-injured",
+      "description": "",
+      "date": "2026-11-07T06:00:00Z",
+      "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
       "title": "Osage County deputies shot in November incident honored with prestigious award",
       "url": "https://www.wibw.com/2026/11/06/osage-county-deputies-shot-november-incident-honored-with-prestigious-award/",
       "description": "",
       "date": "2026-11-07T01:00:00Z",
       "source": "wibw.com",
+      "category": "incident"
+    },
+    {
+      "title": "Officer Killed , 3 Officers And Bystander Wounded In Denver - Area Bus Shootout – 710am KURV",
+      "url": "https://www.kurv.com/officer-killed-3-officers-and-bystander-wounded-in-denver-area-bus-shootout/",
+      "description": "",
+      "date": "2026-11-07T00:00:00Z",
+      "source": "kurv.com",
+      "category": "incident"
+    },
+    {
+      "title": "Officer killed , 3 officers and bystander wounded in Denver - area bus shootout",
+      "url": "https://www.yumasun.com/news/national_news/officer-killed-3-officers-and-bystander-wounded-in-denver-area-bus-shootout/article_7f04f7e7-3157-5100-a04f-8d22d6329c63.html",
+      "description": "",
+      "date": "2026-11-07T00:00:00Z",
+      "source": "yumasun.com",
       "category": "incident"
     },
     {
@@ -159,6 +183,14 @@
       "description": "",
       "date": "2026-11-06T02:30:00Z",
       "source": "fox6now.com",
+      "category": "incident"
+    },
+    {
+      "title": "Experts question tactics , lack of mental health response in Columbia Pike police shooting",
+      "url": "https://www.arlnow.com/2026/11/05/experts-question-tactics-lack-of-mental-health-response-in-columbia-pike-police-shooting/",
+      "description": "",
+      "date": "2026-11-06T00:30:00Z",
+      "source": "arlnow.com",
       "category": "incident"
     },
     {
@@ -1567,38 +1599,6 @@
       "description": "",
       "date": "2026-08-17T12:45:00Z",
       "source": "nbcdfw.com",
-      "category": "incident"
-    },
-    {
-      "title": "Arlington police officer shot during Dallas incident | FOX 4 Dallas - Fort Worth",
-      "url": "https://www.fox4news.com/news/arlington-police-officer-injured-dallas-shooting",
-      "description": "",
-      "date": "2026-08-17T03:15:00Z",
-      "source": "fox4news.com",
-      "category": "incident"
-    },
-    {
-      "title": "WATCH LIVE : Cincinnati police , city leaders provide update after officer shoots suspect in Green Township",
-      "url": "https://www.fox19.com/2026/08/16/watch-live-cincinnati-police-city-leaders-provide-update-after-officer-shoots-suspect-green-township/",
-      "description": "",
-      "date": "2026-08-16T20:00:00Z",
-      "source": "fox19.com",
-      "category": "incident"
-    },
-    {
-      "title": "Sexual assault investigation leads to fatal police shooting near Sharon Woods Metro Park",
-      "url": "https://abc6onyourside.com/news/local/officer-involved-shooting-in-sharon-woods-park-under-investigation-bci-says-ohio-bureau-of-criminal-investigation-no-injuries-crime-scene",
-      "description": "",
-      "date": "2026-08-16T01:00:00Z",
-      "source": "abc6onyourside.com",
-      "category": "incident"
-    },
-    {
-      "title": "Des Moines Man IDd As Suspect In Muscatine Police Shooting | La Preciosa 98 . 7 FM y 1470 AM",
-      "url": "https://lapreciosa987.iheart.com/content/2026-08-15-des-moines-man-idd-as-suspect-in-muscatine-police-shooting/",
-      "description": "",
-      "date": "2026-08-15T17:45:00Z",
-      "source": "lapreciosa987.iheart.com",
       "category": "incident"
     }
   ]

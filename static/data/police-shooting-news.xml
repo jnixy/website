@@ -5,7 +5,7 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 17:05:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 16:45:52 +0000</lastBuildDate>
     <item>
       <title>SFPD : Suspect in custody after police shooting</title>
       <link>https://www.kob.com/new-mexico/sfpd-suspect-in-custody-after-police-shooting/</link>
@@ -13,6 +13,14 @@
       <pubDate>Wed, 25 Nov 2026 05:45:00 +0000</pubDate>
       <category>incident</category>
       <source>kob.com</source>
+    </item>
+    <item>
+      <title>SHOCK : Raytown Police Officer Shot &amp; Killed Serving Warrant</title>
+      <link>https://www.tonyskansascity.com/2026/11/shock-raytown-police-officer-shot.html</link>
+      <description/>
+      <pubDate>Wed, 25 Nov 2026 03:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>tonyskansascity.com</source>
     </item>
     <item>
       <title>Tribal officer shoots suspect during fight in northwest North Dakota</title>
@@ -111,14 +119,6 @@
       <source>ibtimes.com</source>
     </item>
     <item>
-      <title>Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured</title>
-      <link>https://www.fox5atlanta.com/news/police-identify-fallen-colorado-officer-killed-shootout-left-suspect-dead-4-injured</link>
-      <description/>
-      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox5atlanta.com</source>
-    </item>
-    <item>
       <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
       <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
       <description/>
@@ -127,12 +127,36 @@
       <source>khq.com</source>
     </item>
     <item>
+      <title>Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured</title>
+      <link>https://www.fox5atlanta.com/news/police-identify-fallen-colorado-officer-killed-shootout-left-suspect-dead-4-injured</link>
+      <description/>
+      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>fox5atlanta.com</source>
+    </item>
+    <item>
       <title>Osage County deputies shot in November incident honored with prestigious award</title>
       <link>https://www.wibw.com/2026/11/06/osage-county-deputies-shot-november-incident-honored-with-prestigious-award/</link>
       <description/>
       <pubDate>Sat, 07 Nov 2026 01:00:00 +0000</pubDate>
       <category>incident</category>
       <source>wibw.com</source>
+    </item>
+    <item>
+      <title>Officer Killed , 3 Officers And Bystander Wounded In Denver - Area Bus Shootout – 710am KURV</title>
+      <link>https://www.kurv.com/officer-killed-3-officers-and-bystander-wounded-in-denver-area-bus-shootout/</link>
+      <description/>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>kurv.com</source>
+    </item>
+    <item>
+      <title>Officer killed , 3 officers and bystander wounded in Denver - area bus shootout</title>
+      <link>https://www.yumasun.com/news/national_news/officer-killed-3-officers-and-bystander-wounded-in-denver-area-bus-shootout/article_7f04f7e7-3157-5100-a04f-8d22d6329c63.html</link>
+      <description/>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>yumasun.com</source>
     </item>
     <item>
       <title>1 officer killed and 3 wounded in a firefight with a suspect in Lakewood , Colorado</title>
@@ -165,6 +189,14 @@
       <pubDate>Fri, 06 Nov 2026 02:30:00 +0000</pubDate>
       <category>incident</category>
       <source>fox6now.com</source>
+    </item>
+    <item>
+      <title>Experts question tactics , lack of mental health response in Columbia Pike police shooting</title>
+      <link>https://www.arlnow.com/2026/11/05/experts-question-tactics-lack-of-mental-health-response-in-columbia-pike-police-shooting/</link>
+      <description/>
+      <pubDate>Fri, 06 Nov 2026 00:30:00 +0000</pubDate>
+      <category>incident</category>
+      <source>arlnow.com</source>
     </item>
     <item>
       <title>Terrebonne Parish deputy shoots , kills man after pursuit in Houma , state police say</title>
@@ -373,38 +405,6 @@
       <pubDate>Wed, 21 Oct 2026 02:15:00 +0000</pubDate>
       <category>incident</category>
       <source>abc30.com</source>
-    </item>
-    <item>
-      <title>Expert weighs in on deadly police shooting during welfare check in Bristol</title>
-      <link>https://www.nbcconnecticut.com/news/local/expert-weighs-in-on-deadly-police-shooting-during-welfare-check-in-bristol/3786474/</link>
-      <description/>
-      <pubDate>Tue, 20 Oct 2026 03:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcconnecticut.com</source>
-    </item>
-    <item>
-      <title>Police shooting that killed a 1 - year - old was justified , Mississippi AG says</title>
-      <link>https://www.koat.com/article/mississippi-ag-justified-police-shooting-baby-kohen/74183148</link>
-      <description/>
-      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>koat.com</source>
-    </item>
-    <item>
-      <title>Man dead , deputy shot after police shooting in Spotsylvania – NBC4 Washington</title>
-      <link>https://www.nbcwashington.com/news/local/man-fatally-shot-in-officer-related-virginiashooting/4169132/</link>
-      <description/>
-      <pubDate>Mon, 19 Oct 2026 20:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcwashington.com</source>
-    </item>
-    <item>
-      <title>Family , friends demand answers a month after Charlotte - Mecklenburg police officer fatally shot Curtis Massey</title>
-      <link>https://www.wbtv.com/2026/10/18/family-friends-man-killed-by-charlotte-mecklenburg-police-demand-answers/</link>
-      <description/>
-      <pubDate>Sun, 18 Oct 2026 20:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>wbtv.com</source>
     </item>
   </channel>
 </rss>
