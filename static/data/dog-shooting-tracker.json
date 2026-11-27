@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T17:20:32Z",
+  "generated_at": "2026-11-27T16:58:46Z",
   "total_incidents": 87,
   "reviewed_count": 80,
-  "total_sources": 248,
+  "total_sources": 249,
   "date_range": {
     "earliest": "2026-01-05",
     "latest": "2026-11-24"
@@ -12,7 +12,7 @@
     "prior_year": 2025,
     "current_year_to_date": 86,
     "prior_year_same_point": 0,
-    "as_of_day_of_year": 330
+    "as_of_day_of_year": 331
   },
   "yearly_counts": [
     {
@@ -307,7 +307,8 @@
         "https://www.wfaa.com/article/news/crime/arlington-texas-police-officer-dog-shooting/287-6967548d-2969-4c1a-bd5a-75fbef8e9988",
         "https://www.star-telegram.com/news/local/arlington/article318252630.html",
         "https://www.fox4news.com/news/arlington-police-officer-shoots-dog-while-responding-commercial-alarm",
-        "https://wisevoter.com/world/us/tx/arlington/2026/11/25/arlington-officer-shoots-dog-alarm-call"
+        "https://wisevoter.com/world/us/tx/arlington/2026/11/25/arlington-officer-shoots-dog-alarm-call",
+        "https://www.yahoo.com/news/articles/arlington-police-officer-shoots-dog-174906173.html"
       ],
       "discovery": "media",
       "official_url": "",
