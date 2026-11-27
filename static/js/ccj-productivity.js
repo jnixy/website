@@ -372,7 +372,6 @@
     $('ccj-js').value = S.js;
     $('ccj-byl').value = S.byl;
     $('ccj-adm').value = S.adm;
-    if (D.meta.admin_note) $('ccj-adm-note').textContent = D.meta.admin_note;
     if (!D.programs.length || !D.programs[0].rankAdminN) $('ccj-adm').disabled = true;
 
     var rk = parseList(S.rk);
