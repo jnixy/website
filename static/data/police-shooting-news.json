@@ -1,6 +1,14 @@
 {
-  "generated_at": "2026-11-26T16:45:52Z",
+  "generated_at": "2026-11-27T16:32:22Z",
   "stories": [
+    {
+      "title": "Man armed with knife shot by police in Sterling Heights",
+      "url": "https://www.clickondetroit.com/news/local/2026/11/26/man-injured-after-police-shooting-in-sterling-heights/",
+      "description": "",
+      "date": "2026-11-26T19:45:00Z",
+      "source": "clickondetroit.com",
+      "category": "incident"
+    },
     {
       "title": "SFPD : Suspect in custody after police shooting",
       "url": "https://www.kob.com/new-mexico/sfpd-suspect-in-custody-after-police-shooting/",
@@ -18,11 +26,35 @@
       "category": "incident"
     },
     {
+      "title": "Police officer shot , killed in Kansas City suburb",
+      "url": "https://greatbendpost.com/posts/aa6b78d4-ba49-4b01-be9b-8041bdf4e84f",
+      "description": "",
+      "date": "2026-11-25T02:45:00Z",
+      "source": "greatbendpost.com",
+      "category": "incident"
+    },
+    {
       "title": "Tribal officer shoots suspect during fight in northwest North Dakota",
       "url": "https://www.inforum.com/news/north-dakota/tribal-officer-shoots-suspect-during-fight-in-northwest-north-dakota",
       "description": "",
       "date": "2026-11-25T02:15:00Z",
       "source": "inforum.com",
+      "category": "incident"
+    },
+    {
+      "title": "Hibbing police shooting detailed in BCA report",
+      "url": "https://www.mprnews.org/story/2026/11/24/hibbing-police-shooting-detailed-in-bca-report",
+      "description": "",
+      "date": "2026-11-25T01:45:00Z",
+      "source": "mprnews.org",
+      "category": "incident"
+    },
+    {
+      "title": "Man fatally shot by police following alleged road rage in Alamogordo",
+      "url": "https://lufkindailynews.com/news_reuters/state/man-fatally-shot-by-police-following-alleged-road-rage-in-alamogordo/article_0b53de00-5240-56e4-9e07-892c2bebdae5.html",
+      "description": "",
+      "date": "2026-11-25T00:45:00Z",
+      "source": "lufkindailynews.com",
       "category": "incident"
     },
     {
@@ -114,19 +146,19 @@
       "category": "incident"
     },
     {
-      "title": "Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting",
-      "url": "https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html",
-      "description": "",
-      "date": "2026-11-07T06:00:00Z",
-      "source": "khq.com",
-      "category": "incident"
-    },
-    {
       "title": "Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured",
       "url": "https://www.fox5atlanta.com/news/police-identify-fallen-colorado-officer-killed-shootout-left-suspect-dead-4-injured",
       "description": "",
       "date": "2026-11-07T06:00:00Z",
       "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
+      "title": "Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting",
+      "url": "https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html",
+      "description": "",
+      "date": "2026-11-07T06:00:00Z",
+      "source": "khq.com",
       "category": "incident"
     },
     {
@@ -1567,38 +1599,6 @@
       "description": "",
       "date": "2026-08-17T19:00:00Z",
       "source": "wbtv.com",
-      "category": "incident"
-    },
-    {
-      "title": "Off - Duty Arlington Officer Shot In Dallas , Suspect Arrested",
-      "url": "https://www.klif.com/2026/08/17/off-duty-arlington-officer-shot-in-dallas-suspect-arrested/",
-      "description": "",
-      "date": "2026-08-17T19:00:00Z",
-      "source": "klif.com",
-      "category": "incident"
-    },
-    {
-      "title": "Off - duty Philadelphia officer killed in double shooting laid to rest",
-      "url": "https://www.fox29.com/news/funeral-arrangements-announced-off-duty-philly-officer-killed-double-shooting",
-      "description": "",
-      "date": "2026-08-17T17:45:00Z",
-      "source": "fox29.com",
-      "category": "incident"
-    },
-    {
-      "title": "Off - duty police officer fatally shot outside lounge in Southwest Philly",
-      "url": "https://www.phillyvoice.com/philadelphia-police-officer-shot-killed-august-2026/",
-      "description": "",
-      "date": "2026-08-17T16:00:00Z",
-      "source": "phillyvoice.com",
-      "category": "incident"
-    },
-    {
-      "title": "Richland Hills officer shoots suspect in family violence case – NBC 5 Dallas - Fort Worth",
-      "url": "https://www.nbcdfw.com/news/local/richland-hills-officer-shoots-suspect-in-family-violence-case/4063458/",
-      "description": "",
-      "date": "2026-08-17T12:45:00Z",
-      "source": "nbcdfw.com",
       "category": "incident"
     }
   ]

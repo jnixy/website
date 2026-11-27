@@ -5,7 +5,15 @@
     <link>https://jnix.netlify.app/police-shooting-news/</link>
     <description>Automated news aggregation tracking police-involved shootings in the United States</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 16:45:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 16:32:22 +0000</lastBuildDate>
+    <item>
+      <title>Man armed with knife shot by police in Sterling Heights</title>
+      <link>https://www.clickondetroit.com/news/local/2026/11/26/man-injured-after-police-shooting-in-sterling-heights/</link>
+      <description/>
+      <pubDate>Thu, 26 Nov 2026 19:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>clickondetroit.com</source>
+    </item>
     <item>
       <title>SFPD : Suspect in custody after police shooting</title>
       <link>https://www.kob.com/new-mexico/sfpd-suspect-in-custody-after-police-shooting/</link>
@@ -23,12 +31,36 @@
       <source>tonyskansascity.com</source>
     </item>
     <item>
+      <title>Police officer shot , killed in Kansas City suburb</title>
+      <link>https://greatbendpost.com/posts/aa6b78d4-ba49-4b01-be9b-8041bdf4e84f</link>
+      <description/>
+      <pubDate>Wed, 25 Nov 2026 02:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>greatbendpost.com</source>
+    </item>
+    <item>
       <title>Tribal officer shoots suspect during fight in northwest North Dakota</title>
       <link>https://www.inforum.com/news/north-dakota/tribal-officer-shoots-suspect-during-fight-in-northwest-north-dakota</link>
       <description/>
       <pubDate>Wed, 25 Nov 2026 02:15:00 +0000</pubDate>
       <category>incident</category>
       <source>inforum.com</source>
+    </item>
+    <item>
+      <title>Hibbing police shooting detailed in BCA report</title>
+      <link>https://www.mprnews.org/story/2026/11/24/hibbing-police-shooting-detailed-in-bca-report</link>
+      <description/>
+      <pubDate>Wed, 25 Nov 2026 01:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>mprnews.org</source>
+    </item>
+    <item>
+      <title>Man fatally shot by police following alleged road rage in Alamogordo</title>
+      <link>https://lufkindailynews.com/news_reuters/state/man-fatally-shot-by-police-following-alleged-road-rage-in-alamogordo/article_0b53de00-5240-56e4-9e07-892c2bebdae5.html</link>
+      <description/>
+      <pubDate>Wed, 25 Nov 2026 00:45:00 +0000</pubDate>
+      <category>incident</category>
+      <source>lufkindailynews.com</source>
     </item>
     <item>
       <title>Off - duty NYPD officer shoots at girlfriend , then himself in Bronx : sources</title>
@@ -119,20 +151,20 @@
       <source>ibtimes.com</source>
     </item>
     <item>
-      <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
-      <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
-      <description/>
-      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
-      <category>incident</category>
-      <source>khq.com</source>
-    </item>
-    <item>
       <title>Police identify fallen Colorado officer killed in shootout that left suspect dead , 4 injured</title>
       <link>https://www.fox5atlanta.com/news/police-identify-fallen-colorado-officer-killed-shootout-left-suspect-dead-4-injured</link>
       <description/>
       <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
       <category>incident</category>
       <source>fox5atlanta.com</source>
+    </item>
+    <item>
+      <title>Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting</title>
+      <link>https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html</link>
+      <description/>
+      <pubDate>Sat, 07 Nov 2026 06:00:00 +0000</pubDate>
+      <category>incident</category>
+      <source>khq.com</source>
     </item>
     <item>
       <title>Osage County deputies shot in November incident honored with prestigious award</title>
@@ -373,38 +405,6 @@
       <pubDate>Wed, 21 Oct 2026 18:45:00 +0000</pubDate>
       <category>incident</category>
       <source>kbtx.com</source>
-    </item>
-    <item>
-      <title>Venezuelan man shot by ICE agent in North Austin indicted on federal assault charge</title>
-      <link>https://foxsanantonio.com/news/local/venezuelan-man-shot-by-ice-agent-in-north-austin-indicted-on-federal-assault-charge</link>
-      <description/>
-      <pubDate>Wed, 21 Oct 2026 16:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>foxsanantonio.com</source>
-    </item>
-    <item>
-      <title>Van Zandt deputy killed and Canton officer injured in shootout – NBC 5 Dallas - Fort Worth</title>
-      <link>https://www.nbcdfw.com/news/local/van-zandt-county-deputy-killed-canton-police-officer-injured-in-shootout-with-suspect/4093668/</link>
-      <description/>
-      <pubDate>Wed, 21 Oct 2026 14:45:00 +0000</pubDate>
-      <category>incident</category>
-      <source>nbcdfw.com</source>
-    </item>
-    <item>
-      <title>Van Zandt County deputy killed , Canton officer injured in shootout</title>
-      <link>https://www.fox4news.com/news/van-zandt-county-deputy-killed-canton-officer-injured-shootout</link>
-      <description/>
-      <pubDate>Wed, 21 Oct 2026 13:30:00 +0000</pubDate>
-      <category>incident</category>
-      <source>fox4news.com</source>
-    </item>
-    <item>
-      <title>Off - duty ICE agent shot by Fresno homeowner granted bond , allowed to return to Texas</title>
-      <link>https://abc30.com/story/off-duty-ice-agent-shot-fresno-homeowner-granted-bond-allowed-return-texas/19962311/</link>
-      <description/>
-      <pubDate>Wed, 21 Oct 2026 02:15:00 +0000</pubDate>
-      <category>incident</category>
-      <source>abc30.com</source>
     </item>
   </channel>
 </rss>
