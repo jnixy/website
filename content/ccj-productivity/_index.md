@@ -59,6 +59,15 @@ The default settings reproduce the published rankings. The other settings are fo
             <option value="first">First or sole author only</option>
           </select>
         </div>
+        <div class="ccj-control">
+          <label class="ccj-label" for="ccj-adm">Administrative role</label>
+          <select id="ccj-adm">
+            <option value="">All faculty</option>
+            <option value="0">Exclude faculty with administrative roles</option>
+            <option value="1">Only faculty with administrative roles</option>
+          </select>
+          <span class="ccj-muted" id="ccj-adm-note"></span>
+        </div>
       </div>
       <div class="ccj-control">
         <div id="ccj-rk" class="ccj-rank-boxes" aria-label="Faculty ranks included"></div>
@@ -221,6 +230,8 @@ The default settings reproduce the published rankings. The other settings are fo
 **What counts.** Refereed, English-language articles in journals, assigned to the year of the issue they appear in (not the year they were posted online). Publications come from [OpenAlex](https://openalex.org), with Crossref for issue years and author order. Namesake articles, editorials, book reviews, and similar items were removed by hand review.
 
 **Credit.** Each faculty authorship earns a byline weight (sole author 1.0; first of two .60, second .40; first of three .40, then .35 and .25; with four or more authors, .40 for the first and .60 split among the rest) times a journal weight: the journal's prestige rating from Sorensen, Snell, and Rodriguez (2006), a calibrated rating from Sorensen, Patterson, and Widmayer (1992), or 4 for unrated journals. Two faculty from the same program on one article each earn their own credit.
+
+**Administrative roles.** Chairs, deans, and program or center directors are often not expected to publish at the same rate as other faculty, so the *Administrative role* filter can leave them out (this filter is not part of the paper). A faculty member counts as an administrator if their program's website, in September 2026, listed a role such as chair, head, dean, provost, program or center director, or coordinator. Named professorships do not count. Roles change, so this is a later snapshot than the January 2025 rosters, and some programs list no roles at all, so their administrators stay in. To avoid showing one person's numbers, a program with fewer than 3 faculty under the chosen filters (rank and administrative role together) is not shown.
 
 **How much to trust it.** <span id="ccj-validation"></span> The automated counts miss some articles and include a few that do not belong, so treat gaps of a rank or two between neighboring programs as noise. Credit-per-faculty rankings are especially sensitive for small programs, where one prolific scholar can carry the whole program.
 

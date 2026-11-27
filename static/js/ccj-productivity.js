@@ -16,6 +16,9 @@
   var BYLINE_LABELS = { sole: 'Sole', first: 'First', middle: 'Middle', last: 'Last', unknown: 'Unknown' };
   var MAX_COMPARE = 6;
   var PAGE_SIZE = 25;
+  // Programs left with fewer faculty than this under the rank/admin filters are
+  // hidden, so the page never shows one or two people's numbers.
+  var MIN_GROUP = 3;
   var LAW_RE = /\blaw review\b|\blaw journal\b|\bjournal of law\b|\blaw quarterly\b|\blaw & policy\b/i;
 
   var WEIGHTINGS = {
@@ -31,7 +34,7 @@
 
   var DEFAULTS = {
     y0: null, y1: null, wt: 'km', meas: 'total', js: 'all', byl: 'all',
-    rk: '', cmp: '', sx: 'n_fac', sy: 'pf', jr: '', jp: '', ap: '', q: '', sort: 'rank', pg: 0
+    rk: '', adm: '', cmp: '', sx: 'n_fac', sy: 'pf', jr: '', jp: '', ap: '', q: '', sort: 'rank', pg: 0
   };
 
   var D = null;        // decoded data
@@ -144,7 +147,9 @@
         rankN: [P.rank_assistant[i], P.rank_associate[i], P.rank_full[i], P.rank_research[i], P.rank_unlisted[i]],
         km: [P.km_rank_2000_04[i], P.km_rank_2005_09[i], P.km_rank_2010_14[i]],
         km_cpf_2014: P.km_cpf_rank_2010_14[i],
-        top_producer_share: P.top_producer_share[i]
+        top_producer_share: P.top_producer_share[i],
+        // Faculty counts by rank x admin; cell = rank index * 2 + admin (0/1).
+        rankAdminN: P.fac_rank_admin ? P.fac_rank_admin[i] : null
       };
     });
     var F = raw.former_programs || { name: [] };
@@ -166,7 +171,7 @@
     });
     var U = raw.authorships;
     d.rows = U.p.map(function (p, i) {
-      return { p: p, a: U.a[i], byline: U.byline[i], w: U.w[i], r: U.r[i] };
+      return { p: p, a: U.a[i], byline: U.byline[i], w: U.w[i], r: U.r[i], ad: U.ad ? U.ad[i] : 0 };
     });
     var C = raw.paper_check;
     d.paper = {};
@@ -189,6 +194,7 @@
     S.y1 = clampYear(parseInt(S.y1, 10) || D.yMax);
     if (S.y0 > S.y1) { var t = S.y0; S.y0 = S.y1; S.y1 = t; }
     if (!WEIGHTINGS[S.wt]) S.wt = 'km';
+    if (S.adm !== '0' && S.adm !== '1') S.adm = '';
     S.pg = parseInt(S.pg, 10) || 0;
   }
 
@@ -208,7 +214,7 @@
   }
 
   function isDefaultScoring() {
-    return S.y0 === D.yMin && S.y1 === D.yMax && S.js === 'all' && S.byl === 'all' && !S.rk;
+    return S.y0 === D.yMin && S.y1 === D.yMax && S.js === 'all' && S.byl === 'all' && !S.rk && !S.adm;
   }
 
   // ------------------------------------------------------------- compute --
@@ -239,15 +245,32 @@
       var ranks = parseList(S.rk);
       if (ranks.indexOf(row.r) === -1) return false;
     }
+    if (S.adm && row.ad !== +S.adm) return false;
+    if (SUP[row.p]) return false;
     return true;
   }
 
   function denominator(prog) {
-    if (!S.rk) return prog.n_faculty;
-    return parseList(S.rk).reduce(function (s, r) { return s + (prog.rankN[r] || 0); }, 0);
+    if (!S.rk && !S.adm) return prog.n_faculty;
+    var ranks = S.rk ? parseList(S.rk) : D.rankCats.map(function (lab, i) { return i; });
+    if (!S.adm) return ranks.reduce(function (s, r) { return s + (prog.rankN[r] || 0); }, 0);
+    var m = prog.rankAdminN || [];
+    return ranks.reduce(function (s, r) { return s + (m[r * 2 + +S.adm] || 0); }, 0);
+  }
+
+  // Programs hidden under the current rank/admin filters (1 or 2 faculty).
+  var SUP = {};
+
+  function updateSuppression() {
+    SUP = {};
+    D.programs.forEach(function (p) {
+      var den = denominator(p);
+      if (den > 0 && den < MIN_GROUP) SUP[p.i] = true;
+    });
   }
 
   function compute() {
+    updateSuppression();
     var rows = D.rows.filter(function (r) { return rowPasses(r, {}); });
     var stats = D.programs.map(function (p) {
       return { total: 0, auth: 0, arts: {}, cxArts: {}, top: 0, team: 0, firstSole: 0, byline: {}, years: {} };
@@ -284,11 +307,19 @@
         unresolved: p.n_unresolved
       };
     });
-    var rt = minRank(progs.map(function (x) { return x.total; }));
+    // Hidden programs show no numbers and take no rank; the rest rank among themselves.
+    progs.forEach(function (x) {
+      if (!SUP[x.p]) return;
+      x.suppressed = true;
+      ['total', 'pf', 'auth', 'auth_pf', 'articles', 'crimrxiv_share', 'top_share', 'team', 'first_share']
+        .forEach(function (k) { x[k] = null; });
+      x.byline = {}; x.years = {};
+    });
+    var rt = minRank(progs.map(function (x) { return x.suppressed ? -1 : x.total; }));
     var rp = minRank(progs.map(function (x) { return x.pf === null ? -1 : x.pf; }));
     progs.forEach(function (x, i) {
-      x.rank_total = rt[i];
-      x.rank_pf = rp[i];
+      x.rank_total = x.suppressed ? null : rt[i];
+      x.rank_pf = x.suppressed ? null : rp[i];
       x.paper_rank = D.paper[i] ? D.paper[i].rank : null;
       x.paper_rank_pf = D.paper[i] ? D.paper[i].rank_pf : null;
     });
@@ -307,9 +338,10 @@
   function selfCheck() {
     // With the paper's settings, recomputed credit must reproduce Table 2.
     var saved = Object.assign({}, S);
-    S.y0 = D.yMin; S.y1 = Math.min(D.yMax, D.meta.window[1]); S.js = 'all'; S.byl = 'all'; S.rk = ''; S.wt = 'km';
+    S.y0 = D.yMin; S.y1 = Math.min(D.yMax, D.meta.window[1]); S.js = 'all'; S.byl = 'all'; S.rk = ''; S.adm = ''; S.wt = 'km';
     var res = compute();
     Object.assign(S, saved);
+    updateSuppression();
     var bad = res.progs.filter(function (x) {
       return D.paper[x.p] && Math.abs(x.total - D.paper[x.p].total) > 0.05;
     });
@@ -339,6 +371,9 @@
     $('ccj-meas').value = S.meas;
     $('ccj-js').value = S.js;
     $('ccj-byl').value = S.byl;
+    $('ccj-adm').value = S.adm;
+    if (D.meta.admin_note) $('ccj-adm-note').textContent = D.meta.admin_note;
+    if (!D.programs.length || !D.programs[0].rankAdminN) $('ccj-adm').disabled = true;
 
     var rk = parseList(S.rk);
     $('ccj-rk').innerHTML = D.rankCats.map(function (lab, i) {
@@ -377,6 +412,7 @@
     on('ccj-meas', 'change', function (e) { S.meas = e.target.value; refresh(); });
     on('ccj-js', 'change', function (e) { S.js = e.target.value; refresh(); });
     on('ccj-byl', 'change', function (e) { S.byl = e.target.value; refresh(); });
+    on('ccj-adm', 'change', function (e) { S.adm = e.target.value; refresh(); });
     on('ccj-rk', 'change', function () {
       var boxes = $('ccj-rk').querySelectorAll('input');
       var picked = [];
@@ -424,6 +460,7 @@
   function buildControlsValues() {
     $('ccj-y0').value = S.y0; $('ccj-y1').value = S.y1; $('ccj-wt').value = S.wt;
     $('ccj-meas').value = S.meas; $('ccj-js').value = S.js; $('ccj-byl').value = S.byl;
+    $('ccj-adm').value = S.adm;
     $('ccj-rk').querySelectorAll('input').forEach(function (b) { b.checked = true; });
     $('ccj-ap').value = ''; $('ccj-jp').value = ''; $('ccj-q').value = '';
   }
@@ -474,9 +511,9 @@
   function renderStats() {
     var arts = {};
     R.rows.forEach(function (r) { arts[r.a] = true; });
-    var fac = R.progs.reduce(function (s, x) { return s + x.n_fac; }, 0);
+    var fac = R.progs.reduce(function (s, x) { return s + (x.suppressed ? 0 : x.n_fac); }, 0);
     var tiles = [
-      [fmt(D.programs.length), 'Programs'],
+      [fmt(R.progs.filter(function (x) { return !x.suppressed; }).length), 'Programs'],
       [fmt(fac), 'Faculty in denominator'],
       [fmt(Object.keys(arts).length), 'Articles'],
       [fmt(R.rows.length), 'Faculty authorships'],
@@ -495,7 +532,8 @@
     var c = themeColors();
     var key = measureKey();
     var rk = rankKey();
-    var sorted = R.progs.slice().sort(function (a, b) { return a[rk] - b[rk] || a.short.localeCompare(b.short); });
+    var sorted = R.progs.filter(function (x) { return !x.suppressed; })
+      .sort(function (a, b) { return a[rk] - b[rk] || a.short.localeCompare(b.short); });
     var digits = S.wt === 'count' && S.meas === 'total' ? 0 : 1;
     var trace = {
       type: 'bar', orientation: 'h',
@@ -535,8 +573,9 @@
       ['n_fac', 'Faculty'], ['auth', 'Authorships'], ['top_share', 'Top-journal %'], ['crimrxiv_share', 'CrimRxiv %'], ['delta', 'vs. paper']
     ];
     var rows = R.progs.map(function (x) {
-      return Object.assign({}, x, { rank: x[rk], delta: x[prk] ? x[prk] - x[rk] : null });
+      return Object.assign({}, x, { rank: x[rk], delta: x[prk] && x[rk] ? x[prk] - x[rk] : null });
     });
+    var nHidden = rows.filter(function (x) { return x.suppressed; }).length;
     var sk = S.sort || 'rank';
     var desc = sk.charAt(0) === '-';
     var field = desc ? sk.slice(1) : sk;
@@ -555,6 +594,10 @@
       var dTxt = d === null ? '—' : (d > 0 ? '▲ ' + d : d < 0 ? '▼ ' + Math.abs(d) : '–');
       var dCls = d > 0 ? 'up' : d < 0 ? 'down' : '';
       var col = compareColor(x.p);
+      if (x.suppressed) {
+        return '<tr class="ccj-muted"><td class="ccj-num">—</td><td>' + escapeHtml(x.short) + '</td>' +
+          '<td colspan="' + (cols.length - 2) + '">Fewer than ' + MIN_GROUP + ' faculty under these filters; not shown</td></tr>';
+      }
       return '<tr' + (col ? ' style="box-shadow: inset 4px 0 0 ' + col + '"' : '') + '>' +
         '<td class="ccj-num">' + x.rank + '</td>' +
         '<td><a href="#" data-add="' + x.p + '" title="Add to comparison">' + escapeHtml(x.short) + '</a></td>' +
@@ -583,7 +626,9 @@
     });
     $('ccj-rank-note').textContent = 'Ranked on ' + measureLabel().toLowerCase() +
       '. “vs. paper” compares each rank with the paper’s ' +
-      (S.meas === 'pf' ? 'credit-per-faculty' : 'total-credit') + ' rank (▲ = higher now). Click a program or bar to add it to the comparison.';
+      (S.meas === 'pf' ? 'credit-per-faculty' : 'total-credit') + ' rank (▲ = higher now). Click a program or bar to add it to the comparison.' +
+      (nHidden ? ' ' + nHidden + ' program' + (nHidden === 1 ? ' has' : 's have') + ' fewer than ' + MIN_GROUP +
+        ' faculty under these filters and ' + (nHidden === 1 ? 'is' : 'are') + ' not shown.' : '');
   }
 
   function renderChips() {
@@ -607,7 +652,8 @@
     var c = themeColors();
     var years = [];
     for (var y = S.y0; y <= S.y1; y++) years.push(y);
-    var sel = cmp.map(function (p) { return R.progs[p]; });
+    // Hidden programs keep their chip but get no lines or bars.
+    var sel = cmp.map(function (p) { return R.progs[p]; }).filter(function (x) { return !x.suppressed; });
 
     // Credit by year
     Plotly.react($('chart-compare-years'), sel.map(function (x) {
@@ -713,7 +759,7 @@
     var c = themeColors();
     var sx = SCATTER_METRICS[S.sx] ? S.sx : 'n_fac';
     var sy = SCATTER_METRICS[S.sy] ? S.sy : 'pf';
-    var pts = R.progs.filter(function (x) { return x[sx] !== null && x[sy] !== null && x[sx] !== undefined && x[sy] !== undefined; });
+    var pts = R.progs.filter(function (x) { return !x.suppressed && x[sx] !== null && x[sy] !== null && x[sx] !== undefined && x[sy] !== undefined; });
     var cmp = parseList(S.cmp);
     var trace = {
       type: 'scatter', mode: 'markers+text',
