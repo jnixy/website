@@ -5,7 +5,34 @@
     <link>https://jnix.netlify.app/police-shooting-research/</link>
     <description>Recent academic research on police shootings and use of deadly force</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 15:09:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:38:23 +0000</lastBuildDate>
+    <item>
+      <title>Viewing police body-worn camera video of use-of-force incidents: Does repeated or slow-motion viewing matter?</title>
+      <link>https://doi.org/10.1037/lhb0000672</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Grant P Dunn et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Law and human behavior&lt;br&gt;&lt;p&gt;Determine if repeated or slow-motion viewing of body-worn camera videos of police use-of-force incidents influences viewers' assessments. Participants are more likely to agree that officers' beliefs about danger in a situation were reasonable after repeated viewings and when a viewing is in slow motion. In two preregistered experiments (N = 304 and 299), participants, recruited using the online survey recruitment platform Prolific, viewed body-worn camera video footage of four actual police use-...&lt;/p&gt;</description>
+      <pubDate>Tue, 01 Dec 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Law and human behavior</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>Explaining citizen complaints against the police: organizational, environmental and system factors</title>
+      <link>https://doi.org/10.1108/pijpsm-06-2026-0195</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Christopher J. Harris &amp; Luke DeZago&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose The study aims to examine variation in citizen complaints against police departments, with particular attention to how organizational characteristics, environmental context and features of complaint systems shape complaint volume. Design/methodology/approach Using data from 129 large U.S. municipal police departments, this study employs stepwise negative binomial regression to assess the impact of organizational characteristics, environmental context and features of complaint systems on ...&lt;/p&gt;</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing An International Journal</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>The Limits of the Gun Violence Archive as a Public Health Data Source: Evidence on Fatal and Nonfatal Shootings in Aurora, Colorado, 2017‒2026.</title>
+      <link>https://doi.org/10.2105/ajph.2026.308854</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; David C Pyrooz et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; American journal of public health&lt;br&gt;&lt;p&gt;Objectives. To assess the validity of the Gun Violence Archive (GVA), a publicly accessible, near-real-time public health data source on fatal and nonfatal shootings. Methods. We matched shooting incidents documented in GVA (2017-2026) to nonpublic police records in Aurora, Colorado. We used multiple regression to estimate associations of demographic, ecological, legal, and temporal factors with matched incidents. Results. Ninety-four percent of the 795 shooting incidents in GVA matched police d...&lt;/p&gt;</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>American journal of public health</source>
+      <priority>false</priority>
+    </item>
     <item>
       <title>Beyond the Training Room: An RCT of Virtual Reality De-escalation Training on Field Behavioral Outcomes and Citizen Complaints</title>
       <link>https://doi.org/10.1177/10986111261507260</link>
@@ -16,21 +43,21 @@
       <priority>true</priority>
     </item>
     <item>
+      <title>Policing depictions in news: role priming and attitudes toward Defund the Police</title>
+      <link>https://doi.org/10.1108/pijpsm-11-2025-0230</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ethan Morrow &amp; Brian L. Quick&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Research on portrayals of police in the news media often examines cases of wrongdoing, such as corruption or police brutality. The purpose of this study is to determine how these negative depictions of law enforcement may lead to divergent effects compared to positive depictions. Furthermore, this study examines how such depictions may influence attitudes toward police reform. Design/methodology/approach The study features a 2 (Police Depiction: Protector or Aggressor) × 2 (Suspect/Victi...&lt;/p&gt;</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing An International Journal</source>
+      <priority>false</priority>
+    </item>
+    <item>
       <title>The Other Talk: Race and Keeping Kids Safe</title>
       <link>https://doi.org/10.1177/21533687261498930</link>
       <description>&lt;strong&gt;Authors:&lt;/strong&gt; Sandra Lee Browning et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Race and Justice&lt;br&gt;&lt;p&gt;Using a 2025 national study of 500 White and 500 Black respondents, we examine Americans’ likelihood of having two talks with teenage family members: “The Talk” about police officers and “The Other Talk” about the dangers of crime and criminals. Consistent with previous research, the data revealed a large racial divide in “The Talk.” Black respondents were far more likely than White respondents to say they would teach youths how to avoid police violence. By contrast, the data revealed a smaller ...&lt;/p&gt;</description>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Race and Justice</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Policing depictions in news: role priming and attitudes toward Defund the Police</title>
-      <link>https://doi.org/10.1108/pijpsm-11-2025-0230</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ethan Morrow &amp; Brian L. Quick&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Research on portrayals of police in the news media often examines cases of wrongdoing, such as corruption or police brutality. The purpose of this study is to determine how these negative depictions of law enforcement may lead to divergent effects compared to positive depictions. Furthermore, this study examines how such depictions may influence attitudes toward police reform. Design/methodology/approach The study features a 2 (Police Depiction: Protector or Aggressor) × 2 (Suspect/Victi...&lt;/p&gt;</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Policing An International Journal</source>
       <priority>false</priority>
     </item>
     <item>
@@ -99,7 +126,7 @@
     <item>
       <title>The effects of interview timing and body‐worn camera video review on completeness and accuracy of accounts of a lethal force scenario</title>
       <link>https://doi.org/10.1111/1745-9133.70041</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Louise E. Porter et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminology &amp; Public Policy&lt;br&gt;&lt;p&gt;Abstract Research Summary How to optimize police officers’ accounts following a critical incident like an officer‐involved shooting has been debated in policy and scholarly literature. Although empirical research has begun to explore the impact of interview timing and viewing body‐worn camera (BWC) footage from the incident, no study has explored how timing interacts with BWC review to impact officers’ memory reports. The present study addressed this through a randomized controlled experiment. P...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Louise E. Porter et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminology &amp; Public Policy&lt;br&gt;&lt;p&gt;Research Summary How to optimize police officers’ accounts following a critical incident like an officer‐involved shooting has been debated in policy and scholarly literature. Although empirical research has begun to explore the impact of interview timing and viewing body‐worn camera (BWC) footage from the incident, no study has explored how timing interacts with BWC review to impact officers’ memory reports. The present study addressed this through a randomized controlled experiment. Police rec...&lt;/p&gt;</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Criminology &amp; Public Policy</source>
@@ -126,7 +153,7 @@
     <item>
       <title>“The Secret and Mysterious Process of Whistleblowing”: Police Perspectives on Whistleblowing in the UK</title>
       <link>https://doi.org/10.1007/s11896-026-09859-6</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Olivia Elizabeth Vere Taylor et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Police and Criminal Psychology&lt;br&gt;&lt;p&gt;Abstract Recent high-profile cases of police misconduct in the UK have raised questions about the willingness or ability of police officers to contest misconduct amongst their own members. Willingness to whistleblow against fellow colleagues has received limited attention in the literature. Previous research has revealed discrepancies in defining and measuring whistleblowing with a reliance on quantitative approaches limiting the understanding of officers lived experiences. Here, we investigate ...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Olivia Elizabeth Vere Taylor et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Police and Criminal Psychology&lt;br&gt;&lt;p&gt;Recent high-profile cases of police misconduct in the UK have raised questions about the willingness or ability of police officers to contest misconduct amongst their own members. Willingness to whistleblow against fellow colleagues has received limited attention in the literature. Previous research has revealed discrepancies in defining and measuring whistleblowing with a reliance on quantitative approaches limiting the understanding of officers lived experiences. Here, we investigate officer k...&lt;/p&gt;</description>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Journal of Police and Criminal Psychology</source>
@@ -144,10 +171,19 @@
     <item>
       <title>‘We’re recording you too, bud:’ body-worn cameras, citizen journalism, and the changing landscape of police visibility</title>
       <link>https://doi.org/10.1080/10439463.2026.2724367</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ajay Sandhu &amp; Sara K. Thompson&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;The widespread adoption of body-worn cameras (BWCs) has transformed the landscape of police visibility. While BWCs are commonly understood as technologies for evidence collection and police accountability, less attention has been paid to how police officers themselves understand the technology as a means of responding to citizen journalism. Drawing on interviews with frontline officers from one of Canada's largest municipal police services, this paper examines how officers understand and mobilis...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ajay P.S. Sandhu &amp; Sara K. Thompson&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing &amp; Society&lt;br&gt;&lt;p&gt;The widespread adoption of body-worn cameras (BWCs) has transformed the landscape of police visibility. While BWCs are commonly understood as technologies for evidence collection and police accountability, less attention has been paid to how police officers themselves understand the technology as a means of responding to citizen journalism. Drawing on interviews with frontline officers from one of Canada's largest municipal police services, this paper examines how officers understand and mobilis...&lt;/p&gt;</description>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Policing &amp; Society</source>
+      <priority>false</priority>
+    </item>
+    <item>
+      <title>What’s in a name? A policy review of the many approaches to police early intervention systems</title>
+      <link>https://doi.org/10.1108/pijpsm-03-2026-0081</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Benjamin Carleton &amp; Thomas Christoff&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Early intervention (EI) systems have been implemented in law enforcement agencies across the country as a tool for improving accountability, officer wellness, and overall data management. While the term “early intervention system” is commonly used within law enforcement, approaches and processes vary widely across agencies. This study categorizes the features of EI systems based on a sample of agency policies to demonstrate the range of characteristics. These results will enable future r...&lt;/p&gt;</description>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Policing An International Journal</source>
       <priority>false</priority>
     </item>
     <item>
@@ -171,19 +207,10 @@
     <item>
       <title>Analyzing Police-Civilian Interaction Through a Spatial Lens</title>
       <link>https://doi.org/10.1007/s10612-026-09911-1</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Julia Rodríguez Pantel&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Critical Criminology&lt;br&gt;&lt;p&gt;Abstract This article examines police violence through a spatial lens. It performs a micro-sociological qualitative analysis of body-worn camera (BWC) video data of 17 cases of police operations. Methodologically, the study combines grounded theory and systematic video data analysis (VDA). The hypothesis-generating study examines interactions between officers and civilians, along with their situational outcomes, within the context of spatial contestations of the public and the private. Drawing o...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Julia Rodríguez Pantel&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Critical Criminology&lt;br&gt;&lt;p&gt;This article examines police violence through a spatial lens. It performs a micro-sociological qualitative analysis of body-worn camera (BWC) video data of 17 cases of police operations. Methodologically, the study combines grounded theory and systematic video data analysis (VDA). The hypothesis-generating study examines interactions between officers and civilians, along with their situational outcomes, within the context of spatial contestations of the public and the private. Drawing on Henri L...&lt;/p&gt;</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Critical Criminology</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>What’s in a name? A policy review of the many approaches to police early intervention systems</title>
-      <link>https://doi.org/10.1108/pijpsm-03-2026-0081</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Benjamin Carleton &amp; Thomas Christoff&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Early intervention (EI) systems have been implemented in law enforcement agencies across the country as a tool for improving accountability, officer wellness, and overall data management. While the term “early intervention system” is commonly used within law enforcement, approaches and processes vary widely across agencies. This study categorizes the features of EI systems based on a sample of agency policies to demonstrate the range of characteristics. These results will enable future r...&lt;/p&gt;</description>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Policing An International Journal</source>
       <priority>false</priority>
     </item>
     <item>
@@ -205,6 +232,15 @@
       <priority>false</priority>
     </item>
     <item>
+      <title>Racism and parent stress in the context of police violence</title>
+      <link>https://doi.org/10.1093/sf/soag101</link>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ann Meier et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Social Forces&lt;br&gt;&lt;p&gt;This project assessed parental stress in 2020 and 2021, during a period of racial trauma marked by high-profile, race-motivated murders of people of color. We leveraged the Contextual Model of Family Stress Re-Imaged to understand parents' stress about children's interactions with police in the context of racism. Findings indicate higher policing stress among Black parents. To measure racism, we assessed county-level racial segregation and socio-economic privilege, respondents' perceptions of co...&lt;/p&gt;</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <category>research</category>
+      <source>Social Forces</source>
+      <priority>false</priority>
+    </item>
+    <item>
       <title>Fatal Police Pursuits and Neighborhood Opportunity-Interpreting and Acting on a Concentrated Harm.</title>
       <link>https://doi.org/10.1001/jamanetworkopen.2026.30589</link>
       <description>&lt;strong&gt;Authors:&lt;/strong&gt; Hannah S Laqueur&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; JAMA network open</description>
@@ -216,7 +252,7 @@
     <item>
       <title>Did the Police Killing of George Floyd Affect Adolescents’ Daily Well-being?</title>
       <link>https://doi.org/10.1007/s10940-026-09686-2</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Nicolo P. Pinchak et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Quantitative Criminology&lt;br&gt;&lt;p&gt;Abstract Objectives The police killing of George Floyd on May 25, 2020, had widespread effects on American adults, and especially Black adults. Here, we investigate to what extent daily well-being of adolescents shifted systematically following the killing and assess heterogeneity at the intersection of gender and race. Methods We use a comparative interrupted time series design comparing within-person trends in daily fear, anger, emotional distress, and unsafety reported by a national sample of...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Nicolo P. Pinchak et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Quantitative Criminology&lt;br&gt;&lt;p&gt;Objectives The police killing of George Floyd on May 25, 2020, had widespread effects on American adults, and especially Black adults. Here, we investigate to what extent daily well-being of adolescents shifted systematically following the killing and assess heterogeneity at the intersection of gender and race. Methods We use a comparative interrupted time series design comparing within-person trends in daily fear, anger, emotional distress, and unsafety reported by a national sample of adolesce...&lt;/p&gt;</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Journal of Quantitative Criminology</source>
@@ -225,7 +261,7 @@
     <item>
       <title>A national examination of firearm injuries described as “suicide by cop” among injurious shootings by police</title>
       <link>https://doi.org/10.1111/1745-9133.70031</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Rebecca L. Fix et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminology &amp; Public Policy&lt;br&gt;&lt;p&gt;Abstract Research Summary “Suicide by cop” (SbC) incidents—police‐involved shootings wherein an individual experiencing a mental health crisis engages in life‐threatening behavior with an aim of eliciting a lethal response from police—represent a critical intersection of policy and practice, mental health, and public safety in the United States. This study analyzes police‐involved shootings described as “SbC” compared with other police shootings involving people with mental and behavioral health...&lt;/p&gt;</description>
+      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Rebecca L. Fix et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Criminology &amp; Public Policy&lt;br&gt;&lt;p&gt;Research Summary “Suicide by cop” (SbC) incidents—police‐involved shootings wherein an individual experiencing a mental health crisis engages in life‐threatening behavior with an aim of eliciting a lethal response from police—represent a critical intersection of policy and practice, mental health, and public safety in the United States. This study analyzes police‐involved shootings described as “SbC” compared with other police shootings involving people with mental and behavioral health conditio...&lt;/p&gt;</description>
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Criminology &amp; Public Policy</source>
@@ -238,42 +274,6 @@
       <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
       <category>research</category>
       <source>Preventive Medicine Reports</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Violence prevention and support interventions for sex workers</title>
-      <link>https://doi.org/10.1016/s2468-2667(25)00323-8</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Claire Broad et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; The Lancet Public Health&lt;br&gt;&lt;p&gt;Violence against sex workers can be substantial, with severe physical and mental health consequences. In this Series paper, we review the global evidence on violence prevention and support interventions by and for sex workers, and focus on violence reduction, mental health, and access to services. We found that peer-reviewed evidence focused on client-perpetrated violence, whereas non-peer-reviewed evidence focused on broader human rights abuses and police violence. The central involvement of se...&lt;/p&gt;</description>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>The Lancet Public Health</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Examining the relationship between bystander actions and police use of force during public arrests</title>
-      <link>https://doi.org/10.1108/pijpsm-12-2025-0274</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Marly van Bruchem et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Policing An International Journal&lt;br&gt;&lt;p&gt;Purpose Previous studies on policing have included the presence of bystanders as one of the factors that could explain police use of force, yet the findings of these studies are inconsistent. The actions of bystanders beyond their presence are, however, largely overlooked in this literature. The aim of the current study is to address this gap in the literature and investigate what bystanders of police arrests do and how their actions relate to police use of force. Design/methodology/approach We ...&lt;/p&gt;</description>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Policing An International Journal</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Implementing statewide use of force reform: perspectives from police executives</title>
-      <link>https://doi.org/10.1080/15614263.2026.2706595</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Gabrielle T. Isaza et al.&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Police Practice and Research&lt;br&gt;&lt;p&gt;In December 2020, the New Jersey Office of the Attorney General (NJOAG) mandated sweeping reforms to statewide police use of force policy, training, and reporting. Although prior research suggests that police leaders play a crucial role in determining the success of efforts like the NJOAG’s Use of Force Reduction Initiative (the Initiative), few evaluations have examined executives’ perspectives. Addressing this gap, this study examines law enforcement executives’ perceptions of the development,...&lt;/p&gt;</description>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Police Practice and Research</source>
-      <priority>false</priority>
-    </item>
-    <item>
-      <title>Reconceptualizing Polyvictimization: Integrating Self-Reported Victimization and Police Use of Force</title>
-      <link>https://doi.org/10.21428/cb6ab371.b23bb1ac</link>
-      <description>&lt;strong&gt;Authors:&lt;/strong&gt; Ashley N. Jackson &amp; Lee Ann Slocum&lt;br&gt;&lt;strong&gt;Journal:&lt;/strong&gt; Journal of Interpersonal Violence&lt;br&gt;&lt;p&gt;Research on police violence (PV) narrowly defines it as physical force, disregarding its other forms, like psychological violence and neglect, and its co-occurrence with non-police victimization (NPV). This omission is important because of overlapping risk factors and potential compounding harm. Using the National Crime Victimization Survey and Police-Public Contact Survey, this study employs a more expansive definition that includes psychological and neglectful PV and assesses the overlap of th...&lt;/p&gt;</description>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <category>research</category>
-      <source>Journal of Interpersonal Violence</source>
       <priority>false</priority>
     </item>
   </channel>

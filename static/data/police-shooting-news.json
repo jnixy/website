@@ -1,6 +1,118 @@
 {
-  "generated_at": "2026-11-17T15:53:40Z",
+  "generated_at": "2026-11-26T16:45:52Z",
   "stories": [
+    {
+      "title": "SFPD : Suspect in custody after police shooting",
+      "url": "https://www.kob.com/new-mexico/sfpd-suspect-in-custody-after-police-shooting/",
+      "description": "",
+      "date": "2026-11-25T05:45:00Z",
+      "source": "kob.com",
+      "category": "incident"
+    },
+    {
+      "title": "SHOCK : Raytown Police Officer Shot & Killed Serving Warrant",
+      "url": "https://www.tonyskansascity.com/2026/11/shock-raytown-police-officer-shot.html",
+      "description": "",
+      "date": "2026-11-25T03:30:00Z",
+      "source": "tonyskansascity.com",
+      "category": "incident"
+    },
+    {
+      "title": "Tribal officer shoots suspect during fight in northwest North Dakota",
+      "url": "https://www.inforum.com/news/north-dakota/tribal-officer-shoots-suspect-during-fight-in-northwest-north-dakota",
+      "description": "",
+      "date": "2026-11-25T02:15:00Z",
+      "source": "inforum.com",
+      "category": "incident"
+    },
+    {
+      "title": "Off - duty NYPD officer shoots at girlfriend , then himself in Bronx : sources",
+      "url": "https://abc7ny.com/post/off-duty-nypd-officer-shoots-girlfriend-himself-bronx-sources/20067043/",
+      "description": "",
+      "date": "2026-11-22T20:30:00Z",
+      "source": "abc7ny.com",
+      "category": "incident"
+    },
+    {
+      "title": "Man killed in Lexington police shooting identified , KSP investigating",
+      "url": "https://www.wkyt.com/2026/11/21/man-killed-lexington-police-shooting-identified-ksp-investigating/",
+      "description": "",
+      "date": "2026-11-21T16:30:00Z",
+      "source": "wkyt.com",
+      "category": "incident"
+    },
+    {
+      "title": "Madison police shooting : No charges for officers , officials react",
+      "url": "https://www.fox6now.com/news/madison-police-shooting-no-charges-statements",
+      "description": "",
+      "date": "2026-11-20T01:30:00Z",
+      "source": "fox6now.com",
+      "category": "incident"
+    },
+    {
+      "title": "SIIR completes investigation into fatal 2024 Spokane police shooting",
+      "url": "https://www.kxly.com/news/siir-completes-investigation-into-fatal-2024-spokane-police-shooting/article_3cf5bf1c-e657-47e4-b598-dc70bcfef9c5.html",
+      "description": "",
+      "date": "2026-11-20T01:15:00Z",
+      "source": "kxly.com",
+      "category": "incident"
+    },
+    {
+      "title": "Madison police shooting : No charges for officer in Corey Ruiz death",
+      "url": "https://www.fox5atlanta.com/news/madison-police-shooting-no-charges-officer-corey-ruizs-death",
+      "description": "",
+      "date": "2026-11-20T00:45:00Z",
+      "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
+      "title": "Madison police shooting of Ruiz : No charges filed",
+      "url": "https://www.wisn.com/article/wisconsin-madison-police-shooting-ruiz-no-charges/74477796",
+      "description": "",
+      "date": "2026-11-20T00:15:00Z",
+      "source": "wisn.com",
+      "category": "incident"
+    },
+    {
+      "title": "Johnston police shooting : Officer who shot man during stop identified",
+      "url": "https://www.kcci.com/article/johnston-iowa-police-shooting-sean-lewis-clements-officers-identified-ethan-meng/74476850",
+      "description": "",
+      "date": "2026-11-19T19:30:00Z",
+      "source": "kcci.com",
+      "category": "incident"
+    },
+    {
+      "title": "Man suspected of killing wife dies after police shooting ; records show pending sexual - assault case",
+      "url": "https://www.ksat.com/news/local/2026/11/17/man-suspected-of-killing-wife-dies-after-police-shooting-records-show-pending-sexual-assault-case/",
+      "description": "",
+      "date": "2026-11-18T01:15:00Z",
+      "source": "ksat.com",
+      "category": "incident"
+    },
+    {
+      "title": "  COP crew films New Mexico jaywalking stop that ends in fatal police shooting",
+      "url": "https://www.fox26houston.com/news/new-mexico-cops-shooting-police",
+      "description": "",
+      "date": "2026-11-13T18:00:00Z",
+      "source": "fox26houston.com",
+      "category": "incident"
+    },
+    {
+      "title": "No criminal charges in Mount Shasta police shooting that killed Sonoma County man , California attorney general rules",
+      "url": "https://www.pressdemocrat.com/2026/11/09/no-charges-in-shasta-amtrak-shooting/",
+      "description": "",
+      "date": "2026-11-10T00:00:00Z",
+      "source": "pressdemocrat.com",
+      "category": "incident"
+    },
+    {
+      "title": "Several Casulaties Reported After Shooting In Poland . The Suspect Was Shot By Police . ",
+      "url": "https://www.ibtimes.com/five-killed-krakow-main-market-square-shooting-3809531",
+      "description": "",
+      "date": "2026-11-07T19:00:00Z",
+      "source": "ibtimes.com",
+      "category": "incident"
+    },
     {
       "title": "Spokane County Sheriff Office identifies deputies killed , critically injured in Spangle shooting",
       "url": "https://www.khq.com/news/spokane-county-sheriffs-office-identifies-deputies-killed-critically-injured-in-spangle-shooting/article_796eba53-b46a-4bca-88ad-cbc576918b26.html",
@@ -18,6 +130,38 @@
       "category": "incident"
     },
     {
+      "title": "Osage County deputies shot in November incident honored with prestigious award",
+      "url": "https://www.wibw.com/2026/11/06/osage-county-deputies-shot-november-incident-honored-with-prestigious-award/",
+      "description": "",
+      "date": "2026-11-07T01:00:00Z",
+      "source": "wibw.com",
+      "category": "incident"
+    },
+    {
+      "title": "Officer Killed , 3 Officers And Bystander Wounded In Denver - Area Bus Shootout – 710am KURV",
+      "url": "https://www.kurv.com/officer-killed-3-officers-and-bystander-wounded-in-denver-area-bus-shootout/",
+      "description": "",
+      "date": "2026-11-07T00:00:00Z",
+      "source": "kurv.com",
+      "category": "incident"
+    },
+    {
+      "title": "Officer killed , 3 officers and bystander wounded in Denver - area bus shootout",
+      "url": "https://www.yumasun.com/news/national_news/officer-killed-3-officers-and-bystander-wounded-in-denver-area-bus-shootout/article_7f04f7e7-3157-5100-a04f-8d22d6329c63.html",
+      "description": "",
+      "date": "2026-11-07T00:00:00Z",
+      "source": "yumasun.com",
+      "category": "incident"
+    },
+    {
+      "title": "1 officer killed and 3 wounded in a firefight with a suspect in Lakewood , Colorado",
+      "url": "https://www.bakersfield.com/ap/national/1-officer-killed-and-3-wounded-in-a-firefight-with-a-suspect-in-lakewood-colorado/article_b2930347-c9e1-5e4a-a372-f5c94de64d7f.html",
+      "description": "",
+      "date": "2026-11-06T08:30:00Z",
+      "source": "bakersfield.com",
+      "category": "incident"
+    },
+    {
       "title": "Suspect killed in police shooting in Deming",
       "url": "https://www.koat.com/article/suspect-killed-in-police-shooting-in-deming/74351669",
       "description": "",
@@ -26,11 +170,27 @@
       "category": "incident"
     },
     {
+      "title": "Lakewood police shooting reported near West Colfax , Wadsworth",
+      "url": "https://www.denverpost.com/2026/11/05/lakewood-police-shooting-colfax-wadsworth/",
+      "description": "",
+      "date": "2026-11-06T04:30:00Z",
+      "source": "denverpost.com",
+      "category": "incident"
+    },
+    {
       "title": "Kenosha standoff , police shooting ; use of force justified , DA rules",
       "url": "https://www.fox6now.com/news/kenosha-standoff-police-shooting-justified",
       "description": "",
       "date": "2026-11-06T02:30:00Z",
       "source": "fox6now.com",
+      "category": "incident"
+    },
+    {
+      "title": "Experts question tactics , lack of mental health response in Columbia Pike police shooting",
+      "url": "https://www.arlnow.com/2026/11/05/experts-question-tactics-lack-of-mental-health-response-in-columbia-pike-police-shooting/",
+      "description": "",
+      "date": "2026-11-06T00:30:00Z",
+      "source": "arlnow.com",
       "category": "incident"
     },
     {
@@ -50,6 +210,14 @@
       "category": "incident"
     },
     {
+      "title": "Parents of 1 - year - old fatally shot by police protest at Mississippi Attorney General Office",
+      "url": "https://www.sandiegouniontribune.com/2026/11/02/mississippi-child-shot-protest/",
+      "description": "",
+      "date": "2026-11-03T02:15:00Z",
+      "source": "sandiegouniontribune.com",
+      "category": "incident"
+    },
+    {
       "title": "NYPD officer shoots armed woman inside Queens home during response to stabbing , home invasion",
       "url": "https://www.fox5ny.com/news/nypd-officer-shoots-armed-woman-inside-queens-home-during-response-stabbing-home-invasion",
       "description": "",
@@ -58,11 +226,27 @@
       "category": "incident"
     },
     {
+      "title": "Ohio father who ran over deputy one day after son was killed in a police shooting convicted of murder",
+      "url": "https://thegrio.com/2026/10/23/rodney-hinton-guilty-murder-trial/",
+      "description": "",
+      "date": "2026-10-24T05:00:00Z",
+      "source": "thegrio.com",
+      "category": "incident"
+    },
+    {
       "title": "JUST IN : ACPD releases footage of fatal police shooting on Columbia Pike",
       "url": "https://www.arlnow.com/2026/10/23/just-in-acpd-releases-footage-of-fatal-police-shooting-on-columbia-pike/",
       "description": "",
       "date": "2026-10-23T23:00:00Z",
       "source": "arlnow.com",
+      "category": "incident"
+    },
+    {
+      "title": "Body - camera footage released in police shooting of Miss . 1 - year - old Kohen Wiley as family speaks out",
+      "url": "https://abc30.com/story/body-camera-footage-released-police-shooting-miss-1-year-old-kohen-wiley-family-speaks/19971972/",
+      "description": "",
+      "date": "2026-10-23T12:30:00Z",
+      "source": "abc30.com",
       "category": "incident"
     },
     {
@@ -87,6 +271,14 @@
       "description": "",
       "date": "2026-10-23T04:00:00Z",
       "source": "fox5atlanta.com",
+      "category": "incident"
+    },
+    {
+      "title": "State releases footage of police shooting of 1 - year - old Kohen Wiley",
+      "url": "https://www.walb.com/2026/10/23/state-releases-footage-police-shooting-1-year-old-kohen-wiley/",
+      "description": "",
+      "date": "2026-10-23T02:15:00Z",
+      "source": "walb.com",
       "category": "incident"
     },
     {
@@ -1407,198 +1599,6 @@
       "description": "",
       "date": "2026-08-17T12:45:00Z",
       "source": "nbcdfw.com",
-      "category": "incident"
-    },
-    {
-      "title": "Arlington police officer shot during Dallas incident | FOX 4 Dallas - Fort Worth",
-      "url": "https://www.fox4news.com/news/arlington-police-officer-injured-dallas-shooting",
-      "description": "",
-      "date": "2026-08-17T03:15:00Z",
-      "source": "fox4news.com",
-      "category": "incident"
-    },
-    {
-      "title": "WATCH LIVE : Cincinnati police , city leaders provide update after officer shoots suspect in Green Township",
-      "url": "https://www.fox19.com/2026/08/16/watch-live-cincinnati-police-city-leaders-provide-update-after-officer-shoots-suspect-green-township/",
-      "description": "",
-      "date": "2026-08-16T20:00:00Z",
-      "source": "fox19.com",
-      "category": "incident"
-    },
-    {
-      "title": "Sexual assault investigation leads to fatal police shooting near Sharon Woods Metro Park",
-      "url": "https://abc6onyourside.com/news/local/officer-involved-shooting-in-sharon-woods-park-under-investigation-bci-says-ohio-bureau-of-criminal-investigation-no-injuries-crime-scene",
-      "description": "",
-      "date": "2026-08-16T01:00:00Z",
-      "source": "abc6onyourside.com",
-      "category": "incident"
-    },
-    {
-      "title": "Des Moines Man IDd As Suspect In Muscatine Police Shooting | La Preciosa 98 . 7 FM y 1470 AM",
-      "url": "https://lapreciosa987.iheart.com/content/2026-08-15-des-moines-man-idd-as-suspect-in-muscatine-police-shooting/",
-      "description": "",
-      "date": "2026-08-15T17:45:00Z",
-      "source": "lapreciosa987.iheart.com",
-      "category": "incident"
-    },
-    {
-      "title": "Calgary Officer Shot , Suspect Dead After Dramatic Chase and Gunfire in City Park",
-      "url": "https://www.theepochtimes.com/world/calgary-officer-shot-suspect-dead-after-dramatic-chase-and-gunfire-in-city-park-6072576",
-      "description": "",
-      "date": "2026-08-15T16:30:00Z",
-      "source": "theepochtimes.com",
-      "category": "incident"
-    },
-    {
-      "title": "Des Moines Man IDd As Suspect In Muscatine Police Shooting",
-      "url": "https://whoradio.iheart.com/content/2026-08-15-des-moines-man-idd-as-suspect-in-muscatine-police-shooting/",
-      "description": "",
-      "date": "2026-08-15T13:30:00Z",
-      "source": "whoradio.iheart.com",
-      "category": "incident"
-    },
-    {
-      "title": "Officer killed to join more than 30 names on wall of Metro lobby headquarters",
-      "url": "https://news3lv.com/news/local/officer-killed-to-join-more-than-30-names-on-wall-of-metro-lobby-headquarters",
-      "description": "",
-      "date": "2026-08-15T06:00:00Z",
-      "source": "news3lv.com",
-      "category": "incident"
-    },
-    {
-      "title": "Police officer shot in Muscatine during chase , suspect at large",
-      "url": "https://www.kcci.com/article/police-officer-shot-in-muscatine-during-chase-suspect-at-large/73441062",
-      "description": "",
-      "date": "2026-08-15T04:15:00Z",
-      "source": "kcci.com",
-      "category": "incident"
-    },
-    {
-      "title": "Police : Suspect at large after Muscatine officer shot",
-      "url": "https://www.kcrg.com/2026/08/14/police-suspect-large-after-muscatine-officer-shot/",
-      "description": "",
-      "date": "2026-08-15T02:30:00Z",
-      "source": "kcrg.com",
-      "category": "incident"
-    },
-    {
-      "title": "Partner of man shot by ICE agent in Biddeford posts tribute a month after his death",
-      "url": "https://www.pressherald.com/2026/08/13/partner-of-man-shot-by-ice-agent-in-biddeford-posts-tribute-a-month-after-his-death/",
-      "description": "",
-      "date": "2026-08-13T23:45:00Z",
-      "source": "pressherald.com",
-      "category": "incident"
-    },
-    {
-      "title": "Oakland police shooting near a homeless encampment triggers probe",
-      "url": "https://www.foxnews.com/us/watch-terrifying-moment-spear-wielding-man-lunges-california-cops-before-shots-ring-out",
-      "description": "",
-      "date": "2026-08-13T23:00:00Z",
-      "source": "foxnews.com",
-      "category": "incident"
-    },
-    {
-      "title": "Neighbors concerned with crime in NW Albuquerque following deadly police shooting at apartment",
-      "url": "https://www.kob.com/new-mexico/neighbors-concerned-with-crime-in-nw-albuquerque-following-deadly-police-shooting-at-apartment/",
-      "description": "",
-      "date": "2026-08-13T03:30:00Z",
-      "source": "kob.com",
-      "category": "incident"
-    },
-    {
-      "title": "Calgary officer shot , suspect dead after chase and gunfire in city park - Medicine Hat NewsMedicine Hat News",
-      "url": "https://medicinehatnews.com/news/local-news/2026/08/11/calgary-officer-shot-suspect-dead-after-chase-and-gunfire-in-city-park/",
-      "description": "",
-      "date": "2026-08-12T02:30:00Z",
-      "source": "medicinehatnews.com",
-      "category": "incident"
-    },
-    {
-      "title": "A month after a man was shot by ICE in Biddeford , his family is waiting for answers",
-      "url": "https://www.pressherald.com/2026/08/11/a-month-after-a-man-was-shot-by-ice-in-biddeford-his-family-is-waiting-for-answers/",
-      "description": "",
-      "date": "2026-08-11T20:15:00Z",
-      "source": "pressherald.com",
-      "category": "incident"
-    },
-    {
-      "title": "CP NewsAlert : Calgary officer shot in traffic stop ; suspect later found dead",
-      "url": "https://lethbridgeherald.com/news/national-news/2026/08/10/cp-newsalert-calgary-officer-shot-in-traffic-stop-suspect-later-found-dead/",
-      "description": "",
-      "date": "2026-08-10T21:15:00Z",
-      "source": "lethbridgeherald.com",
-      "category": "incident"
-    },
-    {
-      "title": "Mural honors life of man killed by ICE in Biddeford",
-      "url": "https://fox23maine.com/news/local/mural-painted-in-biddeford-to-honor-life-of-man-killed-by-ice-immigration-customs-enforcement-johan-sebastian-duran-guerrero-colombia-alfred-street",
-      "description": "",
-      "date": "2026-08-10T16:00:00Z",
-      "source": "fox23maine.com",
-      "category": "incident"
-    },
-    {
-      "title": "Colorado officer shot while trading fire with armed suspect outside gas station",
-      "url": "https://www.kktv.com/2026/08/08/colorado-officer-shot-while-trading-fire-with-suspect-outside-gas-station/",
-      "description": "",
-      "date": "2026-08-08T19:30:00Z",
-      "source": "kktv.com",
-      "category": "incident"
-    },
-    {
-      "title": "A Border Patrol agent killed a migrant in Texas last December . Officials are still withholding details . ",
-      "url": "https://www.sacurrent.com/news/texas-news/a-border-patrol-agent-killed-a-migrant-in-texas-last-december-officials-are-still-withholding-details/",
-      "description": "",
-      "date": "2026-08-07T18:00:00Z",
-      "source": "sacurrent.com",
-      "category": "incident"
-    },
-    {
-      "title": "Dallas ISD Officer Shot , Critically Wounded While Helping Person Near Sam Club | KLIF 570 News & Info",
-      "url": "https://www.klif.com/2026/08/06/dallas-isd-officer-shot-critically-wounded-while-helping-person-near-sams-club/",
-      "description": "",
-      "date": "2026-08-07T00:45:00Z",
-      "source": "klif.com",
-      "category": "incident"
-    },
-    {
-      "title": "Dallas ISD officer shot at Sam Club parking lot by person he was trying to help",
-      "url": "https://www.kwtx.com/2026/08/06/dallas-isd-officer-shot-sams-club-parking-lot-by-person-he-was-trying-help/",
-      "description": "",
-      "date": "2026-08-07T00:00:00Z",
-      "source": "kwtx.com",
-      "category": "incident"
-    },
-    {
-      "title": "Dallas ISD Officer Shot , Critically Wounded While Helping Person Near Sam Club | News Talk WBAP 820 AM and 93 . 3 FM",
-      "url": "https://www.wbap.com/2026/08/06/dallas-isd-officer-shot-critically-wounded-while-helping-person-near-sams-club/",
-      "description": "",
-      "date": "2026-08-06T23:00:00Z",
-      "source": "wbap.com",
-      "category": "incident"
-    },
-    {
-      "title": "Dallas ISD police officer shot by person he was helping in North Dallas , officials says",
-      "url": "https://www.keranews.org/news/2026-08-06/two-police-shootings-north-dallas-crime",
-      "description": "",
-      "date": "2026-08-06T22:30:00Z",
-      "source": "keranews.org",
-      "category": "incident"
-    },
-    {
-      "title": "Dallas ISD officer shot in Sam Club parking lot , injuries are serious",
-      "url": "https://www.kwtx.com/2026/08/06/dallas-isd-officer-shot-sams-club-parking-lot-injuries-are-critical/",
-      "description": "",
-      "date": "2026-08-06T19:45:00Z",
-      "source": "kwtx.com",
-      "category": "incident"
-    },
-    {
-      "title": "A border agent killed a migrant who crossed into Starr County . Eight months later , it still under investigation . ",
-      "url": "https://www.click2houston.com/news/texas/2026/08/06/a-border-agent-killed-a-migrant-who-crossed-into-starr-county-eight-months-later-its-still-under-investigation/",
-      "description": "",
-      "date": "2026-08-06T14:30:00Z",
-      "source": "click2houston.com",
       "category": "incident"
     }
   ]
